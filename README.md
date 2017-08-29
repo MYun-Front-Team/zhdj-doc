@@ -1,3 +1,11 @@
-# My Awesome API
+# 本文档描述了智慧党建PC端、H5和云端的具体协议细节 {#本文档描述了平湖河道pc端和云端的具体协议细节}
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+| 版本 | 日期 | 编辑人 | 修改内容 |
+| :--- | :--- | :--- | :--- |
+| 0.0.1 | 2017-08-29 | 六郎 |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+
+
+
