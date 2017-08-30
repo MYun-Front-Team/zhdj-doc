@@ -28,18 +28,16 @@
   * [新增党员](f/xin-zeng-dang-yuan.md)
   * [修改党员](f/xiu-gai-dang-yuan.md)
 * [帮扶管理](methods/bang-fu-guan-li.md)
-  * 获取帮扶列表
-  * 获取帮扶详情
-  * 新增帮扶
-  * 修改帮扶
-  * 设置帮扶责任人
+  * [获取帮扶列表](methods/bang-fu-guan-li/huo-qu-bang-fu-lie-biao.md)
+  * [获取帮扶详情](methods/bang-fu-guan-li/huo-qu-bang-fu-xiang-qing.md)
+  * [新增帮扶](methods/bang-fu-guan-li/xin-zeng-bang-fu.md)
+  * [修改帮扶](methods/bang-fu-guan-li/xiu-gai-bang-fu.md)
 * [通用模块](tong-yong-mo-kuai.md)
   * [获取部门详情](tong-yong-mo-kuai/huo-qu-bu-men-xiang-qing.md)
-  * 获取部门成员列表
+  * [获取部门成员列表](tong-yong-mo-kuai/huo-qu-bu-men-cheng-yuan-lie-biao.md)
   * [获取业务属性列表](tong-yong-mo-kuai/huo-qu-shu-xing-lie-biao.md)
-  * 新增业务属性清单
-  * 获取业务积分列表
+  * [新增业务属性清单](tong-yong-mo-kuai/xin-zeng-ye-wu-shu-xing-qing-dan.md)
   * [获取业务积分记录详情列表](tong-yong-mo-kuai/huo-qu-ye-wu-ji-fen-ji-lu-xiang-qing-lie-biao.md)
-  * 新增业务积分配置
-  * 新增积分记录
+  * [新增业务积分配置](tong-yong-mo-kuai/xin-zeng-ye-wu-ji-fen-pei-zhi.md)
+  * [新增积分记录](tong-yong-mo-kuai/xin-zeng-ji-fen-ji-lu.md)
 

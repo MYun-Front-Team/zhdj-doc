@@ -22,6 +22,7 @@ _**【接口地址】**_
 | DepartmentSysNo | int | 否 | 所属支部编码 |
 | PartyPost | string | 否 | 党内职务 |
 | IsShowUser | int | 否 | 是否显示用户 |
+| IsShowPoints | int | 否 | 是否显示积分 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
@@ -38,6 +39,7 @@ _**【接口地址】**_
 | DuesStandard | decimal | 否 | 党费标准 |
 | DuesDate | string | 否 | 党费交至年月 |
 | User | object | 否 | 用户实体（见后台接口） |
+| PointsValue | int | 否 | 积分值 |
 
 
 
