@@ -27,7 +27,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | IsShowCover | int | 否 | 是否显示封面 |
 | IsShowFileUrls | int | 否 | 是否显示文件图片列表 |
-| IsShowReadedCount | int | 否 | 是否显示阅读总数 |
+| IsShowFootPrintCount | int | 否 | 是否显示人员足迹总数 |
 |  |  |  |  |
 
 > #### _应答数据 （巡河记录数组）_ {#应答数据-（巡河记录数组）}
@@ -52,7 +52,14 @@ _**【接口地址】**_
 | InfoStartTime | string | 否 | 活动开始时间 |
 | InfoEndTime | string | 否 | 活动结束时间 |
 | FileUrls | array string | 否 | 文件图片列表 |
-| ReadedCount | int | 否 | 阅读总数 |
+| FootPrintCountList | array object | 否 | 人员足迹总数列表 |
+
+#### FootPrintCountList说明 {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| key | int | 是 | 人员足迹某状态key |
+| value | int | 是 | 人员足迹该状态总数 |
 
 
 
