@@ -27,6 +27,8 @@
   * [获取评议结果](f/huo-qu-ping-yi-jie-guo.md)
   * [新增党员](f/xin-zeng-dang-yuan.md)
   * [修改党员](f/xiu-gai-dang-yuan.md)
+  * [新增党员转入转出记录](f/xin-zeng-dang-yuan-zhuan-ru-zhuan-chu-ji-lu.md)
+  * [修改党员转入转出记录](f/xiu-gai-dang-yuan-zhuan-ru-zhuan-chu-ji-lu.md)
 * [帮扶管理](methods/bang-fu-guan-li.md)
   * [获取帮扶列表](methods/bang-fu-guan-li/huo-qu-bang-fu-lie-biao.md)
   * [获取帮扶详情](methods/bang-fu-guan-li/huo-qu-bang-fu-xiang-qing.md)
