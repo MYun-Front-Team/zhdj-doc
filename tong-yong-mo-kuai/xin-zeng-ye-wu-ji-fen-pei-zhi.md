@@ -18,7 +18,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | SourceType | int | 是 | 来源类型 |
 | SourceSysNo | int | 是 | 来源编码 |
-| SourceOperateType | int | 是 | 来源操作类型：0新增，1查看，2回复 |
+| SourceOperateType | int | 是 | 来源操作类型：0新增，1查看，2回复，3审核，4上传，5下载，6签到，10完结 |
 | PointsValue | int | 是 | 积分值 |
 
 > #### 应答数据 {#应答数据-}
