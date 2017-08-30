@@ -21,10 +21,12 @@
   * [获取回复列表](methods/huo-qu-hui-fu-lie-biao.md)
   * [新增回复](methods/xin-zeng-hui-fu.md)
 * [党员管理](f.md)
-  * 获取党员荣誉列表
+  * [获取党员荣誉列表](f/huo-qu-dang-yuan-rong-yu-lie-biao.md)
   * [获取党员（风采）列表](f/huo-qu-dang-yuan-feng-cai-lie-biao.md)
-  * 获取党员详情
-  * 获取评议结果
+  * [获取党员详情](f/huo-qu-dang-yuan-xiang-qing.md)
+  * [获取评议结果](f/huo-qu-ping-yi-jie-guo.md)
+  * [新增党员](f/xin-zeng-dang-yuan.md)
+  * [修改党员](f/xiu-gai-dang-yuan.md)
 * [帮扶管理](methods/bang-fu-guan-li.md)
   * 获取帮扶列表
   * 获取帮扶详情
