@@ -86,6 +86,7 @@ _**【接口地址】**_
 | ReplyContent | string | 否 | 内容 |
 | ReplyJson | string | 否 | 端自定义JSON |
 | Remark | string | 否 | 备注 |
+| FileUrls | array string | 否 | 文件图片列表 |
 
 
 
