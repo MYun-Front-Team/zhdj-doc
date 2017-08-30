@@ -23,6 +23,7 @@ _**【接口地址】**_
 | ReplyContent | string | 否 | 内容 |
 | ReplyJson | string | 否 | 端自定义字段（原样返回） |
 | Remark | string | 否 | 备注 |
+| FilePaths | string | 否 | 文件图片路径列表 |
 
 #### _应答数据_ {#应答数据-}
 
