@@ -19,6 +19,7 @@
   * [新增人员足迹](methods/xin-zeng-ren-yuan-zu-ji.md)
   * [修改人员足迹](methods/xiu-gai-ren-yuan-zu-ji.md)
   * [获取回复列表](methods/huo-qu-hui-fu-lie-biao.md)
+  * [新增回复](methods/xin-zeng-hui-fu.md)
 * [党员管理](f.md)
   * 获取党员荣誉列表
   * [获取党员（风采）列表](f/huo-qu-dang-yuan-feng-cai-lie-biao.md)
