@@ -16,7 +16,8 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| MemberSysNo | int | 是 | 党员系统编码 |
+| UserSysNo | int | 否（与党员编码二选一必填） | 用户系统编码 |
+| MemberSysNo | int | 否 | 党员系统编码 |
 | IsShowUser | int | 否 | 是否显示用户 |
 | IsShowLogList | int | 否 | 是否显示日志 |
 | LogTypeList | array int | 否 | 日志类型：党费、流转等 |

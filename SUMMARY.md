@@ -5,7 +5,7 @@
 * [总览](README.md)
 * [命名规则](tt.md)
 * [全局规则](quan-ju-gui-ze.md)
-* [资讯模块类型枚举说明](zi-xun-mo-kuai-lei-xing-mei-ju-shuo-ming.md)
+* [模块类型枚举说明](zi-xun-mo-kuai-lei-xing-mei-ju-shuo-ming.md)
 
 ## Methods
 
@@ -42,4 +42,6 @@
   * [获取业务积分记录详情列表](tong-yong-mo-kuai/huo-qu-ye-wu-ji-fen-ji-lu-xiang-qing-lie-biao.md)
   * [新增业务积分配置](tong-yong-mo-kuai/xin-zeng-ye-wu-ji-fen-pei-zhi.md)
   * [新增积分记录](tong-yong-mo-kuai/xin-zeng-ji-fen-ji-lu.md)
+  * [获取分类列表](tong-yong-mo-kuai/huo-qu-fen-lei-lie-biao.md)
+  * [新增分类](tong-yong-mo-kuai/xin-zeng-fen-lei.md)
 

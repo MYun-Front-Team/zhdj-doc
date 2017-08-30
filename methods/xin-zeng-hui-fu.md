@@ -19,6 +19,7 @@ _**【接口地址】**_
 | InfoSysNo | int | 否（与Source二选一必填） | 资讯系统编码 |
 | SourceType | int | 否 | 足迹类型：0客户，1用户 |
 | SourceSysNo | int | 否 | 对应系统编码 |
+| ReplyTime | string | 否 | 时间 |
 | ReplyTitle | string | 否 | 主题 |
 | ReplyContent | string | 否 | 内容 |
 | ReplyJson | string | 否 | 端自定义字段（原样返回） |

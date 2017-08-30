@@ -17,6 +17,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | HelperSysNo | int | 否 | 帮扶记录系统编码 |
+| PartyMemberSysNo | int | 否 | 所属党员编码 |
 | HelperName | string | 否 | 帮扶姓名 |
 | CellPhoneNo | string | 否 | 帮扶手机 |
 | MemberName | string | 否 | 党员姓名 |

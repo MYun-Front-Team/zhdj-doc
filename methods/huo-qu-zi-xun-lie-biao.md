@@ -35,7 +35,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | InfoSysNo | int | 是 | 资讯系统编码 |
-| InfoTypeSysNo | int | 是 | 资讯类型编码 |
+| InfoTypeSysNo | int | 是 | 资讯模块类型系统编码（见概述） |
 | InfoClassSysNo | int | 否 | 资讯分类编码 |
 | InfoTitle | string | 是 | 资讯标题（主题） |
 | InfoStatus | int | 是 | 状态：0新增，10发布，11撤下 |
