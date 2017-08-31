@@ -1,16 +1,16 @@
-# 新增业务属性列表 {#获取河长详情}
+# 保存业务属性值列表 {#获取河长详情}
 
 ##### _【功能说明】_ {#【功能说明】}
 
-新增业务属性列表
+保存业务属性值列表
 
 _**【应用场景】**_
 
-新增业务属性列表
+保存业务属性值列表
 
 _**【接口地址】**_
 
-[http://ip:port/UMAction/Property/AddObjectPropert](http://ip:port/HMQuery/RiverMaster/GetRiverMasterByRiverMasterSysNo)ys
+[http://ip:port/UMAction/Property/SaveObjectPropert](http://ip:port/HMQuery/RiverMaster/GetRiverMasterByRiverMasterSysNo)yValues
 
 > #### _请求数据_ {#请求数据}
 

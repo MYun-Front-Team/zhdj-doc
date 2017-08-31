@@ -20,7 +20,7 @@ _**【接口地址】**_
 | SourceSysNo | int | 是 | 来源编码 |
 | IsShowPropertyValues | int | 否 | 是否显示默认属性值列表 |
 
-> #### _应答数据_ {#应答数据-}
+> #### _应答数据（Propertys数组）_ {#应答数据-}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -29,6 +29,13 @@ _**【接口地址】**_
 | IsAllowNull | int | 是 | 是否允许空 |
 | IsOptional | int | 是 | 属性值类型：0文本，1单休，2多选 |
 | PropertyValues | array object | 否 | 属性值列表 |
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PropertyValueSysNo | int | 是 | 属性值系统编码 |
+| PropertySysNo | int | 是 | 属性系统编码 |
+| PropertyValue | string | 是 | 属性值 |
+| SortNo | int | 否 | 排序 |
 
 
 

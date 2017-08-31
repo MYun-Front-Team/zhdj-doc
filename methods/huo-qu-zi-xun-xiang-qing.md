@@ -74,6 +74,7 @@ _**【接口地址】**_
 | SignJson | string | 否 | 端自定义字段（原样返回） |
 | Reason | string | 否 | 原因 |
 | Remark | string | 否 | 备注 |
+| FileUrls | array string | 否 | 文件图片列表 |
 
 #### ReplyList说明 {#应答数据-（巡河记录数组）}
 
