@@ -27,6 +27,7 @@ _**【接口地址】**_
 | HelperCycle | string | 否 | 帮扶周期 |
 | Remark | string | 否 | 备注 |
 | FilePaths | array string | 否 | 文件图片路径列表 |
+| ~~SourceOperateType~~ | ~~int~~ | ~~否~~ | ~~来源操作类型：0新增，1查看，2回复，3审核，4上传，5下载，6签到，10完结（如传该参数，则判断是否需要赠送积分）~~ |
 
 ####  {#应答数据-}
 

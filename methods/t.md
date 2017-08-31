@@ -33,7 +33,7 @@ _**【接口地址】**_
 | Auths | array object | 否 | 可见权限 |
 | PointsConfigs | array object | 否 | 积分赠送配置 |
 | Propertys | array object | 否 | 属性列表（见通用属性列表） |
-| SourceOperateType | int | 否 | 来源操作类型：0新增，1查看，2回复，3审核，4上传，5下载，6签到，10完结（如传该参数，则判断是否需要赠送积分） |
+| ~~SourceOperateType~~ | ~~int~~ | ~~否~~ | ~~来源操作类型：0新增，1查看，2回复，3审核，4上传，5下载，6签到，10完结（如传该参数，则判断是否需要赠送积分）~~ |
 
 > #### Auths说明 {#应答数据-}
 

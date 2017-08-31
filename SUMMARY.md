@@ -36,6 +36,7 @@
   * [修改帮扶](methods/bang-fu-guan-li/xiu-gai-bang-fu.md)
 * [通用模块](tong-yong-mo-kuai.md)
   * [获取业务属性列表](tong-yong-mo-kuai/huo-qu-shu-xing-lie-biao.md)
+  * [新增业务属性列表](tong-yong-mo-kuai/xin-zeng-ye-wu-shu-xing-lie-biao.md)
   * [保存业务属性值列表](tong-yong-mo-kuai/xin-zeng-ye-wu-shu-xing-qing-dan.md)
   * [获取业务积分记录详情列表](tong-yong-mo-kuai/huo-qu-ye-wu-ji-fen-ji-lu-xiang-qing-lie-biao.md)
   * [新增业务积分配置](tong-yong-mo-kuai/xin-zeng-ye-wu-ji-fen-pei-zhi.md)
@@ -46,5 +47,4 @@
   * [获取部门成员列表](tong-yong-mo-kuai/huo-qu-bu-men-cheng-yuan-lie-biao.md)
   * [获取部门详情](tong-yong-mo-kuai/huo-qu-bu-men-xiang-qing.md)
   * [新增部门](tong-yong-mo-kuai/xin-zeng-bu-men.md)
-  * [新增业务属性列表](tong-yong-mo-kuai/xin-zeng-ye-wu-shu-xing-lie-biao.md)
 
