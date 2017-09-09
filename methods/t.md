@@ -2,11 +2,11 @@
 
 ##### _【功能说明】_ {#【功能说明】}
 
-新增活动
+活动模块-新增活动
 
 _**【应用场景】**_
 
-新增活动
+先获取新增活动页字段接口和积分配置接口，再新增活动。
 
 _**【接口地址】**_
 
@@ -16,29 +16,26 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| SourceType | int | 是 | 归属类型：0客户，1用户，2部门 |
-| SourceSysNo | int | 是 | 归属系统编码（支部编码） |
-| InfoTypeSysNo | int | 是 | 资讯模块类型系统编码（见概述） |
-| InfoClassSysNo | int | 否 | 资讯分类系统编码 |
-| InfoTitle | string | 是 | 资讯标题（主题） |
-| InfoContent | string | 否 | 资讯内容 |
+| ActivityType | int | 是 | 类型（枚举） |
+| ActivityClassSysNo | int | 否 | 类型分类系统编码（类别树） |
+| ActivityTitle | string | 是 | 标题 |
+| ActivityContent | string | 否 | 内容 |
 | MaxPersonNum | int | 否 | 人数上限 |
-| InfoSignUpStartTime | string | 否 | 报名开始时间 |
-| InfoSignUpEndTime | string | 否 | 报名结束时间 |
-| InfoStartTime | string | 否 | 活动开始时间 |
-| InfoEndTime | string | 否 | 活动结束时间 |
-| InfoPlace | string | 否 | 活动地点 |
-| RelationJson | string | 否 | 端自定义JSON（原样返回） |
+| ActivitySignUpStartTime | string | 否 | 报名开始时间 |
+| ActivitySignUpEndTime | string | 否 | 报名结束时间 |
+| ActivityStartTime | string | 否 | 活动开始时间 |
+| ActivityEndTime | string | 否 | 活动结束时间 |
+| ActivityPlace | string | 否 | 活动地点 |
+| ActivitySummary | string | 否 | 活动记要 |
 | FilePaths | array string | 否 | 文件或图片列表（第一张为首图） |
-| Auths | array object | 否 | 可见权限 |
-| PointsConfigs | array object | 否 | 积分赠送配置 |
-| Propertys | array object | 否 | 属性列表（见通用属性列表） |
+| PointsValues | array object | 否 | 积分赠送配置 |
+| ~~Propertys~~ | ~~array object~~ | ~~否~~ | ~~属性列表（见通用属性列表）~~ |
 
-#### PointsConfigs说明 {#应答数据-}
+#### PointsValues说明 {#应答数据-}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| SourceOperateType | int | 是 | 来源操作类型：0新增，1查看，2回复，3审核，4上传，5下载，6签到，10完结 |
+| PointsConfigSysNo | int | 是 | 积分配置系统编码 |
 | PointsValue | int | 是 | 积分值 |
 
 #### _应答数据_ {#应答数据-}
