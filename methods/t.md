@@ -1,16 +1,16 @@
-# 新增资讯 {#新增河流}
+# 新增活动 {#新增河流}
 
 ##### _【功能说明】_ {#【功能说明】}
 
-新增资讯
+新增活动
 
 _**【应用场景】**_
 
-新增资讯
+新增活动
 
 _**【接口地址】**_
 
-[http://ip:port/UMAction/Info/Add](http://ip:port/HMAction/River/AddRiver)Info
+[http://ip:port/ActivityAction/Activity/Add](http://ip:port/HMAction/River/AddRiver)Activity
 
 > #### _请求数据_ {#请求数据}
 
@@ -33,15 +33,6 @@ _**【接口地址】**_
 | Auths | array object | 否 | 可见权限 |
 | PointsConfigs | array object | 否 | 积分赠送配置 |
 | Propertys | array object | 否 | 属性列表（见通用属性列表） |
-| ~~SourceOperateType~~ | ~~int~~ | ~~否~~ | ~~来源操作类型：0新增，1查看，2回复，3审核，4上传，5下载，6签到，10完结（如传该参数，则判断是否需要赠送积分）~~ |
-
-> #### Auths说明 {#应答数据-}
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| SourceType | int | 是 | 类型：0客户，1用户，2部门 |
-| SourceSysNo | int | 是 | 对应系统编码 |
-| MergerType | int | 是 | 合并类型：0不合并，1向上合并，2向下合并 |
 
 #### PointsConfigs说明 {#应答数据-}
 
