@@ -37,6 +37,7 @@
 | :--- | :--- | :--- | :--- |
 | SignUpCount | int | 否 | 报名人数 |
 | SignInCount | int | 否 | 签到人数 |
+| LeaveCount | int | 否 | 请假人数 |
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -54,15 +55,13 @@
 | GetActivityList | 搜索 | 是 | 搜索列表 |
 | GetActivityBySysNo | 查询 | 是 | 根据编码，获取详情 |
 
-
-
 #### 查询条件字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | DataRangeSysNo | int | 是 | 数据范围树枝叶编码 |
 | IsMerge | int | 否 | 是否向下兼容查询 |
-|  |  |  |  |
+| KeyWord | string | 否 | 关键字搜索（标题、地点） |
 
 > #### 查询Limit字段 {#请求数据}
 
