@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- |
 | ActivitySysNo | int | 是 | 活动系统编码 |
 | ActivityType | int | 是 | 类型（枚举） |
-| ActivityClassSysNo | int | 是 | 类型分类系统编码（类别树） |
+| ActivityClassSysNo | int | 否 | 类型分类系统编码（类别树） |
 | ActivityTitle | string | 是 | 标题 |
 | ActivityContent | string | 是 | 内容 |
 | ActivityStatus | int | 是 | 状态：0新增，10发布，11撤下 |
@@ -28,7 +28,7 @@
 | FilePathList | array string | 否 | 文件或图片Path列表（第一张为首图） |
 | FileUrlList | array string | 否 | 文件或图片URL列表（第一张为首图） |
 | PointsValueList | array object | 否 | 积分赠送配置值列表 |
-| ActivityPersonList | array object | 否 | 人员列表 |
+| ActivityPersonList | array object | 否 | 人员足迹列表 |
 | IsNeedMoments | int | 否 | 是否需要关联朋友圈 |
 
 > #### 统计字段 {#请求数据}
@@ -45,6 +45,7 @@
 | :--- | :--- | :--- | :--- |
 | AddActivity | 操作 | 是 | 新增 |
 | EditActivity | 操作 | 是 | 修改 |
+| DeleteActivity | 操作 | 是 | 删除 |
 | PublishActivity | 操作 | 是 | 发布 |
 | RemoveActivity | 操作 | 否 | 撤下 |
 | SignUpActivity | 操作 | 是 | 报名 |
@@ -52,6 +53,7 @@
 | LeaveActivity | 操作 | 否 | 请假 |
 | SaveActivitySummary | 操作 | 否 | 修改记要 |
 |  |  |  |  |
+| GetActivityFieldListByPage | 查询 | 是 | 根据页面，获取可选字段列表 |
 | GetActivityList | 搜索 | 是 | 搜索列表 |
 | GetActivityBySysNo | 查询 | 是 | 根据编码，获取详情 |
 

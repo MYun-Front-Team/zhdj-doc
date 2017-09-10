@@ -1,12 +1,12 @@
-# 新增活动 {#新增河流}
+# 新增 {#新增河流}
 
 ##### _【功能说明】_ {#【功能说明】}
 
-活动模块-新增活动
+活动模块-新增
 
 _**【应用场景】**_
 
-先获取新增活动页字段列表接口和积分配置列表接口，再新增活动。
+先根据页面，获取可选字段列表接口和积分配置列表接口，再新增活动。
 
 _**【接口地址】**_
 
@@ -16,20 +16,21 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| DataRangeSysNoList | array int | 是 | 数据范围枝叶编码列表 |
 | ActivityType | int | 是 | 类型（枚举） |
-| ActivityClassSysNo | int | 否 | 类型分类系统编码（类别树） |
+| ActivityClassSysNo | int | 否（可选配置） | 类型分类系统编码（类别树） |
 | ActivityTitle | string | 是 | 标题 |
-| ActivityContent | string | 否 | 内容 |
-| MaxPersonNum | int | 否 | 人数上限 |
-| ActivitySignUpStartTime | string | 否 | 报名开始时间 |
-| ActivitySignUpEndTime | string | 否 | 报名结束时间 |
-| ActivityStartTime | string | 否 | 活动开始时间 |
-| ActivityEndTime | string | 否 | 活动结束时间 |
-| ActivityPlace | string | 否 | 活动地点 |
-| ActivitySummary | string | 否 | 活动记要 |
-| FilePaths | array string | 否 | 文件或图片列表（第一张为首图） |
-| PointsValues | array object | 否 | 积分赠送配置 |
-| ~~Propertys~~ | ~~array object~~ | ~~否~~ | ~~属性列表（见通用属性列表）~~ |
+| ActivityContent | string | 是 | 内容 |
+| MaxPersonNum | int | 是 | 人数上限 |
+| ActivitySignUpStartTime | string | 是 | 报名开始时间 |
+| ActivitySignUpEndTime | string | 是 | 报名结束时间 |
+| ActivityStartTime | string | 是 | 活动开始时间 |
+| ActivityEndTime | string | 是 | 活动结束时间 |
+| ActivityPlace | string | 是 | 活动地点 |
+| Remark | string | 否（可选配置） | 备注 |
+| IsNeedMoments | int | 否（可选配置） | 是否需要关联朋友圈（1是） |
+| FilePaths | array string | 否（可选配置） | 文件或图片列表（第一张为首图） |
+| PointsValues | array object | 否（可选配置） | 积分赠送配置 |
 
 #### PointsValues说明 {#应答数据-}
 
@@ -42,7 +43,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| InfoSysNo | int | 是 | 资讯系统编码 |
+| ActivitySysNo | int | 是 | 系统编码 |
 
 
 

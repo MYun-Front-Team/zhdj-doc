@@ -20,14 +20,13 @@ _**【接口地址】**_
 | ModuleSourceType | int | 否 | 模块类型（枚举） |
 | ModuleSourceClass | int | 否 | 模块类型分类（类别树） |
 
-
-
 > #### _应答数据 （记录数组）_ {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PointsConfigSysNo | int | 是 | 积分配置系统编码 |
 | OperateType | int | 是 | 动作类型（枚举） |
+| OperateName | string | 是 | 动作名称 |
 | PointsCycle | int | 是 | 赠送周期天数（用来判断一个周期内最多赠送次数，0无限） |
 | MaxNum | int | 是 | 一个周期内最多赠送次数，0无限 |
 | PointsValue | int | 否 | 默认值 |
