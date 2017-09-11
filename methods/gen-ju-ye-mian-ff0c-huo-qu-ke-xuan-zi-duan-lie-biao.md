@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 在模块说明中，基础字段中非必须的字段，可根据项目需求在此接口中进行自定义。
 
+注意：如果当前数据范围树枝叶不存在，则往上找通用的页字段配置。
+
 _**【接口地址】**_
 
 [http://ip:port/ActivityQuery/Activity/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)ActivityFieldListByPage

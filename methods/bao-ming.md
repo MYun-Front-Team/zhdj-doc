@@ -17,7 +17,8 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ActivitySysNo | int | 是 | 活动系统编码 |
-| PersonPost | string | 否 | 人员岗位（业务模块中） |
+| PersonPost | string | 否 | 人员岗位（业务模块中冗余） |
+| PersonDepartment | string | 否 | 人员部门（业务模块中冗余） |
 | Remark | string | 否 | 备注（累加格式：内容+时间+人） |
 
 

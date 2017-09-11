@@ -16,7 +16,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| DataRangeSysNoList | array int | 是 | 数据范围枝叶编码列表 |
+| DataRangeSysNoList | array int | 是 | 数据范围枝叶编码列表（必须在不同的树中的枝叶） |
 | ActivityType | int | 是 | 类型（枚举） |
 | ActivityClassSysNo | int | 否（可选配置） | 类型分类系统编码（类别树） |
 | ActivityTitle | string | 是 | 标题 |

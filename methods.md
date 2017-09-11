@@ -66,7 +66,7 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | DataRangeSysNo | int | 是 | 数据范围树枝叶编码 |
-| IsMerge | int | 否 | 是否向下兼容查询 |
+| IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 | KeyWord | string | 否 | 关键字搜索（标题、地点） |
 
 > #### 查询Limit字段 {#请求数据}
@@ -76,7 +76,7 @@
 | IsShowFileUrlList | int | 否 | 是否显示文件图片列表 |
 | IsShowPointsValueList | int | 否 | 是否显示积分配置列表 |
 | IsShowActivityPersonList | int | 否 | 是否显示人员列表 |
-| IsShowMoments | int | 否 | 是否显示朋友圈模块 |
+| IsShowModuleRelationList | int | 否 | 是否显示模块关联列表 |
 |  |  |  |  |
 
 #### ActivityPersonList说明 {#应答数据-（巡河记录数组）}
@@ -84,7 +84,8 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ActivityPersonSysNo | int | 是 | 人员足迹系统编码 |
-| PersonPost | string | 否 | 岗位 |
+| PersonPost | string | 否 | 岗位（冗余） |
+| PersonDepartment | string | 否 | 部门（冗余） |
 | ActivityPersonPerson | object | 是 | 人员实体 |
 | PersonStatus | int | 是 | 状态：1报名, 10签到，11请假 |
 | SignTime | string | 是 | 签到时间 |
