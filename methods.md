@@ -14,8 +14,8 @@
 | PublishTime | string | 否 | 发布时间 |
 | RemovePersonSysNo | int | 否 | 撤下人员编码 |
 | RemoveTime | string | 否 | 撤下时间 |
-| PublishPerson | array | 否 | 发布人员实体对象 |
-| RemovePerson | array | 否 | 撤下人员实体对象 |
+| PublishPerson | object | 否 | 发布人员实体对象 |
+| RemovePerson | object | 否 | 撤下人员实体对象 |
 | MaxPersonNum | int | 是 | 人数上限（0无限） |
 | ActivitySignUpStartTime | string | 是 | 报名开始时间 |
 | ActivitySignUpEndTime | string | 是 | 报名结束时间 |

@@ -10,7 +10,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-[http://ip:port/DMAction/Party/Add](http://ip:port/HMAction/River/AddRiver)PartyMemberMove
+[http://ip:port/PartyAction/Party/Add](http://ip:port/HMAction/River/AddRiver)PartyMemberMove
 
 > #### _请求数据_ {#请求数据}
 
