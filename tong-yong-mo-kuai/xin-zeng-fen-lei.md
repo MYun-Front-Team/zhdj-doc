@@ -16,7 +16,9 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| CategoryTreeName | string | 是 | 类别树名称（类型） |
+| ModuleSysNo | int | 是 | 模块系统编码（枚举） |
+| ModuleSourceType | int | 否 | 模块类型（枚举） |
+| CategoryTreeName | string | 是 | 类别树名称 |
 | CategoryFatherSysNo | int | 否 | 类别父级主键 |
 | CategoryCode | string | 否 | 类别代码 |
 | CategoryName | string | 否 | 类别名称 |
