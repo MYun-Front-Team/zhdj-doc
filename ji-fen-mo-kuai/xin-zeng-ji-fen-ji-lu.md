@@ -14,6 +14,8 @@ _**【应用场景】**_
 
 备注也为必填项，显示在积分日志列表的积分变化原因或说明中。
 
+积分人员系统编码通过InUserSysNo获取。
+
 _**【接口地址】**_
 
 [http://ip:port/PointsAction/Points/AddP](http://ip:port/HMQuery/RiverMaster/GetRiverMasterByRiverMasterSysNo)oints
@@ -23,7 +25,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PointsAddType | int | 是 | 积分新增类型：0调整积分，1下载动作 |
-| PersonSysNo | int | 是 | 积分所有者人员系统编码 |
+| ~~PersonSysNo~~ | ~~int~~ | ~~是~~ | ~~积分所有者人员系统编码~~ |
 | PointsType | int | 是 | 积分类型（枚举） |
 | ChangePointsValue | int | 是（调整积分） | 积分变化值（区分正负） |
 | SourceTime | int | 是（调整积分） | 有效期开始时间（小于当前时间即冻结） |

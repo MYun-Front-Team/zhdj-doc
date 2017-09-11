@@ -27,17 +27,19 @@
 | SortNo | int | 否 | 排序 |
 | FilePathList | array string | 否 | 文件或图片Path列表（第一张为首图） |
 | FileUrlList | array string | 否 | 文件或图片URL列表（第一张为首图） |
-| PointsValueList | array object | 否 | 积分赠送配置值列表 |
+| PointsValueList | array object | 否 | 积分赠送配置值列表（接口） |
 | ActivityPersonList | array object | 否 | 人员足迹列表 |
 | IsNeedMoments | int | 否 | 是否需要关联朋友圈 |
 
-> #### 统计字段 {#请求数据}
+> #### 统计计算字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | SignUpCount | int | 否 | 报名人数 |
 | SignInCount | int | 否 | 签到人数 |
 | LeaveCount | int | 否 | 请假人数 |
+| ActivityInstantStatus | int | 是 | 活动即时状态：1未开始，2进行中，3已结束 |
+| ActivitySignUpStatus | int | 是 | 活动报名即时状态：1未开始，2进行中，3已结束 |
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -51,8 +53,8 @@
 | SignUpActivity | 操作 | 是 | 报名 |
 | SignInActivity | 操作 | 否 | 签到 |
 | LeaveActivity | 操作 | 否 | 请假 |
-| SaveActivitySummary | 操作 | 否 | 修改记要 |
-|  |  |  |  |
+| SaveActivitySummary | 操作 | 否 | 修改活动记要 |
+| SaveActivityPersonSummary | 操作 | 否 | 修改活动个人记要 |
 | GetActivityFieldListByPage | 查询 | 是 | 根据页面，获取可选字段列表 |
 | GetActivityList | 搜索 | 是 | 搜索列表 |
 | GetActivityBySysNo | 查询 | 是 | 根据编码，获取详情 |
@@ -74,6 +76,22 @@
 | IsShowActivityPersonList | int | 否 | 是否显示人员列表 |
 | IsShowMoments | int | 否 | 是否显示朋友圈模块 |
 |  |  |  |  |
+
+#### ActivityPersonList说明 {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ActivityPersonSysNo | int | 是 | 人员足迹系统编码 |
+| PersonPost | string | 否 | 岗位 |
+| ActivityPersonPerson | object | 是 | 人员实体 |
+| PersonStatus | int | 是 | 状态：1报名, 10签到，11请假 |
+| SignTime | string | 是 | 签到时间 |
+| SignPlace | string | 否 | 签到地点（定位） |
+| Longitude | decimal | 否 | 经度（定位） |
+| Latitude | decimal | 否 | 纬度（定位） |
+| Reason | string | 否 | 请假原因 |
+| SignSummary | string | 否 | 个人记要 |
+| Remark | string | 否 | 备注 |
 
 
 
