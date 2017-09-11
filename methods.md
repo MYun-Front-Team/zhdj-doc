@@ -25,11 +25,12 @@
 | ActivitySummary | string | 否 | 活动记要 |
 | Remark | string | 否 | 备注 |
 | SortNo | int | 否 | 排序 |
+| IsNeedMoments | int | 否 | 是否需要关联朋友圈 |
 | FilePathList | array string | 否 | 文件或图片Path列表（第一张为首图） |
 | FileUrlList | array string | 否 | 文件或图片URL列表（第一张为首图） |
 | PointsValueList | array object | 否 | 积分赠送配置值列表（接口） |
 | ActivityPersonList | array object | 否 | 人员足迹列表 |
-| IsNeedMoments | int | 否 | 是否需要关联朋友圈 |
+| ModuleRelationList | array object | 否 | 关联模块列表 |
 
 > #### 统计计算字段 {#请求数据}
 
@@ -38,6 +39,7 @@
 | SignUpCount | int | 否 | 报名人数 |
 | SignInCount | int | 否 | 签到人数 |
 | LeaveCount | int | 否 | 请假人数 |
+| ReportCount | int | 否 | 汇报人员（个人记要不为空） |
 | ActivityInstantStatus | int | 是 | 活动即时状态：1未开始，2进行中，3已结束 |
 | ActivitySignUpStatus | int | 是 | 活动报名即时状态：1未开始，2进行中，3已结束 |
 
@@ -91,7 +93,15 @@
 | Latitude | decimal | 否 | 纬度（定位） |
 | Reason | string | 否 | 请假原因 |
 | SignSummary | string | 否 | 个人记要 |
+| SignSummaryTime | string | 否 | 个人记要时间 |
 | Remark | string | 否 | 备注 |
+
+#### ModuleRelationList说明 {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ModuleSysNo | int | 是 | 关联模块编码 |
+| ModuleSourceSysNo | int | 是 | 关联模块来源编码 |
 
 
 
