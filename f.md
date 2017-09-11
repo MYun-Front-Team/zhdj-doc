@@ -31,6 +31,7 @@
 | LastActivityTime | string | 否 | 最近参数活动时间 |
 | LastStudyTime | string | 否 | 最近学习时间 |
 | LastReportTime | string | 否 | 最近汇报时间 |
+| PointsValue | int | 否 | 积分值 |
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -62,7 +63,7 @@
 | :--- | :--- | :--- | :--- |
 | IsShowImgUrlList | int | 否 | 是否显示图片列表 |
 | IsShowFileUrlList | int | 否 | 是否显示文件列表 |
-| IsShowPointsValueList | int | 否 | 是否显示积分列表 |
+| IsShowPointsValue | int | 否 | 是否显示积分 |
 | IsShowModuleRelationList | int | 否 | 是否显示模块关联列表 |
 |  |  |  |  |
 
