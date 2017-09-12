@@ -51,4 +51,9 @@
   * [根据模块，获取积分配置列表](ji-fen-mo-kuai/gen-ju-mo-kuai-ff0c-huo-qu-ji-fen-pei-zhi-lie-biao.md)
   * [获取业务积分记录详情列表](tong-yong-mo-kuai/huo-qu-ye-wu-ji-fen-ji-lu-xiang-qing-lie-biao.md)
   * [新增积分记录](ji-fen-mo-kuai/xin-zeng-ji-fen-ji-lu.md)
+* [基础模块](ji-chu-mo-kuai.md)
+  * [获取全局变量](ji-chu-mo-kuai/huo-qu-quan-ju-bian-liang.md)
+  * [获取数据范围树](ji-chu-mo-kuai/huo-qu-shu-ju-fan-wei-shu.md)
+  * [获取账户列表](ji-chu-mo-kuai/huo-qu-zhang-hu-lie-biao.md)
+  * [账号登录](ji-chu-mo-kuai/zhang-hao-deng-lu.md)
 

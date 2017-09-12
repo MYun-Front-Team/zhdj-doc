@@ -1,0 +1,33 @@
+# 获取数据范围树 {#获取河长巡河记录}
+
+##### _【功能说明】_ {#【功能说明】}
+
+获取数据范围树
+
+_**【应用场景】**_
+
+树形结构，以数据权限来分割业务数据。
+
+_**【接口地址】**_
+
+[http://ip:port/BasicQuery/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Basic](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)DataRangeTree
+
+> #### _请求数据_ {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| TreeSysNo | int | 是 | 树系统编码（枚举） |
+| DataRangeSysNo | int | 否 | 枝叶系统编码（0则查询整棵树） |
+
+> #### _应答数据 _ {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| DataRangeSysNo | int | 是 | 系统编码 |
+| DataRangeFatherSysNo | int | 是 | 父级系统编码 |
+| DataRangeCode | string | 否 | 节点代码 |
+| DataRangeName | string | 是 | 节点名称 |
+| DataRangeTree | object | 是 | 子树结构对象 |
+
+注：DataRangeTree即为返回实体本身。
+
