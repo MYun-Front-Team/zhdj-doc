@@ -68,7 +68,7 @@
 | FromPerson | object | 是 | 发表人员实体 |
 | ToPerson | object | 是 | 接收人员实体 |
 | IsReaded | int | 是 | 是否已读：0否，1是 |
-| PersonStatus | int | 是 | 状态：1浏览，2点赞，3转发，4分享 ，5回复 |
+| PersonStatus | int | 是 | 状态：0发布定位，1浏览，2点赞，3转发，4分享 ，5回复 |
 | SignCount | int | 是 | 足迹次数 |
 | SignTime | string | 是 | 最近足迹时间 |
 | SignPlace | string | 否 | 最近足迹地点（定位） |
@@ -76,6 +76,7 @@
 | Longitude | decimal | 否 | 经度（定位） |
 | Latitude | decimal | 否 | 纬度（定位） |
 | Remark | string | 否 | 备注 |
+| Moments | object | 否 | 朋友圈记录实体对象（只有在获取未读列表中返回） |
 
 ####  {#应答数据-（巡河记录数组）}
 

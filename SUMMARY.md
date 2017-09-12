@@ -24,6 +24,7 @@
   * [设置活动类型描述](methods/she-zhi-huo-dong-lei-xing-miao-shu.md)
   * [根据页面，获取可选字段列表](methods/gen-ju-ye-mian-ff0c-huo-qu-ke-xuan-zi-duan-lie-biao.md)
   * [修改活动个人记要](methods/xiu-gai-huo-dong-ge-ren-ji-yao.md)
+  * [获取活动类型描述](methods/huo-qu-huo-dong-lei-xing-miao-shu.md)
 * [党员管理](f.md)
   * [获取党员列表](f/huo-qu-dang-yuan-feng-cai-lie-biao.md)
   * [获取党员详情](f/huo-qu-dang-yuan-xiang-qing.md)
@@ -59,4 +60,10 @@
 * [朋友圈模块](peng-you-quan-mo-kuai.md)
   * [获取朋友圈列表](peng-you-quan-mo-kuai/huo-qu-peng-you-quan-lie-biao.md)
   * [获取朋友圈详情](peng-you-quan-mo-kuai/huo-qu-peng-you-quan-xiang-qing.md)
+  * [新增](peng-you-quan-mo-kuai/xin-zeng.md)
+  * [点赞](peng-you-quan-mo-kuai/dian-zan.md)
+  * [回复](peng-you-quan-mo-kuai/hui-fu.md)
+  * [设置已读](peng-you-quan-mo-kuai/she-zhi-yi-du.md)
+  * [获取未读数量](peng-you-quan-mo-kuai/huo-qu-wei-du-shu-liang.md)
+  * [获取未读列表](peng-you-quan-mo-kuai/huo-qu-wei-du-lie-biao.md)
 
