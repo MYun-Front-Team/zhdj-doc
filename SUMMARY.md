@@ -56,4 +56,7 @@
   * [获取数据范围树](ji-chu-mo-kuai/huo-qu-shu-ju-fan-wei-shu.md)
   * [获取账户列表](ji-chu-mo-kuai/huo-qu-zhang-hu-lie-biao.md)
   * [账号登录](ji-chu-mo-kuai/zhang-hao-deng-lu.md)
+* [朋友圈模块](peng-you-quan-mo-kuai.md)
+  * [获取朋友圈列表](peng-you-quan-mo-kuai/huo-qu-peng-you-quan-lie-biao.md)
+  * [获取朋友圈详情](peng-you-quan-mo-kuai/huo-qu-peng-you-quan-xiang-qing.md)
 
