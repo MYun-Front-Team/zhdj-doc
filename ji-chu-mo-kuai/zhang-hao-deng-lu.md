@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 账号登录，密码在特殊登录方式可为空，登录成功后，需要更新账户表的最后登录时间。其它账户的登录数据（如登录设备、Token等）需调用修改账户接口。
 
+注：需判断账户是否已经激活，账号是否停用。
+
 _**【接口地址】**_
 
 [http://ip:port/BasicAction/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Basic](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[/L](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)oginIn

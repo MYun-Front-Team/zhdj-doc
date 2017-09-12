@@ -7,7 +7,8 @@
 | MemberSysNo | int | 是 | 党员编码 |
 | PersonSysNo | int | 是 | 人员编码 |
 | DataRangeSysNo | int | 是 | 数据范围树编码\(所属支部\) |
-| PartyPost | int | 是 | 党内职务：0党员,1书记，2副书记，3组织委员，4宣传委员 |
+| BranchDataRangeSysNo | int | 否 | 数据范围树编码\(所属党委，关联党内岗位\) |
+| PartyPost | int | 否 | 党内职务：0党员,1书记，2副书记，3组织委员，4宣传委员 |
 | OrganizationalStatus | int | 是 | 组织状态：0正常，1流动党员 |
 | InnerPartyStatus | int | 是 | 党内状态：0入党积极分子，1预备党员，2正式党员 |
 | IntroducerName | string | 是 | 介绍人姓名 |
@@ -23,6 +24,7 @@
 | FilePathList | array string | 否 | 文件图片Path路径（第一张为头像） |
 | FileUrlList | array string | 否 | 文件图片Url路径（第一张为头像） |
 | HonorList | array object | 否 | 荣誉列表 |
+| ReportList | array object | 否 | 思想汇报列表 |
 
 > #### 统计计算字段 {#请求数据}
 
@@ -41,13 +43,16 @@
 | EditPartyMember | 操作 | 是 | 修改党员 |
 | AddPartyMemberMoveIn | 操作 | 是 | 转入（支部间） |
 | AddPartyMemberMoveOut | 操作 | 是 | 转出（支部间） |
-| AddPartyMemberHonor | 操作 | 否 | 新增党员荣誉 |
-| EditPartyMemberHonor | 操作 | 否 | 修改党员荣誉 |
-| DeletePartyMemberHonor | 操作 | 否 | 删除党员荣誉 |
+| AddPartyMemberHonor | 操作 | 是 | 新增党员荣誉 |
+| EditPartyMemberHonor | 操作 | 是 | 修改党员荣誉 |
+| DeletePartyMemberHonor | 操作 | 是 | 删除党员荣誉 |
+| AddPartyMemberReport | 操作 | 是 | 新增思想汇报 |
 | GetPartyMemberList | 搜索 | 是 | 搜索党员列表 |
 | GetPartyMemberBySysNo | 查询 | 是 | 根据编码，获取党员详情 |
-| GetPartyMemberHonorList | 查询 | 否 | 查询党员荣誉列表 |
-| GetPartyMemberHonorBySysNo | 查询 | 否 | 根据编码，获取党员荣誉详情 |
+| GetPartyMemberHonorList | 查询 | 是 | 查询党员荣誉列表 |
+| GetPartyMemberHonorBySysNo | 查询 | 是 | 根据编码，获取党员荣誉详情 |
+| GetPartyMemberReportList | 查询 | 是 | 查询党员思想汇报列表 |
+| GetPartyMemberReportBySysNo | 查询 | 是 | 查询党员思想汇报详情 |
 
 #### 查询条件字段 {#请求数据}
 
@@ -56,6 +61,7 @@
 | DataRangeSysNo | int | 是 | 数据范围树枝叶编码 |
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 | KeyWord | string | 否 | 关键字搜索（姓名、手机号） |
+| PartyMemberSysNo | int | 否 | 党员系统编码 |
 
 > #### 查询Limit字段 {#请求数据}
 
