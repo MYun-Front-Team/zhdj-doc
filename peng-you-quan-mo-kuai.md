@@ -36,6 +36,7 @@
 | SetMomentsGood | 操作 | 是 | 点赞 |
 | SetMomentsReply | 操作 | 是 | 回复 |
 | SetMomentsReaded | 操作 | 是 | 设置已读 |
+| SetMomentsDisplay | 操作 | 是 | 隐藏 |
 | GetMomentsList | 搜索 | 是 | 搜索列表 |
 | GetMomentsBySysNo | 查询 | 是 | 根据编码，获取详情 |
 | GetUnReadedCount | 查询 | 是 | 获取未读数量 |
