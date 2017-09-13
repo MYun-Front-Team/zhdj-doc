@@ -75,7 +75,7 @@
 | :--- | :--- | :--- | :--- |
 | IsShowFileUrlList | int | 否 | 是否显示文件图片列表 |
 | IsShowPointsValueList | int | 否 | 是否显示积分配置列表 |
-| IsShowActivityPersonList | int | 否 | 是否显示人员列表 |
+| ~~IsShowActivityPersonList~~ | ~~int~~ | ~~否~~ | ~~是否显示人员列表~~ |
 | IsShowModuleRelationList | int | 否 | 是否显示模块关联列表 |
 |  |  |  |  |
 

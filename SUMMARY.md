@@ -25,6 +25,7 @@
   * [获取活动类型描述](methods/huo-qu-huo-dong-lei-xing-miao-shu.md)
   * [设置活动类型描述](methods/she-zhi-huo-dong-lei-xing-miao-shu.md)
   * [根据页面，获取可选字段列表](methods/gen-ju-ye-mian-ff0c-huo-qu-ke-xuan-zi-duan-lie-biao.md)
+  * [获取活动人员列表](methods/huo-qu-huo-dong-ren-yuan-lie-biao.md)
 * [党员管理](f.md)
   * [获取党员列表](f/huo-qu-dang-yuan-feng-cai-lie-biao.md)
   * [获取党员详情](f/huo-qu-dang-yuan-xiang-qing.md)

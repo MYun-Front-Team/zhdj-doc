@@ -12,7 +12,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-[http://ip:port/MomentsAction/Moments/Add](http://ip:port/HMAction/River/AddRiver)Moments
+[http://ip:port/MomentsAction/Moments/SetMomentsReply](http://ip:port/HMAction/River/AddRiver)
 
 > #### _请求数据_ {#请求数据}
 
