@@ -1,16 +1,16 @@
-# 获取党员荣誉详情 {#获取河长巡河记录}
+# 获取荣誉详情 {#获取河长巡河记录}
 
 ##### _【功能说明】_ {#【功能说明】}
 
-获取党员荣誉详情
+获取荣誉详情
 
 _**【应用场景】**_
 
-获取党员荣誉详情
+获取荣誉详情
 
 _**【接口地址】**_
 
-[http://ip:port/PartyQuery/Honor/GetP](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)artyMemberHonorBySysNo
+[http://ip:port/UMQuery/Honor/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)HonorBySysNo
 
 > #### _请求数据_ {#请求数据}
 
@@ -28,6 +28,7 @@ _**【接口地址】**_
 | HonorContent | string | 是 | 荣誉说明 |
 | Remark | string | 否 | 备注 |
 | SortNo | int | 否 | 排序 |
+| IsDefault | int | 否 | 是否默认 |
 
 
 

@@ -1,27 +1,32 @@
-# 新增党员思想汇报 {#获取河长巡河记录}
+# 新增汇报 {#获取河长巡河记录}
 
 ##### _【功能说明】_ {#【功能说明】}
 
-新增党员思想汇报
+新增汇报
 
 _**【应用场景】**_
 
-新增党员思想汇报
+新增汇报
 
 _**【接口地址】**_
 
-[http://ip:port/PartyAction/Report/AddP](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)artyMemberReport
+[http://ip:port/UMAction/Report/Add](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)Report
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| PartyMemberSysNo | int | 是 | 党员系统编码 |
-| ReportTitle | string | 是 | 荣誉抬头 |
-| ReportContent | string | 是 | 荣誉说明 |
+| ModuleSysNo | int | 是 | 模块编码 |
+| ModuleSourceType | int | 否 | 来源类型 |
+| ModuleSourceClass | int | 否 | 来源分类 |
+| ModuleSourceSysNo | int | 是 | 来源系统编码 |
+| ReportTime | string | 是 | 汇报时间 |
+| ReportTitle | string | 是 | 汇报抬头 |
+| ReportContent | string | 是 | 汇报说明 |
 | Remark | string | 否 | 备注 |
+| FilePathList | array string | 否 | 文件图片Path列表 |
 
-> #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
+> #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |

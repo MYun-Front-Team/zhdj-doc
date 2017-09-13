@@ -1,16 +1,16 @@
-# 新增党员荣誉 {#获取河长巡河记录}
+# 新增荣誉 {#获取河长巡河记录}
 
 ##### _【功能说明】_ {#【功能说明】}
 
-新增党员荣誉
+新增荣誉
 
 _**【应用场景】**_
 
-新增党员荣誉
+新增荣誉
 
 _**【接口地址】**_
 
-[http://ip:port/PartyAction/Honor/AddP](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)artyMemberHonor
+[http://ip:port/UMAction/Honor/Add](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)Honor
 
 > #### _请求数据_ {#请求数据}
 
