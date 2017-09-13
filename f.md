@@ -23,8 +23,6 @@
 | PartyPerson | object | 是 | 党员的人员实体对象 |
 | FilePathList | array string | 否 | 文件图片Path路径（第一张为头像） |
 | FileUrlList | array string | 否 | 文件图片Url路径（第一张为头像） |
-| HonorList | array object | 否 | 荣誉列表（通用模块） |
-| ReportList | array object | 否 | 思想汇报列表（通用模块） |
 
 > #### 统计计算字段 {#请求数据}
 
