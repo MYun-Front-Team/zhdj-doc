@@ -20,5 +20,5 @@ _**【接口地址】**_
 
 #### _响应数据（数组）_ {#请求数据}
 
-MonentsPersonList 说明见朋友圈说明页。
+MomentsPersonList 说明见朋友圈说明页。
 
