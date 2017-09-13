@@ -22,6 +22,7 @@ _**【接口地址】**_
 | CategoryFatherSysNo | int | 否 | 类别父级主键 |
 | CategoryCode | string | 否 | 类别代码 |
 | CategoryName | string | 否 | 类别名称 |
+| FilePathList | array string | 否 | 文件图片Path路径 |
 | SortNo | int | 否 | 排序 |
 
 > #### 应答数据 {#应答数据-}

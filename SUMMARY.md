@@ -51,7 +51,7 @@
   * [获取党委支部列表](f/huo-qu-dang-wei-zhi-bu-lie-biao.md)
   * [获取党委支部详情](f/huo-qu-dang-wei-zhi-bu-xiang-qing.md)
   * [设置党员党内职务](f/she-zhi-dang-yuan-dang-nei-zhi-wu.md)
-* [帮扶管理](methods/bang-fu-guan-li.md)
+* [帮扶管理（删）](methods/bang-fu-guan-li.md)
   * [获取帮扶列表](methods/bang-fu-guan-li/huo-qu-bang-fu-lie-biao.md)
   * [获取帮扶详情](methods/bang-fu-guan-li/huo-qu-bang-fu-xiang-qing.md)
   * [新增帮扶](methods/bang-fu-guan-li/xin-zeng-bang-fu.md)
