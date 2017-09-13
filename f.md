@@ -23,8 +23,8 @@
 | PartyPerson | object | 是 | 党员的人员实体对象 |
 | FilePathList | array string | 否 | 文件图片Path路径（第一张为头像） |
 | FileUrlList | array string | 否 | 文件图片Url路径（第一张为头像） |
-| HonorList | array object | 否 | 荣誉列表 |
-| ReportList | array object | 否 | 思想汇报列表 |
+| HonorList | array object | 否 | 荣誉列表（通用模块） |
+| ReportList | array object | 否 | 思想汇报列表（通用模块） |
 
 > #### 统计计算字段 {#请求数据}
 
@@ -43,16 +43,9 @@
 | EditPartyMember | 操作 | 是 | 修改党员 |
 | AddPartyMemberMoveIn | 操作 | 是 | 转入（支部间） |
 | AddPartyMemberMoveOut | 操作 | 是 | 转出（支部间） |
-| AddPartyMemberHonor | 操作 | 是 | 新增党员荣誉 |
-| EditPartyMemberHonor | 操作 | 是 | 修改党员荣誉 |
-| DeletePartyMemberHonor | 操作 | 是 | 删除党员荣誉 |
-| AddPartyMemberReport | 操作 | 是 | 新增思想汇报 |
 | GetPartyMemberList | 搜索 | 是 | 搜索党员列表 |
 | GetPartyMemberBySysNo | 查询 | 是 | 根据编码，获取党员详情 |
 | GetPartyMemberHonorList | 查询 | 是 | 查询党员荣誉列表 |
-| GetPartyMemberHonorBySysNo | 查询 | 是 | 根据编码，获取党员荣誉详情 |
-| GetPartyMemberReportList | 查询 | 是 | 查询党员思想汇报列表 |
-| GetPartyMemberReportBySysNo | 查询 | 是 | 查询党员思想汇报详情 |
 
 #### 查询条件字段 {#请求数据}
 
