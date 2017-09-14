@@ -35,7 +35,7 @@ http://ip:port/PartyQuery/Party/GetPartyMap
 | Latitude | decimal | 是 | 纬度 |
 | Children | array[PartyMap] | 是 | 孩子党委支部 |
 | FlowMemberInfos | array[PartyMapMemberInfo] | 是 | 流动党员数量信息 |
-| PartyStations | array[PartyMapLeafInfo] | 是 | 党员先锋站点|
+| PartyStations | array[PartyMapStation] | 是 | 党员先锋站点|
 
 
 
