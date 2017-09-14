@@ -38,6 +38,17 @@ http://ip:port/PartyQuery/Party/GetPartyMap
 | PartyStations | array[PartyMapStation] | 是 | 党员先锋站点|
 
 
+###PartyMap
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| DataRangeSysNo | int | 是 | 系统编码 |
+| PartyBranchType | int | 是 | 党委支部类型: 1两新组织、2社区支部、3机关支部 |
+| PartyBranchName | string | 是 | 党委支部名称 |
+| PartyBranchDesc | string | 是 | 党委支部描述 |
+| ContractAddress | string | 是 | 联系地图 |
+| Longitude | decimal | 是 | 经度 |
+| Latitude | decimal | 是 | 纬度 |
+
 
 
 
