@@ -64,8 +64,11 @@ http://ip:port/PartyQuery/Party/GetPartyMap
 ###PartyMapStation
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| Count | int | 是 | 数量 |
-| InnerPartyStatus | int | 是 | 党内状态0积极份子，1预报党员，2正式党员|
+| StationName | string | 是 | 党员先锋站名称 |
+| StationAddress | string | 是 | 党员先锋站地址|
+| Longitude | decimal | 是 | 经度 |
+| Latitude | decimal | 是 | 纬度 |
+
 
 
 
