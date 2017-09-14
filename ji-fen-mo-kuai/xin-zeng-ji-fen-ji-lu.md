@@ -28,7 +28,7 @@ _**【接口地址】**_
 | OwnerSysNo | int | 是 | 积分所有者系统编码（获取支部积分时必填） |
 | PointsType | int | 是 | 积分类型（枚举） |
 | ChangePointsValue | int | 否（调整积分时必填） | 积分变化值（区分正负） |
-| SourceTime | int | 否（调整积分时必填） | 有效期开始时间（小于当前时间即冻结） |
+| SourceTime | string | 否（调整积分时必填） | 有效期开始时间（小于当前时间即冻结） |
 | ~~ConfigValueSysNo~~ | ~~int~~ | ~~是~~ | ~~积分值配置系统编码~~ |
 | ModuleSourceSysNo | int | 否（调整积分时非必填） | 模块来源系统编码 |
 | Remark | string | 是 | 备注 |
