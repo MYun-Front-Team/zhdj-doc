@@ -7,6 +7,7 @@
 | ActivitySysNo | int | 是 | 活动系统编码 |
 | ActivityType | int | 是 | 类型（枚举） |
 | ActivityClassSysNo | int | 否 | 类型分类系统编码（类别树） |
+| ActivityClassName | string | 否 | 分类名称 |
 | ActivityTitle | string | 是 | 标题 |
 | ActivityContent | string | 是 | 内容 |
 | ActivityStatus | int | 是 | 状态：0新增，10发布，11撤下 |
