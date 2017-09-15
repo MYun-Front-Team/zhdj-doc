@@ -89,4 +89,5 @@
   * [设置已读](peng-you-quan-mo-kuai/she-zhi-yi-du.md)
   * [获取未读数量](peng-you-quan-mo-kuai/huo-qu-wei-du-shu-liang.md)
   * [获取未读列表](peng-you-quan-mo-kuai/huo-qu-wei-du-lie-biao.md)
+  * [根据模块，获取朋友圈列表](peng-you-quan-mo-kuai/gen-ju-mo-kuai-ff0c-huo-qu-peng-you-quan-lie-biao.md)
 
