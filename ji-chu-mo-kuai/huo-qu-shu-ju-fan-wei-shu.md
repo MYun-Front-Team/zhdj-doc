@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 树形结构，以数据权限来分割业务数据。
 
+注：可通过TreeSysNo和UserSysNo对应关系表，获取该人应该展示的树结构。
+
 _**【接口地址】**_
 
 [http://ip:port/BasicQuery/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Basic](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)DataRangeTree
@@ -28,6 +30,7 @@ _**【接口地址】**_
 | DataRangeCode | string | 否 | 节点代码 |
 | DataRangeName | string | 是 | 节点名称 |
 | DataRangeTree | object | 是 | 子树结构对象 |
+| IsEnable | int | 是 | 是否有效（应用场景是枝上面无权限，在下面的叶子有权限，那么不需要选中枝） |
 
 注：DataRangeTree即为返回实体本身。
 

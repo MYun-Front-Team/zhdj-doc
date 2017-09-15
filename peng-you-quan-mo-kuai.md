@@ -46,7 +46,7 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| DataRangeSysNo | int | 是 | 数据范围树枝叶编码 |
+| DataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表 |
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 | KeyWord | string | 否 | 关键字搜索 |
 | PublishStartTime | string | 否 | 发布开始时间 |
