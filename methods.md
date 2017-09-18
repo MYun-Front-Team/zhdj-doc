@@ -95,8 +95,8 @@
 | Longitude | decimal | 否 | 经度（定位） |
 | Latitude | decimal | 否 | 纬度（定位） |
 | Reason | string | 否 | 请假原因 |
-| SignSummary | string | 否 | 个人记要 |
-| SignSummaryTime | string | 否 | 个人记要时间 |
+| ~~SignSummary~~ | ~~string~~ | ~~否~~ | ~~个人记要~~ |
+| ~~SignSummaryTime~~ | ~~string~~ | ~~否~~ | ~~个人记要时间~~ |
 | Remark | string | 否 | 备注 |
 
 #### ModuleRelationList说明 {#应答数据-（巡河记录数组）}
