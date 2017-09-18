@@ -48,6 +48,8 @@ _**【接口地址】**_
 | ContractAddress | string | 是 | 联系地图 |
 | Longitude | decimal | 是 | 经度 |
 | Latitude | decimal | 是 | 纬度 |
+| IsLeaf | int | 是 | 是否是叶子支部 |
+
 
 ### PartyMapLeafInfo
 
