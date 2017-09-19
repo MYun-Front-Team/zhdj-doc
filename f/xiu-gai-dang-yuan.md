@@ -31,6 +31,7 @@ _**【接口地址】**_
 | ContractAddress | string | 否 | 联系地址 |
 | Post | string | 否 | 岗位 |
 | Remark | string | 否 | 备注 |
+| DepartmentPost | int | 否 | 所属支部岗位 |
 | PartyPost | int | 否 | 党内岗位 |
 | OrganizationalStatus | int | 否 | 组织状态：0正常，1流动党员 |
 | InnerPartyStatus | int | 否 | 党内状态：0入党积极分子，1预备党员，2正式党员 |
