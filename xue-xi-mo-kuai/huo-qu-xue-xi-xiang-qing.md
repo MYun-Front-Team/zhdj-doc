@@ -1,18 +1,26 @@
-# 获取活动详情 {#获取河长巡河记录}
+# 获取学习详情 {#获取河长巡河记录}
 
 ##### _【功能说明】_ {#【功能说明】}
 
-获取活动详情
+获取学习详情
 
 _**【应用场景】**_
 
-获取活动详情。
+获取学习详情。
 
-注意：如该人未曾阅读，插入一条人员足迹，标记已读。
+注意：需判断是否存在正在浏览的历史记录：
+
+1、无：则保存该人的浏览记录；
+
+2、有：则判断上次心跳时间是否距现在超过10分钟：
+
+2.1、超过：关闭该记录的正常阅读状态，新增一条新的阅读记录；
+
+2.2、不超：继续更新阅读秒数和上次心跳时间。
 
 _**【接口地址】**_
 
-[http://ip:port/ActivityQuery/Activity/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)ActivityBySysNo
+[http://ip:port/StudyQuery/Study/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)StudyBySysNo
 
 > #### _请求数据_ {#请求数据}
 
@@ -27,8 +35,6 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | ActivityBase | object | 是 | 基础字段 |
 | ActivityStatistic | object | 否 | 统计字段 |
-
-####  {#应答数据-（巡河记录数组）}
 
 
 

@@ -79,7 +79,8 @@
 | PersonStatus | int | 是 | 状态：3浏览 |
 | SignStartTime | string | 是 | 学习开始时间 |
 | StudySecond | int | 是 | 学习秒数 |
-| IsLooking | int | 是 | 是否还在阅读 |
+| LastHeadBeatTime | string | 是 | 上次保活心跳时间 |
+| IsLooking | int | 是 | 是否还在阅读：0否，1是（上次心跳时间操作10分钟未更新，默认为否） |
 | Remark | string | 否 | 备注 |
 
 #### ModuleRelationList说明 {#应答数据-（巡河记录数组）}

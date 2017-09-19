@@ -1,16 +1,16 @@
-# 获取活动记录 {#获取河长巡河记录}
+# 获取学习记录 {#获取河长巡河记录}
 
 ##### _【功能说明】_ {#【功能说明】}
 
-获取活动记录
+获取学习记录
 
 _**【应用场景】**_
 
-获取活动记录
+获取学习记录
 
 _**【接口地址】**_
 
-[http://ip:port/ActivityQuery/Activity/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)ActivityList
+[http://ip:port/StudyQuery/Study/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)StudyList
 
 > #### _请求数据_ {#请求数据}
 
@@ -23,10 +23,8 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| ActivityBase | object | 是 | 基础字段 |
-| ActivityStatistic | object | 否 | 统计字段 |
-
-####  {#应答数据-（巡河记录数组）}
+| StudyBase | object | 是 | 基础字段 |
+| StudyStatistic | object | 否 | 统计字段 |
 
 
 
