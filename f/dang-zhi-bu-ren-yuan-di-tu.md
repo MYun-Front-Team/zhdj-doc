@@ -55,9 +55,6 @@ _**【接口地址】**_
 | InnerPartyStatus | int | 是 | 党内状态0积极分子，1预报党员，2正式党员 |
 | Longitude | int | 是 | 经度 |
 | Latitude | int | 是 | 纬度 |
-
-
-
-
+| OrganizationalStatus | int | 是 | 组织状态：0正常，1流动党员|
 
 
