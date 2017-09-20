@@ -7,8 +7,10 @@
 | MemberSysNo | int | 是 | 党员编码 |
 | PersonSysNo | int | 是 | 人员编码 |
 | DataRangeSysNo | int | 是 | 数据范围树编码\(所属支部\) |
+| DataRangeName | string | 否 | 所属支部名称 |
 | DepartmentPost | int | 否 | 所属支部职务：0党员,1书记，2副书记，3组织委员，4宣传委员 |
 | BranchDataRangeSysNo | int | 否 | 数据范围树编码\(所属党委，关联党内岗位\) |
+| BranchDataRangeName | string | 否 | 所属党委名称 |
 | PartyPost | int | 否 | 党内职务：0党员,1书记，2副书记，3组织委员，4宣传委员 |
 | OrganizationalStatus | int | 是 | 组织状态：0正常，1流动党员 |
 | InnerPartyStatus | int | 是 | 党内状态：0入党积极分子，1预备党员，2正式党员 |
