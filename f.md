@@ -65,7 +65,6 @@
 | IsShowFileUrlList | int | 否 | 是否显示文件列表 |
 | IsShowPointsValue | int | 否 | 是否显示积分 |
 | IsShowModuleRelationList | int | 否 | 是否显示模块关联列表 |
-|  |  |  |  |
 
 ####  {#应答数据-（巡河记录数组）}
 
