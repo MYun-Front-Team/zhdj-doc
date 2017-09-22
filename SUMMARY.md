@@ -106,6 +106,7 @@
   * [重置密码](ji-chu-mo-kuai/zhong-zhi-mi-ma.md)
   * [重新绑定手机](ji-chu-mo-kuai/zhong-xin-bang-ding-shou-ji.md)
   * [绑定微信账号](ji-chu-mo-kuai/bang-ding-wei-xin-zhang-hao.md)
+  * [完善个人信息](ji-chu-mo-kuai/wan-shan-ge-ren-xin-xi.md)
 * [朋友圈模块](peng-you-quan-mo-kuai.md)
   * [获取朋友圈列表](peng-you-quan-mo-kuai/huo-qu-peng-you-quan-lie-biao.md)
   * [获取朋友圈详情](peng-you-quan-mo-kuai/huo-qu-peng-you-quan-xiang-qing.md)
