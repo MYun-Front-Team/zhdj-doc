@@ -23,6 +23,7 @@ _**【接口地址】**_
 | HonorStartTime | string | 否 | 荣誉获得开始时间 |
 | HonorEndTime | string | 否 | 荣誉获得结束时间 |
 | KeyWord | string | 否 | 关键字（标题） |
+| IsOwner | int | 否 | 是否显示自己的：0否，1是（不传查全部，传值需通过UserSysNo匹配Person） |
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 
