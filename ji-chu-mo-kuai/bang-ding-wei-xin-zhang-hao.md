@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 绑定微信账号。
 
+注：通过手机号找到Person，然后对应找到User，最后创建一个新的微信登录账号（需判断是否已经绑定过）
+
 _**【接口地址】**_
 
 [http://ip:port/BasicAction/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Basic](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[/S](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)etLoginInOpenId
@@ -18,8 +20,8 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | LoginSource | int | 是 | 登录来源（枚举） |
 | LoginType | int | 是 | 登录类型（枚举） |
-| LoginID | string | 是 | 用户名 |
-| LoginPwd | string | 否 | 新密码 |
+| LoginID | string | 是 | 用户名（微信OpenID） |
+| CellPhoneNo | string | 是 | 手机号 |
 | BizCompanyCode | int | 是 | 项目标识符（枚举） |
 
 

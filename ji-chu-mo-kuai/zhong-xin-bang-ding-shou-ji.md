@@ -10,6 +10,8 @@ _**【应用场景】**_
 
 注：该接口不会注销原手机号的登录账号。只修改人员中的绑定手机。
 
+注：验证后，验证码失效。
+
 _**【接口地址】**_
 
 [http://ip:port/BasicAction/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Basic](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[/ReS](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)etCellPhoneNo
