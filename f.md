@@ -35,6 +35,7 @@
 | LastStudyTime | string | 否 | 最近学习时间 |
 | LastReportTime | string | 否 | 最近汇报时间 |
 | PointsValue | int | 否 | 积分值 |
+| PointsValueRanking | int | 否 | 积分排名 |
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -56,6 +57,7 @@
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 | KeyWord | string | 否 | 关键字搜索（姓名、手机号） |
 | PartyMemberSysNo | int | 否 | 党员系统编码 |
+| InnerPartyStatusList | array int | 否 | 党内状态列表：0入党积极分子，1预备党员，2正式党员 |
 
 > #### 查询Limit字段 {#请求数据}
 
@@ -64,6 +66,7 @@
 | IsShowImgUrlList | int | 否 | 是否显示图片列表 |
 | IsShowFileUrlList | int | 否 | 是否显示文件列表 |
 | IsShowPointsValue | int | 否 | 是否显示积分 |
+| IsShowPointsValueRanking | int | 否 | 是否显示积分排名 |
 | IsShowModuleRelationList | int | 否 | 是否显示模块关联列表 |
 
 ####  {#应答数据-（巡河记录数组）}
