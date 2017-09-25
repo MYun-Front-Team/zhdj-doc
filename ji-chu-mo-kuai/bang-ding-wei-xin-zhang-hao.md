@@ -24,5 +24,13 @@ _**【接口地址】**_
 | CellPhoneNo | string | 是 | 手机号 |
 | BizCompanyCode | int | 是 | 项目标识符（枚举） |
 
+#### _应答数据 _ {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| UserSysNo | int | 是 | 账户系统编码（即AdminSysNo） |
+| ~~DataRangeSysNoList~~ | ~~array int~~ | ~~是~~ | ~~数据范围枝叶列表~~ |
+| Person | object | 是 | 人员实体对象 |
+
 
 
