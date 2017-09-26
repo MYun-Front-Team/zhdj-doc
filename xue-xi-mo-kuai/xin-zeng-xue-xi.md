@@ -27,6 +27,7 @@ _**【接口地址】**_
 | IsNeedMoments | int | 否（可选配置） | 是否需要关联朋友圈（1是） |
 | FilePaths | array string | 否（可选配置） | 文件或图片列表（第一张为首图） |
 | PointsValues | array object | 否（可选配置） | 积分赠送配置 |
+| ModuleRelationList | array object | 否（可选配置） | 关联模块列表（实体说明见活动） |
 
 #### PointsValues说明 {#应答数据-}
 
