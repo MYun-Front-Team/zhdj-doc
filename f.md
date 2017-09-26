@@ -68,7 +68,7 @@
 | IsShowPointsValue | int | 否 | 是否显示积分 |
 | IsShowPointsValueRanking | int | 否 | 是否显示积分排名 |
 | IsShowModuleRelationList | int | 否 | 是否显示模块关联列表 |
-| IsShowPerson | int | 否 | 是否显示人员信息 |
+| ~~IsShowPerson~~ | ~~int~~ | ~~否~~ | ~~是否显示人员信息~~ |
 
 ####  {#应答数据-（巡河记录数组）}
 
