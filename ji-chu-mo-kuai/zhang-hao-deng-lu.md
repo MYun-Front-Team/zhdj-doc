@@ -29,10 +29,9 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | UserSysNo | int | 是 | 账户系统编码（即AdminSysNo） |
-| ~~DataRangeSysNoList~~ | ~~array int~~ | ~~是~~ | ~~数据范围枝叶列表~~ |
 | Person | object | 是 | 人员实体对象 |
 
-#### Person说明_ _ {#应答数据-（巡河记录数组）}
+#### Person说明_ （简要，需要全部字段请调用“获取个人信息”接口）_ {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -46,12 +45,7 @@ _**【接口地址】**_
 | PCDDescription | string | 否 | 省市区 |
 | ContractAddress | string | 否 | 地址 |
 | Post | string | 否 | 工作岗位 |
-| IDCard | string | 否 | 身份证 |
-| Nation | string | 否 | 民族 |
-| Origin | string | 否 | 籍贯 |
-| Education | int | 否 | 学历：0未知,1小学,2初中,3中转,4高中,5专科,6本科,7硕士,8博士 |
 | FileUrlList | array string | 否 | 图片列表（首图为头像） |
-| PersonProfile | string | 否 | 个人简介 |
 
 
 

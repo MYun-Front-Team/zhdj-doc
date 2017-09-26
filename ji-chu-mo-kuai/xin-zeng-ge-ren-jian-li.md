@@ -16,8 +16,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| PersonSysNo | int | 是 | 人员系统编码 |
-| IsOwner | int | 否 | 是否给自己添加（该值存在的时候，人员编码可为空） |
+| PersonSysNo | int | 是 | 人员编码（如果不传则获取UserSysNo对应的Person） |
 | ResumeStartDate | string | 是 | 简历开始时间 |
 | ResumeEndDate | string | 是 | 简历结束时间 |
 | ResumeDesc | string | 是 | 描述 |
