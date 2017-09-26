@@ -68,6 +68,7 @@
 | IsShowFileUrlList | int | 否 | 是否显示文件图片列表 |
 | IsShowPointsValueList | int | 否 | 是否显示积分配置列表 |
 | IsShowMyPersonStatus | int | 否 | 是否显示当前人员的参与情况（MyStudyStatus的开关） |
+| IsShowModuleRelationList | int | 否 | 是否显示关联模块列表 |
 
 #### StudyPersonList说明 {#应答数据-（巡河记录数组）}
 
