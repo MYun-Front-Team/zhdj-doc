@@ -8,8 +8,6 @@ _**【应用场景】**_
 
 修改党内经历
 
-注：端需要把日志表的字段转为接口需要的字段名。
-
 _**【接口地址】**_
 
 [http://ip:port/PartyAction/Party/EditP](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)artyExperience

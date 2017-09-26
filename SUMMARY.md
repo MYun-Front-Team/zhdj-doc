@@ -76,6 +76,7 @@
   * [新增党内经历](f/xin-zeng-dang-nei-jing-li.md)
   * [修改党内经历](f/xiu-gai-dang-nei-jing-li.md)
   * [删除党内经历](f/shan-chu-dang-nei-jing-li.md)
+  * [获取党内经历列表](f/huo-qu-dang-nei-jing-li-lie-biao.md)
 * [帮扶管理（删）](methods/bang-fu-guan-li.md)
   * [获取帮扶列表](methods/bang-fu-guan-li/huo-qu-bang-fu-lie-biao.md)
   * [获取帮扶详情](methods/bang-fu-guan-li/huo-qu-bang-fu-xiang-qing.md)
