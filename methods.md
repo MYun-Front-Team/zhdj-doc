@@ -32,6 +32,8 @@
 | PointsValueList | array object | 否 | 积分赠送配置值列表（接口） |
 | ActivityPersonList | array object | 否 | 人员足迹列表 |
 | ModuleRelationList | array object | 否 | 关联模块列表 |
+| HostPersonSysNo | int | 否 | 主持人编码 |
+| HostPersonName | string | 否 | 主持人姓名 |
 
 > #### 统计计算字段 {#请求数据}
 

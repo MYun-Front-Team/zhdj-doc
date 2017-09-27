@@ -26,6 +26,7 @@ _**【接口地址】**_
 | PartyBranchType | int | 是 | 党委支部类型: 1两新组织、2社区支部、3机关支部 |
 | PartyBranchTime | string | 是 | 创建时间 |
 | PartyBranchName | string | 是 | 名称 |
+| PartyBranchShortName | string | 是 | 简称 |
 | PartyBranchDuty | string | 否 | 党委支部职责 |
 | PartyBranchTel | string | 否 | 党委支部联系电话 |
 | PartyBranchDesc | string | 否 | 党委支部描述 |

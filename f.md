@@ -26,6 +26,9 @@
 | PartyPerson | object | 是 | 党员的人员实体对象 |
 | FilePathList | array string | 否 | 文件图片Path路径（第一张为头像） |
 | FileUrlList | array string | 否 | 文件图片Url路径（第一张为头像） |
+| IsOutOfContact | int | 否 | 是否失联党员：0否，1是 |
+| OutOfContactDate | string | 否 | 失联时间 |
+| OutwardFlow | string | 否 | 流动党员外出流向 |
 
 > #### 统计计算字段 {#请求数据}
 

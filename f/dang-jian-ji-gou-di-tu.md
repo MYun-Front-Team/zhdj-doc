@@ -26,6 +26,7 @@ _**【接口地址】**_
 | PartyBranchType | int | 是 | 党委支部类型: 1两新组织、2社区支部、3机关支部 |
 | IsLeaf | int | 是 | 是否是叶子支部 |
 | PartyBranchName | string | 是 | 党委支部名称 |
+| PartyBranchShortName | string | 是 | 简称 |
 | PartyBranchDesc | string | 是 | 党委支部描述 |
 | ChildrenCount | int | 是 | 孩子党委支部数 |
 | ContractAddress | string | 是 | 联系地图 |
@@ -49,7 +50,6 @@ _**【接口地址】**_
 | Longitude | decimal | 是 | 经度 |
 | Latitude | decimal | 是 | 纬度 |
 | IsLeaf | int | 是 | 是否是叶子支部 |
-
 
 ### PartyMapLeafInfo
 

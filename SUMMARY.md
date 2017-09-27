@@ -77,6 +77,10 @@
   * [修改党内经历](f/xiu-gai-dang-nei-jing-li.md)
   * [删除党内经历](f/shan-chu-dang-nei-jing-li.md)
   * [获取党内经历列表](f/huo-qu-dang-nei-jing-li-lie-biao.md)
+  * [删除党费记录](f/shan-chu-dang-fei-ji-lu.md)
+  * [设置支部党费配置](f/she-zhi-zhi-bu-dang-fei-pei-zhi.md)
+  * [获取党费记录日志列表](f/huo-qu-dang-fei-ji-lu-ri-zhi-lie-biao.md)
+  * [获取党员年缴费情况列表](f/huo-qu-dang-yuan-nian-jiao-fei-qing-kuang-lie-biao.md)
 * [帮扶管理（删）](methods/bang-fu-guan-li.md)
   * [获取帮扶列表](methods/bang-fu-guan-li/huo-qu-bang-fu-lie-biao.md)
   * [获取帮扶详情](methods/bang-fu-guan-li/huo-qu-bang-fu-xiang-qing.md)
@@ -130,4 +134,6 @@
   * [获取未读数量](peng-you-quan-mo-kuai/huo-qu-wei-du-shu-liang.md)
   * [获取未读列表](peng-you-quan-mo-kuai/huo-qu-wei-du-lie-biao.md)
   * [根据模块，获取朋友圈列表](peng-you-quan-mo-kuai/gen-ju-mo-kuai-ff0c-huo-qu-peng-you-quan-lie-biao.md)
+  * [删除朋友圈](peng-you-quan-mo-kuai/shan-chu.md)
+  * [删除朋友圈回复](peng-you-quan-mo-kuai/shan-chu-peng-you-quan-hui-fu.md)
 

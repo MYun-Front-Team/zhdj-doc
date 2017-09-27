@@ -45,6 +45,9 @@ _**【接口地址】**_
 | DuesStandard | decimal | 否 | 党费标准 |
 | DuesDate | string | 否 | 党费交至年月 |
 | Remark | string | 否 | 备注 |
+| IsOutOfContact | int | 否 | 是否失联党员 |
+| OutOfContactDate | string | 否 | 失联时间 |
+| OutwardFlow | string | 否 | 流动党员外出流向 |
 
 #### _应答数据_ {#应答数据-}
 

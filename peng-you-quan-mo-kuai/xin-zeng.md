@@ -30,6 +30,7 @@ _**【接口地址】**_
 | FilePaths | array string | 否 | 文件或图片列表（第一张为首图） |
 | MomentsPerson | object | 否（可选配置） | 发布时定位自己位置 |
 | ModuleRelationList | array object | 否（可选配置） | 关联模块列表（实体说明见活动） |
+| IsShowInMoments | int | 否 | 是否显示在朋友圈：0否，1是（当有关联模块时该字段有效） |
 
 #### _应答数据_ {#应答数据-}
 
