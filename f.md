@@ -40,6 +40,25 @@
 | PointsValue | int | 否 | 积分值 |
 | PointsValueRanking | int | 否 | 积分排名 |
 
+> #### 活动汇总计算字段 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ActivityType | int | 否 | 活动类型 |
+| PlayCount | int | 否 | 参与次数 |
+| PlayRate | decimal | 否 | 参与率（小于1） |
+
+> #### 学习汇总计算字段 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| StudyType | int | 否 | 学习类型 |
+| StudySecond | int | 否 | 学习时间（分） |
+| StudyPoint | int | 否 | 学习积分 |
+
+
+
+
 > #### 功能按钮字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
@@ -74,7 +93,7 @@
 | IsShowPointsValue | int | 否 | 是否显示积分 |
 | IsShowPointsValueRanking | int | 否 | 是否显示积分排名 |
 | IsShowModuleRelationList | int | 否 | 是否显示模块关联列表 |
-| IsShowPointsValueRanking| int | 否 | 是否显示人员信息 |
+| IsShowPointsValueRanking| int | 否 | 是否显示人员积分排名信息 |
 
 ####  {#应答数据-（巡河记录数组）}
 
