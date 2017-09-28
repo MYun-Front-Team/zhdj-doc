@@ -10,6 +10,8 @@ _**【应用场景】**_
 
 注：通过手机号找到Person，然后对应找到User，最后创建一个新的微信登录账号（需判断是否已经绑定过）
 
+注：绑定成功后，更新账户表的“微信OPENID”字段。
+
 _**【接口地址】**_
 
 [http://ip:port/BasicAction/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Basic](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[/S](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)etLoginInOpenId
