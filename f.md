@@ -53,7 +53,7 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | StudyType | int | 否 | 学习类型 |
-| StudySecond | int | 否 | 学习时间（分） |
+| StudySecond | int | 否 | 学习时间（秒） |
 | StudyPoint | int | 否 | 学习积分 |
 
 
