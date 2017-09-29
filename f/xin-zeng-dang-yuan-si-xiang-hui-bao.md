@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 新增汇报
 
+积分备注：汇报动作（枚举=11）预埋积分赠送逻辑。
+
 _**【接口地址】**_
 
 [http://ip:port/UMAction/Report/Add](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)Report

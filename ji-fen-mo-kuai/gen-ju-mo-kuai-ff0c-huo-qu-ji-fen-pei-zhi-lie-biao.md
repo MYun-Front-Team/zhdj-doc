@@ -16,9 +16,10 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| ModuleSysNo | int | 是 | 模块编码（枚举） |
+| ModuleSysNo | int | 否 | 模块编码（枚举） |
 | ModuleSourceType | int | 否 | 模块类型（枚举） |
 | ModuleSourceClass | int | 否 | 模块类型分类（类别树） |
+| PointsType | int | 是 | 积分类型（枚举） |
 
 > #### _应答数据 （记录数组）_ {#应答数据-（巡河记录数组）}
 

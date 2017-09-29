@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 学习点击发布后，才能在客户端展示。底层需通过InUserSysNo找到Person实体，冗余信息到发布人相关字段中。
 
+积分备注：发布动作（枚举=15）预埋积分赠送逻辑。
+
 _**【接口地址】**_
 
 [http://ip:port/StudyAction/Study/](http://ip:port/HMAction/River/AddRiver)PublishStudy

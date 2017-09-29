@@ -12,6 +12,8 @@ _**【应用场景】**_
 
 ModuleRelationList如参加活动模块后，可发布活动的相关朋友圈，形成关联。
 
+积分备注：新增动作（枚举=15）预埋积分赠送逻辑。（如果是其它模块关联新增（枚举=11），则赠送逻辑依照该模块的配置）
+
 _**【接口地址】**_
 
 [http://ip:port/MomentsAction/Moments/Add](http://ip:port/HMAction/River/AddRiver)Moments

@@ -10,6 +10,8 @@ _**【应用场景】**_
 
 注：通过UserSysNo匹配人员信息到FromPerson，并记录表中状态、时间等信息。
 
+积分备注：回复动作（枚举=14）预埋积分赠送逻辑。
+
 _**【接口地址】**_
 
 [http://ip:port/MomentsAction/Moments/SetMomentsReply](http://ip:port/HMAction/River/AddRiver)

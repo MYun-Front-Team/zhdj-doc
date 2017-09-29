@@ -10,6 +10,8 @@ _**【应用场景】**_
 
 注：通用UserSysNo匹配到Person，如果已经点过赞了，即为取消点赞，删除该记录。
 
+积分备注：点赞动作（枚举=13）预埋积分赠送逻辑。
+
 _**【接口地址】**_
 
 [http://ip:port/MomentsAction/Moments/S](http://ip:port/HMAction/River/AddRiver)etMomentsGood

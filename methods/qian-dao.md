@@ -12,6 +12,8 @@ _**【应用场景】**_
 
 如果有请假数据，需清空。
 
+积分备注：签到动作（枚举=8）预埋积分赠送逻辑。
+
 _**【接口地址】**_
 
 [http://ip:port/ActivityAction/Activity/](http://ip:port/HMAction/River/AddRiver)SignInActivity

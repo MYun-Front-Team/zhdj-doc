@@ -10,6 +10,8 @@ _**【应用场景】**_
 
 注意：当某一个人不管当前属于入党的何种状态，在系统中不存在时，都为新增，否则为修改。
 
+积分备注：新增预备党员类型的党员动作（枚举=16）预埋积分赠送逻辑。
+
 _**【接口地址】**_
 
 [http://ip:port/PartyAction/Party/Add](http://ip:port/HMAction/River/AddRiver)PartyMember

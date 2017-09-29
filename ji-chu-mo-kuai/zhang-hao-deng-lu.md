@@ -10,6 +10,8 @@ _**【应用场景】**_
 
 注：需判断账户是否已经激活，账号是否停用。
 
+积分备注：登录动作（枚举=2）预埋积分赠送逻辑。
+
 _**【接口地址】**_
 
 [http://ip:port/BasicAction/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Basic](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[/L](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)oginIn

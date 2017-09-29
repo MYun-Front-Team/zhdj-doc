@@ -10,6 +10,8 @@ _**【应用场景】**_
 
 注意：判断该人是否已经浏览过，是则累计浏览次数，否则新增。
 
+积分备注：浏览动作（枚举=3）预埋积分赠送逻辑。
+
 _**【接口地址】**_
 
 [http://ip:port/NewsQuery/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[News](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[News](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)BySysNo

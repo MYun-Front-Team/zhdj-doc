@@ -18,6 +18,8 @@ _**【应用场景】**_
 
 2.2、不超：继续更新阅读秒数和上次心跳时间。
 
+积分备注：浏览动作（枚举=3）预埋积分赠送逻辑。
+
 _**【接口地址】**_
 
 [http://ip:port/StudyQuery/Study/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)StudyBySysNo
