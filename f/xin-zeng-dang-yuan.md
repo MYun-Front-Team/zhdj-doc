@@ -32,6 +32,7 @@ _**【接口地址】**_
 | PCDCode | string | 否 | 省市区 |
 | PCDDescription | string | 否 | 省市区 |
 | ContractAddress | string | 否 | 联系地址 |
+| CompanyName | string | 否 | 公司名称 |
 | Post | string | 否 | 岗位 |
 | Remark | string | 否 | 备注 |
 | DepartmentPost | int | 是 | 所属支部岗位 |

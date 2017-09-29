@@ -24,6 +24,7 @@ _**【接口地址】**_
 | PCDCode | string | 否 | 省市区 |
 | PCDDescription | string | 否 | 省市区 |
 | ContractAddress | string | 否 | 地址 |
+| CompanyName | string | 否 | 公司名称 |
 | Post | string | 否 | 工作岗位 |
 | IDCard | string | 否 | 身份证 |
 | Nation | string | 否 | 民族 |
