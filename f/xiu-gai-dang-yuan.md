@@ -31,6 +31,7 @@ _**【接口地址】**_
 | ContractAddress | string | 否 | 联系地址 |
 | CompanyName | string | 否 | 公司名称 |
 | Post | string | 否 | 岗位 |
+| PersonFilePathList | array string | 否 | 人员文件path列表 |
 | Remark | string | 否 | 备注 |
 | DepartmentPost | int | 否 | 所属支部岗位 |
 | PartyPost | int | 否 | 党内岗位 |
@@ -48,6 +49,7 @@ _**【接口地址】**_
 | IsOutOfContact | int | 否 | 是否失联党员 |
 | OutOfContactDate | string | 否 | 失联时间 |
 | OutwardFlow | string | 否 | 流动党员外出流向 |
+| PartyFilePathList | array string | 否 | 党员文件path列表 |
 
 
 

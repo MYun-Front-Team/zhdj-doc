@@ -56,9 +56,6 @@
 | StudySecond | int | 否 | 学习时间（秒） |
 | StudyPoint | int | 否 | 学习积分 |
 
-
-
-
 > #### 功能按钮字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
@@ -93,11 +90,9 @@
 | IsShowPointsValue | int | 否 | 是否显示积分 |
 | IsShowPointsValueRanking | int | 否 | 是否显示积分排名 |
 | IsShowModuleRelationList | int | 否 | 是否显示模块关联列表 |
-| IsShowPointsValueRanking| int | 否 | 是否显示人员积分排名信息 |
-| IsShowActivityInfoList | int | 否 | 是否显示活动汇总|
+| IsShowPointsValueRanking | int | 否 | 是否显示人员积分排名信息 |
+| IsShowActivityInfoList | int | 否 | 是否显示活动汇总 |
 | IsShowStudyInfoList | int | 否 | 是否显示学习汇总 |
-
-
 
 ####  {#应答数据-（巡河记录数组）}
 
