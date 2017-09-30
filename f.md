@@ -39,6 +39,14 @@
 | LastReportTime | string | 否 | 最近汇报时间 |
 | PointsValue | int | 否 | 积分值 |
 | PointsValueRanking | int | 否 | 积分排名 |
+| InnerPartyStatusCountList | array object | 否 | 党内状态人数汇总列表 |
+
+InnerPartyStatusCountList说明：
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| InnerPartyStatus | int | 是 | 党内状态：0入党积极分子，1预备党员，2正式党员 |
+| InnerPartyStatusCount | int | 是 | 数量 |
 
 > #### 活动汇总计算字段 {#请求数据}
 
@@ -93,6 +101,7 @@
 | IsShowPointsValueRanking | int | 否 | 是否显示人员积分排名信息 |
 | IsShowActivityInfoList | int | 否 | 是否显示活动汇总 |
 | IsShowStudyInfoList | int | 否 | 是否显示学习汇总 |
+| IsShowInnerPartyStatusList | int | 否 | 是否显示党内状态数量 |
 
 ####  {#应答数据-（巡河记录数组）}
 

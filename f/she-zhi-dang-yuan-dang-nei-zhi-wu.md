@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 设置党员党内职务
 
+注：如果设置了新的党内职务，则需要更新党委支部表的负责人和职务，是否更新判断标准优先级：1书记，2副书记，3组织委员，4宣传委员
+
 _**【接口地址】**_
 
 [http://ip:port/PartyAction/Party/SetP](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)artyPost
