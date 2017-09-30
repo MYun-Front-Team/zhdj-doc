@@ -20,6 +20,7 @@
 | FilePathList | array string | 否 | 文件或图片Path列表（第一张为首图） |
 | FileUrlList | array string | 否 | 文件或图片URL列表（第一张为首图） |
 | MomentsPersonList | array object | 否 | 人员足迹列表 |
+| ModuleRelationList | array object | 否 | 关联模块列表（见活动） |
 
 > #### 统计计算字段 {#请求数据}
 
@@ -60,6 +61,7 @@
 | :--- | :--- | :--- | :--- |
 | IsShowFileUrlList | int | 否 | 是否显示文件图片列表 |
 | IsShowPersonList | int | 否 | 是否显示人员列表 |
+| IsShowModuleRelationList | int | 否 | 是否显示关联模块列表 |
 
 #### MonentsPersonList说明 {#应答数据-（巡河记录数组）}
 

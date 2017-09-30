@@ -108,7 +108,10 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ModuleSysNo | int | 是 | 关联模块编码 |
+| ModuleSourceType | int | 否 | 关联模块类型 |
+| ModuleSourceClass | int | 否 | 关联模块分类 |
 | ModuleSourceSysNo | int | 是 | 关联模块来源编码 |
+| ModuleSourceTitle | string | 否 | 关联模块主题 |
 
 #### 模块页面编号枚举说明 {#请求数据}
 
