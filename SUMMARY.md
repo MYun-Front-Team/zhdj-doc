@@ -153,14 +153,15 @@
   * 创建群
   * 修改群
   * 解散群
-  * 获取群加入申请列表
   * 获取群成员列表
   * 设置群管理员
   * 删除群成员
   * 获取群消息举报列表
   * 设置群消息举报状态
   * 设置我的群消息通知状态
-  * 新增群加入申请
+  * [获取群加入申请列表](liao-tian-mo-kuai/huo-qu-qun-jia-ru-shen-qing-lie-biao.md)
+  * [新增群加入申请](liao-tian-mo-kuai/xin-zeng-qun-jia-ru-shen-qing.md)
+  * [设置群加入申请状态](liao-tian-mo-kuai/she-zhi-qun-jia-ru-shen-qing-zhuang-tai.md)
+  * [创建临时会话群](liao-tian-mo-kuai/chuang-jian-lin-shi-hui-hua-qun.md)
   * 发消息
-  * 创建临时会话群
 
