@@ -36,6 +36,7 @@ _**【接口地址】**_
 | DuesStandard | decimal\(18,2\) | 是 | 缴纳费用 |
 | FeeStatus | int | 是 | 状态：0未缴，1已缴 |
 | CreatePersonName | string | 是 | 操作人姓名 |
+| CreateDate | string | 是 | 操作时间 |
 
 
 
