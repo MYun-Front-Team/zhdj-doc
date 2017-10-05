@@ -149,4 +149,18 @@
   * [删除朋友圈回复](peng-you-quan-mo-kuai/shan-chu-peng-you-quan-hui-fu.md)
 * [聊天模块](liao-tian-mo-kuai.md)
   * [设置账户在线状态](liao-tian-mo-kuai/she-zhi-zhang-hu-zai-xian-zhuang-tai.md)
+  * 根据群类别，获取推荐群列表
+  * 创建群
+  * 修改群
+  * 解散群
+  * 获取群加入申请列表
+  * 获取群成员列表
+  * 设置群管理员
+  * 删除群成员
+  * 获取群消息举报列表
+  * 设置群消息举报状态
+  * 设置我的群消息通知状态
+  * 新增群加入申请
+  * 发消息
+  * 创建临时会话群
 
