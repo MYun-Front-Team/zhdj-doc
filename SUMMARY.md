@@ -146,4 +146,6 @@
   * [根据模块，获取朋友圈列表](peng-you-quan-mo-kuai/gen-ju-mo-kuai-ff0c-huo-qu-peng-you-quan-lie-biao.md)
   * [删除朋友圈](peng-you-quan-mo-kuai/shan-chu.md)
   * [删除朋友圈回复](peng-you-quan-mo-kuai/shan-chu-peng-you-quan-hui-fu.md)
+* [聊天模块](liao-tian-mo-kuai.md)
+  * [设置账户在线状态](liao-tian-mo-kuai/she-zhi-zhang-hu-zai-xian-zhuang-tai.md)
 
