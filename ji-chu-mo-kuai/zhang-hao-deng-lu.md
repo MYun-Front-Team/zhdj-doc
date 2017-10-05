@@ -25,7 +25,6 @@ _**【接口地址】**_
 | LoginID | string | 是 | 用户名 |
 | LoginPwd | string | 否 | 密码（微信等方式登录可为空） |
 | BizCompanyCode | int | 是 | 项目标识符（枚举） |
-| Limit | array object | 否 | 限制条件（说明见下面） |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
@@ -50,12 +49,7 @@ _**【接口地址】**_
 | ~~Post~~ | ~~string~~ | ~~否~~ | ~~工作岗位~~ |
 | FileUrlList | array string | 否 | 图片列表（首图为头像） |
 
-#### Limit说明_ _ {#应答数据-（巡河记录数组）}
 
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| IsShowRoleList | int | 否 | 是否显示角色列表 |
-| IsShowRightList | int | 否 | 是否显示权限列表 |
 
 
 
