@@ -1,6 +1,6 @@
 # 聊天模块-字段说明 {#新增河流}
 
-> #### 基础字段 {#请求数据}
+> #### GroupBase基础字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -18,42 +18,44 @@
 | Latitude | decimal\(18,10\) | 否 | 纬度 |
 | Remark | string | 否 | 备注 |
 | FilePathList | array string | 否 | 文件path路径列表 |
+| FileUrlList | array string | 否 | 文件url列表 |
 
-> #### 统计计算字段 {#请求数据}
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| PersonDataStatistics | object | 是 | 成员数据统计 |
-
-> #### PersonDataStatistics说明 {#请求数据}
+> #### GroupStatistic统计计算字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| TotalFriendCount | int | 是 | 好友总数 |
-| FriendInGroupCount | int | 是 | 好友在某个群的数量 |
-| GroupJoinCount | int | 是 | 加群数量 |
+| TotalFriendCount | int | 否 | 我的好友总数 |
+| GroupPersonCount | int | 否 | 某个群的成员数量 |
+| FriendInGroupCount | int | 否 | 某个群的我的好友数量 |
+| JoinGroupCount | int | 否 | 我的加群数量 |
+| GroupJoinStatus | int | 否 | 某个群我的加入状态：0申请中，1加入，2拒绝 |
+| IsFriend | int | 否 | 是否朋友：0否，1是 |
 
 > #### 功能按钮字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| AddGroup | 操作 | 是 | 新增群 |
-| EditGroup | 操作 | 是 | 修改群 |
-| DeleteGroup | 操作 | 是 | 解散群 |
-|  | 查询 | 是 |  |
 
-#### 查询条件字段 {#请求数据}
+
+#### Query查询字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | UserGender | int | 否 | 性别：0全部，1男，2女 |
 | KeyWord | string | 否 | 关键字搜索 |
 
-> #### 查询Limit字段 {#请求数据}
+> #### Limit限制字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | IsShowFileUrlList | int | 否 | 是否显示文件图片列表 |
+| IsShowTotalFriendCount | int | 否 | 是否显示我的好友总数 |
+| IsShowGroupPersonCount | int | 否 | 是否显示某个群的成员数量 |
+| IsShowFriendInGroupCount | int | 否 | 是否显示某个群的我的好友数量 |
+| IsShowJoinGroupCount | int | 否 | 是否显示我的加群数量 |
+| IsShowGroupJoinStatus | int | 否 | 是否显示我的加群状态 |
+| IsShowAuditPerson | int | 否 | 是否显示我的加群审核人 |
+| IsShowIsFriend | int | 否 | 是否显示是否朋友 |
 
 ####  {#应答数据-（巡河记录数组）}
 

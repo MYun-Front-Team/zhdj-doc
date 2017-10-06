@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 获取群加入申请列表
 
+注：这里的计算字段是以申请人为准。
+
 _**【接口地址】**_
 
 [http://ip:port/ChatQuery/Chat/G](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)etGroupJoinList
@@ -16,7 +18,8 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-|  |  |  | 搜索条件 |
+| Query | object | 是 | 搜索条件 |
+| Limit | object | 否 | 限制条件 |
 
 > #### Sorts说明 \(数组\) {#应答数据-（巡河记录数组）}
 
@@ -33,7 +36,7 @@ _**【接口地址】**_
 | GroupSysNo | int | 是 | 群系统编码 |
 | Person | object | 是 | 成员实体（见基础模块登录） |
 | JoinStatus | int | 是 | 加入状态：0申请中，1加入，2拒绝 |
-| PersonDataStatistics | object | 是 | 成员数据统计实体\(见模块说明\) |
+| GroupStatistic | object | 是 | 计算字段\(见模块说明\) |
 
 
 

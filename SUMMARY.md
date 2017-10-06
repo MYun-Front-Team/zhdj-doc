@@ -164,4 +164,6 @@
   * [设置群加入申请状态](liao-tian-mo-kuai/she-zhi-qun-jia-ru-shen-qing-zhuang-tai.md)
   * [发消息](liao-tian-mo-kuai/fa-xiao-xi.md)
   * [设置消息已读](liao-tian-mo-kuai/she-zhi-xiao-xi-yi-du.md)
+  * 获取群消息列表
+  * 获取我的历史会话列表
 
