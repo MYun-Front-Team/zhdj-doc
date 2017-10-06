@@ -69,6 +69,7 @@
 | IsShowPointsValueList | int | 否 | 是否显示积分配置列表 |
 | IsShowMyPersonStatus | int | 否 | 是否显示当前人员的参与情况（MyStudyStatus的开关） |
 | IsShowModuleRelationList | int | 否 | 是否显示关联模块列表 |
+| IsShowReportList | int | 否 | 是否显示汇报列表 |
 
 #### StudyPersonList说明 {#应答数据-（巡河记录数组）}
 
@@ -84,6 +85,7 @@
 | LastHeadBeatTime | string | 是 | 上次保活心跳时间 |
 | IsLooking | int | 是 | 是否还在阅读：0否，1是（上次心跳时间操作10分钟未更新，默认为否） |
 | Remark | string | 否 | 备注 |
+| Report | object | 否 | 汇报实体（说明见通用） |
 
 #### ModuleRelationList说明 {#应答数据-（巡河记录数组）}
 
