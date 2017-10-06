@@ -149,19 +149,19 @@
   * [删除朋友圈回复](peng-you-quan-mo-kuai/shan-chu-peng-you-quan-hui-fu.md)
 * [聊天模块](liao-tian-mo-kuai.md)
   * [设置账户在线状态](liao-tian-mo-kuai/she-zhi-zhang-hu-zai-xian-zhuang-tai.md)
-  * 根据群类别，获取推荐群列表
-  * 创建群
-  * 修改群
-  * 解散群
-  * 获取群成员列表
-  * 设置群管理员
-  * 删除群成员
-  * 获取群消息举报列表
-  * 设置群消息举报状态
-  * 设置我的群消息通知状态
+  * [根据群类别，获取推荐群列表](liao-tian-mo-kuai/gen-ju-qun-lei-bie-ff0c-huo-qu-tui-jian-qun-lie-biao.md)
+  * [创建群](liao-tian-mo-kuai/chuang-jian-qun.md)
+  * [修改群](liao-tian-mo-kuai/xiu-gai-qun.md)
+  * [解散群](liao-tian-mo-kuai/jie-san-qun.md)
+  * [获取群成员列表](liao-tian-mo-kuai/huo-qu-qun-cheng-yuan-lie-biao.md)
+  * [设置群管理员](liao-tian-mo-kuai/she-zhi-qun-guan-li-yuan.md)
+  * [删除群成员](liao-tian-mo-kuai/shan-chu-qun-cheng-yuan.md)
+  * [获取群消息举报列表](liao-tian-mo-kuai/huo-qu-qun-xiao-xi-ju-bao-lie-biao.md)
+  * [设置群消息举报状态](liao-tian-mo-kuai/she-zhi-qun-xiao-xi-ju-bao-zhuang-tai.md)
+  * [设置我的群消息通知状态](liao-tian-mo-kuai/she-zhi-wo-de-qun-xiao-xi-tong-zhi-zhuang-tai.md)
   * [获取群加入申请列表](liao-tian-mo-kuai/huo-qu-qun-jia-ru-shen-qing-lie-biao.md)
   * [新增群加入申请](liao-tian-mo-kuai/xin-zeng-qun-jia-ru-shen-qing.md)
   * [设置群加入申请状态](liao-tian-mo-kuai/she-zhi-qun-jia-ru-shen-qing-zhuang-tai.md)
-  * [创建临时会话群](liao-tian-mo-kuai/chuang-jian-lin-shi-hui-hua-qun.md)
-  * 发消息
+  * [发消息](liao-tian-mo-kuai/fa-xiao-xi.md)
+  * [设置消息已读](liao-tian-mo-kuai/she-zhi-xiao-xi-yi-du.md)
 
