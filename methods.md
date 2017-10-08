@@ -92,7 +92,7 @@
 | PersonPost | string | 否 | 岗位（冗余） |
 | PersonDepartment | string | 否 | 部门（冗余） |
 | ActivityPersonPerson | object | 是 | 人员实体 |
-| PersonStatus | int | 是 | 状态：1报名, 10签到，11请假，12缺席 |
+| PersonStatus | int | 是 | 状态：0参会人员，1报名, 10签到，11请假，12缺席 |
 | SignUpTime | string | 是 | 报名时间 |
 | SignTime | string | 否 | 签到时间 |
 | SignPlace | string | 否 | 签到地点（定位） |

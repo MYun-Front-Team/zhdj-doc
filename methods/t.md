@@ -33,6 +33,7 @@ _**【接口地址】**_
 | PointsValues | array object | 否（可选配置） | 积分赠送配置 |
 | HostPersonSysNo | int | 否 | 主持人编码 |
 | HostPersonName | string | 否 | 主持人姓名 |
+| ActivityPersonConfig | object | 否 | 默认参会人员配置 |
 
 #### PointsValues说明 {#应答数据-}
 
@@ -40,6 +41,14 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | PointsConfigSysNo | int | 是 | 积分配置系统编码 |
 | PointsValue | int | 是 | 积分值 |
+
+#### ActivityPersonConfig说明 {#应答数据-}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ModuleSysNo | int | 是 | 模块编码（枚举） |
+| ActivityPersonSourceType | int | 是 | 参会人员类型：0Person，1模块自定义类型 |
+| ActivityPersonSourceSysNoList | array int | 否 | 参会人员类型对应的编码列表（为空时，判断数据范围下的全部人员） |
 
 #### _应答数据_ {#应答数据-}
 
