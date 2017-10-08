@@ -163,10 +163,11 @@
   * [新增群加入申请](liao-tian-mo-kuai/xin-zeng-qun-jia-ru-shen-qing.md)
   * [设置群加入申请状态](liao-tian-mo-kuai/she-zhi-qun-jia-ru-shen-qing-zhuang-tai.md)
   * [发消息](liao-tian-mo-kuai/fa-xiao-xi.md)
-  * [设置消息已读](liao-tian-mo-kuai/she-zhi-xiao-xi-yi-du.md)
   * [获取群消息列表](liao-tian-mo-kuai/huo-qu-qun-xiao-xi-lie-biao.md)
+  * [设置消息已读或点赞等状态](liao-tian-mo-kuai/she-zhi-xiao-xi-yi-du.md)
   * [获取我的历史会话列表](liao-tian-mo-kuai/huo-qu-wo-de-li-shi-hui-hua-lie-biao.md)
   * [新增好友申请](liao-tian-mo-kuai/xin-zeng-hao-you-shen-qing.md)
   * [设置好友申请状态](liao-tian-mo-kuai/she-zhi-hao-you-jia-ru-shen-qing-zhuang-tai.md)
   * [获取好友申请列表](liao-tian-mo-kuai/huo-qu-hao-you-shen-qing-lie-biao.md)
+  * [获取群消息详情](liao-tian-mo-kuai/huo-qu-qun-xiao-xi-xiang-qing.md)
 
