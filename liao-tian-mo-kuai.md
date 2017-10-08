@@ -41,6 +41,7 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| DataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表 |
 | UserGender | int | 否 | 性别：0全部，1男，2女 |
 | KeyWord | string | 否 | 关键字搜索 |
 

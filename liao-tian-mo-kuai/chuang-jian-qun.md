@@ -20,6 +20,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| DataRangeSysNoList | array int | 是 | 数据范围枝叶编码列表（必须在不同的树中的枝叶） |
 | GroupType | int | 是 | 群类型（枚举） |
 | GroupClassSysNo | int | 否 | 群分类系统编码（会话类型时可为空）（类别树） |
 | GroupID | string | 否 | 群ID |
