@@ -34,6 +34,8 @@
 | ModuleRelationList | array object | 否 | 关联模块列表 |
 | HostPersonSysNo | int | 否 | 主持人编码 |
 | HostPersonName | string | 否 | 主持人姓名 |
+| ActivityPersonConfig | object | 否 | 参会人员默认配置 |
+| LiveStatus | int | 否 | 直播状态：0无，1直播中，10直播结束 |
 
 > #### 统计计算字段 {#请求数据}
 
