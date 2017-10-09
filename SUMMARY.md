@@ -171,4 +171,5 @@
   * [设置好友申请状态](liao-tian-mo-kuai/she-zhi-hao-you-jia-ru-shen-qing-zhuang-tai.md)
   * [获取好友申请列表](liao-tian-mo-kuai/huo-qu-hao-you-shen-qing-lie-biao.md)
   * [获取群消息详情](liao-tian-mo-kuai/huo-qu-qun-xiao-xi-xiang-qing.md)
+  * [获取我的推荐群列表](liao-tian-mo-kuai/huo-qu-wo-de-tui-jian-qun-lie-biao.md)
 

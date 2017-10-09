@@ -34,6 +34,7 @@ _**【接口地址】**_
 | Latitude | decimal\(18,10\) | 否 | 纬度 |
 | Remark | string | 否 | 备注 |
 | FilePathList | array string | 否 | 文件path路径列表 |
+| PersonSysNoList | array int | 是 | 成员人员系统编码列表 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
