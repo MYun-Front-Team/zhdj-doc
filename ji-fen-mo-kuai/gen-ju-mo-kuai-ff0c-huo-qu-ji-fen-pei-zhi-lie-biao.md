@@ -31,6 +31,7 @@ _**【接口地址】**_
 | PointsCycle | int | 是 | 赠送周期天数（用来判断一个周期内最多赠送次数，0无限） |
 | MaxNum | int | 是 | 一个周期内最多赠送次数，0无限 |
 | PointsValue | int | 否 | 默认值 |
+| IsNeedConfigValue |  |  | 是否需要配置值 |
 
 
 
