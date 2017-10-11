@@ -43,13 +43,12 @@ _**【接口地址】**_
 | CellPhoneNo | string | 否 | 手机 |
 | UserGender | int | 否 | 性别：1男，2女 |
 | BirthDay | string | 否 | 生日 |
+| PersonAge | int | 否 | 年龄 |
 | PCDCode | string | 否 | 省市区 |
 | PCDDescription | string | 否 | 省市区 |
 | ContractAddress | string | 否 | 地址 |
 | ~~Post~~ | ~~string~~ | ~~否~~ | ~~工作岗位~~ |
 | FileUrlList | array string | 否 | 图片列表（首图为头像） |
-
-
 
 
 
