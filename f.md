@@ -40,6 +40,8 @@
 | PointsValue | int | 否 | 积分值 |
 | PointsValueRanking | int | 否 | 积分排名 |
 | InnerPartyStatusCountList | array object | 否 | 党内状态人数汇总列表 |
+| ReportCount | int | 否 | 汇报数量 |
+| MomentsCount | int | 否 | 朋友圈数量 |
 
 InnerPartyStatusCountList说明：
 
@@ -102,6 +104,8 @@ InnerPartyStatusCountList说明：
 | IsShowActivityInfoList | int | 否 | 是否显示活动汇总 |
 | IsShowStudyInfoList | int | 否 | 是否显示学习汇总 |
 | IsShowInnerPartyStatusList | int | 否 | 是否显示党内状态数量 |
+| IsShowReportCount | int | 否 | 是否显示汇报数量 |
+| IsShowMomentsCount | int | 否 | 是否显示朋友圈数量 |
 
 ####  {#应答数据-（巡河记录数组）}
 
