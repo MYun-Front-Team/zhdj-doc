@@ -6,7 +6,13 @@
 
 _**【应用场景】**_
 
-活动报名后才能请假。（该接口不支持未报名也可请假的功能场景）底层需通过InUserSysNo找到Person实体，冗余信息到人相关字段中。
+功能1：IsNeedSignUp=0或空，可直接请假，跳过报名环节；
+
+功能2：SignInPersonSysNo&gt;0，则提供代请假功能；
+
+功能3：先报名，后请假。
+
+底层需通过InUserSysNo找到Person实体，冗余信息到人相关字段中。
 
 _**【接口地址】**_
 
@@ -23,6 +29,8 @@ _**【接口地址】**_
 | Longitude | decimal | 否 | 经度（定位） |
 | Latitude | decimal | 否 | 纬度（定位） |
 | Remark | string | 否 | 备注 |
+| IsNeedSignUp | int | 否 | 是否需要报名：0否，1是 |
+| SignInPersonSysNo | int | 否 | 需代签人员系统编码 |
 
 
 
