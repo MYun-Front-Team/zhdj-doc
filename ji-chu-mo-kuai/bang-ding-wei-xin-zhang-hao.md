@@ -25,6 +25,9 @@ _**【接口地址】**_
 | LoginID | string | 是 | 用户名（微信OpenID） |
 | CellPhoneNo | string | 是 | 手机号 |
 | BizCompanyCode | int | 是 | 项目标识符（枚举） |
+| Longitude | decimal\(18,10\) | 否 | 经度 |
+| Latitude | decimal\(18,10\) | 否 | 纬度 |
+| FilePathList | array string | 否 | 文件图片Path路径列表 |
 
 #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
