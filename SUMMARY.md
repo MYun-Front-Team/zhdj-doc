@@ -83,6 +83,7 @@
   * [获取党费记录日志列表](f/huo-qu-dang-fei-ji-lu-ri-zhi-lie-biao.md)
   * [获取党员年缴费情况列表](f/huo-qu-dang-yuan-nian-jiao-fei-qing-kuang-lie-biao.md)
   * [获取支部党费配置](f/huo-qu-zhi-bu-dang-fei-pei-zhi.md)
+  * [获取支部党员党费缴纳列表](f/huo-qu-zhi-bu-dang-yuan-dang-fei-jiao-na-lie-biao.md)
 * [帮扶管理（删）](methods/bang-fu-guan-li.md)
   * [获取帮扶列表](methods/bang-fu-guan-li/huo-qu-bang-fu-lie-biao.md)
   * [获取帮扶详情](methods/bang-fu-guan-li/huo-qu-bang-fu-xiang-qing.md)
