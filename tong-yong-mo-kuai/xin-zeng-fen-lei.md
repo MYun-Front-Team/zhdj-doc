@@ -24,6 +24,8 @@ _**【接口地址】**_
 | CategoryName | string | 否 | 类别名称 |
 | FilePathList | array string | 否 | 文件图片Path路径 |
 | SortNo | int | 否 | 排序 |
+| IcoImgType | int | 否 | 图片风格 |
+| IcoFontType | int | 否 | 文字风格 |
 
 > #### 应答数据 {#应答数据-}
 
