@@ -16,11 +16,10 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| SourceType | int | 是 | 来源类型 |
-| SourceSysNo | int | 是 | 来源编码 |
-| ObjectPropertys | array object | 是 | 属性值列表 |
-
-####  {#应答数据-}
+| ModuleSysNo | int | 是 | 模块编码（枚举） |
+| ModuleSourceType | int | 否 | 模块类型（枚举） |
+| ModuleSourceClass | int | 否 | 模块类型分类编码（分类） |
+| Propertys | array object | 是 | 属性列表（含属性值） |
 
 
 

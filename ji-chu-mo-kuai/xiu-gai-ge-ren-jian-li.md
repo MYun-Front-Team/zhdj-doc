@@ -17,6 +17,8 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ResumeSysNo | int | 是 | 系统编码 |
+| ResumePost | string | 否 | 岗位 |
+| ResumeAddress | string | 否 | 地点 |
 | ResumeStartDate | string | 是 | 简历开始时间 |
 | ResumeEndDate | string | 是 | 简历结束时间 |
 | ResumeDesc | string | 是 | 描述 |

@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 完善个人信息
 
+注：人员属性列表参数不提供则不修改，提供但列表数量为0则删除。
+
 _**【接口地址】**_
 
 [http://ip:port/BasicAction/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Basic](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[/E](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)ditPerson
@@ -33,6 +35,7 @@ _**【接口地址】**_
 | FileUrlList | array string | 否 | 图片列表（首图为头像） |
 | PersonProfile | string | 否 | 个人简介 |
 | WorkingDate | string | 否 | 参加工作日期 |
+| Propertys | array object | 否 | 人员属性列表（见通用属性说明） |
 
 
 

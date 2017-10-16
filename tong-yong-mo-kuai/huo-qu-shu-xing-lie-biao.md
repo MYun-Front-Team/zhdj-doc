@@ -16,18 +16,19 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| SourceType | int | 是 | 来源类型 |
-| SourceSysNo | int | 是 | 来源编码 |
-| IsShowPropertyValues | int | 否 | 是否显示默认属性值列表 |
+| ModuleSysNo | int | 是 | 模块编码（枚举） |
+| ModuleSourceType | int | 否 | 模块类型（枚举） |
+| ModuleSourceClass | int | 否 | 模块类型分类编码（分类） |
 
 > #### _应答数据（Propertys数组）_ {#应答数据-}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PropertySysNo | int | 是 | 属性系统编码 |
+| PropertyType | int | 是 | 属性适应类型 |
 | PropertyName | string | 是 | 属性名 |
 | IsAllowNull | int | 是 | 是否允许空 |
-| IsOptional | int | 是 | 属性值类型：0文本，1单休，2多选 |
+| IsOptional | int | 是 | 属性值类型：0文本，1单休，2多选，3关联 |
 | PropertyValues | array object | 否 | 属性值列表 |
 
 | 变量名 | 类型 | 是否必须 | 描述 |
@@ -35,7 +36,6 @@ _**【接口地址】**_
 | PropertyValueSysNo | int | 是 | 属性值系统编码 |
 | PropertySysNo | int | 是 | 属性系统编码 |
 | PropertyValue | string | 是 | 属性值 |
-| SortNo | int | 否 | 排序 |
 
 
 
