@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 删除分类
 
+注：删除只设置不可用状态，查询列表的时候过滤掉，不影响历史数据的显示。
+
 _**【接口地址】**_
 
 [http://ip:port/UMAction/Category/DeleteC](http://ip:port/HMQuery/RiverMaster/GetRiverMasterByRiverMasterSysNo)ategory

@@ -19,7 +19,8 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | DataRangeSysNo | int | 是 | 数据范围树枝叶系统编码 |
-| StudyType | int | 是 | 学习类型 |
+| StudyType | int | 是 | 学习类型（枚举） |
+| StudyClassSysNo | int | 否 | 学习分类编码 |
 | StudyDesc | string | 是 | 学习描述 |
 | FilePath | string | 是 | 文件图片路径 |
 
