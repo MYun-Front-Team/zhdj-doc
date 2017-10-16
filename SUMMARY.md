@@ -178,6 +178,11 @@
   * [新增好友申请](liao-tian-mo-kuai/xin-zeng-hao-you-shen-qing.md)
   * [设置好友申请状态](liao-tian-mo-kuai/she-zhi-hao-you-jia-ru-shen-qing-zhuang-tai.md)
   * [获取好友申请列表](liao-tian-mo-kuai/huo-qu-hao-you-shen-qing-lie-biao.md)
+  * [获取我的好友申请列表](liao-tian-mo-kuai/huo-qu-wo-de-hao-you-shen-qing-lie-biao.md)
   * [获取群消息详情](liao-tian-mo-kuai/huo-qu-qun-xiao-xi-xiang-qing.md)
   * [获取我的推荐群列表](liao-tian-mo-kuai/huo-qu-wo-de-tui-jian-qun-lie-biao.md)
+  * [获取我的推荐好友列表](liao-tian-mo-kuai/huo-qu-wo-de-tui-jian-hao-you-lie-biao.md)
+  * [获取我的好友列表](liao-tian-mo-kuai/huo-qu-wo-de-hao-you-lie-biao.md)
+  * [获取我的非好友列表](liao-tian-mo-kuai/huo-qu-wo-de-fei-hao-you-ren-yuan-lie-biao.md)
+  * [删除好友](liao-tian-mo-kuai/shan-chu-hao-you.md)
 
