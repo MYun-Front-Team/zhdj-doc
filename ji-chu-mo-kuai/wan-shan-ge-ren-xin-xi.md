@@ -36,6 +36,7 @@ _**【接口地址】**_
 | PersonProfile | string | 否 | 个人简介 |
 | WorkingDate | string | 否 | 参加工作日期 |
 | Propertys | array object | 否 | 人员属性列表（见通用属性说明） |
+| PrivacyPropertys | array object | 否 | 隐私属性列表 |
 
 
 

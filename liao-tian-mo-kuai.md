@@ -43,7 +43,7 @@
 | :--- | :--- | :--- | :--- |
 | DataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表 |
 | UserGender | int | 否 | 性别：0全部，1男，2女 |
-| KeyWord | string | 否 | 关键字搜索 |
+| KeyWord | string | 否 | 关键字搜索：手机号、昵称 |
 
 > #### Limit限制字段 {#请求数据}
 

@@ -22,11 +22,15 @@ _**【接口地址】**_
 | MsgStartTime | string | 否 | 消息开始时间 |
 | MsgEndTime | string | 否 | 消息结束时间 |
 
-> #### _应答数据 _ {#应答数据-（巡河记录数组）}
+> #### _应答数据 （Msg）_ {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-
+| MsgSysNo | int | 是 | 消息系统编码 |
+| MsgID | string | 否 | 消息ID |
+| Person | object | 是 | 发送人成员实体（见基础模块登录） |
+| MsgType | int | 是 | 消息内容形式（端自定义） |
+| MsgContent | string | 是 | 消息内容（端自定义） |
 
 
 

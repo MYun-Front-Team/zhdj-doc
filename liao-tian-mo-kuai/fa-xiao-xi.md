@@ -22,6 +22,7 @@ _**【接口地址】**_
 | MsgID | string | 否 | 消息ID |
 | MsgType | string | 是 | 消息内容形式（端自定义） |
 | MsgContent | string | 是 | 消息内容（端自定义） |
+| ShortContent | string | 是 | 消息内容简述 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
