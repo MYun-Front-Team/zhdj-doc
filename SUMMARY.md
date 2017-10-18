@@ -192,7 +192,7 @@
   * [获取我的群列表](liao-tian-mo-kuai/huo-qu-wo-de-qun-lie-biao.md)
 * [选人模块](xuan-ren-mo-kuai.md)
   * [获取选人模板](xuan-ren-mo-kuai/huo-qu-xuan-ren-mo-ban-lie-biao.md)
-  * 获取选人规则
-  * 设置选人规则
+  * [获取选人规则](xuan-ren-mo-kuai/huo-qu-xuan-ren-gui-ze.md)
+  * [设置选人规则](xuan-ren-mo-kuai/she-zhi-xuan-ren-gui-ze.md)
   * 根据选人规则，获取人员列表
 
