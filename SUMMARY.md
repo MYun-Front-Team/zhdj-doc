@@ -147,6 +147,7 @@
   * [新增个人联系方式](ji-chu-mo-kuai/xin-zeng-ge-ren-lian-xi-fang-shi.md)
   * [修改个人联系方式](ji-chu-mo-kuai/xiu-gai-ge-ren-lian-xi-fang-shi.md)
   * [删除个人联系方式](ji-chu-mo-kuai/shan-chu-ge-ren-lian-xi-fang-shi.md)
+  * [根据数据范围类型，获取数据范围列表](ji-chu-mo-kuai/gen-ju-shu-ju-fan-wei-lei-xing-ff0c-huo-qu-shu-ju-fan-wei-lie-biao.md)
 * [朋友圈模块](peng-you-quan-mo-kuai.md)
   * [获取朋友圈列表](peng-you-quan-mo-kuai/huo-qu-peng-you-quan-lie-biao.md)
   * [获取朋友圈详情](peng-you-quan-mo-kuai/huo-qu-peng-you-quan-xiang-qing.md)
@@ -194,5 +195,5 @@
   * [获取选人模板](xuan-ren-mo-kuai/huo-qu-xuan-ren-mo-ban-lie-biao.md)
   * [获取选人规则](xuan-ren-mo-kuai/huo-qu-xuan-ren-gui-ze.md)
   * [设置选人规则](xuan-ren-mo-kuai/she-zhi-xuan-ren-gui-ze.md)
-  * 根据选人规则，获取人员列表
+  * [根据选人规则，获取人员列表](xuan-ren-mo-kuai/gen-ju-xuan-ren-gui-ze-ff0c-huo-qu-ren-yuan-lie-biao.md)
 

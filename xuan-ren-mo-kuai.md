@@ -4,7 +4,7 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| PickSysNo | int | 是 | 系统编码 |
+| PickRuleSysNo | int | 是 | 系统编码 |
 | ModuleSysNo | int | 是 | 模块编码（枚举） |
 | ModuleSourceType | int | 否 | 模块类型（枚举） |
 | ModuleSourceClass | int | 否 | 模块分类系统编码（类别树） |
@@ -26,7 +26,8 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| Person | object | 是 | 人员实体（简版） |
+| PersonSysNo | int | 是 | 人员系统编码 |
+| Person | object | 否 | 人员实体（简版） |
 | ExcludeStatus | int | 是 | 状态： 0新添，1排除 |
 
 > #### PickStatistic统计计算字段 {#请求数据}
