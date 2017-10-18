@@ -189,4 +189,5 @@
   * [获取我的好友列表](liao-tian-mo-kuai/huo-qu-wo-de-hao-you-lie-biao.md)
   * [获取我的非好友列表](liao-tian-mo-kuai/huo-qu-wo-de-fei-hao-you-ren-yuan-lie-biao.md)
   * [删除好友](liao-tian-mo-kuai/shan-chu-hao-you.md)
+  * [获取我的群列表](liao-tian-mo-kuai/huo-qu-wo-de-qun-lie-biao.md)
 
