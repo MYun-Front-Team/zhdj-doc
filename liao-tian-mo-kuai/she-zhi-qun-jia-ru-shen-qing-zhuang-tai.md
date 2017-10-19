@@ -18,7 +18,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| GroupJoinSysNo | int | 是 | 群加入申请系统编码 |
+| GroupJoinSysNoList | array int | 是 | 群加入申请系统编码列表 |
 | JoinStatus | int | 是 | 加入状态：0申请中，1加入，2拒绝 |
 | RefuseReason | string | 否 | 拒绝理由 |
 

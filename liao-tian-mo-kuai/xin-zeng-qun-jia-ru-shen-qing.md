@@ -21,7 +21,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | GroupSysNo | int | 是 | 群系统编码 |
-| PersonSysNo | int | 否 | 加入成员系统编码 |
+| PersonSysNoList | array int | 否 | 加入成员系统编码列表 |
 | JoinReason | string | 否 | 加入理由 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}

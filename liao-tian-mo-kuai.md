@@ -30,12 +30,14 @@
 | JoinGroupCount | int | 否 | 我的加群数量 |
 | GroupJoinStatus | int | 否 | 某个群我的加入状态：0申请中，1加入，2拒绝 |
 | IsFriend | int | 否 | 是否朋友：0否，1是 |
+| MyGroupRole | object | 否 | 我的群角色权限 |
 
-> #### 功能按钮字段 {#请求数据}
+> #### MyGroupRole说明 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-
+| IsFounder | int | 否 | 是否创建人 |
+| IsManager | int | 否 | 是否管理员 |
 
 #### Query查询字段 {#请求数据}
 
@@ -44,7 +46,7 @@
 | DataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表 |
 | UserGender | int | 否 | 性别：0全部，1男，2女 |
 | KeyWord | string | 否 | 关键字搜索：手机号、昵称 |
-| GroupType | int | 否 | 群类型（枚举） |
+| GroupTypeList | int | 否 | 群类型列表（枚举） |
 
 > #### Limit限制字段 {#请求数据}
 
@@ -58,6 +60,7 @@
 | IsShowGroupJoinStatus | int | 否 | 是否显示我的加群状态 |
 | IsShowAuditPerson | int | 否 | 是否显示我的加群审核人 |
 | IsShowIsFriend | int | 否 | 是否显示是否朋友 |
+| IsShowMyGroupRole | int | 否 | 是否显示我的群角色权限 |
 
 ####  {#应答数据-（巡河记录数组）}
 
