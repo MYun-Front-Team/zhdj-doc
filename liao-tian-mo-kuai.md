@@ -31,6 +31,7 @@
 | GroupJoinStatus | int | 否 | 某个群我的加入状态：0申请中，1加入，2拒绝 |
 | IsFriend | int | 否 | 是否朋友：0否，1是 |
 | MyGroupRole | object | 否 | 我的群角色权限 |
+| UnReadCount | int | 否 | 某个群的未读条数 |
 
 > #### MyGroupRole说明 {#请求数据}
 
