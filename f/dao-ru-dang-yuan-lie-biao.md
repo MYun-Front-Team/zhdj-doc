@@ -20,10 +20,10 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| DataRangeName | int | 是 | 所属支部名称（中文） |
+| DataRangeName | string | 是 | 所属支部名称（中文） |
 | MemberName | string | 是 | 姓名 |
 | CellPhoneNo | string | 是 | 手机 |
-| MemberGender | string | 否 | 性别（中文）：1男，2女 |
+| MemberGender | string | 否 | 性别（中文）：0未知，1男，2女 |
 | IDCard | string | 否 | 身份证 |
 | Nation | string | 否 | 民族 |
 | Origin | string | 否 | 籍贯 |
