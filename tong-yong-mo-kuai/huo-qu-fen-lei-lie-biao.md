@@ -30,6 +30,7 @@ _**【接口地址】**_
 | CategoryCode | string | 否 | 类别代码 |
 | CategoryName | string | 否 | 类别名称 |
 | SortNo | int | 否 | 排序 |
+| Remark | string | 否 | 备注 |
 | Categorys | array object | 否 | 类别列表 |
 
 

@@ -23,6 +23,7 @@ _**【接口地址】**_
 | SortNo | int | 否 | 排序 |
 | IcoImgType | int | 否 | 图片风格 |
 | IcoFontType | int | 否 | 文字风格 |
+| Remark | string | 否 | 备注 |
 
 > #### 应答数据 {#应答数据-}
 
