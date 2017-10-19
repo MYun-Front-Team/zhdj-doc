@@ -62,6 +62,7 @@
 | IsShowAuditPerson | int | 否 | 是否显示我的加群审核人 |
 | IsShowIsFriend | int | 否 | 是否显示是否朋友 |
 | IsShowMyGroupRole | int | 否 | 是否显示我的群角色权限 |
+| IsShowUnReadCount | int | 否 | 是否显示我的某个群的未读数量 |
 
 ####  {#应答数据-（巡河记录数组）}
 
