@@ -35,6 +35,8 @@ _**【接口地址】**_
 | HostPersonName | string | 否 | 主持人姓名 |
 | ~~ActivityPersonConfig~~ | ~~object~~ | ~~否~~ | ~~默认参会人员配置~~ |
 | PickRuleTemplateList | array object | 否（可选配置） | 选人规则 |
+| SponsorName | string | 否（可选配置） | 主办方 |
+| CoSponsorName | string | 否（可选配置） | 协办方 |
 
 #### PointsValues说明 {#应答数据-}
 

@@ -36,6 +36,8 @@
 | HostPersonName | string | 否 | 主持人姓名 |
 | ActivityPersonConfig | object | 否 | 参会人员默认配置 |
 | LiveStatus | int | 否 | 直播状态：0无，1直播中，10直播结束 |
+| SponsorName | string | 否 | 主办方 |
+| CoSponsorName | string | 否 | 协办方 |
 
 > #### 统计计算字段 {#请求数据}
 

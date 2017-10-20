@@ -34,6 +34,8 @@ _**【接口地址】**_
 | HostPersonSysNo | int | 否 | 主持人编码 |
 | HostPersonName | string | 否 | 主持人姓名 |
 | PickRuleTemplateList | array object | 否 | 选人规则 |
+| SponsorName | string | 否（可选配置） | 主办方 |
+| CoSponsorName | string | 否（可选配置） | 协办方 |
 
 
 
