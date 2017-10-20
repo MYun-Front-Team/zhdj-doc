@@ -33,6 +33,7 @@ _**【接口地址】**_
 | PointsValues | array object | 否（可选配置） | 积分赠送配置 |
 | HostPersonSysNo | int | 否 | 主持人编码 |
 | HostPersonName | string | 否 | 主持人姓名 |
+| PickRuleTemplateList | array object | 否 | 选人规则 |
 
 
 
