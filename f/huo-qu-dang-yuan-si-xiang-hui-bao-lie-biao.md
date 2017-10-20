@@ -24,6 +24,7 @@ _**【接口地址】**_
 | ReportEndTime | string | 否 | 汇报结束时间 |
 | KeyWord | string | 否 | 关键字（标题） |
 | IsOwner | int | 否 | 是否显示自己的：0否，1是（不传查全部，传值需通过UserSysNo匹配Person） |
+| PersonSysNo | int | 否 | 查看该人的数据 |
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 
