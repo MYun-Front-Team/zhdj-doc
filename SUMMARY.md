@@ -149,6 +149,7 @@
   * [修改个人联系方式](ji-chu-mo-kuai/xiu-gai-ge-ren-lian-xi-fang-shi.md)
   * [删除个人联系方式](ji-chu-mo-kuai/shan-chu-ge-ren-lian-xi-fang-shi.md)
   * [根据数据范围类型，获取数据范围列表](ji-chu-mo-kuai/gen-ju-shu-ju-fan-wei-lei-xing-ff0c-huo-qu-shu-ju-fan-wei-lie-biao.md)
+  * [获取数据范围树等级列表](ji-chu-mo-kuai/huo-qu-shu-ju-fan-wei-shu-deng-ji-lie-biao.md)
 * [朋友圈模块](peng-you-quan-mo-kuai.md)
   * [获取朋友圈列表](peng-you-quan-mo-kuai/huo-qu-peng-you-quan-lie-biao.md)
   * [获取朋友圈详情](peng-you-quan-mo-kuai/huo-qu-peng-you-quan-xiang-qing.md)
