@@ -20,6 +20,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | DataRangeSysNo | int | 是 | 数据范围树枝叶系统编码 |
 | ActivityType | int | 是 | 活动类型（枚举） |
+| ActivityClassSysNo | int | 否 | 活动分类编码 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 

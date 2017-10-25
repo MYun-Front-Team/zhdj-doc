@@ -20,6 +20,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | DataRangeSysNo | int | 是 | 数据范围树枝叶系统编码 |
 | ActivityType | int | 是 | 活动类型 |
+| ActivityClassSysNo | int | 否 | 活动分类编码 |
 | ActivityDesc | string | 是 | 活动描述 |
 | FilePath | string | 是 | 文件图片路径 |
 
