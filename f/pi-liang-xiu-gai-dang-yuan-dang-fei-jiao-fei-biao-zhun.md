@@ -19,8 +19,8 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PartyMemberSysNoList | array int | 是 | 党员系统编码列表 |
-| DuesStandard | decimal | 是 | 党费标准 |
-| DuesDate | string | 是 | 党费交至年月 |
+| DuesStandard | decimal | 否 | 党费标准 |
+| DuesDate | string | 否 | 党费交至年月 |
 
 
 

@@ -28,7 +28,7 @@ _**【接口地址】**_
 | FeeStartDate | string | 是 | 开始年月 |
 | FeeEndDate | string | 是 | 结束年月 |
 | Remark | string | 否 | 备注 |
-| FeeStatus | int | 是 | 状态：10有效，11无效 |
+| FeeStatus | int | 是 | 状态：0待确认，10有效，11无效 |
 | CreatePersonName | string | 是 | 录入人姓名 |
 | RemoveReason | string | 否 | 作废原因 |
 | RemovePersonName | string | 否 | 作废人姓名 |
