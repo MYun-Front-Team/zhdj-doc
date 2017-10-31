@@ -20,13 +20,13 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| PartyFeeLogSysNo | int | 是 | 党费记录日志系统编码 |
+| FeeLogSysNo | int | 是 | 党费记录日志系统编码 |
 | Fee | decimal\(18,2\) | 是 | 金额 |
 | DuesStandard | decimal\(18,2\) | 是 | 缴费标准（元/月） |
 | FeeStartDate | string | 是 | 开始年月 |
 | FeeEndDate | string | 是 | 结束年月 |
 | Remark | string | 否 | 备注 |
-| FeeStatus | int | 否 | 状态：10有效，11无效 |
+| FeeStatus | int | 是 | 状态：10有效，11无效 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 

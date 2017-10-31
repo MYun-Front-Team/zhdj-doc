@@ -17,6 +17,14 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PersonSysNo | int | 是 | 人员编码（如果不传则获取UserSysNo对应的Person） |
+| Limit | object | 否 | 限制条件 |
+
+#### Limit说明_ _ {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| IsShowPropertys | int | 否 | 是否显示人员属性列表 |
+| IsShowPrivacyPropertys | int | 否 | 是否显示隐私属性列表 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
@@ -40,6 +48,8 @@ _**【接口地址】**_
 | FileUrlList | array string | 否 | 图片列表（首图为头像） |
 | PersonProfile | string | 否 | 个人简介 |
 | WorkingDate | string | 否 | 参加工作日期 |
+| Propertys | array object | 否 | 人员属性列表（见通用属性说明） |
+| PrivacyPropertys | array object | 否 | 隐私属性列表 |
 
 
 
