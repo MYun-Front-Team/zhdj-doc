@@ -91,6 +91,7 @@ InnerPartyStatusCountList说明：
 | DepartmentPostList | array int | 否 | 所属支部职务：0党员,1书记，2副书记，3组织委员，4宣传委员 |
 | PartyPostList | array int | 否 | 党内职务：0党员,1书记，2副书记，3组织委员，4宣传委员 |
 | OrganizationalStatusList | array int | 否 | 组织状态：0正常，1流动党员 |
+| HasConfirmedByFeeList | array int | 否 | 是否存在待确认党费缴费记录：0否，1是 |
 
 > #### 查询Limit字段 {#请求数据}
 
