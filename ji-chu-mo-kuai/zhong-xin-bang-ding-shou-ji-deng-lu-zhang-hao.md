@@ -25,6 +25,7 @@ _**【接口地址】**_
 | OldCellPhoneNo | string | 是 | 旧手机号 |
 | NewCellPhoneNo | string | 是 | 新手机号 |
 | Captcha | string | 是 | 新手机验证码 |
+| BizCompanyCode | int | 是 | 项目标识符（枚举） |
 
 
 
