@@ -58,7 +58,7 @@
   * [新增党员](f/xin-zeng-dang-yuan.md)
   * [修改党员](f/xiu-gai-dang-yuan.md)
   * [新增党员转入转出记录](f/xin-zeng-dang-yuan-zhuan-ru-zhuan-chu-ji-lu.md)
-  * [修改党员转入转出记录](f/xiu-gai-dang-yuan-zhuan-ru-zhuan-chu-ji-lu.md)
+  * [获取党员转入转出记录列表](f/xiu-gai-dang-yuan-zhuan-ru-zhuan-chu-ji-lu.md)
   * [新增党员先锋站](f/xin-zeng-dang-yuan-xian-feng-zhan.md)
   * [修改党员先锋站](f/xiu-gai-dang-yuan-xian-feng-zhan.md)
   * [删除党员先锋站](f/shan-chu-dang-yuan-xian-feng-zhan.md)

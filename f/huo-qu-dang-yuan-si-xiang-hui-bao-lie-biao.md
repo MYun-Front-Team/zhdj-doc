@@ -34,6 +34,7 @@ _**【接口地址】**_
 | ReportTitle | string | 是 | 主题 |
 | ReportContent | string | 是 | 内容 |
 | Remark | string | 否 | 备注 |
+| ReportPerson | object | 否 | 人员实体对象（简版） |
 
 
 

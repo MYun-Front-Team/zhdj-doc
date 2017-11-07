@@ -16,11 +16,16 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| PartyMemberSysNo | int | 是 | 所属党员编码 |
-| MoveInSysNo | int | 否（二选一必填） | 转入支部编码 |
-| MoveOutSysNo | int | 否 | 转出支部编码 |
-| MoveInTime | string | 否（二选一必填） | 转入时间 |
-| MoveOutTime | string | 否 | 转出时间 |
+| PartyMemberSysNo | int | 否 | 所属党员编码 |
+| RealName | string | 是 | 姓名 |
+| CellPhoneNo | string | 是 | 手机 |
+| InnerPartyStatus | int | 是 | 党内状态：0入党积极分子，1预备党员，2正式党员 |
+| MoveType | int | 是 | 类型：0转入，1转出 |
+| MoveInSysNo | int | 是 | 转入支部编码 |
+| MoveInName | string | 是 | 转入支部名称 |
+| MoveOutSysNo | int | 是 | 转出支部编码 |
+| MoveOutName | string | 是 | 转出支部名称 |
+| MoveTime | string | 否 | 流转时间 |
 | Remark | string | 否 | 备注 |
 | FilePaths | array string | 否 | 文件路径列表 |
 
