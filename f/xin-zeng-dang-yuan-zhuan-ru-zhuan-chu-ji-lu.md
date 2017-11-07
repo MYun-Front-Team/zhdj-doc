@@ -8,6 +8,10 @@ _**【应用场景】**_
 
 新增党员转入转出记录
 
+注：1、当转移的人员在我们系统不存在的时候新增Person和党员信息（含客户端登录账号，同原新增党员接口）；
+
+2、转入支部或转出支部允许其中一个支部编码为0，即不应用我们系统的情况；
+
 _**【接口地址】**_
 
 [http://ip:port/PartyAction/Party/Add](http://ip:port/HMAction/River/AddRiver)PartyMemberMove
