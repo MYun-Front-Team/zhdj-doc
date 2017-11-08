@@ -18,9 +18,11 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | DataRangeSysNo | int | 否 | 所属支部系统编码 |
 | MoveSysNo | int | 否 | 系统编码 |
+| MoveType | int | 否 | 类型：0转入，1转出 |
 | PartyMemberSysNo | int | 否 | 所属党员编码 |
-| RealName | string | 否 | 姓名 |
-| CellPhoneNo | string | 否 | 手机 |
+| ~~RealName~~ | ~~string~~ | ~~否~~ | ~~姓名~~ |
+| ~~CellPhoneNo~~ | ~~string~~ | ~~否~~ | ~~手机~~ |
+| KeyWord | string | 否 | 关键字搜索（姓名、手机号） |
 | MoveStartTime | string | 否 | 转移开始时间 |
 | MoveEndTime | string | 否 | 转移结束时间 |
 
