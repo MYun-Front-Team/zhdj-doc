@@ -18,7 +18,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| DeviceType | int | 是 | 设备类型：1IOS，2安卓 |
+| DeviceType | int | 是 | 设备类型：1IOS，2安卓，3小米，4华为 |
 | DeviceToken | string | 是 | 设备Token |
 
 
