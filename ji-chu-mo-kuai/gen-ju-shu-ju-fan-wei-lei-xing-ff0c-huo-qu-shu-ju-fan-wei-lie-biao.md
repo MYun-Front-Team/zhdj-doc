@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 根据数据范围类型，获取数据范围列表
 
+注：当IsOwner=1,只显示该UserSysNo所属数据范围权限下的列表。
+
 _**【接口地址】**_
 
 [http://ip:port/BasicQuery/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Basic](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)DataRangeListByGradeType
@@ -18,6 +20,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | TreeSysNo | int | 是 | 树系统编码（枚举） |
 | DataRangeGradeType | int | 否 | 数据范围等级类型 |
+| IsOwner | int | 否 | 是否只显示自己的数据权限 |
 
 > #### _应答数据 （返回结构同”获取数据范围树“，无子节点数据）_ {#应答数据-（巡河记录数组）}
 
