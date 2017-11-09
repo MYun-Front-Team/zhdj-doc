@@ -26,7 +26,7 @@ _**【接口地址】**_
 | FeeStartDate | string | 是 | 开始年月 |
 | FeeEndDate | string | 是 | 结束年月 |
 | Remark | string | 否 | 备注 |
-| FeeStatus | int | 否 | 状态：0待确认，10有效 |
+| FeeStatus | int | 否 | 状态：0待确认，1待支付，10有效 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
