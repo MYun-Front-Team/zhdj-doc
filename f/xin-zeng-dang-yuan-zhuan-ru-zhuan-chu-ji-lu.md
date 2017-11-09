@@ -22,6 +22,9 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | PartyMemberSysNo | int | 否 | 所属党员编码 |
 | RealName | string | 是 | 姓名 |
+| UserGender | int | 否 | 性别 |
+| IDCard | string | 否 | 身份证 |
+| BirthDay | string | 否 | 生日 |
 | CellPhoneNo | string | 是 | 手机 |
 | InnerPartyStatus | int | 是 | 党内状态：0入党积极分子，1预备党员，2正式党员 |
 | MoveType | int | 是 | 类型：0转入，1转出 |

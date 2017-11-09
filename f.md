@@ -85,7 +85,7 @@ InnerPartyStatusCountList说明：
 | :--- | :--- | :--- | :--- |
 | DataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表 |
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
-| KeyWord | string | 否 | 关键字搜索（姓名、手机号） |
+| KeyWord | string | 否 | 关键字搜索（姓名、手机号、身份证） |
 | PartyMemberSysNo | int | 否 | 党员系统编码 |
 | InnerPartyStatusList | array int | 否 | 党内状态列表：0入党积极分子，1预备党员，2正式党员 |
 | DepartmentPostList | array int | 否 | 所属支部职务：0党员,1书记，2副书记，3组织委员，4宣传委员 |
