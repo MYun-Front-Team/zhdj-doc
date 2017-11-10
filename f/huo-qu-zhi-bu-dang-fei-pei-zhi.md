@@ -22,6 +22,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| PartyMemberSysNo | int | 是 | 党员编码 |
 | RemindDay | int | 是 | 提醒天数 |
 | FileUrl | string | 否 | 文件图片Path路径 |
 | PaymentMethodList | string | 是 | 支付方式：0二维码，1在线；存储格式用“,"隔开。 |
