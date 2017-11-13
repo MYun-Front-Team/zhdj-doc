@@ -25,8 +25,11 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| DataRangeSysNo | int | 否 | 数据范围系统编码 |
+| DataRangeName | string | 否 | 数据范围名称 |
 | DataRangeGradeType | int | 是 | 等级类型 |
 | DataRangeGradeName | string | 是 | 等级名称 |
+| IsOwnerDataRange | int | 是 | 是否自己：0否，1是 |
 
 
 
