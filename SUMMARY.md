@@ -211,4 +211,5 @@
   * [设置消息人员状态](xiao-xi-tong-zhi-mo-kuai/she-zhi-xiao-xi-ren-yuan-zhuang-tai.md)
   * [获取消息列表](xiao-xi-tong-zhi-mo-kuai/huo-qu-xiao-xi-lie-biao.md)
   * [获取消息人员列表](xiao-xi-tong-zhi-mo-kuai/huo-qu-xiao-xi-ren-yuan-lie-biao.md)
+  * [获取消息详情](xiao-xi-tong-zhi-mo-kuai/huo-qu-xiao-xi-xiang-qing.md)
 
