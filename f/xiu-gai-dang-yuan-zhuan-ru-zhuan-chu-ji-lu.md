@@ -18,7 +18,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | DataRangeSysNo | int | 否 | 所属支部系统编码 |
 | MoveSysNo | int | 否 | 系统编码 |
-| MoveType | int | 否 | 类型：0转入，1转出 |
+| MoveType | int | 否 | 类型：0转入，1转出，2流入，3流出 |
 | PartyMemberSysNo | int | 否 | 所属党员编码 |
 | ~~RealName~~ | ~~string~~ | ~~否~~ | ~~姓名~~ |
 | ~~CellPhoneNo~~ | ~~string~~ | ~~否~~ | ~~手机~~ |
@@ -35,7 +35,7 @@ _**【接口地址】**_
 | RealName | string | 是 | 姓名 |
 | CellPhoneNo | string | 是 | 手机 |
 | InnerPartyStatus | int | 是 | 党内状态：0入党积极分子，1预备党员，2正式党员 |
-| MoveType | int | 是 | 类型：0转入，1转出 |
+| MoveType | int | 是 | 类型：0转入，1转出，2流入，3流出 |
 | MoveInSysNo | int | 是 | 转入支部编码 |
 | MoveInName | string | 是 | 转入支部名称 |
 | MoveOutSysNo | int | 是 | 转出支部编码 |

@@ -27,7 +27,7 @@ _**【接口地址】**_
 | BirthDay | string | 否 | 生日 |
 | CellPhoneNo | string | 是 | 手机 |
 | InnerPartyStatus | int | 是 | 党内状态：0入党积极分子，1预备党员，2正式党员 |
-| MoveType | int | 是 | 类型：0转入，1转出 |
+| MoveType | int | 是 | 类型：0转入，1转出，2流入，3流出 |
 | MoveInSysNo | int | 是 | 转入支部编码 |
 | MoveInName | string | 是 | 转入支部名称 |
 | MoveOutSysNo | int | 是 | 转出支部编码 |
