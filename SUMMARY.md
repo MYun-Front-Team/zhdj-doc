@@ -198,6 +198,7 @@
   * [获取我的非好友列表](liao-tian-mo-kuai/huo-qu-wo-de-fei-hao-you-ren-yuan-lie-biao.md)
   * [删除好友](liao-tian-mo-kuai/shan-chu-hao-you.md)
   * [获取我的群列表](liao-tian-mo-kuai/huo-qu-wo-de-qun-lie-biao.md)
+  * [获取人员基本信息](liao-tian-mo-kuai/huo-qu-ren-yuan-ji-ben-xin-xi.md)
 * [选人模块](xuan-ren-mo-kuai.md)
   * [获取选人模板](xuan-ren-mo-kuai/huo-qu-xuan-ren-mo-ban-lie-biao.md)
   * [获取选人规则](xuan-ren-mo-kuai/huo-qu-xuan-ren-gui-ze.md)
