@@ -50,5 +50,15 @@ _**【接口地址】**_
 | ~~Post~~ | ~~string~~ | ~~否~~ | ~~工作岗位~~ |
 | FileUrlList | array string | 否 | 图片列表（首图为头像） |
 
+#### User说明_ _ {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| UserSysNo | int | 是 | 账户系统编码（即AdminSysNo） |
+| LastLoginDate | string | 否 | 上一次登录时间 |
+| DeviceType | int | 否 | 设备类型：1IOS，2安卓，3小米，4华为 |
+| DeviceToken | string | 否 | 设备Token |
+| WxOpenID | string | 否 | 微信Openid |
+
 
 
