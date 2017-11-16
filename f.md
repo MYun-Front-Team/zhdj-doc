@@ -43,6 +43,7 @@
 | ReportCount | int | 否 | 汇报数量 |
 | MomentsCount | int | 否 | 朋友圈数量 |
 | HasConfirmedByFee | int | 否 | 是否存在待确认党费缴费记录：0否，1是 |
+| PromiseCount | int | 否 | 服务承诺数量 |
 
 InnerPartyStatusCountList说明：
 
@@ -111,6 +112,7 @@ InnerPartyStatusCountList说明：
 | IsShowMomentsCount | int | 否 | 是否显示朋友圈数量 |
 | IsShowStyleList | int | 否 | 是否显示风采列表（只影响排序） |
 | IsShowHasConfirmedByFee | int | 否 | 是否显示是否存在待确认党费缴费记录 |
+| IsShowPromiseCount | int | 否 | 是否显示承诺数量 |
 
 ####  {#应答数据-（巡河记录数组）}
 

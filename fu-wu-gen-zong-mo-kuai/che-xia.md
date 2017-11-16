@@ -2,7 +2,7 @@
 
 ##### _【功能说明】_ {#【功能说明】}
 
-新闻模块-撤下
+撤下
 
 _**【应用场景】**_
 
@@ -10,13 +10,13 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-[http://ip:port/NewsAction/News/](http://ip:port/HMAction/River/AddRiver)RemoveNews
+[http://ip:port/TrackAction/Track/](http://ip:port/HMAction/River/AddRiver)RemoveTrack
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| NewsSysNo | int | 是 | 系统编码 |
+| TrackSysNo | int | 是 | 系统编码 |
 
 
 
