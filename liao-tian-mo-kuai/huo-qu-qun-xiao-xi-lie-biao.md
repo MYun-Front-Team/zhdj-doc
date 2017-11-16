@@ -21,6 +21,7 @@ _**【接口地址】**_
 | GroupSysNo | int | 是 | 群系统编码 |
 | MsgStartTime | string | 否 | 消息开始时间 |
 | MsgEndTime | string | 否 | 消息结束时间 |
+| ReadedStatusList | array int | 否 | 已读：0否，1是 |
 
 > #### _应答数据 （Msg）_ {#应答数据-（巡河记录数组）}
 
