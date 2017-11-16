@@ -18,6 +18,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| DataRangeSysNoList | array int | 是 | 数据范围枝叶编码列表（必须在不同的树中的枝叶） |
 | ModuleSysNo | int | 是 | 模块编码（枚举） |
 | ModuleSourceType | int | 是 | 模块类型（枚举） |
 | ModuleSourceClass | int | 否 | 模块分类编码（枚举） |

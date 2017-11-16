@@ -43,6 +43,7 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| ActivityPersonCount | int | 否 | 应参会人员人数 |
 | SignUpCount | int | 否 | 报名人数 |
 | SignInCount | int | 否 | 签到人数 |
 | LeaveCount | int | 否 | 请假人数 |

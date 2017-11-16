@@ -33,6 +33,7 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| DataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表 |
 | MessageSysNo | int | 否 | 消息系统编码 |
 | ModuleSysNo | int | 否 | 模块编码（枚举） |
 | ModuleSourceType | int | 否 | 模块类型（枚举） |
