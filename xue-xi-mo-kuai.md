@@ -37,6 +37,7 @@
 | ReportCount | int | 否 | 汇报人数 |
 | StudyStatus | int | 否 | 学习即时状态：1未开始，2进行中，3已结束 |
 | MyStudyStatus | int | 否 | 当前浏览人的查看状态：0未阅，1已阅 |
+| StudyTotalSecond | int | 否 | 学习总时长 |
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -70,6 +71,7 @@
 | IsShowMyPersonStatus | int | 否 | 是否显示当前人员的参与情况（MyStudyStatus的开关） |
 | IsShowModuleRelationList | int | 否 | 是否显示关联模块列表 |
 | IsShowReportList | int | 否 | 是否显示汇报列表 |
+| IsShowStudyTotalSecond | int | 否 | 是否显示学习总时长 |
 
 #### StudyPersonList说明 {#应答数据-（巡河记录数组）}
 
