@@ -58,6 +58,7 @@
 | IsShowFileUrlList | int | 否 | 是否显示文件图片列表 |
 | IsShowModuleRelationList | int | 否 | 是否显示关联模块列表 |
 | IsShowMomentsUrlList | int | 否 | 是否显示朋友圈图片列表（该参数即返回数量） |
+| IsShowPointsValueList | int | 否 | 是否显示积分 |
 
 #### ModuleRelationList说明 {#应答数据-（巡河记录数组）}
 
