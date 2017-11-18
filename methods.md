@@ -38,6 +38,7 @@
 | LiveStatus | int | 否 | 直播状态：0无，1直播中，10直播结束 |
 | SponsorName | string | 否 | 主办方 |
 | CoSponsorName | string | 否 | 协办方 |
+| PlugInUnitList | array object | 否 | 插件列表 |
 
 > #### 统计计算字段 {#请求数据}
 
@@ -88,6 +89,7 @@
 | IsShowModuleRelationList | int | 否 | 是否显示模块关联列表 |
 | IsShowMyPersonStatus | int | 否 | 是否显示当前人员的参与情况 |
 | IsShowReportList | int | 否 | 是否显示汇报列表 |
+| IsShowPlugInUnitList | int | 否 | 是否显示插件列表 |
 
 #### ActivityPersonList说明 {#应答数据-（巡河记录数组）}
 

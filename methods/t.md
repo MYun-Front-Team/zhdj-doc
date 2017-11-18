@@ -37,6 +37,7 @@ _**【接口地址】**_
 | PickRuleTemplateList | array object | 否（可选配置） | 选人规则 |
 | SponsorName | string | 否（可选配置） | 主办方 |
 | CoSponsorName | string | 否（可选配置） | 协办方 |
+| PlugInUnitList | array object | 否 | 插件列表 |
 
 #### PointsValues说明 {#应答数据-}
 
@@ -45,13 +46,12 @@ _**【接口地址】**_
 | PointsConfigSysNo | int | 是 | 积分配置系统编码 |
 | PointsValue | int | 是 | 积分值 |
 
-#### ~~ActivityPersonConfig说明~~ {#应答数据-}
+#### PlugInUnit说明 {#应答数据-}
 
-| ~~变量名~~ | ~~类型~~ | ~~是否必须~~ | ~~描述~~ |
+| 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| ~~ModuleSysNo~~ | ~~int~~ | ~~是~~ | ~~模块编码（枚举）~~ |
-| ~~ActivityPersonSourceType~~ | ~~int~~ | ~~是~~ | ~~参会人员类型：0Person，1模块自定义类型~~ |
-| ~~ActivityPersonSourceSysNoList~~ | ~~array int~~ | ~~否~~ | ~~参会人员类型对应的编码列表（为空时，判断数据范围下的全部人员）~~ |
+| Field | object | 是 | 字段实体（新增修改可只提供FieldSysNo） |
+| FieldValue | string | 是 | 字段值 |
 
 #### _应答数据_ {#应答数据-}
 
