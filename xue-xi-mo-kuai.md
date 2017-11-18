@@ -22,6 +22,8 @@
 | Remark | string | 否 | 备注 |
 | SortNo | int | 否 | 排序 |
 | IsNeedMoments | int | 否 | 是否需要关联朋友圈 |
+| SponsorName | string | 否 | 主办方 |
+| CoSponsorName | string | 否 | 协办方 |
 | FilePathList | array string | 否 | 文件或图片Path列表（第一张为首图） |
 | FileUrlList | array string | 否 | 文件或图片URL列表（第一张为首图） |
 | PointsValueList | array object | 否 | 积分赠送配置值列表（接口） |
