@@ -14,6 +14,8 @@
 | MessageContent | string | 是 | 内容 |
 | MessageType | int | 是 | 消息类型：0短信，1微信模板消息，2APP |
 | IsPublic | int | 是 | 是否公开：0否，1是 |
+| SponsorName | string | 否 | 主办方 |
+| CoSponsorName | string | 否 | 协办方 |
 
 > #### MessageStatistic统计计算字段 {#请求数据}
 
@@ -44,7 +46,8 @@
 | MessageType | int | 否 | 消息类型：0短信，1微信模板消息，2APP |
 | IsPublic | int | 否 | 是否公开：0否，1是 |
 |  |  |  |  |
-| IsOwner | int | 否 | 是否显示自己的消息 |
+| IsOwner | int | 否 | 是否显示自己的消息（被圈到的全部消息） |
+| IsCreator | int | 否 | 是否显示自己创建的消息 |
 
 > #### Limit限制字段 {#请求数据}
 

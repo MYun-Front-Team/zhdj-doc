@@ -27,6 +27,8 @@ _**【接口地址】**_
 | MessageType | int | 是 | 消息类型：0短信，1微信模板消息，2APP |
 | IsPublic | int | 是 | 是否公开：0否，1是 |
 | PickRuleTemplateList | array object | 是 | 选人规则（见选人模块说明） |
+| SponsorName | string | 否 | 主办方 |
+| CoSponsorName | string | 否 | 协办方 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
