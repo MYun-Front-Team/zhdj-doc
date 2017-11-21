@@ -34,6 +34,7 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | BrowseCount | int | 否 | 浏览人数 |
+| ViewCount | int | 否 | 浏览人次（同一人可累积） |
 | UploadCount | int | 否 | 上传人数 |
 | ReportCount | int | 否 | 汇报人数 |
 | MyBrowseStatus | int | 否 | 当前浏览人的查看状态：0未阅，1已阅 |
