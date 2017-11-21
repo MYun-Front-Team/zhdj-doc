@@ -21,6 +21,12 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | FriendType | int | 是 | 通讯录类型：0手机通讯录 |
+| FriendMailList | array string | 是 | 通讯录列表 |
+
+#### FriendMail {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
 | FriendCellPhoneNo | string | 是 | 手机号 |
 | FriendPersonName | string | 是 | 备注姓名 |
 | FriendCompanyName | string | 否 | 备注公司 |
