@@ -62,7 +62,7 @@
 | IsShowFileUrlList | int | 否 | 是否显示文件图片列表 |
 | IsShowPersonList | int | 否 | 是否显示人员列表 |
 | IsShowModuleRelationList | int | 否 | 是否显示关联模块列表 |
-| IsShowPositionList | int | 否 | 是否显示定位列表（返回结果按正序排列，参数值1则为返回一条） |
+| IsShowPositionList | int | 否 | 是否显示定位列表（该值必须在IsShowPersonList=1时有效，返回结果按正序排列，参数值1则为返回一条） |
 
 #### MonentsPersonList说明 {#应答数据-（巡河记录数组）}
 
