@@ -124,6 +124,12 @@
   * [发送验证码](ji-chu-mo-kuai/fa-song-yan-zheng-ma.md)
   * [校验验证码](tong-yong-mo-kuai/xiao-yan-yan-zheng-ma.md)
   * [使用验证码](tong-yong-mo-kuai/shi-yong-yan-zheng-ma.md)
+  * 新增价格方案
+  * 修改价格方案
+  * 删除价格方案
+  * 新增标签
+  * 修改标签
+  * 删除标签
 * [积分模块](ji-fen-mo-kuai.md)
   * [根据模块，获取积分配置列表](ji-fen-mo-kuai/gen-ju-mo-kuai-ff0c-huo-qu-ji-fen-pei-zhi-lie-biao.md)
   * [获取业务积分记录详情列表](tong-yong-mo-kuai/huo-qu-ye-wu-ji-fen-ji-lu-xiang-qing-lie-biao.md)
@@ -233,4 +239,12 @@
   * [引入款](shang-pin-mo-kuai/yin-ru-kuan.md)
   * [新增款规格\(SKU\)](shang-pin-mo-kuai/she-zhi-kuan-gui-ge.md)
   * [修改款规格\(SKU\)](shang-pin-mo-kuai/xiu-gai-kuan-gui-683c28-sku.md)
+  * [删除款规格\(SKU\)](shang-pin-mo-kuai/shan-chu-kuan-gui-683c28-sku.md)
+  * [获取款列表](shang-pin-mo-kuai/huo-qu-kuan-lie-biao.md)
+  * [获取款详情](shang-pin-mo-kuai/huo-qu-kuan-xiang-qing.md)
+  * [新增款图片](shang-pin-mo-kuai/xin-zeng-kuan-tu-pian.md)
+  * [修改款图片](shang-pin-mo-kuai/xiu-gai-kuan-tu-pian.md)
+  * 删除款图片
+  * [设置商品上下架状态](shang-pin-mo-kuai/she-zhi-shang-pin-shang-xia-jia-zhuang-tai.md)
+  * [获取规格模板列表](shang-pin-mo-kuai/huo-qu-gui-ge-mo-ban-lie-biao.md)
 

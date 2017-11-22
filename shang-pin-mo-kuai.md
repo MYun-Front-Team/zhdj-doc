@@ -35,7 +35,7 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-
+| SkuCount | int | 否 | sku数量 |
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -49,7 +49,9 @@
 | :--- | :--- | :--- | :--- |
 | DataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表 |
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
-| KeyWord | string | 否 | 关键字搜索（名称） |
+| KeyWord | string | 否 | 关键字搜索（名称\规格\标签） |
+| ProductGroupClassSysNoList | array int | 否 | 类型分类系统编码（类别树） |
+| OnSaleStatusList | array int | 否 | 上下状态:0待上架 1上架 2下架 3部分上架 4停售 |
 
 > #### 查询Limit字段 {#请求数据}
 
@@ -57,6 +59,10 @@
 | :--- | :--- | :--- | :--- |
 | IsShowFileThumbnailUrlList | int | 否 | 是否显示缩略图列表（数量） |
 | IsShowFileMasterUrlList | int | 否 | 是否显示主图列表（数量） |
+| IsShowUnitList | int | 否 | 是否显示计量单位列表 |
+| IsShowTagList | int | 否 | 是否显示标签列表 |
+| IsShowSkuList | int | 否 | 是否显示sku列表 |
+| IsShowSpecList | int | 否 | 是否显示规格列表 |
 
 ####  {#应答数据-（巡河记录数组）}
 

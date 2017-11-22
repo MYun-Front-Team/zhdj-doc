@@ -36,6 +36,7 @@ _**【接口地址】**_
 | InternationalCode | string | 否 | 国际码 |
 | GoodsWeight | decimal\(18,2\) | 否 | 重量 |
 | GoodsVolumn | decimal\(18,2\) | 否 | 体积 |
+| IsClearStocks | int | 否 | 是否限制库存：0否，1是 |
 
 > #### 应答_数据_ {#请求数据}
 

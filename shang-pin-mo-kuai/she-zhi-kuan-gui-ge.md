@@ -37,6 +37,7 @@ _**【接口地址】**_
 | GoodsWeight | decimal\(18,2\) | 否 | 重量 |
 | GoodsVolumn | decimal\(18,2\) | 否 | 体积 |
 | SpecValueList | array object | 否 | 规格值列表 |
+| IsClearStocks | int | 否 | 是否限制库存：0否，1是 |
 
 > #### SpecValue {#请求数据}
 
