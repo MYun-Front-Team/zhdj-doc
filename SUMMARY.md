@@ -63,6 +63,7 @@
   * [获取服务跟踪类型描述](fu-wu-gen-zong-mo-kuai/huo-qu-xin-wen-lei-xing-miao-shu.md)
   * [设置服务跟踪类型描述](fu-wu-gen-zong-mo-kuai/she-zhi-fu-wu-gen-zong-lei-xing-miao-shu.md)
   * [根据页面，获取可选字段列表](fu-wu-gen-zong-mo-kuai/gen-ju-ye-mian-ff0c-huo-qu-ke-xuan-zi-duan-lie-biao.md)
+  * [修改记要](fu-wu-gen-zong-mo-kuai/xiu-gai-ji-yao.md)
 * [党员管理](f.md)
   * [获取党员列表](f/huo-qu-dang-yuan-feng-cai-lie-biao.md)
   * [获取党员详情](f/huo-qu-dang-yuan-xiang-qing.md)
@@ -225,4 +226,5 @@
   * [获取消息列表](xiao-xi-tong-zhi-mo-kuai/huo-qu-xiao-xi-lie-biao.md)
   * [获取消息人员列表](xiao-xi-tong-zhi-mo-kuai/huo-qu-xiao-xi-ren-yuan-lie-biao.md)
   * [获取消息详情](xiao-xi-tong-zhi-mo-kuai/huo-qu-xiao-xi-xiang-qing.md)
+* [商品模块](shang-pin-mo-kuai.md)
 
