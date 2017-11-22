@@ -227,4 +227,10 @@
   * [获取消息人员列表](xiao-xi-tong-zhi-mo-kuai/huo-qu-xiao-xi-ren-yuan-lie-biao.md)
   * [获取消息详情](xiao-xi-tong-zhi-mo-kuai/huo-qu-xiao-xi-xiang-qing.md)
 * [商品模块](shang-pin-mo-kuai.md)
+  * [新增款](shang-pin-mo-kuai/xin-zeng-kuan.md)
+  * [修改款](shang-pin-mo-kuai/xiu-gai-kuan.md)
+  * [删除款](shang-pin-mo-kuai/shan-chu-kuan.md)
+  * [引入款](shang-pin-mo-kuai/yin-ru-kuan.md)
+  * [新增款规格\(SKU\)](shang-pin-mo-kuai/she-zhi-kuan-gui-ge.md)
+  * [修改款规格\(SKU\)](shang-pin-mo-kuai/xiu-gai-kuan-gui-683c28-sku.md)
 
