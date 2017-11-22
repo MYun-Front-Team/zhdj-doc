@@ -26,6 +26,7 @@
 | FileUrlList | array string | 否 | 文件或图片URL列表（第一张为首图） |
 | PointsValueList | array object | 否 | 积分赠送配置值列表（接口） |
 | ModuleRelationList | array object | 否 | 关联模块列表 |
+| TrackSummary | string | 否 | 记要 |
 
 > #### 统计计算字段 {#请求数据}
 
