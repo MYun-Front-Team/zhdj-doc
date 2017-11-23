@@ -21,7 +21,7 @@ _**【接口地址】**_
 | DataRangeSysNoList | array int | 是 | 数据范围枝叶编码列表（必须在不同的树中的枝叶） |
 | ProductType | int | 是 | 类型（枚举） |
 | ProductClassSysNo | int | 否（可选配置） | 类型分类系统编码（类别树） |
-| ProductGroupCode | string | 是 | 款号 |
+| ProductGroupCode | string | 否 | 款号 |
 | ProductGroupName | string | 是 | 款名称 |
 | ProductGroupDetail | string | 否（可选配置） | 详情 |
 | ProductGroupMemo | string | 否（可选配置） | 备注 |
