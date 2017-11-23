@@ -1,6 +1,6 @@
 # 商品模块-字段说明 {#新增河流}
 
-> #### 基础字段 {#请求数据}
+> #### ProductGroup基础字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -30,12 +30,29 @@
 | LastOnSalePerson | object | 否 | 最近上架人实体（简） |
 | LastOffShelvesDate | string | 否 | 最近下架时间 |
 | LastOffShelvesPerson | object | 否 | 最近下架人实体（简） |
+| SpecGroup | object | 否 | 规格组（说明见“获取规格模板列表”） |
 
-> #### 统计计算字段 {#请求数据}
+> #### ProductGroup统计计算字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | SkuCount | int | 否 | sku数量 |
+
+> #### SKU基础字段 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| SkuSysNo | int | 是 | sku系统编码 |
+| SkuName | string | 是 | sku名称 |
+| SkuCode | string | 是 | sku代码 |
+| SkuDetail | string | 否 | 详情 |
+| SkuMemo | string | 否 | 备注 |
+| BarCode | string | 否 | 条形码 |
+| InternationalCode | string | 否 | 国际码 |
+| GoodsWeight | decimal\(18,2\) | 否 | 重量 |
+| GoodsVolumn | decimal\(18,2\) | 否 | 体积 |
+| SpecValueList | array object | 否 | 规格值列表 |
+| IsClearStocks | int | 否 | 是否限制库存：0否，1是 |
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -62,7 +79,8 @@
 | IsShowUnitList | int | 否 | 是否显示计量单位列表 |
 | IsShowTagList | int | 否 | 是否显示标签列表 |
 | IsShowSkuList | int | 否 | 是否显示sku列表 |
-| IsShowSpecList | int | 否 | 是否显示规格列表 |
+| IsShowSpecGroup | int | 否 | 是否显示规格组（说明见“获取规格模板列表”） |
+| IsShowSpecValueList | int | 否 | 是否显示规格值（当IsShowSkuList/IsShowSpecGroup=1时启用） |
 
 ####  {#应答数据-（巡河记录数组）}
 

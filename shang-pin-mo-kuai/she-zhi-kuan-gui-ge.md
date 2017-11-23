@@ -36,21 +36,21 @@ _**【接口地址】**_
 | InternationalCode | string | 否 | 国际码 |
 | GoodsWeight | decimal\(18,2\) | 否 | 重量 |
 | GoodsVolumn | decimal\(18,2\) | 否 | 体积 |
-| SpecValueList | array object | 否 | 规格值列表 |
+| AddSpecValueList | array object | 否 | 规格值列表 |
 | IsClearStocks | int | 否 | 是否限制库存：0否，1是 |
 
-> #### SpecValue {#请求数据}
+> #### AddSpecValue {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | SpecValueSysNo | int | 是 | 规格值系统编码 |
-| SpecOtherName | string | 否 | 规格值别名 |
+| SpecValueOtherName | string | 否 | 规格值别名 |
 
 > #### 应答_数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| SkuSysNo | int | 是 | SKU系统编码 |
+
 
 
 
