@@ -242,9 +242,9 @@
   * [删除款规格\(SKU\)](shang-pin-mo-kuai/shan-chu-kuan-gui-683c28-sku.md)
   * [获取款列表](shang-pin-mo-kuai/huo-qu-kuan-lie-biao.md)
   * [获取款详情](shang-pin-mo-kuai/huo-qu-kuan-xiang-qing.md)
-  * [新增款图片](shang-pin-mo-kuai/xin-zeng-kuan-tu-pian.md)
-  * [修改款图片](shang-pin-mo-kuai/xiu-gai-kuan-tu-pian.md)
-  * 删除款图片
+  * [新增商品图片](shang-pin-mo-kuai/xin-zeng-kuan-tu-pian.md)
+  * [修改商品图片](shang-pin-mo-kuai/xiu-gai-kuan-tu-pian.md)
+  * 删除商品图片
   * [设置商品上下架状态](shang-pin-mo-kuai/she-zhi-shang-pin-shang-xia-jia-zhuang-tai.md)
   * [获取规格模板列表](shang-pin-mo-kuai/huo-qu-gui-ge-mo-ban-lie-biao.md)
 

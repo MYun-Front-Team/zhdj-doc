@@ -12,6 +12,8 @@ _**【应用场景】**_
 
 注：只能修改属于自己数据范围结点内且IsCreator=1的商品；
 
+注：SkuCode为空时的自动生产规则：款号+至少2位长度的该商品规格数量；
+
 _**【接口地址】**_
 
 [http://ip:port/ProductAction/](http://ip:port/HMAction/River/AddRiver)[S](http://ip:port/HMAction/River/AddRiver)ku[/A](http://ip:port/HMAction/River/AddRiver)ddProductSku
@@ -29,14 +31,14 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | SkuName | string | 否 | sku名称 |
-| SkuCode | string | 否 | sku代码 |
-| SkuDetail | string | 否 | 详情 |
-| SkuMemo | string | 否 | 备注 |
-| BarCode | string | 否 | 条形码 |
-| InternationalCode | string | 否 | 国际码 |
-| GoodsWeight | decimal\(18,2\) | 否 | 重量 |
-| GoodsVolumn | decimal\(18,2\) | 否 | 体积 |
-| AddSpecValueList | array object | 否 | 规格值列表 |
+| SkuCode | string | 否（可选配置） | sku代码 |
+| SkuDetail | string | 否（可选配置） | 详情 |
+| SkuMemo | string | 否（可选配置） | 备注 |
+| BarCode | string | 否（可选配置） | 条形码 |
+| InternationalCode | string | 否（可选配置） | 国际码 |
+| GoodsWeight | decimal\(18,2\) | 否（可选配置） | 重量 |
+| GoodsVolumn | decimal\(18,2\) | 否（可选配置） | 体积 |
+| AddSpecValueList | array object | 否（可选配置） | 规格值列表 |
 | IsClearStocks | int | 否 | 是否限制库存：0否，1是 |
 
 > #### AddSpecValue {#请求数据}

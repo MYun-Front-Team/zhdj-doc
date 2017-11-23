@@ -10,6 +10,8 @@ _**【应用场景】**_
 
 注：调用该接口说明该商品属于自己，IsCreator=1，新增商品到商品表并把商品与数据范围结点形成所属关系；
 
+注：ProductGroupCode为空时的自动生产规则：数据范围结点+至少3位长度的商品数量；
+
 _**【接口地址】**_
 
 [http://ip:port/ProductAction/](http://ip:port/HMAction/River/AddRiver)[P](http://ip:port/HMAction/River/AddRiver)roductGroup[/Add](http://ip:port/HMAction/River/AddRiver)ProductGroup
@@ -21,7 +23,7 @@ _**【接口地址】**_
 | DataRangeSysNoList | array int | 是 | 数据范围枝叶编码列表（必须在不同的树中的枝叶） |
 | ProductType | int | 是 | 类型（枚举） |
 | ProductClassSysNo | int | 否（可选配置） | 类型分类系统编码（类别树） |
-| ProductGroupCode | string | 否 | 款号 |
+| ProductGroupCode | string | 否（可选配置） | 款号 |
 | ProductGroupName | string | 是 | 款名称 |
 | ProductGroupDetail | string | 否（可选配置） | 详情 |
 | ProductGroupMemo | string | 否（可选配置） | 备注 |
