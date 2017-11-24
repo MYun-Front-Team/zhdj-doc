@@ -16,6 +16,10 @@
 | IsPublic | int | 是 | 是否公开：0否，1是 |
 | SponsorName | string | 否 | 主办方 |
 | CoSponsorName | string | 否 | 协办方 |
+| PublishTime | string | 否 | 发布时间 |
+| PublishPerson | object | 否 | 发布人实体 |
+| RemoveTime | string | 否 | 撤下人时间 |
+| RemovePerson | object | 否 | 撤下人实体 |
 
 > #### MessageStatistic统计计算字段 {#请求数据}
 

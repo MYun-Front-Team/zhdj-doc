@@ -33,6 +33,7 @@
 | SpecGroup | object | 否 | 规格组（说明见“获取规格模板列表”） |
 | UnitList | array object | 否 | 计量单位列表（说明见通用） |
 | TagList | array object | 否 | 标签列表（说明见通用） |
+| PriceGroupList | array object | 否 | 价格组列表（说明见通用） |
 
 > #### ProductGroup统计计算字段 {#请求数据}
 
@@ -55,6 +56,7 @@
 | GoodsVolumn | decimal\(18,2\) | 否 | 体积 |
 | SpecValueList | array object | 否 | 规格值列表 |
 | IsClearStocks | int | 否 | 是否限制库存：0否，1是 |
+| PriceGroupList | array object | 否 | 价格组列表（说明见通用） |
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -83,6 +85,7 @@
 | IsShowSkuList | int | 否 | 是否显示sku列表 |
 | IsShowSpecGroup | int | 否 | 是否显示规格组（说明见“获取规格模板列表”） |
 | IsShowSpecValueList | int | 否 | 是否显示规格值（当IsShowSkuList/IsShowSpecGroup=1时启用） |
+| ShowPriceGroupTypeList |  |  |  |
 
 ####  {#应答数据-（巡河记录数组）}
 

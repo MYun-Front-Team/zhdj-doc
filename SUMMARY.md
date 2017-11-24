@@ -124,9 +124,7 @@
   * [发送验证码](ji-chu-mo-kuai/fa-song-yan-zheng-ma.md)
   * [校验验证码](tong-yong-mo-kuai/xiao-yan-yan-zheng-ma.md)
   * [使用验证码](tong-yong-mo-kuai/shi-yong-yan-zheng-ma.md)
-  * 新增价格方案
-  * 修改价格方案
-  * 删除价格方案
+  * [设置价格方案](tong-yong-mo-kuai/xin-zeng-jia-ge-fang-an.md)
   * 新增标签
   * 修改标签
   * 删除标签
@@ -240,7 +238,6 @@
   * [修改款](shang-pin-mo-kuai/xiu-gai-kuan.md)
   * [删除款](shang-pin-mo-kuai/shan-chu-kuan.md)
   * [引入款](shang-pin-mo-kuai/yin-ru-kuan.md)
-  * [引入款规格\(SKU\)](shang-pin-mo-kuai/yin-ru-kuan-gui-683c28-sku.md)
   * [新增款规格\(SKU\)](shang-pin-mo-kuai/she-zhi-kuan-gui-ge.md)
   * [修改款规格\(SKU\)](shang-pin-mo-kuai/xiu-gai-kuan-gui-683c28-sku.md)
   * [删除款规格\(SKU\)](shang-pin-mo-kuai/shan-chu-kuan-gui-683c28-sku.md)
