@@ -85,7 +85,8 @@
 | IsShowSkuList | int | 否 | 是否显示sku列表 |
 | IsShowSpecGroup | int | 否 | 是否显示规格组（说明见“获取规格模板列表”） |
 | IsShowSpecValueList | int | 否 | 是否显示规格值（当IsShowSkuList/IsShowSpecGroup=1时启用） |
-| ShowPriceGroupTypeList |  |  |  |
+| ShowPriceGroupTypeList | array int | 否 | 价格组类型（见通用价格） |
+| ShowPriceTypeList | array int | 否 | 价格类型（见通用价格） |
 
 ####  {#应答数据-（巡河记录数组）}
 
