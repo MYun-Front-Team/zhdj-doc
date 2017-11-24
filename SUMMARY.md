@@ -248,5 +248,4 @@
   * [获取款详情](shang-pin-mo-kuai/huo-qu-kuan-xiang-qing.md)
   * [设置商品图片](shang-pin-mo-kuai/xin-zeng-kuan-tu-pian.md)
   * [设置商品上下架状态](shang-pin-mo-kuai/she-zhi-shang-pin-shang-xia-jia-zhuang-tai.md)
-  * 引入款规格\(SKU\)
 
