@@ -31,6 +31,8 @@
 | LastOffShelvesDate | string | 否 | 最近下架时间 |
 | LastOffShelvesPerson | object | 否 | 最近下架人实体（简） |
 | SpecGroup | object | 否 | 规格组（说明见“获取规格模板列表”） |
+| UnitList | array object | 否 | 计量单位列表（说明见通用） |
+| TagList | array object | 否 | 标签列表（说明见通用） |
 
 > #### ProductGroup统计计算字段 {#请求数据}
 
