@@ -220,6 +220,7 @@
   * [获取人员基本信息](liao-tian-mo-kuai/huo-qu-ren-yuan-ji-ben-xin-xi.md)
   * [获取群详情](liao-tian-mo-kuai/huo-qu-qun-xiang-qing.md)
   * [设置群内备注姓名](liao-tian-mo-kuai/she-zhi-qun-nei-bei-zhu-xing-ming.md)
+  * [设置我的好友备注姓名](liao-tian-mo-kuai/she-zhi-wo-de-hao-you-bei-zhu-xing-ming.md)
 * [选人模块](xuan-ren-mo-kuai.md)
   * [获取选人模板](xuan-ren-mo-kuai/huo-qu-xuan-ren-mo-ban-lie-biao.md)
   * [获取选人规则](xuan-ren-mo-kuai/huo-qu-xuan-ren-gui-ze.md)
