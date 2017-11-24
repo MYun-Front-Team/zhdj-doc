@@ -28,7 +28,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| SkuName | string | 否 | sku名称 |
+| SkuName | string | 是 | sku名称 |
 | SkuCode | string | 否（可选配置） | sku代码 |
 | SkuDetail | string | 否（可选配置） | 详情 |
 | SkuMemo | string | 否（可选配置） | 备注 |
@@ -43,6 +43,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| SpecSysNo | int | 是 | 规格系统编码 |
 | SpecValueSysNo | int | 是 | 规格值系统编码 |
 | SpecValueOtherName | string | 否 | 规格值别名 |
 

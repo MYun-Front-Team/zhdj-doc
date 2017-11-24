@@ -10,6 +10,8 @@ _**【应用场景】**_
 
 注：只能修改属于自己数据范围结点内且IsCreator=1的商品；
 
+注：
+
 _**【接口地址】**_
 
 [http://ip:port/ProductAction/](http://ip:port/HMAction/River/AddRiver)[S](http://ip:port/HMAction/River/AddRiver)ku[/E](http://ip:port/HMAction/River/AddRiver)ditProductSku
@@ -35,6 +37,7 @@ _**【接口地址】**_
 | GoodsWeight | decimal\(18,2\) | 否 | 重量 |
 | GoodsVolumn | decimal\(18,2\) | 否 | 体积 |
 | IsClearStocks | int | 否 | 是否限制库存：0否，1是 |
+| AddSpecValueList | array object | 否 | 规格值列表（说明见新增） |
 
 > #### 应答_数据_ {#请求数据}
 
