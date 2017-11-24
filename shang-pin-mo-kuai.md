@@ -21,7 +21,7 @@
 | FileMasterPathList | array string | 否 | 主图Path列表（第一张为首图） |
 | FileThumbnailUrlList | array string | 否 | 缩略图Url列表（第一张为首图） |
 | FileMasterUrlList | array string | 否 | 主图Url列表（第一张为首图） |
-|  |  |  |  |
+| SkuList | array object | 否 | 商品规格Sku列表 |
 | OnSaleStatus | int | 是 | 上下状态:0待上架 1上架 2下架 3部分上架 4停售 |
 | IsClearStocks | int | 否 | 是否是清货款：0否，1是 |
 | FirstOnSaleDate | string | 否 | 最早上架时间 |
