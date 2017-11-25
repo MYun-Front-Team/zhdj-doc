@@ -8,7 +8,9 @@ _**【应用场景】**_
 
 树形结构，以数据权限来分割业务数据。
 
-注：可通过TreeSysNo和UserSysNo对应关系表，获取该人应该展示的树结构。
+注：可通过TreeSysNo和UserSysNo对应关系表，获取该人应该展示的树结构；
+
+注：（OrganizationSysNo+DataRangeTreeType）和（TreeSysNo）二选一必填；
 
 _**【接口地址】**_
 
@@ -20,6 +22,8 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | TreeSysNo | int | 是 | 树系统编码（枚举） |
 | DataRangeSysNo | int | 否 | 枝叶系统编码（0则查询整棵树） |
+| OrganizationSysNo | int | 否 | 组织系统编码 |
+| DataRangeTreeType | int | 否 | 树类型（枚举） |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 

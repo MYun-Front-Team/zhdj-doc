@@ -125,11 +125,18 @@
   * [校验验证码](tong-yong-mo-kuai/xiao-yan-yan-zheng-ma.md)
   * [使用验证码](tong-yong-mo-kuai/shi-yong-yan-zheng-ma.md)
   * [设置价格方案](tong-yong-mo-kuai/xin-zeng-jia-ge-fang-an.md)
-  * 新增标签
-  * 修改标签
-  * 删除标签
-  * 获取标签列表
+  * [获取标签列表](tong-yong-mo-kuai/huo-qu-biao-qian-lie-biao.md)
+    * [新增标签](tong-yong-mo-kuai/huo-qu-biao-qian-lie-biao/xin-zeng-biao-qian.md)
+    * [修改标签](tong-yong-mo-kuai/huo-qu-biao-qian-lie-biao/xiu-gai-biao-qian.md)
+    * [删除标签](tong-yong-mo-kuai/huo-qu-biao-qian-lie-biao/shan-chu-biao-qian.md)
   * [获取计量单位列表](tong-yong-mo-kuai/huo-qu-ji-liang-dan-wei-lie-biao.md)
+    * [新增计量单位](tong-yong-mo-kuai/huo-qu-ji-liang-dan-wei-lie-biao/xin-zeng-ji-liang-dan-wei.md)
+    * [修改计量单位](tong-yong-mo-kuai/huo-qu-ji-liang-dan-wei-lie-biao/xiu-gai-ji-liang-dan-wei.md)
+    * [删除计量单位](tong-yong-mo-kuai/huo-qu-ji-liang-dan-wei-lie-biao/shan-chu-ji-liang-dan-wei.md)
+  * [获取收货地址列表](tong-yong-mo-kuai/huo-qu-shou-huo-di-zhi-lie-biao.md)
+    * [新增收货地址](tong-yong-mo-kuai/huo-qu-shou-huo-di-zhi-lie-biao/xin-zeng-shou-huo-di-zhi.md)
+    * [修改收货地址](tong-yong-mo-kuai/huo-qu-shou-huo-di-zhi-lie-biao/xiu-gai-shou-huo-di-zhi.md)
+    * [删除收货地址](tong-yong-mo-kuai/huo-qu-shou-huo-di-zhi-lie-biao/shan-chu-shou-huo-di-zhi.md)
 * [积分模块](ji-fen-mo-kuai.md)
   * [根据模块，获取积分配置列表](ji-fen-mo-kuai/gen-ju-mo-kuai-ff0c-huo-qu-ji-fen-pei-zhi-lie-biao.md)
   * [获取业务积分记录详情列表](tong-yong-mo-kuai/huo-qu-ye-wu-ji-fen-ji-lu-xiang-qing-lie-biao.md)
@@ -257,4 +264,9 @@
   * 新增店铺
   * 修改店铺
   * 删除店铺
+* 仓库库存模块
+  * [获取仓库库位树](huo-qu-cang-ku-ku-wei-shu.md)
+  * [入库](ru-ku.md)
+  * [出库](chu-ku.md)
+  * [全量更新库存](quan-liang-geng-xin-ku-cun.md)
 
