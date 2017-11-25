@@ -34,6 +34,8 @@
 | UnitList | array object | 否 | 计量单位列表（说明见通用） |
 | TagList | array object | 否 | 标签列表（说明见通用） |
 | PriceGroupList | array object | 否 | 价格组列表（说明见通用） |
+| ProductInventory | object | 否 | 库存（说明见仓储） |
+|  |  |  |  |
 
 > #### ProductGroup统计计算字段 {#请求数据}
 
@@ -57,6 +59,7 @@
 | SpecValueList | array object | 否 | 规格值列表 |
 | IsClearStocks | int | 否 | 是否限制库存：0否，1是 |
 | PriceGroupList | array object | 否 | 价格组列表（说明见通用） |
+| SkuInventory | object | 否 | sku库存 |
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -88,6 +91,8 @@
 | IsShowSpecValueList | int | 否 | 是否显示规格值（当IsShowSkuList/IsShowSpecGroup=1时启用） |
 | ShowPriceGroupTypeList | array int | 否 | 价格组类型（见通用价格） |
 | ShowPriceTypeList | array int | 否 | 价格类型（见通用价格） |
+| IsShowProductInventory | int | 否 | 是否显示款库存（需要SKU库存则IsShowSkuInventory=1） |
+| IsShowSkuInventory | int | 否 | 是否显示sku库存 |
 
 ####  {#应答数据-（巡河记录数组）}
 

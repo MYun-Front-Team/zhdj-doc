@@ -264,7 +264,7 @@
   * 新增店铺
   * 修改店铺
   * 删除店铺
-* 仓库库存模块
+* [仓库库存模块](cang-ku-ku-cun-mo-kuai.md)
   * [获取仓库库位树](huo-qu-cang-ku-ku-wei-shu.md)
   * [入库](ru-ku.md)
   * [出库](chu-ku.md)
