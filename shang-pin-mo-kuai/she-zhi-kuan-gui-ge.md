@@ -20,7 +20,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| DataRangeSysNoList | array int | 是 | 数据范围枝叶编码列表（必须在不同的树中的枝叶） |
+| ~~DataRangeSysNoList~~ | ~~array int~~ | ~~否~~ | ~~数据范围枝叶编码列表（必须在不同的树中的枝叶）~~ |
 | ProductGroupSysNo | int | 是 | 款号系统编码 |
 | AddSkuList | array object | 是 | 款规格列表 |
 

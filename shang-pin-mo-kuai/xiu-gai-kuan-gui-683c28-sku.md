@@ -10,8 +10,6 @@ _**【应用场景】**_
 
 注：只能修改属于自己数据范围结点内且IsCreator=1的商品；
 
-注：
-
 _**【接口地址】**_
 
 [http://ip:port/ProductAction/](http://ip:port/HMAction/River/AddRiver)[S](http://ip:port/HMAction/River/AddRiver)ku[/E](http://ip:port/HMAction/River/AddRiver)ditProductSku
@@ -20,7 +18,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| DataRangeSysNoList | array int | 是 | 数据范围枝叶编码列表（必须在不同的树中的枝叶） |
+| ~~DataRangeSysNoList~~ | ~~array int~~ | ~~是~~ | ~~数据范围枝叶编码列表（必须在不同的树中的枝叶）~~ |
 | ProductGroupSysNo | int | 是 | 款号系统编码 |
 | EditSkuList | array object | 是 | 款规格列表 |
 

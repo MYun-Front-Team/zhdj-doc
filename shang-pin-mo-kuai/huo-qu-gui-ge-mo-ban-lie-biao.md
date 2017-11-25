@@ -8,7 +8,9 @@ _**【应用场景】**_
 
 获取规格模板列表
 
-注：排序全部使用sortno；
+注：获取组织下的规格模板参数说明：OrganizationSysNo和SpecGroupType=1；
+
+获取某个店铺的规格模块则DataRangeSysNo&gt;0；
 
 _**【接口地址】**_
 
@@ -18,7 +20,9 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| DataRangeSysNo | int | 是 | 数据范围结点系统编码 |
+| OrganizationSysNo | int | 是 | 组织系统编码 |
+| DataRangeSysNo | int | 否 | 数据范围结点系统编码 |
+| SpecGroupType | int | 是 | 规格组类型：1商品规格组，2商品冗余规格组 |
 
 > #### _应答数据 （SpecGroup）_ {#应答数据-（巡河记录数组）}
 

@@ -16,7 +16,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| DataRangeSysNo | int | 是 | 数据范围结点 |
+| DataRangeSysNo | int | 否 | 数据范围结点 |
 | ProductGroupSysNo | int | 是 | 款系统编码 |
 | Limit | array | 否 | 限制条件 |
 
