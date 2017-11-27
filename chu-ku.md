@@ -20,9 +20,9 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | PositionSysno | int | 是 | 库位系统编码 |
 | SkuSysNo | int | 是 | 款规格系统编码 |
-| Quantity | int | 是 | 入库数量 |
-| IncreaseType | int | 是 | 入库类型：1采购入库， 2其他入库，3 RMA入库 |
-| VoucherNo | string | 否 | 入库单号 |
+| Quantity | int | 是 | 出库数量 |
+| ReduceType | int | 是 | 类型：1盘亏，2其他出库， 3出库单出库 |
+| VoucherNo | string | 否 | 出库单号 |
 | BatchSysNo | int | 否 | 批次系统编码 |
 
 > #### 应答_数据_ {#请求数据}
