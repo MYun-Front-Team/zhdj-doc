@@ -31,7 +31,9 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | UserSysNo | int | 是 | 账户系统编码（即AdminSysNo） |
+| User | object | 是 | 账户实体对象 |
 | Person | object | 是 | 人员实体对象 |
+| OrganizationList | array object | 是 | 组织列表 |
 
 #### Person说明_ （简要，需要全部字段请调用“获取个人信息”接口）_ {#应答数据-（巡河记录数组）}
 
@@ -59,6 +61,16 @@ _**【接口地址】**_
 | DeviceType | int | 否 | 设备类型：1IOS，2安卓，3小米，4华为 |
 | DeviceToken | string | 否 | 设备Token |
 | WxOpenID | string | 否 | 微信Openid |
+
+#### Organization说明_ （简要，需要全部字段请调用“获取组织信息”接口）_ {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| OrganizationSysNo | int | 是 | 组织系统编码 |
+| OrganizationType | int | 是 | 类型（枚举） |
+| OrganizationClassSysNo | int | 否 | 分类（树） |
+| OrganizationName | string | 是 | 组织名称 |
+| OrganizationShortName | string | 否 | 组织简称 |
 
 
 
