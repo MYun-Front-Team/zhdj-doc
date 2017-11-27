@@ -263,9 +263,9 @@
   * [客户管理](zu-zhi-mo-kuai/ke-hu-guan-li.md)
     * [获取客户列表](zu-zhi-mo-kuai/ke-hu-guan-li/huo-qu-ke-hu-lie-biao.md)
     * [获取客户详情](zu-zhi-mo-kuai/ke-hu-guan-li/huo-qu-ke-hu-xiang-qing.md)
-    * 新增客户
-    * 修改客户
-    * 删除客户
+    * [新增客户](zu-zhi-mo-kuai/ke-hu-guan-li/xin-zeng-ke-hu.md)
+    * [修改客户](zu-zhi-mo-kuai/ke-hu-guan-li/xiu-gai-ke-hu.md)
+    * [删除客户](zu-zhi-mo-kuai/ke-hu-guan-li/shan-chu-ke-hu.md)
 * [店铺模块](dian-pu-mo-kuai.md)
   * 新增店铺
   * 修改店铺
