@@ -258,9 +258,15 @@
   * [获取规格模板列表](shang-pin-mo-kuai/huo-qu-gui-ge-mo-ban-lie-biao.md)
 * [组织模块](zu-zhi-mo-kuai.md)
   * 获取组织列表
-  * 获取组织详情
+  * [获取组织详情](zu-zhi-mo-kuai/huo-qu-zu-zhi-xiang-qing.md)
   * 修改组织基本信息
-* 店铺模块
+  * [客户管理](zu-zhi-mo-kuai/ke-hu-guan-li.md)
+    * [获取客户列表](zu-zhi-mo-kuai/ke-hu-guan-li/huo-qu-ke-hu-lie-biao.md)
+    * [获取客户详情](zu-zhi-mo-kuai/ke-hu-guan-li/huo-qu-ke-hu-xiang-qing.md)
+    * 新增客户
+    * 修改客户
+    * 删除客户
+* [店铺模块](dian-pu-mo-kuai.md)
   * 新增店铺
   * 修改店铺
   * 删除店铺

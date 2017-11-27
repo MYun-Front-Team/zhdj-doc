@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 获取款详情
 
+注：当DataRangeSysNo=0时，查询该商品所属组织的详情，否则则为该店铺的详情；
+
 _**【接口地址】**_
 
 [http://ip:port/ProductQuery/ProductGroup/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)ProductGroupBySysNo
@@ -16,7 +18,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| DataRangeSysNo | int | 否 | 数据范围结点 |
+| DataRangeSysNo | int | 否 | 数据范围结点（店铺树） |
 | ProductGroupSysNo | int | 是 | 款系统编码 |
 | Limit | array | 否 | 限制条件 |
 
