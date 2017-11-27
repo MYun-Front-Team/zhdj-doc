@@ -23,6 +23,7 @@ _**【接口地址】**_
 | PositionSysno | int | 是 | 库位系统编码 |
 | SkuSysNo | int | 是 | 款规格系统编码 |
 | Quantity | int | 是 | 更新数量 |
+| BatchSysNo | int | 否 | 批次系统编码 |
 
 > #### 应答_数据_ {#请求数据}
 
