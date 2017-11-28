@@ -50,6 +50,7 @@ _**【接口地址】**_
 | WorkingDate | string | 否 | 参加工作日期 |
 | Propertys | array object | 否 | 人员属性列表（见通用属性说明） |
 | PrivacyPropertys | array object | 否 | 隐私属性列表 |
+| LoginIDStatus | int | 否 | 账号类型：0正常，1无账号，2未激活 |
 
 
 

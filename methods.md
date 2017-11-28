@@ -90,6 +90,7 @@
 | IsShowMyPersonStatus | int | 否 | 是否显示当前人员的参与情况 |
 | IsShowReportList | int | 否 | 是否显示汇报列表 |
 | IsShowPlugInUnitList | int | 否 | 是否显示插件列表 |
+| IsShowLoginIDStatus | int | 否 | 是否显示账号状态 |
 
 #### ActivityPersonList说明 {#应答数据-（巡河记录数组）}
 
