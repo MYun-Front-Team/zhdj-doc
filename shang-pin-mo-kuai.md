@@ -35,7 +35,7 @@
 | TagList | array object | 否 | 标签列表（说明见通用） |
 | PriceGroupList | array object | 否 | 价格组列表（说明见通用） |
 | ProductInventory | object | 否 | 库存（说明见仓储） |
-|  |  |  |  |
+| PriceRuleType | int | 否 | 定价规则：0按款定价，1按规格定价 |
 
 > #### ProductGroup统计计算字段 {#请求数据}
 
