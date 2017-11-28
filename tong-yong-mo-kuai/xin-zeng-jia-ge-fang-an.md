@@ -18,7 +18,8 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| DataRangeSysNoList | array int | 是 | 数据范围结点列表 |
+| OrganizationSysNo | int | 是 | 组织系统编码 |
+| DataRangeSysNoList | array int | 否 | 数据范围结点列表（店铺树） |
 | ModuleSysNo | int | 是 | 模块编码 |
 | ModuleSourceType | int | 否 | 来源类型 |
 | ModuleSourceClass | int | 否 | 来源分类 |
@@ -31,17 +32,22 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | PriceGroupName | string | 否 | 价格组名称代码（与类型匹配枚举） |
 | PriceGroupType | int | 是 | 价格组类型：1阶梯价，2客户等级折扣价，3客户等级阶梯价，4客户阶梯价 |
-| ShopLevelSysNo | int | 否 | 店铺等级系统编码 |
+| ~~ShopLevelSysNo~~ | ~~int~~ | ~~否~~ | ~~店铺等级系统编码~~ |
 | CustomerLevelSysNo | int | 否 | 客户等级系统编码 |
 | CustomerSysNo | int | 否 | 客户系统编码 |
-| QuantityRangeSysNo | int | 否 | 商品数量范围系统编码 |
+| QuantityRange | object | 否 | 商品数量范围系统编码 |
 | Rate | decimal\(18,2\) | 否 | 折扣 |
 | IsEnable | int | 是 | 是否启用 |
 | PriceType | int | 是 | 价格类型：1成本价，2市场价，3销售价 |
 | PriceCode | string | 否 | 价格代码（与类型匹配枚举） |
 | Price | decimal\(18,2\) | 否 | 价格 |
 
-####  {#应答数据-（巡河记录数组）}
+#### QuantityRange {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| MaxQuantity | int | 是 | 购买数量上限 |
+| MinQuantity | int | 是 | 购买数量下限 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
