@@ -278,8 +278,8 @@
   * [全量更新库存](quan-liang-geng-xin-ku-cun.md)
 * [交易模块](jiao-yi-mo-kuai.md)
   * 购物车管理
-    * 新增购物车
-    * 修改购物车
-    * 删除购物车
-    * 获取购物车列表
+    * [新增购物车](jiao-yi-mo-kuai/xin-zeng-gou-wu-che.md)
+    * [修改购物车](jiao-yi-mo-kuai/xiu-gai-gou-wu-che.md)
+    * [删除购物车](jiao-yi-mo-kuai/shan-chu-gou-wu-che.md)
+    * [获取购物车列表](jiao-yi-mo-kuai/huo-qu-gou-wu-che-lie-biao.md)
 
