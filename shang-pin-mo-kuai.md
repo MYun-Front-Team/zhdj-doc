@@ -47,7 +47,7 @@
 | SalePrice | decimal\(18,2\) | 否 | 销售价 |
 
 > #### SKU基础字段 {#请求数据}
-
+>
 > #### ProductGroup统计计算字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
@@ -89,6 +89,7 @@
 | KeyWord | string | 否 | 关键字搜索（名称\规格\标签） |
 | ProductGroupClassSysNoList | array int | 否 | 类型分类系统编码（类别树） |
 | OnSaleStatusList | array int | 否 | 上下状态:0待上架 1上架 2下架 3部分上架 4停售 |
+| IsTourist | int | 否 | 是否游客：0否，1是 |
 
 > #### 查询Limit字段 {#请求数据}
 
