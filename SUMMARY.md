@@ -267,6 +267,12 @@
     * [新增客户](zu-zhi-mo-kuai/ke-hu-guan-li/xin-zeng-ke-hu.md)
     * [修改客户](zu-zhi-mo-kuai/ke-hu-guan-li/xiu-gai-ke-hu.md)
     * [删除客户](zu-zhi-mo-kuai/ke-hu-guan-li/shan-chu-ke-hu.md)
+  * [供应商管理](zu-zhi-mo-kuai/gong-ying-shang-guan-li.md)
+    * [获取供应商列表](zu-zhi-mo-kuai/gong-ying-shang-guan-li/huo-qu-gong-ying-shang-lie-biao.md)
+    * [获取供应商详情](zu-zhi-mo-kuai/gong-ying-shang-guan-li/huo-qu-gong-ying-shang-xiang-qing.md)
+    * [新增供应商](zu-zhi-mo-kuai/gong-ying-shang-guan-li/xin-zeng-gong-ying-shang.md)
+    * [修改供应商](zu-zhi-mo-kuai/gong-ying-shang-guan-li/xiu-gai-gong-ying-shang.md)
+    * [删除供应商](zu-zhi-mo-kuai/gong-ying-shang-guan-li/shan-chu-gong-ying-shang.md)
 * [店铺模块](dian-pu-mo-kuai.md)
   * 新增店铺
   * 修改店铺
@@ -277,9 +283,11 @@
   * [出库](chu-ku.md)
   * [全量更新库存](quan-liang-geng-xin-ku-cun.md)
 * [交易模块](jiao-yi-mo-kuai.md)
-  * 购物车管理
+  * [购物车管理](jiao-yi-mo-kuai/gou-wu-che-guan-li.md)
     * [新增购物车](jiao-yi-mo-kuai/xin-zeng-gou-wu-che.md)
     * [修改购物车](jiao-yi-mo-kuai/xiu-gai-gou-wu-che.md)
     * [删除购物车](jiao-yi-mo-kuai/shan-chu-gou-wu-che.md)
     * [获取购物车列表](jiao-yi-mo-kuai/huo-qu-gou-wu-che-lie-biao.md)
+  * 支付方式管理
+    * [获取支付方式列表](jiao-yi-mo-kuai/huo-qu-zhi-fu-fang-shi-lie-biao.md)
 
