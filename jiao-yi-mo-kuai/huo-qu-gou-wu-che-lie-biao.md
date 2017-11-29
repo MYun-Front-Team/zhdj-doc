@@ -16,8 +16,8 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrganizationFromSysNo | int | 是 | 卖家组织系统编码 |
-| DataRangeSysNo | int | 是 | 数据范围树编码（店铺树） |
+| OrganizationFromSysNo | int | 否 | 卖家组织系统编码 |
+| DataRangeSysNo | int | 否 | 数据范围树编码（店铺树） |
 | ModuleSysNo | int | 是 | 模块编码 |
 | ModuleSourceType | int | 是 | 来源类型 |
 | ModuleSourceClass | int | 否 | 来源分类 |
@@ -36,6 +36,8 @@ _**【接口地址】**_
 | DataRangeName | string | 是 | 数据范围结点名称 |
 | CartList | array object | 是 | 购物车列表 |
 
+#### Cart说明 {#请求数据}
+
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | CartSysNo | int | 是 | 卖家组织系统编码 |
@@ -46,6 +48,7 @@ _**【接口地址】**_
 | ModuleSourceName | string | 是 | 来源名称（如商品名称） |
 | CustomizedSpecValue | string | 否 | 可定制规格值 |
 | Quantity | int | 是 | 数量 |
+| Price | object | 是 | 价格实体（见商品） |
 
 
 
