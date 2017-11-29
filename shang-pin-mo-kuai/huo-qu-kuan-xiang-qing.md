@@ -22,6 +22,7 @@ _**【接口地址】**_
 | DataRangeSysNo | int | 否 | 数据范围结点（店铺树） |
 | ProductGroupSysNo | int | 是 | 款系统编码 |
 | Limit | array | 否 | 限制条件 |
+| TouristOrganizationSysNo | int | 是 | 游客组织系统编码（传0即为游客） |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
