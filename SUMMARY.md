@@ -137,6 +137,7 @@
     * [新增收货地址](tong-yong-mo-kuai/huo-qu-shou-huo-di-zhi-lie-biao/xin-zeng-shou-huo-di-zhi.md)
     * [修改收货地址](tong-yong-mo-kuai/huo-qu-shou-huo-di-zhi-lie-biao/xiu-gai-shou-huo-di-zhi.md)
     * [删除收货地址](tong-yong-mo-kuai/huo-qu-shou-huo-di-zhi-lie-biao/shan-chu-shou-huo-di-zhi.md)
+  * [获取行政区域列表](tong-yong-mo-kuai/huo-qu-xing-zheng-qu-yu-lie-biao.md)
 * [积分模块](ji-fen-mo-kuai.md)
   * [根据模块，获取积分配置列表](ji-fen-mo-kuai/gen-ju-mo-kuai-ff0c-huo-qu-ji-fen-pei-zhi-lie-biao.md)
   * [获取业务积分记录详情列表](tong-yong-mo-kuai/huo-qu-ye-wu-ji-fen-ji-lu-xiang-qing-lie-biao.md)
