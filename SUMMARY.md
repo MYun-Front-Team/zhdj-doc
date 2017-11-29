@@ -256,6 +256,7 @@
   * [设置商品图片](shang-pin-mo-kuai/xin-zeng-kuan-tu-pian.md)
   * [设置商品上下架状态](shang-pin-mo-kuai/she-zhi-shang-pin-shang-xia-jia-zhuang-tai.md)
   * [获取规格模板列表](shang-pin-mo-kuai/huo-qu-gui-ge-mo-ban-lie-biao.md)
+  * [批量设置商品上下架状态](shang-pin-mo-kuai/pi-liang-she-zhi-shang-pin-shang-xia-jia-zhuang-tai.md)
 * [组织模块](zu-zhi-mo-kuai.md)
   * 获取组织列表
   * [获取组织详情](zu-zhi-mo-kuai/huo-qu-zu-zhi-xiang-qing.md)
