@@ -36,6 +36,17 @@
 | PriceGroupList | array object | 否 | 价格组列表（说明见通用） |
 | ProductInventory | object | 否 | 库存（说明见仓储） |
 | PriceRuleType | int | 否 | 定价规则：0按款定价，1按规格定价 |
+| Price | object | 否 | 价格实体 |
+
+> #### Price说明 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| CostPrice | decimal\(18,2\) | 否 | 成本价 |
+| MarketPrice | decimal\(18,2\) | 否 | 市场价 |
+| SalePrice | decimal\(18,2\) | 否 | 销售价 |
+
+> #### SKU基础字段 {#请求数据}
 
 > #### ProductGroup统计计算字段 {#请求数据}
 
@@ -60,6 +71,7 @@
 | IsClearStocks | int | 否 | 是否限制库存：0否，1是 |
 | PriceGroupList | array object | 否 | 价格组列表（说明见通用） |
 | SkuInventory | object | 否 | sku库存 |
+| Price | object | 否 | 价格实体 |
 
 > #### 功能按钮字段 {#请求数据}
 
