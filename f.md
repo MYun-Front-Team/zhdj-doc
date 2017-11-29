@@ -29,13 +29,13 @@
 | IsOutOfContact | int | 否 | 是否失联党员：0否，1是 |
 | OutOfContactDate | string | 否 | 失联时间 |
 | OutwardFlow | string | 否 | 流动党员外出流向 |
-| SystemConfig | object | 否 | 系统配置 |
+| ~~SystemConfig~~ | ~~object~~ | ~~否~~ | ~~系统配置~~ |
 
-> #### SystemConfig {#请求数据}
+> #### ~~SystemConfig~~ {#请求数据}
 
-| 变量名 | 类型 | 是否必须 | 描述 |
+| ~~变量名~~ | ~~类型~~ | ~~是否必须~~ | ~~描述~~ |
 | :--- | :--- | :--- | :--- |
-| EntranceUrl | string | 否 | 系统Top入口图 |
+| ~~EntranceUrl~~ | ~~string~~ | ~~否~~ | ~~系统Top入口图~~ |
 
 > #### 统计计算字段 {#请求数据}
 
@@ -122,7 +122,7 @@ InnerPartyStatusCountList说明：
 | IsShowHasConfirmedByFee | int | 否 | 是否显示是否存在待确认党费缴费记录 |
 | IsShowPromiseCount | int | 否 | 是否显示承诺数量 |
 | IsShowLastPromiseTime | int | 否 | 是否显示最近承诺时间 |
-| IsShowSystemConfig | int | 否 | 是否显示系统配置 |
+| ~~IsShowSystemConfig~~ | ~~int~~ | ~~否~~ | ~~是否显示系统配置~~ |
 
 ####  {#应答数据-（巡河记录数组）}
 

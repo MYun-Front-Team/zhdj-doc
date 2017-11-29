@@ -20,8 +20,16 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | DataRangeSysNo | int | 是 | 数据范围系统编码 |
 | LoginSource | int | 否 | 登录来源（枚举） |
+| IsShowSystemConfig | int | 否 | 是否显示系统配置 |
 
-> #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
+> #### _应答数据 _ {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ModuleList | array object | 是 | 模块列表 |
+| SystemConfig | object | 是 | 系统配置 |
+
+> #### Module说明 {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -31,6 +39,12 @@ _**【接口地址】**_
 | ModuleSourceClass | int | 否 | 来源分类 |
 | ModuleSourceName | string | 否 | 来源名称 |
 | SortNo | int | 是 | 排序 |
+
+#### SystemConfig说明 {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| EntranceUrl | string | 是 | 首页Top入口图 |
 
 
 
