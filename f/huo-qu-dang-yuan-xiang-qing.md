@@ -19,6 +19,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | MemberSysNo | int | 是 | 党员系统编码 |
+| PersonSysNo | int | 否 | 人员系统编码 |
 | IsOwner | int | 否 | 是否获取自己的党员信息（1是） |
 | Limit | object | 否 | 限制条件 |
 
@@ -26,10 +27,10 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| PartyMemberBase | PartyMemberBase |是  | 基本字段 |
-| PartyMemberStatistic | PartyMemberStatistic | 是| 统计计算字段 |
-|  ActivityInfoList| array[ActivityInfo] | 是| 活动汇总计算字段 |
-| StudyInfoList |  array[StudyInfo]| 是 | 学习汇总计算字段 |
+| PartyMemberBase | PartyMemberBase | 是 | 基本字段 |
+| PartyMemberStatistic | PartyMemberStatistic | 是 | 统计计算字段 |
+| ActivityInfoList | array\[ActivityInfo\] | 是 | 活动汇总计算字段 |
+| StudyInfoList | array\[StudyInfo\] | 是 | 学习汇总计算字段 |
 | ~~Person~~ | ~~object~~ | ~~是~~ | ~~Person实体（见登录接口）~~ |
 
 #### LogList说明_ _ {#应答数据-（巡河记录数组）}
