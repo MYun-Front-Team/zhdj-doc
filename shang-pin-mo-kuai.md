@@ -37,6 +37,7 @@
 | ProductInventory | object | 否 | 库存（说明见仓储） |
 | PriceRuleType | int | 否 | 定价规则：0按款定价，1按规格定价 |
 | Price | object | 否 | 价格实体 |
+| IsCreator | int | 否 | 商品是否属于自己：0否，1是 |
 
 > #### Price说明 {#请求数据}
 
