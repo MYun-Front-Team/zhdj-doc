@@ -73,6 +73,8 @@
 | PriceGroupList | array object | 否 | 价格组列表（说明见通用） |
 | SkuInventory | object | 否 | sku库存 |
 | Price | object | 否 | 价格实体 |
+| FileThumbnailUrlList | array string | 否 | 缩略图Url列表 |
+| FileMasterUrlList | array string | 否 | 主图Url列表 |
 
 > #### 功能按钮字段 {#请求数据}
 
