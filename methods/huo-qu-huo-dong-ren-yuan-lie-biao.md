@@ -41,6 +41,7 @@ _**【接口地址】**_
 | Remark | string | 否 | 备注 |
 | IsSubmitReport | int | 否 | 是否提交汇报：0否，1是 |
 | Report | object | 否 | 汇报实体（说明见通用） |
+| HelpSignInPersonSysNo | int | 否 | 帮助签到人员系统编码 |
 
 
 
