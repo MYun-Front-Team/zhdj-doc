@@ -293,4 +293,7 @@
     * [获取购物车列表](jiao-yi-mo-kuai/huo-qu-gou-wu-che-lie-biao.md)
   * 支付方式管理
     * [获取支付方式列表](jiao-yi-mo-kuai/huo-qu-zhi-fu-fang-shi-lie-biao.md)
+* [订单模块](ding-dan-mo-kuai.md)
+  * [获取订单列表](ding-dan-mo-kuai/huo-qu-ding-dan-lie-biao.md)
+  * [获取订单详情](ding-dan-mo-kuai/huo-qu-ding-dan-xiang-qing.md)
 

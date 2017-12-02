@@ -1,0 +1,140 @@
+# 订单模块-字段说明 {#新增河流}
+
+> #### OrderGroup基础字段 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| OrderSysNo | int | 是 | 系统编码 |
+| OrganizationFromSysNo | int | 是 | 卖家组织系统编码 |
+| DataRangeSysNo | int | 是 | 数据范围树编码（店铺树） |
+| OrganizationToSysNo | int | 是 | 买家组织系统编码 |
+| PersonSysNo | int | 是 | 买家人员系统编码 |
+|  |  |  |  |
+| OrderType | int | 是 | 订单类型：23001普通订单 |
+| OrderClassSysNo | int | 是 | 订单分类：0正常订单，1合单订单，2拆单订单 |
+| RelativeOrderSysNo | int | 否 | 合单，存储 To 关系；拆单，存储 From 关系 |
+| OrderCode | string | 是 | 订单号 |
+| OrderSource | int | 是 | 订单来源: 1后台,2官网,3IOS,4-安卓,5-HTML5,6第三方订单 |
+| PaymentType | int | 是 | 支付方式：0线下，1支付宝，2微信支付，3银联 |
+| SourceOrderCode | string | 否 | 订单来源订单号 |
+| AuditStatus | int | 是 | 审核状态：0待审核，10已审核 |
+| PaymentStatus | int | 是 | 支付状态：0未支付，1部分支付，10已支付 |
+| DeliveryStatus | int | 是 | 发货状态：0未发货，1部分发货，10已发货 |
+| ReceiveStatus | int | 是 | 收货状态：0未收货，1部分收货，10已收货，11拒收 |
+| CancelStatus | int | 是 | 取消状态：0正常，1取消中，10已消，11取消失败 |
+| FinishStatus | int | 是 | 完结状态，0未完结，10已完结 |
+| SettlementStatus | int | 是 | 结算状态：0未结算，1部分结算，10已结算 |
+|  |  |  |  |
+| TrackingCompanySysNo | int | 否 | 期望快递公司系统编码 |
+| ReceiverName | string | 是 | 收货人 |
+| ReceiverPhone | string | 是 | 收货电话 |
+| ReceiverAddress | string | 是 | 收货地址 |
+| PCDCode | string | 是 | 省市区 代码 |
+| PCDDescription | string | 是 | 省市区 名称 |
+| IsNeedBill | int | 否 | 是否需要发票 |
+| BillName | string | 否 | 发票抬头 |
+| BillType | int | 否 | 发票类型：1企业，2机构，3个人 |
+| OrderRemark | string | 否 | 订单买家备注 |
+| DeliveryRemark | string | 否 | 订单卖家备注 |
+|  |  |  |  |
+| OrderAmountList | array object | 否 | 订单金额列表 |
+| OrderPaymentList | array object | 否 | 订单支付列表 |
+| OrderCouponList | array object | 否 | 订单优惠列表 |
+| OrderLogList | array object | 否 | 订单日志列表（通用日志） |
+
+> #### OrderAmount说明 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| AmountSysNo | int | 是 | 订单金额系统编码 |
+| AmountType | int | 是 | 业务逻辑自定义金额类型:0商品原始金额，1运费，2预收款，3活动优惠金额，4优惠券优惠金额，5积分抵扣金额，6实际支付总金额 |
+| Amount | decimal（18，2） | 是 | 金额 |
+| Remark | string | 否 | 备注 |
+
+#### OrderPayment说明 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PaymentSysNo | int | 是 | 订单支付系统编码 |
+| PaymentType | int | 是 | 支付方式：0线下，1支付宝，2微信支付，3银联 |
+| TradeNo | string | 否 | 交易号 |
+| TotalFee | decimal（18，2） | 是 | 交易金额 |
+| PayTime | string | 是 | 支付时间 |
+| BuyerID | string | 否 | 买家帐户 |
+| SellerID | string | 否 | 卖家帐户 |
+| Remark | string | 否 | 备注 |
+
+#### OrderCoupon说明 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| CouponSysNo | int | 是 | 订单支付系统编码 |
+| CouponType | int | 是 | 优惠券类型：0自定义，1免邮，2邮费减免 |
+| CouponSysNo | int | 是 | 优惠券编码 |
+| CouponCode | string | 否 | 优惠代码 |
+| CouponAmount | decimal（18，2） | 是 | 优惠金额\(减免金额\) |
+| Remark | string | 否 | 备注 |
+
+> #### OrderGroup统计计算字段 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+
+
+> #### OrderItem基础字段 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| OrderItemSysNo | int | 是 | 系统编码 |
+| ProductGroupSysNo | int | 是 | 款号系统编码 |
+| SkuSysNo | int | 是 | SKU系统编码 |
+| CustomizedSpecValue | string | 否 | 可定制规格值 |
+| UnitPrice | decimal（18，2） | 是 | 单价 |
+| RealPrice | decimal（18，2） | 是 | 实际价格 |
+| OriginalQuantity | int | 是 | 原始购买数量 |
+| Quantity | int | 是 | 最终购买数量 |
+
+> #### 功能按钮字段 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+
+
+#### 查询条件字段 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| OrderType | int | 是 | 订单类型（枚举） |
+| OrganizationFromSysNo | int | 否 | 卖家组织系统编码 |
+| DataRangeSysNoList | int | 否 | 数据范围编码列表（店铺树） |
+| OrganizationToSysNo | int | 否 | 买家组织系统编码 |
+| PersonSysNoList | int | 否 | 买家人员系统编码 |
+| KeyWord | string | 否 | 关键字搜索（订单号/收货人/收货手机） |
+
+> #### 查询Limit字段 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| OrderLimit | object | 否 | 订单限制条件 |
+| ProductLimit | object | 否 | 商品限制条件（见商品说明） |
+
+#### OrderLimit说明 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| IsShowOrderAmountList | int | 否 | 是否显示订单金额列表 |
+| IsShowOrderPaymentList | int | 否 | 是否显示订单支付列表 |
+| IsShowOrderCouponList | int | 否 | 是否显示订单优惠列表 |
+| IsShowOrderLogList | int | 否 | 是否显示订单日志列表 |
+
+#### 模块页面编号枚举说明 {#请求数据}
+
+| 枚举值 | 模块说明 | 模块类型 | 模块类型分类 | 页面说明 |
+| :--- | :--- | :--- | :--- | :--- |
+| 2300101 | 订单模块 | 普通订单 |  | 新增页 |
+| 2300102 |  | 普通订单 |  | 修改页 |
+| 2300103 |  | 普通订单 |  | 详情页 |
+| 2300104 |  | 普通订单 |  | 列表页 |
+
+
+
