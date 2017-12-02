@@ -25,5 +25,12 @@
 | OrderLockQuantity | int | 是 | 订单锁数量 |
 | DeliveryVoucherLockQuantity | int | 是 | 发货单锁数量 |
 
+#### 订单商品SKU锁库基础字段（OrderItemLockInventory） {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| OrderLockQuantity | int | 是 | 订单锁数量 |
+| DeliveryVoucherLockQuantity | int | 是 | 发货单锁数量 |
+
 
 

@@ -75,6 +75,7 @@
 | Price | object | 否 | 价格实体 |
 | FileThumbnailUrlList | array string | 否 | 缩略图Url列表 |
 | FileMasterUrlList | array string | 否 | 主图Url列表 |
+| ProductGroup | object | 否 | 款实体对象（不含SKU） |
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -93,7 +94,6 @@
 | ProductGroupClassSysNoList | array int | 否 | 类型分类系统编码（类别树） |
 | OnSaleStatusList | array int | 否 | 上下状态:0待上架 1上架 2下架 3部分上架 4停售 |
 | TouristOrganizationSysNo | int | 否 | 游客组织系统编码（传0即为游客） |
-| ~~IsTourist~~ | ~~int~~ | ~~否~~ | ~~是否游客：0否，1是~~ |
 
 > #### 查询Limit字段 {#请求数据}
 
@@ -110,6 +110,7 @@
 | ShowPriceTypeList | array int | 否 | 价格类型（见通用价格） |
 | IsShowProductInventory | int | 否 | 是否显示款库存（需要SKU库存则IsShowSkuInventory=1） |
 | IsShowSkuInventory | int | 否 | 是否显示sku库存 |
+| IsShowProductInSku | int | 否 | 是否显示sku中款的信息（款的图片需limit控制） |
 
 ####  {#应答数据-（巡河记录数组）}
 
