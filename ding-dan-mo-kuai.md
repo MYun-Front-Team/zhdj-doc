@@ -46,7 +46,7 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| AmountSysNo | int | 是 | 订单金额系统编码 |
+| OrderAmountSysNo | int | 是 | 订单金额系统编码 |
 | AmountType | int | 是 | 业务逻辑自定义金额类型:0商品原始金额，1运费，2预收款，3活动优惠金额，4优惠券优惠金额，5积分抵扣金额，6实际支付总金额 |
 | Amount | decimal（18，2） | 是 | 金额 |
 | Remark | string | 否 | 备注 |
@@ -55,7 +55,7 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| PaymentSysNo | int | 是 | 订单支付系统编码 |
+| OrderPaymentSysNo | int | 是 | 订单支付系统编码 |
 | PaymentType | int | 是 | 支付方式（枚举） |
 | TradeNo | string | 否 | 交易号 |
 | TotalFee | decimal（18，2） | 是 | 交易金额 |
@@ -68,7 +68,7 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| CouponSysNo | int | 是 | 订单支付系统编码 |
+| OrderCouponSysNo | int | 是 | 订单支付系统编码 |
 | CouponType | int | 是 | 优惠券类型：0自定义，1免邮，2邮费减免，3满减 |
 | CouponSysNo | int | 是 | 优惠券编码 |
 | CouponCode | string | 否 | 优惠代码 |
@@ -108,9 +108,9 @@
 | :--- | :--- | :--- | :--- |
 | OrderType | int | 是 | 订单类型（枚举） |
 | OrganizationFromSysNo | int | 否 | 卖家组织系统编码 |
-| DataRangeSysNoList | int | 否 | 数据范围编码列表（店铺树） |
+| DataRangeSysNoList | array int | 否 | 数据范围编码列表（店铺树） |
 | OrganizationToSysNo | int | 否 | 买家组织系统编码 |
-| PersonSysNoList | int | 否 | 买家人员系统编码 |
+| PersonSysNoList | array int | 否 | 买家人员系统编码 |
 | KeyWord | string | 否 | 关键字搜索（订单号/收货人/收货手机） |
 
 > #### 查询Limit字段 {#请求数据}
