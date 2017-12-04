@@ -45,10 +45,11 @@ _**【接口地址】**_
 | ModuleSourceType | int | 是 | 来源类型 |
 | ModuleSourceClass | int | 否 | 来源分类 |
 | ModuleSourceSysNo | int | 是 | 来源系统编码 |
-| ModuleSourceName | string | 是 | 来源名称（如商品名称） |
+| ~~ModuleSourceName~~ | ~~string~~ | ~~是~~ | ~~来源名称（如商品名称）~~ |
 | CustomizedSpecValue | string | 否 | 可定制规格值 |
 | Quantity | int | 是 | 数量 |
-| Price | object | 是 | 价格实体（见商品） |
+| ~~Price~~ | ~~object~~ | ~~是~~ | ~~价格实体（见商品）~~ |
+| sku | object | 否 | sku实体 |
 
 
 

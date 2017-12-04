@@ -19,6 +19,7 @@ _**【接口地址】**_
 | TagSysNo | int | 是 | 系统编码 |
 | TagName | string | 是 | 标签名称 |
 | TagPathList | array string | 否 | 标签图片Path列表 |
+| IconColor | string | 否 | 标签底色 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 

@@ -36,7 +36,7 @@
 | BillType | int | 否 | 发票类型：1企业，2机构，3个人 |
 | OrderRemark | string | 否 | 订单买家备注 |
 | DeliveryRemark | string | 否 | 订单卖家备注 |
-|  |  |  |  |
+| OrderItemList | array object | 否 | 订单商品列表 |
 | OrderAmountList | array object | 否 | 订单金额列表 |
 | OrderPaymentList | array object | 否 | 订单支付列表 |
 | OrderCouponList | array object | 否 | 订单优惠列表 |

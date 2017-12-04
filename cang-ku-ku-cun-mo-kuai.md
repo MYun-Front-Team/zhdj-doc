@@ -6,6 +6,7 @@
 | :--- | :--- | :--- | :--- |
 | ProductGroupSysNo | int | 是 | 款系统编码 |
 | PhysicalQuantity | int | 是 | 物理库存 |
+| AvailableQuantity | int | 是 | 可用库存 |
 | VirtualQuantity | int | 是 | 虚拟库存 |
 | FrozenQuantity | int | 是 | 冻结库存（含冻结库位库存+不可用库位库存+次品） |
 | OrderLockQuantity | int | 是 | 订单锁数量 |
@@ -20,6 +21,7 @@
 | :--- | :--- | :--- | :--- |
 | SkuSysNo | int | 是 | 商品规格\(SKU\)系统编码 |
 | PhysicalQuantity | int | 是 | 物理库存 |
+| AvailableQuantity | int | 是 | 可用库存 |
 | VirtualQuantity | int | 是 | 虚拟库存 |
 | FrozenQuantity | int | 是 | 冻结库存（含冻结库位库存+不可用库位库存+次品） |
 | OrderLockQuantity | int | 是 | 订单锁数量 |
