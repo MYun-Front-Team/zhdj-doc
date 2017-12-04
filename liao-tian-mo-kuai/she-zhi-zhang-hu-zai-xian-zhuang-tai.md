@@ -17,6 +17,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | OnlineStatus | int | 是 | 在线状态：0离线，1在线 |
+| OnlineStatusForDisplay | int | 否 | 是否打开APP：0否，1是 |
 
 
 
