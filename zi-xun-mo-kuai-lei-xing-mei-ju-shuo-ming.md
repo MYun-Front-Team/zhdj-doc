@@ -111,7 +111,7 @@
 | 0 | 手机号（密码必填） |
 | 1 | 微信UnionID |
 | 2 | 微信OpenID |
-| 3 | 微信企业号OpenID（UserID+Mobile） |
+| 3 | 微信企业号OpenID（格式：AgentID\_UserID\_Mobile） |
 
 > #### 模块页面编号枚举说明 {#请求数据}
 
