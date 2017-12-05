@@ -12,6 +12,8 @@ _**【应用场景】**_
 
 积分备注：登录动作（枚举=2）预埋积分赠送逻辑。
 
+注：如果参数“登录授权Token”不为空，那么记录该值到账户表的“LastLoginToken”；
+
 _**【接口地址】**_
 
 [http://ip:port/BasicAction/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Basic](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[/L](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)oginIn
@@ -34,6 +36,7 @@ _**【接口地址】**_
 | User | object | 是 | 账户实体对象 |
 | Person | object | 是 | 人员实体对象 |
 | OrganizationList | array object | 是 | 组织列表 |
+| AccessToken | string | 是 | 登录授权Token |
 
 #### Person说明_ （简要，需要全部字段请调用“获取个人信息”接口）_ {#应答数据-（巡河记录数组）}
 

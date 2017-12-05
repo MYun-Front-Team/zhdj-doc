@@ -308,4 +308,11 @@
   * [审核订单](ding-dan-mo-kuai/shen-he-ding-dan.md)
   * [标记发货](ding-dan-mo-kuai/biao-ji-fa-huo.md)
   * [确认收货](ding-dan-mo-kuai/que-ren-shou-huo.md)
+* [工单模块](gong-dan-mo-kuai.md)
+  * [获取工单列表](gong-dan-mo-kuai/huo-qu-gong-dan-lie-biao.md)
+  * [获取工单详情](gong-dan-mo-kuai/huo-qu-gong-dan-xiang-qing.md)
+  * [新增工单](gong-dan-mo-kuai/xin-zeng-gong-dan.md)
+  * [修改工单](gong-dan-mo-kuai/xiu-gai-gong-dan.md)
+  * [删除工单](gong-dan-mo-kuai/shan-chu-gong-dan.md)
+  * [回复工单](gong-dan-mo-kuai/hui-fu-gong-dan.md)
 
