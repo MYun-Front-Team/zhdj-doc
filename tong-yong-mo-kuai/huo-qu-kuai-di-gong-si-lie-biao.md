@@ -27,7 +27,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | TrackingCompanySysNo | int | 是 | 系统编码 |
-| TrackingCompanyType | string | 是 | 类型：0快递，1物流 |
+| TrackingCompanyType | string | 是 | 类型：0自提，1快递，2物流 |
 | TrackingCompanyCode | int | 否 | 快递公司代码 |
 | TrackingCompanyName | string | 是 | 快递公司名称 |
 | TrackingCompanyLogoUrl | string | 否 | Logo |
