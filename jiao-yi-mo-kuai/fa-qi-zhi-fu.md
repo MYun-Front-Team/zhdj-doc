@@ -23,6 +23,7 @@ _**【接口地址】**_
 | OrderSysNo | int | 否 | 订单系统编码 |
 | PaymentType | int | 否 | 支付方式：0余额，1支付宝，2微信，3银联 |
 | IsNeedBalance | int | 否 | 是否需要先扣余额：0否，1是 |
+| OpenID | string | 否 | 微信OPENID |
 
 > #### 应答_数据_ {#请求数据}
 
