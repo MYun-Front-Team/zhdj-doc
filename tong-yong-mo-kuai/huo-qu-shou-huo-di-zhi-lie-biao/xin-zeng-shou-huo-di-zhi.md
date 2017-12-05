@@ -26,7 +26,11 @@ _**【接口地址】**_
 | PersonGender | int | 否 | 性别：1男，2女 |
 | PersonPhone | string | 是 | 电话 |
 | AddressDesc | string | 是 | 地址 |
+| PCDCode | string | 否 | 省市区 代码 |
+| PCDDescription | string | 否 | 省市区 名称 |
 | AddressHouseNumber | string | 否 | 门牌号 |
+| Longitude | decimal（18，10） | 否 | 经度 |
+| Latitude | decimal（18，10） | 否 | 纬度 |
 | IsDefault | int | 否 | 是否默认地址：0否，1是 |
 | TagSysNoList | array int | 否 | 标签列表 |
 

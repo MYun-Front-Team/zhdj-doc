@@ -22,10 +22,14 @@ _**【接口地址】**_
 | AddressPerson | string | 是 | 联系人 |
 | PersonGender | int | 否 | 性别：1男，2女 |
 | PersonPhone | string | 是 | 电话 |
+| PCDCode | string | 否 | 省市区 代码 |
+| PCDDescription | string | 否 | 省市区 名称 |
 | AddressDesc | string | 是 | 地址 |
 | AddressHouseNumber | string | 否 | 门牌号 |
 | IsDefault | int | 否 | 是否默认地址：0否，1是 |
 | TagSysNoList | array int | 否 | 标签列表 |
+| Longitude | decimal\(18,10\) | 否 | 经度 |
+| Latitude | decimal\(18,10\) | 否 | 纬度 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
