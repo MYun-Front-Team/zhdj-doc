@@ -46,6 +46,7 @@
 | CostPrice | decimal\(18,2\) | 否 | 成本价 |
 | MarketPrice | decimal\(18,2\) | 否 | 市场价 |
 | SalePrice | decimal\(18,2\) | 否 | 销售价 |
+| MaxSalePrice | decimal\(18,2\) | 否 | 最大销售价 |
 
 > #### SKU基础字段 {#请求数据}
 >
