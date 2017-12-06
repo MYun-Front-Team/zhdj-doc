@@ -21,7 +21,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 是 | 引入组织系统编码 |
-| DataRangeSysNoList | array int | 是 | 数据范围枝叶编码列表（必须在不同的树中的枝叶） |
+| DataRangeSysNoList | array int | 否 | 数据范围枝叶编码列表（必须在不同的树中的枝叶） |
 | PullProductGroupList | array object | 是 | 引入款列表 |
 
 #### PullProductGroup {#应答数据-}
