@@ -4,6 +4,8 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| OrganizationSysNo | int | 是 | 组织系统编码 |
+| DataRangeSysNo | int | 是 | 数据范围编码列表（店铺树） |
 | ProductGroupSysNo | int | 是 | 系统编码 |
 | ProductGroupType | int | 是 | 类型（枚举） |
 | ProductGroupClassSysNo | int | 否 | 类型分类系统编码（类别树） |
