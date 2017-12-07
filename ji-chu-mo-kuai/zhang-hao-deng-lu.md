@@ -69,6 +69,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| DataRangeSysNo | int | 是 | 数据范围树结点编码 |
 | OrganizationSysNo | int | 是 | 组织系统编码 |
 | OrganizationType | int | 是 | 类型（枚举） |
 | OrganizationClassSysNo | int | 否 | 分类（树） |

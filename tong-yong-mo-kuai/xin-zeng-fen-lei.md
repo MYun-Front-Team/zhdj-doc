@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 新增分类，当只传入“CategoryTreeName”时，表示新增类别树（不存在），否则，表示在该树下，新增类别。
 
+注：CategoryTreeName的命名规格：ModuleName+ModuleType+'\_'+组织编码，如ActivityClass4001\_2
+
 _**【接口地址】**_
 
 [http://ip:port/UMAction/Category/AddC](http://ip:port/HMQuery/RiverMaster/GetRiverMasterByRiverMasterSysNo)ategory
