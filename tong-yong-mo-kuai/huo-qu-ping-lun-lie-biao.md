@@ -21,6 +21,7 @@ _**【接口地址】**_
 | ModuleSourceClass | int | 否 | 来源分类 |
 | ModuleSourceSysNo | int | 否 | 来源系统编码 |
 | ShowStatusList | array int | 否 | 显示状态：0不显示，1显示 |
+| IsMyFootPrint | int | 否 | 是否显示自己的：0否，1是（不传查全部，传值需通过UserSysNo匹配Person） |
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 
