@@ -1,0 +1,38 @@
+# 获取评论列表 {#获取河长巡河记录}
+
+##### _【功能说明】_ {#【功能说明】}
+
+获取评论列表
+
+_**【应用场景】**_
+
+获取评论列表
+
+_**【接口地址】**_
+
+[http://ip:port/UMQuery/Comment/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)CommentList
+
+> #### _请求数据_ {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ModuleSysNo | int | 是 | 模块编码 |
+| ModuleSourceType | int | 否 | 来源类型 |
+| ModuleSourceClass | int | 否 | 来源分类 |
+| ModuleSourceSysNo | int | 否 | 来源系统编码 |
+| ShowStatusList | array int | 否 | 显示状态：0不显示，1显示 |
+
+> #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| CommentSysNo | int | 是 | 系统编码 |
+| CommentSource | int | 是 | 评论来源：1系统，2官网，3IOS，4-安卓，5-HTML5 |
+| CommentContent | string | 是 | 评论内容 |
+| CommentUrlList | array string | 否 | 图片URL路径列表 |
+| Person | object | 是 | 评论人员实体（简版） |
+| IsAnonymous | int | 是 | 是否匿名：0否，1是 |
+| Propertys | array object | 否 | 评论明细列表（见通用-属性） |
+
+
+

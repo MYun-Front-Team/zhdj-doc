@@ -31,7 +31,7 @@ _**【接口地址】**_
 | BrandName | string | 是 | 品牌名称 |
 | IsEnable | int | 是 | 是否启用（影响前台展示） |
 | IsEnableInBack | int | 是 | 是否后台启用 |
-| BrandPathList | array string | 否 | 图片path路径列表 |
+| BrandUrlList | array string | 否 | 图片Url路径列表 |
 
 
 
