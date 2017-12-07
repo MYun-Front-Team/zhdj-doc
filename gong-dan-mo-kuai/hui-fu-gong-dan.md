@@ -25,6 +25,7 @@ _**【接口地址】**_
 | WorkSysNo | int | 是 | 系统编码 |
 | ReplyContent | string | 是 | 回复内容 |
 | ReplyTime | string | 否 | 回复时间 |
+| ToDataRangeSysNo | int | 否 | 流转数据范围系统编码 |
 | ToPersonSysNo | int | 否 | 流转人员系统编码 |
 
 #### _应答数据_ {#应答数据-}
