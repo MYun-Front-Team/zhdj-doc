@@ -16,8 +16,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| FromDataRangeSysNo | int | 是 | 上报人数据范围系统编码 |
-| ToDataRangeSysNo | int | 否（可选配置） | 处理人数据范围系统编码 |
+| DataRangeSysNo | int | 是 | 工单所属数据范围系统编码 |
 | ToPersonSysNo | int | 否（可选配置） | 处理人员系统编码 |
 | WorkType | int | 是 | 类型（枚举） |
 | WorkClassSysNo | int | 否（可选配置） | 类型分类系统编码（类别树） |
