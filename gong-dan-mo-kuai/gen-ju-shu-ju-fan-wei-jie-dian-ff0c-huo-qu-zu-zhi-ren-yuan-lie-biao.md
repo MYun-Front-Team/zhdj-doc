@@ -18,7 +18,8 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| DataRangeSysNo | int | 是 | 数据范围结点编码 |
+| DataRangeSysNo | int | 是 | 组织所属数据范围结点编码 |
+| OrganizationSysNo | int | 否 | 组织系统编码 |
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 | IsFather | int | 否 | 是否上一级：0否，1是 |
 
