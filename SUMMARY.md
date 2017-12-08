@@ -322,4 +322,19 @@
 * [居民管理](ju-min-guan-li.md)
   * [获取居民列表](ju-min-guan-li/huo-qu-ju-min-lie-biao.md)
   * [获取居民详情](ju-min-guan-li/huo-qu-ju-min-xiang-qing.md)
+* [资金管理](zi-jin-guan-li.md)
+  * [获取钱包日志列表](zi-jin-guan-li/huo-qu-qian-bao-ri-zhi-lie-biao.md)
+  * 银行卡管理
+    * [获取银行卡列表](zi-jin-guan-li/huo-qu-yin-xing-qia-lie-biao.md)
+    * [新增银行卡](zi-jin-guan-li/xin-zeng-yin-xing-qia.md)
+    * [删除银行卡](zi-jin-guan-li/shan-chu-yin-xing-qia.md)
+    * [获取银行列表](zi-jin-guan-li/huo-qu-yin-xing-lie-biao.md)
+  * 提现管理
+    * [获取提现列表](zi-jin-guan-li/huo-qu-ti-xian-lie-biao.md)
+    * [获取提现详情](zi-jin-guan-li/huo-qu-ti-xian-xiang-qing.md)
+    * [新增提现](zi-jin-guan-li/xin-zeng-ti-xian.md)
+    * [修改提现](zi-jin-guan-li/xiu-gai-ti-xian.md)
+    * [删除提现](zi-jin-guan-li/shan-chu-ti-xian.md)
+    * [审核提现](zi-jin-guan-li/shen-he-ti-xian.md)
+    * [确认提现（完结）](zi-jin-guan-li/que-ren-ti-xian-ff08-wan-jie-ff09.md)
 
