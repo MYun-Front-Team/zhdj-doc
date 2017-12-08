@@ -112,6 +112,13 @@
 | OrganizationToSysNo | int | 否 | 买家组织系统编码 |
 | PersonSysNoList | array int | 否 | 买家人员系统编码 |
 | KeyWord | string | 否 | 关键字搜索（订单号/收货人/收货手机） |
+| AuditStatusList | array int | 否 | 审核状态 |
+| PaymentStatus | array int | 否 | 支付状态 |
+| DeliveryStatus | array int | 否 | 发货状态 |
+| ReceiveStatus | array int | 否 | 收货状态 |
+| CancelStatus | array int | 否 | 取消状态 |
+| FinishStatus | array int | 否 | 完结状态 |
+| SettlementStatus | array int | 否 | 结算状态 |
 
 > #### 查询Limit字段 {#请求数据}
 
