@@ -18,7 +18,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | BizCompanyCode | int | 是 | 项目标识符（枚举） |
 | ~~DataRangeSysNo~~ | ~~int~~ | ~~是~~ | ~~数据范围树编码~~ |
-| OrganizationSysNo | int | 是 | 组织系统编码 |
+| OrganizationSysNo | int | 否 | 组织系统编码 |
 | RoleName | string | 是 | 角色名称 |
 | RoleDesc | string | 否 | 角色描述 |
 | SortNo | int | 否 | 排序 |

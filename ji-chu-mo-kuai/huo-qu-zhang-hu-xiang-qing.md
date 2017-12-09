@@ -16,7 +16,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrganizationSysNo | int | 是 | 组织系统编码 |
+| OrganizationSysNo | int | 否 | 组织系统编码 |
 | BizCompanyCode | int | 是 | 项目标识符（枚举） |
 | UserLimit | object | 否 | 限制条件 |
 
