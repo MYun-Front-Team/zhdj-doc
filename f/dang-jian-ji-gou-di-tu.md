@@ -37,6 +37,7 @@ _**【接口地址】**_
 | Children | array\[PartyMap\] | 是 | 孩子党委支部 |
 | FlowMemberInfos | array\[PartyMapMemberInfo\] | 是 | 流动党员数量信息 |
 | PartyStations | array\[PartyMapStation\] | 是 | 党员先锋站点 |
+| PartyBranchStarCount | decimal（18，1） | 是 | 星级 |
 
 ### PartyMap
 

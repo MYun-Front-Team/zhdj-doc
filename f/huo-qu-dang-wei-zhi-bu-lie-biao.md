@@ -41,6 +41,7 @@ _**【接口地址】**_
 | Longitude | decimal | 是 | 经度 |
 | Latitude | decimal | 是 | 纬度 |
 | 统计计算字段 |  |  | （见党员模块说明） |
+| PartyBranchStarCount | decimal（18，1） | 是 | 星际 |
 
 
 

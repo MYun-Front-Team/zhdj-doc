@@ -100,6 +100,7 @@
   * [批量修改党员党费缴费标准](f/pi-liang-xiu-gai-dang-yuan-dang-fei-jiao-fei-biao-zhun.md)
   * [确认党费记录状态](f/que-ren-jiao-fei.md)
   * [党费微信在线支付](f/dang-fei-wei-xin-zai-xian-zhi-fu.md)
+  * [获取党员发展统计](f/huo-qu-dang-yuan-fa-zhan-tong-ji.md)
 * [帮扶管理（删）](methods/bang-fu-guan-li.md)
   * [获取帮扶列表](methods/bang-fu-guan-li/huo-qu-bang-fu-lie-biao.md)
   * [获取帮扶详情](methods/bang-fu-guan-li/huo-qu-bang-fu-xiang-qing.md)
