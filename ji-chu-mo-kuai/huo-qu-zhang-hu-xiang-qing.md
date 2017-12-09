@@ -41,6 +41,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| IsShowChildModule | int | 否 | 是否显示子模块 |
 | IsShowRight | int | 否 | 是否显示权限 |
 | RightLimit | object | 否 | 权限限制条件，当显示权限=1时生效 |
 
@@ -72,18 +73,20 @@ _**【接口地址】**_
 | WxCorpUserID | string | 否 | 微信企业号用户ID |
 | Remark | string | 否 | 备注 |
 | ModuleList | array object | 否 | 模块列表 |
-| RoleList | array object | 否 | 角色列表 |
-| RightList | array object | 否 | 权限列表 |
+| RoleList | array object | 否 | 角色列表（见获取角色列表） |
+| RightList | array object | 否 | 权限列表（见获取角色列表） |
 
 #### Module说明 {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| ModuleSysNo | int | 是 | mok |
-| ModuleSourceType | int |  |  |
-| ModuleSourceClass | int |  |  |
-| ModuleName | string |  |  |
-| ModuleCode |  |  |  |
+| ModuleSysNo | int | 是 | 模块系统编码（枚举） |
+| ModuleSourceType | int | 是 | 模块类型（枚举） |
+| ModuleSourceClass | int | 否 | 模块分类（分类树） |
+| ModuleName | string | 是 | 模块名称 |
+| ModuleCode | string | 是 | 模块代码 |
+| ChildModuleList | array object | 否 | 子模块列表 |
+| RightList | array object | 否 | 权限列表（见获取角色列表） |
 
 
 
