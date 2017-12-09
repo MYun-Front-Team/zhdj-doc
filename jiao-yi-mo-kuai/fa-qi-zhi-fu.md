@@ -21,7 +21,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | OrderSysNo | int | 否 | 订单系统编码 |
-| PaymentType | int | 否 | 支付方式：0余额，1支付宝，2微信，3银联 |
+| PaymentSysNo | int | 否 | 支付方式系统编码 |
 | IsNeedBalance | int | 否 | 是否需要先扣余额：0否，1是 |
 | OpenID | string | 否 | 微信OPENID |
 
