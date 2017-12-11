@@ -1,0 +1,43 @@
+# 修改商家 {#新增河流}
+
+##### _【功能说明】_ {#【功能说明】}
+
+修改商家
+
+_**【应用场景】**_
+
+修改商家
+
+_**【接口地址】**_
+
+[http://ip:port/OrganizationAction/Seller/EditS](http://ip:port/OrganizationAction/Customer/AddCustomer)eller
+
+> #### _请求数据_ {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| SellerSysNo | int | 是 | 商家系统编码 |
+| SellerName | string | 否 | 商家名称 |
+| SellerShortName | string | 否 | 简称 |
+| SellerTel | string | 否 | 商家联系电话 |
+| SellerDesc | string | 否 | 商家描述 |
+| SellerMaster | string | 否 | 商家负责人 |
+| SellerPost | string | 否 | 商家负责人岗位 |
+| SellerIDCard | string | 否 | 商家负责人身份证 |
+| SellerGender | int | 否 | 商家负责人性别：1男，2女 |
+| SellerPerson | string | 否 | 商家联系人 |
+| SellerPersonPhone | string | 否 | 商家联系人电话 |
+| SellerPersonPost | string | 否 | 商家联系人岗位 |
+| PCDCode | string | 否 | 省市区代码 |
+| PCDDescription | string | 否 | 省市区描述 |
+| ContractAddress | string | 否 | 联系地址 |
+| Longitude | decimal\(18,2\) | 否 | 经度 |
+| Latitude | decimal\(18,2\) | 否 | 纬度 |
+| Remark | string | 否 | 备注 |
+| IDCardPathList | array string | 否 | 身份证Path路径列表 |
+| LicensePathList | array string | 否 | 营业执照Path路径列表 |
+
+#### _应答数据 _ {#应答数据-}
+
+
+

@@ -288,10 +288,18 @@
   * [服务商管理](zu-zhi-mo-kuai/fu-wu-shang-guan-li.md)
     * [获取服务商列表](zu-zhi-mo-kuai/fu-wu-shang-guan-li/huo-qu-fu-wu-shang-lie-biao.md)
   * [商家管理](zu-zhi-mo-kuai/shang-jia-guan-li.md)
+    * [获取商家列表](zu-zhi-mo-kuai/shang-jia-guan-li/huo-qu-shang-jia-lie-biao.md)
+    * [获取商家详情](zu-zhi-mo-kuai/shang-jia-guan-li/huo-qu-shang-jia-xiang-qing.md)
+    * [新增商家](zu-zhi-mo-kuai/shang-jia-guan-li/xin-zeng-shang-jia.md)
+    * [修改商家](zu-zhi-mo-kuai/shang-jia-guan-li/xiu-gai-shang-jia.md)
+    * [删除商家](zu-zhi-mo-kuai/shang-jia-guan-li/shan-chu-shang-jia.md)
+    * [审核商家](zu-zhi-mo-kuai/shang-jia-guan-li/shen-he-shang-jia.md)
 * [店铺模块](dian-pu-mo-kuai.md)
-  * 新增店铺
-  * 修改店铺
-  * 删除店铺
+  * [新增店铺](dian-pu-mo-kuai/xin-zeng-dian-pu.md)
+  * [修改店铺](dian-pu-mo-kuai/xiu-gai-dian-pu.md)
+  * [删除店铺](dian-pu-mo-kuai/shan-chu-dian-pu.md)
+  * [获取店铺列表](dian-pu-mo-kuai/huo-qu-dian-pu-lie-biao.md)
+  * [获取店铺详情](dian-pu-mo-kuai/huo-qu-dian-pu-xiang-qing.md)
 * [仓库库存模块](cang-ku-ku-cun-mo-kuai.md)
   * [获取仓库库位树](huo-qu-cang-ku-ku-wei-shu.md)
   * [入库](ru-ku.md)
