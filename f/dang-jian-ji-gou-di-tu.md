@@ -67,21 +67,21 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | Count | int | 是 | 数量 |
-| Education| int | 是 | 0未知,1小学,2初中,3中转,4高中,5专科,6本科,7硕士,8博士|
+| Education | int | 是 | 0未知,1小学,2初中,3中转,4高中,5专科,6本科,7硕士,8博士 |
 
 ### PartyMapUserGenderInfo
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | Count | int | 是 | 数量 |
-| UserGender| int | 是 | 1男，2女|
+| UserGender | int | 是 | 1男，2女 |
 
 ### PartyMapAgeInfo
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | Count | int | 是 | 数量 |
-| AgeStatus| int | 是 | 1:30~40,2:40~50,3:50~60,4:60以上|
+| AgeStatus | int | 是 | 1:30~40,2:40~50,3:50~60,4:60以上 |
 
 ### PartyMapStation
 
@@ -91,4 +91,6 @@ _**【接口地址】**_
 | StationAddress | string | 是 | 党员先锋站地址 |
 | Longitude | decimal | 是 | 经度 |
 | Latitude | decimal | 是 | 纬度 |
+
+
 
