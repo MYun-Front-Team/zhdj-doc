@@ -36,6 +36,9 @@ _**【接口地址】**_
 | Latitude | decimal | 是 | 纬度 |
 | Children | array\[PartyMap\] | 是 | 孩子党委支部 |
 | FlowMemberInfos | array\[PartyMapMemberInfo\] | 是 | 流动党员数量信息 |
+| EducationInfos | array\[PartyMapEducationInfo\] | 是 | 党员学历 |
+| UserGenderInfos | array\[PartyMapUserGenderInfo\] | 是 | 党员性别 |
+| AgeInfos | array\[PartyMapAgeInfo\] | 是 | 党员年龄 |
 | PartyStations | array\[PartyMapStation\] | 是 | 党员先锋站点 |
 | PartyBranchStarCount | decimal（18，1） | 是 | 星级 |
 
@@ -59,12 +62,26 @@ _**【接口地址】**_
 | Count | int | 是 | 数量 |
 | PartyBranchType | int | 是 | 党委支部类型: 1两新组织、2社区支部、3机关支部 |
 
-### PartyMapMemberInfo
+### PartyMapEducationInfo
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | Count | int | 是 | 数量 |
-| InnerPartyStatus | int | 是 | 党内状态0积极份子，1预报党员，2正式党员 |
+| Education | int | 是 | 0未知,1小学,2初中,3中转,4高中,5专科,6本科,7硕士,8博士 |
+
+### PartyMapUserGenderInfo
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| Count | int | 是 | 数量 |
+| UserGender | int | 是 | 1男，2女 |
+
+### PartyMapAgeInfo
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| Count | int | 是 | 数量 |
+| AgeStatus | int | 是 | 1:30~40,2:40~50,3:50~60,4:60以上 |
 
 ### PartyMapStation
 
