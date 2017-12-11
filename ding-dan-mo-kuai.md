@@ -41,6 +41,11 @@
 | OrderPaymentList | array object | 否 | 订单支付列表 |
 | OrderCouponList | array object | 否 | 订单优惠列表 |
 | OrderLogList | array object | 否 | 订单日志列表（通用日志） |
+|  |  |  |  |
+| FromOrganization | object | 否 | 卖家组织实体（简版） |
+| FromShop | object | 否 | 卖家店铺实体（简版） |
+| ToOrganization | object | 否 | 买家组织实体（简版） |
+| ToPerson | object | 否 | 买家人员实体（简版） |
 
 > #### OrderAmount说明 {#请求数据}
 
@@ -137,6 +142,10 @@
 | IsShowOrderLogList | int | 否 | 是否显示订单日志列表 |
 | IsShowOrderItemList | int | 否 | 是否显示订单商品列表 |
 | IsShowOrderItemSku | int | 否 | 是否显示订单商品SKU（只有IsShowOrderItemList=1才有效） |
+| IsShowFromOrganization | int | 否 | 是否显示卖家组织 |
+| IsShowFromShop | int | 否 | 是否显示卖家店铺 |
+| IsShowToOrganization | int | 否 | 是否显示买家组织 |
+| IsShowToPerson | int | 否 | 是否显示买家人员 |
 
 #### 模块页面编号枚举说明 {#请求数据}
 
