@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 新增商家
 
+注：邀请码逻辑暂缺；
+
 _**【接口地址】**_
 
 [http://ip:port/OrganizationAction/Seller/AddS](http://ip:port/OrganizationAction/Customer/AddCustomer)eller
@@ -38,6 +40,7 @@ _**【接口地址】**_
 | Remark | string | 否（可选配置） | 备注 |
 | IDCardPathList | array string | 否（可选配置） | 身份证Path路径列表 |
 | LicensePathList | array string | 否（可选配置） | 营业执照Path路径列表 |
+| InvitationCode | string | 否（可选配置） | 邀请码 |
 
 #### _应答数据 _ {#应答数据-}
 
