@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 获取工单详情
 
+注：Limit中IsShowReplyList只显示回复状态为ReplyType=0的列表数据；
+
 _**【接口地址】**_
 
 [http://ip:port/WorkQuery/Work/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)WorkBySysNo

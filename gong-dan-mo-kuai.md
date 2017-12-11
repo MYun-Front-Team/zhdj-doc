@@ -27,6 +27,15 @@
 | FileUrlList | array string | 否 | 文件或图片URL列表（第一张为首图） |
 | TagList | array object | 否 | 标签列表（见通用-标签） |
 | CommentList | array object | 否 | 评价列表（见通用-评价） |
+| ReplyList | array object | 否 | 回复列表 |
+
+> #### Reply说明 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ReplySysNo | int | 是 | 回复系统编码 |
+| ReplyContent | string | 是 | 回复内容 |
+| ReplyTime | string | 是 | 回复时间 |
 
 > #### 统计计算字段 {#请求数据}
 
@@ -62,6 +71,7 @@
 | IsShowFileUrlList | int | 否 | 是否显示文件图片列表 |
 | IsShowTagList | int | 否 | 是否显示标签列表 |
 | IsShowCommentList | int | 否 | 是否显示评论列表 |
+| IsShowReplyList | int | 否 | 是否显示回复列表 |
 
 ####  {#应答数据-（巡河记录数组）}
 
