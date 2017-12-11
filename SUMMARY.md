@@ -272,6 +272,7 @@
   * [获取组织列表](zu-zhi-mo-kuai/huo-qu-zu-zhi-lie-biao.md)
   * [获取组织详情](zu-zhi-mo-kuai/huo-qu-zu-zhi-xiang-qing.md)
   * [修改组织基本信息](zu-zhi-mo-kuai/xiu-gai-zu-zhi-ji-ben-xin-xi.md)
+  * [根据数据范围结点，获取组织人员列表](gong-dan-mo-kuai/gen-ju-shu-ju-fan-wei-jie-dian-ff0c-huo-qu-zu-zhi-ren-yuan-lie-biao.md)
   * [客户管理](zu-zhi-mo-kuai/ke-hu-guan-li.md)
     * [获取客户列表](zu-zhi-mo-kuai/ke-hu-guan-li/huo-qu-ke-hu-lie-biao.md)
     * [获取客户详情](zu-zhi-mo-kuai/ke-hu-guan-li/huo-qu-ke-hu-xiang-qing.md)
@@ -286,7 +287,7 @@
     * [删除供应商](zu-zhi-mo-kuai/gong-ying-shang-guan-li/shan-chu-gong-ying-shang.md)
   * [服务商管理](zu-zhi-mo-kuai/fu-wu-shang-guan-li.md)
     * [获取服务商列表](zu-zhi-mo-kuai/fu-wu-shang-guan-li/huo-qu-fu-wu-shang-lie-biao.md)
-  * [根据数据范围结点，获取组织人员列表](gong-dan-mo-kuai/gen-ju-shu-ju-fan-wei-jie-dian-ff0c-huo-qu-zu-zhi-ren-yuan-lie-biao.md)
+  * [商家管理](zu-zhi-mo-kuai/shang-jia-guan-li.md)
 * [店铺模块](dian-pu-mo-kuai.md)
   * 新增店铺
   * 修改店铺

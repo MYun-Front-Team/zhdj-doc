@@ -16,10 +16,11 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| ModuleSysNo | int | 是 | 模块编码 |
-| ModuleSourceType | int | 否 | 来源类型 |
-| ModuleSourceClass | int | 否 | 来源分类 |
-| ModuleSourceSysNo | int | 否 | 来源系统编码 |
+| OrganizationSysNo | int | 是 | 组织系统编码 |
+| ~~ModuleSysNo~~ | ~~int~~ | ~~是~~ | ~~模块编码~~ |
+| ~~ModuleSourceType~~ | ~~int~~ | ~~否~~ | ~~来源类型~~ |
+| ~~ModuleSourceClass~~ | ~~int~~ | ~~否~~ | ~~来源分类~~ |
+| ~~ModuleSourceSysNo~~ | ~~int~~ | ~~否~~ | ~~来源系统编码~~ |
 | TagType | int | 是 | 标签类型（枚举） |
 | TagName | string | 是 | 标签名称 |
 | TagPathList | array string | 否 | 标签图片path列表 |
