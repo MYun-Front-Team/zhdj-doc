@@ -328,6 +328,7 @@
   * [确认收货](ding-dan-mo-kuai/que-ren-shou-huo.md)
   * [取消订单](ding-dan-mo-kuai/shan-chu-ding-dan.md)
   * [获取快递跟踪信息列表](ding-dan-mo-kuai/huo-qu-kuai-di-gen-zong-xin-xi-lie-biao.md)
+  * [设置订单优惠](ding-dan-mo-kuai/she-zhi-ding-dan-you-hui.md)
 * [工单模块](gong-dan-mo-kuai.md)
   * [获取工单列表](gong-dan-mo-kuai/huo-qu-gong-dan-lie-biao.md)
   * [获取工单详情](gong-dan-mo-kuai/huo-qu-gong-dan-xiang-qing.md)
