@@ -21,7 +21,7 @@
 | ContractAddress | string | 否 | 联系地址 |
 | Longitude | decimal（18，10） | 否 | 经度 |
 | Latitude | decimal（18，10） | 否 | 纬度 |
-| OpenStatus | int | 是 | 开店状态：0开，1关 |
+| OpenStatus | int | 是 | 开店状态：0待装修，10开，11关 |
 | OpenTime | string | 否 | 开店时间 |
 | BusinessStartTime | string | 否 | 营业开始时间 |
 | BusinessEndTime | string | 否 | 营业结束时间 |

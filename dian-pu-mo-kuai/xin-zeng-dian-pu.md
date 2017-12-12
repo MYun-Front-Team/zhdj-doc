@@ -34,7 +34,7 @@ _**【接口地址】**_
 | ContractAddress | string | 否（可选配置） | 联系地址 |
 | Longitude | decimal（18，10） | 否（可选配置） | 经度 |
 | Latitude | decimal（18，10） | 否（可选配置） | 纬度 |
-| OpenStatus | int | 否（可选配置） | 开店状态：0开，1关 |
+| OpenStatus | int | 否（可选配置） | 开店状态 |
 | OpenTime | string | 否（可选配置） | 开店时间 |
 | BusinessStartTime | string | 否（可选配置） | 营业开始时间 |
 | BusinessEndTime | string | 否（可选配置） | 营业结束时间 |

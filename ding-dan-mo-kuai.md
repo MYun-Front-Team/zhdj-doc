@@ -40,7 +40,7 @@
 | OrderAmountList | array object | 否 | 订单金额列表 |
 | OrderPaymentList | array object | 否 | 订单支付列表 |
 | OrderCouponList | array object | 否 | 订单优惠列表 |
-| OrderLogList | array object | 否 | 订单日志列表（通用日志） |
+| ~~OrderLogList~~ | ~~array object~~ | ~~否~~ | ~~订单日志列表（通用日志）~~ |
 | OrderDeliveryList | array object | 否 | 订单发货列表 |
 |  |  |  |  |
 | FromOrganization | object | 否 | 卖家组织实体（简版） |
@@ -150,7 +150,7 @@
 | IsShowOrderAmountList | int | 否 | 是否显示订单金额列表 |
 | IsShowOrderPaymentList | int | 否 | 是否显示订单支付列表 |
 | IsShowOrderCouponList | int | 否 | 是否显示订单优惠列表 |
-| IsShowOrderLogList | int | 否 | 是否显示订单日志列表 |
+| ~~IsShowOrderLogList~~ | ~~int~~ | ~~否~~ | ~~是否显示订单日志列表~~ |
 | IsShowOrderItemList | int | 否 | 是否显示订单商品列表 |
 | IsShowOrderItemSku | int | 否 | 是否显示订单商品SKU（只有IsShowOrderItemList=1才有效） |
 | IsShowOrderDeliveryList | int | 否 | 是否显示订单发货单列表 |
