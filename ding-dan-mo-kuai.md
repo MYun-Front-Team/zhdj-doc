@@ -41,6 +41,7 @@
 | OrderPaymentList | array object | 否 | 订单支付列表 |
 | OrderCouponList | array object | 否 | 订单优惠列表 |
 | OrderLogList | array object | 否 | 订单日志列表（通用日志） |
+| OrderDeliveryList | array object | 否 | 订单发货列表 |
 |  |  |  |  |
 | FromOrganization | object | 否 | 卖家组织实体（简版） |
 | FromShop | object | 否 | 卖家店铺实体（简版） |
@@ -79,6 +80,16 @@
 | CouponCode | string | 否 | 优惠代码 |
 | CouponAmount | decimal（18，2） | 是 | 优惠金额\(减免金额\) |
 | Remark | string | 否 | 备注 |
+
+> #### OrderDelivery说明 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| OrderDeliverySysNo | int | 是 | 订单发货单系统编码 |
+| DeliveryStatus | int | 是 | 发货状态：0未发，10已发，11已取消 |
+| DeliveryDate | string | 否 | 发货时间 |
+| TrackingNo | string | 否 | 快递单号 |
+| TrackingCompany | object | 否 | 快递公司实体（见通用） |
 
 > #### Order统计计算字段 {#请求数据}
 
@@ -142,10 +153,13 @@
 | IsShowOrderLogList | int | 否 | 是否显示订单日志列表 |
 | IsShowOrderItemList | int | 否 | 是否显示订单商品列表 |
 | IsShowOrderItemSku | int | 否 | 是否显示订单商品SKU（只有IsShowOrderItemList=1才有效） |
+| IsShowOrderDeliveryList | int | 否 | 是否显示订单发货单列表 |
+|  |  |  |  |
 | IsShowFromOrganization | int | 否 | 是否显示卖家组织 |
 | IsShowFromShop | int | 否 | 是否显示卖家店铺 |
 | IsShowToOrganization | int | 否 | 是否显示买家组织 |
 | IsShowToPerson | int | 否 | 是否显示买家人员 |
+|  |  |  |  |
 
 #### 模块页面编号枚举说明 {#请求数据}
 
