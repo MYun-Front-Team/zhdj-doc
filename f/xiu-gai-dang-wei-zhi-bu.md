@@ -17,10 +17,10 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PartyBranchSysNo | int | 是 | 系统编码 |
-| PartyBranchType | int | 是 | 党委支部类型: 1两新组织、2社区支部、3机关支部 |
-| PartyBranchTime | string | 是 | 创建时间 |
-| PartyBranchName | string | 是 | 名称 |
-| PartyBranchShortName | string | 是 | 简称 |
+| PartyBranchType | int | 否 | 党委支部类型: 1两新组织、2社区支部、3机关支部 |
+| PartyBranchTime | string | 否 | 创建时间 |
+| PartyBranchName | string | 否 | 名称 |
+| PartyBranchShortName | string | 否 | 简称 |
 | PartyBranchDuty | string | 否 | 党委支部职责 |
 | PartyBranchTel | string | 否 | 党委支部联系电话 |
 | PartyBranchDesc | string | 否 | 党委支部描述 |
@@ -30,9 +30,10 @@ _**【接口地址】**_
 | PartyBranchPersonPhone | string | 否 | 联系人电话 |
 | PartyBranchPersonPost | string | 否 | 联系人岗位 |
 | Remark | string | 否 | 备注 |
-| ContractAddress | string | 是 | 联系地址 |
-| Longitude | decimal | 是 | 经度 |
-| Latitude | decimal | 是 | 纬度 |
+| ContractAddress | string | 否 | 联系地址 |
+| Longitude | decimal | 否 | 经度 |
+| Latitude | decimal | 否 | 纬度 |
+| PartyBranchStarCount | decimal | 否 | 星级 |
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 

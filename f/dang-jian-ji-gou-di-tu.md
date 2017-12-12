@@ -28,7 +28,8 @@ _**【接口地址】**_
 | PartyBranchName | string | 是 | 党委支部名称 |
 | PartyBranchShortName | string | 是 | 简称 |
 | PartyBranchDesc | string | 是 | 党委支部描述 |
-| ChildrenCount | int | 是 | 孩子党委支部数 |
+| ChildrenBranchCount | int | 是 | 孩子党委数 |
+| ChildrenCount | int | 是 | 孩子党委和支部数 |
 | ContractAddress | string | 是 | 联系地图 |
 | LeafInfos | array\[PartyMapLeafInfo\] | 是 | 叶子支部信息 |
 | MemberInfos | array\[PartyMapMemberInfo\] | 是 | 党员数量信息 |

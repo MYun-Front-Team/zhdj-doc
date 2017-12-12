@@ -16,8 +16,8 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-|  |  | 是 | 查询条件 |
-| Limit |  | 否 | 限制条件 |
+| Query | object | 是 | 查询条件 |
+| Limit | object | 否 | 限制条件 |
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 
@@ -41,7 +41,7 @@ _**【接口地址】**_
 | Longitude | decimal | 是 | 经度 |
 | Latitude | decimal | 是 | 纬度 |
 | 统计计算字段 |  |  | （见党员模块说明） |
-| PartyBranchStarCount | decimal（18，1） | 是 | 星际 |
+| PartyBranchStarCount | decimal（18，1） | 是 | 星级 |
 
 
 
