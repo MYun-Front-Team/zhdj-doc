@@ -35,6 +35,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| IsNeedRegister | int | 是 | 是否需要注册：0否，1是 |
 | FilePathList | array string | 否 | 文件图片Path路径列表 |
 | PersonName | string | 否 | 昵称 |
 | UserGender | int | 否 | 性别 |
