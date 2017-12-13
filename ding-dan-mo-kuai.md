@@ -95,7 +95,19 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| OrderTimeList | array object | 否 | 订单操作时间列表 |
 
+> #### OrderTime {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| OrderAuditTime | string | 否 | 订单审核时间 |
+| OrderPayTime | string | 否 | 订单支付时间 |
+| OrderDeliveryTime | string | 否 | 订单发货时间 |
+| OrderReceiveTime | string | 否 | 订单收货时间 |
+| OrderFinishTime | string | 否 | 订单完结时间 |
+| OrderSettlementTime | string | 否 | 订单结算时间 |
+| OrderCancelTime | string | 否 | 订单取消时间 |
 
 > #### OrderItem基础字段 {#请求数据}
 
@@ -159,7 +171,7 @@
 | IsShowFromShop | int | 否 | 是否显示卖家店铺 |
 | IsShowToOrganization | int | 否 | 是否显示买家组织 |
 | IsShowToPerson | int | 否 | 是否显示买家人员 |
-|  |  |  |  |
+| IsShowOrderTimeList | int | 否 | 是否显示订单时间列表 |
 
 #### 模块页面编号枚举说明 {#请求数据}
 

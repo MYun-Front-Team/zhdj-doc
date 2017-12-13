@@ -28,6 +28,7 @@ _**【接口地址】**_
 | LoginPwd | string | 否 | 密码（微信等方式登录可为空） |
 | PersonName | string | 否 | 昵称/真实姓名（同时填充） |
 | UserGender | int | 否 | 性别：1男，2女 |
+| FilePathList | array string | 否 | 头像Path路径列表 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 

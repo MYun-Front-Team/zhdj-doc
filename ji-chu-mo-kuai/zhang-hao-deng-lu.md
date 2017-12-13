@@ -14,6 +14,8 @@ _**【应用场景】**_
 
 注：如果参数“登录授权Token”不为空，那么记录该值到账户表的“LastLoginToken”；
 
+注：如果登录后账号不存在，且RegisterMsg不为空，那么可直接注册成功后，再返回；
+
 _**【接口地址】**_
 
 [http://ip:port/BasicAction/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Basic](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[/L](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)oginIn
@@ -27,6 +29,15 @@ _**【接口地址】**_
 | LoginID | string | 是 | 用户名 |
 | LoginPwd | string | 否 | 密码（微信等方式登录可为空） |
 | BizCompanyCode | int | 是 | 项目标识符（枚举） |
+| RegisterMsg | object | 否 | 注册信息实体 |
+
+> #### RegisterMsg {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| FilePathList | array string | 否 | 文件图片Path路径列表 |
+| PersonName | string | 否 | 昵称 |
+| UserGender | int | 否 | 性别 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 

@@ -94,6 +94,7 @@ InnerPartyStatusCountList说明：
 | :--- | :--- | :--- | :--- |
 | DataRangeSysNoList | int | 否 | 数据范围树枝叶编码列表 |
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶，N查N级 |
+| IsHideSelf | int | 否 | 是否隐藏自己：0否，1是 |
 | KeyWord | string | 否 | 关键字搜索（姓名、手机号、身份证） |
 | PartyMemberSysNo | int | 否 | 党员系统编码 |
 | InnerPartyStatusList | array int | 否 | 党内状态列表：0入党积极分子，1预备党员，2正式党员 |
