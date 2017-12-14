@@ -329,6 +329,7 @@
   * [取消订单](ding-dan-mo-kuai/shan-chu-ding-dan.md)
   * [获取快递跟踪信息列表](ding-dan-mo-kuai/huo-qu-kuai-di-gen-zong-xin-xi-lie-biao.md)
   * [设置订单优惠](ding-dan-mo-kuai/she-zhi-ding-dan-you-hui.md)
+  * [修改订单商品](ding-dan-mo-kuai/xiu-gai-ding-dan-shang-pin.md)
 * [工单模块](gong-dan-mo-kuai.md)
   * [获取工单列表](gong-dan-mo-kuai/huo-qu-gong-dan-lie-biao.md)
   * [获取工单详情](gong-dan-mo-kuai/huo-qu-gong-dan-xiang-qing.md)
@@ -339,6 +340,7 @@
 * [居民管理](ju-min-guan-li.md)
   * [获取居民列表](ju-min-guan-li/huo-qu-ju-min-lie-biao.md)
   * [获取居民详情](ju-min-guan-li/huo-qu-ju-min-xiang-qing.md)
+  * [完善居民资料](ju-min-guan-li/wan-shan-ju-min-zi-liao.md)
 * [资金管理](zi-jin-guan-li.md)
   * [获取钱包日志列表](zi-jin-guan-li/huo-qu-qian-bao-ri-zhi-lie-biao.md)
   * 银行卡管理
