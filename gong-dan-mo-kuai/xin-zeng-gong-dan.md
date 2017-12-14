@@ -32,6 +32,7 @@ _**【接口地址】**_
 | CoSponsorName | string | 否（可选配置） | 协办方 |
 | Remark | string | 否（可选配置） | 备注 |
 | FilePathList | array string | 否（可选配置） | 文件或图片Path列表（第一张为首图） |
+| TagSysNoList | array int | 否（可选配置） | 标签列表 |
 
 #### _应答数据_ {#应答数据-}
 
