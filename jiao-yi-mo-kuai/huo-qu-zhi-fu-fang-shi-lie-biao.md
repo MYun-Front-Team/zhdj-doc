@@ -20,6 +20,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 否 | 组织系统编码 |
 | DataRangeSysNo | int | 否 | 数据范围树编码（店铺树） |
+| PaySource | int | 是 | 支付来源：1PC，2APP，3H5，4微信 |
 
 > #### 应答_数据（数组）_ {#请求数据}
 
