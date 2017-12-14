@@ -11,6 +11,7 @@
 | SellerClassName | string | 否 | 商家类别名称 |
 | SellerLevelSysNo | int | 否 | 商家等级系统编码 |
 | AuditStatus | int | 是 | 审核状态：0待审核，10审核通过，11审核失败 |
+| AuditRecord | object | 否 | 审核记录实体 |
 | SellerStatus | int | 是 | 商家状态：0未缴费，1已缴费 |
 | SellerName | string | 是 | 商家名称 |
 | SellerShortName | string | 是 | 简称 |
