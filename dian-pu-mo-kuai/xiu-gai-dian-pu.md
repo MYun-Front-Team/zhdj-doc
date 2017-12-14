@@ -36,6 +36,13 @@ _**【接口地址】**_
 | ServiceStartTime | string | 否 | 客服服务开始时间 |
 | ServiceEndTime | string | 否 | 客服服务结束时间 |
 | ShopLogoPathList | array string | 否 | 店铺Logo的Path路径列表 |
+| ShopNo | string | 否 | 店铺编号 |
+| ShopUsedStatus | int | 否 | 店铺使用状态：0闲置，10使用 |
+| ShopArea | decimal（18，2） | 否 | 店铺面积（平方） |
+| ShopPropertyFee | decimal（18，2） | 否 | 店铺物业费（元/年） |
+| ShopDepositFee | decimal（18，2） | 否 | 店铺默认押金（元） |
+| ShopRentFee | decimal（18，2） | 否 | 店铺默认租金（元/月） |
+| ShopRentRemark | string | 否 | 备注 |
 
 #### _应答数据 _ {#应答数据-}
 

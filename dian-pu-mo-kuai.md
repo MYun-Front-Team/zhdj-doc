@@ -29,13 +29,20 @@
 | ServiceEndTime | string | 否 | 客服服务结束时间 |
 | ShopLogoPathList | array string | 否 | 店铺Logo的Path路径列表 |
 | ShopLogoUrlList | array string | 否 | 店铺Logo的Url路径列表 |
+| ShopNo | string | 否 | 店铺编号 |
+| ShopUsedStatus | int | 否 | 店铺使用状态：0闲置，10使用 |
+| ShopArea | decimal\(18,2\) | 否 | 店铺面积（平方） |
+| ShopPropertyFee | decimal\(18,2\) | 否 | 店铺物业费（元/年） |
+| ShopDepositFee | decimal\(18,2\) | 否 | 店铺默认押金（元） |
+| ShopRentFee | decimal\(18,2\) | 否 | 店铺默认租金（元/月） |
+| ShopRentRemark | string | 否 | 店铺租用备注 |
 
 > #### 统计计算字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ProductGroupCount | int | 否 | 商品数量 |
-|  |  |  |  |
+| PersonFollowCount | int | 否 | 关注数量 |
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -56,7 +63,8 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-
+| IsShowProductGroupCount | int | 否 | 是否显示商品数量 |
+| IsShowPersonFollowCount | int | 否 | 是否显示关注数量 |
 
 ####  {#应答数据-（巡河记录数组）}
 

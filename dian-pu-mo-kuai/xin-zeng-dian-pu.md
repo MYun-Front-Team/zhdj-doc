@@ -34,13 +34,20 @@ _**【接口地址】**_
 | ContractAddress | string | 否（可选配置） | 联系地址 |
 | Longitude | decimal（18，10） | 否（可选配置） | 经度 |
 | Latitude | decimal（18，10） | 否（可选配置） | 纬度 |
-| OpenStatus | int | 否（可选配置） | 开店状态 |
+| OpenStatus | int | 否（可选配置） | 开店状态：0待装修，10正常，11已倒闭 |
 | OpenTime | string | 否（可选配置） | 开店时间 |
 | BusinessStartTime | string | 否（可选配置） | 营业开始时间 |
 | BusinessEndTime | string | 否（可选配置） | 营业结束时间 |
 | ServiceStartTime | string | 否（可选配置） | 客服服务开始时间 |
 | ServiceEndTime | string | 否（可选配置） | 客服服务结束时间 |
 | ShopLogoPathList | array string | 否（可选配置） | 店铺Logo的Path路径列表 |
+| ShopNo | string | 否（可选配置） | 店铺编号 |
+| ShopUsedStatus | int | 否（可选配置） | 店铺使用状态：0闲置，10使用 |
+| ShopArea | decimal（18，2） | 否（可选配置） | 店铺面积（平方） |
+| ShopPropertyFee | decimal（18，2） | 否（可选配置） | 店铺物业费（元/年） |
+| ShopDepositFee | decimal（18，2） | 否（可选配置） | 店铺默认押金（元） |
+| ShopRentFee | decimal（18，2） | 否（可选配置） | 店铺默认租金（元/月） |
+| ShopRentRemark | string | 否（可选配置） | 备注 |
 
 #### _应答数据 _ {#应答数据-}
 
