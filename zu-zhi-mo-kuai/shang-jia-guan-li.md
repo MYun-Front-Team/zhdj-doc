@@ -8,6 +8,7 @@
 | SellerSysNo | int | 是 | 商家系统编码 |
 | SellerType | int | 否 | 商家类型（行业枚举） |
 | SellerClassSysNo | int | 否 | 商家类别系统编码（类目树） |
+| SellerClassName | string | 否 | 商家类别名称 |
 | SellerLevelSysNo | int | 否 | 商家等级系统编码 |
 | AuditStatus | int | 是 | 审核状态：0待审核，10审核通过，11审核失败 |
 | SellerStatus | int | 是 | 商家状态：0未缴费，1已缴费 |
