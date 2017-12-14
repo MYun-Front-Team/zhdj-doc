@@ -19,6 +19,8 @@
 | ContractAddress | string | 否 | 联系地址 |
 | Longitude | decimal\(18,2\) | 否 | 经度 |
 | Latitude | decimal\(18,2\) | 否 | 纬度 |
+| SupplierLogoPathList | array string | 否 | 供应商Logo的路径列表 |
+| SupplierLogoUrlList | array string | 否 | 供应商Logo的URL列表 |
 
 > #### SupplierStatistic统计计算字段 {#请求数据}
 

@@ -31,6 +31,7 @@ _**【接口地址】**_
 | ContractAddress | string | 否（可选配置） | 联系地址 |
 | Longitude | decimal\(18,2\) | 否 | 经度 |
 | Latitude | decimal\(18,2\) | 否 | 纬度 |
+| CustomerLogoPathList | array string | 否（可选配置） | 客户Logo的Path列表 |
 
 #### _应答数据 _ {#应答数据-}
 

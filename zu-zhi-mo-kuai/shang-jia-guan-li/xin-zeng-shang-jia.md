@@ -41,6 +41,7 @@ _**【接口地址】**_
 | IDCardPathList | array string | 否（可选配置） | 身份证Path路径列表 |
 | LicensePathList | array string | 否（可选配置） | 营业执照Path路径列表 |
 | InvitationCode | string | 否（可选配置） | 邀请码 |
+| SellerLogoPathList | array string | 否（可选配置） | 商家Logo的Path路径列表 |
 
 #### _应答数据 _ {#应答数据-}
 

@@ -20,6 +20,8 @@
 | ContractAddress | string | 否 | 联系地址 |
 | Longitude | decimal（18，10） | 否 | 经度 |
 | Latitude | decimal（18，10） | 否 | 纬度 |
+| OrganizationLogoPathList | array string | 否 | 组织Logo的路径列表 |
+| OrganizationLogoUrlList | array string | 否 | 组织Logo的Url列表 |
 
 > #### 统计计算字段 {#请求数据}
 

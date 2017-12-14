@@ -31,6 +31,7 @@ _**【接口地址】**_
 | ContractAddress | string | 否 | 联系地址 |
 | Longitude | decimal（18，10） | 否 | 经度 |
 | Latitude | decimal（18，10） | 否 | 纬度 |
+| OrganizationLogoPathList | array string | 否 | 组织Logo的路径列表 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 

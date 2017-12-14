@@ -34,6 +34,8 @@
 | LicensePathList | array string | 否 | 营业执照Path路径列表 |
 | IDCardUrlList | array string | 否 | 身份证Url路径列表 |
 | LicenseUrlList | array string | 否 | 营业执照Url路径列表 |
+| SellerLogoPathList | array string | 否 | 商家Logo路径列表 |
+| SellerLogoUrlList | array string | 否 | 商家Logo的URL列表 |
 
 > #### SellerStatistic统计计算字段 {#请求数据}
 
