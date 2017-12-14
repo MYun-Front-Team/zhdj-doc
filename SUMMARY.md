@@ -285,6 +285,7 @@
     * [新增供应商](zu-zhi-mo-kuai/gong-ying-shang-guan-li/xin-zeng-gong-ying-shang.md)
     * [修改供应商](zu-zhi-mo-kuai/gong-ying-shang-guan-li/xiu-gai-gong-ying-shang.md)
     * [删除供应商](zu-zhi-mo-kuai/gong-ying-shang-guan-li/shan-chu-gong-ying-shang.md)
+    * [关联供应商](zu-zhi-mo-kuai/gong-ying-shang-guan-li/guan-lian-gong-ying-shang.md)
   * [服务商管理](zu-zhi-mo-kuai/fu-wu-shang-guan-li.md)
     * [获取服务商列表](zu-zhi-mo-kuai/fu-wu-shang-guan-li/huo-qu-fu-wu-shang-lie-biao.md)
   * [商家管理](zu-zhi-mo-kuai/shang-jia-guan-li.md)
