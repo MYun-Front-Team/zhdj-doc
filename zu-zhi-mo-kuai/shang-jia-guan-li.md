@@ -72,5 +72,15 @@
 | :--- | :--- | :--- | :--- | :--- |
 
 
+#### AuditRecord说明 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| AuditRecordSysNo | int | 是 | 系统编码 |
+| AuditDate | string | 是 | 审核时间 |
+| AuditRemark | string | 否 | 审核备注 |
+| AuditResult | int | 是 | 审核结果：10审核通过，11审核失败 |
+| AuditPerson | object | 是 | 审核人实体（简） |
+
 
 
