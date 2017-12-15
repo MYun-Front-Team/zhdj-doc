@@ -4,6 +4,7 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| OrganizationSysNo | int | 是 | 供应商组织系统编码 |
 | SupplierSysNo | int | 是 | 供应商系统编码 |
 | SupplierLevelSysNo | int | 否 | 供应商等级系统编码 |
 | SupplierStatus | int | 是 | 状态：0待发展，10正常，11终止 |
