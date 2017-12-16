@@ -38,6 +38,7 @@ _**【接口地址】**_
 | SpecGroup | object | 否 | 规格组（说明见”获取规格模板列表“） |
 | AddSkuList | array object | 否 | 新增规格列表（说明见”新增款规格“） |
 | PriceRuleType | int | 否（可选配置） | 定价规则：0按款定价，1按规格定价 |
+| TagSysNoList | array int | 否（可选配置） | 标签列表 |
 
 #### _应答数据 _ {#应答数据-}
 

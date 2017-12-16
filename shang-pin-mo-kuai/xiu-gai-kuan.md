@@ -20,17 +20,18 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | ~~DataRangeSysNoList~~ | ~~array int~~ | ~~是~~ | ~~数据范围枝叶编码列表（必须在不同的树中的枝叶）~~ |
 | ProductGroupSysNo | int | 是 | 款号系统编码 |
-| ProductClassSysNo | int | 否（可选配置） | 类型分类系统编码（类别树） |
-| ProductGroupName | string | 是 | 款名称 |
-| ProductGroupDetail | string | 否（可选配置） | 详情 |
-| ProductGroupMemo | string | 否（可选配置） | 备注 |
-| PCDCode | string | 否（可选配置） | 产地PCD代码 |
-| PCDDescription | string | 否（可选配置） | 产地PCD描述 |
-| GoodsWeight | decimal\(18,2\) | 否（可选配置） | 重量 |
-| GoodsVolumn | decimal\(18,2\) | 否（可选配置） | 体积 |
-| UnitSysNoList | array int | 否（可选配置） | 计量单位系统编码列表 |
+| ProductClassSysNo | int | 否 | 类型分类系统编码（类别树） |
+| ProductGroupName | string | 否 | 款名称 |
+| ProductGroupDetail | string | 否 | 详情 |
+| ProductGroupMemo | string | 否 | 备注 |
+| PCDCode | string | 否 | 产地PCD代码 |
+| PCDDescription | string | 否 | 产地PCD描述 |
+| GoodsWeight | decimal\(18,2\) | 否 | 重量 |
+| GoodsVolumn | decimal\(18,2\) | 否 | 体积 |
+| UnitSysNoList | array int | 否 | 计量单位系统编码列表 |
 | SpecGroup | object | 否 | 规格组（说明见”获取规格模板列表“） |
 | EditSkuList | array object | 否 | 修改规格列表（说明见”新增款规格“） |
+| TagSysNoList | array int | 否 | 标签列表 |
 
 #### _应答数据_ {#应答数据-}
 
