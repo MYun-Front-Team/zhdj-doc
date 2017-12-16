@@ -192,6 +192,7 @@
   * [根据数据范围编码，获取模块列表](ji-chu-mo-kuai/gen-ju-shu-ju-fan-wei-bian-ma-ff0c-huo-qu-mo-kuai-lie-biao.md)
   * [设置个人通讯录](ji-chu-mo-kuai/she-zhi-ge-ren-tong-xun-lu.md)
   * [获取账户详情](ji-chu-mo-kuai/huo-qu-zhang-hu-xiang-qing.md)
+  * [获取角色权限列表](ji-chu-mo-kuai/huo-qu-jiao-se-quan-xian-lie-biao.md)
 * [朋友圈模块](peng-you-quan-mo-kuai.md)
   * [获取朋友圈列表](peng-you-quan-mo-kuai/huo-qu-peng-you-quan-lie-biao.md)
   * [获取朋友圈详情](peng-you-quan-mo-kuai/huo-qu-peng-you-quan-xiang-qing.md)
