@@ -10,7 +10,7 @@ _**【应用场景】**_
 
 注：调用该接口说明该商品属于该组织，IsCreator=1；
 
-~~注：DataRangeSysNoList不为空时，新增商品到商品表并把商品与数据范围结点形成所属关系；~~
+注：DataRangeSysNo为空时，找到该组织的默认店铺编码；
 
 注：ProductGroupCode为空时的自动生产规则：数据范围结点+至少3位长度的商品数量；
 
@@ -23,7 +23,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 是 | 组织系统编码 |
-| ~~DataRangeSysNoList~~ | ~~array int~~ | ~~否（可选配置）~~ | ~~数据范围枝叶编码列表（必须在不同的树中的枝叶）~~ |
+| DataRangeSysNo | int | 否 | 数据范围枝叶编码 |
 | ProductType | int | 是 | 类型（枚举） |
 | ProductClassSysNo | int | 否（可选配置） | 类型分类系统编码（类别树） |
 | ProductGroupCode | string | 否（可选配置） | 款号 |
