@@ -340,6 +340,7 @@
   * [修改工单](gong-dan-mo-kuai/xiu-gai-gong-dan.md)
   * [删除工单](gong-dan-mo-kuai/shan-chu-gong-dan.md)
   * [回复工单](gong-dan-mo-kuai/hui-fu-gong-dan.md)
+  * [获取工单统计](gong-dan-mo-kuai/huo-qu-gong-dan-tong-ji-bao-biao.md)
 * [居民管理](ju-min-guan-li.md)
   * [获取居民列表](ju-min-guan-li/huo-qu-ju-min-lie-biao.md)
   * [获取居民详情](ju-min-guan-li/huo-qu-ju-min-xiang-qing.md)
