@@ -6,6 +6,7 @@
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 是 | 组织系统编码 |
 | DataRangeSysNo | int | 是 | 数据范围编码列表（店铺树） |
+| DataRangeName | string | 是 | 数据范围名称 |
 | ProductGroupSysNo | int | 是 | 系统编码 |
 | ProductGroupType | int | 是 | 类型（枚举） |
 | ProductGroupClassSysNo | int | 否 | 类型分类系统编码（类别树） |
