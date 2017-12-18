@@ -75,6 +75,7 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | DataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表 |
+| ActivityTypeList | array int | 否 | 活动类型（枚举） |
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 | KeyWord | string | 否 | 关键字搜索（标题、地点） |
 | IsMyFootPrint | int | 否 | 是否显示自己的：0否，1是（不传查全部，传值需通过UserSysNo匹配Person） |
