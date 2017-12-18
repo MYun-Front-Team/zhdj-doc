@@ -14,6 +14,8 @@ _**【应用场景】**_
 
 3、限制库存的SKU需要判断库存是否充足；（订单锁）
 
+4、PlatformAuditStatus=0则订单需要审核，PlatformAuditStatus=10则订单自动已审核，可直接支付。
+
 _**【接口地址】**_
 
 [http://ip:port/OrderAction/](http://ip:port/HMAction/River/AddRiver)Order[/A](http://ip:port/HMAction/River/AddRiver)ddOrder
@@ -57,6 +59,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | OrderSysNo | int | 是 | 订单系统编码 |
+| PlatformAuditStatus | int | 否 | 订单审核状态 |
 
 
 
