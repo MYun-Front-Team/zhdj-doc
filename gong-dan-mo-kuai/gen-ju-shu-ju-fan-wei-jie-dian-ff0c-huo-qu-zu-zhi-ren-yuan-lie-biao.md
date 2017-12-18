@@ -23,6 +23,7 @@ _**【接口地址】**_
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 | IsFather | int | 否 | 是否上一级：0否，1是 |
 | keyWord | string | 否 | 关键字搜索（姓名） |
+| Limit | object | 否 | 限制条件 |
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 
@@ -32,6 +33,7 @@ _**【接口地址】**_
 | Organization | object | 是 | 组织实体 |
 | Department | object | 否 | 部门实体 |
 | Post | object | 否 | 岗位实体 |
+| User | object | 否 | 账户实体（见基本模块） |
 
 
 
