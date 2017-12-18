@@ -21,7 +21,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | BizCompanyCode | int | 是 | 项目标识符（枚举） |
-| DataRangeSysNo | int | 是 | 数据范围树编码 |
+| DataRangeSysNo | int | 否 | 数据范围树编码 |
 | LoginSource | int | 是 | 登录来源（枚举） |
 | LoginType | int | 是 | 登录类型（枚举） |
 | LoginID | string | 是 | 用户名 |
@@ -29,6 +29,7 @@ _**【接口地址】**_
 | PersonName | string | 否 | 昵称/真实姓名（同时填充） |
 | UserGender | int | 否 | 性别：1男，2女 |
 | FilePathList | array string | 否 | 头像Path路径列表 |
+| OrganizationSysNo | int | 否 | 组织系统编码 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
