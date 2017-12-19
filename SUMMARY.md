@@ -273,6 +273,8 @@
   * [新增款（简版）](shang-pin-mo-kuai/xin-zeng-kuan-ff08-jian-ban-ff09.md)
   * [获取规格模板列表](shang-pin-mo-kuai/huo-qu-gui-ge-mo-ban-lie-biao.md)
   * [新增规格模板](shang-pin-mo-kuai/xin-zeng-gui-ge-mo-ban.md)
+  * [修改规格模板](shang-pin-mo-kuai/xiu-gai-gui-ge-mo-ban.md)
+  * [删除规格模板](shang-pin-mo-kuai/shan-chu-gui-ge-mo-ban.md)
 * [组织模块](zu-zhi-mo-kuai.md)
   * [获取组织列表](zu-zhi-mo-kuai/huo-qu-zu-zhi-lie-biao.md)
   * [获取组织详情](zu-zhi-mo-kuai/huo-qu-zu-zhi-xiang-qing.md)
