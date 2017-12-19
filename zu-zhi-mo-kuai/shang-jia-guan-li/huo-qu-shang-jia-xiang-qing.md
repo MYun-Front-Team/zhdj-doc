@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 获取商家详情
 
+注：
+
 _**【接口地址】**_
 
 [http://ip:port/OrganizationQuery/Seller/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)SellerBySysNo
@@ -16,7 +18,8 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| SellerSysNo | int | 是 | 商家系统编码 |
+| OrganizationSysNo | int | 否（二选一必须） | 组织系统编码 |
+| SellerSysNo | int | 否（二选一必须） | 商家系统编码 |
 | Limit | array | 否 | 限制条件 |
 
 > #### _应答数据_ {#应答数据-（巡河记录数组）}
