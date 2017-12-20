@@ -1,4 +1,4 @@
-# 获取数据范围树（用户版） {#获取河长巡河记录}
+# 获取数据范围树（树版） {#获取河长巡河记录}
 
 ##### _【功能说明】_ {#【功能说明】}
 
@@ -8,13 +8,11 @@ _**【应用场景】**_
 
 树形结构，以数据权限来分割业务数据。
 
-注：可通过TreeSysNo和UserSysNo对应关系表，获取该人应该展示的树结构；
-
 注：（OrganizationSysNo+DataRangeTreeType）和（TreeSysNo）二选一必填；
 
 _**【接口地址】**_
 
-[http://ip:port/BasicQuery/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Basic](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)DataRangeTree
+[http://ip:port/BasicQuery/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Basic](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)DataRangeTree2
 
 > #### _请求数据_ {#请求数据}
 
