@@ -23,7 +23,9 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| PartyBranchSysNo | int | 是 | 系统编码 |
+| DataRangeSysNo | int | 是 | 数据范围树系统编码 |
+| DataRangeGradeType | int | 是 | 数据范围树等级类型（枚举） |
+| PartyBranchSysNo | int | 是 | 党委支部系统编码 |
 | PartyBranchType | int | 是 | 党委支部类型: 1两新组织、2社区支部、3机关支部 |
 | PartyBranchTime | string | 是 | 创建时间 |
 | PartyBranchName | string | 是 | 名称 |
