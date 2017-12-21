@@ -23,7 +23,7 @@ _**【接口地址】**_
 | ModuleSourceClass | int | 否 | 来源分类 |
 | ModuleSourceSysNo | int | 是 | 来源系统编码 |
 | CustomizedSpecValue | string | 否 | 可定制规格值 |
-| Quantity | int | 是 | 数量 |
+| ~~Quantity~~ | ~~int~~ | ~~是~~ | ~~数量~~ |
 | OrganizationToSysNo | int | 是 | 买家组织系统编码 |
 
 > #### 应答_数据（数组）_ {#请求数据}
