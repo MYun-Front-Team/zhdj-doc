@@ -21,8 +21,6 @@ _**【接口地址】**_
 | ModuleSourceClass | int | 是 | 来源分类 |
 | ModuleSourceSysNo | int | 是 | 来源系统编码 |
 | PageSysNo | int | 是 | 页编码 |
-| PageHtmlStyle | int | 是 | 页类型（同一个页，可能存在不同的样式） |
-| ~~PageRequestData~~ | ~~object~~ | ~~否~~ | ~~请求参数（具体报表具体分析）~~ |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
@@ -33,7 +31,6 @@ _**【接口地址】**_
 | PageHtmlName | string | 是 | 页标题 |
 | PageHtml | string | 是 | HTML |
 | Remark | string | 否 | 备注 |
-| ~~PageResponseData~~ | ~~object~~ | ~~是~~ | ~~数据实体（具体报表具体分析）~~ |
 
 
 
