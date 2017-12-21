@@ -1,0 +1,33 @@
+# 获取报表数据 {#获取河长巡河记录}
+
+##### _【功能说明】_ {#【功能说明】}
+
+获取报表数据
+
+_**【应用场景】**_
+
+获取报表数据
+
+_**【接口地址】**_
+
+[http://ip:port/BIQuery/BI/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)BIData
+
+> #### _请求数据_ {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PageSysNo | int | 是 | 页编码 |
+| PageHtmlStyle | int | 是 | 页类型（同一个页，可能存在不同的样式） |
+| PageRequestData | object | 否 | 请求参数（具体报表具体分析） |
+
+> #### _应答数据 _ {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PageResponseBaseList | array object | 是 | 数据实体（具体报表具体分析） |
+| PageResponseStatistic | object | 是 | 数据统计实体 |
+
+####  {#应答数据-（巡河记录数组）}
+
+
+

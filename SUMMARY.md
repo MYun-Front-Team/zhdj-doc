@@ -356,7 +356,7 @@
   * [完善居民资料](ju-min-guan-li/wan-shan-ju-min-zi-liao.md)
 * [资金管理](zi-jin-guan-li.md)
   * [获取钱包日志列表](zi-jin-guan-li/huo-qu-qian-bao-ri-zhi-lie-biao.md)
-  * 银行卡管理
+  * [银行卡管理](zi-jin-guan-li/yin-xing-qia-guan-li.md)
     * [获取银行卡列表](zi-jin-guan-li/huo-qu-yin-xing-qia-lie-biao.md)
     * [新增银行卡](zi-jin-guan-li/xin-zeng-yin-xing-qia.md)
     * [删除银行卡](zi-jin-guan-li/shan-chu-yin-xing-qia.md)
@@ -369,4 +369,10 @@
     * [删除提现](zi-jin-guan-li/shan-chu-ti-xian.md)
     * [审核提现](zi-jin-guan-li/shen-he-ti-xian.md)
     * [确认提现（完结）](zi-jin-guan-li/que-ren-ti-xian-ff08-wan-jie-ff09.md)
+* [报表模块](bao-biao-mo-kuai.md)
+  * [获取报表数据](bao-biao-mo-kuai/huo-qu-bao-biao-shu-ju.md)
+  * [获取报表模板](bao-biao-mo-kuai/huo-qu-bao-biao-mo-ban.md)
+  * [报表清单](bao-biao-mo-kuai/bao-biao-qing-dan.md)
+    * [订单报表](bao-biao-mo-kuai/ding-dan-bao-biao.md)
+    * 商品报表
 
