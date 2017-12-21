@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 获取报表模板
 
+注：如果通过Module没有搜索到个性化的模板，那么使用通用的模板；
+
 _**【接口地址】**_
 
 [http://ip:port/BIQuery/BI/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)BITemplate
