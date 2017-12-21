@@ -26,6 +26,7 @@ _**【接口地址】**_
 | DataRangeSysNo | int | 否 | 数据范围枝叶编码 |
 | ProductType | int | 是 | 类型（枚举） |
 | ProductClassSysNo | int | 否（可选配置） | 类型分类系统编码（类别树） |
+| IndustryClassSysNo | int | 否（可选配置） | 类型分类系统编码（行业树） |
 | ProductGroupCode | string | 否（可选配置） | 款号 |
 | ProductGroupName | string | 是 | 款名称 |
 | ProductGroupDetail | string | 否（可选配置） | 详情 |
@@ -39,6 +40,8 @@ _**【接口地址】**_
 | AddSkuList | array object | 否 | 新增规格列表（说明见”新增款规格“） |
 | PriceRuleType | int | 否（可选配置） | 定价规则：0按款定价，1按规格定价 |
 | TagSysNoList | array int | 否（可选配置） | 标签列表 |
+| BrandSysNoList | array int | 否（可选配置） | 品牌列表 |
+| SupplierSysNoList | array int | 否（可选配置） | 供应商列表 |
 
 #### _应答数据 _ {#应答数据-}
 

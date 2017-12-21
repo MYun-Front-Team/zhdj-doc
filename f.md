@@ -124,6 +124,7 @@ InnerPartyStatusCountList说明：
 | IsShowPromiseCount | int | 否 | 是否显示承诺数量 |
 | IsShowLastPromiseTime | int | 否 | 是否显示最近承诺时间 |
 | ~~IsShowSystemConfig~~ | ~~int~~ | ~~否~~ | ~~是否显示系统配置~~ |
+| IsShowPartyPostRanking | int | 否 | 是否显示党内职务排序 |
 
 ####  {#应答数据-（巡河记录数组）}
 

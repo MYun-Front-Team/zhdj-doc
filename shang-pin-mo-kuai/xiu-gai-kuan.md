@@ -21,6 +21,7 @@ _**【接口地址】**_
 | ~~DataRangeSysNoList~~ | ~~array int~~ | ~~是~~ | ~~数据范围枝叶编码列表（必须在不同的树中的枝叶）~~ |
 | ProductGroupSysNo | int | 是 | 款号系统编码 |
 | ProductClassSysNo | int | 否 | 类型分类系统编码（类别树） |
+| IndustryClassSysNo | int | 否 | 类型分类系统编码（行业树） |
 | ProductGroupName | string | 否 | 款名称 |
 | ProductGroupDetail | string | 否 | 详情 |
 | ProductGroupMemo | string | 否 | 备注 |
@@ -32,6 +33,8 @@ _**【接口地址】**_
 | SpecGroup | object | 否 | 规格组（说明见”获取规格模板列表“） |
 | EditSkuList | array object | 否 | 修改规格列表（说明见”新增款规格“） |
 | TagSysNoList | array int | 否 | 标签列表 |
+| BrandSysNoList | array int | 否 | 品牌列表 |
+| SupplierSysNoList | array int | 否 | 供应商列表 |
 
 #### _应答数据_ {#应答数据-}
 

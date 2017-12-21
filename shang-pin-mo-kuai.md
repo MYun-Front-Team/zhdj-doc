@@ -10,7 +10,9 @@
 | ProductGroupSysNo | int | 是 | 系统编码 |
 | ProductGroupType | int | 是 | 类型（枚举） |
 | ProductGroupClassSysNo | int | 否 | 类型分类系统编码（类别树） |
-| ProductGroupClassName | string | 否 | 分类名称 |
+| ProductGroupClassName | string | 否 | 分类名称（类别树） |
+| IndustryClassSysNo | int | 否 | 类型分类系统编码（行业树） |
+| IndustryClassName | string | 否 | 分类名称（行业树） |
 | ProductGroupCode | string | 是 | 款号 |
 | ProductGroupName | string | 是 | 款名称 |
 | ProductGroupDetail | string | 否 | 款描述 |
@@ -36,6 +38,8 @@
 | SpecGroup | object | 否 | 规格组（说明见“获取规格模板列表”） |
 | UnitList | array object | 否 | 计量单位列表（说明见通用） |
 | TagList | array object | 否 | 标签列表（说明见通用） |
+| BrandList | array object | 否 | 品牌列表（说明见通用） |
+| SupplierList | array object | 否 | 供应商列表（说明见组织） |
 | PriceGroupList | array object | 否 | 价格组列表（说明见通用） |
 | ProductInventory | object | 否 | 库存（说明见仓储） |
 | PriceRuleType | int | 否 | 定价规则：0按款定价，1按规格定价 |
@@ -107,6 +111,8 @@
 | IsShowFileMasterUrlList | int | 否 | 是否显示主图列表（数量） |
 | IsShowUnitList | int | 否 | 是否显示计量单位列表 |
 | IsShowTagList | int | 否 | 是否显示标签列表 |
+| IsShowBrandList | int | 否 | 是否显示品牌列表 |
+| IsShowSupplierList | int | 否 | 是否显示供应商列表 |
 | IsShowSkuList | int | 否 | 是否显示sku列表 |
 | IsShowSpecGroup | int | 否 | 是否显示规格组（说明见“获取规格模板列表”） |
 | IsShowSpecValueList | int | 否 | 是否显示规格值（当IsShowSkuList/IsShowSpecGroup=1时启用） |
