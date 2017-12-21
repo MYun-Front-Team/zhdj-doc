@@ -10,7 +10,7 @@
 | OrganizationToSysNo | int | 是 | 买家组织系统编码 |
 | PersonSysNo | int | 是 | 买家人员系统编码 |
 |  |  |  |  |
-| OrderType | int | 是 | 订单类型：23001普通订单 |
+| OrderType | int | 是 | 订单类型：23001普通订单，23002预采购订单 |
 | OrderClassSysNo | int | 是 | 订单分类：0正常订单，1合单订单，2拆单订单 |
 | RelativeOrderSysNo | int | 否 | 合单，存储 To 关系；拆单，存储 From 关系 |
 | OrderCode | string | 是 | 订单号 |
