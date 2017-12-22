@@ -348,6 +348,7 @@
   * [完结订单（不发货）](ding-dan-mo-kuai/wan-jie-ding-dan-ff08-qu-xiao-fa-huo-ff09.md)
   * [新增订单（预采购类型）](ding-dan-mo-kuai/xin-zeng-ding-dan-ff08-wu-xian-zhi-tiao-jian-ff09.md)
   * [新增支付记录](ding-dan-mo-kuai/xin-zeng-zhi-fu-ji-lu.md)
+  * [设置订单支付状态](ding-dan-mo-kuai/she-zhi-ding-dan-zhi-fu-zhuang-tai.md)
 * [工单模块](gong-dan-mo-kuai.md)
   * [获取工单列表](gong-dan-mo-kuai/huo-qu-gong-dan-lie-biao.md)
   * [获取工单详情](gong-dan-mo-kuai/huo-qu-gong-dan-xiang-qing.md)
