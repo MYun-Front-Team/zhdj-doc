@@ -45,7 +45,8 @@ _**【接口地址】**_
 | Nation | string | 否 | 民族 |
 | Origin | string | 否 | 籍贯 |
 | Education | int | 否 | 学历：0未知,1小学,2初中,3中转,4高中,5专科,6本科,7硕士,8博士 |
-| FileUrlList | array string | 否 | 图片列表（首图为头像） |
+| FileUrlList | array string | 否 | 头像图片列表 |
+|  |  |  |  |
 | PersonProfile | string | 否 | 个人简介 |
 | WorkingDate | string | 否 | 参加工作日期 |
 | Propertys | array object | 否 | 人员属性列表（见通用属性说明） |
