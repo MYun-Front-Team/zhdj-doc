@@ -5,6 +5,8 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ServicerSysNo | int | 是 | 服务商系统编码 |
+| ServicerType | int | 是 | 服务商类型（行业树） |
+| ServicerClassSysNo | int | 否 | 服务商类别系统编码（类目树） |
 | ServicerLevelSysNo | int | 否 | 服务商等级系统编码 |
 | ServicerStatus | int | 是 | 状态：0待发展，10正常，11终止 |
 | ServicerName | string | 是 | 服务商名称 |
@@ -39,9 +41,11 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 是 | 组织系统编码 |
+| ServicerTypeList | Array\[int\] | 否 | 服务商类型（行业树） |
 | ServicerSysNo | int | 否 | 供应商系统编码 |
 | ServicerStatusList | Array\[int\] | 否 | 状态：0待发展，10正常，11终止 |
 | KeyWord | string | 否 | 关键字（名称/负责人/联系人/电话） |
+| ServicerNameFirstLetter | string | 否 | 服务商名称首字母 |
 
 > #### Limit限制字段 {#请求数据}
 

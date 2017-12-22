@@ -19,8 +19,10 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 是 | 组织系统编码 |
-| ServicerLevelSysNo | int | 否 | 服务商等级系统编码 |
-| ServicerStatus | int | 否 | 状态：0待发展，10正常，11终止 |
+| ServicerType | int | 是 | 服务商类型（行业枚举） |
+| ServicerClassSysNo | int | 否（可选配置） | 服务商类别系统编码（类目树） |
+| ServicerLevelSysNo | int | 否（可选配置） | 服务商等级系统编码 |
+| ServicerStatus | int | 否（可选配置） | 状态：0待发展，10正常，11终止 |
 | ServicerName | string | 是 | 服务商名称 |
 | ServicerShortName | string | 否（可选配置） | 简称 |
 | ServicerTel | string | 是 | 服务商联系电话 |

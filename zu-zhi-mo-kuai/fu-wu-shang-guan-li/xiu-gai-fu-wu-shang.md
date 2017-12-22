@@ -17,6 +17,8 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ServicerSysNo | int | 是 | 系统编码 |
+| ServicerType | int | 否 | 服务商类型（行业枚举） |
+| ServicerClassSysNo | int | 否 | 服务商类别系统编码（类目树） |
 | ServicerLevelSysNo | int | 否 | 服务商等级系统编码 |
 | ServicerName | string | 否 | 服务商名称 |
 | ServicerShortName | string | 否 | 简称 |
