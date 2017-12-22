@@ -12,6 +12,10 @@ _**【应用场景】**_
 
 当登录类型=0（手机号）时，需判断是否存在Person，否则新增。
 
+
+
+强制注册的功能说明：会帮该手机相关的其它账号和人员信息中的绑定手机全部删除或清空；
+
 _**【接口地址】**_
 
 [http://ip:port/BasicAction/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Basic](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[/Register](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)
@@ -30,6 +34,7 @@ _**【接口地址】**_
 | UserGender | int | 否 | 性别：1男，2女 |
 | FilePathList | array string | 否 | 头像Path路径列表 |
 | OrganizationSysNo | int | 否 | 组织系统编码 |
+| IsForce | int | 否 | 是否强制注册 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 

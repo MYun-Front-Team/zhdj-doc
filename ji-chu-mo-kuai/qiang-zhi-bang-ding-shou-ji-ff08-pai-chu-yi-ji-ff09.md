@@ -1,8 +1,8 @@
-# 重新绑定手机登录账号 {#获取河长巡河记录}
+# 强制绑定手机 {#获取河长巡河记录}
 
 ##### _【功能说明】_ {#【功能说明】}
 
-重新绑定手机登录账号
+强制绑定手机
 
 _**【应用场景】**_
 
@@ -16,11 +16,11 @@ _**【应用场景】**_
 
 
 
-强制绑定的功能说明：会帮该手机相关的其它账号和人员信息中的绑定手机全部删除或清空；
+
 
 _**【接口地址】**_
 
-[http://ip:port/BasicAction/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Basic](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[/ReS](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)etCellPhoneNoLoginID
+[http://ip:port/BasicAction/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Basic](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[/ReForceS](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)etCellPhoneNoLoginID
 
 > #### _请求数据_ {#请求数据}
 
@@ -30,7 +30,6 @@ _**【接口地址】**_
 | NewCellPhoneNo | string | 是 | 新手机号 |
 | Captcha | string | 是 | 新手机验证码 |
 | BizCompanyCode | int | 是 | 项目标识符（枚举） |
-| IsForce | int | 否 | 是否强制绑定 |
 
 
 
