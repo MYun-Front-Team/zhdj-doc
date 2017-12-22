@@ -65,7 +65,8 @@ _**【接口地址】**_
 | PCDDescription | string | 否 | 省市区 |
 | ContractAddress | string | 否 | 地址 |
 | ~~Post~~ | ~~string~~ | ~~否~~ | ~~工作岗位~~ |
-| FileUrlList | array string | 否 | 图片列表（首图为头像） |
+| FileUrlList | array string | 否 | 头像图片列表 |
+| PersonIDPhotoUrlList | array string | 否 | 证件照图片列表 |
 
 #### User说明_ _ {#应答数据-（巡河记录数组）}
 

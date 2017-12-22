@@ -54,6 +54,7 @@ _**【接口地址】**_
 | OutOfContactDate | string | 否 | 失联时间 |
 | OutwardFlow | string | 否 | 流动党员外出流向 |
 | PartyFilePathList | array string | 否 | 党员文件path列表 |
+| PersonIDPhotoPathList | array string | 否 | 证件照图片列表 |
 
 #### _应答数据_ {#应答数据-}
 

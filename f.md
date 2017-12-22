@@ -24,12 +24,14 @@
 | DuesDate | string | 是 | 党费交至年月 |
 | Remark | string | 否 | 备注 |
 | PartyPerson | object | 是 | 党员的人员实体对象 |
-| FilePathList | array string | 否 | 文件图片Path路径（第一张为头像） |
-| FileUrlList | array string | 否 | 文件图片Url路径（第一张为头像） |
+| FilePathList | array string | 否 | 头像图片Path路径列表 |
+| FileUrlList | array string | 否 | 头像图片Url路径列表 |
 | IsOutOfContact | int | 否 | 是否失联党员：0否，1是 |
 | OutOfContactDate | string | 否 | 失联时间 |
 | OutwardFlow | string | 否 | 流动党员外出流向 |
 | ~~SystemConfig~~ | ~~object~~ | ~~否~~ | ~~系统配置~~ |
+| PersonIDPhotoPathList | array string | 否 | 证件照图片Path路径列表 |
+| PersonIDPhotoUrlList | array string | 否 | 证件照图片Url路径列表 |
 
 > #### ~~SystemConfig~~ {#请求数据}
 
@@ -125,6 +127,7 @@ InnerPartyStatusCountList说明：
 | IsShowLastPromiseTime | int | 否 | 是否显示最近承诺时间 |
 | ~~IsShowSystemConfig~~ | ~~int~~ | ~~否~~ | ~~是否显示系统配置~~ |
 | IsShowPartyPostRanking | int | 否 | 是否显示党内职务排序 |
+| IsShowPersonIDPhotoList | int | 否 | 是否显示证件照图片列表 |
 
 ####  {#应答数据-（巡河记录数组）}
 
