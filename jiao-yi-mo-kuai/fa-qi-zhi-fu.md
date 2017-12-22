@@ -12,6 +12,10 @@ _**【应用场景】**_
 
 2、当IsNeedBalance=1时，先扣出全部可用余额后，在把剩余不足的钱用第三方付款；
 
+订单支付：ModuleSysNo=23000，ModuleSourceSysNo=订单编码，其它=0
+
+商家会员支付：ModuleSysNo=27000，ModuleSourceSysNo=商家编码，其它=0
+
 _**【接口地址】**_
 
 [http://ip:port/DealQuery/](http://ip:port/HMAction/River/AddRiver)Payment[/G](http://ip:port/HMAction/River/AddRiver)etPaymentUrl
@@ -20,7 +24,11 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrderSysNo | int | 否 | 订单系统编码 |
+| ModuleSysNo | int | 是 | 模块编码 |
+| ModuleSourceType | int | 是 | 模块来源类型 |
+| ModuleSourceClass | int | 是 | 模块来源分类 |
+| ModuleSourceSysNo | int | 是 | 模块来源系统编码 |
+| ~~OrderSysNo~~ | ~~int~~ | ~~否~~ | ~~订单系统编码~~ |
 | PaymentSysNo | int | 否 | 支付方式系统编码 |
 | IsNeedBalance | int | 否 | 是否需要先扣余额：0否，1是 |
 | OpenID | string | 否 | 微信OPENID |
