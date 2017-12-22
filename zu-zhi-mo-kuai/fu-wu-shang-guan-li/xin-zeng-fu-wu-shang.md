@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 新增服务商
 
+注：ServicerTel必填，一旦服务商启用后创建账户和账号，并分配权限角色；
+
 _**【接口地址】**_
 
 [http://ip:port/OrganizationAction/Servicer/A](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)ddServicer
@@ -21,7 +23,7 @@ _**【接口地址】**_
 | ServicerStatus | int | 否 | 状态：0待发展，10正常，11终止 |
 | ServicerName | string | 是 | 服务商名称 |
 | ServicerShortName | string | 否（可选配置） | 简称 |
-| ServicerTel | string | 否（可选配置） | 服务商联系电话 |
+| ServicerTel | string | 是 | 服务商联系电话 |
 | ServicerDesc | string | 否（可选配置） | 服务商描述 |
 | ServicerMaster | string | 否（可选配置） | 服务商负责人 |
 | ServicerPost | string | 否（可选配置） | 服务商负责人岗位 |

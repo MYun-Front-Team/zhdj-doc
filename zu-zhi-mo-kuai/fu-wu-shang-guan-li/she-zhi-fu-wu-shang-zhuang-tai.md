@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 设置服务商状态
 
+注：ServicerTel必填，一旦服务商启用ServicerStatus=10后创建账户和账号（注意重复启用），并分配权限角色；
+
 _**【接口地址】**_
 
 [http://ip:port/OrganizationAction/Servicer/S](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)etServicerStatus
