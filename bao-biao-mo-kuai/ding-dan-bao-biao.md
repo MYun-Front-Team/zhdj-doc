@@ -13,7 +13,7 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrganizationFromSysNo | int | 否 | 卖家组织系统编码 |
+| OrganizationFromSysNo | int | 是 | 卖家组织系统编码 |
 | DataRangeSysNo | int | 否 | 数据范围树编码（店铺树） |
 | PersonFromSysNo | int | 否 | 卖家人员系统编码 |
 | OrganizationToSysNo | int | 否 | 买家组织系统编码 |
