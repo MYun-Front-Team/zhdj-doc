@@ -27,6 +27,7 @@ _**【接口地址】**_
 | ProductGroupSysNo | int | 是 | 款号系统编码 |
 | SkuSysNoList | array int | 否 | 款规格列表 |
 | OnSaleStatus | int | 是 | 上下状态:0待上架 1上架 2下架 3部分上架 4停售 |
+| IsForceSetStatus | int | 否 | 是否强制下架：0否，1是 |
 
 > #### 应答_数据_ {#请求数据}
 
