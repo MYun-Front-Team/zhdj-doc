@@ -196,6 +196,7 @@
   * [设置账户状态](ji-chu-mo-kuai/she-zhi-zhang-hu-zhuang-tai.md)
   * [注册账号](ji-chu-mo-kuai/zhu-ce-zhang-hao.md)
   * [获取数据范围树（树版）](ji-chu-mo-kuai/huo-qu-shu-ju-fan-wei-shu-ff08-shu-ban-ff09.md)
+  * [验证账号可用性（返人）](ji-chu-mo-kuai/yan-zheng-zhang-hao-ke-yong-xing-ff08-fan-ren-ff09.md)
 * [朋友圈模块](peng-you-quan-mo-kuai.md)
   * [获取朋友圈列表](peng-you-quan-mo-kuai/huo-qu-peng-you-quan-lie-biao.md)
   * [获取朋友圈详情](peng-you-quan-mo-kuai/huo-qu-peng-you-quan-xiang-qing.md)
