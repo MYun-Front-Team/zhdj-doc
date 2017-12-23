@@ -49,6 +49,7 @@ _**【接口地址】**_
 | SpecValueOtherName | string | 否 | 规格值别名 |
 | IsCustomized | int | 是 | 是否可定制：0否，1是 |
 | IsChecked | int | 否 | 是否选中：0否，1是 |
+| IconColor | string | 否 | 色号 |
 
 
 
