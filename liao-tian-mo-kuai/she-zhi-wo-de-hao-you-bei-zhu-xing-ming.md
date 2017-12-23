@@ -17,7 +17,8 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PersonSysNo | int | 是 | 好友人员系统编码 |
-| FriendPersonName | string | 是 | 好友备注姓名 |
+| FriendPersonName | string | 否 | 好友备注姓名 |
+| FriendStatus | int | 否 | 状态：0正常，11黑名单 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 

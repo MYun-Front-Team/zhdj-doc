@@ -30,6 +30,7 @@ _**【接口地址】**_
 | LoginPwd | string | 否 | 密码（微信等方式登录可为空） |
 | BizCompanyCode | int | 是 | 项目标识符（枚举） |
 | RegisterMsg | object | 否 | 注册信息实体 |
+| Captcha | string | 否 | 验证码（短信登录时必填） |
 
 > #### RegisterMsg {#应答数据-（巡河记录数组）}
 
