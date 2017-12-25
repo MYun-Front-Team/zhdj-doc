@@ -123,6 +123,7 @@
 | OriginalQuantity | int | 是 | 原始购买数量 |
 | Quantity | int | 是 | 最终购买数量 |
 | OrderItemLockInventory | object | 否 | 订单商品锁库（见仓储） |
+| DeliveriedQuantity | int | 否 | 已发货数量 |
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -172,6 +173,7 @@
 | IsShowToOrganization | int | 否 | 是否显示买家组织 |
 | IsShowToPerson | int | 否 | 是否显示买家人员 |
 | IsShowOrderTimeList | int | 否 | 是否显示订单时间列表 |
+| IsShowDeliveriedQuantity | int | 否 | 是否显示已发数量 |
 
 #### 模块页面编号枚举说明 {#请求数据}
 
