@@ -48,6 +48,7 @@ _**【接口地址】**_
 | ShopDepositFee | decimal（18，2） | 否（可选配置） | 店铺默认押金（元） |
 | ShopRentFee | decimal（18，2） | 否（可选配置） | 店铺默认租金（元/月） |
 | ShopRentRemark | string | 否（可选配置） | 备注 |
+| CategorySysNoList | array int | 否（可选配置） | 主营分类系统编码列表 |
 
 #### _应答数据 _ {#应答数据-}
 

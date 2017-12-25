@@ -36,6 +36,7 @@
 | ShopDepositFee | decimal\(18,2\) | 否 | 店铺默认押金（元） |
 | ShopRentFee | decimal\(18,2\) | 否 | 店铺默认租金（元/月） |
 | ShopRentRemark | string | 否 | 店铺租用备注 |
+| ShopCategoryList | array object | 否 | 店铺主营分类列表 |
 
 > #### 统计计算字段 {#请求数据}
 
@@ -65,6 +66,7 @@
 | :--- | :--- | :--- | :--- |
 | IsShowProductGroupCount | int | 否 | 是否显示商品数量 |
 | IsShowPersonFollowCount | int | 否 | 是否显示关注数量 |
+| IsShowShopCategoryList | int | 否 | 是否显示主营分类列表 |
 
 ####  {#应答数据-（巡河记录数组）}
 
