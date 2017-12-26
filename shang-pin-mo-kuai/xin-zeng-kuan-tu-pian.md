@@ -24,6 +24,7 @@ _**【接口地址】**_
 | SkuSysNo | int | 否 | 款规格系统编码 |
 | FileThumbnailPathList | array string | 否 | 缩略图Path列表（第一张为首图） |
 | FileMasterPathList | array string | 否 | 主图Path列表（第一张为首图） |
+| FileDetailPathList | array string | 否 | 详情图Path列表（第一张为首图） |
 
 > #### 应答_数据_ {#请求数据}
 

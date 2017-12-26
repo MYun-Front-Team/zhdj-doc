@@ -26,6 +26,8 @@
 | FileMasterPathList | array string | 否 | 主图Path列表（第一张为首图） |
 | FileThumbnailUrlList | array string | 否 | 缩略图Url列表（第一张为首图） |
 | FileMasterUrlList | array string | 否 | 主图Url列表（第一张为首图） |
+| FileDetailPathList | array string | 否 | 详情图Path列表（第一张为首图） |
+| FileDetailUrlList | array string | 否 | 详情图Url列表（第一张为首图） |
 | SkuList | array object | 否 | 商品规格Sku列表 |
 | OnSaleStatus | int | 是 | 上下状态:0待上架 1上架 2下架 3部分上架 4停售 |
 | IsClearStocks | int | 否 | 是否是清货款：0否，1是 |
@@ -83,6 +85,7 @@
 | Price | object | 否 | 价格实体 |
 | FileThumbnailUrlList | array string | 否 | 缩略图Url列表 |
 | FileMasterUrlList | array string | 否 | 主图Url列表 |
+| FileDetailUrlList | array string | 否 | 详情图Url列表 |
 | ProductGroup | object | 否 | 款实体对象（不含SKU） |
 
 > #### 功能按钮字段 {#请求数据}
@@ -109,6 +112,7 @@
 | :--- | :--- | :--- | :--- |
 | IsShowFileThumbnailUrlList | int | 否 | 是否显示缩略图列表（数量） |
 | IsShowFileMasterUrlList | int | 否 | 是否显示主图列表（数量） |
+| IsShowFileDetailUrlList | int | 否 | 是否显示详情图列表（数量） |
 | IsShowUnitList | int | 否 | 是否显示计量单位列表 |
 | IsShowTagList | int | 否 | 是否显示标签列表 |
 | IsShowBrandList | int | 否 | 是否显示品牌列表 |
