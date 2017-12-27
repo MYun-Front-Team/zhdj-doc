@@ -325,6 +325,7 @@
     * [设置设备状态（租用）](dian-pu-mo-kuai/she-zhi-she-bei-zu-yong-guan-xi.md)
     * [获取设备列表](dian-pu-mo-kuai/huo-qu-she-bei-lie-biao.md)
     * [获取设备详情](dian-pu-mo-kuai/huo-qu-she-bei-xiang-qing.md)
+    * [新增设备（绑定版）](dian-pu-mo-kuai/xin-zeng-she-bei-ff08-bang-ding-ban-ff09.md)
 * [仓库库存模块](cang-ku-ku-cun-mo-kuai.md)
   * [获取仓库库位树](huo-qu-cang-ku-ku-wei-shu.md)
   * [入库](ru-ku.md)
