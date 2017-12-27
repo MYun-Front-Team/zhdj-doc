@@ -1,23 +1,27 @@
-# 设置会员卡状态 {#获取河长巡河记录}
+# 充值 {#获取河长巡河记录}
 
 ##### _【功能说明】_ {#【功能说明】}
 
-设置会员卡状态
+充值
 
 _**【应用场景】**_
 
-设置会员卡状态
+充值
+
+注：只有激活状态的卡，才能充值；
+
+把充值金额充值到组织钱包，并记录日志；
 
 _**【接口地址】**_
 
-[http://ip:port/WalletAction/MemberCard/S](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)etMemberCardStatus
+[http://ip:port/WalletAction/MemberCard/A](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)ddMemberCardAmount
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | CardNo | string | 是 | 卡号 |
-| CardStatus | int | 是 | 卡状态：0初始化，9已挂失，10已激活，11已删除 |
+| CardAmount | decimal（18，2） | 是 | 金额 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 

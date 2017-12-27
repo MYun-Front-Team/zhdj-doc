@@ -395,8 +395,10 @@
   * 会员卡管理
     * [新增会员卡](zi-jin-guan-li/xin-zeng-hui-yuan-qia.md)
     * [设置会员卡状态](zi-jin-guan-li/she-zhi-hui-yuan-qia-zhuang-tai.md)
-    * 充值
+    * [充值](zi-jin-guan-li/chong-zhi.md)
     * [获取会员卡列表](zi-jin-guan-li/huo-qu-hui-yuan-qia-lie-biao.md)
+    * [修改会员卡](zi-jin-guan-li/xiu-gai-hui-yuan-qia.md)
+    * [退卡](zi-jin-guan-li/tui-qia.md)
 * [报表模块](bao-biao-mo-kuai.md)
   * [获取报表数据](bao-biao-mo-kuai/huo-qu-bao-biao-shu-ju.md)
   * [获取报表模板](bao-biao-mo-kuai/huo-qu-bao-biao-mo-ban.md)
