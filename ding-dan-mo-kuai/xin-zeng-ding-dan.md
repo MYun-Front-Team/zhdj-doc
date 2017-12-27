@@ -44,6 +44,7 @@ _**【接口地址】**_
 | BillType | int | 否 | 发票类型：1企业，2机构，3个人 |
 | OrderRemark | string | 否 | 订单买家备注 |
 | AddOrderItemList | array object | 是 | 订单商品列表 |
+| AddOrderAmountList | array object | 否 | 订单优惠列表 |
 
 > #### AddOrderItem订单商品列表 {#请求数据}
 
@@ -53,6 +54,14 @@ _**【接口地址】**_
 | SkuSysNo | int | 是 | SKU系统编码 |
 | CustomizedSpecValue | string | 否 | 可定制规格值 |
 | Quantity | int | 是 | 购买数量 |
+
+> #### AddOrderAmount订单优惠金额列表 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| AmountType | int | 是 | 类型：7客服优惠金额，8运费优惠金额 |
+| Amount | decimal（18，2） | 是 | 优惠金额 |
+| Remark | string | 否 | 备注 |
 
 > #### 应答_数据_ {#请求数据}
 
