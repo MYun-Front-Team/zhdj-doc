@@ -148,6 +148,8 @@
 | CancelStatusList | array int | 否 | 取消状态 |
 | FinishStatusList | array int | 否 | 完结状态 |
 | SettlementStatusList | array int | 否 | 结算状态 |
+|  |  |  |  |
+| PaymentTypeList | array int | 否 | 支付方式 |
 
 > #### 查询Limit字段 {#请求数据}
 

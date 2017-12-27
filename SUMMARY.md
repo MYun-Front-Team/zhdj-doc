@@ -392,6 +392,11 @@
     * [删除提现](zi-jin-guan-li/shan-chu-ti-xian.md)
     * [审核提现](zi-jin-guan-li/shen-he-ti-xian.md)
     * [确认提现（完结）](zi-jin-guan-li/que-ren-ti-xian-ff08-wan-jie-ff09.md)
+  * 会员卡管理
+    * [新增会员卡](zi-jin-guan-li/xin-zeng-hui-yuan-qia.md)
+    * 设置会员卡状态
+    * 获取会员卡余额
+    * 充值
 * [报表模块](bao-biao-mo-kuai.md)
   * [获取报表数据](bao-biao-mo-kuai/huo-qu-bao-biao-shu-ju.md)
   * [获取报表模板](bao-biao-mo-kuai/huo-qu-bao-biao-mo-ban.md)
