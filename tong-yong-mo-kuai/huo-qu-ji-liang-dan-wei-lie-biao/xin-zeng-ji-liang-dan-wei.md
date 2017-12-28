@@ -22,6 +22,7 @@ _**【接口地址】**_
 | ~~ModuleSourceClass~~ | ~~int~~ | ~~否~~ | ~~来源分类~~ |
 | ~~ModuleSourceSysNo~~ | ~~int~~ | ~~否~~ | ~~来源系统编码~~ |
 | UnitName | string | 是 | 计量单位名称 |
+| IsDefault | int | 否 | 是否默认：0否，1是 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
