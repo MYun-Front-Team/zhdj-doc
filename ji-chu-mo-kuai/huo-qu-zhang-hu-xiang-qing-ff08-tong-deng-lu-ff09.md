@@ -16,6 +16,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| BizCompanyCode | int | 是 | 项目号 |
 | UserSysNo | int | 否（二选一） | 用户系统编码（同Admin） |
 | PersonSysNo | int | 否（二选一） | 人员系统编码 |
 
