@@ -26,6 +26,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | CardType | int | 是 | 会员卡类型：0会员卡，1礼品卡，2临时卡 |
 | CardNo | string | 是 | 卡号 |
+| CardKey | string | 是 | 卡密码 |
 | CardPhoneNo | string | 否 | 手机号 |
 | IDCard | string | 否 | 身份证 |
 | CardAmount | decimal（18，2） | 是 | 开卡金额 |
