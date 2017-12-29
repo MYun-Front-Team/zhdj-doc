@@ -32,7 +32,8 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-
+| PointsValue | int | 否 | 积分 |
+| PointsValueRanking | int | 否 | 积分排名 |
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -54,7 +55,8 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-
+| IsShowPointsValue | int | 否 | 是否显示积分 |
+| IsShowPointsValueRanking | int | 否 | 是否显示积分排名 |
 
 ####  {#应答数据-（巡河记录数组）}
 
