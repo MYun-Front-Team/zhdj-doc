@@ -16,9 +16,11 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| CardNo | string | 是 | 卡号 |
+| CardKey | string | 是 | 卡密码 |
 | CardPhoneNo | string | 否 | 手机号 |
 | IDCard | string | 否 | 身份证 |
-| CardAmount | decimal（18，2） | 是 | 开卡金额 |
+| CardAmount | decimal（18，2） | 否 | 开卡金额 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
