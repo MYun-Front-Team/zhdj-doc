@@ -54,6 +54,7 @@ _**【接口地址】**_
 | SkuSysNo | int | 是 | SKU系统编码 |
 | CustomizedSpecValue | string | 否 | 可定制规格值 |
 | Quantity | int | 是 | 购买数量 |
+| RealPrice | decimal\(18,2\) | 否 | 单价 |
 
 > #### AddOrderAmount订单优惠金额列表 {#请求数据}
 
