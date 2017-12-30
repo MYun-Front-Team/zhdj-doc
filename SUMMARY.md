@@ -405,5 +405,5 @@
   * [获取报表模板](bao-biao-mo-kuai/huo-qu-bao-biao-mo-ban.md)
   * [报表清单](bao-biao-mo-kuai/bao-biao-qing-dan.md)
     * [订单报表](bao-biao-mo-kuai/ding-dan-bao-biao.md)
-    * 商品报表
+    * [商品报表](bao-biao-mo-kuai/shang-pin-bao-biao.md)
 

@@ -29,7 +29,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PageHtmlSysNo | int | 是 | 系统编码 |
-| PageHtmlStyle | int | 是 | 页类型 |
+| PageHtmlStyle | string | 是 | HTML扩展 |
 | PageHtmlName | string | 是 | 页标题 |
 | PageHtml | string | 是 | HTML |
 | Remark | string | 否 | 备注 |
