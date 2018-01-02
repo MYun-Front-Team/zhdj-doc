@@ -150,6 +150,8 @@
 | SettlementStatusList | array int | 否 | 结算状态 |
 |  |  |  |  |
 | PaymentTypeList | array int | 否 | 支付方式 |
+| OrderStartTime | string | 否 | 开始时间（订单创建时间） |
+| OrderEndTime | string | 否 | 结束时间（订单创建时间） |
 
 > #### 查询Limit字段 {#请求数据}
 
