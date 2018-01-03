@@ -36,6 +36,7 @@ _**【接口地址】**_
 | OpenID | string | 否 | 微信OPENID |
 | CardNo | string | 否 | 卡号 |
 | CardKey | string | 否 | 卡密码 |
+| UnderlinePayAmount | decimal\(18,2\) | 否 | 线下支付金额 |
 
 > #### 应答_数据_ {#请求数据}
 
