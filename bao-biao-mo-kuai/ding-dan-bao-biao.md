@@ -21,7 +21,7 @@
 | OrderStartTime | string | 否 | 订单开始时间 |
 | OrderEndTime | string | 否 | 订单结束时间 |
 
-> #### _应答数据 （PageResponseBase）【23000100，1】_ {#应答数据-（巡河记录数组）}
+> #### _应答数据 （PageResponseBase）【23000100】_ {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -31,7 +31,7 @@
 | OrderTotalNum | int | 是 | 订单总数 |
 | OrderTotalAmount | decimal\(18,2\) | 是 | 订单总金额 |
 
-#### _应答数据 （PageResponseBase）【23000101，1】_ {#应答数据-（巡河记录数组）}
+#### _应答数据 （PageResponseBase）【23000101】_ {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -43,7 +43,7 @@
 | OrderItemNum | int | 是 | 订单商品总数 |
 | OrderAmount | decimal\(18,2\) | 是 | 订单金额 |
 
-#### _应答数据 （PageResponseBase）【23000102，1】_ {#应答数据-（巡河记录数组）}
+#### _应答数据 （PageResponseBase）【23000102】_ {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -51,7 +51,7 @@
 | OrderTotalNum | int | 是 | 订单总数 |
 | OrderTotalAmount | decimal\(18,2\) | 是 | 订单总金额 |
 
-#### _应答数据 （PageResponseBase）【23000103，1】_ {#应答数据-（巡河记录数组）}
+#### _应答数据 （PageResponseBase）【23000103】_ {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |

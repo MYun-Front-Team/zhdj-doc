@@ -408,4 +408,5 @@
   * [报表清单](bao-biao-mo-kuai/bao-biao-qing-dan.md)
     * [订单报表](bao-biao-mo-kuai/ding-dan-bao-biao.md)
     * [商品报表](bao-biao-mo-kuai/shang-pin-bao-biao.md)
+    * [首页报表](bao-biao-mo-kuai/shou-ye-bao-biao.md)
 
