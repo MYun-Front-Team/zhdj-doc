@@ -387,7 +387,7 @@
     * [新增银行卡](zi-jin-guan-li/xin-zeng-yin-xing-qia.md)
     * [删除银行卡](zi-jin-guan-li/shan-chu-yin-xing-qia.md)
     * [获取银行列表](zi-jin-guan-li/huo-qu-yin-xing-lie-biao.md)
-  * 提现管理
+  * [提现管理](zi-jin-guan-li/ti-xian-guan-li.md)
     * [获取提现列表](zi-jin-guan-li/huo-qu-ti-xian-lie-biao.md)
     * [获取提现详情](zi-jin-guan-li/huo-qu-ti-xian-xiang-qing.md)
     * [新增提现](zi-jin-guan-li/xin-zeng-ti-xian.md)
@@ -395,6 +395,10 @@
     * [删除提现](zi-jin-guan-li/shan-chu-ti-xian.md)
     * [审核提现](zi-jin-guan-li/shen-he-ti-xian.md)
     * [确认提现（完结）](zi-jin-guan-li/que-ren-ti-xian-ff08-wan-jie-ff09.md)
+    * [获取日账单列表](zi-jin-guan-li/huo-qu-ri-zhang-hao-lie-biao.md)
+    * [获取日账单详情](zi-jin-guan-li/huo-qu-ri-zhang-dan-xiang-qing.md)
+    * [设置日账单状态](zi-jin-guan-li/she-zhi-ri-zhang-dan-zhuang-tai.md)
+    * [批量导入回执单](zi-jin-guan-li/pi-liang-dao-ru-hui-zhi-dan.md)
   * 会员卡管理
     * [新增会员卡](zi-jin-guan-li/xin-zeng-hui-yuan-qia.md)
     * [设置会员卡状态](zi-jin-guan-li/she-zhi-hui-yuan-qia-zhuang-tai.md)
@@ -409,4 +413,5 @@
     * [订单报表](bao-biao-mo-kuai/ding-dan-bao-biao.md)
     * [商品报表](bao-biao-mo-kuai/shang-pin-bao-biao.md)
     * [首页报表](bao-biao-mo-kuai/shou-ye-bao-biao.md)
+    * [资金报表](bao-biao-mo-kuai/zi-jin-bao-biao.md)
 
