@@ -8,6 +8,7 @@
 | 23000101 | 订单报表 | 按订单维度 |
 | 23000102 | 订单报表 | 按日期维度 |
 | 23000103 | 订单报表 | 按款号维度 |
+| 23000104 | 订单报表 | 统计 |
 
 > #### _请求数据（PageRequestData）_ {#请求数据}
 
@@ -57,6 +58,13 @@
 | :--- | :--- | :--- | :--- |
 | ProductGroupSysNo | int | 是 | 款系统编码 |
 | ProductGroupCode | string | 是 | 款号 |
+| OrderTotalNum | int | 是 | 订单总数 |
+| OrderTotalAmount | decimal\(18,2\) | 是 | 订单总金额 |
+
+#### _应答数据 （PageResponseBase）【23000104】_ {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
 | OrderTotalNum | int | 是 | 订单总数 |
 | OrderTotalAmount | decimal\(18,2\) | 是 | 订单总金额 |
 
