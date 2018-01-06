@@ -19,6 +19,7 @@ _**【接口地址】**_
 | CellPhoneNo | string | 是 | 手机号 |
 | CaptchaType | int | 是 | 验证码类型：1注册验证码，2激活验证码，3重置密码，4修改手机，5绑定微信 |
 | FailureDate | int | 否 | 过期时间\(秒\) |
+| BizCompanyCode | int | 是 | 项目号 |
 
 
 
