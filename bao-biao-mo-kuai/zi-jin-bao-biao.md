@@ -35,6 +35,7 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PaymentType | int | 是 | 支付方式 |
+| BuyerID | string | 否 | 买家支付ID |
 | Amount | decimal\(18,2\) | 是 | 支付金额 |
 | PayTime | string | 是 | 支付时间 |
 
