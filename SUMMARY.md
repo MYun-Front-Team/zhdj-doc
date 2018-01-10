@@ -336,6 +336,7 @@
     * [新增设备（绑定版）](dian-pu-mo-kuai/xin-zeng-she-bei-ff08-bang-ding-ban-ff09.md)
     * [启动店铺开店状态](dian-pu-mo-kuai/qi-dong-she-bei.md)
   * [获取店铺开店状态](dian-pu-mo-kuai/huo-qu-dian-pu-kai-dian-zhuang-tai.md)
+  * [租用店铺](dian-pu-mo-kuai/zu-yong-dian-pu.md)
 * [仓库库存模块](cang-ku-ku-cun-mo-kuai.md)
   * [获取仓库库位树](huo-qu-cang-ku-ku-wei-shu.md)
   * [入库](ru-ku.md)
