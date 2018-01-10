@@ -12,6 +12,8 @@ _**【应用场景】**_
 
 注：绑定成功后，更新账户表的“微信OPENID”字段。
 
+注：当手机号找不到对应的Person，且要求强制注册，那么用该手机创建Person，手机号账号的秘密为空；
+
 _**【接口地址】**_
 
 [http://ip:port/BasicAction/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Basic](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[/S](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)etLoginInOpenId
@@ -28,6 +30,7 @@ _**【接口地址】**_
 | Longitude | decimal\(18,10\) | 否 | 经度 |
 | Latitude | decimal\(18,10\) | 否 | 纬度 |
 | FilePathList | array string | 否 | 文件图片Path路径列表 |
+| IsForce | int | 否 | 是否强制注册（禁用） |
 
 #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
