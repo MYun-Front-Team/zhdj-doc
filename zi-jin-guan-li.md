@@ -6,9 +6,13 @@
 | :--- | :--- | :--- | :--- |
 | WalletSysNo | int | 是 | 钱包系统编码 |
 | BalanceAmount | decimal（18，2） | 是 | 钱包余额（实际存在） |
-| FrozenAmount | decimal（18，2） | 是 | 冻结余额（如提现冻结） |
-| FrozenOrderAmount | decimal（18，2） | 是 | 冻结余额（如订单冻结） |
-| AvailableAmount | decimal（18，2） | 是 | 可用余额=钱包余额-冻结余额 |
+| FrozenAmount | decimal（18，2） | 是 | 冻结余额1（如待提现冻结） |
+| AvailableAmount | decimal（18，2） | 是 | 可用余额=钱包余额-冻结余额1 |
+|  |  |  |  |
+| FrozenOrderAmount | decimal（18，2） | 是 | 冻结余额2（如未结算订单冻结） |
+| InComeTotalAmount | decimal（18，2） | 是 | 收入总金额（订单+佣金等） |
+| ReceiveCashTotalAmount | decimal（18，2） | 是 | 提现总金额（已提现+待提现） |
+| AvailableReceiveCashAmount | decimal（18，2） | 是 | 可提现金额=收入总金额-提现总金额 |
 
 
 

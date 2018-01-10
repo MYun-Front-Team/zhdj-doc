@@ -9,6 +9,7 @@
 | 23000102 | 订单报表 | 按日期维度 |
 | 23000103 | 订单报表 | 按款号维度 |
 | 23000104 | 订单报表 | 按商家统计（平台查看） |
+| 23000105 | 订单报表 | 打印小票 |
 
 > #### _请求数据（PageRequestData）_ {#请求数据}
 
@@ -21,6 +22,8 @@
 | PersonSysNo | int | 否 | 买家人员系统编码 |
 | OrderStartTime | string | 否 | 订单开始时间 |
 | OrderEndTime | string | 否 | 订单结束时间 |
+| OrderSysNo | int | 否 | 订单系统编码 |
+| DeliveryVoucherSysNo | int | 否 | 发货单系统编码 |
 
 > #### _应答数据 （PageResponseBase）【23000100】_ {#应答数据-（巡河记录数组）}
 
@@ -69,6 +72,13 @@
 | SellerName | string | 是 | 商家名称 |
 | OrderTotalNum | int | 是 | 订单总数 |
 | OrderTotalAmount | decimal\(18,2\) | 是 | 订单总金额 |
+
+#### _应答数据 （PageResponseBase）【23000105】_ {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| SellerSysNo | int | 是 | 商家系统编码 |
+|  |  |  |  |
 
 
 
