@@ -26,6 +26,7 @@ _**【接口地址】**_
 | BillDate | string | 是 | 账单日期 |
 | ProductClassSysNo | int | 否 | 类别主键 |
 | ProductGroupSysNo | int | 否 | 款系统编码 |
+| ProductGroupCode | string | 否 | 款号 |
 | SkuSysNo | int | 否 | 款SKU系统编码 |
 | Count | int | 否 | 数量 |
 | Amount | decimal（18，2） | 是 | 金额 |
