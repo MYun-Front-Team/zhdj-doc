@@ -9,6 +9,7 @@
 | ShopSysNo | int | 是 | 店铺系统编码 |
 | ShopType | int | 是 | 类型（枚举） |
 | ShopClassSysNo | int | 否 | 类别系统编码（分类树） |
+| ShopClassName | int | 否 | 类别名称 |
 | ShopName | string | 是 | 店铺名称 |
 | ShopShortName | string | 否 | 店铺简称 |
 | ShopTel | string | 否 | 店铺联系电话 |
@@ -44,6 +45,7 @@
 | :--- | :--- | :--- | :--- |
 | ProductGroupCount | int | 否 | 商品数量 |
 | PersonFollowCount | int | 否 | 关注数量 |
+| DeviceCount | int | 否 | 设备数量 |
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -69,6 +71,7 @@
 | IsShowProductGroupCount | int | 否 | 是否显示商品数量 |
 | IsShowPersonFollowCount | int | 否 | 是否显示关注数量 |
 | IsShowShopCategoryList | int | 否 | 是否显示主营分类列表 |
+| IsShowDeviceCount | int | 否 | 是否显示设备数量 |
 
 ####  {#应答数据-（巡河记录数组）}
 
