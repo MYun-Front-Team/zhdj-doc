@@ -42,6 +42,7 @@ _**【接口地址】**_
 | IDCard | string | 否 | 身份证 |
 | CardAmount | decimal（18，2） | 是 | 开卡金额 |
 | CardStatus | int | 否 | 卡状态：0初始化，9已挂失，10已激活，11已删除 |
+| User | object | 否 | 账户 |
 
 
 
