@@ -10,9 +10,9 @@
 | DeviceName | string | 是 | 设备名称 |
 | DeviceNo | string | 否 | 设备编号 |
 | DeviceStatus | int | 是 | 设备状态：0闲置，10使用 |
-|  |  |  |  |
-| RentOrganization | object | 否 | 租用组织 |
-| RentShop | object | 否 | 租用店铺 |
+| IsRent | int | 是 | 是否出租：0否，1是 |
+| RentOrganization | object | 否 | 租用（使用）组织 |
+| RentShop | object | 否 | 租用（使用）店铺 |
 
 > #### 统计计算字段 {#请求数据}
 
