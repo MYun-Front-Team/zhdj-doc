@@ -38,6 +38,7 @@
 | ShopRentFee | decimal\(18,2\) | 否 | 店铺默认租金（元/月） |
 | ShopRentRemark | string | 否 | 店铺租用备注 |
 | ShopCategoryList | array object | 否 | 店铺主营分类列表 |
+| ShopLease | object | 否 | 店铺最近租用记录 |
 
 > #### 统计计算字段 {#请求数据}
 
@@ -72,6 +73,7 @@
 | IsShowPersonFollowCount | int | 否 | 是否显示关注数量 |
 | IsShowShopCategoryList | int | 否 | 是否显示主营分类列表 |
 | IsShowDeviceCount | int | 否 | 是否显示设备数量 |
+| IsShowShopLease | int | 否 | 是否显示店铺最近租用记录 |
 
 ####  {#应答数据-（巡河记录数组）}
 

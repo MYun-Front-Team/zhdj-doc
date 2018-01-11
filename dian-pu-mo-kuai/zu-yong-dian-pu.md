@@ -29,6 +29,7 @@ _**【接口地址】**_
 | RentStartDate | string | 否 | 租用开始日期 |
 | RentEndDate | string | 否 | 租用结束日期 |
 | Remark | string | 否 | 备注 |
+| RentStatus | int | 是 | 租用状态：10租用，11解除 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
