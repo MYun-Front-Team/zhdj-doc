@@ -44,6 +44,7 @@
 | :--- | :--- | :--- | :--- |
 | IsShowRentOrganization | int | 否 | 是否显示租用组织 |
 | IsShowRentShop | int | 否 | 是否显示租用店铺 |
+| IsShowRentSeller | int | 否 | 是否显示租用商家 |
 
 ####  {#应答数据-（巡河记录数组）}
 
