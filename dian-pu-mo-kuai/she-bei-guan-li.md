@@ -35,6 +35,7 @@
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 | KeyWord | string | 否 | 关键字搜索（名称） |
 | OrganizationToSysNo | int | 否 | 租用方组织系统编码 |
+| DeviceStatusList | array int | 否 | 设备状态：0闲置，10使用 |
 
 > #### 查询Limit字段 {#请求数据}
 
