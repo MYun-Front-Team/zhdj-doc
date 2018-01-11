@@ -423,7 +423,7 @@
     * [获取日账单详情](zi-jin-guan-li/huo-qu-ri-zhang-dan-xiang-qing.md)
     * [设置日账单状态](zi-jin-guan-li/she-zhi-ri-zhang-dan-zhuang-tai.md)
     * [批量导入回执单](zi-jin-guan-li/pi-liang-dao-ru-hui-zhi-dan.md)
-  * 会员卡管理
+  * [会员卡管理](zi-jin-guan-li/hui-yuan-qia-guan-li.md)
     * [新增会员卡](zi-jin-guan-li/xin-zeng-hui-yuan-qia.md)
     * [设置会员卡状态](zi-jin-guan-li/she-zhi-hui-yuan-qia-zhuang-tai.md)
     * [充值](zi-jin-guan-li/chong-zhi.md)

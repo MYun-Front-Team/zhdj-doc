@@ -22,6 +22,7 @@ _**【接口地址】**_
 | CardNo | string | 否 | 卡号 |
 | CardPhoneNo | string | 否 | 手机号 |
 | IDCard | string | 否 | 身份证 |
+| KeyWord | string | 否 | 身份证/手机号/卡号 |
 | CardStatusList | int | 否 | 卡状态：0初始化，9已挂失，10已激活，11已删除 |
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
