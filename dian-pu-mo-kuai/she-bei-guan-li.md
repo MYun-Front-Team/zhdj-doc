@@ -13,6 +13,7 @@
 | IsRent | int | 是 | 是否出租：0否，1是 |
 | RentOrganization | object | 否 | 租用（使用）组织 |
 | RentShop | object | 否 | 租用（使用）店铺 |
+| RentSeller | object | 否 | 租用（使用）商家 |
 
 > #### 统计计算字段 {#请求数据}
 
