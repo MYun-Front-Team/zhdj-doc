@@ -19,9 +19,6 @@ _**【接口地址】**_
 | BillDate | string | 否 | 账单日（如交易日+7天） |
 | BillDealStatusList | array int | 否 | 账单处理状态：0待处理，10已处理，11已作废 |
 | BillSettlementStatusList | array int | 否 | 账单结算状态：0未结算，1部分结算，10已结算 |
-| BillStartDate | string | 否 | 账单开始日期 |
-| BillEndDate | string | 否 | 账单结束日期 |
-| ProductGroupCodeList | array string | 否 | 款号列表 |
 
 > #### DailyBill_应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 

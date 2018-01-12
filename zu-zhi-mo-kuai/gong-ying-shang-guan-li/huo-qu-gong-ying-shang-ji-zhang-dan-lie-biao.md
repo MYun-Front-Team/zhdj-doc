@@ -17,6 +17,9 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | SupplierSysNo | int | 是 | 供应商系统编码 |
+| BillStartDate | string | 否 | 账单开始日期 |
+| BillEndDate | string | 否 | 账单结束日期 |
+| ProductGroupCodeList | array string | 否 | 款号列表 |
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 
