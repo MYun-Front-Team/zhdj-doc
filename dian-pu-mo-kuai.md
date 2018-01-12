@@ -37,8 +37,10 @@
 | ShopDepositFee | decimal\(18,2\) | 否 | 店铺默认押金（元） |
 | ShopRentFee | decimal\(18,2\) | 否 | 店铺默认租金（元/月） |
 | ShopRentRemark | string | 否 | 店铺租用备注 |
-| ShopCategoryList | array object | 否 | 店铺主营分类列表 |
+| ShopCategoryList | array object | 否 | 店铺主营分类列表（行业） |
 | ShopLease | object | 否 | 店铺最近租用记录 |
+| IsCertified | int | 否 | 是否认证：0否，1是 |
+| ProductGroupList | array object | 否 | 店铺推荐商品列表 |
 
 > #### 统计计算字段 {#请求数据}
 
@@ -64,6 +66,9 @@
 | KeyWord | string | 否 | 关键字搜索（名称） |
 | ShopUsedStatusList | array int | 否 | 店铺使用状态：0闲置，10使用 |
 | ShopClassSysNoList | array int | 否 | 类别系统编码（分类树） |
+| IsCertified | int | 否 | 是否认证 |
+| CategorySysNoList | array int | 否 | 主营分类（行业） |
+| BrandSysNoList | array int | 否 | 品牌系统编码 |
 
 > #### 查询Limit字段 {#请求数据}
 
@@ -74,6 +79,7 @@
 | IsShowShopCategoryList | int | 否 | 是否显示主营分类列表 |
 | IsShowDeviceCount | int | 否 | 是否显示设备数量 |
 | IsShowShopLease | int | 否 | 是否显示店铺最近租用记录 |
+| IsShowProductGroupList | int | 否 | 是否显示推荐商品（值为显示的数量） |
 
 ####  {#应答数据-（巡河记录数组）}
 
