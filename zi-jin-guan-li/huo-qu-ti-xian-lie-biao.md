@@ -29,7 +29,7 @@ _**【接口地址】**_
 | Wallet | object | 是 | 钱包实体 |
 | ReceiveAmount | decimal（18，10） | 是 | 提现金额 |
 | ReceiveStatus | int | 是 | 提现状态：0待处理，1已确认，10已提现，11已作废 |
-| ~~Card~~ | ~~object~~ | ~~是~~ | ~~提现银行卡~~ |
+| Card | object | 是 | 提现银行卡 |
 | ReceiveTime | string | 是 | 提现时间 |
 | ~~ReceiveRemark~~ | ~~string~~ | ~~否~~ | ~~提现申请说明~~ |
 | ~~DealRemark~~ | ~~string~~ | ~~否~~ | ~~处理说明~~ |
