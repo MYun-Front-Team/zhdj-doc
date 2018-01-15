@@ -320,6 +320,7 @@
     * [修改商家](zu-zhi-mo-kuai/shang-jia-guan-li/xiu-gai-shang-jia.md)
     * [删除商家](zu-zhi-mo-kuai/shang-jia-guan-li/shan-chu-shang-jia.md)
     * [审核商家](zu-zhi-mo-kuai/shang-jia-guan-li/shen-he-shang-jia.md)
+    * [新增商家（无组织版）](zu-zhi-mo-kuai/shang-jia-guan-li/xin-zeng-shang-jia-ff08-wu-zu-zhi-ban-ff09.md)
 * [店铺模块](dian-pu-mo-kuai.md)
   * [新增店铺](dian-pu-mo-kuai/xin-zeng-dian-pu.md)
   * [修改店铺](dian-pu-mo-kuai/xiu-gai-dian-pu.md)
