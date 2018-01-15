@@ -432,6 +432,7 @@
     * [获取会员卡列表](zi-jin-guan-li/huo-qu-hui-yuan-qia-lie-biao.md)
     * [修改会员卡](zi-jin-guan-li/xiu-gai-hui-yuan-qia.md)
     * [退卡](zi-jin-guan-li/tui-qia.md)
+    * [获取会员卡日志列表](zi-jin-guan-li/huo-qu-hui-yuan-qia-ri-zhi-lie-biao.md)
 * [报表模块](bao-biao-mo-kuai.md)
   * [获取报表数据](bao-biao-mo-kuai/huo-qu-bao-biao-shu-ju.md)
   * [获取报表模板](bao-biao-mo-kuai/huo-qu-bao-biao-mo-ban.md)
