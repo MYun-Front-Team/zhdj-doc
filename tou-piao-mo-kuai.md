@@ -53,11 +53,12 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| IsShowFileUrlList | int | 否 | 是否显示文件图片列表 |
+| IsShowPropertyFileUrlList | int | 否 | 是否显示属性文件图片列表 |
 | IsShowPointsValueList | int | 否 | 是否显示积分配置列表 |
 | IsShowMyPersonStatus | int | 否 | 是否显示当前人员的参与情况 |
 | IsShowPropertys | int | 否 | 是否显示选项属性列表 |
 | IsShowPropertyStatistics | int | 否 | 是否显示属性统计（IsShowPropertys=1时有效） |
+| IsShowPropertySelected | int | 否 | 是否显示投票情况 |
 
 #### VotePersonList说明 {#应答数据-（巡河记录数组）}
 
