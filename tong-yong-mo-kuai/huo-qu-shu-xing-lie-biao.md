@@ -31,11 +31,16 @@ _**【接口地址】**_
 | IsOptional | int | 是 | 属性值类型：0文本，1单休，2多选，3关联 |
 | PropertyValues | array object | 否 | 属性值列表 |
 
+#### PropertyValue说明 {#应答数据-}
+
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PropertyValueSysNo | int | 是 | 属性值系统编码 |
 | PropertySysNo | int | 是 | 属性系统编码 |
 | PropertyValue | string | 是 | 属性值 |
+| PropertyUrl | string | 否 | 属性图片 |
+| SelectedCount | int | 否 | 选中数量 |
+| SelectedPercent | decimal（18，4） | 否 | 选中比例 |
 
 
 
