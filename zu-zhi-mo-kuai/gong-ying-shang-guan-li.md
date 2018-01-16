@@ -24,6 +24,7 @@
 | Latitude | decimal\(18,2\) | 否 | 纬度 |
 | SupplierLogoPathList | array string | 否 | 供应商Logo的路径列表 |
 | SupplierLogoUrlList | array string | 否 | 供应商Logo的URL列表 |
+| OrgShop | object | 否 | 供应商默认店铺 |
 
 > #### SupplierStatistic统计计算字段 {#请求数据}
 
@@ -50,7 +51,7 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-
+| IsShowOrgShop | int | 否 | 是否显示供应商默认店铺 |
 
 #### 模块页面编号枚举说明 {#请求数据}
 
