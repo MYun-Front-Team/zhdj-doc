@@ -25,12 +25,13 @@ _**【接口地址】**_
 | KeyWord | string | 否 | 身份证/手机号/卡号 |
 | CardStatusList | int | 否 | 卡状态：0初始化，9已挂失，10已激活，11已删除 |
 
-> #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
+> #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| MemberCard | object | 是 | 会员卡 |
-| Wallet | object | 是 | 钱包 |
+| MemberCardList | array object | 是 | 会员卡列表 |
+| MemberCardStatistics | array object | 是 | 卡统计列表（见会员卡日志） |
+| WalletStatistic | object | 是 | 金额统计 |
 
 #### MemberCard说明 {#应答数据-（巡河记录数组）}
 
@@ -41,9 +42,20 @@ _**【接口地址】**_
 | CardNo | string | 是 | 卡号 |
 | CardPhoneNo | string | 否 | 手机号 |
 | IDCard | string | 否 | 身份证 |
-| CardAmount | decimal（18，2） | 是 | 开卡金额 |
+| CardAmount | decimal（18，2） | 是 | 卡内金额 |
+| TotalAmount | decimal（18，2） | 是 | 累计充值金额 |
+| ConsumeAmount | decimal（18，2） | 是 | 消费金额=充值金额-卡内金额 |
 | CardStatus | int | 否 | 卡状态：0初始化，9已挂失，10已激活，11已删除 |
 | User | object | 否 | 账户 |
+| CreateTime | string | 是 | 开卡时间 |
+
+#### WalletStatistic说明 {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| CardAmountSum | decimal（18，2） | 是 | 卡内金额累计 |
+| TotalAmountSum | decimal（18，2） | 是 | 充值金额累计 |
+| ConsumeAmountSum | decimal（18，2） | 是 | 消费金额累计=充值金额累计-卡内金额累计 |
 
 
 
