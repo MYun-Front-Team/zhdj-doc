@@ -32,7 +32,8 @@ _**【接口地址】**_
 | UserGender | int | 否 | 性别：1男，2女 |
 | FilePathList | array string | 否 | 头像Path路径列表 |
 | OrganizationSysNo | int | 否 | 组织系统编码 |
-| IsForce | int | 否 | 是否强制注册 |
+| IsForce | int | 否 | 是否强制注册（禁用） |
+| OpenID | int | 否 | 微信OpenID |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
