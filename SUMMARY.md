@@ -201,6 +201,7 @@
   * [批量设置账户状态](ji-chu-mo-kuai/pi-liang-she-zhi-zhang-hu-zhuang-tai.md)
   * [批量删除账号](ji-chu-mo-kuai/pi-liang-shan-chu-zhang-hao-ff08-hou-tai-ff09.md)
   * [获取项目请求地址](ji-chu-mo-kuai/huo-qu-xiang-mu-qing-qiu-di-zhi.md)
+  * [删除组织人员](ji-chu-mo-kuai/shan-chu-zu-zhi-ren-yuan.md)
 * [朋友圈模块](peng-you-quan-mo-kuai.md)
   * [获取朋友圈列表](peng-you-quan-mo-kuai/huo-qu-peng-you-quan-lie-biao.md)
   * [获取朋友圈详情](peng-you-quan-mo-kuai/huo-qu-peng-you-quan-xiang-qing.md)
