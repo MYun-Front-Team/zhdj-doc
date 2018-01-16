@@ -31,7 +31,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | MemberCardList | array object | 是 | 会员卡列表 |
 | MemberCardStatistics | array object | 是 | 卡统计列表（见会员卡日志） |
-| WalletStatistic | object | 是 | 金额统计 |
+| WalletStatistics | object | 是 | 金额统计 |
 
 #### MemberCard说明 {#应答数据-（巡河记录数组）}
 
@@ -49,7 +49,7 @@ _**【接口地址】**_
 | User | object | 否 | 账户 |
 | CreateTime | string | 是 | 开卡时间 |
 
-#### WalletStatistic说明 {#应答数据-（巡河记录数组）}
+#### WalletStatistics说明 {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
