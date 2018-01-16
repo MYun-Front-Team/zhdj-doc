@@ -21,7 +21,14 @@ _**【接口地址】**_
 | BillEndDate | string | 否 | 账单结束日期 |
 | ProductGroupCodeList | array string | 否 | 款号列表 |
 
-> #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
+> #### _应答数据 _ {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| SupplierBillList | array object | 是 | 供应商记账单列表 |
+| SupplierBillStatistics | object | 是 | 统计 |
+
+#### SupplierBill说明_ _ {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -33,6 +40,13 @@ _**【接口地址】**_
 | SkuSysNo | int | 否 | 款SKU系统编码 |
 | Count | int | 否 | 数量 |
 | Amount | decimal（18，2） | 是 | 金额 |
+
+#### SupplierBillStatistics说明_ _ {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| TotalCount | int | 是 | 数量累计 |
+| TotalAmount | decimal（18，2） | 是 | 金额累计 |
 
 
 
