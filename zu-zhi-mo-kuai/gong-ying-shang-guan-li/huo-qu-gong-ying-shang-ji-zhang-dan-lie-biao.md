@@ -20,6 +20,7 @@ _**【接口地址】**_
 | BillStartDate | string | 否 | 账单开始日期 |
 | BillEndDate | string | 否 | 账单结束日期 |
 | ProductGroupCodeList | array string | 否 | 款号列表 |
+| IsGroupByProductGroup | int | 否 | 是否以款号汇总 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
