@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 获取店铺开店状态
 
+注：通过设备找店铺，然后返回店铺的状态；
+
 _**【接口地址】**_
 
 [http://ip:port/ShopQuery/Shop/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)ShopOpenStatusBySysNo
@@ -16,7 +18,8 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| ShopSysNo | int | 是 | 店铺系统编码 |
+| ~~ShopSysNo~~ | ~~int~~ | ~~是~~ | ~~店铺系统编码~~ |
+| DeviceSysNo | int | 是 | 设备系统编码 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 

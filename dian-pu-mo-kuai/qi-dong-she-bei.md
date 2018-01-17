@@ -14,6 +14,8 @@ _**【应用场景】**_
 
 2、记录操作人系统编码到“OpenPersonSysNo”；
 
+3、开店的时候填写店铺与摊位的关系表；关店的时候删除该关系；
+
 _**【接口地址】**_
 
 [http://ip:port/ShopAction/Device/SetS](http://ip:port/OrganizationAction/Customer/AddCustomer)hopOpenStatus
