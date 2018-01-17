@@ -22,7 +22,7 @@
 | :--- | :--- | :--- | :--- |
 | TenantCount | int | 否 | 租户数量 |
 
-> #### 功能按钮字段 {#请求数据}
+> #### 查询Limit字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -41,6 +41,14 @@
 | IsShowPropertys | int | 否 | 是否显示房间属性列表 |
 | IsShowTenantList | int | 否 | 是否显示租户列表 |
 | IsShowTenantCount | int | 否 | 是否显示租户数量 |
+
+#### Tenant说明 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| Resident | object | 是 | 居民实体 |
+| IsTenant | int | 是 | 是否租户 |
+| IsLive | int | 是 | 是否居住在该房间 |
 
 
 

@@ -25,13 +25,15 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| RoomCount | int | 否 | 房间数量 |
+| RoomPurposeStatistics | array object | 否 | 房间用途数量统计 |
 
-
-> #### 功能按钮字段 {#请求数据}
+> #### RoomPurposeStatistics说明 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-
+| RoomPurpose | int | 否 | 房间用途：0自用，1出租 |
+| Count | int | 否 | 数量 |
 
 #### 查询条件字段 {#请求数据}
 
@@ -52,6 +54,8 @@
 | IsShowGridManList | int | 否 | 是否显示网格员 |
 | IsShowHouseMasterPerson | int | 否 | 是否显示户主 |
 | ~~IsShowRoomList~~ | ~~int~~ | ~~否~~ | ~~是否显示房间列表~~ |
+| IsShowRoomCount | int | 否 | 是否显示房间数量 |
+| IsShowRoomPurposeStatistics | int | 否 | 是否显示房间用途数量统计 |
 
 
 

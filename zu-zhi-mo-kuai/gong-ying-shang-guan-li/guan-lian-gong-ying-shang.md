@@ -12,6 +12,8 @@ _**【应用场景】**_
 
 2、判断该供应商组织是否是合法的商家（已审核+已缴费）
 
+3、RelationStatus=1时，把关系删除；
+
 _**【接口地址】**_
 
 [http://ip:port/OrganizationAction/Supplier/SetS](http://ip:port/OrganizationAction/Customer/AddCustomer)upplierRelation
@@ -22,6 +24,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | OrganizationFromSysNo | int | 是 | 组织系统编码 |
 | OrganizationToSysNo | int | 是 | 供应商方组织系统编码 |
+| RelationStatus | int | 否 | 是否删除：0否，1是 |
 
 #### _应答数据 _ {#应答数据-}
 

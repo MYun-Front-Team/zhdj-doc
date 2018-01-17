@@ -8,6 +8,12 @@ _**【应用场景】**_
 
 新增房间
 
+注：1、根据手机号判断人和居民是否需要维护；
+
+2、关系有：房屋与房间，房间与租户；
+
+（图片都在Person实体中，见基础模块-获取人员详情）
+
 _**【接口地址】**_
 
 [http://ip:port/ResidentAction/Room/A](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)ddRoom
@@ -37,7 +43,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| Person | object | 是 | 人员 |
+| Resident | object | 是 | 居民实体 |
 | IsTenant | int | 是 | 是否租户 |
 | IsLive | int | 是 | 是否居住在该房间 |
 
