@@ -19,7 +19,7 @@
 | FatherDataRange | array object | 否 | 上级数据范围列表 |
 | HousePathList | array string | 否 | 房屋图片路径列表 |
 | HouseUrlList | array string | 否 | 房屋图片Url列表 |
-| RoomList | array object | 否 | 房间列表 |
+| ~~RoomList~~ | ~~array object~~ | ~~否~~ | ~~房间列表~~ |
 
 > #### 统计计算字段 {#请求数据}
 
@@ -51,7 +51,7 @@
 | IsShowGrid | int | 否 | 是否显示网格 |
 | IsShowGridManList | int | 否 | 是否显示网格员 |
 | IsShowHouseMasterPerson | int | 否 | 是否显示户主 |
-| IsShowRoomList | int | 否 | 是否显示房间列表 |
+| ~~IsShowRoomList~~ | ~~int~~ | ~~否~~ | ~~是否显示房间列表~~ |
 
 
 

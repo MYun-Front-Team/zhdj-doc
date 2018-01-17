@@ -52,6 +52,8 @@ _**【接口地址】**_
 | Propertys | array object | 否 | 人员属性列表（见通用属性说明） |
 | PrivacyPropertys | array object | 否 | 隐私属性列表 |
 | LoginIDStatus | int | 否 | 账号类型：0正常，1无账号，2未激活 |
+| PersonIDCardUrlList | array string | 否 | 身份证图片列表 |
+| ResidencePermitUrlList | array string | 否 | 居住证图片列表 |
 
 
 

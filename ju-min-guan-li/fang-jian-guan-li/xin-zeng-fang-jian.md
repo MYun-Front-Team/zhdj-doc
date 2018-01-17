@@ -1,10 +1,21 @@
-# 房间管理-字段说明 {#新增河流}
+# 新增房间 {#获取河长巡河记录}
 
-> #### 基础字段 {#请求数据}
+##### _【功能说明】_ {#【功能说明】}
+
+新增房间
+
+_**【应用场景】**_
+
+新增房间
+
+_**【接口地址】**_
+
+[http://ip:port/ResidentAction/Room/A](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)ddRoom
+
+> #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| RoomSysNo | int | 是 | 系统编码 |
 | HouseSysNo | int | 是 | 房屋系统编码 |
 | RoomNo | string | 否 | 房间编号 |
 | RoomName | string | 是 | 房间名称 |
@@ -16,31 +27,19 @@
 | Propertys | array object | 否 | 房间属性列表 |
 | TenantList | array object | 否 | 租户列表 |
 
-> #### 统计计算字段 {#请求数据}
+> #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| TenantCount | int | 否 | 租户数量 |
+| RoomSysNo | int | 是 | 系统编码 |
 
-> #### 功能按钮字段 {#请求数据}
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-
-
-#### 查询条件字段 {#请求数据}
+#### Tenant说明_ _ {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| HouseSysNo | int | 否 | 房屋系统编码 |
-
-> #### 查询Limit字段 {#请求数据}
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| IsShowPropertys | int | 否 | 是否显示房间属性列表 |
-| IsShowTenantList | int | 否 | 是否显示租户列表 |
-| IsShowTenantCount | int | 否 | 是否显示租户数量 |
+| Person | object | 是 | 人员 |
+| IsTenant | int | 是 | 是否租户 |
+| IsLive | int | 是 | 是否居住在该房间 |
 
 
 
