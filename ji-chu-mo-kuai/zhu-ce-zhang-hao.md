@@ -32,7 +32,7 @@ _**【接口地址】**_
 | LoginID | string | 是 | 用户名 |
 | LoginPwd | string | 否 | 密码（微信等方式登录可为空） |
 | IsEnable | int | 否 | 是否启用 |
-| IsNewPerson | int | 否 | 是否新的人员 |
+| IsNewPerson | int | 否 | 是否新的人员（禁用） |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
