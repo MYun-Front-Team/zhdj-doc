@@ -346,6 +346,7 @@
     * [新增摊位](dian-pu-mo-kuai/tan-wei-guan-li/xin-zeng-tan-wei.md)
     * [修改摊位](dian-pu-mo-kuai/tan-wei-guan-li/xiu-gai-tan-wei.md)
     * [删除摊位](dian-pu-mo-kuai/tan-wei-guan-li/shan-chu-tan-wei.md)
+    * [获取商家租用摊位列表](dian-pu-mo-kuai/tan-wei-guan-li/huo-qu-shang-jia-zu-yong-tan-wei-lie-biao.md)
 * [仓库库存模块](cang-ku-ku-cun-mo-kuai.md)
   * [获取仓库库位树](huo-qu-cang-ku-ku-wei-shu.md)
   * [入库](ru-ku.md)
