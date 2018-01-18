@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 新增工单
 
+注：Module四要素可使工单成为其它模块的插件（模块关联关系表）。
+
 _**【接口地址】**_
 
 [http://ip:port/WorkAction/](http://ip:port/HMAction/River/AddRiver)Work/AddWork
@@ -33,6 +35,8 @@ _**【接口地址】**_
 | Remark | string | 否（可选配置） | 备注 |
 | FilePathList | array string | 否（可选配置） | 文件或图片Path列表（第一张为首图） |
 | TagSysNoList | array int | 否（可选配置） | 标签列表 |
+| Propertys | array object | 否（可选配置） | 属性列表 |
+| ModuleRelationList | object | 否 | 管理模块列表（见活动模块） |
 
 #### _应答数据_ {#应答数据-}
 

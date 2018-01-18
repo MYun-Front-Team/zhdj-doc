@@ -28,6 +28,7 @@
 | TagList | array object | 否 | 标签列表（见通用-标签） |
 | CommentList | array object | 否 | 评价列表（见通用-评价） |
 | ReplyList | array object | 否 | 回复列表 |
+| Propertys | array object | 否 | 属性列表 |
 
 > #### Reply说明 {#请求数据}
 
@@ -77,6 +78,7 @@
 | IsShowTagList | int | 否 | 是否显示标签列表 |
 | IsShowCommentList | int | 否 | 是否显示评论列表 |
 | IsShowReplyList | int | 否 | 是否显示回复列表 |
+| IsShowPropertys | int | 否 | 是否显示属性列表 |
 
 ####  {#应答数据-（巡河记录数组）}
 

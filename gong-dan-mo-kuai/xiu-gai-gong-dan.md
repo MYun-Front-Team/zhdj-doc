@@ -28,6 +28,7 @@ _**【接口地址】**_
 | Remark | string | 否 | 备注 |
 | FilePathList | array string | 否 | 文件或图片Path列表（第一张为首图） |
 | TagSysNoList | array int | 否 | 标签列表 |
+| Propertys | array object | 否 | 属性列表 |
 
 #### _应答数据_ {#应答数据-}
 
