@@ -16,7 +16,7 @@
 | BoothDepositFee | decimal（18，2） | 否 | 摊位默认押金（元） |
 | BoothRentFee | decimal（18，2） | 否 | 摊位默认租金（元/月） |
 | BoothRentRemark | string | 否 | 摊位租用备注 |
-| SellerRent | object | 否 | 当前商家租用信息 |
+| SellerRent | object | 否 | 当前商家租用信息（见租用列表说明） |
 
 > #### 统计计算字段 {#请求数据}
 

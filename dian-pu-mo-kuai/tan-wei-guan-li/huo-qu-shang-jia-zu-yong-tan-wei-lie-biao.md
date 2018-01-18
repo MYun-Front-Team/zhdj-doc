@@ -26,5 +26,17 @@ _**【接口地址】**_
 | BoothBase | object | 是 | 基础字段 |
 | BoothStatistic | object | 否 | 统计字段 |
 
+#### SellerRent说明 {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| Seller | object | 是 | 商家实体 |
+| ShopRentFee | decimal（18，2） | 是 | 店铺实际租金（元/月） |
+| ShopDepositFee | decimal（18，2） | 是 | 店铺实际押金 |
+| RentStartDate | string | 是 | 租用开始日期 |
+| RentEndDate | string | 是 | 租用结束日期 |
+| RentStatus | int | 是 | 租用状态：10租用，11解除 |
+| Remark | string | 否 | 备注 |
+
 
 
