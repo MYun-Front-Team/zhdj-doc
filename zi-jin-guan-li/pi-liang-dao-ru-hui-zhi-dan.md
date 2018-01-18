@@ -20,7 +20,7 @@ _**【接口地址】**_
 
 [http://ip:port/WalletAction/DailyBill/Import](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)DailyBillReceipt
 
-> #### _请求数据_ {#请求数据}
+> #### _请求数据（DailyBillReceipts数组）_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
