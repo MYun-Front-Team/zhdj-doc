@@ -20,6 +20,7 @@
 | HousePathList | array string | 否 | 房屋图片路径列表 |
 | HouseUrlList | array string | 否 | 房屋图片Url列表 |
 | ~~RoomList~~ | ~~array object~~ | ~~否~~ | ~~房间列表~~ |
+| PatrolHouseList | array object | 否 | 巡查记录列表 |
 
 > #### 统计计算字段 {#请求数据}
 
@@ -58,6 +59,7 @@
 | IsShowRoomCount | int | 否 | 是否显示房间数量 |
 | IsShowRoomPurposeStatistics | int | 否 | 是否显示房间用途数量统计 |
 | IsShowPatrolCompareLogList | int | 否 | 是否显示对照类型日志列表 |
+| IsShowPatrolHouseList | int | 否 | 显示最近巡查记录条数 |
 
 
 
