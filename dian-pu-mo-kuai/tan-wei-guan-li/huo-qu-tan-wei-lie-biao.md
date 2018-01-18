@@ -1,16 +1,16 @@
-# 获取设备列表 {#获取河长巡河记录}
+# 获取摊位列表 {#获取河长巡河记录}
 
 ##### _【功能说明】_ {#【功能说明】}
 
-获取设备列表
+获取摊位列表
 
 _**【应用场景】**_
 
-获取设备列表
+获取摊位列表
 
 _**【接口地址】**_
 
-[http://ip:port/ShopQuery/Device/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)DeviceList
+[http://ip:port/ShopQuery/Booth/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)BoothList
 
 > #### _请求数据_ {#请求数据}
 
@@ -23,8 +23,8 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| DeviceBase | object | 是 | 基础字段 |
-| DeviceStatistic | object | 否 | 统计字段 |
+| BoothBase | object | 是 | 基础字段 |
+| BoothStatistic | object | 否 | 统计字段 |
 
 
 
