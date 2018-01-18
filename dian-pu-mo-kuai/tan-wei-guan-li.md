@@ -16,6 +16,7 @@
 | BoothDepositFee | decimal（18，2） | 否 | 摊位默认押金（元） |
 | BoothRentFee | decimal（18，2） | 否 | 摊位默认租金（元/月） |
 | BoothRentRemark | string | 否 | 摊位租用备注 |
+| SellerRent | object | 否 | 当前商家租用信息 |
 
 > #### 统计计算字段 {#请求数据}
 
@@ -45,6 +46,7 @@
 | :--- | :--- | :--- | :--- |
 | IsShowDeviceCount | int | 否 | 是否显示设备数量 |
 | IsShowSellerCount | int | 否 | 是否显示商家数量 |
+| IsShowSellerRent | int | 否 | 是否显示当前商家租用信息 |
 
 ####  {#应答数据-（巡河记录数组）}
 
