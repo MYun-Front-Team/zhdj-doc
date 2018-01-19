@@ -69,6 +69,7 @@
 | WorkStartTime | string | 否 | 开始时间 |
 | WorkEndTime | string | 否 | 结束时间 |
 | WorkStatusList | array int | 否 | 状态：0待处理，10已处理 |
+| ModuleRelation | object | 否 | 关联模块 |
 
 > #### 查询Limit字段 {#请求数据}
 
