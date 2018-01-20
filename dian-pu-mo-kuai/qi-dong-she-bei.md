@@ -26,7 +26,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 是 | 组织系统编码 |
 | DataRangeSysNo | int | 否 | 数据范围树结点（店铺树） |
-| ShopSysNo | int | 否 | 店铺系统编码 |
+| ShopSysNo | int | 否 | 店铺系统编码（当DeviceSysNo=0时必填） |
 | DeviceSysNo | int | 是 | 设备系统编码 |
 | OpenStatus | int | 是 | 开店状态：10开，11关 |
 
