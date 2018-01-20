@@ -38,7 +38,8 @@
 | OrganizationSysNo | int | 否 | 所有者组织系统编码 |
 | CategorySysNoList | array int | 否 | 主营类目主键 |
 | KeyWord | string | 否 | 关键字搜索（名称/编号） |
-| BoothStatusList | array int | 否 | 状态：0闲置，10使用 |
+| BoothStatusList | array int | 否 | 使用状态：0闲置，10使用 |
+| RentStatusList | array int | 否 | 租用状态：10租用，11解除 |
 
 > #### 查询Limit字段 {#请求数据}
 
