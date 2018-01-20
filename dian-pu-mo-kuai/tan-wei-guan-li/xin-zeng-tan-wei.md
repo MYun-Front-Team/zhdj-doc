@@ -19,8 +19,8 @@ _**【接口地址】**_
 | OrganizationSysNo | int | 是 | 所有者组织系统编码 |
 | CategorySysNo | int | 是 | 主营类目主键 |
 | BoothName | string | 是 | 摊位名称 |
-| BoothNo | string | 否 | 摊位编号 |
-| BoothArea | decimal（18，2） | 是 | 摊位面积（平方） |
+| BoothNo | string | 是 | 摊位编号 |
+| BoothArea | decimal（18，2） | 否 | 摊位面积（平方） |
 | BoothPropertyFee | decimal（18，2） | 否 | 摊位物业费（元/年） |
 | BoothDepositFee | decimal（18，2） | 否 | 摊位默认押金（元） |
 | BoothRentFee | decimal（18，2） | 否 | 摊位默认租金（元/月） |
