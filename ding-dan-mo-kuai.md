@@ -47,6 +47,7 @@
 | FromShop | object | 否 | 卖家店铺实体（简版） |
 | ToOrganization | object | 否 | 买家组织实体（简版） |
 | ToPerson | object | 否 | 买家人员实体（简版） |
+| ToCustomer | object | 否 | 买家客户实体（简版） |
 
 > #### OrderAmount说明 {#请求数据}
 
@@ -178,6 +179,7 @@
 | IsShowToPerson | int | 否 | 是否显示买家人员 |
 | IsShowOrderTimeList | int | 否 | 是否显示订单时间列表 |
 | IsShowDeliveriedQuantity | int | 否 | 是否显示已发数量 |
+| IsShowToCustomer | int | 否 | 是否显示买家客户 |
 
 #### 模块页面编号枚举说明 {#请求数据}
 
