@@ -31,6 +31,7 @@ _**【接口地址】**_
 | BizCompanyCode | int | 是 | 项目标识符（枚举） |
 | RegisterMsg | object | 否 | 注册信息实体 |
 | Captcha | string | 否 | 验证码（短信登录时必填） |
+| SaasKey | string | 否 | SaasKey值（多公众号项目有效） |
 
 > #### RegisterMsg {#应答数据-（巡河记录数组）}
 
