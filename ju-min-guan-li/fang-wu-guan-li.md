@@ -28,6 +28,7 @@
 | :--- | :--- | :--- | :--- |
 | RoomCount | int | 否 | 房间数量 |
 | RoomPurposeStatistics | array object | 否 | 房间用途数量统计 |
+| UnFinishedWorkCount | int | 否 | 待处理工单数量 |
 
 > #### RoomPurposeStatistics说明 {#请求数据}
 
@@ -43,6 +44,7 @@
 | DataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表 |
 | HouseSysNo | int | 否 | 房屋系统编码 |
 | GridSysNo | int | 否 | 网格系统编码 |
+| GridManSysNo | int | 否 | 网格员系统编码 |
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 | KeyWord | string | 否 | 关键字搜索（名称） |
 
