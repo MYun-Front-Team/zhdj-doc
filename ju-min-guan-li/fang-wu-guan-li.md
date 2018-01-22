@@ -62,6 +62,7 @@
 | IsShowRoomPurposeStatistics | int | 否 | 是否显示房间用途数量统计 |
 | IsShowPatrolCompareLogList | int | 否 | 是否显示对照类型日志列表 |
 | IsShowPatrolHouseList | int | 否 | 显示最近巡查记录条数 |
+| IsShowUnFinishedWorkCount | int | 否 | 是否显示待处理工单数 |
 
 
 
