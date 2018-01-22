@@ -420,6 +420,7 @@
     * [删除房屋](ju-min-guan-li/fang-wu-guan-li/shan-chu-fang-wu.md)
     * [设置巡房状态](ju-min-guan-li/fang-wu-guan-li/huo-qu-fang-wu-wen-ti-lie-biao.md)
     * [获取巡房记录列表](ju-min-guan-li/fang-wu-guan-li/huo-qu-xun-fang-ji-lu-lie-biao.md)
+    * [获取巡房记录详情](ju-min-guan-li/fang-wu-guan-li/huo-qu-xun-fang-ji-lu-xiang-qing.md)
   * [房间管理](ju-min-guan-li/fang-jian-guan-li.md)
     * [获取房间列表](ju-min-guan-li/fang-jian-guan-li/huo-qu-fang-jian-lie-biao.md)
     * [获取房间详情](ju-min-guan-li/fang-jian-guan-li/huo-qu-fang-jian-xiang-qing.md)
