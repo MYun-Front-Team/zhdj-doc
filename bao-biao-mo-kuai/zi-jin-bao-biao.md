@@ -39,6 +39,7 @@
 | BuyerID | string | 否 | 买家支付ID |
 | Amount | decimal\(18,2\) | 是 | 支付金额 |
 | PayTime | string | 是 | 支付时间 |
+| OrderSysNo | int | 是 | 订单系统编码 |
 
 #### _应答数据 （PageResponseBase）【26000101】_ {#应答数据-（巡河记录数组）}
 
