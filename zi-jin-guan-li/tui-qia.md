@@ -12,6 +12,8 @@ _**【应用场景】**_
 
 2、设置卡状态=0，并删除与组织关系；
 
+3、验证手机号与开卡时的手机号一致；
+
 _**【接口地址】**_
 
 [http://ip:port/WalletAction/MemberCard/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)MoveMemberCard
