@@ -21,6 +21,8 @@
 | HouseUrlList | array string | 否 | 房屋图片Url列表 |
 | ~~RoomList~~ | ~~array object~~ | ~~否~~ | ~~房间列表~~ |
 | PatrolHouseList | array object | 否 | 巡查记录列表 |
+| TwoRoundElectrombile | int | 否 | 二轮电动车 |
+| ThreeRoundElectrombile | int | 否 | 三轮电动车 |
 
 > #### 统计计算字段 {#请求数据}
 
@@ -29,6 +31,7 @@
 | RoomCount | int | 否 | 房间数量 |
 | RoomPurposeStatistics | array object | 否 | 房间用途数量统计 |
 | UnFinishedWorkCount | int | 否 | 待处理工单数量 |
+| ElectrombileCount | int | 否 | 电动车总数 |
 
 > #### RoomPurposeStatistics说明 {#请求数据}
 

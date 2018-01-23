@@ -29,6 +29,8 @@ _**【接口地址】**_
 | HouseFloorNum | int | 否 | 房屋楼层数 |
 | HouseMemberNum | int | 否 | 家庭成员人数 |
 | HousePathList | array string | 否 | 房屋图片路径列表 |
+| TwoRoundElectrombile | int | 否 | 二轮电动车 |
+| ThreeRoundElectrombile | int | 否 | 三轮电动车 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
