@@ -14,6 +14,8 @@ _**【应用场景】**_
 
 3、验证手机号与开卡时的手机号一致；
 
+4、无手机号的情况下，是退非会员卡，不允许退金额；
+
 _**【接口地址】**_
 
 [http://ip:port/WalletAction/MemberCard/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)MoveMemberCard
@@ -24,7 +26,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | CardNo | string | 是 | 卡号 |
 | IsReturnAmount | int | 是 | 是否退款：0否，1是 |
-| CellPhoneNo | string | 是 | 手机号 |
+| CellPhoneNo | string | 否 | 手机号 |
 | ~~CaptchaType~~ | ~~int~~ | ~~是~~ | ~~验证码类型：6验证手机号~~ |
 | ~~Captcha~~ | ~~string~~ | ~~是~~ | ~~验证码~~ |
 
