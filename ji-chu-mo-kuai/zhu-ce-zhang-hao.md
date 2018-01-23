@@ -16,6 +16,8 @@ _**【应用场景】**_
 
 场景3：PersonSysNo=0 and IsNewPerson = 1 创建新人；
 
+场景4：OrganizationSysNo&gt;0把该账号的人员关联到该组织；
+
 _**【接口地址】**_
 
 [http://ip:port/BasicAction/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Basic](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)AddLoginIn
@@ -33,6 +35,7 @@ _**【接口地址】**_
 | LoginPwd | string | 否 | 密码（微信等方式登录可为空） |
 | IsEnable | int | 否 | 是否启用 |
 | IsNewPerson | int | 否 | 是否新的人员（禁用） |
+| OrganizationSysNo | int | 否 | 注册账号到指定的组织 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
