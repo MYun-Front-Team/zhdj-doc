@@ -22,6 +22,9 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | CardNo | string | 是 | 卡号 |
 | IsReturnAmount | int | 是 | 是否退款：0否，1是 |
+| CellPhoneNo | string | 是 | 手机号 |
+| CaptchaType | int | 是 | 验证码类型：6验证手机号 |
+| Captcha | string | 是 | 验证码 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
