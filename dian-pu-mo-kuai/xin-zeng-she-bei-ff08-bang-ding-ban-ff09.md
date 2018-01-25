@@ -12,6 +12,8 @@ _**【应用场景】**_
 
 注：根据摊位编号找到摊位系统编码，如果摊位与设备已经绑定则直接返回结果；
 
+注：一个摊位绑定的设备数据是无效数据，因为每次都是重新绑定，不会删除；
+
 _**【接口地址】**_
 
 [http://ip:port/ShopAction/Device/AddD](http://ip:port/OrganizationAction/Customer/AddCustomer)eviceWithBanding
