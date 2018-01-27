@@ -22,6 +22,8 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | CardNo | string | 是 | 卡号 |
 | CardAmount | decimal（18，2） | 是 | 金额 |
+| GiveAmount | decimal（18，2） | 否 | 赠送金额 |
+| Remark | string | 否 | 备注 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 

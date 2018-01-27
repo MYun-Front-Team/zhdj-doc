@@ -31,6 +31,8 @@ _**【接口地址】**_
 | IDCard | string | 否 | 身份证 |
 | CardAmount | decimal（18，2） | 是 | 开卡金额 |
 | IsActivity | int | 否 | 是否激活：0否，1是 |
+| GiveAmount | decimal（18，2） | 否 | 赠送金额 |
+| Remark | string | 否 | 备注 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
