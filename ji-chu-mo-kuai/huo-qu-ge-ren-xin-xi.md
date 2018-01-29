@@ -25,6 +25,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | IsShowPropertys | int | 否 | 是否显示人员属性列表 |
 | IsShowPrivacyPropertys | int | 否 | 是否显示隐私属性列表 |
+| IsShowTagList | int | 否 | 是否显示标签列表 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
@@ -54,6 +55,7 @@ _**【接口地址】**_
 | LoginIDStatus | int | 否 | 账号类型：0正常，1无账号，2未激活 |
 | PersonIDCardUrlList | array string | 否 | 身份证图片列表 |
 | ResidencePermitUrlList | array string | 否 | 居住证图片列表 |
+| TagList | array object | 否 | 标签列表 |
 
 
 
