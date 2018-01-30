@@ -18,6 +18,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | GridManSysNo | int | 是 | 网格员系统编码 |
 | GridSysNoList | array int | 是 | 网格系统编码列表 |
+| TagSysNoList | array int | 否 | 标签系统编码列表 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 

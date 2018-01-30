@@ -7,6 +7,7 @@
 | GridManSysNo | int | 是 | 系统编码 |
 | GridManPerson | object | 是 | 人员（简版） |
 | GridList | array object | 否 | 网格列表（简） |
+| TagList | array object | 否 | 标签列表 |
 
 > #### 统计计算字段 {#请求数据}
 
@@ -36,6 +37,7 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | IsShowGridList | int | 否 | 是否显示网格列表 |
+| IsShowTagList | int | 否 | 是否显示标签列表 |
 
 
 
