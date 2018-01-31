@@ -18,11 +18,7 @@ _**【应用场景】**_
 
 3、刷卡支付时，CardNo和CardKey必填，需验证卡的秘密正确后，找到卡所属组织，然后进行钱包支付；
 
-4、充值功能：直充钱包ModuleSysNo=26000，ModuleSourceType=26001，ModuleSourceSysNo=钱包编码
-
-直充会员卡ModuleSysNo=26000，ModuleSourceType=26002，ModuleSourceSysNo=0 ，卡号必填
-
-PaymentAmount必须大于0，当UnderlinePayAmount&gt;0时表示额外赠送的金额（加入钱包，不需要在线支付）
+4、充值功能：直充钱包ModuleSysNo=26000，ModuleSourceType=26001，ModuleSourceClass=1，ModuleSourceSysNo=充值系统编码
 
 _**【接口地址】**_
 
@@ -36,14 +32,13 @@ _**【接口地址】**_
 | ModuleSourceType | int | 是 | 模块来源类型 |
 | ModuleSourceClass | int | 是 | 模块来源分类 |
 | ModuleSourceSysNo | int | 是 | 模块来源系统编码 |
-| ~~OrderSysNo~~ | ~~int~~ | ~~否~~ | ~~订单系统编码~~ |
 | PaymentSysNo | int | 否 | 支付方式系统编码 |
 | IsNeedBalance | int | 否 | 是否需要先扣余额：0否，1是 |
 | OpenID | string | 否 | 微信OPENID |
 | CardNo | string | 否 | 卡号 |
 | CardKey | string | 否 | 卡密码 |
-| UnderlinePayAmount | decimal\(18,2\) | 否 | 线下支付金额（赠送） |
-| PaymentAmount | decimal\(18,2\) | 否 | 充值金额（充值钱包时必填） |
+| UnderlinePayAmount | decimal\(18,2\) | 否 | 线下支付金额 |
+| ~~PaymentAmount~~ | ~~decimal\(18,2\)~~ | ~~否~~ | ~~充值金额（充值钱包时必填）~~ |
 
 > #### 应答_数据_ {#请求数据}
 

@@ -40,6 +40,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | CardSysNo | int | 是 | 系统编码 |
 | User | int | 否 | 账户 |
+| RechargeSysNo | int | 否 | 充值系统编码 |
 
 
 
