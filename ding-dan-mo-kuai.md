@@ -154,6 +154,7 @@
 | PaymentTypeList | array int | 否 | 支付方式 |
 | OrderStartTime | string | 否 | 开始时间（订单创建时间） |
 | OrderEndTime | string | 否 | 结束时间（订单创建时间） |
+| CardNo | string | 否 | 会员卡号 |
 
 > #### 查询Limit字段 {#请求数据}
 
