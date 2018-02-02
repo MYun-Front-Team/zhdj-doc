@@ -11,6 +11,7 @@
 | GridMaster | string | 否 | 负责人 |
 | GridManList | array object | 否 | 网格员列表 |
 | FatherDataRange | array object | 否 | 上级数据范围列表 |
+| GridMasterTel | string | 否 | 负责人电话 |
 
 > #### 统计计算字段 {#请求数据}
 

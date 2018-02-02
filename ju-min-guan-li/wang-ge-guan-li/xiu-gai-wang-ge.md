@@ -21,6 +21,7 @@ _**【接口地址】**_
 | GridName | string | 否 | 网格名称 |
 | GridRange | string | 否 | 网格范围 |
 | GridMaster | string | 否 | 负责人 |
+| GridMasterTel | string | 否 | 负责人电话 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 

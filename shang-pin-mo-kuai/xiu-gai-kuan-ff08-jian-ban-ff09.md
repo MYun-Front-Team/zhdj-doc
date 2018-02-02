@@ -18,8 +18,10 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | EditProductGroup | object | 是 | 修改款实体（见“修改款”） |
 | SetProductImgList | object | 否 | 修改款图片（见“设置商品图片”） |
-| ProductPrice | decimal\(18,2\) | 否 | 价格 |
+| ProductPrice | decimal\(18,2\) | 否 | 销售价格 |
 | OnSaleStatus | int | 否 | 上下状态:0待上架 1上架 2下架 3部分上架 4停售 |
+| ProductOriginalPrice | decimal\(18,2\) | 否 | 原始价格 |
+| TagSysNoList | array int | 否 | 标签系统编码列表 |
 
 #### _应答数据 _ {#应答数据-}
 

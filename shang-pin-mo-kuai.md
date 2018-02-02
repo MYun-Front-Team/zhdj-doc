@@ -105,6 +105,8 @@
 | ProductGroupClassSysNoList | array int | 否 | 类型分类系统编码（类别树） |
 | OnSaleStatusList | array int | 否 | 上下状态:0待上架 1上架 2下架 3部分上架 4停售 |
 | TouristOrganizationSysNo | int | 否 | 游客组织系统编码（传0即为游客） |
+| TagSysNoLIst | array int | 否 | 标签系统编码列表 |
+| IsTagProduct | int | 否 | 是否显示含有标签的商品 |
 
 > #### 查询Limit字段 {#请求数据}
 
