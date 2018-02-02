@@ -45,6 +45,7 @@ _**【接口地址】**_
 | GiveAmount | decimal（18，2） | 否 | 其中赠送金额 |
 | PaymentType | int | 否 | 支付方式 |
 | Remark | string | 否 | 备注 |
+| CardType | int | 否 | 会员卡类型 |
 
 #### MemberCardStatistic说明 {#应答数据-（巡河记录数组）}
 
