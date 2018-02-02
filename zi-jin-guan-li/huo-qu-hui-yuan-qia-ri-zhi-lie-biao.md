@@ -42,6 +42,9 @@ _**【接口地址】**_
 | CardStatus | int | 否 | 日志类型：1开卡，2挂失，3退卡，4充值 |
 | Person | object | 是 | 操作人 |
 | CreateTime | string | 是 | 操作时间 |
+| GiveAmount | decimal（18，2） | 否 | 其中赠送金额 |
+| PaymentType | int | 否 | 支付方式 |
+| Remark | string | 否 | 备注 |
 
 #### MemberCardStatistic说明 {#应答数据-（巡河记录数组）}
 
