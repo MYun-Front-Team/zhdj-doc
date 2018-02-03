@@ -17,6 +17,8 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ModuleSysNo | int | 是 | 模块编码 |
+| ModuleSourceType | int | 是 | 模块类型（枚举） |
+| ModuleSourceClass | int | 否 | 模块分类 |
 | ModuleSourceSysNo | int | 是 | 模块系统编码 |
 | WorkStatusList | array int | 否 | 工单状态 |
 
