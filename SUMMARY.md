@@ -147,6 +147,7 @@
   * [获取评论列表](tong-yong-mo-kuai/huo-qu-ping-lun-lie-biao.md)
     * [新增评论](tong-yong-mo-kuai/huo-qu-ping-lun-lie-biao/xin-zeng-ping-lun.md)
     * [设置评论状态](tong-yong-mo-kuai/huo-qu-ping-lun-lie-biao/she-zhi-ping-lun-zhuang-tai.md)
+    * [批量回复评论](tong-yong-mo-kuai/huo-qu-ping-lun-lie-biao/pi-liang-hui-fu-ping-lun.md)
   * [获取对照类型日志列表](tong-yong-mo-kuai/huo-qu-dui-zhao-lei-xing-ri-zhi-lie-biao.md)
 * [积分模块](ji-fen-mo-kuai.md)
   * [根据模块，获取积分配置列表](ji-fen-mo-kuai/gen-ju-mo-kuai-ff0c-huo-qu-ji-fen-pei-zhi-lie-biao.md)
