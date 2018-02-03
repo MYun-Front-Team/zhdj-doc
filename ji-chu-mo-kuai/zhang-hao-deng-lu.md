@@ -70,6 +70,7 @@ _**【接口地址】**_
 | ~~Post~~ | ~~string~~ | ~~否~~ | ~~工作岗位~~ |
 | FileUrlList | array string | 否 | 头像图片列表 |
 | PersonIDPhotoUrlList | array string | 否 | 证件照图片列表 |
+| IsSetPayPassword | int | 否 | 是否已设置支付密码 |
 
 #### User说明_ _ {#应答数据-（巡河记录数组）}
 

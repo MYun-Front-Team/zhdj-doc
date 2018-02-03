@@ -460,6 +460,7 @@
     * [退卡](zi-jin-guan-li/tui-qia.md)
     * [获取会员卡日志列表](zi-jin-guan-li/huo-qu-hui-yuan-qia-ri-zhi-lie-biao.md)
   * [获取钱包充值详情](zi-jin-guan-li/huo-qu-qian-bao-chong-zhi-xiang-qing.md)
+  * [设置支付密码](zi-jin-guan-li/she-zhi-zhi-fu-mi-ma.md)
 * [报表模块](bao-biao-mo-kuai.md)
   * [获取报表数据](bao-biao-mo-kuai/huo-qu-bao-biao-shu-ju.md)
   * [获取报表模板](bao-biao-mo-kuai/huo-qu-bao-biao-mo-ban.md)
