@@ -14,6 +14,10 @@
 | InComeTotalAmount | decimal（18，2） | 是 | 收入总金额（订单+佣金等） |
 | ReceiveCashTotalAmount | decimal（18，2） | 是 | 提现总金额（已提现+待提现） |
 | AvailableReceiveCashAmount | decimal（18，2） | 是 | 可提现金额=收入总金额-提现总金额 |
+|  |  |  |  |
+| BondFee | decimal（18，2） | 否 | 保证金 |
+| MemberShipFee | decimal（18，2） | 否 | 会员费 |
+| MemberShipEndDate | string | 否 | 会员费到期时间 |
 
 
 
