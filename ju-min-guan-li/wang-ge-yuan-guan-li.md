@@ -13,7 +13,8 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-
+| HouseCount | int | 否 | 房屋总数量 |
+| HouseExCount | int | 否 | 房屋异常数量 |
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -38,6 +39,8 @@
 | :--- | :--- | :--- | :--- |
 | IsShowGridList | int | 否 | 是否显示网格列表 |
 | IsShowTagList | int | 否 | 是否显示标签列表 |
+| IsShowHouseCount | int | 否 | 是否显示房屋总数量 |
+| IsShowHouseExCount | int | 否 | 是否显示房屋异常数量 |
 
 
 
