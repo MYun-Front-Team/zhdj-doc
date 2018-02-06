@@ -19,7 +19,7 @@ _**【接口地址】**_
 | StartTime | string | 否 | 开始时间 |
 | EndTime | string | 否 | 结束时间 |
 | KeyWord | string | 否 | 身份证/手机号/卡号 |
-| CardStatusList | int | 否 | 日志类型：1开卡，2挂失，3退卡，4充值 |
+| CardStatusList | int | 否 | 日志类型：1开卡，2挂失，3退卡，4充值，6实名认证 |
 | IsShowStatistics | int | 否 | 是否显示统计数据 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
