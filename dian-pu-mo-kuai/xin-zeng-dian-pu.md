@@ -50,6 +50,7 @@ _**【接口地址】**_
 | ShopRentRemark | string | 否（可选配置） | 备注 |
 | CategorySysNoList | array int | 否（可选配置） | 主营分类系统编码列表 |
 | BrandSysNo | int | 否（可选配置） | 品牌系统编码 |
+| ShopCommission | decimal（18，4） | 否（可选配置） | 店铺佣金 |
 
 #### _应答数据 _ {#应答数据-}
 

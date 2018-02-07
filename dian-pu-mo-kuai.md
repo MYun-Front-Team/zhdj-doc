@@ -42,6 +42,7 @@
 | IsCertified | int | 否 | 是否认证：0否，1是 |
 | ProductGroupList | array object | 否 | 店铺推荐商品列表 |
 | Brand | object | 否 | 品牌 |
+| ShopCommission | decimal\(18,4\) | 否 | 店铺佣金 |
 
 > #### 统计计算字段 {#请求数据}
 
