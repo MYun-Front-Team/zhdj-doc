@@ -380,6 +380,7 @@
     * [修改视频](dian-pu-mo-kuai/shi-pin-guan-li/xiu-gai-shi-pin.md)
     * [删除视频](dian-pu-mo-kuai/shi-pin-guan-li/shan-chu-shi-pin.md)
     * [设置视频状态](dian-pu-mo-kuai/shi-pin-guan-li/she-zhi-shi-pin-zhuang-tai.md)
+    * [设置视频人员足迹](dian-pu-mo-kuai/shi-pin-guan-li/she-zhi-shi-pin-ren-yuan-zu-ji.md)
 * [仓库库存模块](cang-ku-ku-cun-mo-kuai.md)
   * [获取仓库库位树](huo-qu-cang-ku-ku-wei-shu.md)
   * [入库](ru-ku.md)

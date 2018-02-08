@@ -20,7 +20,8 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | VideoSysNo | int | 是 | 系统编码 |
 | VideoStatus | int | 否 | 状态：10发布，11撤下 |
-| IsEnable | int | 否 | 是否有效：0无效，1有效 |
+| IsShield | int | 否 | 是否屏蔽：0否，1是 |
+| ShieldReason | string | 否 | 屏蔽理由 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
