@@ -372,6 +372,7 @@
     * [删除优惠券](dian-pu-mo-kuai/you-hui-quan-guan-li/shan-chu-you-hui-quan.md)
     * [设置优惠券状态](dian-pu-mo-kuai/you-hui-quan-guan-li/she-zhi-you-hui-quan-zhuang-tai.md)
     * [获取优惠券限制条件](dian-pu-mo-kuai/you-hui-quan-guan-li/huo-qu-you-hui-quan-xian-zhi-tiao-jian.md)
+    * [赠送优惠券](dian-pu-mo-kuai/you-hui-quan-guan-li/zeng-song-you-hui-quan.md)
 * [仓库库存模块](cang-ku-ku-cun-mo-kuai.md)
   * [获取仓库库位树](huo-qu-cang-ku-ku-wei-shu.md)
   * [入库](ru-ku.md)

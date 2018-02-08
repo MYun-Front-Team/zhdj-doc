@@ -34,8 +34,8 @@
 | Organization | object | 否 | 组织 |
 | Shop | object | 否 | 店铺 |
 | Seller | object | 否 | 商家 |
-| ~~CategorySysNoList~~ | ~~array int~~ | ~~否~~ | ~~商品分类系统编码列表~~ |
-| ~~CustomerLevelSysNoList~~ | ~~array int~~ | ~~否~~ | ~~客户等级系统编码列表~~ |
+| CouponPathList | array string | 否 | 优惠券图片path路径 |
+| CouponUrlList | array string | 否 | 优惠券图片url路径 |
 
 > #### 统计计算字段 {#请求数据}
 
@@ -44,6 +44,7 @@
 | IsOverDue | int | 是 | 是否过期：0否，1是 |
 | SendedCount | int | 否 | 已发数量 |
 | UsedCount | int | 否 | 已使用数量 |
+| IsReceived | int | 否 | 是否已领取：0否，1是 |
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -62,6 +63,9 @@
 | KeyWord | string | 否 | 关键字搜索（名称） |
 | CouponStatusList | array int | 否 | 状态：0新建,10发布,11撤下 |
 | CouponCode | string | 否 | 优惠券代码 |
+| CategorySysNoList | array int | 否 | 商品分类系统编码列表 |
+| IsMyFootPrint | int | 否 | 是否显示自己的：0否，1是（不传查全部，传值需通过UserSysNo匹配Person） |
+| MyFootStatus | int | 否 | 自己的使用状态：0未使用，1已使用，2已过期 |
 
 > #### 查询Limit字段 {#请求数据}
 
@@ -72,6 +76,8 @@
 | IsShowSeller | int | 否 | 是否显示商家 |
 | IsShowSendedCount | int | 否 | 是否显示已发数量 |
 | IsShowUsedCount | int | 否 | 是否显示已使用数量 |
+| IsShowCouponUrlList | int | 否 | 是否显示图片列表 |
+| IsShowIsReceived | int | 否 | 是否显示操作人的领取状态 |
 
 ####  {#应答数据-（巡河记录数组）}
 
