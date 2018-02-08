@@ -60,6 +60,7 @@
 | OrganizationSysNo | int | 否 | 所有者组织系统编码 |
 | ShopSysNo | int | 否 | 店铺系统编码 |
 | CouponTypeList | array int | 否 | 类型，1001-免邮，1002-全场通用，1003-限定商品，1004-满件券 |
+| IsShareToPublic | int | 否 | 是否分享：0否，1是 |
 | KeyWord | string | 否 | 关键字搜索（名称） |
 | CouponStatusList | array int | 否 | 状态：0新建,10发布,11撤下 |
 | CouponCode | string | 否 | 优惠券代码 |
