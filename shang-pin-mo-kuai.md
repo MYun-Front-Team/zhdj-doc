@@ -47,6 +47,9 @@
 | PriceRuleType | int | 否 | 定价规则：0按款定价，1按规格定价 |
 | Price | object | 否 | 价格实体 |
 | IsCreator | int | 否 | 商品是否属于自己：0否，1是 |
+| ProductServiceType | int | 否 | 服务方式：0物流配送，1到店消费 |
+| IsDisableRMA | int | 否 | 是否禁用退货：0否，1是 |
+| CommissionRate | decimal\(18,4\) | 否 | 佣金比例 |
 
 > #### Price说明 {#请求数据}
 

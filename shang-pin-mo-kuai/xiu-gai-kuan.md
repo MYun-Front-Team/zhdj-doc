@@ -35,6 +35,9 @@ _**【接口地址】**_
 | TagSysNoList | array int | 否 | 标签列表 |
 | BrandSysNoList | array int | 否 | 品牌列表 |
 | SupplierSysNoList | array int | 否 | 供应商列表 |
+| ProductServiceType | int | 否 | 服务方式：0物流配送，1到店消费 |
+| IsDisableRMA | int | 否 | 是否禁用退货：0否，1是 |
+| CommissionRate | decimal（18，4） | 否 | 佣金比例 |
 
 #### _应答数据_ {#应答数据-}
 
