@@ -1,18 +1,18 @@
-# 获取坑位列表 {#获取河长巡河记录}
+# 获取商品推荐列表 {#获取河长巡河记录}
 
 ##### _【功能说明】_ {#【功能说明】}
 
-获取坑位列表
+获取商品推荐列表
 
 _**【应用场景】**_
 
-获取坑位列表
+获取商品推荐列表
 
 注：一旦启用“IsShowHollowTime”，那么商品必须为上架状态；
 
 _**【接口地址】**_
 
-[http://ip:port/ShopQuery/Hollow/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)HollowList
+[http://ip:port/ShopQuery/Recommend/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)RecommendList
 
 > #### _请求数据_ {#请求数据}
 
@@ -25,8 +25,8 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| HollowBase | object | 是 | 基础字段 |
-| HollowStatistic | object | 否 | 统计字段 |
+| RecommendBase | object | 是 | 基础字段 |
+| RecommendStatistic | object | 否 | 统计字段 |
 
 
 
