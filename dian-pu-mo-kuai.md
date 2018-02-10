@@ -43,6 +43,9 @@
 | ProductGroupList | array object | 否 | 店铺推荐商品列表 |
 | Brand | object | 否 | 品牌 |
 | ShopCommission | decimal\(18,4\) | 否 | 店铺佣金 |
+| RmaAddress | string | 否 | 退货地址 |
+| ShopBannerPathList | array string | 否 | 店铺Banner路径列表 |
+| ShopBannerUrlList | array string | 否 | 店铺Banner的URL列表 |
 
 > #### 统计计算字段 {#请求数据}
 
@@ -83,6 +86,7 @@
 | IsShowShopLease | int | 否 | 是否显示店铺最近租用记录 |
 | IsShowProductGroupList | int | 否 | 是否显示推荐商品（值为显示的数量） |
 | IsShowBrand | int | 否 | 是否显示品牌 |
+| IsShowShopBannerUrlList | int | 否 | 是否显示店铺Banner列表 |
 
 ####  {#应答数据-（巡河记录数组）}
 

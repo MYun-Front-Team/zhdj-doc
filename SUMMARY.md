@@ -501,6 +501,8 @@
     * [实名认证](zi-jin-guan-li/shi-ming-ren-zheng.md)
   * [获取钱包充值详情](zi-jin-guan-li/huo-qu-qian-bao-chong-zhi-xiang-qing.md)
   * [设置支付密码](zi-jin-guan-li/she-zhi-zhi-fu-mi-ma.md)
+  * [新增保证金](zi-jin-guan-li/xin-zeng-bao-zheng-jin.md)
+  * [新增会员费](zi-jin-guan-li/xin-zeng-hui-yuan-fei.md)
 * [报表模块](bao-biao-mo-kuai.md)
   * [获取报表数据](bao-biao-mo-kuai/huo-qu-bao-biao-shu-ju.md)
   * [获取报表模板](bao-biao-mo-kuai/huo-qu-bao-biao-mo-ban.md)

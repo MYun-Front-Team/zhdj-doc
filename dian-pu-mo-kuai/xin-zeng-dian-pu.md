@@ -51,6 +51,8 @@ _**【接口地址】**_
 | CategorySysNoList | array int | 否（可选配置） | 主营分类系统编码列表 |
 | BrandSysNo | int | 否（可选配置） | 品牌系统编码 |
 | ShopCommission | decimal（18，4） | 否（可选配置） | 店铺佣金 |
+| RmaAddress | string | 否（可选配置） | 退货地址 |
+| ShopBannerPathList | array string | 否（可选配置） | 店铺Banner图片列表 |
 
 #### _应答数据 _ {#应答数据-}
 
