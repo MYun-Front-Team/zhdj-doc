@@ -18,6 +18,9 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 是 | 组织系统编码 |
 | CustomerLevelName | string | 是 | 客户等级名称 |
+| OwnConsumeAmount | decimal\(18,2\) | 否 | 满足自己消费金额 |
+| InvitingConsumeAmount | decimal\(18,2\) | 否 | 满足邀请消费金额 |
+| ProfitRateList | array decimal\(18,4\) | 否 | 分享比率列表（按排序） |
 
 #### _应答数据 _ {#应答数据-}
 

@@ -29,6 +29,8 @@
 | CommentList | array object | 否 | 评价列表（见通用-评价） |
 | ReplyList | array object | 否 | 回复列表 |
 | Propertys | array object | 否 | 属性列表 |
+|  |  |  |  |
+| House | object | 否 | 房屋（房管家） |
 
 > #### Reply说明 {#请求数据}
 
@@ -71,6 +73,9 @@
 | WorkStatusList | array int | 否 | 状态：0待处理，10已处理 |
 | ModuleRelation | object | 否 | 关联模块 |
 | WorkTypeList | array int | 否 | 工单类型（枚举） |
+|  |  |  |  |
+| GridSysNo | int | 否 | 网格系统编码（房管家） |
+| HouseKeyWord | string | 否 | 房屋关键字（房管家） |
 
 > #### 查询Limit字段 {#请求数据}
 
@@ -81,6 +86,8 @@
 | IsShowCommentList | int | 否 | 是否显示评论列表 |
 | IsShowReplyList | int | 否 | 是否显示回复列表 |
 | IsShowPropertys | int | 否 | 是否显示属性列表 |
+|  |  |  |  |
+| IsShowHouse | int | 否 | 是否显示房屋（房管家） |
 
 ####  {#应答数据-（巡河记录数组）}
 
