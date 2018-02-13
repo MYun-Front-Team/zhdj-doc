@@ -4,7 +4,7 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| VoteSysNo | int | 是 | 活动系统编码 |
+| VoteSysNo | int | 是 | 投票系统编码 |
 | VoteType | int | 是 | 类型（枚举） |
 | VoteClassSysNo | int | 否 | 类型分类系统编码（类别树） |
 | VoteClassName | string | 否 | 分类名称 |
@@ -17,8 +17,8 @@
 | RemoveTime | string | 否 | 撤下时间 |
 | PublishPerson | object | 否 | 发布人员实体对象 |
 | RemovePerson | object | 否 | 撤下人员实体对象 |
-| VoteStartTime | string | 是 | 报名开始时间 |
-| VoteEndTime | string | 是 | 报名结束时间 |
+| VoteStartTime | string | 是 | 投票开始时间 |
+| VoteEndTime | string | 是 | 投票结束时间 |
 | VoteSummary | string | 否 | 投票记要 |
 | Remark | string | 否 | 备注 |
 | SortNo | int | 否 | 排序 |

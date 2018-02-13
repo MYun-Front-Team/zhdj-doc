@@ -26,6 +26,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | PropertySysNo | int | 是 | 属性系统编码 |
 | PropertyType | int | 是 | 属性适应类型 |
+| PropertyCode | string | 否 | 属性代码 |
 | PropertyName | string | 是 | 属性名 |
 | IsAllowNull | int | 是 | 是否允许空 |
 | IsOptional | int | 是 | 属性值类型：0文本，1单休，2多选，3关联 |
