@@ -21,6 +21,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 是 | 组织系统编码 |
+| Register | object | 否 | 注册实体 |
 | AgentType | int | 否（可选配置） | 代理商类型（代理枚举） |
 | AgentClassSysNo | int | 否（可选配置） | 代理商类别系统编码（类目树） |
 | AgentName | string | 是 | 代理商名称 |
