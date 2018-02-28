@@ -6,6 +6,7 @@
 | :--- | :--- | :--- |
 | 100 | 首页报表 | 智慧市场-APP商家首页 |
 | 101 | 首页报表 | 点东东-平台APP |
+| 102 | 首页报表 | 翰想汇-微信端个人中心首页 |
 
 > #### _请求数据（PageRequestData）_ {#请求数据}
 
@@ -35,6 +36,19 @@
 | OnSaleProductCount | int | 是 | 已上架商品总数 |
 | MessageCount | int | 是 | 消息总数 |
 | UnReadedMessageCount | int | 是 | 未读消息总数 |
+
+#### _应答数据 （PageResponseBase）【102】_ {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| FavoriteProductCount | int | 是 | 收藏商品总数 |
+| FavoriteShopCount | int | 是 | 收藏店铺总数 |
+| FavoriteFootCount | int | 是 | 足迹总数（暂为0） |
+| OrderPayingCount | int | 是 | 待付款订单总数 |
+| OrderSendingCount | int | 是 | 待发货订单总数 |
+| OrderReceivingCount | int | 是 | 待收货订单总数（邮寄类订单） |
+| OrderUsingCount | int | 是 | 待使用订单总数（到店消费订单） |
+| OrderCommentCount | int | 是 | 待评论订单总数 |
 
 
 
