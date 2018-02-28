@@ -36,6 +36,7 @@
 | AgentLogoUrlList | array string | 否 | 代理商Logo的URL列表 |
 | AgentPCDCode | string | 是 | 代理区域Code |
 | AgentPCDDescription | string | 是 | 代理区域描述 |
+| AgentBossPerson | object | 否 | 代理商创始人实体（默认联系人） |
 
 > #### AgentStatistic统计计算字段 {#请求数据}
 
@@ -65,6 +66,7 @@
 | :--- | :--- | :--- | :--- |
 | IDCardUrlList | int | 否 | 是否显示身份证列表 |
 | IsShowWallet | int | 否 | 是否显示钱包 |
+| IsShowAgentBossPerson | int | 否 | 是否显示代理商创始人 |
 
 #### 模块页面编号枚举说明 {#请求数据}
 
