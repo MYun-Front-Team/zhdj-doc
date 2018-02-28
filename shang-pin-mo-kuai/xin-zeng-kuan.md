@@ -45,6 +45,9 @@ _**【接口地址】**_
 | ProductServiceType | int | 否（可选配置） | 服务方式：0物流配送，1到店消费 |
 | IsDisableRMA | int | 否（可选配置） | 是否禁用退货：0否，1是 |
 | CommissionRate | decimal（18，4） | 否（可选配置） | 佣金比例 |
+| EffectiveType | int | 否（可选配置） | 有效类型：0天数，1日期 |
+| EffectiveDays | int | 否（可选配置） | 有效天数 |
+| EffectiveDate | string | 否（可选配置） | 有效期 |
 
 #### _应答数据 _ {#应答数据-}
 
