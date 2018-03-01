@@ -23,6 +23,7 @@
 | OrganizationLogoPathList | array string | 否 | 组织Logo的路径列表 |
 | OrganizationLogoUrlList | array string | 否 | 组织Logo的Url列表 |
 | ProfitRoleList | array object | 否 | 分润角色列表 |
+| OrganizationBossPerson | object | 否 | 组织负责人实体 |
 
 > #### 统计计算字段 {#请求数据}
 
@@ -51,7 +52,7 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | IsShowWallet | int | 否 | 是否显示钱包 |
-| IsShowUser | int | 否 | 是否显示账户 |
+| IsShowBossPerson | int | 否 | 是否显示组织负责人 |
 | IsShowProfitRoleList | int | 否 | 是否显示分润角色列表 |
 
 ####  {#应答数据-（巡河记录数组）}
