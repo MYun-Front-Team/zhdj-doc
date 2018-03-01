@@ -22,6 +22,7 @@
 | Latitude | decimal（18，10） | 否 | 纬度 |
 | OrganizationLogoPathList | array string | 否 | 组织Logo的路径列表 |
 | OrganizationLogoUrlList | array string | 否 | 组织Logo的Url列表 |
+| ProfitRoleList | array object | 否 | 分润角色列表 |
 
 > #### 统计计算字段 {#请求数据}
 
@@ -42,6 +43,7 @@
 | DataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表 |
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 | KeyWord | string | 否 | 关键字搜索（名称） |
+| ProfitRoleSysNoList | array object | 否 | 分润角色系统编码列表 |
 
 > #### 查询Limit字段 {#请求数据}
 
@@ -49,6 +51,7 @@
 | :--- | :--- | :--- | :--- |
 | IsShowWallet | int | 否 | 是否显示钱包 |
 | IsShowUser | int | 否 | 是否显示账户 |
+| IsShowProfitRoleList | int | 否 | 是否显示分润角色列表 |
 
 ####  {#应答数据-（巡河记录数组）}
 

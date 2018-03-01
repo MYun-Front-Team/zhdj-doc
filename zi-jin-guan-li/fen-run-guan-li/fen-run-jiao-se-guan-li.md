@@ -7,6 +7,7 @@
 | OrganizationSysNo | int | 否 | 组织系统编码（与业务模块无关联时，由分润角色生成） |
 | ProfitRoleClassSysNo | int | 是 | 分润角色分类（通用） |
 | ProfitRoleClassName | string | 是 | 分润角色分类名称 |
+| ProfitRoleSysNo | int | 是 | 分润角色系统编码 |
 | ProfitRoleName | string | 是 | 分润角色名称 |
 | IsEnable | int | 是 | 是否有效：0无，1有 |
 | Remark | string | 否 | 备注 |
