@@ -17,7 +17,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ProfitRoleSysNo | int | 是 | 分润角色系统编码 |
-| ProfitRoleClassSysNo | int | 否 | 分润角色分类（通用） |
+| ~~ProfitRoleClassSysNo~~ | ~~int~~ | ~~否~~ | ~~分润角色分类（通用）~~ |
 | ProfitRoleName | string | 否 | 分润角色名称 |
 | IsEnable | int | 否 | 是否有效：0无，1有 |
 | Remark | string | 否 | 备注 |

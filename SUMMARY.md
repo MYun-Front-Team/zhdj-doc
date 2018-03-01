@@ -539,6 +539,7 @@
     * [新增分润角色](zi-jin-guan-li/fen-run-guan-li/fen-run-jiao-se-guan-li/xin-zeng-fen-run-jiao-se.md)
     * [修改分润角色](zi-jin-guan-li/fen-run-guan-li/fen-run-jiao-se-guan-li/xiu-gai-fen-run-jiao-se.md)
     * [删除分润角色](zi-jin-guan-li/fen-run-guan-li/fen-run-jiao-se-guan-li/shan-chu-fen-run-jiao-se.md)
+    * [设置组织分润角色](zi-jin-guan-li/fen-run-guan-li/fen-run-jiao-se-guan-li/she-zhi-zu-zhi-fen-run-jiao-se.md)
   * [分润规则管理](zi-jin-guan-li/fen-run-guan-li/fen-run-gui-ze-guan-li.md)
     * [获取分润规则管理](zi-jin-guan-li/fen-run-guan-li/fen-run-gui-ze-guan-li/huo-qu-fen-run-gui-ze-guan-li.md)
     * [获取分润规则详情](zi-jin-guan-li/fen-run-guan-li/fen-run-gui-ze-guan-li/huo-qu-fen-run-gui-ze-ming-xi.md)
