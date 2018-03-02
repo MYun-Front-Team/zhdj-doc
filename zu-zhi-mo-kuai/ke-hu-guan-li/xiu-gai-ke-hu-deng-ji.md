@@ -16,6 +16,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| OrganizationSysNo | int | 是 | 组织系统编码 |
 | CustomerLevelSysNo | int | 是 | 系统编码 |
 | CustomerLevelName | string | 是 | 客户等级名称 |
 | OwnConsumeAmount | decimal\(18,2\) | 否 | 满足自己消费金额 |
