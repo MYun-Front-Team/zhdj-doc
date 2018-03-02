@@ -50,6 +50,8 @@ _**【接口地址】**_
 | IsCustomized | int | 是 | 是否可定制：0否，1是 |
 | IsChecked | int | 否 | 是否选中：0否，1是 |
 | IconColor | string | 否 | 色号 |
+| SpecValueFee | decimal\(18,2\) | 否 | 费用 |
+| SpecValueUrlList | array string | 否 | 图片 |
 
 
 
