@@ -374,6 +374,7 @@
     * [设置优惠券状态](dian-pu-mo-kuai/you-hui-quan-guan-li/she-zhi-you-hui-quan-zhuang-tai.md)
     * [获取优惠券限制条件](dian-pu-mo-kuai/you-hui-quan-guan-li/huo-qu-you-hui-quan-xian-zhi-tiao-jian.md)
     * [赠送优惠券](dian-pu-mo-kuai/you-hui-quan-guan-li/zeng-song-you-hui-quan.md)
+    * [领取优惠券](dian-pu-mo-kuai/you-hui-quan-guan-li/ling-qu-you-hui-quan.md)
   * [视频管理](dian-pu-mo-kuai/shi-pin-guan-li.md)
     * [获取视频列表](dian-pu-mo-kuai/shi-pin-guan-li/huo-qu-shi-pin-lie-biao.md)
     * [获取视频详情](dian-pu-mo-kuai/shi-pin-guan-li/huo-qu-shi-pin-xiang-qing.md)
