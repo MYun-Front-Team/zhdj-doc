@@ -20,6 +20,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| PersonSysNo | int | 否 | 人员系统编码 |
 | FriendType | int | 是 | 通讯录类型：0手机通讯录 |
 | FriendMailList | array string | 是 | 通讯录列表 |
 
