@@ -49,6 +49,8 @@
 | ToPerson | object | 否 | 买家人员实体（简版） |
 | ToCustomer | object | 否 | 买家客户实体（简版） |
 | FromSeller | object | 否 | 商家实体（简版） |
+|  |  |  |  |
+| PrivacyPropertys | array object | 否 | 隐私属性列表 |
 
 > #### OrderAmount说明 {#请求数据}
 
@@ -183,6 +185,7 @@
 | IsShowDeliveriedQuantity | int | 否 | 是否显示已发数量 |
 | IsShowToCustomer | int | 否 | 是否显示买家客户 |
 | IsShowFromSeller | int | 否 | 是否显示商家 |
+| IsShowPrivacyPropertys | int | 否 | 是否显示隐私属性 |
 
 #### 模块页面编号枚举说明 {#请求数据}
 

@@ -45,6 +45,7 @@ _**【接口地址】**_
 | OrderRemark | string | 否 | 订单买家备注 |
 | AddOrderItemList | array object | 是 | 订单商品列表 |
 | AddOrderAmountList | array object | 否 | 订单优惠列表 |
+| PrivacyPropertys | array object | 否 | 隐私属性列表 |
 
 > #### AddOrderItem订单商品列表 {#请求数据}
 
