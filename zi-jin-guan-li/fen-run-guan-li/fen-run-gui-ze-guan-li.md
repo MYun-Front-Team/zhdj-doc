@@ -19,6 +19,7 @@
 | :--- | :--- | :--- | :--- |
 | ProfitRuleDetailSysNo | int | 是 | 分润规则明细系统编码 |
 | ProfitRoleSysNo | int | 是 | 分润角色系统编码 |
+| ProfitRole | object | 是 | 分润角色 |
 | OrganizationSysNo | int | 是 | 组织系统编码 |
 | OrganizationBossPerson | object | 是 | 组织默认联系人 |
 | ProfitRate | decimal（18，4） | 是 | 分润比率 |
