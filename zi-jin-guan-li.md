@@ -18,6 +18,9 @@
 | BondFee | decimal（18，2） | 否 | 保证金 |
 | MemberShipFee | decimal（18，2） | 否 | 会员费 |
 | MemberShipEndDate | string | 否 | 会员费到期时间 |
+|  |  |  |  |
+| FrozenCommissionAmount | decimal（18，2） | 否 | 冻结佣金金额（来源分润） |
+| CommissionTotalAmount | decimal（18，2） | 否 | 佣金总金额（来源分润） |
 
 
 
