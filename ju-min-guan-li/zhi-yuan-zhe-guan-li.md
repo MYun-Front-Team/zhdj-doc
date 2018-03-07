@@ -12,6 +12,8 @@
 | VolunteerExperience | string | 否 | 义工或社工经历 |
 | BuddhistExperience | string | 否 | 佛教经历 |
 | Remark | string | 否 | 备注 |
+| Longitude | decimal\(18,10\) | 否 | 经度 |
+| Latitude | decimal\(18,10\) | 否 | 纬度 |
 | SpecialtyList | array object | 否 | 特长与爱好列表（分类） |
 | Person | object | 否 | 人员实体 |
 | Resident | object | 否 | 居民实体 |

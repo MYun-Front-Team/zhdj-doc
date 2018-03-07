@@ -23,6 +23,8 @@ _**【接口地址】**_
 | Remark | string | 否 | 备注 |
 | SpecialtyClassSysNoList | array int | 否 | 特长与爱好编码列表（分类） |
 | PersonSysNo | int | 是 | 人员系统编码 |
+| Longitude | decimal\(18,10\) | 否 | 经度 |
+| Latitude | decimal\(18,10\) | 否 | 纬度 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
