@@ -10,7 +10,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-[http://ip:port/VolunteerAction/Volunteer/D](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)eleteVolunteer
+[http://ip:port/ResidentAction/Volunteer/D](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)eleteVolunteer
 
 > #### _请求数据_ {#请求数据}
 
