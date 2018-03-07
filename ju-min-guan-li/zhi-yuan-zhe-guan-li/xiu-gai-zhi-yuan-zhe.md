@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 修改志愿者
 
+注：只有审核失败时，传入VolunteerStatus=1才有效。
+
 _**【接口地址】**_
 
 [http://ip:port/VolunteerAction/Volunteer/E](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)ditVolunteer
@@ -24,6 +26,7 @@ _**【接口地址】**_
 | SpecialtyClassSysNoList | array int | 否 | 特长与爱好编码列表（分类） |
 | Longitude | decimal\(18,10\) | 否 | 经度 |
 | Latitude | decimal\(18,10\) | 否 | 纬度 |
+| VolunteerStatus | int | 否 | 志愿者状态：1待审核 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
