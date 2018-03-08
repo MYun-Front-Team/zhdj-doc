@@ -38,6 +38,8 @@ _**【接口地址】**_
 | GoodsVolumn | decimal\(18,2\) | 否（可选配置） | 体积 |
 | AddSpecValueList | array object | 否（可选配置） | 规格值列表 |
 | IsClearStocks | int | 否 | 是否限制库存：0否，1是 |
+| FileMasterPathList | array string | 否（可选配置） | 主图图片列表 |
+| ProductPrice | decimal\(18,2\) | 否（可选配置） | 价格（按规格定价时有效） |
 
 > #### AddSpecValue {#请求数据}
 
