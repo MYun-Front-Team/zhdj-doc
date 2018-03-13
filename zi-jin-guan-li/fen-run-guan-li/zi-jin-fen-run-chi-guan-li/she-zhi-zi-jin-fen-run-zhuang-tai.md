@@ -19,6 +19,7 @@ _**【接口地址】**_
 | ProfitPoolSysNo | int | 是 | 系统编码 |
 | ProfitPoolStatus | int | 是 | 分润池状态：10已分润，11已作废 |
 | ProfitRuleSysNo | int | 否 | 分润规则系统编码 |
+| ProfitPoolDetailList | array object | 否 | 分润规则池明细列表 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
