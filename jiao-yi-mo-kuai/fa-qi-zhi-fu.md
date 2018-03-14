@@ -24,6 +24,8 @@ _**【应用场景】**_
 
 6、会员费功能：直充钱包ModuleSysNo=26000，ModuleSourceType=26008，ModuleSourceClass=0，ModuleSourceSysNo=会员费系统编码；
 
+7、代理费功能：直充钱包ModuleSysNo=26000，ModuleSourceType=26010，ModuleSourceClass=0，ModuleSourceSysNo=代理费系统编码；
+
 _**【接口地址】**_
 
 [http://ip:port/DealQuery/](http://ip:port/HMAction/River/AddRiver)Payment[/G](http://ip:port/HMAction/River/AddRiver)etPaymentUrl

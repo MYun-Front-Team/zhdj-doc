@@ -523,6 +523,7 @@
   * [设置支付密码](zi-jin-guan-li/she-zhi-zhi-fu-mi-ma.md)
   * [新增保证金](zi-jin-guan-li/xin-zeng-bao-zheng-jin.md)
   * [新增会员费](zi-jin-guan-li/xin-zeng-hui-yuan-fei.md)
+  * [新增代理费](zi-jin-guan-li/xin-zeng-dai-li-fei.md)
 * [报表模块](bao-biao-mo-kuai.md)
   * [获取报表数据](bao-biao-mo-kuai/huo-qu-bao-biao-shu-ju.md)
   * [获取报表模板](bao-biao-mo-kuai/huo-qu-bao-biao-mo-ban.md)
