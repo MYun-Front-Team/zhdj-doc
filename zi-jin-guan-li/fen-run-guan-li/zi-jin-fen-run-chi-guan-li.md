@@ -26,6 +26,7 @@
 | ProfitPoolDetailSysNo | int | 是 | 分润资金池明细系统编码 |
 | ProfitRoleSysNo | int | 是 | 分润角色系统编码 |
 | OrganizationSysNo | int | 是 | 组织系统编码（与分润角色关联） |
+| OrganizationName | string | 否 | 组织名称 |
 | ProfitRate | decimal（18，4） | 是 | 分润比率 |
 | ProfitAmount | decimal（18，2） | 是 | 分润到金额 |
 | Remark | string | 否 | 备注 |
