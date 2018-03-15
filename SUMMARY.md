@@ -534,6 +534,7 @@
     * [资金报表](bao-biao-mo-kuai/zi-jin-bao-biao.md)
     * [工单报表](bao-biao-mo-kuai/qu-yu-gong-dan-tong-ji-bao-biao.md)
     * [活动报表](bao-biao-mo-kuai/huo-dong-bao-biao.md)
+    * [居民报表](bao-biao-mo-kuai/zhi-yuan-zhe-bao-biao.md)
 * [投票模块](tou-piao-mo-kuai.md)
   * [获取投票列表](tou-piao-mo-kuai/huo-qu-tou-piao-lie-biao.md)
   * [获取投票详情](tou-piao-mo-kuai/huo-qu-tou-piao-xiang-qing.md)
