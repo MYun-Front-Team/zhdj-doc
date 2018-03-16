@@ -37,6 +37,7 @@
 | SellerLogoPathList | array string | 否 | 商家Logo路径列表 |
 | SellerLogoUrlList | array string | 否 | 商家Logo的URL列表 |
 | SellerBossPerson | object | 否 | 商家创始人实体（默认联系人） |
+| SellerCategoryList | array object | 否 | 商家行业类型列表 |
 
 > #### SellerStatistic统计计算字段 {#请求数据}
 
@@ -68,6 +69,7 @@
 | LicenseUrlList | int | 否 | 是否显示营业执照列表 |
 | IsShowWallet | int | 否 | 是否显示钱包 |
 | IsShowSellerBossPerson | int | 否 | 是否显示商家创始人 |
+| IsShowSellerCategoryList | int | 否 | 是否显示商家行业列表 |
 
 #### 模块页面编号枚举说明 {#请求数据}
 

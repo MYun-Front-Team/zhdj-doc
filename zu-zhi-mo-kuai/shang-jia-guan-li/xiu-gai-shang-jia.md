@@ -37,6 +37,7 @@ _**【接口地址】**_
 | IDCardPathList | array string | 否 | 身份证Path路径列表 |
 | LicensePathList | array string | 否 | 营业执照Path路径列表 |
 | SellerLogoPathList | array string | 否 | 商家Logo的Path列表 |
+| CategorySysNoList | array int | 否 | 商家行业类型编码列表 |
 
 #### _应答数据 _ {#应答数据-}
 

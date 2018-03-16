@@ -23,7 +23,7 @@ _**【接口地址】**_
 | OrganizationSysNo | int | 是 | 组织系统编码 |
 | ~~Register~~ | ~~object~~ | ~~否~~ | ~~注册实体（见注册接口）~~ |
 |  |  |  |  |
-| SellerType | int | 否（可选配置） | 商家类型（行业枚举） |
+| SellerType | int | 否（可选配置） | 商家类型 |
 | SellerClassSysNo | int | 否（可选配置） | 商家类别系统编码（类目树） |
 | SellerName | string | 是 | 商家名称 |
 | SellerShortName | string | 否（可选配置） | 简称 |
@@ -46,6 +46,7 @@ _**【接口地址】**_
 | LicensePathList | array string | 否（可选配置） | 营业执照Path路径列表 |
 | InvitationCode | string | 否（可选配置） | 邀请码 |
 | SellerLogoPathList | array string | 否（可选配置） | 商家Logo的Path路径列表 |
+| CategorySysNoList | array int | 否（可选配置） | 商家行业类型编码列表 |
 
 #### _应答数据 _ {#应答数据-}
 
