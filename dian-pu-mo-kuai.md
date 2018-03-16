@@ -74,6 +74,8 @@
 | IsCertified | int | 否 | 是否认证 |
 | CategorySysNoList | array int | 否 | 主营分类（行业） |
 | BrandSysNoList | array int | 否 | 品牌系统编码 |
+| Longitude | decimal\(18,10\) | 否 | 经度 |
+| Latitude | decimal\(18,10\) | 否 | 纬度 |
 
 > #### 查询Limit字段 {#请求数据}
 
