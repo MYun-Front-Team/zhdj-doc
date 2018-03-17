@@ -14,7 +14,7 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| ActivityType| int | 是 | 活动类型 |
+| ActivityTypes|array[int] | 是 | 活动类型 |
 | StartTime| datetime| 是 | 开始时间 |
 | EndTime| datetime| 是 | 结束时间 |
 
