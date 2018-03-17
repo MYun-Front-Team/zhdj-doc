@@ -187,6 +187,7 @@
 | IsShowToCustomer | int | 否 | 是否显示买家客户 |
 | IsShowFromSeller | int | 否 | 是否显示商家 |
 | IsShowPrivacyPropertys | int | 否 | 是否显示隐私属性 |
+| IsShowIsServiceOrder | int | 否 | 是否显示是否服务订单 |
 
 #### 模块页面编号枚举说明 {#请求数据}
 
