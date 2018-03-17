@@ -100,6 +100,7 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | OrderTimeList | array object | 否 | 订单操作时间列表 |
+| IsServiceOrder | int | 否 | 是否服务订单：0否，1是 |
 
 > #### OrderTime {#请求数据}
 
