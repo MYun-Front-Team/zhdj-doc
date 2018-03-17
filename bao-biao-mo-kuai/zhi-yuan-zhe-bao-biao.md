@@ -5,6 +5,10 @@
 | 页编码 | 模块说明 | 页面说明 |
 | :--- | :--- | :--- |
 | 25000100 | 志愿者报表 | 按区域维度 |
+| 25000101 | 志愿者报表 | 按类型维度 |
+
+
+
 
 
 
@@ -21,5 +25,13 @@
 | DataRangeName| string | 是 | 地区 |
 | DataRangeSysNo| int | 是 | DataRangeSysNo |
 | VolunteerCount| int | 是 | 数量|
+
+> #### 应答数据 （PageResponseBase）【25000101】
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PoliticalStatus| int | 是 | 党派 |
+| VolunteerCount| int | 是 | 数量|
+
 
 
