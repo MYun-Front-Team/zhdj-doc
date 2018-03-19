@@ -31,7 +31,8 @@ _**【接口地址】**_
 | Latitude | decimal | 是 | 纬度 |
 | StationPathList | array string | 否 | 图片Path路径列表 |
 | StationUrlList | array string | 否 | 图片Url路径列表 |
-
+| StationMaster| string | 是 | 先锋站负责人 |
+| StationMasterPhone| string | 是 | 先锋站负责人电话 |
 
 
 
