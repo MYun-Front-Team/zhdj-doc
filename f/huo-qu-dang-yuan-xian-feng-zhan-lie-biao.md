@@ -29,6 +29,10 @@ _**【接口地址】**_
 | Remark | string | 否 | 备注 |
 | Longitude | decimal | 是 | 经度 |
 | Latitude | decimal | 是 | 纬度 |
+| StationPathList | array string | 否 | 图片Path路径列表 |
+| StationUrlList | array string | 否 | 图片Url路径列表 |
+
+
 
 
 
