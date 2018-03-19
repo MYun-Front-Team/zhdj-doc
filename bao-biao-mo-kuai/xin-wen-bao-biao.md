@@ -11,7 +11,7 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| NewsType|array[int] | 是 | 活动类型 |
+| NewsType|array[int] | 是 | 新闻类型 |
 
 
 > #### 应答数据 （PageResponseBase）【7000100】
