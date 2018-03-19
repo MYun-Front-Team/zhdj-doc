@@ -23,6 +23,10 @@ _**【接口地址】**_
 | Remark | string | 否 | 备注 |
 | Longitude | decimal | 是 | 经度 |
 | Latitude | decimal | 是 | 纬度 |
+| StationPathList | array string | 否 | 图片Path路径列表 |
+| StationMaster| string | 否 | 先锋站负责人 |
+| StationMasterPhone| string | 否 | 先锋站负责人电话 |
+
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 
