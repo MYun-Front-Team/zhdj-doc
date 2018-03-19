@@ -54,7 +54,7 @@
 | ProductGroupCount | int | 否 | 商品数量 |
 | PersonFollowCount | int | 否 | 关注数量 |
 | DeviceCount | int | 否 | 设备数量 |
-
+|SalePersonCount|int | 否 |消费人数 |
 > #### 功能按钮字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
