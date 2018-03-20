@@ -24,6 +24,7 @@ _**【接口地址】**_
 | SetProductImgList | object | 否 | 新增款图片（见“设置商品图片”） |
 | ProductPrice | decimal\(18,2\) | 否 | 价格 |
 | OnSaleStatus | int | 否 | 上下状态:0待上架 1上架 2下架 3部分上架 4停售 |
+|IsHidden|int | 否 | 是否隐藏 |
 
 #### _应答数据 _ {#应答数据-}
 
