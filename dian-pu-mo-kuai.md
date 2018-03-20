@@ -46,6 +46,9 @@
 | RmaAddress | string | 否 | 退货地址 |
 | ShopBannerPathList | array string | 否 | 店铺Banner路径列表 |
 | ShopBannerUrlList | array string | 否 | 店铺Banner的URL列表 |
+| StarsRemark| decimal | 否 | 店铺星级 |
+
+
 
 > #### 统计计算字段 {#请求数据}
 
