@@ -9,7 +9,6 @@
 | DataRangeSysNo | int | 是 | 数据范围树编码（店铺树） |
 | OrganizationToSysNo | int | 是 | 买家组织系统编码 |
 | PersonSysNo | int | 是 | 买家人员系统编码 |
-|  |  |  |  |
 | OrderType | int | 是 | 订单类型：23001普通订单，23002预采购订单 |
 | OrderClassSysNo | int | 是 | 订单分类：0正常订单，1合单订单，2拆单订单 |
 | RelativeOrderSysNo | int | 否 | 合单，存储 To 关系；拆单，存储 From 关系 |
@@ -24,7 +23,6 @@
 | CancelStatus | int | 是 | 取消状态：0正常，1取消中，10已消，11取消失败 |
 | FinishStatus | int | 是 | 完结状态，0未完结，10已完结 |
 | SettlementStatus | int | 是 | 结算状态：0未结算，1部分结算，10已结算 |
-|  |  |  |  |
 | TrackingCompanySysNo | int | 否 | 期望快递公司系统编码 |
 | ReceiverName | string | 是 | 收货人 |
 | ReceiverPhone | string | 是 | 收货电话 |
@@ -42,17 +40,17 @@
 | OrderCouponList | array object | 否 | 订单优惠列表 |
 | ~~OrderLogList~~ | ~~array object~~ | ~~否~~ | ~~订单日志列表（通用日志）~~ |
 | OrderDeliveryList | array object | 否 | 订单发货列表 |
-|  |  |  |  |
 | FromOrganization | object | 否 | 卖家组织实体（简版） |
 | FromShop | object | 否 | 卖家店铺实体（简版） |
 | ToOrganization | object | 否 | 买家组织实体（简版） |
 | ToPerson | object | 否 | 买家人员实体（简版） |
 | ToCustomer | object | 否 | 买家客户实体（简版） |
 | FromSeller | object | 否 | 商家实体（简版） |
-|  |  |  |  |
 | PrivacyPropertys | array object | 否 | 隐私属性列表 |
 
-> #### OrderAmount说明 {#请求数据}
+
+
+ #### OrderAmount说明 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -153,11 +151,13 @@
 | CancelStatusList | array int | 否 | 取消状态 |
 | FinishStatusList | array int | 否 | 完结状态 |
 | SettlementStatusList | array int | 否 | 结算状态 |
-|  |  |  |  |
 | PaymentTypeList | array int | 否 | 支付方式 |
 | OrderStartTime | string | 否 | 开始时间（订单创建时间） |
 | OrderEndTime | string | 否 | 结束时间（订单创建时间） |
 | CardNo | string | 否 | 会员卡号 |
+| ShopName| string | 否 | 店铺名称 |
+
+
 
 > #### 查询Limit字段 {#请求数据}
 
