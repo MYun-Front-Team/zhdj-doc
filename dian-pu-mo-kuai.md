@@ -47,6 +47,8 @@
 | ShopBannerPathList | array string | 否 | 店铺Banner路径列表 |
 | ShopBannerUrlList | array string | 否 | 店铺Banner的URL列表 |
 | StarsRemark| decimal | 否 | 店铺星级 |
+| ContractPCDCode| string | 否 | 联系地址 |
+| ContractPCDDescription| string | 否 | 联系地址 |
 
 
 
