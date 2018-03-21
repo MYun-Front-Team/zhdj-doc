@@ -47,8 +47,17 @@
 | ToCustomer | object | 否 | 买家客户实体（简版） |
 | FromSeller | object | 否 | 商家实体（简版） |
 | PrivacyPropertys | array object | 否 | 隐私属性列表 |
+| CouponCodeUseStatus | int | 是 |服务订单使用情况：0未使用，1部分使用，10已使用 |
 
 
+#### OrderCouponCode说明 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| OrderAmountSysNo | int | 是 | 订单金额系统编码 |
+| AmountType | int | 是 | 业务逻辑自定义金额类型:0商品原始金额，1运费，2预收款，3活动优惠金额，4优惠券优惠金额，5积分抵扣金额，6实际支付总金额，7客服优惠金额，8运费优惠金额，9原始订单总金额，10当前商品总金额, 11商品佣金 |
+| Amount | decimal（18，2） | 是 | 金额 |
+| Remark | string | 否 | 备注 |
 
  #### OrderAmount说明 {#请求数据}
 
@@ -159,6 +168,9 @@
 | OrderEndTime | string | 否 | 结束时间（订单创建时间） |
 | CardNo | string | 否 | 会员卡号 |
 | ShopName| string | 否 | 店铺名称 |
+| CouponCodeUseStatusList | array int| 否 |服务订单使用情况：0未使用，1部分使用，10已使用 |
+
+
 
 
 
