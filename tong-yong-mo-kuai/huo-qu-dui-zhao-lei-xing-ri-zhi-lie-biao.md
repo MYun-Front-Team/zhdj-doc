@@ -10,7 +10,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-[http://ip:port/UMQuery/ActionLog/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)LogList
+[http://ip:port/UMQuery/ActionLog/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)CompareLogList
 
 > #### _请求数据_ {#请求数据}
 
