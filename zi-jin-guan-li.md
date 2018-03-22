@@ -21,6 +21,19 @@
 |  |  |  |  |
 | FrozenCommissionAmount | decimal（18，2） | 否 | 冻结佣金金额（来源分润） |
 | CommissionTotalAmount | decimal（18，2） | 否 | 佣金总金额（来源分润） |
+| AgentFee| decimal（18，2） | 否 | 代理费 |
+| AgentFeeEndDate| decimal（18，2） | 否 | 代理费到期时间 |
+
+
+
+
+
+
+
+
+
+
+
 
 
 
