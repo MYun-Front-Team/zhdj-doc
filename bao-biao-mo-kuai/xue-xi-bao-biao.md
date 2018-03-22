@@ -33,6 +33,10 @@
 | ChildrenCount| int| 是 | 孩子党委数|
 | MomentPartyCount| int| 是 | 评论党员数|
 | PartyCount| int| 是 | 党员数|
+| Rate| decimal| 是 | 签到率|
+
+
+
 
 
 
