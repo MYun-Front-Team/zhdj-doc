@@ -380,6 +380,7 @@
     * [赠送优惠券](dian-pu-mo-kuai/you-hui-quan-guan-li/zeng-song-you-hui-quan.md)
     * [领取优惠券](dian-pu-mo-kuai/you-hui-quan-guan-li/ling-qu-you-hui-quan.md)
     * [查看订单推送的相关优惠券](dian-pu-mo-kuai/you-hui-quan-guan-li/cha-kan-ding-dan-tui-song-de-xiang-guan-you-hui-quan.md)
+    * [根据订单添加实体获取可用优惠券](dian-pu-mo-kuai/you-hui-quan-guan-li/gen-ju-ding-dan-tian-jia-shi-ti-huo-qu-ke-yong-you-hui-quan.md)
   * [视频管理](dian-pu-mo-kuai/shi-pin-guan-li.md)
     * [获取视频列表](dian-pu-mo-kuai/shi-pin-guan-li/huo-qu-shi-pin-lie-biao.md)
     * [获取视频详情](dian-pu-mo-kuai/shi-pin-guan-li/huo-qu-shi-pin-xiang-qing.md)
