@@ -9,7 +9,7 @@
 | DataRangeSysNo | int | 是 | 数据范围树编码（店铺树） |
 | OrganizationToSysNo | int | 是 | 买家组织系统编码 |
 | PersonSysNo | int | 是 | 买家人员系统编码 |
-| OrderType | int | 是 | 订单类型：23001普通订单，23002预采购订单 |
+| OrderType | int | 是 | 订单类型：23001普通订单，23002预采购订单（点东东），23003采购单（翰想汇） |
 | OrderClassSysNo | int | 是 | 订单分类：0正常订单，1合单订单，2拆单订单 |
 | RelativeOrderSysNo | int | 否 | 合单，存储 To 关系；拆单，存储 From 关系 |
 | OrderCode | string | 是 | 订单号 |
@@ -47,11 +47,9 @@
 | ToCustomer | object | 否 | 买家客户实体（简版） |
 | FromSeller | object | 否 | 商家实体（简版） |
 | PrivacyPropertys | array object | 否 | 隐私属性列表 |
-| CouponCodeUseStatus | int | 是 |服务订单使用情况：0未使用，1部分使用，10已使用 |
+| CouponCodeUseStatus | int | 是 | 服务订单使用情况：0未使用，1部分使用，10已使用 |
 
-
-
- #### OrderAmount说明 {#请求数据}
+#### OrderAmount说明 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -100,9 +98,6 @@
 | :--- | :--- | :--- | :--- |
 | OrderTimeList | array object | 否 | 订单操作时间列表 |
 | IsServiceOrder | int | 否 | 是否服务订单：0否，1是 |
-
-
-
 
 > #### OrderTime {#请求数据}
 
@@ -159,12 +154,9 @@
 | OrderStartTime | string | 否 | 开始时间（订单创建时间） |
 | OrderEndTime | string | 否 | 结束时间（订单创建时间） |
 | CardNo | string | 否 | 会员卡号 |
-| ShopName| string | 否 | 店铺名称 |
-| CouponCodeUseStatusList | array int| 否 |服务订单使用情况：0未使用，1部分使用，10已使用 |
-| IsServiceOrder| int | 否 | 是否是服务订单 |
-
-
-
+| ShopName | string | 否 | 店铺名称 |
+| CouponCodeUseStatusList | array int | 否 | 服务订单使用情况：0未使用，1部分使用，10已使用 |
+| IsServiceOrder | int | 否 | 是否是服务订单 |
 
 > #### 查询Limit字段 {#请求数据}
 
