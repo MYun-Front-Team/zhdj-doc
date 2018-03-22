@@ -15,7 +15,7 @@
 | StudySysNo| int | 否 | 学习编码|
 
 
-> #### 应答数据 （PageResponseBase）【7000100】
+> #### 应答数据 （PageResponseBase）【8000100】
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -24,7 +24,13 @@
 | MomentPartyCount| int| 是 | 评论党员数|
 | PartyCount| int| 是 | 党员数|
 
+> #### 应答数据 PageResponseStatistic 【8000100】
 
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ChildrenCount| int| 是 | 孩子党委数|
+| MomentPartyCount| int| 是 | 评论党员数|
+| PartyCount| int| 是 | 党员数|
 
 
 
