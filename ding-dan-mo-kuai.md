@@ -161,7 +161,7 @@
 | CardNo | string | 否 | 会员卡号 |
 | ShopName| string | 否 | 店铺名称 |
 | CouponCodeUseStatusList | array int| 否 |服务订单使用情况：0未使用，1部分使用，10已使用 |
-
+| IsServiceOrder| int | 否 | 是否是服务订单 |
 
 
 
