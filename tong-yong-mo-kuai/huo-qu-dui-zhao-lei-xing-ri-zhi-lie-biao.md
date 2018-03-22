@@ -31,6 +31,10 @@ _**【接口地址】**_
 | ActionName | string | 是 | 操作简称 |
 | ActionFirshDescription | string | 是 | 操作前内容 |
 | ActionLastDescription | string | 是 | 操作后内容 |
+| Remark| string | 是 | 备注 |
+
+
+
 
 
 
