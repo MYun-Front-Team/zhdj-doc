@@ -17,6 +17,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | PurchaseOrderSysNo | int | 否 | 采购单流水编码（待采购详情不传，已采购详情只需要传这个） |
 | SkuSysNo | int | 是 | SKU系统编码 |
+| ProductGroupSysNo| int | 是 | 款系统编码 |
 | OrganizationFromSysNo | int | 是 | 采购员组织系统编码 |
 | DataRangeSysNo | int | 是 | 采购员范围树编码（店铺树） |
 | OrganizationToSysNo | int | 否 | 买家（商家）组织系统编码 |
