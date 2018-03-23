@@ -11,7 +11,8 @@
 | 23000104 | 订单报表 | 按商家统计（平台查看） |
 | 23000105 | 订单报表 | 打印小票 |
 | ~~23000106~~ | ~~订单报表~~ | ~~按支付方式维度~~ |
-| 23000106 | 订单报表 | 按照订单明细|
+| 23000107 | 订单报表 | 按照订单明细(未采购)|
+| 23000108 | 订单报表 | 按照订单明细(已采购)|
 
 > #### _请求数据（PageRequestData）_ {#请求数据}
 
@@ -82,7 +83,18 @@
 | SellerSysNo | int | 是 | 商家系统编码 |
 |  |  |  |  |
 
-####  {#应答数据-（巡河记录数组）}
+ #### _应答数据 （PageResponseBase）【23000107】_ {#应答数据-（巡河记录数组）}
 
-
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| SkuSysNo| int | 是 | SKU系统编码 |
+| SkuName| string| 是 | SKU名称 |
+| ProductGroupSysNo| int | 是 | 款系统编码 |
+| ProductGroupName| int | 是 | 款名称 |
+| OrganizationFromSysNo| int | 是 | 采购员组织|
+| DataRangeSysNo| int | 是 | 采购员范围树编码（店铺树）|
+| TotalAmount| decimal| 是 | 总金额 |
+| UnitPrice| decimal| 是 | 单价|
+| SkuFileThumbnailUrlList| array[string]| 是 | SKU缩略图|
+| ProductFileThumbnailUrlList| array[string]| 是 | 款缩略图|
 
