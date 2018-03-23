@@ -61,7 +61,7 @@ http://ip:port/OrderQuery/Order/GetBaidPurchaseOrderBySysNo
 | Quantity | int | 是 | 订单明细数量 |
 | TotalAmount| int | 是 | 总金额 |
 | UnitPrice| decimal| 是 | 单价|
-| OrderCreateTime | int | 是 | 订单下单时间|
+| OrderCreateTime | string| 是 | 订单下单时间|
 | ReceiverName | string | 是 | 收货人 |
 | ReceiverPhone | string | 是 | 收货电话 |
 
