@@ -34,6 +34,7 @@ http://ip:port/OrderQuery/Order/GetWaitPurchaseOrderList
 | OrganizationFromSysNo| int | 是 | 采购员组织|
 | DataRangeSysNo| int | 是 | 采购员范围树编码（店铺树）|
 | TotalAmount| decimal| 是 | 总金额 |
+| TotalCount| int| 是 | 总数量 |
 | UnitPrice| decimal| 是 | 单价|
 | SkuFileThumbnailUrlList| array[string]| 是 | SKU缩略图|
 | ProductFileThumbnailUrlList| array[string]| 是 | 款缩略图|
