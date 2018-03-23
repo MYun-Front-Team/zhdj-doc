@@ -15,16 +15,11 @@ http://ip:port/OrderAction/Order/DeliveryPurchaseOrder
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| SkuSysNo | int | 是 | SKU系统编码 |
 | OrganizationFromSysNo | int | 是 | 采购员组织系统编码 |
 | DataRangeSysNo | int | 是 | 采购员范围树编码（店铺树） |
-| Items| array[PurchaseOrderDelivery]| 是 |采购订单明细 |
-
-#### PurchaseOrderDelivery
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| OrderSysNo | int | 是 | 订单系统编码 |
-| OrderItemSysNo | int | 是 | 订单商品系统编码 |
-| Quantity | int | 是 | 本次采购数量 |
+| OrderStartTime | string | 否 | 订单开始时间 |
+| OrderEndTime | string | 否 | 订单结束时间 |
 
 
 
