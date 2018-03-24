@@ -23,6 +23,16 @@
 | SaleTotalAmountInToday | decimal\(18,2\) | 是 | 今日销售总额 |
 | BalanceAmount | decimal\(18,2\) | 是 | 钱包余额 |
 | UnDoOrderTotalNum | int | 是 | 待处理订单总数 |
+| UnDoOrderTotalNum | int | 是 | 待处理订单总数 |
+| PlatformOnSaleProductCount | int | 是 | 平台可订货|
+| PurchaseOrderFinish | int | 是 | 商品已采购订货单|
+| PurchaseOrderNotFinish | int | 是 | 商品未采购订货单|
+| PlatformPurchaseOrderNotFinish | int | 是 | 平台未采购数量|
+
+
+
+
+
 
 #### 注：上述参数全部以【key，value】键值对形势返回； {#应答数据-（巡河记录数组）}
 
