@@ -126,6 +126,7 @@
 | Quantity | int | 是 | 最终购买数量 |
 | OrderItemLockInventory | object | 否 | 订单商品锁库（见仓储） |
 | DeliveriedQuantity | int | 否 | 已发货数量 |
+| DeliveryItemStatus | int | 否 | 0未发，1部分发，10已发，11取消 |
 
 > #### 功能按钮字段 {#请求数据}
 
