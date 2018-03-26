@@ -20,6 +20,9 @@ http://ip:port/OrderQuery/Order/GetBaidPurchaseOrderList
 | :--- | :--- | :--- | :--- |
 | OrganizationFromSysNo | int | 是 | 采购员组织系统编码 |
 | DataRangeSysNo | int | 否 | 采购员范围树编码（店铺树） |
+| KeyWord| string | 否 | 关键字 |
+
+
 
 > #### 应答_数据（数组）_ {#请求数据}
 
