@@ -21,9 +21,6 @@ http://ip:port/OrderQuery/Order/GetWaitPurchaseOrderList
 | PersonSysNo | int | 否 | 买家（商家）人员系统编码 |
 | OrderStartTime | string | 否 | 订单开始时间 |
 | OrderEndTime | string | 否 | 订单结束时间 |
-| KeyWord| string | 否 | 关键字 |
-
-
 
 > #### 应答_数据（数组）_ {#请求数据}
 
