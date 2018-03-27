@@ -43,6 +43,7 @@ _**【接口地址】**_
 | CategorySysNoList | array int | 否 | 商品分类系统编码列表 |
 | CustomerLevelSysNoList | array int | 否 | 客户等级系统编码列表 |
 
+
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
