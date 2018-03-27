@@ -27,18 +27,9 @@ http://ip:port/OrderQuery/Order/GetPurchaseOrderTotal
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| PurchaseOrderSysNo | int | 是 | 采购单流水编码 |
-| SkuSysNo | int | 是 | SKU系统编码 |
-| SkuName | string | 是 | SKU名称 |
-| ProductGroupSysNo | int | 是 | 款系统编码 |
-| ProductGroupName | int | 是 | 款名称 |
-| OrganizationFromSysNo | int | 是 | 采购员组织 |
-| DataRangeSysNo | int | 是 | 采购员范围树编码（店铺树） |
-| TotalAmount | decimal | 是 | 总金额 |
-| UnitPrice | decimal | 是 | 单价 |
-| SkuFileThumbnailUrlList | array\[string\] | 是 | SKU缩略图 |
-| ProductFileThumbnailUrlList | array\[string\] | 是 | 款缩略图 |
-| Items | array\[PurchaseOrderItem\] | 是 | 采购单明细 |
+| PurchaseOrderCount| int | 是 | 采购数量 |
+| PurchaseOrderAmount| decimal | 是 | 采购数量金额 |
+
 
 
 
