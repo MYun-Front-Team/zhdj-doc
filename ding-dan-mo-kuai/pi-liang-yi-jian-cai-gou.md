@@ -20,7 +20,7 @@ http://ip:port/OrderAction/Order/DeliveryPurchaseOrder
 | DataRangeSysNo | int | 是 | 采购员范围树编码（店铺树） |
 | OrderStartTime | string | 否 | 订单开始时间 |
 | OrderEndTime | string | 否 | 订单结束时间 |
-| KeyWord| string | 否 | 关键字 |
+
 
 
 

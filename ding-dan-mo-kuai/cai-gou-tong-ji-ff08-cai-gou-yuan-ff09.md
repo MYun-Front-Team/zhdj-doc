@@ -22,6 +22,9 @@ http://ip:port/OrderQuery/Order/GetPurchaseOrderTotal
 | OrderStartTime | string | 否 | 订单开始时间 |
 | OrderEndTime | string | 否 | 订单结束时间 |
 | PurchaseOrderType| int | 否 |（10） 已采购，（0）未采购 |
+| KeyWord| string | 否 | 关键字 |
+
+
 
 > #### 应答_数据（数组）_ {#请求数据}
 
