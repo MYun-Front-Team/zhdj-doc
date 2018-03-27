@@ -22,8 +22,14 @@ http://ip:port/UMQuery/Area/GetCityAreaList
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | AreaSysNo | int | 是 | 系统编码 |
-| AreaCode | string | 否 | 区域代码 |
 | AreaName | string | 是 | 区域名称 |
+| FirstLetter| string | 是 | 首字母 |
+
+
+
+
+
+
 
 
 
