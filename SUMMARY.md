@@ -447,6 +447,7 @@
   * [获取已采购单列表（采购员）](ding-dan-mo-kuai/huo-qu-5f85-yi-cai-gou-dan-xiang-qing-ff08-cai-gou-yuan-ff09.md)
   * [获取待/已采购单详情（采购员）](ding-dan-mo-kuai/huo-qu-dai.md)
   * [批量一件采购（采购员）](ding-dan-mo-kuai/pi-liang-yi-jian-cai-gou.md)
+  * [采购统计（采购员）](ding-dan-mo-kuai/cai-gou-tong-ji-ff08-cai-gou-yuan-ff09.md)
 * [资金管理](zi-jin-guan-li.md)
   * [获取钱包日志列表](zi-jin-guan-li/huo-qu-qian-bao-ri-zhi-lie-biao.md)
   * [银行卡管理](zi-jin-guan-li/yin-xing-qia-guan-li.md)
