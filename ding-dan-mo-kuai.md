@@ -98,6 +98,13 @@
 | :--- | :--- | :--- | :--- |
 | OrderTimeList | array object | 否 | 订单操作时间列表 |
 | IsServiceOrder | int | 否 | 是否服务订单：0否，1是 |
+| AutoReceiveLeftMinutes| int | 否 |自动签收时间 |
+| AutoCancelLeftMinutes| int | 否 | 自动取消时间 |
+
+
+
+
+
 
 > #### OrderTime {#请求数据}
 
@@ -188,6 +195,9 @@
 | IsShowFromSeller | int | 否 | 是否显示商家 |
 | IsShowPrivacyPropertys | int | 否 | 是否显示隐私属性 |
 | IsShowIsServiceOrder | int | 否 | 是否显示是否服务订单 |
+| IsShowLeftMinutes | int | 否 | 是否显示剩余操作时间 |
+
+
 
 #### 模块页面编号枚举说明 {#请求数据}
 
