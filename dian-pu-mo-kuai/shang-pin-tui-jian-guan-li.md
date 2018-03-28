@@ -19,6 +19,8 @@
 | Seller | object | 否 | 商家 |
 | Shop | object | 否 | 店铺 |
 | Product | object | 否 | 商品（简版） |
+| Distance| decimal| 否 | 距离|
+
 
 > #### 统计计算字段 {#请求数据}
 
@@ -44,6 +46,9 @@
 | RecommendTypeList | array int | 否 | 推荐类型 |
 | AreaSysNo | int | 否 | 推荐区域系统编码 |
 | CategorySysNo | int | 否 | 推荐行业系统编码 |
+| PCDDesc | string | 否 | 推荐区域PCD描述 |
+| Longitude| deciaml | 否 | Longitude|
+| Latitude| deciaml | 否 | Latitude|
 
 > #### 查询Limit字段 {#请求数据}
 
