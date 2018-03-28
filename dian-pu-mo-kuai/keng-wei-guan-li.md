@@ -67,6 +67,8 @@
 | IsShieldList | array int | 否 | 是否屏蔽：0否，1是 |
 | LaunchAreaSysNo | int | 否 | 投放区域系统编码 |
 | LaunchCategorySysNo | int | 否 | 投放行业系统编码 |
+| LaunchPCDDesc | string| 否 |投放区域PCD描述  |
+
 
 > #### 查询Limit字段 {#请求数据}
 
