@@ -23,6 +23,10 @@ _**【接口地址】**_
 | ModuleSourceType | int | 否 | 来源类型 |
 | ModuleSourceClass | int | 否 | 来源分类 |
 | ModuleSourceSysNo| int | 否 | 来源编码 |
+| KeyWord| string | 否 | 关键字 |
+
+
+
 
 
 
