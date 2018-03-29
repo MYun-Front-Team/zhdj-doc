@@ -22,6 +22,9 @@ _**【接口地址】**_
 | ModuleSysNo | int | 否 | 模块编码 |
 | ModuleSourceType | int | 否 | 来源类型 |
 | ModuleSourceClass | int | 否 | 来源分类 |
+| ModuleSourceSysNo| int | 否 | 来源编码 |
+
+
 
 > #### 应答_数据（数组）_ {#请求数据}
 

@@ -420,7 +420,7 @@
   * [支付方式管理](jiao-yi-mo-kuai/zhi-fu-fang-shi-guan-li.md)
     * [获取支付方式列表](jiao-yi-mo-kuai/huo-qu-zhi-fu-fang-shi-lie-biao.md)
     * [创建在线支付](jiao-yi-mo-kuai/fa-qi-zhi-fu.md)
-  * 收藏管理
+  * [收藏管理](jiao-yi-mo-kuai/shou-cang-guan-li.md)
     * [新增收藏](jiao-yi-mo-kuai/xin-zeng-shou-cang.md)
     * [获取收藏列表](jiao-yi-mo-kuai/huo-qu-shou-cang-lie-biao.md)
 * [订单模块](ding-dan-mo-kuai.md)
