@@ -423,6 +423,7 @@
   * [收藏管理](jiao-yi-mo-kuai/shou-cang-guan-li.md)
     * [新增收藏](jiao-yi-mo-kuai/xin-zeng-shou-cang.md)
     * [获取收藏列表](jiao-yi-mo-kuai/huo-qu-shou-cang-lie-biao.md)
+    * [删除收藏](jiao-yi-mo-kuai/shan-chu-shou-cang.md)
 * [订单模块](ding-dan-mo-kuai.md)
   * [获取订单列表](ding-dan-mo-kuai/huo-qu-ding-dan-lie-biao.md)
   * [获取订单详情](ding-dan-mo-kuai/huo-qu-ding-dan-xiang-qing.md)
