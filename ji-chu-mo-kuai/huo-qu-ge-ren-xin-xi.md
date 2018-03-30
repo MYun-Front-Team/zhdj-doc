@@ -56,6 +56,18 @@ _**【接口地址】**_
 | PersonIDCardUrlList | array string | 否 | 身份证图片列表 |
 | ResidencePermitUrlList | array string | 否 | 居住证图片列表 |
 | TagList | array object | 否 | 标签列表 |
+| FatherPersonName| string  | 否 |推荐人名字 |
+
+
+
+
+
+
+
+
+
+
+
 
 
 
