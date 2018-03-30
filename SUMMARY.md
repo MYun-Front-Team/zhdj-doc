@@ -270,6 +270,7 @@
   * [获取消息列表](xiao-xi-tong-zhi-mo-kuai/huo-qu-xiao-xi-lie-biao.md)
   * [获取消息人员列表](xiao-xi-tong-zhi-mo-kuai/huo-qu-xiao-xi-ren-yuan-lie-biao.md)
   * [获取消息详情](xiao-xi-tong-zhi-mo-kuai/huo-qu-xiao-xi-xiang-qing.md)
+  * [批量设置消息已读](xiao-xi-tong-zhi-mo-kuai/pi-liang-she-zhi-xiao-xi-yi-du.md)
 * [商品模块](shang-pin-mo-kuai.md)
   * [新增款](shang-pin-mo-kuai/xin-zeng-kuan.md)
   * [修改款](shang-pin-mo-kuai/xiu-gai-kuan.md)
