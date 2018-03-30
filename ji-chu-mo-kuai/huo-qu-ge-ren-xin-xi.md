@@ -26,6 +26,8 @@ _**【接口地址】**_
 | IsShowPropertys | int | 否 | 是否显示人员属性列表 |
 | IsShowPrivacyPropertys | int | 否 | 是否显示隐私属性列表 |
 | IsShowTagList | int | 否 | 是否显示标签列表 |
+| IsShowFatherPersonName | int | 否 | 是否显示推荐人名字|
+
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
