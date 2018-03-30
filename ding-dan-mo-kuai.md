@@ -48,6 +48,7 @@
 | FromSeller | object | 否 | 商家实体（简版） |
 | PrivacyPropertys | array object | 否 | 隐私属性列表 |
 | CouponCodeUseStatus | int | 是 | 服务订单使用情况：0未使用，1部分使用，10已使用 |
+|CommentStatus|int | 是 | 评价状态（0未评价，10已经评价）|
 
 #### OrderAmount说明 {#请求数据}
 
