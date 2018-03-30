@@ -41,6 +41,7 @@
 | ModuleSourceType | int | 否 | 来源类型 |
 | ModuleSourceClass | int | 否 | 来源分类 |
 | ModuleSourceSysNo | int | 否 | 来源系统编码 |
+| ModuleSourceName| int | 否 | 来源系统名称 |
 | HollowUrl | string | 否 | 链接地址 |
 
 > #### 统计计算字段 {#请求数据}
