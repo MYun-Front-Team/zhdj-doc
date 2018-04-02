@@ -18,11 +18,16 @@
 | BondFee | decimal（18，2） | 否 | 保证金 |
 | MemberShipFee | decimal（18，2） | 否 | 会员费 |
 | MemberShipEndDate | string | 否 | 会员费到期时间 |
+| MemberShipStatus | string | 否 | 当前会员费有效状态10有效，0无效 |
 |  |  |  |  |
 | FrozenCommissionAmount | decimal（18，2） | 否 | 冻结佣金金额（来源分润） |
 | CommissionTotalAmount | decimal（18，2） | 否 | 佣金总金额（来源分润） |
 | AgentFee | decimal（18，2） | 否 | 代理费 |
 | AgentFeeEndDate | decimal（18，2） | 否 | 代理费到期时间 |
+| AgentFeeStatus | int | 否 | 当前代理费有效状态10有效，0无效 |
+
+
+
 
 
 
