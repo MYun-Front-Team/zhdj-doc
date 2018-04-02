@@ -54,6 +54,9 @@
 | EffectiveDays | int | 否 | 有效天数 |
 | EffectiveDate | string | 否 | 有效期 |
 | IsHidden | int | 否 | 是否隐藏 |
+| IsSupportPointPay| int | 否 | 是否支持积分支付 |
+
+
 
 > #### Price说明 {#请求数据}
 
@@ -63,6 +66,8 @@
 | MarketPrice | decimal\(18,2\) | 否 | 市场价 |
 | SalePrice | decimal\(18,2\) | 否 | 销售价 |
 | MaxSalePrice | decimal\(18,2\) | 否 | 最大销售价 |
+| PointPrice | decimal\(18,2\) | 否 | 积分价格 |
+
 
 > #### SKU基础字段 {#请求数据}
 >

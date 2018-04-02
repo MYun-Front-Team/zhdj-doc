@@ -48,6 +48,8 @@ _**【接口地址】**_
 | EffectiveType | int | 否（可选配置） | 有效类型：0天数，1日期 |
 | EffectiveDays | int | 否（可选配置） | 有效天数 |
 | EffectiveDate | string | 否（可选配置） | 有效期 |
+| EffectiveType | int | 否（可选配置） | 有效类型：0天数，1日期 |
+
 
 #### _应答数据 _ {#应答数据-}
 
