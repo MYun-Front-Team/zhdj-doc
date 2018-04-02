@@ -50,6 +50,12 @@ _**【接口地址】**_
 | EffectiveDate | string | 否（可选配置） | 有效期 |
 | EffectiveType | int | 否（可选配置） | 有效类型：0天数，1日期 |
 | IsSupportPointPay| int | 否 | 是否支持积分支付 |
+| RewardPoint| int | 否 | 奖励积分 |
+
+
+
+
+
 
 
 
