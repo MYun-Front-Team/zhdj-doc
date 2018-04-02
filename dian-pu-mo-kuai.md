@@ -60,6 +60,8 @@
 | PersonFollowCount | int | 否 | 关注数量 |
 | DeviceCount | int | 否 | 设备数量 |
 |SalePersonCount|int | 否 |消费人数 |
+|Wallet|int | 否 |钱包|
+
 > #### 功能按钮字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
@@ -103,6 +105,8 @@
 | IsShowProductGroupList | int | 否 | 是否显示推荐商品（值为显示的数量） |
 | IsShowBrand | int | 否 | 是否显示品牌 |
 | IsShowShopBannerUrlList | int | 否 | 是否显示店铺Banner列表 |
+| IsShowWallet| int | 否 | 是否显示钱包|
+
 
 ####  {#应答数据-（巡河记录数组）}
 
