@@ -115,8 +115,9 @@
 | TagSysNoLIst | array int | 否 | 标签系统编码列表 |
 | IsTagProduct | int | 否 | 是否显示含有标签的商品 |
 |IsHidden|int | 否 | 是否隐藏 |
-| PCDCode | string | 否 | 产地PCD代码 |
-| PCDDescription | string | 否 | 产地PCD描述 |
+| ShopPCDCode | string | 否 |店铺PCD代码 |
+| ShopPCDDescription | string | 否 |店铺PCD描述 |
+
 
 > #### 查询Limit字段 {#请求数据}
 
