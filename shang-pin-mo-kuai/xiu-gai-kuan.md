@@ -42,6 +42,11 @@ _**【接口地址】**_
 | EffectiveDays | int | 否 | 有效天数 |
 | EffectiveDate | string | 否 | 有效期 |
 |IsHidden|int | 否 | 是否隐藏 |
+| IsSupportPointPay| int | 否 | 是否支持积分支付 |
+
+
+
+
 
 #### _应答数据_ {#应答数据-}
 
