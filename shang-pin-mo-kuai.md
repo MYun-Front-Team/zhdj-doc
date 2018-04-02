@@ -55,7 +55,7 @@
 | EffectiveDate | string | 否 | 有效期 |
 | IsHidden | int | 否 | 是否隐藏 |
 | IsSupportPointPay| int | 否 | 是否支持积分支付 |
-
+| RewardPoint| int | 否 | 奖励积分 |
 
 
 > #### Price说明 {#请求数据}
