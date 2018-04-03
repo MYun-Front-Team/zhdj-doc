@@ -99,7 +99,6 @@
 | :--- | :--- | :--- | :--- |
 | OrderTimeList | array object | 否 | 订单操作时间列表 |
 | IsServiceOrder | int | 否 | 是否服务订单：0否，1是 |
-| IsPointByOrder | int | 否 | 是否是积分兑换订单：0否，1是 |
 | AutoReceiveLeftMinutes| int | 否 |自动签收时间 |
 | AutoCancelLeftMinutes| int | 否 | 自动取消时间 |
 
@@ -167,7 +166,6 @@
 | ShopName | string | 否 | 店铺名称 |
 | CouponCodeUseStatusList | array int | 否 | 服务订单使用情况：0未使用，1部分使用，10已使用 |
 | IsServiceOrder | int | 否 | 是否是服务订单 |
-| IsPointByOrder | int | 否 | 是否是积分兑换订单：0否，1是 |
 |CommentStatusList| array int | 是 | 评价状态（0未评价，10已经评价）|
 
 
