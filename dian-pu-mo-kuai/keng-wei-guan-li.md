@@ -73,7 +73,7 @@
 | LaunchCategorySysNo | int | 否 | 投放行业系统编码 |
 | LaunchPCDDesc | string| 否 |投放区域PCD描述  |
 | LaunchStatusList| array object | 否 |投放状态：0未开始，1进行中，2已过期（只有当已发布状态时该值有意义） |
-
+|DataRangeCodeList| array string| 否 |投放位置编码 |
 
 
 > #### 查询Limit字段 {#请求数据}
