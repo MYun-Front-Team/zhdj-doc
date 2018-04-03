@@ -25,6 +25,8 @@
 | AgentFee | decimal（18，2） | 否 | 代理费 |
 | AgentFeeEndDate | decimal（18，2） | 否 | 代理费到期时间 |
 | AgentFeeStatus | int | 否 | 当前代理费有效状态10有效，0无效 |
+| AvailablePoint | int | 是 | 可支付积分余额|
+
 
 
 
