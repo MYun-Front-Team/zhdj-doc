@@ -5,7 +5,7 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 是 | 推荐组织系统编码 |
-| DataRangeSysNo | int | 是 | 数据范围系统编码（推荐位置树） |
+| DataRangeSysNo | int | 是 | 数据范围系统编码（店铺树） |
 | RecommendSysNo | int | 是 | 推荐系统编码 |
 | RecommendType | int | 是 | 类型：0首页推荐，1特惠 |
 | CategorySysNo | int | 否 | 推荐行业系统编码 |
