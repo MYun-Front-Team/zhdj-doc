@@ -43,7 +43,7 @@
 | ModuleSourceSysNo | int | 否 | 来源系统编码 |
 | ModuleSourceName| int | 否 | 来源系统名称 |
 | HollowUrl | string | 否 | 链接地址 |
-| OrganizationSysNo | int | 是 | 投放组织系统编码 |
+| OrganizationSysNo | int | 是 | 商品组织系统编码 |
 
 > #### 统计计算字段 {#请求数据}
 
