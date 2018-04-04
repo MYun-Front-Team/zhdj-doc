@@ -21,6 +21,7 @@
 | Latitude | decimal\(18,2\) | 否 | 纬度 |
 | CustomerLogoPathList | array string | 否 | 客户Logo的路径列表 |
 | CustomerLogoUrlList | array string | 否 | 客户Logo的Url列表 |
+| CustomerPersonSysNo | string | 否 | 客户老板系统编码 |
 
 > #### CustomerStatistic统计计算字段 {#请求数据}
 
