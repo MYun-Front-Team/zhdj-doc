@@ -10,7 +10,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/UMAction/Video/UploadCreate
+http://ip:port/UMQuery/Video/UploadCreate
 
 > #### _请求数据_ {#请求数据}
 
