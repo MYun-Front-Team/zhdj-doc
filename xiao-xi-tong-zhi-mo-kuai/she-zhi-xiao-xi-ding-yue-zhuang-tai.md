@@ -19,7 +19,6 @@ http://ip:port/MessageAction/Message/SetMessageConfigSubStatus
 | ModuleSysNo | int | 否 | 模块编码 |
 | ModuleSourceType | int | 否 | 来源类型 |
 | ModuleSourceClass | int | 否 | 来源分类 |
-| ModuleSourceSysNo | int | 否 | 来源系统编码 |
 | OperateType | int | 否 | 操作类型 |
 | BizCompanyCode | int | 是 | BizCompanyCode |
 | SubStatus | int | 是| 订阅状态：0取消订阅，1订阅 |
