@@ -151,6 +151,8 @@
   * [获取对照类型日志列表](tong-yong-mo-kuai/huo-qu-dui-zhao-lei-xing-ri-zhi-lie-biao.md)
   * [根据坐标，获取区域](tong-yong-mo-kuai/gen-ju-zuo-biao-ff0c-huo-qu-qu-yu.md)
   * [获取所有城市列表](tong-yong-mo-kuai/huo-qu-suo-you-cheng-shi-lie-biao.md)
+  * [获取视频上传地址和凭证](tong-yong-mo-kuai/huo-qu-shi-pin-shang-chuan-di-zhi-he-ping-zheng.md)
+  * [获取视频播放地址](tong-yong-mo-kuai/huo-qu-shi-pin-bo-fang-di-zhi.md)
 * [积分模块](ji-fen-mo-kuai.md)
   * [根据模块，获取积分配置列表](ji-fen-mo-kuai/gen-ju-mo-kuai-ff0c-huo-qu-ji-fen-pei-zhi-lie-biao.md)
   * [获取业务积分记录详情列表](tong-yong-mo-kuai/huo-qu-ye-wu-ji-fen-ji-lu-xiang-qing-lie-biao.md)
