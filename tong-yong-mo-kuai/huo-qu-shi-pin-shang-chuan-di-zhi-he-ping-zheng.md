@@ -16,14 +16,13 @@ http://ip:port/UMQuery/Video/UploadCreate
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| Action | string | 是 | 操作接口名，系统规定参数，取值：CreateUploadVideo |
 | Title | string | 是 | 视频标题，长度不超过128个字节，UTF8编码 |
 | FileName| string | 是 | 视频源文件名，必须带扩展名，且扩展名不区分大小写 |
-| FileSize| string | 是 | 视频文件大小，单位：字节 |
-| Description| string | 是 |视频描述，长度不超过1024个字节，UTF8编码 |
-| CoverURL| string | 是 |自定义视频封面URL地址 |
-| CateId| long | 是 |视频分类ID，请在“点播控制台-全局设置-分类管理”里编辑或查看分类的ID|
-| Tags| string | 是 |视频标签，单个标签不超过32字节，最多不超过16个标签。多个用逗号分隔，UTF8编码|
+| FileSize| string | 否 | 视频文件大小，单位：字节 |
+| Description| string | 否 |视频描述，长度不超过1024个字节，UTF8编码 |
+| CoverURL| string | 否 |自定义视频封面URL地址 |
+| CateId| long | 否 |视频分类ID，请在“点播控制台-全局设置-分类管理”里编辑或查看分类的ID|
+| Tags| string | 否 |视频标签，单个标签不超过32字节，最多不超过16个标签。多个用逗号分隔，UTF8编码|
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 
