@@ -83,7 +83,7 @@
 | IsShowUsedCount | int | 否 | 是否显示已使用数量 |
 | IsShowCouponUrlList | int | 否 | 是否显示图片列表 |
 | IsShowIsReceived | int | 否 | 是否显示操作人的领取状态 |
-| IsShowCouponCode | int | 否 | 是否显示操作人领取的优惠券码和系统编码 |
+
 
 
 ####  {#应答数据-（巡河记录数组）}
