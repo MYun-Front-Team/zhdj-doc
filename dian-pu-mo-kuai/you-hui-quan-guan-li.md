@@ -27,7 +27,7 @@
 | CouponStatus | int | 是 | 状态：0新建,10发布,11撤下 |
 | OverlayType | int | 是 | 叠加类型，0-不可叠加，1-可叠加 |
 | IsShareToPublic | int | 是 | 是否分享：0否，1是 |
-| IsSendToFriend | int | 是 | 是否转增：0否，1是 |
+| ~~IsSendToFriend~~ | ~~int~~ | ~~是~~ | ~~是否转增：0否，1是~~ |
 | IsUnifiedCoding | int | 是 | 是否统一编码：0否，1是 |
 | TicketCode | string | 否 | 券编码\(当统一编码=1必填\) |
 | IsReturn | int | 是 | 是否返还：0否，1是 |
