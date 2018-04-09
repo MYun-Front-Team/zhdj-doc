@@ -46,7 +46,8 @@
 | SendedCount | int | 否 | 已发数量 |
 | UsedCount | int | 否 | 已使用数量 |
 | IsReceived | int | 否 | 是否已领取：0否，1是 |
-
+| CouponCodeSysNo | int | 否 |领取的优惠券码系统编码  |
+| CouponCode | string | 否 |领取的优惠券码  |
 
 > #### 功能按钮字段 {#请求数据}
 
