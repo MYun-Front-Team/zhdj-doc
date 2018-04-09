@@ -26,7 +26,8 @@
 | PickUpEndDate | string | 否 | 领取结束时间 |
 | CouponStatus | int | 是 | 状态：0新建,10发布,11撤下 |
 | OverlayType | int | 是 | 叠加类型，0-不可叠加，1-可叠加 |
-| IsShareToPublic | int | 是 | 是否分享：0否，1是 |
+| IsShareToPublic | int | 是 | 是否分享券：0否，1是 |
+| ShareStatus | int | 否 | 分享状态0未分享，1已分享，10已领取|
 | ~~IsSendToFriend~~ | ~~int~~ | ~~是~~ | ~~是否转增：0否，1是~~ |
 | IsUnifiedCoding | int | 是 | 是否统一编码：0否，1是 |
 | TicketCode | string | 否 | 券编码\(当统一编码=1必填\) |
@@ -45,6 +46,7 @@
 | SendedCount | int | 否 | 已发数量 |
 | UsedCount | int | 否 | 已使用数量 |
 | IsReceived | int | 否 | 是否已领取：0否，1是 |
+
 
 > #### 功能按钮字段 {#请求数据}
 
