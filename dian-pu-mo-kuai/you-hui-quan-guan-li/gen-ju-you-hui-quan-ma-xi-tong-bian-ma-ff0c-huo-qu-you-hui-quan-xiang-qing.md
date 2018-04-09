@@ -27,6 +27,10 @@ http://ip:port/ShopQuery/Coupon/GetCouponsByCouponCodeSysNo
 | StartDate | datetime | 否 | 有效期开始时间 |
 | EndDate | datetime | 否 | 有效期结束时间 |
 | Coupon | object | 否 | 优惠券 |
+| Person | object | 否 | 优惠券拥有者|
+
+
+
 
 
 
