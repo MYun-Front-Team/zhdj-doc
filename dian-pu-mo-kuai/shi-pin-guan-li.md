@@ -13,6 +13,7 @@
 | VideoID | string | 否 | 第三方视频ID |
 | Organization | object | 否 | 组织 |
 | Seller | object | 否 | 商家 |
+| FileName | string | 是 | 视频文件名 |
 | VideoPathList | array string | 否 | 视频主图path路径 |
 | VideoUrlList | array string | 否 | 视频主图url路径 |
 | VideoPersonList | array object | 否 | 人员足迹列表 |
