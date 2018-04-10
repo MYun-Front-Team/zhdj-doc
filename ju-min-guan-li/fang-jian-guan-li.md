@@ -6,6 +6,8 @@
 | :--- | :--- | :--- | :--- |
 | RoomSysNo | int | 是 | 系统编码 |
 | HouseSysNo | int | 是 | 房屋系统编码 |
+| FloorSysNo | int | 是 | 楼层系统编码 |
+| FloorName | int | 是 | 楼层名称 |
 | RoomNo | string | 否 | 房间编号 |
 | RoomName | string | 是 | 房间名称 |
 | RoomArea | decimal\(18,2\) | 否 | 房间面积 |
