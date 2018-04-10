@@ -8,7 +8,7 @@
 | DataRangeSysNo | int | 是 | 数据范围系统编码（投放位置树） |
 | DataRangeNames| array[string]| 是 | 数据范围系统名称（投放位置树：从祖先到自己） |
 | HollowSysNo | int | 是 | 坑位系统编码 |
-| HollowType | int | 是 | 坑位类型：0链接，1商品，2店铺，3新闻 |
+| HollowType | int | 是 | 坑位类型：0链接，1商品，2店铺，3新闻,4录播 |
 | LaunchCategorySysNo | int | 否 | 投放行业系统编码 |
 | LaunchAreaSysNo | int | 否 | 投放区域系统编码 |
 | LaunchPCDCode | string | 否 | 投放区域PCDCode |
