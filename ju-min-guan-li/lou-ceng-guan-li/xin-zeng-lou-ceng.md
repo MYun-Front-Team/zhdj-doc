@@ -19,6 +19,7 @@ http://ip:port/ResidentAction/Floor/AddFloor
 | :--- | :--- | :--- | :--- |
 | HouseSysNo | int | 是 | 房间系统编码 |
 | FloorName| string| 是 | 楼层名称 |
+| Propertys | array object | 否 | 房间属性列表 |
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
