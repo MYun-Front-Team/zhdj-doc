@@ -20,6 +20,7 @@ _**【接口地址】**_
 | VideoTitle | string | 是 | 视频标题 |
 | VideoPathList | array string | 否 | 视频主图path路径 |
 | FileName | string | 是 | 视频文件名 |
+| VideoID | string | 否 | 第三方视频ID |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
