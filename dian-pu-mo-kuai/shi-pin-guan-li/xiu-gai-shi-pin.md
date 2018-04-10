@@ -19,6 +19,7 @@ _**【接口地址】**_
 | VideoSysNo | int | 是 | 系统编码 |
 | VideoTitle | string | 是 | 视频标题 |
 | VideoPathList | array string | 否 | 视频主图path路径 |
+| FileName | string | 是 | 视频文件名 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
