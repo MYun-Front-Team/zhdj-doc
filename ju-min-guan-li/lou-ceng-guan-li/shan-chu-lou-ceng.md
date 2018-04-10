@@ -16,7 +16,7 @@ http://ip:port/ResidentAction/Floor/DeleteFloor
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| FloorSysNo | int | 是 | 系统编码 |
+| FloorSysNos | array int | 是 | 系统编码 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
