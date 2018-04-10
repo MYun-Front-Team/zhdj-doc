@@ -122,7 +122,7 @@
 | IsHidden | int | 否 | 是否隐藏 |
 | ShopPCDCode | string | 否 | 店铺PCD代码 |
 | ShopPCDDescription | string | 否 | 店铺PCD描述 |
-|IndustryClassSysNoList| array int | 否 | 行业树 |
+|IndustryClassSysNoList| array int | 否 | 行业类别 |
 
 > #### 查询Limit字段 {#请求数据}
 
