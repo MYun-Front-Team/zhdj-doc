@@ -18,7 +18,7 @@ http://ip:port/ResidentAction/Floor/EditFloor
 | :--- | :--- | :--- | :--- |
 | FloorSysNo | int | 是 | 系统编码 |
 | FloorName| string| 是 | 楼层名称 |
-| Propertys | array object | 否 | 房间属性列表 |
+| Propertys | array object | 否 | 楼层属性列表 |
 
 
 
