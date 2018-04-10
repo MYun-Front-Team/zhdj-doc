@@ -7,6 +7,7 @@
 | FloorSysNo | int | 是 | 系统编码 |
 | HouseSysNo | int | 是 | 房屋系统编码 |
 | FloorName| string| 是 | 楼层编 |
+| Propertys | array object | 否 | 房间属性列表 |
 
 
 
