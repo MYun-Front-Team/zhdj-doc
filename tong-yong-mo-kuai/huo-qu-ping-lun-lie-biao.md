@@ -29,6 +29,7 @@ _**【接口地址】**_
 | AverageStartScore | decimal\(18,2\) | 否 | 开始分数 |
 | AverageEndScore | decimal\(18,2\) | 否 | 结束分数 |
 
+
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
@@ -42,6 +43,7 @@ _**【接口地址】**_
 | Propertys | array object | 否 | 评论明细列表（见通用-属性） |
 | ModuleRelation | object | 否 | 模块关联实体 |
 | AuditRecord | object | 否 | 回复实体（同审核） |
+| AuditStatus | int | 否 | 回复状态：0否，1是 |
 
 #### Limit说明 {#应答数据-（巡河记录数组）}
 
