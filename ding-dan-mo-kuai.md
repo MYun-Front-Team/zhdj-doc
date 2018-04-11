@@ -166,7 +166,7 @@
 | CardNo | string | 否 | 会员卡号 |
 | ShopName | string | 否 | 店铺名称 |
 | CouponCodeUseStatusList | array int | 否 | 服务订单使用情况：0未使用，1部分使用，10已使用 |
-| IfOverdueStautsList | array int | 是 | 服务订单过期情况:0未过期，1已过期 |
+| IfOverdueStautsList | array int | 是 | 服务订单过期情况:0未过期，1已过期（按次数的服务订单永不过期） |
 | IsServiceOrder | int | 否 | 是否是服务订单 |
 |CommentStatusList| array int | 是 | 评价状态（0未评价，10已经评价）|
 
