@@ -26,7 +26,7 @@ _**【应用场景】**_
 
 7、代理费功能：直充钱包ModuleSysNo=26000，ModuleSourceType=26010，ModuleSourceClass=0，ModuleSourceSysNo=代理费系统编码；
 
-8、充值功能（无会员卡）：直充钱包ModuleSysNo=26000，ModuleSourceType=26010，ModuleSourceClass=0，ModuleSourceSysNo=充值系统编码；
+8、充值功能（无会员卡）：直充钱包ModuleSysNo=26000，ModuleSourceType=26011，ModuleSourceClass=0，ModuleSourceSysNo=充值系统编码；
 
 
 
