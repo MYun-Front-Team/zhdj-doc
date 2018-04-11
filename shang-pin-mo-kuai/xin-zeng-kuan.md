@@ -51,6 +51,10 @@ _**【接口地址】**_
 | EffectiveType | int | 否（可选配置） | 有效类型：0天数，1日期 |
 | IsSupportPointPay| int | 否 | 是否支持积分支付 |
 | RewardPoint| int | 否 | 奖励积分 |
+| ServiceType| int | 否 | 消费方式（0按次数，1按时间） |
+| ServiceOutMinutes| int | 否 | 过期时间（分钟）（0为长期有效）|
+
+
 
 
 
