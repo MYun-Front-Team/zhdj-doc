@@ -57,7 +57,7 @@
 | IsSupportPointPay| int | 否 | 是否支持积分支付 |
 | RewardPoint| int | 否 | 奖励积分 |
 | ServiceType| int | 否 | 消费方式（0按次数，1按时间） |
-| ServiceOutDate| int | 否 | 过期时间（分钟）（0为长期有效）|
+| ServiceOutMinutes| int | 否 | 过期时间（分钟）（0为长期有效）|
 
 
 > #### Price说明 {#请求数据}
