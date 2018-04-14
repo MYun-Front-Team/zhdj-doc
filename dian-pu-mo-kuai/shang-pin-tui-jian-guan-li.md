@@ -20,6 +20,7 @@
 | Shop | object | 否 | 店铺 |
 | Product | object | 否 | 商品（简版） |
 | Distance| decimal| 否 | 距离|
+| RecommendObjType| int | 否 | 推荐对象类型0(商品) 1店铺 |
 
 
 > #### 统计计算字段 {#请求数据}
