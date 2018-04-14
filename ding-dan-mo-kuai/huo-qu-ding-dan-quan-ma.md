@@ -27,6 +27,7 @@ _**【接口地址】**_
 | TotalCount | int | 是 | 总数 |
 | UsedCount | int | 是 | 已使用数量 |
 | EffectiveDate | string | 是 | 有效期 |
+| IfOverdueStauts | int | 是 | 是否失效用（0未失效1已失效） |
 
 
 

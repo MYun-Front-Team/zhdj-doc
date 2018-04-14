@@ -5,8 +5,10 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | FloorSysNo | int | 是 | 系统编码 |
+| RoomCount | int | 是 | 房间数量 |
 | HouseSysNo | int | 是 | 房屋系统编码 |
 | FloorName| string| 是 | 楼层编 |
+| Propertys | array object | 否 | 房间属性列表 |
 
 
 
@@ -31,7 +33,7 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-
+| IsShowPropertys | int | 否 | 是否显示楼层属性列表 |
 
 
 

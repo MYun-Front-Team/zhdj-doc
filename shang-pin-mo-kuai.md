@@ -56,6 +56,8 @@
 | IsHidden | int | 否 | 是否隐藏 |
 | IsSupportPointPay| int | 否 | 是否支持积分支付 |
 | RewardPoint| int | 否 | 奖励积分 |
+| ServiceType| int | 否 | 消费方式（0按次数，1按时间） |
+| ServiceOutMinutes| int | 否 | 过期时间（分钟）（0为长期有效）|
 
 
 > #### Price说明 {#请求数据}
@@ -123,6 +125,8 @@
 | ShopPCDCode | string | 否 | 店铺PCD代码 |
 | ShopPCDDescription | string | 否 | 店铺PCD描述 |
 |IndustryClassSysNoList| array int | 否 | 行业类别 |
+| IsSupportPointPay| int | 否 | 是否支持积分支付 |
+
 
 > #### 查询Limit字段 {#请求数据}
 

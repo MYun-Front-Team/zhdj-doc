@@ -488,10 +488,11 @@
     * [获取会员卡日志列表](zi-jin-guan-li/huo-qu-hui-yuan-qia-ri-zhi-lie-biao.md)
     * [实名认证](zi-jin-guan-li/shi-ming-ren-zheng.md)
   * [获取钱包充值详情](zi-jin-guan-li/huo-qu-qian-bao-chong-zhi-xiang-qing.md)
+  * [钱包充值](zi-jin-guan-li/qian-bao-chong-zhi.md)
   * [新增保证金](zi-jin-guan-li/xin-zeng-bao-zheng-jin.md)
   * [新增会员费](zi-jin-guan-li/xin-zeng-hui-yuan-fei.md)
   * [设置支付密码](zi-jin-guan-li/she-zhi-zhi-fu-mi-ma.md)
-  * [新增代理费](zi-jin-guan-li/xin-zeng-dai-li-fei.md)
+  * 钱包充值
 * [工单模块](gong-dan-mo-kuai.md)
   * [获取工单列表](gong-dan-mo-kuai/huo-qu-gong-dan-lie-biao.md)
   * [获取工单详情](gong-dan-mo-kuai/huo-qu-gong-dan-xiang-qing.md)

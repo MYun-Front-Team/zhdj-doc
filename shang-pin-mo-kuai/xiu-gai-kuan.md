@@ -44,6 +44,10 @@ _**【接口地址】**_
 |IsHidden|int | 否 | 是否隐藏 |
 | IsSupportPointPay| int | 否 | 是否支持积分支付 |
 | RewardPoint| int | 否 | 奖励积分 |
+| ServiceType| int | 否 | 消费方式（0按次数，1按时间） |
+| ServiceOutMinutes| int | 否 | 过期时间（分钟）（0为长期有效）|
+
+
 
 
 

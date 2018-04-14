@@ -48,6 +48,7 @@
 | FromSeller | object | 否 | 商家实体（简版） |
 | PrivacyPropertys | array object | 否 | 隐私属性列表 |
 | CouponCodeUseStatus | int | 是 | 服务订单使用情况：0未使用，1部分使用，10已使用 |
+| IfOverdueStauts | int | 是 | 服务订单是否失效（0未失效1已失效2部分失效） |
 |CommentStatus|int | 是 | 评价状态（0未评价，10已经评价）|
 
 #### OrderAmount说明 {#请求数据}
@@ -165,6 +166,7 @@
 | CardNo | string | 否 | 会员卡号 |
 | ShopName | string | 否 | 店铺名称 |
 | CouponCodeUseStatusList | array int | 否 | 服务订单使用情况：0未使用，1部分使用，10已使用 |
+| IfOverdueStautsList | array int | 是 | 服务订单是否失效（0未失效1已失效2部分失效） |
 | IsServiceOrder | int | 否 | 是否是服务订单 |
 |CommentStatusList| array int | 是 | 评价状态（0未评价，10已经评价）|
 

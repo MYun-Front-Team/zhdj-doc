@@ -18,13 +18,17 @@ _**【应用场景】**_
 
 3、刷卡支付时，CardNo和CardKey必填，需验证卡的秘密正确后，找到卡所属组织，然后进行钱包支付；
 
-4、充值功能：直充钱包ModuleSysNo=26000，ModuleSourceType=26001，ModuleSourceClass=1，ModuleSourceSysNo=充值系统编码；
+4、充值功能（有会员卡）：直充钱包ModuleSysNo=26000，ModuleSourceType=26001，ModuleSourceClass=1，ModuleSourceSysNo=充值系统编码；
 
 5、保证金功能：直充钱包ModuleSysNo=26000，ModuleSourceType=26007，ModuleSourceClass=0，ModuleSourceSysNo=保证金系统编码；
 
 6、会员费功能：直充钱包ModuleSysNo=26000，ModuleSourceType=26008，ModuleSourceClass=0，ModuleSourceSysNo=会员费系统编码；
 
 7、代理费功能：直充钱包ModuleSysNo=26000，ModuleSourceType=26010，ModuleSourceClass=0，ModuleSourceSysNo=代理费系统编码；
+
+8、充值功能（无会员卡）：直充钱包ModuleSysNo=26000，ModuleSourceType=26011，ModuleSourceClass=0，ModuleSourceSysNo=充值系统编码；
+
+
 
 _**【接口地址】**_
 
