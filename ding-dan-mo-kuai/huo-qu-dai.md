@@ -41,6 +41,7 @@ _**【接口地址】**_
 | SkuFileThumbnailUrlList | array\[string\] | 是 | SKU缩略图 |
 | ProductFileThumbnailUrlList | array\[string\] | 是 | 款缩略图 |
 | Items | array\[PurchaseOrderItem\] | 是 | 采购单明细 |
+| ProductGroupMemo | string | 否 | 款备注 |
 
 #### PurchaseOrderItem
 

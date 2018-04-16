@@ -40,6 +40,8 @@ http://ip:port/OrderQuery/Order/GetWaitPurchaseOrderList
 | UnitPrice| decimal| 是 | 单价|
 | SkuFileThumbnailUrlList| array[string]| 是 | SKU缩略图|
 | ProductFileThumbnailUrlList| array[string]| 是 | 款缩略图|
+| ProductGroupMemo | string | 否 | 款备注 |
+
 
 
 
