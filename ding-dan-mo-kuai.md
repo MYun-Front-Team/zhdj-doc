@@ -50,6 +50,8 @@
 | CouponCodeUseStatus | int | 是 | 服务订单使用情况：0未使用，1部分使用，10已使用 |
 | IfOverdueStauts | int | 是 | 服务订单是否失效（0未失效1已失效2部分失效） |
 |CommentStatus|int | 是 | 评价状态（0未评价，10已经评价）|
+|IsDoortodoor|int | 是 | 是否上门服务|
+
 
 #### OrderAmount说明 {#请求数据}
 
