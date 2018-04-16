@@ -71,6 +71,7 @@
 | IsMyFootPrint | int | 否 | 是否显示自己的：0否，1是（不传查全部，传值需通过UserSysNo匹配Person） |
 | MyFootStatus | int | 否 | 自己的使用状态：0未使用，1已使用，2已过期 |
 | ShopCategorySysNoList | array int | 否 | 行业分类 |
+| IsOverDue | int | 是 | 是否过期：0否，1是 |
 
 > #### 查询Limit字段 {#请求数据}
 
