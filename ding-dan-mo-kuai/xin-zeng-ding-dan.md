@@ -47,6 +47,9 @@ _**【接口地址】**_
 | AddOrderAmountList | array object | 否 | 订单优惠列表 |
 | PrivacyPropertys | array object | 否 | 隐私属性列表 |
 | CouponCodes | array string | 否 | 订单优惠券码 |
+|IsDoortodoor|int | 是 | 是否上门服务|
+
+
 
 
 > #### AddOrderItem订单商品列表 {#请求数据}

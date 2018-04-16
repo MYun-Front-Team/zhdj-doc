@@ -31,6 +31,9 @@ _**【接口地址】**_
 | BillType | int | 否 | 发票类型：1企业，2机构，3个人 |
 | OrderRemark | string | 否 | 订单买家备注 |
 | DeliveryRemark | string | 否 | 订单卖家备注 |
+|IsDoortodoor|int | 是 | 是否上门服务|
+
+
 
 > #### 应答_数据_ {#请求数据}
 
