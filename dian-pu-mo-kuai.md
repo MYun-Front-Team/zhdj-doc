@@ -49,6 +49,9 @@
 | StarsRemark| decimal | 否 | 店铺星级 |
 | ContractPCDCode| string | 否 | 联系地址 |
 | ContractPCDDescription| string | 否 | 联系地址 |
+| SortNo | int | 否 | 排序 |
+
+
 
 
 

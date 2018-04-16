@@ -48,6 +48,10 @@ _**【接口地址】**_
 | ShopCommission | decimal（18，4） | 否 | 店铺佣金 |
 | RmaAddress | string | 否 | 退货地址 |
 | ShopBannerPathList | array string | 否 | 店铺Banner图片列表 |
+| SortNo | int | 否 | 排序 |
+
+
+
 
 #### _应答数据 _ {#应答数据-}
 
