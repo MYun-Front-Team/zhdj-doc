@@ -303,6 +303,7 @@
   * [添加商品分组](shang-pin-mo-kuai/tian-jia-fen-zu.md)
   * [删除商品分组](shang-pin-mo-kuai/shan-chu-fen-zu.md)
   * [移动商品到分组](shang-pin-mo-kuai/yi-dong-shang-pin-dao-fen-zu.md)
+  * [上移下移商品分组](shang-pin-mo-kuai/shang-yi-xia-yi-shang-pin-fen-zu.md)
 * [组织模块](zu-zhi-mo-kuai.md)
   * [获取组织列表](zu-zhi-mo-kuai/huo-qu-zu-zhi-lie-biao.md)
   * [获取组织详情](zu-zhi-mo-kuai/huo-qu-zu-zhi-xiang-qing.md)
