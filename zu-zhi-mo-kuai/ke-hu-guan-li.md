@@ -23,6 +23,9 @@
 | CustomerLogoUrlList | array string | 否 | 客户Logo的Url列表 |
 | CustomerPersonSysNo | string | 否 | 客户老板系统编码 |
 | CustomerPersonFileUrlList|array string | 否 | 客户老板头像 |
+| CustomerPersonFileUrlList|array string | 否 | 客户老板头像 |
+| TagList | array object | 否 | 标签列表（说明见通用） |
+
 
 > #### CustomerStatistic统计计算字段 {#请求数据}
 
@@ -50,6 +53,8 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | IsShowDefaultAddress | int | 否 | 是否显示客户所属组织的默认地址（当原客户地址没有维护时有效） |
+| IsShowTagList | int | 否 | 是否显示标签列表 |
+
 
 #### 模块页面编号枚举说明 {#请求数据}
 
