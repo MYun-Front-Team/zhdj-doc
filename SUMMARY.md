@@ -321,6 +321,7 @@
     * [删除客户等级](zu-zhi-mo-kuai/ke-hu-guan-li/shan-chu-ke-hu-deng-ji.md)
     * [获取客户等级列表](zu-zhi-mo-kuai/ke-hu-guan-li/huo-qu-ke-hu-deng-ji-lie-biao.md)
     * [设置客户状态](zu-zhi-mo-kuai/ke-hu-guan-li/she-zhi-ke-hu-zhuang-tai.md)
+    * [客户打标签](zu-zhi-mo-kuai/ke-hu-guan-li/ke-hu-da-biao-qian.md)
   * [供应商管理](zu-zhi-mo-kuai/gong-ying-shang-guan-li.md)
     * [获取供应商列表](zu-zhi-mo-kuai/gong-ying-shang-guan-li/huo-qu-gong-ying-shang-lie-biao.md)
     * [获取供应商详情](zu-zhi-mo-kuai/gong-ying-shang-guan-li/huo-qu-gong-ying-shang-xiang-qing.md)
