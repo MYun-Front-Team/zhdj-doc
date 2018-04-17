@@ -126,6 +126,7 @@
 | ShopPCDDescription | string | 否 | 店铺PCD描述 |
 |IndustryClassSysNoList| array int | 否 | 行业类别 |
 | IsSupportPointPay| int | 否 | 是否支持积分支付 |
+|GroupSysNo| int | 否 | 商品组系统编码|
 
 
 > #### 查询Limit字段 {#请求数据}
