@@ -33,6 +33,10 @@ _**【接口地址】**_
 | ConfigValueSysNo | int | 是 | 积分值配置系统编码 |
 | ModuleSourceSysNo | string | 是 | 模块来源系统编码 |
 | Remark | string | 是 | 备注 |
+| OperatorName | string | 是 | 操作员|
+
+
+
 
 
 
