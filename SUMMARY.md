@@ -299,6 +299,7 @@
   * [新增规格值模板](shang-pin-mo-kuai/xin-zeng-gui-ge-zhi-mo-ban.md)
   * [修改规格值模板](shang-pin-mo-kuai/xiu-gai-gui-ge-zhi-mo-ban.md)
   * [删除规格值模板](shang-pin-mo-kuai/shan-chu-gui-ge-zhi-mo-ban.md)
+  * [获取商品分组列表](shang-pin-mo-kuai/huo-qu-shang-pin-fen-zu-lie-biao.md)
 * [组织模块](zu-zhi-mo-kuai.md)
   * [获取组织列表](zu-zhi-mo-kuai/huo-qu-zu-zhi-lie-biao.md)
   * [获取组织详情](zu-zhi-mo-kuai/huo-qu-zu-zhi-xiang-qing.md)
