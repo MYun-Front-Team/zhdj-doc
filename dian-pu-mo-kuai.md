@@ -50,9 +50,7 @@
 | ContractPCDCode| string | 否 | 联系地址 |
 | ContractPCDDescription| string | 否 | 联系地址 |
 | SortNo | int | 否 | 排序 |
-
-
-
+| ShopShowSources|array[int] | 否 | 店铺展示位置 |
 
 
 > #### 统计计算字段 {#请求数据}
@@ -88,12 +86,7 @@
 | Latitude | decimal\(18,10\) | 否 | 纬度 |
 | ContractPCDCode| string | 否 | 联系地址 |
 | ContractPCDDescription| string | 否 | 联系地址 |
-
-
-
-
-
-
+| ShopShowSource|int | 否 | 店铺展示位置 |
 
 
 > #### 查询Limit字段 {#请求数据}
