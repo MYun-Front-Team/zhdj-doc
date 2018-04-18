@@ -16,7 +16,7 @@ http://ip:port/PointsAction/Points/AddWaitPayPoint
 | :--- | :--- | :--- | :--- |
 | OwnerSysNo | int | 是 | 积分所有者系统编码（获取支部积分时必填） |
 | PointsType | int | 是 | 积分类型（枚举） |
-| PointsValue | int | 否 | 积分值 |
+| Amount| decimal| 否 | 充值金额 |
 
 ####  {#应答数据-}
 | 变量名 | 类型 | 是否必须 | 描述 |
