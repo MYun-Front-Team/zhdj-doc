@@ -55,6 +55,7 @@
 |  |  |  |  |
 | IsOwner | int | 否 | 是否显示自己的消息（被圈到的全部消息） |
 | IsCreator | int | 否 | 是否显示自己创建的消息 |
+| OrganizationSysNo| int | 否 | 组织编码 |
 
 > #### Limit限制字段 {#请求数据}
 
