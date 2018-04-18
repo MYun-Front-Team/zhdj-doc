@@ -138,7 +138,7 @@
 | OrderItemLockInventory | object | 否 | 订单商品锁库（见仓储） |
 | DeliveriedQuantity | int | 否 | 已发货数量 |
 | DeliveryItemStatus | int | 否 | 0未发，1部分发，10已发，11取消 |
-| PointPrice| int | 是 | 积分单价 |
+| PointPrice| int | 是 | 积分单价 | 
 
 > #### 功能按钮字段 {#请求数据}
 
