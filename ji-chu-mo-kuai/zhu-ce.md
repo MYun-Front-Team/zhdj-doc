@@ -34,6 +34,8 @@ _**【接口地址】**_
 | OrganizationSysNo | int | 否 | 组织系统编码 |
 | IsForce | int | 否 | 是否强制注册（禁用） |
 | OpenID | int | 否 | 微信OpenID |
+| InvitationCode| string | 是 | 邀请码 |
+
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
