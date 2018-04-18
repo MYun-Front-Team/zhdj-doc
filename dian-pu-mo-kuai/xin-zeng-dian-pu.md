@@ -54,7 +54,7 @@ _**【接口地址】**_
 | RmaAddress | string | 否（可选配置） | 退货地址 |
 | ShopBannerPathList | array string | 否（可选配置） | 店铺Banner图片列表 |
 | SortNo | int | 否 | 排序 |
-| ShopShowSources|array[int] | 否 | 店铺展示位置 |
+| ShopShowSourceSysNos|array[int] | 否 | 店铺展示位置 |
 
 
 
