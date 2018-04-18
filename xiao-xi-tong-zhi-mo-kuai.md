@@ -20,6 +20,9 @@
 | PublishPerson | object | 否 | 发布人实体 |
 | RemoveTime | string | 否 | 撤下人时间 |
 | RemovePerson | object | 否 | 撤下人实体 |
+| FilePathList | array string | 否 | 文件或图片Path列表（第一张为首图） |
+| FileUrlList | array string | 否 | 文件或图片URL列表（第一张为首图） |
+
 
 > #### MessageStatistic统计计算字段 {#请求数据}
 

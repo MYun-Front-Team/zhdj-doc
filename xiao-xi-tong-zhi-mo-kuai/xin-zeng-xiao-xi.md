@@ -29,6 +29,7 @@ _**【接口地址】**_
 | PickRuleTemplateList | array object | 是 | 选人规则（见选人模块说明） |
 | SponsorName | string | 否 | 主办方 |
 | CoSponsorName | string | 否 | 协办方 |
+| FilePathList | array string | 否 | 文件或图片Path列表（第一张为首图） |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
