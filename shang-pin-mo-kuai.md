@@ -58,6 +58,7 @@
 | RewardPoint| int | 否 | 奖励积分 |
 | ServiceType| int | 否 | 消费方式（0按次数，1按时间） |
 | ServiceOutMinutes| int | 否 | 过期时间（分钟）（0为长期有效）|
+| GroupList | array object | 否 | 商品组 |
 
 
 > #### Price说明 {#请求数据}
@@ -151,6 +152,9 @@
 | IsShowProductInventory | int | 否 | 是否显示款库存（需要SKU库存则IsShowSkuInventory=1） |
 | IsShowSkuInventory | int | 否 | 是否显示sku库存 |
 | IsShowProductInSku | int | 否 | 是否显示sku中款的信息（款的图片需limit控制） |
+| IsShowGroupList  | int | 否 | 是否显示商品组|
+
+
 
 ####  {#应答数据-（巡河记录数组）}
 
