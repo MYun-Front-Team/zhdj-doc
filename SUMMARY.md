@@ -582,6 +582,7 @@
   * [设置投票类型描述（Top图文招牌）](tou-piao-mo-kuai/she-zhi-tou-piao-lei-xing-miao-shu-ff08-top-tu-wen-zhao-pai-ff09.md)
   * [根据页面，获取可选字段列表](tou-piao-mo-kuai/gen-ju-ye-mian-ff0c-huo-qu-ke-xuan-zi-duan-lie-biao.md)
   * [获取投票人员列表](tou-piao-mo-kuai/huo-qu-tou-piao-ren-yuan-lie-biao.md)
+  * [投票结果报表](tou-piao-mo-kuai/tou-piao-jie-guo-bao-biao.md)
 * [分润模块](zi-jin-guan-li/fen-run-guan-li.md)
   * [分润角色管理](zi-jin-guan-li/fen-run-guan-li/fen-run-jiao-se-guan-li.md)
     * [获取分润角色列表](zi-jin-guan-li/fen-run-guan-li/fen-run-jiao-se-guan-li/huo-qu-fen-run-jiao-se-lie-biao.md)
