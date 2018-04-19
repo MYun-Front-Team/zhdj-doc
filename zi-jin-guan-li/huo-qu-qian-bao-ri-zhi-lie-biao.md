@@ -17,6 +17,8 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | WalletSysNo | int | 是 | 钱包系统编码 |
+| ModuleSourceTypeList |array int | 否| ModuleSourceTypeList |
+
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 
