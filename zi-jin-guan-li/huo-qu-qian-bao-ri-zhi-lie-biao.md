@@ -28,6 +28,11 @@ _**【接口地址】**_
 | PaymentType | int | 是 | 交易工具：0线下 1-支付宝、2-微信，3-钱包余额支付，4-银行卡支付 |
 | TradeNo | string | 否 | 交易流水号 |
 | Amount | decimal（18，10） | 是 | 成交金额 |
+| ModuleSysNo | int | 否 | 模块编码 |
+| ModuleSourceType | int | 否 | 来源类型 |
+| ModuleSourceClass | int | 否 | 来源分类 |
+| ModuleSourceSysNo | int | 否 | 来源系统编码 |
+
 
 
 
