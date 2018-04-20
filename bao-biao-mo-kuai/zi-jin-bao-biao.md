@@ -67,13 +67,13 @@
 | ProfitStatisticsList | array object | 是 | 分润统计 |
 | ProfitList | array object | 是 | 分润明细 |
 
-#### _应答数据 （ProfitStatistics）
+#### 应答数据 （ProfitStatistics）
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ProfitModuleSourceType | int | 是 | 分润来源（26008会员费分润，23001订单分润，26010代理费分润，304充值积分） |
 | Amount | decimal | 是 | 统计金额 |
 
-#### _应答数据 （WalletLog）
+#### 应答数据 （WalletLog）
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ProfitModuleSourceType | int | 是 | 分润来源（26008会员费分润，23001订单分润，26010代理费分润，304充值积分） |
