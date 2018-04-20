@@ -26,7 +26,22 @@
 | AgentFeeEndDate | decimal（18，2） | 否 | 代理费到期时间 |
 | AgentFeeStatus | int | 否 | 当前代理费有效状态10有效，0无效 |
 | AvailablePoint | int | 是 | 可支付积分余额|
-| PurchaseOrderTotalAmount| int | 是 | 采购总金额|
+| WxPurchaseOrderTotalAmount| int | 是 | 微信采购总金额|
+| AlPurchaseOrderTotalAmount| int | 是 | 支付宝采购总金额|
+| WalletPurchaseOrderTotalAmount| int | 是 | 钱包采购总金额|
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
