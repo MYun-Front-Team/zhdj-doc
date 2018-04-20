@@ -65,7 +65,7 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ProfitStatisticsList | array object | 是 | 分润统计 |
-| ProfitList | array object | 是 | 分润明细 |
+| WalletLogList | array object | 是 | 分润明细 |
 
 #### 应答数据 （ProfitStatistics）
 | 变量名 | 类型 | 是否必须 | 描述 |
