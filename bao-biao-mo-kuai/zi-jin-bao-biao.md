@@ -17,6 +17,8 @@
 | DataRangeSysNo | int | 否 | 数据范围树编码（店铺树） |
 | OrderStartTime | string | 否 | 订单开始时间 |
 | OrderEndTime | string | 否 | 订单结束时间 |
+| ProfitModuleSourceType | int | 是 | 分润来源 |
+
 
 > #### _应答数据 （PageResponseBase）【26000100】_ {#应答数据-（巡河记录数组）}
 
@@ -58,12 +60,35 @@
 | OnlineTotalAmount | decimal\(18,2\) | 是 | 线上总金额 |
 | SettlementStatus | int | 是 | 结算状态（日期下的全部订单结算状态汇总） |
 
- #### _应答数据 （PageResponseBase）【26000103】_ {#应答数据-（巡河记录数组）}
+#### _应答数据 （PageResponseBase）【26000103】_ {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| ModuleSourceType | int | 是 | 分润来源（26008会员费分润，23001订单分润，26010代理费分润，304充值积分） |
+| ProfitStatisticsList | array object | 是 | 分润统计 |
+| ProfitList | array object | 是 | 分润明细 |
+
+#### _应答数据 （ProfitStatistics）
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ProfitModuleSourceType | int | 是 | 分润来源（26008会员费分润，23001订单分润，26010代理费分润，304充值积分） |
 | Amount | decimal | 是 | 统计金额 |
+
+#### _应答数据 （WalletLog）
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ProfitModuleSourceType | int | 是 | 分润来源（26008会员费分润，23001订单分润，26010代理费分润，304充值积分） |
+| Amount | decimal | 是 | 金额 |
+| TradeDescription| string| 是 | 描述 |
+
+
+
+
+
+
+
+
+
+
 
 
 
