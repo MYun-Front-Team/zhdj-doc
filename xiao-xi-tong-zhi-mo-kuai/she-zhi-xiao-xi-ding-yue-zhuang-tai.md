@@ -16,7 +16,7 @@ http://ip:port/MessageAction/Message/SetMessageConfigSubStatus
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| ModuleSysNo | int | 否 | 模块编码 |
+| ModuleSysNo | int | 否 | 模块编码(0全网取消订阅) |
 | ModuleSourceType | int | 否 | 来源类型 |
 | ModuleSourceClass | int | 否 | 来源分类 |
 | OperateType | int | 否 | 操作类型 |
