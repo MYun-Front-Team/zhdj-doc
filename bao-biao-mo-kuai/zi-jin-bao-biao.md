@@ -71,7 +71,7 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ProfitModuleSourceType | int | 是 | 分润来源（26008会员费分润，23001订单分润，26010代理费分润，304充值积分） |
-| Amount | decimal | 是 | 统计金额 |
+| TotalAmount| decimal | 是 | 统计金额 |
 
 #### 应答数据 （WalletLog）
 | 变量名 | 类型 | 是否必须 | 描述 |
