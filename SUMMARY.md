@@ -280,6 +280,7 @@
   * [获取消息详情](xiao-xi-tong-zhi-mo-kuai/huo-qu-xiao-xi-xiang-qing.md)
   * [批量设置消息已读](xiao-xi-tong-zhi-mo-kuai/pi-liang-she-zhi-xiao-xi-yi-du.md)
   * [设置消息订阅状态](xiao-xi-tong-zhi-mo-kuai/she-zhi-xiao-xi-ding-yue-zhuang-tai.md)
+  * [获取消息订阅状态](xiao-xi-tong-zhi-mo-kuai/huo-qu-xiao-xi-ding-yue-zhuang-tai.md)
 * [商品模块](shang-pin-mo-kuai.md)
   * [新增款](shang-pin-mo-kuai/xin-zeng-kuan.md)
   * [修改款](shang-pin-mo-kuai/xiu-gai-kuan.md)
@@ -504,7 +505,7 @@
   * [新增保证金](zi-jin-guan-li/xin-zeng-bao-zheng-jin.md)
   * [新增会员费](zi-jin-guan-li/xin-zeng-hui-yuan-fei.md)
   * [设置支付密码](zi-jin-guan-li/she-zhi-zhi-fu-mi-ma.md)
-  * 钱包充值
+  * [钱包充值](zi-jin-guan-li/qian-bao-chong-zhi.md)
 * [工单模块](gong-dan-mo-kuai.md)
   * [获取工单列表](gong-dan-mo-kuai/huo-qu-gong-dan-lie-biao.md)
   * [获取工单详情](gong-dan-mo-kuai/huo-qu-gong-dan-xiang-qing.md)
