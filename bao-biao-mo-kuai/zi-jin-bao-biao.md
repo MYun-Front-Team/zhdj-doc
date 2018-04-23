@@ -20,6 +20,8 @@
 | ProfitModuleSourceType | int | 是 | 分润来源 |
 
 
+
+
 > #### _应答数据 （PageResponseBase）【26000100】_ {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
