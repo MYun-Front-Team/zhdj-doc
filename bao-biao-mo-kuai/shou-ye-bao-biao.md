@@ -27,7 +27,7 @@
 | PlatformOnSaleProductCount | int | 是 | 平台可订货|
 | PurchaseOrderFinish | int | 是 | 商品已采购订货单|
 | PurchaseOrderNotFinish | int | 是 | 商品未采购订货单|
-| PurchaseOrderNotPait| int | 是 | 商品未支付订货单|
+| PurchaseOrderNotPaid| int | 是 | 商品未支付订货单|
 | PlatformPurchaseOrderNotFinish | int | 是 | 平台未采购数量|
 | FrozenPurchaseOrderTotalAmount| decimal | 是 | 冻结钱包采购总金额|
 
