@@ -1,23 +1,21 @@
-# 新增资金分润 {#获取河长巡河记录}
+# 添加楼宇
 
 ##### _【功能说明】_ {#【功能说明】}
 
-添加园区
+添加楼宇
 
 _**【应用场景】**_
 
-添加园区
+添加楼宇
 
 _**【接口地址】**_
 
-http://ip:port/ParkAction/IndustryPark/AddPark
+http://ip:port/Action/IndustryPark/AddPark
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| ParkType | int | 是 | 园区类型|
-| ParkClassSysNo | int | 否 | 园区分类（枚举） |
 | OrganizationSysNo | int | 是 | 组织系统编码 |
 | DataRangeSysNo | int | 是 | 数据范围树枝叶编码 |
 | PCDCode | string | 否 | 省市区 代码 |

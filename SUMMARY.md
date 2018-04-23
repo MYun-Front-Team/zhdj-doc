@@ -614,9 +614,37 @@
     * [删除资金分润](zi-jin-guan-li/fen-run-guan-li/zi-jin-fen-run-chi-guan-li/shan-chu-zi-jin-fen-run.md)
     * [设置资金分润状态](zi-jin-guan-li/fen-run-guan-li/zi-jin-fen-run-chi-guan-li/she-zhi-zi-jin-fen-run-zhuang-tai.md)
     * [获取资金分润模拟结果](zi-jin-guan-li/fen-run-guan-li/zi-jin-fen-run-chi-guan-li/huo-qu-zi-jin-fen-run-mo-ni-jie-guo.md)
-* 智慧园区
+* [智慧园区](zhi-hui-yuan-qu.md)
   * [园区管理](yuan-qu-guan-li.md)
     * [添加园区](yuan-qu-guan-li/tian-jia-yuan-qu.md)
     * [编辑园区](yuan-qu-guan-li/bian-ji-yuan-qu.md)
     * [获取园区列表](yuan-qu-guan-li/huo-qu-yuan-qu-lie-biao.md)
+    * [获取园区详情](yuan-qu-guan-li/huo-qu-yuan-qu-xiang-qing.md)
+    * [删除园区](yuan-qu-guan-li/shan-chu-yuan-qu.md)
+  * [楼宇管理](lou-yu-guan-li.md)
+    * [添加楼宇](lou-yu-guan-li/tian-jia-lou-yu.md)
+    * [编辑楼宇](lou-yu-guan-li/bian-ji-lou-yu.md)
+    * [获取楼宇列表](lou-yu-guan-li/huo-qu-lou-yu-lie-biao.md)
+    * [获取楼宇详情](lou-yu-guan-li/huo-qu-lou-yu-xiang-qing.md)
+    * [删除楼宇](lou-yu-guan-li/shan-chu-lou-yu.md)
+  * [楼层管理](lou-ceng-guan-li.md)
+    * [添加楼层](lou-ceng-guan-li/tian-jia-lou-ceng.md)
+    * [编辑楼层](lou-ceng-guan-li/bian-ji-lou-ceng.md)
+    * [获取楼层列表](lou-ceng-guan-li/huo-qu-lou-ceng-lie-biao.md)
+    * [获取楼层详情](lou-ceng-guan-li/huo-qu-lou-ceng-xiang-qing.md)
+    * [删除楼层](lou-ceng-guan-li/shan-chu-lou-ceng.md)
+  * [房间管理](fang-jian-guan-li.md)
+    * [添加房间](tian-jia-fang-jian.md)
+    * [编辑房间](bian-ji-fang-jian.md)
+    * [获取房间列表](huo-qu-fang-jian-lie-biao.md)
+    * [获取房间详情](huo-qu-fang-jian-xiang-qing.md)
+    * [删除房间](shan-chu-fang-jian.md)
+  * [企业管理](qi-ye-guan-li.md)
+  * 招商管理
+  * [收费管理](shou-fei-guan-li.md)
+  * 房租管理
+  * 物业费管理
+  * 企业待收费列表
+  * [报表中心](bao-biao-zhong-xin.md)
+    * 重点企业销售额统计表
 

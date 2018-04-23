@@ -1,16 +1,16 @@
-# 获取园区列表
+# 获取楼宇列表
 
 ##### _【功能说明】_ {#【功能说明】}
 
-获取园区列表
+获取楼宇列表
 
 _**【应用场景】**_
 
-获取园区列表
+获取楼宇列表
 
 _**【接口地址】**_
 
-http://ip:port/ParkQuery/IndustryPark/GetParkList
+http://ip:port/ParkQuery/IndustryPark/GetBuildingList
 
 
 > #### _请求数据_ {#请求数据}
@@ -24,8 +24,8 @@ http://ip:port/ParkQuery/IndustryPark/GetParkList
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| ParkBase | object | 是 | 基础字段 |
-| ParkStatistic | object | 否 | 统计字段 |
+| BuildingBase | object | 是 | 基础字段 |
+| BuildingStatistic | object | 否 | 统计字段 |
 
 
 

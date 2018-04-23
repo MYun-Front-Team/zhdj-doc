@@ -1,4 +1,4 @@
-# 新增资金分润 {#获取河长巡河记录}
+# 编辑园区
 
 ##### _【功能说明】_ {#【功能说明】}
 
@@ -11,13 +11,13 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/Action/IndustryPark/EditPark
+http://ip:port/ParkAction/IndustryPark/EditPark
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| ParkSysNo | int | 是 | 组织系统编码 |
+| ParkSysNo | int | 是 | 园区系统编码 |
 | PCDCode | string | 否 | 省市区 代码 |
 | PCDDescription | string | 否 | 省市区 名称 |
 | ParkNumber | string | 否 | 园区编号|

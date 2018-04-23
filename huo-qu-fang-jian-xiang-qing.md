@@ -1,31 +1,31 @@
-# 获取园区列表
+# 获取房间详情
 
 ##### _【功能说明】_ {#【功能说明】}
 
-获取园区列表
+获取房间详情
 
 _**【应用场景】**_
 
-获取园区列表
+获取房间详情
 
 _**【接口地址】**_
 
-http://ip:port/ParkQuery/IndustryPark/GetParkList
+http://ip:port/ParkQuery/IndustryPark/GetParkRoomBySysNo
 
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| Query | object | 是 | 见搜索条件 |
+| ParkRoomSysNo | int | 是 | 楼宇系统编码 |
 | Limit | array | 否 | 限制条件 |
 
-> #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
+> #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| ParkBase | object | 是 | 基础字段 |
-| ParkStatistic | object | 否 | 统计字段 |
+| ParkRoomBase | object | 是 | 基础字段 |
+| ParkRoomStatistic | object | 否 | 统计字段 |
 
 
 
