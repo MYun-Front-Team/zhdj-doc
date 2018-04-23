@@ -43,6 +43,7 @@
 | PaymentType | int | 是 | 支付方式 |
 | BuyerID | string | 否 | 买家支付ID |
 | Amount | decimal\(18,2\) | 是 | 支付金额 |
+| PointRealWorth| decimal\(18,2\) | 是 | 积分支付换算金钱总金额 |
 | PayTime | string | 是 | 支付时间 |
 | OrderSysNo | int | 是 | 订单系统编码 |
 
@@ -60,6 +61,7 @@
 | OrderDate | string | 是 | 日期 |
 | CashTotalAmount | decimal\(18,2\) | 是 | 现金总金额 |
 | OnlineTotalAmount | decimal\(18,2\) | 是 | 线上总金额 |
+| PointRealWorth| decimal\(18,2\) | 是 | 积分支付换算金钱总金额 |
 | SettlementStatus | int | 是 | 结算状态（日期下的全部订单结算状态汇总） |
 
 #### _应答数据 （PageResponseBase）【26000103】_ {#应答数据-（巡河记录数组）}
