@@ -29,23 +29,7 @@
 | WxPurchaseOrderTotalAmount| decimal | 是 | 微信采购总金额|
 | AlPurchaseOrderTotalAmount| decimal | 是 | 支付宝采购总金额|
 | WalletPurchaseOrderTotalAmount| decimal | 是 | 钱包采购总金额|
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| FrozenPurchaseOrderTotalAmount| decimal | 是 | 冻结钱包采购总金额|
 
 
 
