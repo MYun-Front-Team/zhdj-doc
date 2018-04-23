@@ -2,22 +2,22 @@
 
 ##### _【功能说明】_ {#【功能说明】}
 
-添加园区
+编辑园区
 
 _**【应用场景】**_
 
-添加园区
+
+编辑园区
 
 _**【接口地址】**_
 
-http://ip:port/Action/IndustryPark/AddPark
+http://ip:port/Action/IndustryPark/EditPark
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrganizationSysNo | int | 是 | 组织系统编码 |
-| DataRangeSysNo | int | 是 | 数据范围树枝叶编码 |
+| ParkSysNo | int | 是 | 组织系统编码 |
 | PCDCode | string | 否 | 省市区 代码 |
 | PCDDescription | string | 否 | 省市区 名称 |
 | ParkNumber | string | 否 | 园区编号|
@@ -35,6 +35,6 @@ http://ip:port/Action/IndustryPark/AddPark
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| ParkSysNo | int | 是 | 园区系统编码 |
+
 
 

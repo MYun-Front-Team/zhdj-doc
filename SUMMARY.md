@@ -614,6 +614,9 @@
     * [删除资金分润](zi-jin-guan-li/fen-run-guan-li/zi-jin-fen-run-chi-guan-li/shan-chu-zi-jin-fen-run.md)
     * [设置资金分润状态](zi-jin-guan-li/fen-run-guan-li/zi-jin-fen-run-chi-guan-li/she-zhi-zi-jin-fen-run-zhuang-tai.md)
     * [获取资金分润模拟结果](zi-jin-guan-li/fen-run-guan-li/zi-jin-fen-run-chi-guan-li/huo-qu-zi-jin-fen-run-mo-ni-jie-guo.md)
-* [园区模块](yuan-qu-mo-kuai.md)
-  * [添加园区](yuan-qu-mo-kuai/tian-jia-yuan-qu.md)
+* 智慧园区
+  * [园区管理](yuan-qu-guan-li.md)
+    * [添加园区](yuan-qu-guan-li/tian-jia-yuan-qu.md)
+    * [编辑园区](yuan-qu-guan-li/bian-ji-yuan-qu.md)
+    * 获取园区列表
 
