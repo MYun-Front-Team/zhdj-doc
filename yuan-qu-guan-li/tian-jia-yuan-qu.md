@@ -18,7 +18,7 @@ http://ip:port/ParkAction/IndustryPark/AddPark
 | :--- | :--- | :--- | :--- |
 | ParkType | int | 是 | 园区类型|
 | ParkClassSysNo | int | 否 | 园区分类（枚举） |
-| OrganizationSysNo | int | 是 | 组织系统编码 |
+| OrganizationSysNo | int | 是 | 平台组织系统编码 |
 | DataRangeSysNo | int | 是 | 数据范围树枝叶编码 |
 | PCDCode | string | 否 | 省市区 代码 |
 | PCDDescription | string | 否 | 省市区 名称 |
