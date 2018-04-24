@@ -18,6 +18,8 @@
 | FeeItems | array FeeItem | 否 |费用详情 |
 | FeePayDetails | array FeePayDetail | 否 |缴费记录 |
 | RefundDetails | array RefundDetail | 否 |退款记录 |
+| TotalFee | decimal | 否 |总费用（FeeItem的TotalFee总计） |
+| PaidFee | decimal | 否 |实际支付 |
 
 
 
@@ -26,8 +28,6 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| TotalFee | decimal | 否 |总费用（FeeItem的TotalFee总计） |
-| PaidFee | decimal | 否 |实际支付 |
 | FeeInfos | array[FeeInfo] | 否 |各个费用类型 |
 
 
