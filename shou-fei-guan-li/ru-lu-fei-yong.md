@@ -16,19 +16,18 @@ http://ip:port/ParkAction/IndustryFee/AddFee
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| StartDate | datetime | 否 | 费用开始时间 |
-| EndDate | datetime | 否 | 费用结束时间 |
-| ParkSysNo| int | 否 | 园区编码|
+| StartDate | datetime | 是 | 费用开始时间 |
+| EndDate | datetime | 是 | 费用结束时间 |
+| ParkSysNo| int | 是 | 园区编码|
 | OrganizationSysNo | int | 是 | 企业组织系统编码 |
-| Remark | int | 是 | 备注|
-| ParkSysNo| int | 否 | 园区编码|
+| Remark | int | 否 | 备注|
+| ParkSysNo| int | 是 | 园区编码|
 | AddFeeItems | array[AddFeeItem] | 否 | 导入明细|
 
  #### AddFeeItem
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| ParkName | string | 是 | 园区名称|
 | BuildingName | string | 是  | 楼宇名称 |
 | ParkRoomName| string | 是  | 房间名称|
 |ParkRoomType | int | 是 |房间类型|
@@ -38,6 +37,14 @@ http://ip:port/ParkAction/IndustryFee/AddFee
 | TotalFee| decimal | 是  |总价（非计算，按照客户填的为准）|
 | ItemStartDate| datetime | 否 |开始日期|
 | ItemEndDate| datetime | 否 |截止日期|
+
+
+> #### _应答数据 _ {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| FeeSysNo | int | 是 | 费用系统编码 |
+
 
 
 
