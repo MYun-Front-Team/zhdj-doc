@@ -90,6 +90,8 @@
 | EndDate | datetime | 否 | 费用结束时间 |
 | ParkSysNo| int | 否 | 园区编码|
 | KeyWord| string | 否 | 关键字|
+| OrganizationSysNo | int | 是 | 企业组织系统编码 |
+| FeeStatusList |array int | 否 |缴纳状态（0未缴纳，1部分缴纳，10完成缴纳） |
 
 > #### 查询Limit字段 {#请求数据}
 

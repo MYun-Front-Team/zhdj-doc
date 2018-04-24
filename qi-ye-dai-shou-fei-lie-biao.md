@@ -19,6 +19,8 @@ http://ip:port/ParkQuery/IndustryFee/GetParkFeeReport
 | FeeTypeList |array int | 是 | 费用类型 |
 | ParkSysNo| int | 否 | 园区编码|
 | KeyWord| string| 否 | 关键字|
+| OrganizationSysNo | int | 是 | 企业组织系统编码 |
+| ParkSysNo| int | 否 | 园区编码|
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}

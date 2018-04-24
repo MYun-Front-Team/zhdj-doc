@@ -40,6 +40,7 @@
 | SellerBossPerson | object | 否 | 商家创始人实体（默认联系人） |
 | SellerCategoryList | array object | 否 | 商家行业类型列表 |
 
+
 > #### SellerStatistic统计计算字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |

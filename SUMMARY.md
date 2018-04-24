@@ -655,6 +655,8 @@
     * [退款费用](shou-fei-guan-li/tui-kuan-fei-yong.md)
     * [确认缴费凭证](shou-fei-guan-li/que-ren-jiao-fei-ping-zheng.md)
     * [删除费用](shou-fei-guan-li/shan-chu-fei-yong.md)
+    * [获取收费列表](shou-fei-guan-li/huo-qu-shou-fei-lie-biao.md)
+    * [获取收费详情](shou-fei-guan-li/huo-qu-shou-fei-xiang-qing.md)
   * [企业待收费列表](qi-ye-dai-shou-fei-lie-biao.md)
   * [报表中心](bao-biao-zhong-xin.md)
     * [重点企业销售额统计表](bao-biao-zhong-xin/zhong-dian-qi-ye-xiao-shou-e-tong-ji-biao.md)

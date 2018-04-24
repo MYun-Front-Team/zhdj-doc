@@ -7,6 +7,8 @@
 | 100 | 首页报表 | 智慧市场-APP商家首页 |
 | 101 | 首页报表 | 点东东-平台APP |
 | 102 | 首页报表 | 翰想汇-微信端个人中心首页 |
+| 103 | 首页报表 | 智慧园区-app个人中心首页 |
+
 
 > #### _请求数据（PageRequestData）_ {#请求数据}
 
@@ -57,6 +59,32 @@
 | OrderReceivingCount | int | 是 | 待收货订单总数（邮寄类订单） |
 | OrderUsingCount | int | 是 | 待使用订单总数（到店消费订单） |
 | OrderCommentCount | int | 是 | 待评论订单总数 |
+
+#### _应答数据 （PageResponseBase）【103】_ {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| SellerInfos | array SellerInfo | 是 | 企业信息 |
+| ParkProjectInfos | array ParkProjectInfo | 是 | 招商管理 |
+| WaitPaySellerCount | int | 是 | 待缴费企业 |
+| WaitPaySellerAmount | decimal | 是 | 待缴费金额 |
+
+
+
+#### SellerInfo
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| SellerClassSysNo | int | 是 | 企业类别 |
+| Count| int | 是 |数量 |
+
+#### ParkProjectInfo
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ProjectStatus | int | 否 |项目状态（0潜在，1洽谈，2入住，3长期） |
+| Count| int | 是 |数量 |
+
 
 
 
