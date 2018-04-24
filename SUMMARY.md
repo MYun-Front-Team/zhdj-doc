@@ -654,8 +654,6 @@
     * [退款费用](shou-fei-guan-li/tui-kuan-fei-yong.md)
     * [确认缴费凭证](shou-fei-guan-li/que-ren-jiao-fei-ping-zheng.md)
     * [删除费用](shou-fei-guan-li/shan-chu-fei-yong.md)
-  * [房租管理](fang-zu-guan-li.md)
-  * [物业费管理](wu-ye-fei-guan-li.md)
   * [企业待收费列表](qi-ye-dai-shou-fei-lie-biao.md)
   * [报表中心](bao-biao-zhong-xin.md)
     * [重点企业销售额统计表](bao-biao-zhong-xin/zhong-dian-qi-ye-xiao-shou-e-tong-ji-biao.md)

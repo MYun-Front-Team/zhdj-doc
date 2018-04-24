@@ -85,10 +85,11 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-
-
-
-
+| FeeTypeList |array int | 是 | 费用类型 |
+| StartDate | datetime | 否 | 费用开始时间 |
+| EndDate | datetime | 否 | 费用结束时间 |
+| ParkSysNo| int | 否 | 园区编码|
+| KeyWord| string | 否 | 关键字|
 
 > #### 查询Limit字段 {#请求数据}
 
