@@ -25,10 +25,10 @@ http://ip:port/VoteQuery/Vote/GetVoteReport
 | PersonName | string | 否 | 昵称 |
 | RealName | string | 否 | 真实姓名 |
 | CellPhoneNo | string | 否 | 手机号 |
-| Propertys | array Propertys | 否 | 报表明细 |
+| Propertys | array Property | 否 | 报表明细 |
 
 
-#### VoteReportItem说明 {#应答数据-（巡河记录数组）}
+#### Property说明 {#应答数据-（巡河记录数组）}
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PropertySysNo | int | 否 | 投票主表编码 |
