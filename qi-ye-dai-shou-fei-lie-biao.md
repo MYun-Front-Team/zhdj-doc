@@ -36,6 +36,30 @@ http://ip:port/ParkQuery/IndustryFee/GetParkFeeReport
 | OrganizationSysNo | int | 是 | 企业组织系统编码 |
 | ParkSysNo| int | 否 | 园区编码|
 | ParkName | string | 否 | 园区名称|
+| SellerMaster | string | 否 | 商家负责人|
+| SellerTel | string | 否 | 联系电话|
+| FeeDetails | array [FeeDetail] | 否 | 费用明细|
+
+> #### Total
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| SellerCount | string | 否 | 商家数|
+| ArrearsAmount | int | 是 | 欠费总金额  |
+| FeeDetails | array [FeeDetail] | 否 | 费用明细|
+
+
+
+###FeeDetail
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| FeeType| int | 否 |费用类型|
+| ArrearsAmount | decimal | 否 |欠费金额 |
+
+
+
+
 
 
 
