@@ -24,8 +24,8 @@ http://ip:port/ParkQuery/IndustrySale/GetParkRoomRentList
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | RoomRentSysNo | int | 是 | 租赁系统编码 |
-| StartDate | int | 是 | 入住时间 |
-| EndDate | int | 是 | 退租时间 |
+| StartDate | datetime| 是 | 入住时间 |
+| EndDate | datetime| 是 | 退租时间 |
 | Remark | string | 是 | 租赁备注 |
 | ParkRoomSysNo| int | 否 | 房间编码|
 | ParkRoomName| string | 否 | 房间名称|
