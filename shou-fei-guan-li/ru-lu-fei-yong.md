@@ -16,6 +16,8 @@ http://ip:port/ParkAction/IndustryFee/AddFee
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| FeeType | int | 是 | 费用类型 |
+| FeeClassSysNo | int | 否 | 费用分类（枚举） |
 | StartDate | datetime | 是 | 费用开始时间 |
 | EndDate | datetime | 是 | 费用结束时间 |
 | ParkSysNo| int | 是 | 园区编码|
