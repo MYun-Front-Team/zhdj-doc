@@ -27,7 +27,7 @@ http://ip:port/ParkAction/IndustrySale/GetSaleYearReportDetail
 | YearReportItemSysNo | int | 是 | 年度报表明细系统编码 |
 | Month| int | 是 | 月份 |
 | InitialTaxRevenue| decimal | 否 |初始税额|
-|  initialTurnover | decimal | 否 |初始销售额|
+|  InitialTurnover | decimal | 否 |初始销售额|
 | TaxRevenue| decimal | 否 |最终税额|
 | Turnover | decimal | 否 |最终销售额|
 | TotalTaxRevenue| decimal | 否 |本年累计税额|
