@@ -5,8 +5,7 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ParkRoomSysNo | int | 是 | 房间系统编码 |
-| ParkFloorSysNo | int | 是 | 楼层编码 |
-| ParkSysNo | int | 是 | 园区编码 |
+| ParkFloorSysNo | int | 园区编码 |
 | BuildingSysNo | int | 是 | 楼宇编码 |
 | ParkRoomSysNo | int | 是 | 房间系统编码 |
 |ParkRoomType | int | 是 |房间类型|
