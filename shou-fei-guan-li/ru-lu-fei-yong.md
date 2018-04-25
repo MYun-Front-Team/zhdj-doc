@@ -20,7 +20,7 @@ http://ip:port/ParkAction/IndustryFee/AddFee
 | EndDate | datetime | 是 | 费用结束时间 |
 | ParkSysNo| int | 是 | 园区编码|
 | OrganizationSysNo | int | 是 | 企业组织系统编码 |
-| Remark | int | 否 | 备注|
+| Remark | string| 否 | 备注|
 | ParkSysNo| int | 是 | 园区编码|
 | AddFeeItems | array[AddFeeItem] | 否 | 导入明细|
 
