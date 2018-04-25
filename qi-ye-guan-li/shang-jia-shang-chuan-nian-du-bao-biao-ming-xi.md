@@ -19,6 +19,7 @@ http://ip:port/ParkAction/IndustrySale/AddSaleYearReportDetail
 | TaxRevenue| decimal | 否 |税额|
 | Turnover | decimal | 否 |销售额|
 | FilePathList | array string | 否 |照片 |
+| Month| int | 是 | 月份 |
 
 
 
