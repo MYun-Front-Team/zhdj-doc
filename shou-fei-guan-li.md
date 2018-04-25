@@ -61,7 +61,7 @@
 | PaidFilePathList | array string | 否 |凭证照片 |
 | PaidFileUrlList | array string | 否 |凭证照片 |
 | PaidPerson| string | 是 | 缴费人|
-| AuditStatus| int | 是 | 确认状态（0待确认，10已确认）|
+| AuditStatus| int | 是 | 确认状态（0待确认，10已确认，11作废）|
 
 
 ###RefundDetail
