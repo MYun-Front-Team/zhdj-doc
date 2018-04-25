@@ -13,12 +13,7 @@
 | ParkFloorArea| decimal | 否 | 楼层面积|
 | Remark | string | 否 | 楼层备注 |
 | FilePathList | array string | 否 |照片 |
-
-
-
-
-
-
+| FileUrlList | array string | 否 |照片 |
 
 
 > #### 统计计算字段 {#请求数据}
