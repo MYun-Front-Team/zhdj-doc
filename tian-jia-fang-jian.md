@@ -19,7 +19,7 @@ http://ip:port/ParkAction/IndustryPark/AddParkRoom
 |ParkRoomType | int | 是 |房间类型|
 | ParkRoomClassSysNo | int | 否 | 房间分类（枚举） |
 | ParkFloorSysNo | int | 是 | 楼层系统编码 |
-| ParkRoomName| int | 否 | 房间名称|
+| ParkRoomName| string| 否 | 房间名称|
 | FilePathList | array string | 否 |照片 |
 | Remark | string | 否 |备注|
 | ParkRoomAddress| string | 否 | 协议地址|
