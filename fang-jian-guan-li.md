@@ -4,10 +4,12 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| ParkFloorSysNo | int | 是 | 楼层编码 |
+| ParkSysNo | int | 是 | 园区编码 |
+| BuildingSysNo | int | 是 | 楼宇编码 |
 | ParkRoomSysNo | int | 是 | 房间系统编码 |
 |ParkRoomType | int | 是 |房间类型|
 | ParkRoomClassSysNo | int | 否 | 房间分类（枚举） |
-| ParkFloorSysNo | int | 是 | 楼层系统编码 |
 | ParkRoomName| int | 否 | 房间名称|
 | FilePathList | array string | 否 |照片 |
 | Remark | string | 否 |备注|

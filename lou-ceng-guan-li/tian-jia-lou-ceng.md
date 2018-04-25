@@ -16,7 +16,6 @@ http://ip:port/ParkAction/IndustryPark/AddParkFloor
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| ParkSysNo | int | 是 | 园区编码 |
 | BuildingSysNo | int | 是 | 楼宇编码 |
 | ParkFloorType | int | 是 |楼层类型|
 | ParkFloorClassSysNo | int | 否 | 楼层分类（枚举） |
