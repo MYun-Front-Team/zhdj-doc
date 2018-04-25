@@ -50,6 +50,8 @@ _**【接口地址】**_
 | Quantity | int | 是 | 数量 |
 | ~~Price~~ | ~~object~~ | ~~是~~ | ~~价格实体（见商品）~~ |
 | sku | object | 否 | sku实体 |
+| Remark | string | 否 | 备注|
+
 
 
 

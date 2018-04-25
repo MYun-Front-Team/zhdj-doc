@@ -61,6 +61,8 @@ _**【接口地址】**_
 | CustomizedSpecValue | string | 否 | 可定制规格值 |
 | Quantity | int | 是 | 购买数量 |
 | RealPrice | decimal\(18,2\) | 否 | 单价 |
+| Remark | string | 否 | 备注|
+
 
 > #### AddOrderAmount订单优惠金额列表 {#请求数据}
 

@@ -27,6 +27,7 @@ _**【接口地址】**_
 | CustomizedSpecValue | string | 否 | 可定制规格值 |
 | Quantity | int | 是 | 数量 |
 | OrganizationToSysNo | int | 是 | 买家组织系统编码 |
+| Remark | string | 否 | 备注|
 
 > #### 应答_数据_ {#请求数据}
 
