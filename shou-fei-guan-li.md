@@ -13,7 +13,6 @@
 | EndDate | datetime | 否 | 费用结束时间 |
 | ParkSysNo| int | 否 | 园区编码|
 | ParkName | string | 否 | 园区名称|
-| SellerSysNo | int | 否 |企业编码 |
 | SellerName | string | 否 |企业名称 |
 | OrganizationSysNo | int | 是 | 企业组织系统编码 |
 | FeeItems | array FeeItem | 否 |费用详情 |
