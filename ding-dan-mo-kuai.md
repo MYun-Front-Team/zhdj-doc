@@ -14,7 +14,7 @@
 | RelativeOrderSysNo | int | 否 | 合单，存储 To 关系；拆单，存储 From 关系 |
 | OrderCode | string | 是 | 订单号 |
 | OrderSource | int | 是 | 订单来源: 1后台,2官网,3IOS,4-安卓,5-HTML5,6第三方订单 |
-| PaymentType | int | 是 | 支付方式：0余额，1支付宝，2微信支付，3银联，4线下 |
+| PaymentType | int | 是 | 支付方式：0余额，1支付宝，2微信，3银联，4线下，5刷卡,6积分，99混合 |
 | SourceOrderCode | string | 否 | 订单来源订单号 |
 | AuditStatus | int | 是 | 审核状态：0待审核，10已审核 |
 | PaymentStatus | int | 是 | 支付状态：0未支付，1部分支付，10已支付 |
