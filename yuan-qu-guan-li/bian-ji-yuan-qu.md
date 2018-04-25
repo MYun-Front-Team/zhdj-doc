@@ -23,7 +23,7 @@ http://ip:port/ParkAction/IndustryPark/EditPark
 | ParkNumber | string | 否 | 园区编号|
 | ParkName | string | 否 | 园区名称|
 | ParkAddress | string | 否 | 园区地址|
-| ParkArea | string | 否 | 园区面积|
+| ParkArea | decimal| 否 | 园区面积|
 | ChargeForWater| decimal| 否 |水费单价|
 | ChargeForProperty | decimal| 否 |物业费|
 | ChargeForElectric | decimal| 否 |电费单|
