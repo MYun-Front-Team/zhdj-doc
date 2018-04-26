@@ -40,8 +40,8 @@ http://ip:port/ParkQuery/IndustryFee/GetParkFeeReportByPark
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| ParkCount | string | 否 | 园区数|
-| ArrearsAmount | int | 是 | 欠费总金额  |
+| ParkCount | int| 否 | 园区数|
+| ArrearsAmount | decimal| 是 | 欠费总金额  |
 | FeeDetails | array [FeeDetail] | 否 | 费用明细|
 
 
