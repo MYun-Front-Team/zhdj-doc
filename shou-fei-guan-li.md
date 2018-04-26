@@ -98,8 +98,8 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | IsShowFeeItems | int | 否 |是否显示费用详情 |
-| FeePayDetails | int | 否 |是否显示缴费记录 |
-| RefundDetails | int  | 否 |是否显示退款记录 |
+| IsShowFeePayDetails | int | 否 |是否显示缴费记录 |
+| IsShowRefundDetails | int  | 否 |是否显示退款记录 |
 
 
 
