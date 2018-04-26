@@ -21,8 +21,6 @@ http://ip:port/ParkAction/IndustryProject/AddParkProject
 | ProjectType | int | 否 |项目类别 |
 | ProjectClassSysNo | int | 否 | 项目分类（枚举） |
 | ProjectStatus | int | 否 |项目状态（0潜在，1洽谈，2入住，3长期） |
-| OrganizationSysNo | int | 是 | 企业组织系统编码 |
-| ProjectName | string | 否 |项目名称 |
 |SaleType | int | 否 |企业类别（端定义） |
 |SaleScale | int | 否 |企业规模（端定义） |
 |BusinessScope| string | 否 |主营业务 |
