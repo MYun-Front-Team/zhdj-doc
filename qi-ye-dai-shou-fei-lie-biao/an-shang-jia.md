@@ -46,7 +46,7 @@ http://ip:port/ParkQuery/IndustryFee/GetParkFeeReportBySeller
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| SellerCount | string | 否 | 商家数|
+| SellerCount | int| 否 | 商家数|
 | ArrearsAmount | int | 是 | 欠费总金额  |
 | FeeDetails | array [FeeDetail] | 否 | 费用明细|
 
