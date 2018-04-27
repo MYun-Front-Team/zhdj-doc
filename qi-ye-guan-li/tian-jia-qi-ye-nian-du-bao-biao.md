@@ -15,7 +15,7 @@ http://ip:port/ParkAction/IndustrySale/AddSaleYearReport
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 是 | 企业组织系统编码 |
-| Year | datetime | 是 |时间，只取年份  |
+| Year | int| 是 |时间，只取年份  |
 | TaxRevenue| decimal | 否 |预计年纳税额|
 |  Turnover | decimal | 否 |预计年销售额|
 

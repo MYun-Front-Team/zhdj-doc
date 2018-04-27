@@ -25,7 +25,7 @@ http://ip:port/ParkQuery/IndustrySale/GetSaleYearReportBySysNo
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | YearReportSysNo | int | 是 | 年度报表系统编码 |
-| Year | datetime | 是 |时间，只取年份  |
+| Year | int| 是 |时间，只取年份  |
 | TaxRevenue| decimal | 否 |预计年纳税额|
 |  Turnover | decimal | 否 |预计年销售额|
 
