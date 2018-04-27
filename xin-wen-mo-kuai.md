@@ -28,6 +28,12 @@
 | PointsValueList | array object | 否 | 积分赠送配置值列表（接口） |
 | StudyPersonList | array object | 否 | 人员足迹列表 |
 | ModuleRelationList | array object | 否 | 关联模块列表 |
+| SponsorDataRangeSysNo| int| 否 | 主办方ID |
+| SponsorDataRangeGradeType| int| 否 | 主办方级别 |
+
+
+
+
 
 > #### 统计计算字段 {#请求数据}
 

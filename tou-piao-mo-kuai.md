@@ -27,6 +27,12 @@
 | CoSponsorName | string | 否 | 协办方 |
 | Propertys | array object | 否 | 选项属性列表（见通用-属性） |
 | VotePersonList | array object | 否 | 参与人列表 |
+| SponsorDataRangeSysNo| int| 否 | 主办方ID |
+| SponsorDataRangeGradeType| int| 否 | 主办方级别 |
+
+
+
+
 
 > #### 统计计算字段 {#请求数据}
 

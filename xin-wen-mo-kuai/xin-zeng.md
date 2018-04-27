@@ -29,6 +29,8 @@ _**【接口地址】**_
 | ModuleRelationList | array object | 否（可选配置） | 关联模块列表（实体说明见活动） |
 | SponsorName | string | 否 | 主办方 |
 | CoSponsorName | string | 否 | 协办方 |
+| SponsorDataRangeSysNo| int| 否 | 主办方ID |
+
 
 #### PointsValues说明 {#应答数据-}
 

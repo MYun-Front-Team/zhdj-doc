@@ -31,6 +31,9 @@ _**【接口地址】**_
 | CoSponsorName | string | 否（可选配置） | 协办方 |
 | Propertys | array object | 是 | 选项属性列表 |
 | PickRuleTemplateList | array object | 否（可选配置） | 选人规则 |
+| SponsorDataRangeSysNo| int| 否 | 主办方ID |
+
+
 
 #### _应答数据_ {#应答数据-}
 

@@ -38,6 +38,8 @@ _**【接口地址】**_
 | SponsorName | string | 否（可选配置） | 主办方 |
 | CoSponsorName | string | 否（可选配置） | 协办方 |
 | PlugInUnitList | array object | 否 | 插件列表 |
+| SponsorDataRangeSysNo| int| 否 | 主办方ID |
+
 
 #### PointsValues说明 {#应答数据-}
 
