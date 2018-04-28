@@ -24,6 +24,9 @@ _**【接口地址】**_
 | DataRangeSysNo | int | 否 | 枝叶系统编码（0则查询整棵树） |
 | OrganizationSysNo | int | 否 | 组织系统编码 |
 | DataRangeTreeType | int | 否 | 树类型（枚举） |
+| MaxDataRangeGradeType| int | 否 |最大树类型（枚举） |
+
+
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
