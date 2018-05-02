@@ -38,6 +38,22 @@ _**【接口地址】**_
 | LicensePathList | array string | 否 | 营业执照Path路径列表 |
 | SellerLogoPathList | array string | 否 | 商家Logo的Path列表 |
 | CategorySysNoList | array int | 否 | 商家行业类型编码列表 |
+| SellerFinancePerson| string | 否 |财务联系人 |
+| SellerFinancePhone| string | 否 |财务联系人电话 |
+| ParkSysNo| int | 否 |注册地址（园区） |
+| IfHasPhysicalStore| int | 否 |是否有实体 |
+| IfHasInternetStore| int | 否 |是否有网店 |
+| ScaleType| int | 否 |规模（端定义） |
+| RegistrationTime| datetime| 否 |注册时间 |
+| PromisesTax| decimal| 否 |承诺税收 |
+
+
+
+
+
+
+
+
 
 #### _应答数据 _ {#应答数据-}
 

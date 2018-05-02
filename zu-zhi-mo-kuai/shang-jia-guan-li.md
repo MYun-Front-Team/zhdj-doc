@@ -39,6 +39,20 @@
 | SellerLogoUrlList | array string | 否 | 商家Logo的URL列表 |
 | SellerBossPerson | object | 否 | 商家创始人实体（默认联系人） |
 | SellerCategoryList | array object | 否 | 商家行业类型列表 |
+| SellerMasterPhone| string | 否 | 商家负责人电话 |
+| SellerFinancePerson| string | 否 |财务联系人 |
+| SellerFinancePhone| string | 否 |财务联系人电话 |
+| ParkSysNo| int | 否 |注册地址（园区） |
+| IfHasPhysicalStore| int | 否 |是否有实体 |
+| IfHasInternetStore| int | 否 |是否有网店 |
+| ScaleType| int | 否 |规模（端定义） |
+| RegistrationTime| datetime| 否 |注册时间 |
+| PromisesTax| decimal| 否 |承诺税收 |
+
+
+
+
+
 
 
 > #### SellerStatistic统计计算字段 {#请求数据}
