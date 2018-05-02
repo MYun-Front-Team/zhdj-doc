@@ -681,7 +681,7 @@
     * [按园区](qi-ye-dai-shou-fei-lie-biao/an-yuan-qu.md)
   * [报表中心](bao-biao-zhong-xin.md)
     * [重点企业销售额统计表](bao-biao-zhong-xin/zhong-dian-qi-ye-xiao-shou-e-tong-ji-biao.md)
-    * 入住企业税收统计表
-    * 园区企业纳税汇总表
+    * [入住企业税收统计表](bao-biao-zhong-xin/ru-zhu-qi-ye-shui-shou-tong-ji-biao.md)
+    * [园区企业纳税汇总表](bao-biao-zhong-xin/yuan-qu-qi-ye-na-shui-hui-zong-biao.md)
     * [重点企业招商进度表](bao-biao-zhong-xin/zhong-dian-qi-ye-zhao-shang-jin-du-biao.md)
 
