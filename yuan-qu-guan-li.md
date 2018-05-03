@@ -23,6 +23,8 @@
 | Remark| string | 否 |备注|
 | FilePathList | array string | 否 |照片 |
 | FileUrlList | array string | 否 |照片 |
+| ChargeForHotWater| decimal| 否 |水费单价|
+
 
 > #### 统计计算字段 {#请求数据}
 

@@ -25,6 +25,7 @@ http://ip:port/ParkAction/IndustryPark/EditPark
 | ParkAddress | string | 否 | 园区地址|
 | ParkArea | decimal| 否 | 园区面积|
 | ChargeForWater| decimal| 否 |水费单价|
+| ChargeForHotWater| decimal| 否 |水费单价|
 | ChargeForProperty | decimal| 否 |物业费|
 | ChargeForElectric | decimal| 否 |电费单|
 | ParkPerson| string | 否 |联系人|
