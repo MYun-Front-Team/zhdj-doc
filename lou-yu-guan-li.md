@@ -19,6 +19,7 @@
 | BusinessArea| decimal | 否 |商务办公面积|
 | ParkingLotArea| decimal | 否 |停车场面积|
 | ParkingLotCount| int | 否 |机动车泊位数|
+| ChargeForProperty | decimal| 否 |物业费|
 
 
 
