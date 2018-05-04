@@ -31,6 +31,9 @@ _**【接口地址】**_
 | CoSponsorName | string | 否 | 协办方 |
 | FilePathList | array string | 否 | 文件或图片Path列表（第一张为首图） |
 | OrganizationSysNo | int |否| 组织系统编码 |
+| SponsorDataRangeSysNo| int| 否 | 主办方ID |
+
+
 
 
 
