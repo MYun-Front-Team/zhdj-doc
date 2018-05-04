@@ -41,6 +41,7 @@ http://ip:port/ParkAction/IndustryProject/AddParkProject
 | ProjectDesc| string | 否 |项目简介|
 | ProjectRecommend| string | 否 |项目推荐人|
 | ProjectNegotiation| string | 否 |招商洽谈人|
+| WarehouseArea| decimal | 否 |仓库面积|
 
 
 

@@ -32,6 +32,11 @@
 | ProjectNegotiation| string | 否 |招商洽谈人|
 | SellerName | string | 否 |企业名称 |
 |AgreementStatus | int | 否 |协议状态（0未签署，10已签署） |
+| WarehouseArea| decimal | 否 |仓库面积|
+
+
+
+
 
 
 
