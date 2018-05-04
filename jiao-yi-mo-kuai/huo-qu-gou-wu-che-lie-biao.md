@@ -51,6 +51,10 @@ _**【接口地址】**_
 | ~~Price~~ | ~~object~~ | ~~是~~ | ~~价格实体（见商品）~~ |
 | sku | object | 否 | sku实体 |
 | Remark | string | 否 | 备注|
+| SpecPrice| decimal| 是 | 属性价格(不包含SKU价格) |
+
+
+
 
 
 

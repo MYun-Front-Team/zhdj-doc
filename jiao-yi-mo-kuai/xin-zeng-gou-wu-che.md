@@ -28,6 +28,8 @@ _**【接口地址】**_
 | Quantity | int | 是 | 数量 |
 | OrganizationToSysNo | int | 是 | 买家组织系统编码 |
 | Remark | string | 否 | 备注|
+| CustomizedSpecValue| string | 是 | 属性 |
+
 
 > #### 应答_数据_ {#请求数据}
 
