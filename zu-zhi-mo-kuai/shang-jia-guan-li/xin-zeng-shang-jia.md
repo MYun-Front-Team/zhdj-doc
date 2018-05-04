@@ -55,6 +55,8 @@ _**【接口地址】**_
 | ScaleType| int | 否 |规模（端定义） |
 | RegistrationTime| datetime| 否 |注册时间 |
 | PromisesTax| decimal| 否 |承诺税收 |
+| RegisteredCapital| decimal| 否 |注册资金 |
+
 
 
 
