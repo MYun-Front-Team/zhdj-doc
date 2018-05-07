@@ -43,6 +43,10 @@
 | KeyWord | string | 否 | 关键字|
 | ParkFloorSysNo | int | 是 | 楼层系统编码 |
 | IsRentList | array int | 是 | 租借状态 (0闲置 10租用) |
+| BuildingSysNo | int | 是 | 楼宇系统编码 |
+| ParkSysNo | int | 是 | 园区编码 |
+
+
 
 
 > #### 查询Limit字段 {#请求数据}

@@ -32,6 +32,7 @@
 | DataRangeSysNoList |array int | 否 | 数据范围树枝叶编码列表 |
 | KeyWord | string | 否 | 关键字|
 | BuildingSysNo | int | 是 | 楼宇系统编码 |
+| ParkSysNo | int | 是 | 园区编码 |
 
 
 > #### 查询Limit字段 {#请求数据}
