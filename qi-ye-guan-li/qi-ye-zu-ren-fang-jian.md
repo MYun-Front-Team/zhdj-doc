@@ -19,7 +19,7 @@ http://ip:port/ParkAction/IndustrySale/RentParkRoom
 | :--- | :--- | :--- | :--- |
 | StartDate | int | 是 | 入住时间 |
 | Remark | string | 否 | 租赁备注 |
-| ParkRoomSysNo| int | 是  | 房间编码|
+| ParkRoomSysNos|array int | 是  | 房间编码|
 | OrganizationSysNo | int | 是 | 企业组织系统编码 |
 
 
