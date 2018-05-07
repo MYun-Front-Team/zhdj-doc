@@ -7,6 +7,7 @@
 | FeeSysNo | int | 是 | 费用系统编码 |
 | FeeType | int | 是 | 费用类型 |
 | FeeStatus | int | 否 |缴纳状态（0未缴纳，1部分缴纳，10完成缴纳） |
+| IfHasWaitAudit| int | 否 |是否支付查待确认的缴纳状态|
 | NoticeCount | int | 否 |催缴次数 |
 | FeeClassSysNo | int | 否 | 费用分类（枚举） |
 | StartDate | datetime | 否 | 费用开始时间 |
