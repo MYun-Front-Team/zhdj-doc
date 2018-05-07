@@ -17,6 +17,7 @@ http://ip:port/ParkQuery/IndustrySale/GetParkRoomRentList
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 是 | 企业组织系统编码 |
 | IfShowRent| int | 否 | 是否只显示当前租的|
+| ParkRoomSysNo| int | 否 | 房间编码|
 
 
 
