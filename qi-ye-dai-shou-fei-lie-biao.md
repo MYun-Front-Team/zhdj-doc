@@ -10,7 +10,9 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/ParkQuery/IndustryFee/GetParkFeeReport
+http://ip:port/ParkQuery/IndustryFee/GetParkFeeReportBySeller
+
+
 
 > #### _请求数据_ {#请求数据}
 
