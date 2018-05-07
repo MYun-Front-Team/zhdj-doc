@@ -33,6 +33,13 @@ http://ip:port/ParkQuery/IndustrySale/GetSaleContractBySysNo
 | EndDate | datetime | 否 | 结束时间 |
 | Deposit | decimal | 否 | 押金 |
 | Remark | decimal | 否 | 备注 |
+| FilePathList | array string | 否 |照片 |
+| FileUrlList | array string | 否 |照片 |
+
+
+
+
+
 
 
 

@@ -25,6 +25,7 @@ http://ip:port/ParkAction/IndustrySale/EditSaleContract
 | EndDate | datetime | 否 | 结束时间 |
 | Deposit | decimal | 否 | 押金 |
 | Remark | decimal | 否 | 备注 |
+| FilePathList | array string | 否 |照片 |
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
