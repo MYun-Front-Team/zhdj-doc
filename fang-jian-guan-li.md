@@ -45,6 +45,7 @@
 | IsRentList | array int | 是 | 租借状态 (0闲置 10租用) |
 | BuildingSysNo | int | 是 | 楼宇系统编码 |
 | ParkSysNo | int | 是 | 园区编码 |
+|ParkRoomTypeList  |array  int | 是 |房间类型|
 
 
 
