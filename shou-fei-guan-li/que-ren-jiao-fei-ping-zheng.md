@@ -16,7 +16,7 @@ http://ip:port/ParkAction/IndustryFee/AuditFeePayDetail
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| FeePayDetailSysNo | int | 否 |支付凭着系统编码 |
+| FeePayDetailSysNos |array int | 否 |支付凭着系统编码 |
 | AuditStatus| int | 是 | 确认状态（10已确认，11作废）|
 
 
