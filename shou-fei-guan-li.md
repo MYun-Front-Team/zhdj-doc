@@ -20,6 +20,8 @@
 | RefundDetails | array RefundDetail | 否 |退款记录 |
 | TotalFee | decimal | 否 |总费用（FeeItem的TotalFee总计） |
 | PaidFee | decimal | 否 |实际支付 |
+| IfHasWaitAudit| int | 否 |是否支付查待确认的缴纳状态|
+
 
 
 
