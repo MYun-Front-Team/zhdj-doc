@@ -24,7 +24,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | DataRangeSysNo | int | 是 | 系统编码 |
 | PartyBranchType | int | 是 | 党委支部类型: 1两新组织、2社区支部、3机关支部 |
-| PartyBranchCategory| int | 是 | 党委/支部类型 1党委，2党总支，3普通支部|
+| DataRangeCategory| int | 是 | 党委/支部类型 1党委，2党总支，3普通支部|
 | PartyBranchName | string | 是 | 党委支部名称 |
 | PartyBranchDesc | string | 是 | 党委支部描述 |
 | ContractAddress | string | 是 | 联系地图 |

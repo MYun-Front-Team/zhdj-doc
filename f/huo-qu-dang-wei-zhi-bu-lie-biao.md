@@ -44,7 +44,7 @@ _**【接口地址】**_
 | Latitude | decimal | 是 | 纬度 |
 | 统计计算字段 |  |  | （见党员模块说明） |
 | PartyBranchStarCount | decimal（18，1） | 是 | 星级 |
-| PartyBranchCategory| int | 是 | 党委/支部类型 1党委，2党总支，3普通支部|
+| DataRangeCategory| int | 是 | 党委/支部类型 1党委，2党总支，3普通支部|
 
 
 

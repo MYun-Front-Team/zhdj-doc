@@ -39,6 +39,11 @@ _**【接口地址】**_
 | ContractAddress | string | 是 | 联系地址 |
 | Longitude | decimal | 是 | 经度 |
 | Latitude | decimal | 是 | 纬度 |
+| DataRangeCategory| int | 是 | 党委/支部类型 1党委，2党总支，3普通支部|
+
+
+
+
 
 
 

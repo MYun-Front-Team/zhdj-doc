@@ -34,6 +34,7 @@ _**【接口地址】**_
 | DataRangeTree | object | 是 | 子树结构对象 |
 | IsEnable | int | 是 | 是否有效（应用场景是枝上面无权限，在下面的叶子有权限，那么不需要选中枝） |
 | DataRangeGradeType | int | 是 | 节点等级：1省，2市，3区，4街道/县，5社区/村 |
+| DataRangeCategory| int | 是 |项目自定义类型（ 党委/支部类型 1党委，2党总支，3普通支部）|
 
 注：DataRangeTree即为返回实体本身。
 
