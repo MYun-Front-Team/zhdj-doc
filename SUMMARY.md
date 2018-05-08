@@ -677,6 +677,7 @@
     * [获取收费列表](shou-fei-guan-li/huo-qu-shou-fei-lie-biao.md)
     * [获取收费详情](shou-fei-guan-li/huo-qu-shou-fei-xiang-qing.md)
     * [编辑费用](shou-fei-guan-li/bian-ji-fei-yong.md)
+    * [删除退款费用](shou-fei-guan-li/shan-chu-tui-kuan-fei-yong.md)
   * [企业待收费列表](qi-ye-dai-shou-fei-lie-biao.md)
     * [按商家](qi-ye-dai-shou-fei-lie-biao/an-shang-jia.md)
     * [按园区](qi-ye-dai-shou-fei-lie-biao/an-yuan-qu.md)
