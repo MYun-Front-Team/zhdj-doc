@@ -27,6 +27,7 @@ http://ip:port/ParkAction/IndustryFee/PayFee
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| PayFeeSysNo | int | 是 | 缴费流水编码 |
 
 
 
