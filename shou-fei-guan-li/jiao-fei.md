@@ -22,7 +22,7 @@ http://ip:port/ParkAction/IndustryFee/PayFee
 | PaidFee| decimal | 是 | 实际缴费|
 | PaidRemark| string | 是 | 缴费备注|
 | PaidFilePathList | array string | 否 |凭证照片 |
-
+| PaymentType| int | 否 | 1支付宝，2微信，3银联，4线下支付（为了兼容，不传这字段就是线下支付）|
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
