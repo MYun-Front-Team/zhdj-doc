@@ -32,6 +32,11 @@
 | ~~SystemConfig~~ | ~~object~~ | ~~否~~ | ~~系统配置~~ |
 | PersonIDPhotoPathList | array string | 否 | 证件照图片Path路径列表 |
 | PersonIDPhotoUrlList | array string | 否 | 证件照图片Url路径列表 |
+| DataRangeCategory| int | 是 | 党委/支部类型 1党委，2党总支，3普通支部|
+
+
+
+
 
 > #### ~~SystemConfig~~ {#请求数据}
 
