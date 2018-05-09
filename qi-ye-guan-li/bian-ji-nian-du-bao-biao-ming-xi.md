@@ -34,8 +34,8 @@ http://ip:port/ParkQuery/IndustrySale/GetSaleYearReportDetail
 | TotalTurnover | decimal | 否 |本年累计销售额|
 | FilePathList | array string | 否 |照片 |
 | FileUrlList | array string | 否 |照片 |
-
-
+| OperPerson| string | 否 |操作人 |
+| CreateTime| DateTime| 否 |递交时间 |
 
 
 
