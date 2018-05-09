@@ -37,6 +37,10 @@ _**【接口地址】**_
 | AccountAddress | string | 否 | 开户行地址 |
 | CardKey | string | 否 | 信用卡口令 |
 | CardDate | string | 否 | 信用卡有效期 |
+| IfVerifyCard| int | 是 | 是通过连接三方查证银行卡合法性 |
+| IdentityNo| string | 是 | 银行卡预留身份证（验证合法性的话必传） |
+
+
 
 
 
