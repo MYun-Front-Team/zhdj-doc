@@ -32,6 +32,7 @@ _**【接口地址】**_
 | CardKey | string | 否 | 信用卡口令 |
 | CardDate | string | 否 | 信用卡有效期 |
 | IfVerifyCard| int | 否 | 是否要连接三方查证银行卡合法性 |
+| IdentityNo| string | 否 | 银行卡预留身份证（验证合法性的话必传） |
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
