@@ -313,6 +313,8 @@
   * [编辑商品分组](shang-pin-mo-kuai/bian-ji-shang-pin-fen-zu.md)
   * [设置款排序](shang-pin-mo-kuai/she-zhi-kuan-pai-xu.md)
   * [CPS同步商品](shang-pin-mo-kuai/cpstong-bu-shang-pin.md)
+  * [CPS获取商品列表](shang-pin-mo-kuai/cpshuo-qu-shang-pin-lie-biao.md)
+  * [CPS获取商品详情](shang-pin-mo-kuai/cpshuo-qu-shang-pin-xiang-qing.md)
 * [组织模块](zu-zhi-mo-kuai.md)
   * [获取组织列表](zu-zhi-mo-kuai/huo-qu-zu-zhi-lie-biao.md)
   * [获取组织详情](zu-zhi-mo-kuai/huo-qu-zu-zhi-xiang-qing.md)
