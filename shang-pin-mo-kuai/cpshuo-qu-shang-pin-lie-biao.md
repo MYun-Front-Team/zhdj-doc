@@ -16,6 +16,7 @@ http://ip:port/ProductQuery/ProductGroup/GetCPSProductGroupList
 | OrganizationSysNo| int | 是 | 组织编码 |
 | DataRangeSysNo | int | 否 | 数据范围枝叶编码 |
 | TouristOrganizationSysNo | int | 是 | 游客组织系统编码（传0即为游客） |
+| ProductGroupClassSysNoList | array int | 否 | 类型分类系统编码（类别树） |
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
