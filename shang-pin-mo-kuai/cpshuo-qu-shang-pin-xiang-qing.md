@@ -53,6 +53,8 @@ http://ip:port/ProductQuery/ProductGroup/GetCPSProductGroupBySysNo
 | Price|Price| 是 | 价格|
 | FileThumbnailUrlList| array string | 是 | sku缩略图 |
 | CPSCommission|decimal| 是 | CPS佣金|
+| CPSCommissionRate|decimal| 是 | CPS佣金比率|
+
 
 #### Price {#应答数据-（巡河记录数组）}
 
