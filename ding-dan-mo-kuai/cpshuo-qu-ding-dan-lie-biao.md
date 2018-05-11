@@ -38,7 +38,7 @@ http://ip:port/OrderQuery/Order/GetCPSOrderList
 | CreateTime | datetime | 否 | 创建时间|
 | CPSSysNo | int | 否 | CPS系统编码|
 | CPSCode | int | 否 | CPS编码|
-| SourceOrderCreateTime| datetime| 否 | 三方订单下单时间|
+| CPSOrderCreateTime| datetime| 否 | 三方订单下单时间|
 
 
 
