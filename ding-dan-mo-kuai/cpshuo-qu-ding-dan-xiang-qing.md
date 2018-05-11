@@ -10,17 +10,13 @@ CPS获取订单列表
 
 _**【接口地址】**_
 
-http://ip:port/OrderQuery/Order/GetCPSOrderList
+http://ip:port/OrderQuery/Order/GetCPSOrderBySysNo
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrganizationFromSysNo | int | 否 | 卖家组织系统编码 |
-| DataRangeSysNoList | array int | 否 | 数据范围编码列表（店铺树） |
-| OrganizationToSysNo | int | 否 | 买家组织系统编码 |
-| PersonSysNoList | array int | 否 | 买家人员系统编码 |
-| KeyWord | string | 否 | 关键字搜索（订单号/收货人/收货手机） |
+| OrderSysNo | int | 是 | 订单系统编码 |
 
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
