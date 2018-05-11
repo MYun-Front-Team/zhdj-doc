@@ -13,10 +13,12 @@ http://ip:port/ProductQuery/ProductGroup/GetCPSProductGroupList
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrganizationSysNo| int | 是 | 组织编码 |
-| DataRangeSysNo | int | 否 | 数据范围枝叶编码 |
-| TouristOrganizationSysNo | int | 是 | 游客组织系统编码（传0即为游客） |
+| OrganizationSysNo | int | 否 | 组织系统编码 |
+| DataRangeSysNoList | int | 否 | 数据范围编码列表（店铺树） |
+| IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
+| KeyWord | string | 否 | 关键字搜索（名称\规格\标签） |
 | ProductGroupClassSysNoList | array int | 否 | 类型分类系统编码（类别树） |
+| TouristOrganizationSysNo | int | 是 | 游客组织系统编码（传0即为游客） |
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
