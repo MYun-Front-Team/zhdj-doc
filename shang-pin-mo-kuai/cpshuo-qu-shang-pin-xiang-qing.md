@@ -42,6 +42,13 @@ http://ip:port/ProductQuery/ProductGroup/GetCPSProductGroupBySysNo
 | DataRangeSysNo|int| 是 |店铺数据范围|
 | DataRangeName|string| 是 |店铺数据范围|
 | SkuList|array Sku| 是 |店铺数据范围|
+| CPSStartDate|datetime| 是 |推荐开始时间|
+| CPSEndDate|datetime| 是 |推荐结束时间|
+| CPSInOrderCount|int| 是 |评论数|
+
+
+
+
 
 
 #### Sku {#应答数据-（巡河记录数组）}
