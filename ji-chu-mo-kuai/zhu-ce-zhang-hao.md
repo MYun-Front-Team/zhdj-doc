@@ -37,6 +37,8 @@ _**【接口地址】**_
 | IsNewPerson | int | 否 | 是否新的人员（禁用） |
 | OrganizationSysNo | int | 否 | 注册账号到指定的组织 |
 | Post| string |否 | 职位 |
+| AdminStatus| int | 否 | 状态：0未激活，1正常，2禁用 |
+
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
