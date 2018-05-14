@@ -59,6 +59,8 @@ http://ip:port/ProductQuery/ProductGroup/GetCPSProductGroupList
 | FileThumbnailUrlList| array string | 是 | sku缩略图 |
 | CPSCommission|decimal| 是 | CPS佣金|
 | CPSCommissionRate|decimal| 是 | CPS佣金比率|
+| SourceSkuCode| string | 是 | CPSSKU编码 |
+
 
 
 
