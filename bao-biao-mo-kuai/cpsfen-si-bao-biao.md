@@ -28,6 +28,7 @@
 | CustomerLevelSysNo| int| 否 | 客户等级编码 |
 | CustomerSonCount| int| 否 | 推荐孩子数 |
 | FansLeve| int| 否 | 1直接粉丝，2推荐粉丝|
+| FileUrlList | array string | 否 | 头像图片列表 |
 
 > #### 应答数据 PageResponseStatistic 【38000100】
 
