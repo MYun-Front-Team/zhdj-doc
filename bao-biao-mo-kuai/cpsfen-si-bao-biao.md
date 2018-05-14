@@ -28,6 +28,8 @@
 | CustomerLevelSysNo| int| 否 | 客户等级编码 |
 | CustomerSonCount| int| 否 | 推荐孩子数 |
 | FansLeve| int| 否 | 1直接粉丝，2推荐粉丝|
+| FileUrlList | array string | 否 | 头像图片列表 |
+
 
 > #### 应答数据 PageResponseStatistic 【38000100】
 
@@ -41,7 +43,9 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| CustomerLevelInfos| array CustomerLevelInfo| 否 | 各个客户等级人数 |
+| CustomerLevelName| string | 否 | 自己的客户等级 |
+| CustomerLevelSysNo| int| 否 | 自己的客户等级编码 |
+| CustomerLevelInfos| array CustomerLevelInfo| 否 | 孩子各个客户等级人数 |
 
 
 
