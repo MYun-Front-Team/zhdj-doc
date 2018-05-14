@@ -10,6 +10,8 @@ _**【应用场景】**_
 
 2、班级与教师关系类型为“班主任”或“副班主任”则关系设置为默认值，后期用住查询；
 
+3、通过父级编码先维护数据范围树结构；
+
 _**【接口地址】**_
 
 [http://ip:port/EduAction/Class/Add](http://ip:port/HMAction/River/AddRiver)Class
@@ -18,7 +20,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| DataRangeSysNo | int | 是 | 数据范围枝叶编码 |
+| DataRangeFatherSysNo | int | 是 | 父级数据范围枝叶编码 |
 | ~~GradeSysNo~~ | ~~int~~ | ~~是~~ | ~~年级系统编码~~ |
 | ClassName | string | 是 | 班级名称 |
 | ClassMotto | string | 否（可选配置） | 班训 |
