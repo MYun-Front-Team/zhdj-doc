@@ -45,10 +45,31 @@ http://ip:port/OrderQuery/Order/GetCPSOrderList
 | CPSCode | int | 否 | CPS编码|
 | CreateTime| datetime| 否 | 三方订单下单时间|
 
+> ###OrderItem
 
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| OrderSysNo | int | 是 | 系统编码 |
+| ProductGroupSysNo | int | 是 | 款系统编码 |
+| SkuSysNo| int | 是 | 款系统编码 |
+| SourceSkuCode| string | 是 | 三方来源SKUID |
+| SkuName| int | 是 | SKU名称|
+| FileThumbnailUrlList| array[string]| 是 | SKU图片 |
+| RealPrice| decimal| 是 | 价格|
+| Quantity| int | 否 | 数量 |
+| CPSCommission| decimal | 否 | 佣金 |
+| CPSValid| int| 否 | CPS是否失效（0有效，1失效）|
+| CPSValidRemark| string | 否 |失效备|
+| CPSCode | int | 否 | CPS编码|
+| CreateTime| datetime| 否 | 三方订单下单时间|
 
+> ###OrderAmount
 
-
-
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| OrderSysNo | int | 是 | 系统编码 |
+| AmountType | int | 是 | 业务逻辑自定义金额类型 6实际支付总金额，9原始订单总金额，10当前商品总金额, 12CPS佣金 |
+| Amount | decimal（18，2） | 是 | 金额 |
+| Remark | string | 否 | 备注 |
 
 
