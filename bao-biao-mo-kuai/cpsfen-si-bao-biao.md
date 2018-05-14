@@ -28,7 +28,7 @@
 | CustomerSonCount| int| 否 | 推荐孩子数 |
 | FansLeve| int| 否 | 1直接粉丝，2推荐粉丝|
 
-> #### 应答数据 PageResponseStatistic 【8000100】
+> #### 应答数据 PageResponseStatistic 【38000100】
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
