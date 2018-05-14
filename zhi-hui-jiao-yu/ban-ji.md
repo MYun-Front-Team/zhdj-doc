@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- |
 | ClassSysNo | int | 是 | 班级系统编码 |
 | DataRangeSysNo | int | 是 | 班级所属数据范围树 |
-| GradeSysNo | int | 是 | 年级系统编码 |
+| ~~GradeSysNo~~ | ~~int~~ | ~~是~~ | ~~年级系统编码~~ |
 | ClassName | Nvarchar\(50\) | 是 | 班级名称 |
 | ClassMotto | Nvarchar\(200\) | 否 | 班训 |
 | HeadMasterWord | Nvarchar\(500\) | 否 | 班主任寄语 |

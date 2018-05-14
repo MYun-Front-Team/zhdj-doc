@@ -19,7 +19,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | DataRangeSysNo | int | 是 | 数据范围枝叶编码 |
-| GradeSysNo | int | 是 | 年级系统编码 |
+| ~~GradeSysNo~~ | ~~int~~ | ~~是~~ | ~~年级系统编码~~ |
 | ClassName | string | 是 | 班级名称 |
 | ClassMotto | string | 否（可选配置） | 班训 |
 | HeadMasterWord | string | 否（可选配置） | 班主任寄语 |

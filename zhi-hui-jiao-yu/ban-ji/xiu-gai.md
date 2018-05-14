@@ -21,7 +21,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ClassSysNo | int | 是 | 数据范围枝叶编码 |
-| GradeSysNo | int | 否 | 年级系统编码 |
+| ~~GradeSysNo~~ | ~~int~~ | ~~否~~ | ~~年级系统编码~~ |
 | ClassName | string | 否 | 班级名称 |
 | ClassMotto | string | 否 | 班训 |
 | HeadMasterWord | string | 否 | 班主任寄语 |
