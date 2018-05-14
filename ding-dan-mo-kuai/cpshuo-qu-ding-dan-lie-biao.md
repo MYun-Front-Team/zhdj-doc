@@ -21,6 +21,11 @@ http://ip:port/OrderQuery/Order/GetCPSOrderList
 | OrganizationToSysNo | int | 否 | 买家组织系统编码 |
 | PersonSysNoList | array int | 否 | 买家人员系统编码 |
 | KeyWord | string | 否 | 关键字搜索（订单号/收货人/收货手机） |
+| PaymentStatusList | array int | 否 | 支付状态 |
+| CancelStatusList | array int | 否 | 取消状态 |
+| FinishStatusList | array int | 否 | 完结状态 |
+| SettlementStatusList | array int | 否 | 结算状态 |
+
 
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
