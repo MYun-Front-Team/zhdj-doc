@@ -19,6 +19,8 @@ http://ip:port/ProductQuery/ProductGroup/GetCPSProductGroupList
 | KeyWord | string | 否 | 关键字搜索（名称\规格\标签） |
 | ProductGroupClassSysNoList | array int | 否 | 类型分类系统编码（类别树） |
 | TouristOrganizationSysNo | int | 是 | 游客组织系统编码（传0即为游客） |
+| StartCPSCommissionRate|decimal| 是 | 开始CPS佣金比率|
+| EndCPSCommissionRate|decimal| 是 | 结束CPS佣金比率|
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
