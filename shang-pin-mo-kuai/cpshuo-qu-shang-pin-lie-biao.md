@@ -45,7 +45,7 @@ http://ip:port/ProductQuery/ProductGroup/GetCPSProductGroupList
 | CPSStartDate|datetime| 是 |推荐开始时间|
 | CPSEndDate|datetime| 是 |推荐结束时间|
 | CPSInOrderCount|int| 是 |评论数|
-| FileMasterUrlList | array string | 否 | 主图Url列表（第一张为首图） |
+
 
 
 
@@ -58,7 +58,6 @@ http://ip:port/ProductQuery/ProductGroup/GetCPSProductGroupList
 | SkuName| string | 是 | SKU名称 |
 | Price|Price| 是 | 价格|
 | FileThumbnailUrlList| array string | 是 | sku缩略图 |
-| FileMasterUrlList | array string | 否 | 主图Url列表（第一张为首图） |
 | CPSCommission|decimal| 是 | CPS佣金|
 | CPSCommissionRate|decimal| 是 | CPS佣金比率|
 | SourceSkuCode| string | 是 | CPSSKU编码 |
