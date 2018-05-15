@@ -15,6 +15,7 @@ http://ip:port/OrderAction/Order/SettlementCPSOrders
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| CPSCode| string| 是 | （JD： 京东）|
 
 > #### 应答_数据_ {#请求数据}
 
