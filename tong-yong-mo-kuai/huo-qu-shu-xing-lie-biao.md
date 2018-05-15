@@ -29,6 +29,7 @@ _**【接口地址】**_
 | PropertyCode | string | 否 | 属性代码 |
 | PropertyName | string | 是 | 属性名 |
 | IsAllowNull | int | 是 | 是否允许空 |
+|MinItemSelect|int | 是 | 至少选择几个| 
 | IsOptional | int | 是 | 属性值类型：0文本，1单休，2多选，3关联 |
 | PropertyValues | array object | 否 | 属性值列表 |
 
