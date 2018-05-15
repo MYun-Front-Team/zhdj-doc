@@ -216,6 +216,7 @@
   * [删除组织人员](ji-chu-mo-kuai/shan-chu-zu-zhi-ren-yuan.md)
   * [获取Saas项目号记录](ji-chu-mo-kuai/huo-qu-saas-xiang-mu-hao-ji-lu.md)
   * [验证账户可用性](ji-chu-mo-kuai/yan-zheng-zhang-hu-ke-yong-xing.md)
+  * [绑定手机（合并账户）](ji-chu-mo-kuai/bang-ding-shou-ji-ff08-he-bing-zhang-hu-ff09.md)
 * [朋友圈模块](peng-you-quan-mo-kuai.md)
   * [获取朋友圈列表](peng-you-quan-mo-kuai/huo-qu-peng-you-quan-lie-biao.md)
   * [获取朋友圈详情](peng-you-quan-mo-kuai/huo-qu-peng-you-quan-xiang-qing.md)
