@@ -486,6 +486,7 @@
     * [新增银行卡](zi-jin-guan-li/xin-zeng-yin-xing-qia.md)
     * [删除银行卡](zi-jin-guan-li/shan-chu-yin-xing-qia.md)
     * [获取银行列表](zi-jin-guan-li/huo-qu-yin-xing-lie-biao.md)
+    * [获取银行支行信息](zi-jin-guan-li/huo-qu-yin-xing-zhi-xing-xin-xi.md)
   * [提现管理](zi-jin-guan-li/ti-xian-guan-li.md)
     * [获取提现列表](zi-jin-guan-li/huo-qu-ti-xian-lie-biao.md)
     * [获取提现详情](zi-jin-guan-li/huo-qu-ti-xian-xiang-qing.md)
