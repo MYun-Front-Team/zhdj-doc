@@ -45,6 +45,7 @@ http://ip:port/ProductQuery/ProductGroup/GetCPSProductGroupList
 | CPSStartDate|datetime| 是 |推荐开始时间|
 | CPSEndDate|datetime| 是 |推荐结束时间|
 | CPSInOrderCount|int| 是 |评论数|
+| FileMasterUrlList | array string | 否 | 主图Url列表（第一张为首图） |
 
 
 
