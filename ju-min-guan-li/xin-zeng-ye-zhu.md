@@ -9,7 +9,7 @@ _**【应用场景】**_
 新增业主
 
 _**【接口地址】**_
-http://ip:port/ResidentAction/ResidentOwner/AddResidentOwner
+http://ip:port/ResidentAction/Resident/AddResidentOwner
 
 
 

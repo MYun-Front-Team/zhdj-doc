@@ -9,7 +9,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/ResidentQuery/ResidentOwner/GetResidentOwnerBySysNo
+http://ip:port/ResidentQuery/Resident/GetResidentOwnerBySysNo
 
 > #### _请求数据_ {#请求数据}
 

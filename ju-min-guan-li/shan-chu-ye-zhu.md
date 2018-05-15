@@ -9,7 +9,7 @@ _**【应用场景】**_
 删除业主
 
 _**【接口地址】**_
-http://ip:port/ResidentAction/ResidentOwner/DelResidentOwner
+http://ip:port/ResidentAction/Resident/DelResidentOwner
 
 
 
