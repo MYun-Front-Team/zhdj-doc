@@ -570,6 +570,12 @@
     * [修改志愿者](ju-min-guan-li/zhi-yuan-zhe-guan-li/xiu-gai-zhi-yuan-zhe.md)
     * [删除志愿者](ju-min-guan-li/zhi-yuan-zhe-guan-li/shan-chu-zhi-yuan-zhe.md)
     * [设置志愿者状态](ju-min-guan-li/zhi-yuan-zhe-guan-li/she-zhi-zhi-yuan-zhe-zhuang-tai.md)
+  * 业主管理
+    * [获取业主列表](ju-min-guan-li/huo-qu-ye-zhu-lie-biao.md)
+    * [获取业主详情](ju-min-guan-li/huo-qu-ye-zhu-xiang-qing.md)
+    * [新增业主](ju-min-guan-li/xin-zeng-ye-zhu.md)
+    * [修改业主](ju-min-guan-li/xiu-gai-ye-zhu.md)
+    * [删除业主](ju-min-guan-li/shan-chu-ye-zhu.md)
 * [报表模块](bao-biao-mo-kuai.md)
   * [获取报表数据](bao-biao-mo-kuai/huo-qu-bao-biao-shu-ju.md)
   * [获取报表模板](bao-biao-mo-kuai/huo-qu-bao-biao-mo-ban.md)
