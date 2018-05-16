@@ -21,7 +21,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | HollowSysNo | int | 是 | 系统编码 |
-| HollowType | int | 否 | 坑位类型：0链接，1商品，2店铺，3新闻 |
+| HollowType | int | 否 | 坑位类型：0链接，1商品，2店铺，3新闻,4录播,5消息,6活动 |
 | LaunchCategorySysNo | int | 否 | 投放行业系统编码 |
 | LaunchAreaSysNo | int | 否 | 投放区域系统编码 |
 | LaunchPCDCode | string | 否 | 投放区域PCDCode |
