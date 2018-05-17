@@ -8,6 +8,10 @@ _**【应用场景】**_
 
 一键发布招聘
 
+注：1、发布需要圈子满足招聘要求的人员信息；
+
+2、需要新增一条如7天到期之后的重复发布逻辑（Remind），并需要去掉忽略该条照片信息的人员；
+
 _**【接口地址】**_
 
 [http://ip:port/RecruitAction/Recruit/P](http://ip:port/HMAction/River/AddRiver)ublishRecruit

@@ -8,6 +8,8 @@ _**【应用场景】**_
 
 确认录用
 
+注：同一个人如果存在其它的已抢招聘信息（进行中），那么标记RecruitPersonStatus=11；
+
 _**【接口地址】**_
 
 [http://ip:port/RecruitAction/Recruit/](http://ip:port/HMAction/River/AddRiver)SetRecruitSuccess

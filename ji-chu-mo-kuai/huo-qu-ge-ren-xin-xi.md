@@ -26,8 +26,7 @@ _**【接口地址】**_
 | IsShowPropertys | int | 否 | 是否显示人员属性列表 |
 | IsShowPrivacyPropertys | int | 否 | 是否显示隐私属性列表 |
 | IsShowTagList | int | 否 | 是否显示标签列表 |
-| IsShowFatherPerson | int | 否 | 是否显示推荐人|
-
+| IsShowFatherPerson | int | 否 | 是否显示推荐人 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
@@ -58,34 +57,9 @@ _**【接口地址】**_
 | PersonIDCardUrlList | array string | 否 | 身份证图片列表 |
 | ResidencePermitUrlList | array string | 否 | 居住证图片列表 |
 | TagList | array object | 否 | 标签列表 |
-| FatherPersonName| string  | 否 |推荐人名字 |
-| FatherPersonSysNo| int| 否 |推荐人编码 |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| FatherPersonName | string | 否 | 推荐人名字 |
+| FatherPersonSysNo | int | 否 | 推荐人编码 |
+| FileLifeUrlList | array string | 否 | 生活照图片列表 |
 
 
 
