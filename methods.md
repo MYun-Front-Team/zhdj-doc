@@ -39,11 +39,8 @@
 | SponsorName | string | 否 | 主办方 |
 | CoSponsorName | string | 否 | 协办方 |
 | PlugInUnitList | array object | 否 | 插件列表 |
-| SponsorDataRangeSysNo| int| 否 | 主办方ID |
-| SponsorDataRangeGradeType| int| 否 | 主办方级别 |
-
-
-
+| SponsorDataRangeSysNo | int | 否 | 主办方ID |
+| SponsorDataRangeGradeType | int | 否 | 主办方级别 |
 
 > #### 统计计算字段 {#请求数据}
 

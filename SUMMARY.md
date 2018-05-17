@@ -714,4 +714,20 @@
     * [获取班级日课程列表](zhi-hui-jiao-yu/ban-ji/huo-qu-ban-ji-ri-ke-cheng-lie-biao.md)
   * [教师](zhi-hui-jiao-yu/jiao-shi.md)
     * [获取教师列表](zhi-hui-jiao-yu/huo-qu-jiao-shi-lie-biao.md)
+* [招聘模块](zhao-pin-mo-kuai.md)
+  * [职位](zhao-pin-mo-kuai/zhi-wei.md)
+    * 新增岗位
+    * 修改岗位
+    * 删除岗位
+    * 获取职位列表
+    * 获取职位详情
+  * [招聘](zhao-pin-mo-kuai/zhao-pin.md)
+    * 一键发布招聘
+    * 获取招聘列表
+    * 获取招聘详情
+    * 获取招聘人员列表
+    * 确认录用
+  * 求职
+    * 修改求职基本信息
+    * [确认抢工](zhao-pin-mo-kuai/zhao-pin/que-ren-lu-yong.md)
 
