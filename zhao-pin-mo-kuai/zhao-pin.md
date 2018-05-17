@@ -28,10 +28,12 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| RecruitSysNo | int | 否 | 招聘系统编码 |
 | DataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表 |
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 | KeyWord | string | 否 | 关键字搜索（名称） |
 | IsMyFootPrint | int | 否 | 是否显示自己的：0否，1是（不传查全部，传值需通过UserSysNo匹配Person） |
+| PersonPositionTypeList | array int | 否 | 人员期望职位类型：1期望，10做过（Limit开关） |
 
 > #### 查询Limit字段 {#请求数据}
 
@@ -41,6 +43,8 @@
 | IsShowRecruitPersonRobCount | int | 否 | 是否显示意向人数 |
 | IsShowRecruitInstantStatus | int | 否 | 是否显示招聘即时状态 |
 | IsShowMyPersonStatus | int | 否 | 是否显示当前人员的参与情况 |
+| IsShowPersonPositionList | int | 否 | 是否显示期望职位列表 |
+| IsShowPersonSalaryList | int | 否 | 是否显示期望薪资列表 |
 
 ####  {#应答数据-（巡河记录数组）}
 

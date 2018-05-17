@@ -1,0 +1,42 @@
+# 新增 {#新增河流}
+
+##### _【功能说明】_ {#【功能说明】}
+
+新增
+
+_**【应用场景】**_
+
+新增
+
+_**【接口地址】**_
+
+[http://ip:port/RecruitAction/Position/Add](http://ip:port/HMAction/River/AddRiver)Position
+
+> #### _请求数据_ {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| OrganizationSysNo | int | 是 | 组织系统编码 |
+| DataRangeSysNo | int | 否 | 所属数据范围树 |
+| ShopSysNo | int | 否 | 店铺系统编码 |
+| PositionClassSysNo | int | 是 | 职位类型编码（分类） |
+| PositionName | Nvarchar\(50\) | 是 | 职位名称（冗余） |
+| PositionType | int | 否 | 工作类型:0不限,1全职,2兼职 |
+| SexType | int | 否 | 性别要求：0不限,1男，2女 |
+| RecruitCount | int | 否 | 招聘人数 |
+| ExperienceRequirements | int | 否 | 经验要求：0不限,1一年内，2一到三年，3三到五年，4五到十年，5十年以上 |
+| Remark | Nvarchar\(max\) | 否 | 备注 |
+| PositionPathList | array string | 否 | 工作地Path文件列表 |
+| PositionSalaryList | array object | 否 | 岗位薪资列表 |
+| PositionAgeList | array object | 否 | 岗位年龄列表 |
+
+#### _应答数据_ {#应答数据-}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PositionSysNo | int | 是 | 系统编码 |
+
+####  {#应答数据-}
+
+
+

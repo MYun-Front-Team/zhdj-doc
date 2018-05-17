@@ -716,18 +716,18 @@
     * [获取教师列表](zhi-hui-jiao-yu/huo-qu-jiao-shi-lie-biao.md)
 * [招聘模块](zhao-pin-mo-kuai.md)
   * [职位](zhao-pin-mo-kuai/zhi-wei.md)
-    * 新增岗位
-    * 修改岗位
-    * 删除岗位
-    * 获取职位列表
-    * 获取职位详情
+    * [新增岗位](zhao-pin-mo-kuai/zhi-wei/xin-zeng-gang-wei.md)
+    * [修改岗位](zhao-pin-mo-kuai/zhi-wei/xiu-gai-gang-wei.md)
+    * [删除岗位](zhao-pin-mo-kuai/zhi-wei/shan-chu-gang-wei.md)
+    * [获取职位列表](zhao-pin-mo-kuai/zhi-wei/huo-qu-zhi-wei-lie-biao.md)
+    * [获取职位详情](zhao-pin-mo-kuai/zhi-wei/huo-qu-zhi-wei-xiang-qing.md)
   * [招聘](zhao-pin-mo-kuai/zhao-pin.md)
-    * 一键发布招聘
-    * 获取招聘列表
-    * 获取招聘详情
-    * 获取招聘人员列表
-    * 确认录用
-  * 求职
-    * 修改求职基本信息
-    * [确认抢工](zhao-pin-mo-kuai/zhao-pin/que-ren-lu-yong.md)
+    * [一键发布招聘](zhao-pin-mo-kuai/zhao-pin/yi-jian-fa-bu-zhao-pin.md)
+    * [获取招聘列表](zhao-pin-mo-kuai/zhao-pin/huo-qu-zhao-pin-lie-biao.md)
+    * [获取招聘详情](zhao-pin-mo-kuai/zhao-pin/huo-qu-zhao-pin-xiang-qing.md)
+    * [获取招聘人员列表](zhao-pin-mo-kuai/zhao-pin/huo-qu-zhao-pin-ren-yuan-lie-biao.md)
+    * [确认录用](zhao-pin-mo-kuai/zhao-pin/que-ren-lu-yong.md)
+  * [求职](zhao-pin-mo-kuai/qiu-zhi.md)
+    * [修改求职基本信息](zhao-pin-mo-kuai/qiu-zhi/xiu-gai-qiu-zhi-ji-ben-xin-xi.md)
+    * [确认抢班](zhao-pin-mo-kuai/qiu-zhi/que-ren-qiang-ban.md)
 

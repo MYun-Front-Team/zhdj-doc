@@ -1,24 +1,27 @@
-# 完善个人信息 {#获取河长巡河记录}
+# 修改求职基本信息 {#新增河流}
 
 ##### _【功能说明】_ {#【功能说明】}
 
-完善个人信息
+修改求职基本信息
 
 _**【应用场景】**_
 
-完善个人信息
+修改求职基本信息
 
-注：人员属性列表参数不提供则不修改，提供但列表数量为0则删除。
+注：基本信息保存到基础模块的Person里面，期望职位和薪资保存到招聘模块；
 
 _**【接口地址】**_
 
-[http://ip:port/BasicAction/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Basic](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[/E](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)ditPerson
+[http://ip:port/RecruitAction/Recruit/](http://ip:port/HMAction/River/AddRiver)EditRecruitPerson
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PersonSysNo | int | 否 | 人员编码（如果不传则修改UserSysNo对应的Person） |
+| PersonPositionList | array object | 否 | 期望职位列表 |
+| PersonSalaryList | array object | 否 | 期望薪资列表 |
+| WorkingStatus | int | 否 | 工作状态：0离职，1在职，2观望 |
 | PersonName | string | 否 | 昵称 |
 | RealName | string | 否 | 真实姓名 |
 | UserGender | int | 否 | 性别：1男，2女 |
@@ -35,10 +38,8 @@ _**【接口地址】**_
 | FileUrlList | array string | 否 | 图片列表（首图为头像） |
 | PersonProfile | string | 否 | 个人简介 |
 | WorkingDate | string | 否 | 参加工作日期 |
-| Propertys | array object | 否 | 人员属性列表（见通用属性说明） |
-| PrivacyPropertys | array object | 否 | 隐私属性列表 |
-| TagSysNoList | array int | 否 | 标签列表 |
-| IfVerify | int | 否 | 是否要连接三方查证身份证合法性 |
+
+#### _应答数据_
 
 
 
