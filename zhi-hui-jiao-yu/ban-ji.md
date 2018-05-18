@@ -5,6 +5,7 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ClassSysNo | int | 是 | 班级系统编码 |
+| FatherDataRangeSysNo | int | 是 | 班级所属数据范围树父亲节点 |
 | DataRangeSysNo | int | 是 | 班级所属数据范围树 |
 | ~~GradeSysNo~~ | ~~int~~ | ~~是~~ | ~~年级系统编码~~ |
 | ClassName | Nvarchar\(50\) | 是 | 班级名称 |
