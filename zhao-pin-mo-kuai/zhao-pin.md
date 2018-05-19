@@ -34,6 +34,9 @@
 | KeyWord | string | 否 | 关键字搜索（名称） |
 | IsMyFootPrint | int | 否 | 是否显示自己的：0否，1是（不传查全部，传值需通过UserSysNo匹配Person） |
 | PersonPositionTypeList | array int | 否 | 人员期望职位类型：1期望，10做过（Limit开关） |
+| PositionSysNo| aint | 否 | 岗位编码 |
+
+
 
 > #### 查询Limit字段 {#请求数据}
 
