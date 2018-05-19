@@ -44,10 +44,10 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| SalarySysNo | int | 是 | 系统编码 |
-| SalaryType| int | 否 | 薪资类型：1月，2天，3时|
-| SalaryMax| decimal| 否 |最大值|
-| SalaryMin| decimal| 否 |最小值|
+| SalarySysNo | int | 否 | 系统编码（0新增，非0编辑） |
+| SalaryType| int | 是| 薪资类型：1月，2天，3时|
+| SalaryMax| decimal| 是 |最大值|
+| SalaryMin| decimal| 是 |最小值|
 | Remark| string | 否 |备注|
 
 
