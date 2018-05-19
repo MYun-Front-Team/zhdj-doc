@@ -44,7 +44,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| SalarySysNo | int | 否 | 系统编码（0新增，非0编辑） |
+| PersonSalaryRelationSysNo | int | 否 | 系统编码（0新增，非0编辑） |
 | SalaryType| int | 是| 薪资类型：1月，2天，3时|
 | SalaryMax| decimal| 是 |最大值|
 | SalaryMin| decimal| 是 |最小值|
@@ -56,6 +56,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| PersonPositionRelationSysNo | int | 是 | 系统编码 |
 | PositionClassSysNo | int | 是 | 职位编码 |
 | PersonPositionType| int | 是 | 类型：1期望，10做过 |
 
