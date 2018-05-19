@@ -18,7 +18,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| RecruitSysNo | int | 是 | 店铺系统编码 |
+| RecruitSysNo | int | 是 | 招聘系统编码 |
 | PersonSysNo | int | 是 | 人员系统编码 |
 | PositionSalary | decimal\(18,2\) | 是 | 岗位最终薪资 |
 | SalaryType | int | 是 | 薪资类型：1月，2天，3时 |
