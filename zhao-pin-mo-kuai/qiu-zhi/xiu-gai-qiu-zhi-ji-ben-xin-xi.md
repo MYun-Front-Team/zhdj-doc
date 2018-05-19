@@ -40,7 +40,52 @@ _**【接口地址】**_
 | PersonProfile | string | 否 | 个人简介 |
 | WorkingDate | string | 否 | 参加工作日期 |
 
-#### _应答数据_
+#### PersonSalary
 
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| SalarySysNo | int | 是 | 系统编码 |
+| SalaryType| int | 否 | 薪资类型：1月，2天，3时|
+| SalaryMax| decimal| 否 |最大值|
+| SalaryMin| decimal| 否 |最小值|
+| Remark| string | 否 |备注|
+
+
+
+#### PersonPosition
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PositionClassSysNo | int | 是 | 职位编码 |
+| PersonPositionType| int | 是 | 类型：1期望，10做过 |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### _应答数据_
 
 
