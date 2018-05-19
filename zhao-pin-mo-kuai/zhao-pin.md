@@ -22,6 +22,20 @@
 | RecruitInstantStatus | int | 否 | 招聘即时状态：1未开始，2进行中，3已结束 |
 | RecruitPerson | object | 否 | 应聘人员状态信息（IsShowMyPersonStatus=1） |
 
+#### RecruitPerson
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| RecruitSysNo| int | 否 | 招聘系统编码 |
+| RecruitPersonStatus| int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效 |
+| RecruitPersonTime| Datetime| 否 | 抢的时间 |
+| PositionSalary| decimal| 否 |岗位最终薪资 |
+| SalaryType| Int| 否 |薪资类型：1月，2天，3时 |
+| WorkStartDay| Datetime| 否 |开始上班时间 |
+
+
+
+
+
 > #### 功能按钮字段 {#请求数据}
 
 #### 查询条件字段 {#请求数据}
