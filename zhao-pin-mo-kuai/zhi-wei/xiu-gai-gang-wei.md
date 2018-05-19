@@ -16,7 +16,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| PositionSysNo | int | 否 | 职位系统编码 |
+| PositionSysNo | int | 是 | 职位系统编码 |
 | PositionName | Nvarchar\(50\) | 是 | 职位名称（冗余） |
 | PositionType | int | 否 | 工作类型:0不限,1全职,2兼职 |
 | SexType | int | 否 | 性别要求：0不限,1男，2女 |
