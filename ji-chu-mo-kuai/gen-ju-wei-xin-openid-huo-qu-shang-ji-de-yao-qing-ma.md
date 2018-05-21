@@ -9,7 +9,7 @@ _**【应用场景】**_
 根据微信OPENID获取上级的邀请码
 
 _**【接口地址】**_
-http://ip:port/BasicQuery/Basic/GetBizCompanyCodeBySaasKey
+http://ip:port/BasicQuery/Basic/GetHigherInvitation
 
 > #### _请求数据_ {#请求数据}
 
