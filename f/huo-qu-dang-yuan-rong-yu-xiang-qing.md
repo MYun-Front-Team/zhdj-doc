@@ -29,6 +29,16 @@ _**【接口地址】**_
 | Remark | string | 否 | 备注 |
 | SortNo | int | 否 | 排序 |
 | IsDefault | int | 否 | 是否默认 |
+| FilePathList | array string | 否 | 文件或图片Path列表（第一张为首图） |
+| FileUrlList | array string | 否 | 文件或图片Path列表（第一张为首图） |
+
+
+
+
+
+
+
+
 
 
 
