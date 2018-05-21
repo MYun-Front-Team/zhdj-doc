@@ -44,6 +44,11 @@
 | ReplyType | int | 是 | 回复类型：0回复，1流转 |
 | ToPerson | object | 否 | 流转人实体（当类型为流转时存在） |
 | ToDataRange | object | 否 | 流转人所属数据范围结点（当类型为流转时存在） |
+| ReplyFilePathList | array string | 否（可选配置） | 文件或图片Path列表（第一张为首图） |
+| ReplyFileUrlList | array string | 否 | 文件或图片URL列表（第一张为首图） |
+
+
+
 
 > #### 统计计算字段 {#请求数据}
 
