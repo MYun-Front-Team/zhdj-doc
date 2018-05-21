@@ -12,6 +12,8 @@
 | StartDate | string | 是 | 开始时间 |
 | EndDate | string | 是 | 结束时间 |
 | RecruitStatus | int | 是 | 招聘状态：0新建,10发布，11撤下 |
+| EndSecond| double| 是 | 距离结束时间（秒）|
+
 
 > #### 统计计算字段 {#请求数据}
 
