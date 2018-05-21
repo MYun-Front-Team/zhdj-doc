@@ -27,6 +27,8 @@ _**【接口地址】**_
 | ReplyTime | string | 否 | 回复时间 |
 | ToDataRangeSysNo | int | 否 | 流转数据范围系统编码 |
 | ToPersonSysNo | int | 否 | 流转人员系统编码 |
+| ReplyFilePathList | array string | 否（可选配置） | 文件或图片Path列表（第一张为首图） |
+
 
 #### _应答数据_ {#应答数据-}
 
