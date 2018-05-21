@@ -53,6 +53,8 @@ _**【接口地址】**_
 | OrganizationList | array object | 是 | 组织列表 |
 | AccessToken | string | 是 | 登录授权Token |
 | InvitationCode  | string | 否 | 邀请码 |
+| CPSInfos| array CPSInfo| 否 | CPS信息|
+
 
 #### Person说明_ （简要，需要全部字段请调用“获取个人信息”接口）_ {#应答数据-（巡河记录数组）}
 
@@ -93,6 +95,28 @@ _**【接口地址】**_
 | OrganizationClassSysNo | int | 否 | 分类（树） |
 | OrganizationName | string | 是 | 组织名称 |
 | OrganizationShortName | string | 否 | 组织简称 |
+
+#### CPSInfo说明_ _ {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| CPSSysNo| int | 是 | CPSSysNo系统编码 |
+| CPSCode| string| 是 | CPSCode |
+| PositionId| string| 是 | 推荐位置|
+| WebId| string| 是 | 推荐网站|
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
