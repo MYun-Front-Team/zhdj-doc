@@ -19,6 +19,7 @@
 | PositionUrlList | array string | 否 | 工作地Url文件列表 |
 | PositionSalaryList | array object | 否 | 岗位薪资列表 |
 | PositionAgeList | array object | 否 | 岗位年龄列表 |
+| IfHasRecruit | int | 否 | 是否有招聘纪录0所有。1有，2无 |
 
 > #### 薪资 {#请求数据}
 
