@@ -20,6 +20,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| RecruitSysNo | int | 否 | 招聘系统编码（传了表示延长，不传表示新增） |
 | OrganizationSysNo | int | 是 | 组织系统编码 |
 | DataRangeSysNo | int | 否 | 所属数据范围树 |
 | ShopSysNo | int | 否 | 店铺系统编码 |
