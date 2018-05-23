@@ -35,6 +35,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | Person | object | 是 | 人员（简版） |
+| Distance| decimal\(18,2\) | 否 | 距离店铺距离 |
 | PersonPositionList | array object | 否 | 期望岗位列表（Limit） |
 | PersonSalaryList | array object | 否 | 期望薪资列表（Limit） |
 
