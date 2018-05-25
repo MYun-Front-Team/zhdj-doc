@@ -39,6 +39,10 @@ _**【接口地址】**_
 | PrivacyPropertys | array object | 否 | 隐私属性列表 |
 | TagSysNoList | array int | 否 | 标签列表 |
 | IfVerify | int | 否 | 是否要连接三方查证身份证合法性 |
+| FileLifePathList| array string | 否 | 生活照图片列表 |
+
+
+
 
 
 
