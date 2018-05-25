@@ -17,7 +17,7 @@
 | EndDate | string | 是 | 结束时间 |
 | RecruitStatus | int | 是 | 招聘状态：0新建,10发布，11撤下 |
 | EndSecond| double| 是 | 距离结束时间（秒）|
-| SellerBossPersonSysNo| int | 否 | 店铺老板名称 |
+| SellerBossPersonSysNo| int | 否 | 店铺老板编码 |
 
  
 
