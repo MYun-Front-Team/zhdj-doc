@@ -30,6 +30,7 @@ _**【接口地址】**_
 | SponsorName | string | 否 | 主办方 |
 | CoSponsorName | string | 否 | 协办方 |
 | SponsorDataRangeSysNo| int| 否 | 主办方ID |
+| ObjectFileList| array File| 否（可选配置） | 附件 |
 
 
 #### PointsValues说明 {#应答数据-}
@@ -39,11 +40,19 @@ _**【接口地址】**_
 | PointsConfigSysNo | int | 是 | 积分配置系统编码 |
 | PointsValue | int | 是 | 积分值 |
 
+#### File说明 {#应答数据-}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| FileTitle| string| 是 | 文件名称 |
+| FilePath| string| 是 | 文件地址 |
+
 #### _应答数据_ {#应答数据-}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | NewsSysNo | int | 是 | 系统编码 |
+
 
 
 
