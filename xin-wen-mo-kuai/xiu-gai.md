@@ -24,6 +24,16 @@ _**【接口地址】**_
 | IsPublic | int | 否（可选配置） | 是否公开 |
 | FilePaths | array string | 否（可选配置） | 文件或图片列表（第一张为首图） |
 | PointsValues | array object | 否（可选配置） | 积分赠送配置 |
+| ObjectFileList| array File| 否（可选配置） | 附件 |
+
+#### File说明 {#应答数据-}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| FileTitle| string| 是 | 文件名称 |
+| FilePath| string| 是 | 文件地址 |
+
+
 
 
 

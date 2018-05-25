@@ -30,6 +30,9 @@
 | ModuleRelationList | array object | 否 | 关联模块列表 |
 | SponsorDataRangeSysNo| int| 否 | 主办方ID |
 | SponsorDataRangeGradeType| int| 否 | 主办方级别 |
+| ObjectFileList| array File| 否（可选配置） | 附件 |
+
+
 
 
 
@@ -88,6 +91,16 @@
 | PersonStatus | int | 是 | 状态：3浏览 |
 | BrowseCount | int | 是 | 浏览次数 |
 | Remark | string | 否 | 备注 |
+
+#### File说明 {#应答数据-}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| FileTitle| string| 是 | 文件名称 |
+| FilePath| string| 是 | 文件地址 |
+| FileUrl| string| 是 | 文件地址 |
+
+
 
 #### ModuleRelationList说明 {#应答数据-（巡河记录数组）}
 
