@@ -11,8 +11,7 @@ _**【应用场景】**_
 注：人员如果为空，那么就用操作人的PersonSysNo；
 
 _**【接口地址】**_
-
-[http://ip:port/RecruitAction/Recruit/](http://ip:port/HMAction/River/AddRiver)SetRecruitPersonIgnore
+http://ip:port/RecruitAction/Recruit/SetRecruitPersonIgnore
 
 > #### _请求数据_ {#请求数据}
 
