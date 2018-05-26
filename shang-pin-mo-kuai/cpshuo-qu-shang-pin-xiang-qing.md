@@ -45,6 +45,16 @@ http://ip:port/ProductQuery/ProductGroup/GetCPSProductGroupBySysNo
 | CPSStartDate|datetime| 是 |推荐开始时间|
 | CPSEndDate|datetime| 是 |推荐结束时间|
 | CPSInOrderCount|int| 是 |评论数|
+| IndustryClassSysNo|int| 是 |行业类别|
+| IndustryClassName|string| 是 |行业类别名称|
+
+
+
+
+
+
+
+
 
 
 
