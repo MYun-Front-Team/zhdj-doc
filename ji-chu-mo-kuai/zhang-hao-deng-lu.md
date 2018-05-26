@@ -42,6 +42,7 @@ _**【接口地址】**_
 | FilePathList | array string | 否 | 文件图片Path路径列表 |
 | PersonName | string | 否 | 昵称 |
 | UserGender | int | 否 | 性别 |
+| WxUnionID| string| 否 | 微信WxUnionID|
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
