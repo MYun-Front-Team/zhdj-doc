@@ -21,6 +21,8 @@ _**【接口地址】**_
 | CategoryTreeName | int | 是 | 类别树名称 |
 | CategoryFatherSysNo | int | 否 | 类别父级主键（传0表示获取根类别） |
 | IsShowBranch | int | 否 | 是否显示分支（递归树状） |
+| LoginSource | int | 否 | 登陆来源 |
+
 
 > #### 应答数据 {#应答数据-}
 
