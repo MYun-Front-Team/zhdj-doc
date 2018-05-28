@@ -121,6 +121,7 @@
   * [新增分类](tong-yong-mo-kuai/xin-zeng-fen-lei.md)
   * [修改分类](tong-yong-mo-kuai/xiu-gai-fen-lei.md)
   * [删除分类](tong-yong-mo-kuai/shan-chu-fen-lei.md)
+  * [隐藏/取消隐藏前端分类](tong-yong-mo-kuai/yin-cang-qian-duan-fen-lei.md)
   * [获取日志列表](f/huo-qu-dang-yuan-ri-zhi-lie-biao.md)
   * [发送验证码](ji-chu-mo-kuai/fa-song-yan-zheng-ma.md)
   * [校验验证码](tong-yong-mo-kuai/xiao-yan-yan-zheng-ma.md)
