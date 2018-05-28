@@ -9,6 +9,7 @@
 | DataRangeSysNo | int | 否 | 所属数据范围树 |
 | ShopSysNo | int | 否 | 店铺系统编码 |
 | PositionClassSysNo | int | 是 | 职位类型编码（分类） |
+| PositionClasses| array[PositionClass] | 是 | 职位类型编码(从老祖先开始，一直到自己) |
 | PositionName | Nvarchar\(50\) | 是 | 职位名称（冗余） |
 | PositionType | int | 否 | 工作类型:0不限,1全职,2兼职 |
 | SexType | int | 否 | 性别要求：0不限,1男，2女 |
@@ -20,6 +21,14 @@
 | PositionSalaryList | array object | 否 | 岗位薪资列表 |
 | PositionAgeList | array object | 否 | 岗位年龄列表 |
 | IfHasRecruit | int | 否 | 是否有招聘纪录0所有。1有，2无 |
+
+> #### PositionClass
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PositionClassSysNo | int | 是 | 职位类型编码（分类）  |
+| PositionClassName| string| 是 |职位类型名称  |
+
+
 
 > #### 薪资 {#请求数据}
 
