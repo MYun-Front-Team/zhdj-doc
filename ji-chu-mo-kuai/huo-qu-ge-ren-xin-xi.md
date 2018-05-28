@@ -17,6 +17,8 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PersonSysNo | int | 是 | 人员编码（如果不传则获取UserSysNo对应的Person） |
+| Longitude| decimal| 否 | Longitude |
+| Latitude| decimal| 否 | Latitude |
 | Limit | object | 否 | 限制条件 |
 
 #### Limit说明_ _ {#应答数据-（巡河记录数组）}
@@ -60,6 +62,14 @@ _**【接口地址】**_
 | FatherPersonName | string | 否 | 推荐人名字 |
 | FatherPersonSysNo | int | 否 | 推荐人编码 |
 | FileLifeUrlList | array string | 否 | 生活照图片列表 |
+| Longitude| decimal| 否 | Longitude |
+| Latitude| decimal| 否 | Latitude |
+| Distance| decimal\(18,2\) | 否 | 距离店铺距离 |
+
+
+
+
+
 
 
 
