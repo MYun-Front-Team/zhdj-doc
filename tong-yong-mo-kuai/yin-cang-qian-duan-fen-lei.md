@@ -12,7 +12,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/UMAction/Category/CategoryIsShowFront
+http://ip:port/UMAction/Category/SetCategoryShowFront
 
 > #### _请求数据_ {#请求数据}
 
