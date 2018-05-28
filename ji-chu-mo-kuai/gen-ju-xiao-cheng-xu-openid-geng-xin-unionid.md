@@ -9,7 +9,7 @@ _**【应用场景】**_
 根据小程序OPENID更新UnionID
 
 _**【接口地址】**_
-http://ip:port/BasicQuery/Basic/SetWxUnionIDByLittleWxOpenID
+http://ip:port/BasicAction/Basic/SetWxUnionIDByLittleWxOpenID
 
 > #### _请求数据_ {#请求数据}
 
