@@ -27,7 +27,7 @@
 | :--- | :--- | :--- | :--- |
 | RecruitPersonTotalCount | int | 否 | 圈中人数 |
 | RecruitPersonRobCount | int | 否 | 意向人数（已抢） |
-| RecruitInstantStatus | int | 否 | 招聘即时状态：1未开始，2进行中，3已结束 |
+| RecruitInstantStatus | int | 否 | 招聘即时状态：1未开始，2进行中，3已结束，4已过期 |
 | RecruitPerson | object | 否 | 应聘人员状态信息（IsShowMyPersonStatus=1） |
 
 #### RecruitPerson
