@@ -322,6 +322,7 @@
   * [CPS获取团购商品列表](shang-pin-mo-kuai/cpshuo-qu-tuan-gou-shang-pin-lie-biao.md)
   * [CPS获取团购详情](shang-pin-mo-kuai/cpshuo-qu-pin-tu-xiang-qing.md)
   * [批量设置商品行业类别](shang-pin-mo-kuai/pi-liang-she-zhi-shang-pin-xing-ye-lei-bie.md)
+  * [批量设置拼团行业类别](shang-pin-mo-kuai/pi-liang-she-zhi-pin-tuan-xing-ye-lei-bie.md)
 * [组织模块](zu-zhi-mo-kuai.md)
   * [获取组织列表](zu-zhi-mo-kuai/huo-qu-zu-zhi-lie-biao.md)
   * [获取组织详情](zu-zhi-mo-kuai/huo-qu-zu-zhi-xiang-qing.md)
