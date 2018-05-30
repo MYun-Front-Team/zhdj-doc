@@ -22,7 +22,7 @@ http://ip:port/ProductQuery/ProductGroup/GetCPSGroupBuyList
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
-#### Group {#应答数据-（巡河记录数组）}
+#### GroupBuy {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -48,7 +48,7 @@ http://ip:port/ProductQuery/ProductGroup/GetCPSGroupBuyList
 
 
 
-#### Sku {#应答数据-（巡河记录数组）}
+#### GroupBuySku {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
