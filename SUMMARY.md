@@ -320,6 +320,7 @@
   * [CPS获取商品列表](shang-pin-mo-kuai/cpshuo-qu-shang-pin-lie-biao.md)
   * [CPS获取商品详情](shang-pin-mo-kuai/cpshuo-qu-shang-pin-xiang-qing.md)
   * [CPS获取团购商品列表](shang-pin-mo-kuai/cpshuo-qu-tuan-gou-shang-pin-lie-biao.md)
+  * CPS获取拼图详情
 * [组织模块](zu-zhi-mo-kuai.md)
   * [获取组织列表](zu-zhi-mo-kuai/huo-qu-zu-zhi-lie-biao.md)
   * [获取组织详情](zu-zhi-mo-kuai/huo-qu-zu-zhi-xiang-qing.md)

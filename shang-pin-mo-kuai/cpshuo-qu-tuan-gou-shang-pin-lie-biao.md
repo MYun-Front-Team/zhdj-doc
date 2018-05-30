@@ -39,7 +39,7 @@ http://ip:port/ProductQuery/ProductGroup/GetCPSGroupBuyList
 | OrganizationSysNo|int| 是 |组织系统编码|
 | DataRangeSysNo|int| 是 |店铺数据范围|
 | DataRangeName|string| 是 |店铺数据范围|
-| SkuList|array Sku| 是 |店铺数据范围|
+| SkuList|array GroupBuySku | 是 |店铺数据范围|
 | CPSInOrderCount|int| 是 |评论数|
 | CPSMaterialUrl|string| 是 |CPS落地页|
 | CPSPromotionUrl|string| 是 |推广链接|
