@@ -45,6 +45,8 @@ http://ip:port/ProductQuery/ProductGroup/GetCPSGroupBuyBySysNo
 | CPSInOrderCount|int| 是 |评论数|
 | CPSMaterialUrl|string| 是 |CPS落地页|
 | CPSPromotionUrl|string| 是 |推广链接|
+| TargetCount|int| 是 |目标数|
+
 
 
 
