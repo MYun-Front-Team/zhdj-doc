@@ -19,6 +19,8 @@ http://ip:port/ProductQuery/ProductGroup/GetCPSGroupBuyList
 | KeyWord | string | 否 | 关键字搜索（名称\规格\标签） |
 | IndustryClassSysNoList| array int | 否 | 行业类型分类系统编码（类别树） |
 | TouristOrganizationSysNo | int | 是 | 游客组织系统编码（传0即为游客） |
+| OnSaleStatusList | int | 是 | （1上架，2下架）上下架 |
+
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
