@@ -27,7 +27,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PaymentSysNo | int | 是 | 支付方式系统编码 |
-| PaymentType | int | 是 | 支付方式：0余额，1支付宝，2微信，3银联，4线下，5刷卡,6积分 |
+| PaymentType | int | 是 | 支付方式：0余额，1支付宝，2微信，3银联，4线下，5刷卡,6积分,7联动支付 |
 | PaymentName | string | 是 | 支付方式名称 |
 | PaymentDesc | string | 否 | 支付方式描述 |
 | PaymentUrl | string | 否 | 支付方式Logo |
