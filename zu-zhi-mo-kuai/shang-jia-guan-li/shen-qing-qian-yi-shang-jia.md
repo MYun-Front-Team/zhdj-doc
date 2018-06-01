@@ -24,6 +24,9 @@ http://ip:port/OrganizationAction/Seller/ApplyTransfer
 
 
 #### _应答数据 _ {#应答数据-}
+| TransferSysNo | int | 是 | 迁移系统编码 |
+
+
 
 
 

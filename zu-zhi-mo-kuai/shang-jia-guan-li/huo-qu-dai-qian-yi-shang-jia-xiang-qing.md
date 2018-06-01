@@ -18,14 +18,16 @@ http://ip:port/OrganizationQuery/Seller/GetTransfer
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| PersonSysNo | int | 是 |旧人员系统编码 |
+| PersonSysNo | int | 二选一 |旧人员系统编码 |
+| TransferSysNo | int | 二选一 | 迁移系统编码 |
 
 > #### _应答数据_ {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | TransferSysNo | int | 是 | 迁移系统编码 |
-| Remark | string | 否 | 迁移备注|
+| Remark | string | 是 | 迁移备注|
+| TransferStatus | int | 是 | 迁移状态（0待迁移，10已完成，11拒绝）|
 | NewPersonSysNo | int | 是 | 申请人系统编码 |
 | NewPersonName | string | 是 | 申请人名字 |
 
