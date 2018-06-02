@@ -22,7 +22,7 @@ http://ip:port/OrganizationQuery/Seller/GetTransfer
 | :--- | :--- | :--- | :--- |
 | PersonSysNo | int | 二选一 |旧人员系统编码 |
 | TransferSysNo | int | 二选一 | 迁移系统编码 |
-| TransferStatusList |array int | 是 |迁移状态（0待迁移，10已完成，11拒绝）|
+
 
 
 > #### _应答数据_ {#应答数据-（巡河记录数组）}
