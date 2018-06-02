@@ -25,7 +25,7 @@ http://ip:port/OrganizationAction/Seller/ConfirmTransfer
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrganizationSysNo | int | 是 | 迁移后给老商家分配的新组织号（原组织号迁移到新店长那里了） |
+|  | int | 是 | 迁移后给老商家分配的新组织号（原组织号迁移到新店长那里了） |
 
 
 
