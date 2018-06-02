@@ -21,6 +21,8 @@ http://ip:port/OrganizationAction/Seller/ApplyTransfer
 | :--- | :--- | :--- | :--- |
 | NewPersonSysNo | int | 是 | 申请人系统编码 |
 | OrganizationSysNo | int | 是 | 待迁移商家组织系统编码 |
+| Remark | string | 是 | 迁移备注|
+
 
 
 #### _应答数据 _ {#应答数据-}
