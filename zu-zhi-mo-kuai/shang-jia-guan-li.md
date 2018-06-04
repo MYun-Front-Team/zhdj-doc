@@ -58,6 +58,20 @@
 |LicenseStartDate| datetime | 否 |营业期限开始|
 |LicenseEndDate| datetime | 否 |营业期限结束|
 | ParkName| string | 否 |园区名称 |
+|OutParkDate| datetime | 否 |迁出时间 |
+|OutParkRemark| string | 否 |迁出备注|
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
