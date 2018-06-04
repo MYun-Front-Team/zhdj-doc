@@ -31,6 +31,8 @@
 | ProjectRecommend| string | 否 |项目推荐人|
 | ProjectNegotiation| string | 否 |招商洽谈人|
 | SellerName | string | 否 |企业名称 |
+| SellerMaster | string | 否 |企业法人 |
+| SellerTel | string | 否 |企业法人联系电话 |
 |AgreementStatus | int | 否 |协议状态（0未签署，10已签署） |
 | WarehouseArea| decimal | 否 |仓库面积|
 

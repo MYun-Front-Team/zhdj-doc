@@ -28,6 +28,7 @@ http://ip:port/ParkQuery/IndustryProject/GetParkProjectFollowList
 | ProjectStatus | int | 否 | 项目状态（0潜在，1洽谈，2入住，3长期） |
 | AgreementStatus | int | 否 | 协议状态（0未签署，10已签署） |
 | FollowDesc | string | 否 | 跟进内容 |
+| FileUrlList | array string | 否 |照片 |
 
 
 

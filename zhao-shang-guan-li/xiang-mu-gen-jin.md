@@ -21,6 +21,7 @@ _**【接口地址】**_
 | ProjectStatus | int | 否 | 项目状态（0潜在，1洽谈，2入住，3长期） |
 | AgreementStatus | int | 否 | 协议状态（0未签署，10已签署） |
 | FollowDesc | string | 否 | 跟进内容 |
+| FilePathList | array string | 否 |照片 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
