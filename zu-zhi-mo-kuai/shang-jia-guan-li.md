@@ -53,7 +53,7 @@
 | InternetStoreUrl| string | 否 |网店地址 |
  |InParkDate| datetime | 否 |入驻时间 |
 |InParkStatus| int | 否 |状态（潜在客户，已入驻，已签出） |
-|LicenseCpType| string | 否 |营业执照类型 |
+|LicenseType| string | 否 |营业执照类型 |
 |LicenseAddress| string | 否 |营业执照地址 |
 |LicenseStartDate| datetime | 否 |营业期限开始|
 |LicenseEndDate| datetime | 否 |营业期限结束|
