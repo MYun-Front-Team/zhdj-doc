@@ -26,6 +26,30 @@ _**【接口地址】**_
 | PositionPathList | array string | 否 | 工作地Path文件列表 |
 | PositionSalaryList | array object | 否 | 岗位薪资列表 |
 | PositionAgeList | array object | 否 | 岗位年龄列表 |
+| PositionWorkDayList | array object | 否 | 工作日期列表 |
+| PositionWorkTimeList | array object | 否 | 工作时间列表 |
+
+
+> #### 工作日期PositionWorkDay（兼职有效）
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PositionWorkDaySysNo | int | 否 | 工作日期系统编码（0新增，非0编辑）|
+| DayOfWeek | int | 是 | （0周日，1周一，2周二……6周六） |
+
+> #### 工作时间点PositionWorkTime（兼职有效）
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PositionWorkTimeSysNo | int | 否 | 工作时间点系统编码（0新增，非0编辑）|
+| StartTime | datetime | 是 |开始时间 |
+| EndTime | datetime | 是 |结算时间 |
+
+
+
+
+
+
 
 #### _应答数据_ {#应答数据-}
 
