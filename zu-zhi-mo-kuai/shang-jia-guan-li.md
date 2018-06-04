@@ -57,6 +57,7 @@
 |LicenseAddress| string | 否 |营业执照地址 |
 |LicenseStartDate| datetime | 否 |营业期限开始|
 |LicenseEndDate| datetime | 否 |营业期限结束|
+| ParkName| string | 否 |园区名称 |
 
 
 
@@ -82,6 +83,12 @@
 | AuditStatusList | Array\[int\] | 否 | 审核状态 |
 | SellerStatusList | Array\[int\] | 否 | 商家状态 |
 | KeyWord | string | 否 | 关键字（名称/负责人/联系人/电话） |
+|ScaleTypeList|Array\[int\] | 否 | 企业规模 |
+|InParkStatusList|Array\[int\] | 否 | 状态（潜在客户，已入驻，已签出） |
+|SellerClassSysNoList|Array\[int\] | 否 | 商家类别系统编码（类目树） |
+| ParkSysNo| int | 否 |注册地址（园区） |
+
+
 
 > #### Limit限制字段 {#请求数据}
 

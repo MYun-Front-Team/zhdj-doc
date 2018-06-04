@@ -95,6 +95,12 @@
 | OrganizationSysNo | int | 是 | 企业组织系统编码 |
 | FeeStatusList |array int | 否 |缴纳状态（0未缴纳，1部分缴纳，10完成缴纳） |
 | IfHasWaitAudit| int | 否 |是否支付查待确认的缴纳状态|
+|ScaleTypeList|Array\[int\] | 否 | 企业规模 |
+|InParkStatusList|Array\[int\] | 否 | 状态（潜在客户，已入驻，已签出） |
+|SellerClassSysNoList|Array\[int\] | 否 | 商家类别系统编码（类目树） |
+
+
+
 
 > #### 查询Limit字段 {#请求数据}
 

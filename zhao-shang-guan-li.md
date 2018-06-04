@@ -63,6 +63,11 @@
 | AgreementStatusList | array int | 是 | 协议状态（0未签署，10已签署）|
 | ProjectStatusList  |array int | 否 |项目状态（0潜在，1洽谈，2入住，3长期） |
 |KeyWord  |string | 否 |关键字 |
+|SellerClassSysNoList|Array\[int\] | 否 | 商家类别系统编码（类目树） |
+
+
+
+
 
 
 
