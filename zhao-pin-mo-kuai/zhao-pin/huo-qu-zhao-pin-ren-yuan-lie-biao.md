@@ -29,6 +29,7 @@ _**【接口地址】**_
 | PositionSalary | decimal\(18,2\) | 否 | 岗位最终薪资 |
 | SalaryType | int | 否 | 薪资类型：1月，2天，3时 |
 | WorkStartDay | string | 否 | 开始上班时间 |
+| Remark | string | 否 | 备注 |
 
 #### RecruitPerson说明_ _ {#应答数据-（巡河记录数组）}
 
