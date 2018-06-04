@@ -100,6 +100,11 @@
 | IsShowPositionUrlList | int | 否 | 是否显示工作地图片 |
 | IsShowPositionSalaryList | int | 否 | 是否显示岗位薪资列表 |
 | IsShowPositionAgeList | int | 否 | 是否显示岗位年龄列表 |
+| IsShowPositionWorkDayList | int | 否 | 是否显示工作日列表 |
+| IsShowPositionWorkTimeList | int | 否 | 是否显示工作时间列表 |
+
+
+
 
 ####  {#应答数据-（巡河记录数组）}
 
