@@ -23,6 +23,8 @@ _**【接口地址】**_
 | PositionSalary | decimal\(18,2\) | 是 | 岗位最终薪资 |
 | SalaryType | int | 是 | 薪资类型：1月，2天，3时 |
 | WorkStartDay | string | 是 | 开始上班时间 |
+| Remark | string | 是 | 备注 |
+
 
 #### _应答数据_ {#应答数据-}
 
