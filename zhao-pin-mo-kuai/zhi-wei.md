@@ -64,6 +64,7 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| PositionWorkTimeSysNo | int | 是 | 工作时间点系统编码|
 | StartTime | datetime | 是 |开始时间 |
 | EndTime | datetime | 是 |结算时间 |
 
