@@ -16,7 +16,10 @@ http://ip:port/ParkAction/IndustryFee/NoticeFee
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| FeeSysNo | int | 是 | 项目系统编码 |
+| FeeSysNo | int | 否 | 项目系统编码 |
+| FeeSysNoList | int | 是 | 项目系统编码（批量用） |
+
+
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
