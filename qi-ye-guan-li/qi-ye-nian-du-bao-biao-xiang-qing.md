@@ -28,6 +28,11 @@ http://ip:port/ParkQuery/IndustrySale/GetSaleYearReportBySysNo
 | Year | int| 是 |时间，只取年份  |
 | TaxRevenue| decimal | 否 |预计年纳税额|
 |  Turnover | decimal | 否 |预计年销售额|
+| TotalTaxRevenue| decimal | 否 |年纳税额|
+|  TotalTurnover | decimal | 否 |年销售额|
+| SellerName | string | 是 | 商家名称 |
+| SellerTel | string | 否 | 商家联系电话 |
+| SellerMaster | string | 否 | 商家负责人 |
 
 
 
