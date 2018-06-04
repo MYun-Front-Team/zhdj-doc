@@ -29,6 +29,10 @@ _**【接口地址】**_
 | PositionPathList | array string | 否 | 工作地Path文件列表 |
 | PositionSalaryList | array object | 否 | 岗位薪资列表 |
 | PositionAgeList | array object | 否 | 岗位年龄列表 |
+| PositionWorkDayList | array object | 否 | 工作日期列表 |
+| PositionWorkTimeList | array object | 否 | 工作时间列表 |
+
+
 
 #### _应答数据_ {#应答数据-}
 

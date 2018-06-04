@@ -21,6 +21,9 @@
 | PositionSalaryList | array object | 否 | 岗位薪资列表 |
 | PositionAgeList | array object | 否 | 岗位年龄列表 |
 | IfHasRecruit | int | 否 | 是否有招聘纪录0所有。1有，2无 |
+| PositionWorkDayList | array object | 否 | 工作日期列表 |
+| PositionWorkTimeList | array object | 否 | 工作时间列表 |
+
 
 > #### PositionClass
 | 变量名 | 类型 | 是否必须 | 描述 |
@@ -50,13 +53,14 @@
 | AgeMin | int | 是 | 最小值 |
 | Remark | Nvarchar\(max\) | 否 | 备注 |
 
-> #### 工作日期（兼职有效）
+> #### 工作日期PositionWorkDay（兼职有效）
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| PositionWorkDaySysNo | int | 是 | 工作日期系统编码|
 | DayOfWeek | int | 是 | （0周日，1周一，2周二……6周六） |
 
-> #### 工作时间点（兼职有效）
+> #### 工作时间点PositionWorkTime（兼职有效）
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
