@@ -35,6 +35,25 @@ http://ip:port/ParkQuery/IndustrySale/GetSaleContractList
 | Remark | string| 否 | 备注 |
 | FilePathList | array string | 否 |照片 |
 | FileUrlList | array string | 否 |照片 |
+| ContractMonth | int | 否 |收费周期|
+| ContractRooms | array[ContractRoom] | 否 |关联房间|
+
+
+###ContractRoom
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ContractRoomSysNo | int | 是 | 关联房间系统编码 |
+| ParkRoomSysNo | int | 是 | 房间系统编码 |
+|ParkRoomType | int | 是 |房间类型|
+| ParkRoomName| int | 否 | 房间名称|
+| BuildingArea| decimal | 否 |总建筑面积|
+| Rent| decimal | 否 |租金单价|
+| ParkFloorName | string | 否 | 楼层名称 |
+| BuildingName | string | 否 | 楼宇名称 |
+| ParkName | string | 否 | 园区名称|
+
+
+
 
 
 

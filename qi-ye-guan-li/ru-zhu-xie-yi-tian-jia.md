@@ -25,6 +25,17 @@ http://ip:port/ParkAction/IndustrySale/AddSaleContract
 | Deposit | decimal | 否 | 押金 |
 | Remark | decimal | 否 | 备注 |
 | FilePathList | array string | 否 |照片 |
+| ContractMonth | int | 否 |收费周期|
+| ContractRooms | array[ContractRoom] | 否 |关联房间|
+
+
+
+###ContractRoom
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ParkRoomSysNo | int | 是 | 房间系统编码 |
+
+
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
