@@ -56,13 +56,14 @@ _**【接口地址】**_
 | RegistrationTime| datetime| 否 |注册时间 |
 | PromisesTax| decimal| 否 |承诺税收 |
 | RegisteredCapital| decimal| 否 |注册资金 |
-
-
-
-
-
-
-
+| CreditCode| decimal| 否 |信用编码 |
+| InternetStoreUrl| string | 否 |网店地址 |
+ |InParkDate| datetime | 否 |入驻时间 |
+|InParkStatus| int | 否 |状态（潜在客户，已入驻，已签出） |
+|LicenseType| string | 否 |营业执照类型 |
+|LicenseAddress| string | 否 |营业执照地址 |
+|LicenseStartDate| datetime | 否 |营业期限开始|
+|LicenseEndDate| datetime | 否 |营业期限结束|
 
 
 
