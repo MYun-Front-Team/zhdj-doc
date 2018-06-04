@@ -15,7 +15,14 @@ http://ip:port/ParkQuery/IndustrySale/GetSaleYearReportList
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrganizationSysNo | int | 是 | 企业组织系统编码 |
+| OrganizationSysNo | int | 否 | 企业组织系统编码 |
+| Year | int | 否 |时间，只取年份 |
+| ParkSysNo| int | 否 |注册地址（园区） |
+|InParkStatusList|array[int] | 否 |状态（潜在客户，已入驻，已签出） |
+| SellerClassSysNo | int | 否 | 商家类别系统编码（类目树） |
+|KeyWord|string| 否 |关键字 |
+
+
 
 
 
@@ -29,6 +36,9 @@ http://ip:port/ParkQuery/IndustrySale/GetSaleYearReportList
 |  Turnover | decimal | 否 |预计年销售额|
 | TotalTaxRevenue| decimal | 否 |年纳税额|
 |  TotalTurnover | decimal | 否 |年销售额|
+| SellerName | string | 是 | 商家名称 |
+| SellerTel | string | 否 | 商家联系电话 |
+| SellerMaster | string | 否 | 商家负责人 |
 
 
 
