@@ -32,6 +32,25 @@ _**【接口地址】**_
 | PositionWorkDayList | array object | 否 | 工作日期列表 |
 | PositionWorkTimeList | array object | 否 | 工作时间列表 |
 
+> #### 工作日期PositionWorkDay（兼职有效）
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| DayOfWeek | int | 是 | （0周日，1周一，2周二……6周六） |
+
+> #### 工作时间点PositionWorkTime（兼职有效）
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| StartTime | datetime | 是 |开始时间 |
+| EndTime | datetime | 是 |结算时间 |
+
+
+
+
+
+
+
 
 
 #### _应答数据_ {#应答数据-}
