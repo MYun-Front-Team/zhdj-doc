@@ -27,6 +27,15 @@ http://ip:port/ParkQuery/IndustrySale/GetSaleYearReportList
 | Year | int| 是 |时间，只取年份  |
 | TaxRevenue| decimal | 否 |预计年纳税额|
 |  Turnover | decimal | 否 |预计年销售额|
+| TotalTaxRevenue| decimal | 否 |年纳税额|
+|  TotalTurnover | decimal | 否 |年销售额|
+
+
+
+
+
+
+
 
 
 
