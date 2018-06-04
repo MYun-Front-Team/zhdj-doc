@@ -18,6 +18,8 @@
 | Rent| decimal | 否 |租金单价|
 | DrawingCode| string | 否 |图纸编码|
 | IsRent | int | 是 | 租借状态(0闲置 10租用) |
+| SellerName | string | 否 |当前租用企业名称 |
+| IsPublic | int | 是 | 是否公共资源 |
 
 
 
