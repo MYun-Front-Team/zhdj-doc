@@ -24,6 +24,11 @@ http://ip:port/ParkAction/IndustryFee/AddFee
 | OrganizationSysNo | int | 是 | 企业组织系统编码 |
 | Remark | string| 否 | 备注|
 | AddFeeItems | array[AddFeeItem] | 否 | 导入明细|
+| DiscountAmonut| decimal | 否 |折扣费用|
+| IncreaseAmonut| decimal | 否 |加收费用|
+
+
+
 
  #### AddFeeItem
 

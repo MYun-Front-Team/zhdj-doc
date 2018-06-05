@@ -18,9 +18,15 @@
 | FeeItems | array FeeItem | 否 |费用详情 |
 | FeePayDetails | array FeePayDetail | 否 |缴费记录 |
 | RefundDetails | array RefundDetail | 否 |退款记录 |
-| TotalFee | decimal | 否 |总费用（FeeItem的TotalFee总计） |
+| TotalFee | decimal | 否 |总费用（FeeItem的TotalFee和折扣加收的总计） |
 | PaidFee | decimal | 否 |实际支付 |
 | IfHasWaitAudit| int | 否 |是否存在待确认的缴纳状态|
+| DiscountAmonut| decimal | 否 |折扣费用|
+| IncreaseAmonut| decimal | 否 |加收费用|
+
+
+
+
 
 
 
