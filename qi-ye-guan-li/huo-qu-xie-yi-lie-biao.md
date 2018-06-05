@@ -41,6 +41,9 @@ http://ip:port/ParkQuery/IndustrySale/GetSaleContractList
 | ContractMonth | int | 否 |收费周期|
 | ContractRooms | array[ContractRoom] | 否 |关联房间|
 | ContractStatus | int | 是 | 协议状态（1正常，2即将过期，3已过期，4已中止，5已终止） |
+| SellerName | string | 否 |企业名称 |
+| SellerMaster | string | 否 |企业法人 |
+| SellerTel | string | 否 |企业法人联系电话 |
 
 
 
