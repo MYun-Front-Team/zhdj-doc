@@ -16,6 +16,8 @@ http://ip:port/ParkQuery/IndustrySale/GetSaleContractBySysNo
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ContractSysNo | int | 是 | 协议系统编码|
+| Limit | Limit | 是 | 显示限制|
+
 
 
 
@@ -54,7 +56,10 @@ http://ip:port/ParkQuery/IndustrySale/GetSaleContractBySysNo
 | ContractStatus | int | 是 | 协议状态（1正常，2即将过期，3已过期，4已中止，5已终止） |
 
 
-
+##Limit
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| IsShowContractRooms | int | 是 |是否显示关联房间 |
 
 
 
