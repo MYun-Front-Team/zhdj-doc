@@ -22,6 +22,7 @@ http://ip:port/ParkQuery/IndustryProject/GetParkProjectInfo
 | Limit | array | 否 | 限制条件 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
+
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ProjectInfoTotal| ProjectInfoTotal| 是 | 汇总数量|
