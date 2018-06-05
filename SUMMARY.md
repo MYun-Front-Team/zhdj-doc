@@ -719,6 +719,7 @@
     * [入住企业税收统计表](bao-biao-zhong-xin/ru-zhu-qi-ye-shui-shou-tong-ji-biao.md)
     * [园区企业纳税汇总表](bao-biao-zhong-xin/yuan-qu-qi-ye-na-shui-hui-zong-biao.md)
     * [重点企业招商进度表](bao-biao-zhong-xin/zhong-dian-qi-ye-zhao-shang-jin-du-biao.md)
+    * [提示信息报表](bao-biao-zhong-xin/ti-shi-xin-xi-bao-biao.md)
 * [智慧教育](zhi-hui-jiao-yu.md)
   * [班级](zhi-hui-jiao-yu/ban-ji.md)
     * [获取班级列表](zhi-hui-jiao-yu/ban-ji/huo-qu-ban-ji-lie-biao.md)
