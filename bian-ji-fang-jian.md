@@ -28,14 +28,7 @@ http://ip:port/ParkAction/IndustryPark/EditParkRoom
 | Rent| decimal | 否 |租金单价|
 | DrawingCode| string | 否 |图纸编码|
 | IsPublic | int | 是 | 是否公共资源 |
-| CalculateType| int | 是 | 是否公共资源 |
-
-
-
-
-
-
-
+| CalculateType| int | 是 |计价方式（1面积 2一口价） |
 
 
 

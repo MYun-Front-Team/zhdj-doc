@@ -29,9 +29,16 @@ http://ip:port/ParkQuery/IndustryFee/GetWaitPayFee
 |ParkRoomType | int | 否 |房间类型|
 
 
-
-
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| WaitPayFeeItems| array[WaitPayFeeItem]| 否 | 费用明细 |
+| WaitPayFeeTotal| WaitPayFeeTotal| 否 | 费用汇总 |
+
+
+
+> #### WaitPayFeeItem
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -43,14 +50,21 @@ http://ip:port/ParkQuery/IndustryFee/GetWaitPayFee
 | ParkName | string | 否 | 园区名称 |
 | ParkRoomName| int | 否 | 房间名称|
 | ParkFloorName | string | 否 | 楼层名称 |
+|ParkRoomType | int | 是 |房间类型|
+| Rent| decimal | 否 |费用单价|
+| BuildingArea| decimal | 否 |总建筑面积|
+| CalculateType| int | 是 |计价方式（1面积 2一口价） |
+| BuildingName | string | 否 | 楼宇名称 |
+| StartDate | datetime | 否 | 费用开始时间 |
+| EndDate | datetime | 否 | 费用结束时间 |
+| TotalMonth| decimal| 否 | 月份 |
+| TotalRent| decimal| 否 | 总费用|
 
+> #### WaitPayFeeTotal
 
-
-
-
-
-
-
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| TotalRent| decimal| 否 | 总费用|
 
 
 
