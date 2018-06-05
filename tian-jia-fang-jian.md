@@ -26,6 +26,17 @@ http://ip:port/ParkAction/IndustryPark/AddParkRoom
 | BuildingArea| decimal | 否 |总建筑面积|
 | Rent| decimal | 否 |租金单价|
 | DrawingCode| string | 否 |图纸编码|
+| IsPublic | int | 是 | 是否公共资源 |
+| CalculateType| int | 是 | 是否公共资源 |
+
+
+
+
+
+
+
+
+
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
