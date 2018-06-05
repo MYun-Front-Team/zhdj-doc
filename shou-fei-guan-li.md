@@ -23,6 +23,7 @@
 | IfHasWaitAudit| int | 否 |是否存在待确认的缴纳状态|
 | DiscountAmonut| decimal | 否 |折扣费用|
 | IncreaseAmonut| decimal | 否 |加收费用|
+| InitialTotalFee | decimal | 否 |初始费用（FeeItem的TotalFee的总计） |
 
 
 
