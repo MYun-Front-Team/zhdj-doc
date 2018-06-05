@@ -51,9 +51,7 @@ http://ip:port/ParkQuery/IndustrySale/GetSaleContractBySysNo
 | ParkFloorName | string | 否 | 楼层名称 |
 | BuildingName | string | 否 | 楼宇名称 |
 | ParkName | string | 否 | 园区名称|
-
-
-
+| ContractStatus | int | 是 | 协议状态（1正常，2即将过期，3已过期，4已中止，5已终止） |
 
 
 

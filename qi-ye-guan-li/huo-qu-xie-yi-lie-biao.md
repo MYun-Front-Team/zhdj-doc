@@ -37,6 +37,7 @@ http://ip:port/ParkQuery/IndustrySale/GetSaleContractList
 | FileUrlList | array string | 否 |照片 |
 | ContractMonth | int | 否 |收费周期|
 | ContractRooms | array[ContractRoom] | 否 |关联房间|
+| ContractStatusList |array int | 是 | 协议状态（1正常，2即将过期，3已过期，4已中止，5已终止） |
 
 
 ###ContractRoom
@@ -51,6 +52,10 @@ http://ip:port/ParkQuery/IndustrySale/GetSaleContractList
 | ParkFloorName | string | 否 | 楼层名称 |
 | BuildingName | string | 否 | 楼宇名称 |
 | ParkName | string | 否 | 园区名称|
+| ContractStatus | int | 是 | 协议状态（1正常，2即将过期，3已过期，4已中止，5已终止） |
+
+
+
 
 
 
