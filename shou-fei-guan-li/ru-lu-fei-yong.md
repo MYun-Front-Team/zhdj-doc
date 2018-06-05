@@ -46,7 +46,7 @@ http://ip:port/ParkAction/IndustryFee/AddFee
 | ParkName | string | 否 | 园区名称 |
 | ParkFloorName | string | 否 | 楼层名称 |
 | BuildingArea| decimal | 否 |总建筑面积|
-| CalculateType| int | 是 |计价方式（1面积 2一口价） |
+| CalculateType| int | 否 |计价方式（1面积 2一口价） |
 
 
 
