@@ -20,7 +20,7 @@ http://ip:port/OrganizationAction/Seller/ConfirmTransfer
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | TransferSysNo | int | 是 | 迁移系统编码 |
-| TransferStatus | int | 是 | 迁移状态（0待迁移，10已完成，11拒绝）|
+| TransferStatus | int | 是 | 迁移状态（10已完成，11拒绝）|
 
 #### _应答数据 _ {#应答数据-}
 
