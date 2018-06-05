@@ -20,6 +20,8 @@
 | IsRent | int | 是 | 租借状态(0闲置 10租用) |
 | SellerName | string | 否 |当前租用企业名称 |
 | IsPublic | int | 是 | 是否公共资源 |
+| CalculateType| int | 是 | 是否公共资源 |
+
 
 
 
