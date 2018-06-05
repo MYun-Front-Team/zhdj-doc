@@ -43,6 +43,12 @@ http://ip:port/ParkAction/IndustryFee/AddFee
 | TotalFee| decimal | 是  |总价（非计算，按照客户填的为准）|
 | ItemStartDate| datetime | 否 |开始日期|
 | ItemEndDate| datetime | 否 |截止日期|
+| ParkName | string | 否 | 园区名称 |
+| ParkFloorName | string | 否 | 楼层名称 |
+| BuildingArea| decimal | 否 |总建筑面积|
+| CalculateType| int | 是 |计价方式（1面积 2一口价） |
+
+
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
