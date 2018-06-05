@@ -24,6 +24,12 @@ http://ip:port/ParkAction/IndustryFee/EditFee
 | Remark | int | 否 | 备注|
 | ParkSysNo| int | 否 | 园区编码|
 | EditFeeItems | array[EditFeeItem] | 否 | 导入明细|
+| DiscountAmonut| decimal | 否 |折扣费用|
+| IncreaseAmonut| decimal | 否 |加收费用|
+
+
+
+
 
  #### EditFeeItem
 
