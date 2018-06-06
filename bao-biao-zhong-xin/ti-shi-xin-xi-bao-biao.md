@@ -19,6 +19,15 @@ http://ip:port/ParkQuery/IndustryFee/GetFeeTipInfo
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| FeeTipTotal | FeeTipTotal | 是 | 汇总信息 |
+| FeeTipItems | array[FeeTipItem] | 否 |欠费 |
+
+
+
+
+> #### FeeTipItem
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -26,16 +35,6 @@ http://ip:port/ParkQuery/IndustryFee/GetFeeTipInfo
 | TotalFee | decimal | 否 |欠费 |
 
 
-> #### FeeTipItem
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| Year | int| 否 |时间，只取年份  |
-| ParkSysNo| int | 否 | 园区编码|
-| ParkName | string | 否 | 园区名称|
-| InitialTaxRevenue | decimal | 否 |初始税额|
-| TaxRevenue| decimal | 否 |税额|
-| FeeDetails | array [FeeDetail] | 否 | 费用明细|
 
 > #### FeeTipTotal
 
