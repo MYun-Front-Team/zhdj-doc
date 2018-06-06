@@ -17,6 +17,7 @@ http://ip:port/ParkQuery/IndustrySale/GetSaleContractList
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 是 | 企业组织系统编码 |
 | ContractStatusList |array int | 是 | 协议状态（1正常，2即将过期，3已过期，4已中止，5已终止） |
+| KeyWord| string | 是 |关键字 |
 
 
 
