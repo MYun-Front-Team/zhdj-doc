@@ -47,9 +47,6 @@
 | ReplyFilePathList | array string | 否（可选配置） | 文件或图片Path列表（第一张为首图） |
 | ReplyFileUrlList | array string | 否 | 文件或图片URL列表（第一张为首图） |
 
-
-
-
 > #### 统计计算字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |

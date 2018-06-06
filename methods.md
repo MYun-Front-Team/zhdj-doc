@@ -41,6 +41,7 @@
 | PlugInUnitList | array object | 否 | 插件列表 |
 | SponsorDataRangeSysNo | int | 否 | 主办方ID |
 | SponsorDataRangeGradeType | int | 否 | 主办方级别 |
+| CommentList | array object | 否 | 评论列表 |
 
 > #### 统计计算字段 {#请求数据}
 
@@ -94,6 +95,7 @@
 | IsShowReportList | int | 否 | 是否显示汇报列表 |
 | IsShowPlugInUnitList | int | 否 | 是否显示插件列表 |
 | IsShowLoginIDStatus | int | 否 | 是否显示账号状态 |
+| IsShowCommentList | int | 否 | 是否显示评论列表 |
 
 #### ActivityPersonList说明 {#应答数据-（巡河记录数组）}
 
@@ -123,6 +125,7 @@
 | ModuleSourceClass | int | 否 | 关联模块分类 |
 | ModuleSourceSysNo | int | 是 | 关联模块来源编码 |
 | ModuleSourceTitle | string | 否 | 关联模块主题 |
+| ModuleSourceJson | string | 否 | 关联模块Json信息 |
 
 #### 模块页面编号枚举说明 {#请求数据}
 
