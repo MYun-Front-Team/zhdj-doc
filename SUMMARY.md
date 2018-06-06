@@ -671,6 +671,7 @@
     * [获取房间列表](huo-qu-fang-jian-lie-biao.md)
     * [获取房间详情](huo-qu-fang-jian-xiang-qing.md)
     * [删除房间](shan-chu-fang-jian.md)
+    * [获取房间使用率](huo-qu-fang-jian-shi-yong-lv.md)
   * [企业管理](qi-ye-guan-li.md)
     * [入住协议添加](qi-ye-guan-li/ru-zhu-xie-yi-tian-jia.md)
     * [编辑入住协议](qi-ye-guan-li/bian-ji-ru-zhu-xie-yi.md)
