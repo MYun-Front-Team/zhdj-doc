@@ -10,7 +10,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-[http://ip:port/CourseAction/Course/A](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)ddCourse
+[http://ip:port/EduAction/Course/A](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)ddCourse
 
 > #### _请求数据_ {#请求数据}
 
