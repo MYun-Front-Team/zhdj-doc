@@ -38,3 +38,10 @@ http://ip:port/StudntFeeQuery/StudentFee/GetStudentFeePersons
 | DataRanges| array[DataRange]| 是 | 班级-年级-学校数组 |
 | PayAbleAmount| decimal| 是 | 应缴金额 |
 | Remark| string| 是 | 备注 |
+|PersonStatus|int | 是 |状态：0未缴，1部分, 10已缴，11弃缴 |
+|Reason|string | 是 |状原因 |
+|PaidTime|string | 是 |缴费时间 |
+
+
+
+
