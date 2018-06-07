@@ -752,6 +752,7 @@
     * [删除课程](zhi-hui-jiao-yu/ke-cheng/shan-chu-ke-cheng.md)
   * [学生](zhi-hui-jiao-yu/xue-sheng.md)
     * [获取学生列表](zhi-hui-jiao-yu/xue-sheng/huo-qu-xue-sheng-lie-biao.md)
+    * [获取学生详情](zhi-hui-jiao-yu/xue-sheng/huo-qu-xue-sheng-xiang-qing.md)
 * [招聘模块](zhao-pin-mo-kuai.md)
   * [职位](zhao-pin-mo-kuai/zhi-wei.md)
     * [新增岗位](zhao-pin-mo-kuai/zhi-wei/xin-zeng-gang-wei.md)
