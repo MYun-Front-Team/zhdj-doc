@@ -14,13 +14,27 @@ _**【应用场景】**_
 
 
 
+_**【接口地址】**_
+
+http://ip:port/StudntFeeQuery/StudentFee/GetStudentFeePersons
+
+> #### _请求数据_ {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| StudentFeeSysNo | int | 是 | 缴费编码 |
 
 
+> #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
-
-
-
-
-
-
-
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| StudentFeePersonSysNo | int | 是 | 缴费系统明细编码 |
+| DataRangeCode| string| 是 | 委托编号|
+| BankFeeCode| string| 是 | 费用类型|
+| SubPaidClassCode | string| 是 | 子费种编码\(通用类\) |
+| SubPaidClassName | string | 是 | 子费种名称 |
+| PersonName| string| 是 | 学生名称 |
+| DataRanges| array[DataRange]| 是 | 班级-年级-学校数组 |
+| PayAbleAmount| decimal| 是 | 应缴金额 |
+| Remark| string| 是 | 备注 |
