@@ -5,7 +5,8 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | StudentSysNo | int | 是 |学生系统编码 |
-| ClassSysNo | int | 是 | 学生班级 |
+| ClassSysNo | int | 是 | 学生班级编码 |
+| ClassName| string| 是 | 学生班级 |
 | DataRanges| array[DataRange]| 是 | 班级-年级-学校数组 |
 | Person | object | 是 | 人员信息 |
 
