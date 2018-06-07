@@ -23,6 +23,9 @@ http://ip:port/StudntFeeQuery/StudentFee/GetStudentFeePersons
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | StudentFeeSysNo | int | 是 | 缴费编码 |
+| PersonStatusList|array int | 是 | 状态：0未缴，1部分, 10已缴，11弃缴 |
+
+
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
