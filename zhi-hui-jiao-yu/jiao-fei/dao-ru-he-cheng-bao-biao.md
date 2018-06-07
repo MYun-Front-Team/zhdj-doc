@@ -22,8 +22,13 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| StudentFeeSysNo | int | 是 | 缴费系统编码 |
-| …… |  |  |  |
+| StudentFeePersonSysNo | int | 是 | 缴费系统明细编码 |
+| Remark| string| 是 |备注|
+| PaidAmount| decimal| 是 |实际缴费|
+| PaidTime| decimal| 是 |记账日期|
+
+
+
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
