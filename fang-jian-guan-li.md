@@ -47,9 +47,18 @@
 | KeyWord | string | 否 | 关键字|
 | ParkFloorSysNo | int | 是 | 楼层系统编码 |
 | IsRentList | array int | 是 | 租借状态 (0闲置 10租用) |
+|IsPublicList|array int | 是 |是否公共资源 |
 | BuildingSysNo | int | 是 | 楼宇系统编码 |
 | ParkSysNo | int | 是 | 园区编码 |
 |ParkRoomTypeList  |array  int | 是 |房间类型|
+|StartBuildingArea|decimal | 是 |开始面积 |
+|EndBuildingArea|decimal | 是 |截至面积 |
+
+
+
+
+
+
 
 
 
