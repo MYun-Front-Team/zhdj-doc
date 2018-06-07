@@ -743,7 +743,7 @@
     * [设置审核状态](zhi-hui-jiao-yu/jiao-fei/she-zhi-shen-he-zhuang-tai.md)
     * [设置缴费状态](zhi-hui-jiao-yu/jiao-fei/she-zhi-jiao-fei-zhuang-tai.md)
     * [生成禾城报表](zhi-hui-jiao-yu/jiao-fei/sheng-cheng-he-cheng-bao-biao.md)
-    * 获取各缴费状态数量
+    * [导入禾城报表](zhi-hui-jiao-yu/jiao-fei/dao-ru-he-cheng-bao-biao.md)
   * [课程](zhi-hui-jiao-yu/ke-cheng.md)
     * [获取课程列表](zhi-hui-jiao-yu/ke-cheng/huo-qu-ke-cheng-lie-biao.md)
     * [获取课程详情](zhi-hui-jiao-yu/ke-cheng/huo-qu-ke-cheng-xiang-qing.md)
