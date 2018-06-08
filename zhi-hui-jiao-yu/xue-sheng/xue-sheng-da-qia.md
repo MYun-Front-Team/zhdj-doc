@@ -17,7 +17,7 @@ http://ip:port/EduAction/Student/StudentSign
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | CardNo| string| 是 | 卡号 |
-| FileUrl| string| 是 | 图片|
+| FilePath| string| 是 | 图片|
 
 
 
