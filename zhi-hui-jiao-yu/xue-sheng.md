@@ -30,6 +30,8 @@
 | IsMyFootPrint | int | 否 | 是否显示自己的：0否，1是（不传查全部，传值需通过UserSysNo匹配Person） |
 | OrganizationFromSysNo| int | 是 | 微信登陆者组织 |
 | KeyWord | string | 否 | 关键字搜索（名称） |
+| CellPhoneNo| int | 是 | 家长手机号 |
+
 
 > #### 查询Limit字段 {#请求数据}
 
