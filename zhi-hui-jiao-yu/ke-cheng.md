@@ -36,7 +36,9 @@
 | CourseClassSysNo | int | 否 | 分类编码（通用） |
 | TagSysNo | int | 否 | 适用对象标签编码 |
 | TeacherSysNo | int | 否 | 教师编码 |
-| CourseStatusList | int | 否 | 课程状态：0新增，10上架，11下架 |
+| CourseStatusList |array int | 否 | 课程状态：0新增，10上架，11下架 |
+| TeacherDepartmentSysNo| int | 否 | 教师部门|
+
 
 > #### 查询Limit字段 {#请求数据}
 
