@@ -39,6 +39,7 @@ _**【接口地址】**_
 | CoSponsorName | string | 否（可选配置） | 协办方 |
 | PlugInUnitList | array object | 否 | 插件列表 |
 | SponsorDataRangeSysNo | int | 否 | 主办方ID |
+| ModuleRelationList | array object | 否（可选配置） | 关联模块列表（实体说明见活动） |
 
 #### PointsValues说明 {#应答数据-}
 
