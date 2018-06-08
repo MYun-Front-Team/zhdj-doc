@@ -754,6 +754,7 @@
   * [学生](zhi-hui-jiao-yu/xue-sheng.md)
     * [获取学生列表](zhi-hui-jiao-yu/xue-sheng/huo-qu-xue-sheng-lie-biao.md)
     * [获取学生详情](zhi-hui-jiao-yu/xue-sheng/huo-qu-xue-sheng-xiang-qing.md)
+    * [学生打卡](zhi-hui-jiao-yu/xue-sheng/xue-sheng-da-qia.md)
   * 家长
     * [添加学生](zhi-hui-jiao-yu/tian-jia-xue-sheng.md)
 * [招聘模块](zhao-pin-mo-kuai.md)
