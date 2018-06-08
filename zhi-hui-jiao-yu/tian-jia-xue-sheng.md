@@ -10,7 +10,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/EduAction/Parent/AddStudent
+http://ip:port/EduAction/Parent/BindStudent
 
 > #### _请求数据_ {#请求数据}
 
