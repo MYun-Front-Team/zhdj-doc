@@ -28,6 +28,8 @@
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 | KeyWord | string | 否 | 关键字搜索（名称） |
 | IsMyFootPrint | int | 否 | 是否显示自己的：0否，1是（不传查全部，传值需通过UserSysNo匹配Person） |
+| OrganizationFromSysNo| int | 是 | 微信登陆者组织 |
+| KeyWord | string | 否 | 关键字搜索（名称） |
 
 > #### 查询Limit字段 {#请求数据}
 
