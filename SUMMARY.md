@@ -324,6 +324,7 @@
   * [批量设置商品行业类别](shang-pin-mo-kuai/pi-liang-she-zhi-shang-pin-xing-ye-lei-bie.md)
   * [批量设置拼团行业类别](shang-pin-mo-kuai/pi-liang-she-zhi-pin-tuan-xing-ye-lei-bie.md)
   * [批量设置拼团上下架](shang-pin-mo-kuai/pi-liang-she-zhi-pin-tuan-shang-xia-jia.md)
+  * [商品批量打标签](shang-pin-mo-kuai/shang-pin-pi-liang-da-biao-qian.md)
 * [组织模块](zu-zhi-mo-kuai.md)
   * [获取组织列表](zu-zhi-mo-kuai/huo-qu-zu-zhi-lie-biao.md)
   * [获取组织详情](zu-zhi-mo-kuai/huo-qu-zu-zhi-xiang-qing.md)
