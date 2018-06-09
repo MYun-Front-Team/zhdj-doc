@@ -44,6 +44,8 @@ http://ip:port/StudentFeeQuery/StudentFee/GetStudentFeePersons
 |PersonStatus|int | 是 |状态：0未缴，1部分, 10已缴，11弃缴 |
 |Reason|string | 是 |状原因 |
 |PaidTime|string | 是 |缴费时间 |
+| PaidAmount| decimal| 是 | 已缴金额 |
+
 
 
 
