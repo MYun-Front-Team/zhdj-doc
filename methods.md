@@ -41,7 +41,7 @@
 | PlugInUnitList | array object | 否 | 插件列表 |
 | SponsorDataRangeSysNo | int | 否 | 主办方ID |
 | SponsorDataRangeGradeType | int | 否 | 主办方级别 |
-
+| Score| Score| 否 | 评分 |
 
 
 > #### 统计计算字段 {#请求数据}
@@ -96,6 +96,11 @@
 | IsShowReportList | int | 否 | 是否显示汇报列表 |
 | IsShowPlugInUnitList | int | 否 | 是否显示插件列表 |
 | IsShowLoginIDStatus | int | 否 | 是否显示账号状态 |
+| IsShowScore | int | 否 | 是否显示评分 |
+
+
+
+
 
 
 
@@ -144,4 +149,10 @@
 | 400204 |  | 三会一课 |  | 列表页 |
 
 
+ #### Score
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| AverageScore| decimal| 否 | 平均分 |
+| Propertys | array object | 否 | 打分明细（见通用-属性） |
 
