@@ -16,7 +16,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/StudntFeeQuery/StudentFee/GetStudentFeePersons
+http://ip:port/StudentFeeQuery/StudentFee/GetStudentFeePersons
 
 > #### _请求数据_ {#请求数据}
 
