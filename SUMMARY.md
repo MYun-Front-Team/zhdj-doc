@@ -149,7 +149,7 @@
     * [新增评论](tong-yong-mo-kuai/huo-qu-ping-lun-lie-biao/xin-zeng-ping-lun.md)
     * [设置评论状态](tong-yong-mo-kuai/huo-qu-ping-lun-lie-biao/she-zhi-ping-lun-zhuang-tai.md)
     * [批量回复评论](tong-yong-mo-kuai/huo-qu-ping-lun-lie-biao/pi-liang-hui-fu-ping-lun.md)
-    * 多个模块一起评论
+    * [多个模块一起评论](tong-yong-mo-kuai/huo-qu-ping-lun-lie-biao/duo-ge-mo-kuai-yi-qi-ping-lun.md)
   * [获取对照类型日志列表](tong-yong-mo-kuai/huo-qu-dui-zhao-lei-xing-ri-zhi-lie-biao.md)
   * [根据坐标，获取区域](tong-yong-mo-kuai/gen-ju-zuo-biao-ff0c-huo-qu-qu-yu.md)
   * [获取所有城市列表](tong-yong-mo-kuai/huo-qu-suo-you-cheng-shi-lie-biao.md)
