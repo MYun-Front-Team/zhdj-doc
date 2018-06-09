@@ -41,7 +41,6 @@
 | PlugInUnitList | array object | 否 | 插件列表 |
 | SponsorDataRangeSysNo | int | 否 | 主办方ID |
 | SponsorDataRangeGradeType | int | 否 | 主办方级别 |
-| CommentList | array object | 否 | 评论列表 |
 
 
 
@@ -97,7 +96,7 @@
 | IsShowReportList | int | 否 | 是否显示汇报列表 |
 | IsShowPlugInUnitList | int | 否 | 是否显示插件列表 |
 | IsShowLoginIDStatus | int | 否 | 是否显示账号状态 |
-| IsShowCommentList | int | 否 | 是否显示评论列表 |
+
 
 
 
