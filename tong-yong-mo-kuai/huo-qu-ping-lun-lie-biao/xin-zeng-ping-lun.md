@@ -35,5 +35,18 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | CommentSysNo | int | 是 | 系统编码 |
 
+#### ModuleRelation
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ModuleSysNo | int | 是 | 关联模块编码 |
+| ModuleSourceType | int | 否 | 关联模块类型 |
+| ModuleSourceClass | int | 否 | 关联模块分类 |
+| ModuleSourceSysNo | int | 是 | 关联模块来源编码 |
+
+
+
+
+
 
 
