@@ -22,6 +22,7 @@ _**【接口地址】**_
 | ModuleSourceType | int | 否 | 来源类型 |
 | ModuleSourceClass | int | 否 | 来源分类 |
 | ModuleSourceSysNo | int | 否 | 来源系统编码 |
+| ModuleRelations| array[ModuleRelation]| 是 | 附属模块|
 | CommentSource | int | 是 | 评论来源：1系统，2官网，3IOS，4-安卓，5-HTML5 |
 | CommentContent | string | 是 | 评论内容 |
 | IsAnonymous | int | 是 | 是否匿名：0否，1是 |
