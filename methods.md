@@ -154,13 +154,13 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | AverageScore| decimal| 否 | 平均分 |
+| ScorePersonCount| int| 否 | 打分人数 |
 | Items| array [ScoreItem]| 否 | 打分明细（见通用-属性） |
 
 #### ScoreItem
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| Score| decimal| 否 | 平均分 |
-| ScorePersonCount| int| 否 | 打分人 |
+| Score| decimal| 否 | 分数 |
 | ScoreName| string| 否 |分数名称 |
 | ScoreSysNo| int| 否 |分数编码 |
