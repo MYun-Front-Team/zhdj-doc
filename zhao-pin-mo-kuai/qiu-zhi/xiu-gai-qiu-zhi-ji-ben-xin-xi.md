@@ -46,12 +46,10 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PersonSalaryRelationSysNo | int | 否 | 系统编码（0新增，非0编辑） |
-| SalaryType| int | 是| 薪资类型：1月，2天，3时|
-| SalaryMax| decimal| 是 |最大值|
-| SalaryMin| decimal| 是 |最小值|
-| Remark| string | 否 |备注|
-
-
+| SalaryType | int | 是 | 薪资类型：1月，2天，3时 |
+| SalaryMax | decimal | 是 | 最大值 |
+| SalaryMin | decimal | 是 | 最小值 |
+| Remark | string | 否 | 备注 |
 
 #### PersonPosition
 
@@ -59,12 +57,10 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | PersonPositionRelationSysNo | int | 是 | 系统编码 |
 | PositionClassSysNo | int | 是 | 职位编码 |
-| PersonPositionType| int | 是 | 类型：1期望，10做过 |
-
-
-
-
+| PersonPositionType | int | 是 | 类型：1期望，10做过 |
+| PositionName | string | 是 | 职位名称 |
 
 #### _应答数据_
+
 
 
