@@ -32,6 +32,7 @@
 | IsNeedBill | int | 否 | 是否需要发票 |
 | BillName | string | 否 | 发票抬头 |
 | BillType | int | 否 | 发票类型：1企业，2机构，3个人 |
+| BillCode| string | 否 | 税号 |
 | OrderRemark | string | 否 | 订单买家备注 |
 | DeliveryRemark | string | 否 | 订单卖家备注 |
 | OrderItemList | array object | 否 | 订单商品列表 |
