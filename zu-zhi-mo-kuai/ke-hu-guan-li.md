@@ -47,6 +47,10 @@
 | CustomerSysNo | int | 否 | 客户系统编码 |
 | CustomerStatusList | Array\[int\] | 否 | 状态：0待发展，10正常，11终止 |
 | KeyWord | string | 否 | 关键字（名称/负责人/联系人/电话） |
+| CustomerLevelSysNoList| Array\[int\] | 否 | 客户等级|
+| TagSysNoList| Array\[int\] | 否 | 客户标签|
+
+
 
 > #### Limit限制字段 {#请求数据}
 

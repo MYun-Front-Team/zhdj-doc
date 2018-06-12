@@ -42,6 +42,7 @@ _**【接口地址】**_
 | IsNeedBill | int | 否 | 是否需要发票 |
 | BillName | string | 否 | 发票抬头 |
 | BillType | int | 否 | 发票类型：1企业，2机构，3个人 |
+| BillCode| string | 否 | 税号 |
 | OrderRemark | string | 否 | 订单买家备注 |
 | AddOrderItemList | array object | 是 | 订单商品列表 |
 | AddOrderAmountList | array object | 否 | 订单优惠列表 |
