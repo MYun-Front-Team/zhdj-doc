@@ -35,5 +35,5 @@ http://ip:port/StudentFeeQuery/StudentFee/GetStudentFeeCountInfo
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| PaidStatus | int | 是 | 缴费状态：0未开始缴费，1未下载，9缴费中，10缴费完成 |
+| PaidStatus | int | 是 | 缴费状态：0未开始缴费，1未下载，2已下载 9缴费中，10缴费完成 |
 | Count| int | 是 | 数量 |

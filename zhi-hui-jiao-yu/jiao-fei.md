@@ -11,7 +11,7 @@
 | SubPaidClassCode | Nvarchar\(50\) | 是 | 子费种编码\(通用类\) |
 | SubPaidClassName | Nvarchar\(50\) | 是 | 子费种名称 |
 | AuditStatus | int | 是 | 审核状态：0未提交，1审核中，10审核通过，11审核失败 |
-| PaidStatus | int | 是 | 缴费状态：0未开始缴费，1未下载，9缴费中，10缴费完成 |
+| PaidStatus | int | 是 | 缴费状态：0未开始缴费，1未下载，2已下载 9缴费中，10缴费完成 |
 | PaidAmount | decimal\(18,2\) | 是 | 单笔缴费费用 |
 | PaidStartDate | string | 否 | 有效期开始时间 |
 | PaidEndDate | string | 否 | 有效期结束时间 |
@@ -39,7 +39,7 @@
 | KeyWord | string | 否 | 关键字搜索（名称） |
 | IsMyFootPrint | int | 否 | 是否显示自己的：0否，1是（不传查全部，传值需通过UserSysNo匹配Person） |
 | AuditStatusList | array int | 否 | 审核状态：0未提交，1审核中，10审核通过，11审核失败 |
-| PaidStatusList | array int | 否 | 缴费状态：0未开始缴费，1未下载，9缴费中，10缴费完成 |
+| PaidStatusList | array int | 否 | 缴费状态：0未开始缴费，1未下载，2已下载 9缴费中，10缴费完成 |
 | SubPaidClassCode | string | 是 | 子费种编码\(通用类\) |
 | SubmitPersonName | string | 是 | 提交人 |
 
