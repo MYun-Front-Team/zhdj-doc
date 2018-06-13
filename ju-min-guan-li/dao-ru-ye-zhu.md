@@ -24,7 +24,11 @@ http://ip:port/ResidentAction/Resident/AddResidentOwners
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| DataRangeSysNo | int | 是 | 数据范围树枝叶编码 |
+| Province | string | 是 | 省 |
+| City | string | 是 | 市 |
+| District | string | 是 | 区 |
+| Street | string | 是 | 街道|
+| Village | string | 是 | 小区|
 | RoomNo | string | 是 | 房间编号 |
 | CellPhoneNo| string | 是 | 手机号 |
 | PersonName| string | 是 | 业主名称 |
