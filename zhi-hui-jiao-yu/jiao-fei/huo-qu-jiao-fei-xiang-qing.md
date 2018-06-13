@@ -18,10 +18,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | StudentFeeSysNo | int | 是 | 缴费编码 |
 | Limit | array | 否 | 限制条件 |
-| DataRangeSysNoList | int | 否 | 数据范围树枝叶编码列表 |
-| IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
-| DataRangeSysNoList | int | 否 | 数据范围树枝叶编码列表 |
-| KeyWord | string | 否 | 关键字搜索（名称） |
+
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
