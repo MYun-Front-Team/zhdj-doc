@@ -15,10 +15,12 @@ http://ip:port/ParkQuery/IndustryFee/GetFeeTipInfo
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| OrganizationSysNo | int | 否 | 企业组织系统编码 |
 
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
+
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | FeeTipTotal | FeeTipTotal | 是 | 汇总信息 |
