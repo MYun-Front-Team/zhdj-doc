@@ -28,7 +28,7 @@ http://ip:port/ResidentAction/Resident/AddResidentOwners
 | City | string | 是 | 市 |
 | District | string | 是 | 区 |
 | Street | string | 是 | 街道|
-| Area | string | 是 | 社区|
+| Community | string | 是 | 社区|
 | Village | string | 是 | 小区|
 | RoomNo | string | 是 | 房间编号 |
 | CellPhoneNo| string | 是 | 手机号 |
