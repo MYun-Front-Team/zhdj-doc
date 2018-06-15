@@ -21,11 +21,6 @@ http://ip:port/UMAction/Sign/SignUp
 | Latitude| decimal| 否 | Latitude |
 
 
-> #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| SignDay | int | 否 | 连续签到天数 |
 
 
 
