@@ -159,7 +159,7 @@
   * [删除下载文件列表](tong-yong-mo-kuai/shan-chu-xia-zai-wen-jian-lie-biao.md)
   * [新增下载文件列表](tong-yong-mo-kuai/xin-zeng-xia-zai-wen-jian-lie-biao.md)
   * [设置下载列表状态](tong-yong-mo-kuai/she-zhi-xia-zai-lie-biao-zhuang-tai.md)
-  * 签到
+  * [签到](tong-yong-mo-kuai/qian-dao.md)
   * [获取签到列表](tong-yong-mo-kuai/huo-qu-qian-dao-lie-biao.md)
 * [积分模块](ji-fen-mo-kuai.md)
   * [根据模块，获取积分配置列表](ji-fen-mo-kuai/gen-ju-mo-kuai-ff0c-huo-qu-ji-fen-pei-zhi-lie-biao.md)
