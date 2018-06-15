@@ -34,7 +34,7 @@ http://ip:port/UMQuery/Sign/GetSignList
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| SignDate | datetime | 否 | 开始时间|
+| SignDate | datetime | 否 | 时间|
 | Longitude| decimal| 否 | Longitude |
 | Latitude| decimal| 否 | Latitude |
 
