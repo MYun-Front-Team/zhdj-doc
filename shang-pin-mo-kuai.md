@@ -133,6 +133,7 @@
 | IsSupportPointPay| int | 否 | 是否支持积分支付 |
 |GroupSysNo| int | 否 | 商品组系统编码|
 | ShopShowSource|int | 否 | 店铺展示位置 |
+| ProductGroupCode| string | 否 | 款号  |
 
 
 
