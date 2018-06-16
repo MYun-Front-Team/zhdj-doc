@@ -37,6 +37,8 @@ _**【接口地址】**_
 | FileUrlList | array string | 否 | 文件图片url列表 |
 | Categorys | array object | 否 | 类别列表 |
 | IsShowFront | int | 否 | 是否前端展示 |
+| ContentCount| int | 否 | 关联业务数 |
+
 
 
 
