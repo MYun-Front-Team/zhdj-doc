@@ -222,6 +222,7 @@
   * [绑定手机（合并账户）](ji-chu-mo-kuai/bang-ding-shou-ji-ff08-he-bing-zhang-hu-ff09.md)
   * [根据微信OPENID获取上级的邀请码](ji-chu-mo-kuai/gen-ju-wei-xin-openid-huo-qu-shang-ji-de-yao-qing-ma.md)
   * [根据小程序OPENID更新UnionID](ji-chu-mo-kuai/gen-ju-xiao-cheng-xu-openid-geng-xin-unionid.md)
+  * [获取下属客户](ji-chu-mo-kuai/huo-qu-xia-shu-ke-hu.md)
 * [朋友圈模块](peng-you-quan-mo-kuai.md)
   * [获取朋友圈列表](peng-you-quan-mo-kuai/huo-qu-peng-you-quan-lie-biao.md)
   * [获取朋友圈详情](peng-you-quan-mo-kuai/huo-qu-peng-you-quan-xiang-qing.md)
