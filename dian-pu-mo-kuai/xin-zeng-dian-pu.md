@@ -55,6 +55,10 @@ _**【接口地址】**_
 | ShopBannerPathList | array string | 否（可选配置） | 店铺Banner图片列表 |
 | SortNo | int | 否 | 排序 |
 | ShopShowSourceSysNos|array[int] | 否 | 店铺展示位置 |
+| IsScanCode| int | 否 | 是否有扫码功能 |
+
+
+
 
 
 
