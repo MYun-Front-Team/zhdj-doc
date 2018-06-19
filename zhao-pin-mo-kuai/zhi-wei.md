@@ -23,7 +23,7 @@
 | IfHasRecruit | int | 否 | 是否有招聘纪录0所有。1有，2无 |
 | PositionWorkDayList | array object | 否 | 工作日期列表 |
 | PositionWorkTimeList | array object | 否 | 工作时间列表 |
-| TagList | array object | 否 | 标签列表（说明见通用） |
+| TagClassList | array object | 否 | 福利标签列表（说明见通用） |
 
 
 
@@ -70,6 +70,14 @@
 | StartTime | datetime | 是 |开始时间 |
 | EndTime | datetime | 是 |结算时间 |
 
+> #### TagClass
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| TagClassSysNo | int | 是 | 福利编码（分类）  |
+| TagClassName| string| 是 |福利名称  |
+
+
+
 
 
 
@@ -104,7 +112,7 @@
 | IsShowPositionAgeList | int | 否 | 是否显示岗位年龄列表 |
 | IsShowPositionWorkDayList | int | 否 | 是否显示工作日列表 |
 | IsShowPositionWorkTimeList | int | 否 | 是否显示工作时间列表 |
-| IsShowTagList  | int | 否 | 是否显示标签列表 |
+| IsShowTagClassList   | int | 否 | 是否显示福利列表 |
 
 
 

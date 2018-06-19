@@ -29,6 +29,8 @@ _**【接口地址】**_
 | PositionWorkDayList | array object | 否 | 工作日期列表 |
 | PositionWorkTimeList | array object | 否 | 工作时间列表 |
 | TagSysNoList | array int | 否（可选配置） | 标签列表 |
+| TagClassSysNoList | array int | 否（可选配置） | 福利列表 |
+
 
 
 > #### 工作日期PositionWorkDay（兼职有效）
