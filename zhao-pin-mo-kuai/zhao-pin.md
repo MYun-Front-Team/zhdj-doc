@@ -19,6 +19,7 @@
 | EndSecond| double| 是 | 距离结束时间（秒）|
 | SellerBossPersonSysNo| int | 否 | 店铺老板编码 |
 
+
  
 
 > #### 统计计算字段 {#请求数据}
@@ -71,6 +72,8 @@
 | IsShowMyPersonStatus | int | 否 | 是否显示当前人员的参与情况 |
 | IsShowPersonPositionList | int | 否 | 是否显示期望职位列表 |
 | IsShowPersonSalaryList | int | 否 | 是否显示期望薪资列表 |
+
+
 
 ####  {#应答数据-（巡河记录数组）}
 

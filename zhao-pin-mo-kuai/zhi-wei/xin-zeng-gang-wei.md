@@ -31,6 +31,7 @@ _**【接口地址】**_
 | PositionAgeList | array object | 否 | 岗位年龄列表 |
 | PositionWorkDayList | array object | 否 | 工作日期列表 |
 | PositionWorkTimeList | array object | 否 | 工作时间列表 |
+| TagSysNoList | array int | 否（可选配置） | 标签列表 |
 
 > #### 工作日期PositionWorkDay（兼职有效）
 

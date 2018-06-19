@@ -23,6 +23,8 @@
 | IfHasRecruit | int | 否 | 是否有招聘纪录0所有。1有，2无 |
 | PositionWorkDayList | array object | 否 | 工作日期列表 |
 | PositionWorkTimeList | array object | 否 | 工作时间列表 |
+| TagList | array object | 否 | 标签列表（说明见通用） |
+
 
 
 > #### PositionClass
@@ -102,6 +104,9 @@
 | IsShowPositionAgeList | int | 否 | 是否显示岗位年龄列表 |
 | IsShowPositionWorkDayList | int | 否 | 是否显示工作日列表 |
 | IsShowPositionWorkTimeList | int | 否 | 是否显示工作时间列表 |
+| IsShowTagList  | int | 否 | 是否显示标签列表 |
+
+
 
 
 
