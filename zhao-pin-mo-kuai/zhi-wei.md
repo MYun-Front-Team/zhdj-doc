@@ -28,6 +28,7 @@
 
 
 > #### PositionClass
+
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PositionClassSysNo | int | 是 | 职位类型编码（分类）  |
@@ -71,6 +72,7 @@
 | EndTime | datetime | 是 |结算时间 |
 
 > #### TagClass
+
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | TagClassSysNo | int | 是 | 福利编码（分类）  |
