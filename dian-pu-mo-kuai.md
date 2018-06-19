@@ -51,6 +51,8 @@
 | ContractPCDDescription| string | 否 | 联系地址 |
 | SortNo | int | 否 | 排序 |
 | ShopShowSourceSysNos|array[int] | 否 | 店铺展示位置 |
+| IsScanCode| int | 否 | 是否有扫码功能 |
+
 
 
 > #### 统计计算字段 {#请求数据}
