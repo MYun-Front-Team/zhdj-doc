@@ -31,7 +31,9 @@ _**【接口地址】**_
 | PositionAgeList | array object | 否 | 岗位年龄列表 |
 | PositionWorkDayList | array object | 否 | 工作日期列表 |
 | PositionWorkTimeList | array object | 否 | 工作时间列表 |
-| TagClassSysNoList | array int | 否（可选配置） | 福利列表 |
+| TagClassList | array object | 否 | 福利标签列表（说明见通用） |
+
+
 
 > #### 工作日期PositionWorkDay（兼职有效）
 
@@ -50,6 +52,11 @@ _**【接口地址】**_
 
 
 
+> #### TagClass
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| TagClassSysNo | int | 否 | 福利编码（分类）  |
+| TagClassName| string| 是 |福利名称  |
 
 
 
