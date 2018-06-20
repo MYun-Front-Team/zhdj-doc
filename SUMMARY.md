@@ -457,6 +457,7 @@
 * [订单模块](ding-dan-mo-kuai.md)
   * [获取订单列表](ding-dan-mo-kuai/huo-qu-ding-dan-lie-biao.md)
   * [获取订单详情](ding-dan-mo-kuai/huo-qu-ding-dan-xiang-qing.md)
+  * [获取平台订单动态](ding-dan-mo-kuai/huo-qu-ping-tai-ding-dan-dong-tai.md)
   * [新增订单](ding-dan-mo-kuai/xin-zeng-ding-dan.md)
   * [修改订单](ding-dan-mo-kuai/xiu-gai-ding-dan.md)
   * [审核订单](ding-dan-mo-kuai/shen-he-ding-dan.md)
