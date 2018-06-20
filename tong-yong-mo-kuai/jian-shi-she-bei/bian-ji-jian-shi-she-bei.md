@@ -19,9 +19,5 @@ http://ip:port/UMAction/DeviceStatus/EditDeviceStatus
 | :--- | :--- | :--- | :--- |
 | DeviceSysNo | int | 是 | 系统编码 |
 | DeviceName| string| 是 | 设备名称 |
-| DeviceCode| string| 是 | 设备唯一编码 |
-| HeartBeat| string| 是 | 最后心跳时间|
-| HeartStatus| int | 是 |状态（0初始，10正常，9警告，11下线） |
-
 
 
