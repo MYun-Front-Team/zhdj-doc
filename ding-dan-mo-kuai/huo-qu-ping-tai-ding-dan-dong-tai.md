@@ -28,6 +28,7 @@ http://ip:port/OrderQuery/Order/GetOrderInfoList
 |OrderInfoItems|List[OrderInfoItem] | 是 | 订单商品 |
 
 > #### OrderInfoItem
+
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ProductGroupName | string | 是 | 款名称 |
