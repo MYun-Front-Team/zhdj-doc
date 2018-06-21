@@ -35,12 +35,21 @@ http://ip:port/OrderQuery/Order/GetCPSOrderBySysNo
 | CPSSysNo | int | 否 | CPS系统编码|
 | CPSCode | int | 否 | CPS编码|
 | CreateTime| datetime| 否 | 三方订单下单时间|
+| AuditStatus | int | 是 | 审核状态：0待审核，10已审核 |
+| PaymentStatus | int | 是 | 支付状态：0未支付，1部分支付，10已支付 |
+| DeliveryStatus | int | 是 | 发货状态：0未发货，1部分发货，10已发货 |
+| ReceiveStatus | int | 是 | 收货状态：0未收货，1部分收货，10已收货，11拒收 |
+| CancelStatus | int | 是 | 取消状态：0正常，1取消中，10已消，11取消失败 |
+| FinishStatus | int | 是 | 完结状态，0未完结，10已完结 |
+| SettlementStatus | int | 是 | 结算状态：0未结算，1部分结算，10已结算 |
+
 
 > ###OrderItem
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrderSysNo | int | 是 | 系统编码 |
+| OrderItemSysNo | int | 是 | 系统编码 |
+| OrderSysNo | int | 是 | 订单系统编码 |
 | ProductGroupSysNo | int | 是 | 款系统编码 |
 | SkuSysNo| int | 是 | 款系统编码 |
 | SourceSkuCode| string | 是 | 三方来源SKUID |
