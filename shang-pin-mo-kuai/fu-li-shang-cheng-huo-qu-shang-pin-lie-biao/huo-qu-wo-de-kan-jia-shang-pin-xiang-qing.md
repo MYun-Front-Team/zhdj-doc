@@ -71,3 +71,9 @@ http://ip:port/ShopQuery/CutPirce/GetMyFLCutPirceBySysNo
 | :--- | :--- | :--- | :--- |
 | MinSalePrice| decimal| 是 | 砍到极限的销售价|
 | MarketPrice| decimal| 是 | 市场价(严选价)|
+| MaxHelpPrice| decimal| 是 | 最大帮砍奖励|
+| MinHelpPrice| decimal| 是 | 最小帮砍奖励|
+| MinFansReward| decimal| 是 | 最小粉丝购物奖励|
+| MaxFansReward| decimal| 是 | 最大粉丝购物奖励|
+
+

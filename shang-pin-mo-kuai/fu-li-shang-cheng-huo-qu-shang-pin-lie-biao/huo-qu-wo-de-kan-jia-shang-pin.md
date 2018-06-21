@@ -44,7 +44,7 @@ http://ip:port/ShopQuery/CutPirce/GetMyFLCutPirceList
 | Sku | Sku  | 是 | SKU系统编码 |
 | NowPirce| decimal | 是 | 当前砍至价格|
 | CutPirceStatus| int | 是 | 砍价状态（1进行中，11取消，9完成，10最终确认） |
-| ProductGroupDetail|string| 是 |商品详情|
+
 
 
 
