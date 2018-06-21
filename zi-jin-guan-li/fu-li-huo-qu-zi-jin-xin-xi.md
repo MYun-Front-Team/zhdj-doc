@@ -47,6 +47,7 @@ http://ip:port/WalletQuery/Wallet/GetFLWallet
 | NewFans| int| 否 | 新增粉丝数 |
 | FansOrderCount|int| 是 | 粉丝下单数 |
 | FansOrderAmount|decimal| 是 | 粉丝下单金额 |
+| Date| string | 是 | 时间 |
 
 
 
