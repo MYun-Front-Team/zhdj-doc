@@ -26,6 +26,7 @@ http://ip:port/ShopQuery/CutPirce/GetMyFLCutPirceBySysNo
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | CutPirceSysNo| int | 是 | 砍价系统编码 |
+| PersonSysNo| int | 否 | 发起人员系统编码 |
 | ProductGroupSysNo| int | 是 | 款系统编码 |
 | ProductGroupName| string | 是 | 款名称 |
 | ProductGroupClassSysNo| int | 是 | 款类别编码 |

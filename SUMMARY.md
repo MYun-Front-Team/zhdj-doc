@@ -341,6 +341,7 @@
     * [获取我的砍价商品详情](shang-pin-mo-kuai/fu-li-shang-cheng-huo-qu-shang-pin-lie-biao/huo-qu-wo-de-kan-jia-shang-pin-xiang-qing.md)
     * [发起砍价](shang-pin-mo-kuai/fu-li-shang-cheng-huo-qu-shang-pin-lie-biao/fa-qi-kan-jia.md)
     * [获取我的砍价帮](shang-pin-mo-kuai/fu-li-shang-cheng-huo-qu-shang-pin-lie-biao/huo-qu-wo-de-kan-jia-bang.md)
+    * [帮砍](shang-pin-mo-kuai/fu-li-shang-cheng-huo-qu-shang-pin-lie-biao/bang-kan.md)
 * [组织模块](zu-zhi-mo-kuai.md)
   * [获取组织列表](zu-zhi-mo-kuai/huo-qu-zu-zhi-lie-biao.md)
   * [获取组织详情](zu-zhi-mo-kuai/huo-qu-zu-zhi-xiang-qing.md)
