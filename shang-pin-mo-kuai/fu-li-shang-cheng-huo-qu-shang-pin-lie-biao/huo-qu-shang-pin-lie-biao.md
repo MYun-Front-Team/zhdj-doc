@@ -21,6 +21,9 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupList
 | ProductGroupClassSysNoList | array int | 否 | 类型分类系统编码（类别树） |
 | IndustryClassSysNoList| array int | 否 | 行业类型分类系统编码（类别树） |
 | TouristOrganizationSysNo | int | 是 | 游客组织系统编码（传0即为游客） |
+| Limit| Limit| 是 | 显示限制|
+
+
 
 
 
@@ -47,8 +50,9 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupList
 | CPSMaterialUrl|string| 是 |CPS落地页|
 | IndustryClassSysNo|int| 是 |行业类别|
 | IndustryClassName|string| 是 |行业类别名称|
-| SaleCount|int| 是 |销售数|
+| FakeSaleCount|int| 是 |销售数|
 | FakeInventoryCount|int| 是 |假库存数|
+| SpecGroup | object | 否 | 规格组（说明见“获取规格模板列表”） |
 
 
 
@@ -63,6 +67,7 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupList
 | CPSCommission|decimal| 是 | CPS佣金|
 | CPSCommissionRate|decimal| 是 | CPS佣金比率|
 | SourceSkuCode| string | 是 | CPSSKU编码 |
+| SpecValueList | array object | 否 | 规格值列表 |
 
 
 
@@ -73,3 +78,15 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupList
 | :--- | :--- | :--- | :--- |
 | MinSalePrice| decimal| 是 | 砍到极限的销售价|
 | MarketPrice| decimal| 是 | 市场价(严选价)|
+
+#### Limit
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| IsShowFileThumbnailUrlList | int | 否 | 是否显示缩略图列表（数量） |
+| IsShowSkuList | int | 否 | 是否显示sku列表 |
+| IsShowSpecGroup | int | 否 | 是否显示规格组（说明见“获取规格模板列表”） |
+| IsShowSpecValueList | int | 否 | 是否显示规格值（当IsShowSkuList/IsShowSpecGroup=1时启用） |
+
+
+
+

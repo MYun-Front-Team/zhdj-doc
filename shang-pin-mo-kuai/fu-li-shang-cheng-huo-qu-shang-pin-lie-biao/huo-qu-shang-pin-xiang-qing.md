@@ -22,6 +22,10 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupBySysNo
 | DataRangeSysNo | int | 否 | 数据范围结点（店铺树） |
 | ProductGroupSysNo | int | 是 | 款系统编码 |
 | TouristOrganizationSysNo | int | 是 | 游客组织系统编码（传0即为游客） |
+| Limit| Limit| 是 | 显示限制|
+
+
+
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
@@ -47,9 +51,13 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupBySysNo
 | CPSMaterialUrl|string| 是 |CPS落地页|
 | IndustryClassSysNo|int| 是 |行业类别|
 | IndustryClassName|string| 是 |行业类别名称|
-| SaleCount|int| 是 |销售数|
+| FakeSaleCount|int| 是 |销售数|
 | FakeInventoryCount|int| 是 |假库存数|
 | ProductGroupDetail|string| 是 |商品详情|
+| SpecGroup | object | 否 | 规格组（说明见“获取规格模板列表”） |
+
+
+
 
 
 
@@ -64,6 +72,7 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupBySysNo
 | CPSCommission|decimal| 是 | CPS佣金|
 | CPSCommissionRate|decimal| 是 | CPS佣金比率|
 | SourceSkuCode| string | 是 | CPSSKU编码 |
+| SpecValueList | array object | 否 | 规格值列表 |
 
 
 
@@ -78,6 +87,17 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupBySysNo
 | MinHelpPrice| decimal| 是 | 最小帮砍奖励|
 | MinFansReward| decimal| 是 | 最小粉丝购物奖励|
 | MaxFansReward| decimal| 是 | 最大粉丝购物奖励|
+
+
+#### Limit
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| IsShowFileThumbnailUrlList | int | 否 | 是否显示缩略图列表（数量） |
+| IsShowSkuList | int | 否 | 是否显示sku列表 |
+| IsShowSpecGroup | int | 否 | 是否显示规格组（说明见“获取规格模板列表”） |
+| IsShowSpecValueList | int | 否 | 是否显示规格值（当IsShowSkuList/IsShowSpecGroup=1时启用） |
+
+
 
 
 
