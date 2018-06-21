@@ -21,6 +21,14 @@ http://ip:port/OrderQuery/RMA/GetOrderRMAList
 | OrganizationToSysNo | int | 否 | 买家组织系统编码 |
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 | PersonSysNo | int | 否 | 买家人员系统编码 |
+| KeyWord| string| 否 | 关键字 |
+| Limit| Limit| 否 | 展示限制|
+| CancelStatusList | List<int> | 否 |取消状态：0正常，10客户已取消 |
+| AuditStatusList | List<int> | 否 |审核状态：0待审核，10审核通过，11审核失败 |
+
+
+
+
 
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
@@ -58,6 +66,11 @@ http://ip:port/OrderQuery/RMA/GetOrderRMAList
 | AuditRemark | string | 否 | 审核备注 |
 | AuditPerson | object | 是 | 审核人实体（简） |
 
+#### Limit
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| IsShowAuditRecord | int | 是 | 是否显示审核对象 |
 
 
 
