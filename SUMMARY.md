@@ -337,6 +337,7 @@
   * [福狸商城商品](shang-pin-mo-kuai/fu-li-shang-cheng-huo-qu-shang-pin-lie-biao.md)
     * [获取商品列表](shang-pin-mo-kuai/fu-li-shang-cheng-huo-qu-shang-pin-lie-biao/huo-qu-shang-pin-lie-biao.md)
     * [获取商品详情](shang-pin-mo-kuai/fu-li-shang-cheng-huo-qu-shang-pin-lie-biao/huo-qu-shang-pin-xiang-qing.md)
+    * [获取我的砍价商品列表](shang-pin-mo-kuai/fu-li-shang-cheng-huo-qu-shang-pin-lie-biao/huo-qu-wo-de-kan-jia-shang-pin.md)
 * [组织模块](zu-zhi-mo-kuai.md)
   * [获取组织列表](zu-zhi-mo-kuai/huo-qu-zu-zhi-lie-biao.md)
   * [获取组织详情](zu-zhi-mo-kuai/huo-qu-zu-zhi-xiang-qing.md)
