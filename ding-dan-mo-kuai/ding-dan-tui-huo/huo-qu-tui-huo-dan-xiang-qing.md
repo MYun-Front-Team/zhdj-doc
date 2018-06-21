@@ -1,26 +1,23 @@
-# 获取退货单列表
+# 获取退货单详情
 
 ##### _【功能说明】_ {#【功能说明】}
 
-获取退货单列表
+获取退货单详情
 
 _**【应用场景】**_
 
-获取退货单列表
+获取退货单详情
 
 _**【接口地址】**_
 
-http://ip:port/OrderQuery/RMA/GetOrderRMAList
+http://ip:port/OrderQuery/RMA/GetOrderRMABySysNo
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrganizationFromSysNo | int | 否 | 卖家组织系统编码 |
-| DataRangeSysNoList | array int | 否 | 数据范围编码列表（店铺树） |
-| OrganizationToSysNo | int | 否 | 买家组织系统编码 |
-| IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
-| PersonSysNo | array int | 否 | 买家人员系统编码 |
+| RMASysNo | int | 是 | 退货单系统编码 |
+
 
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
