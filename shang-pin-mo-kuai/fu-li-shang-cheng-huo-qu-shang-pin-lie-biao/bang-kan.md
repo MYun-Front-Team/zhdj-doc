@@ -8,7 +8,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/ShopQuery/CutPirce/HelpCutPirce
+http://ip:port/ShopAction/CutPirce/HelpCutPirce
 
 > #### _请求数据_ {#请求数据}
 
