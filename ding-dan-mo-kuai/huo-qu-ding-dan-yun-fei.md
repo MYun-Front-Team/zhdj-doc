@@ -68,7 +68,7 @@ http://ip:port/OrderQuery/Order/GetOrderFreight
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| Freight| decimal| 是 |运费|
+| | decimal| 是 |运费|
 
 
 
