@@ -29,7 +29,7 @@ http://ip:port/ShopQuery/CutPirce/GetMyCutPirceHelpList
 | Person| Person | 是 | 砍价人 |
 | DelPirce| decimal| 否 |砍掉价格 |
 | CreateTime| string| 否 |时间 |
-| Power| int| 否 |排行(0最给力)|
+| Power| int| 否 |排行(0最给力，越大越不给力)|
 
 
 
