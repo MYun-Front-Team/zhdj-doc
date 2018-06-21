@@ -33,7 +33,6 @@ http://ip:port/ProductQuery/ProductGroup/GetMyFLCutPirceList
 | FileThumbnailUrlList| array string | 是 | 款缩略图 |
 | CPSSysNo|int| 是 | CPS系统编码|
 | CPSCode|string| 是 | CPSCode|
-| Price|Price| 是 | 价格|
 | OrganizationSysNo|int| 是 |组织系统编码|
 | DataRangeSysNo|int| 是 |店铺数据范围|
 | DataRangeName|string| 是 |店铺数据范围|
@@ -42,6 +41,10 @@ http://ip:port/ProductQuery/ProductGroup/GetMyFLCutPirceList
 | IndustryClassSysNo|int| 是 |行业类别|
 | IndustryClassName|string| 是 |行业类别名称|
 | RemaindSecond| int| 是 | 剩余时间秒|
+| Sku | Sku  | 是 | SKU系统编码 |
+| NowPirce| decimal | 是 | 当前砍至价格|
+| CutPirceStatus| int | 是 | 砍价状态（1进行中，11取消，9完成，10最终确认） |
+
 
 
 
