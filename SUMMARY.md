@@ -494,6 +494,7 @@
   * [CPS获取订单列表](ding-dan-mo-kuai/cpshuo-qu-ding-dan-lie-biao.md)
   * [CPS获取订单详情](ding-dan-mo-kuai/cpshuo-qu-ding-dan-xiang-qing.md)
   * [CPS订单统一结算](ding-dan-mo-kuai/cpsding-dan-tong-yi-jie-suan.md)
+  * [获取订单运费](ding-dan-mo-kuai/huo-qu-ding-dan-yun-fei.md)
 * [交易模块](jiao-yi-mo-kuai.md)
   * [购物车管理](jiao-yi-mo-kuai/gou-wu-che-guan-li.md)
     * [新增购物车](jiao-yi-mo-kuai/xin-zeng-gou-wu-che.md)
