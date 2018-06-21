@@ -20,7 +20,7 @@ http://ip:port/OrderQuery/RMA/GetOrderRMAList
 | DataRangeSysNoList | array int | 否 | 数据范围编码列表（店铺树） |
 | OrganizationToSysNo | int | 否 | 买家组织系统编码 |
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
-| PersonSysNo | array int | 否 | 买家人员系统编码 |
+| PersonSysNo | int | 否 | 买家人员系统编码 |
 
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
