@@ -40,10 +40,11 @@ http://ip:port/ShopQuery/CutPirce/GetMyFLCutPirceList
 | CPSMaterialUrl|string| 是 |CPS落地页|
 | IndustryClassSysNo|int| 是 |行业类别|
 | IndustryClassName|string| 是 |行业类别名称|
-| RemaindSecond| int| 是 | 剩余时间秒|
+| RemaindSecond| int| 是 | 砍价剩余时间秒|
 | Sku | Sku  | 是 | SKU系统编码 |
 | NowPirce| decimal | 是 | 当前砍至价格|
 | CutPirceStatus| int | 是 | 砍价状态（1进行中，11取消，9完成，10最终确认） |
+| FinishRemaindSecond| int| 是 | 强制完结剩余时间秒|
 
 
 
