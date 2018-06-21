@@ -76,7 +76,7 @@ http://ip:port/OrderQuery/Order/GetCPSOrderList
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | OrderSysNo | int | 是 | 系统编码 |
-| AmountType | int | 是 | 业务逻辑自定义金额类型 6实际支付总金额，9原始订单总金额，10当前商品总金额, 12CPS佣金 |
+| AmountType | int | 是 | 业务逻辑自定义金额类型 6实际支付总金额，9原始订单总金额，10当前商品总金额, 12CPS佣金,1运费 |
 | Amount | decimal（18，2） | 是 | 金额 |
 | Remark | string | 否 | 备注 |
 
