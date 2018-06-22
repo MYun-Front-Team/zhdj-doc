@@ -17,6 +17,7 @@ http://ip:port/WalletQuery/Wallet/GetFLWallet
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 是 | 组织系统编码 |
+| PersonSysNo| int | 是 | 人员系统编码 |
 | StartDate| string | 是 | 开始时间 |
 | EndDate| string | 是 | 结束时间 |
 
