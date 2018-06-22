@@ -60,7 +60,7 @@
 | ServiceOutMinutes| int | 否 | 过期时间（分钟）（0为长期有效）|
 | GroupList | array object | 否 | 商品组 |
 | SortNo| int | 否 |排序 |
-
+| CPSCategory| string| 否 |三方CPS类别 |
 
 
 
