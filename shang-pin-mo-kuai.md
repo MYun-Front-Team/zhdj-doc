@@ -61,6 +61,13 @@
 | GroupList | array object | 否 | 商品组 |
 | SortNo| int | 否 |排序 |
 | CPSCategory| string| 否 |三方CPS类别 |
+| CPSMaterialUrl| string| 否 |三方CPSURL |
+| CPSStartDate| string| 否 |三方CPS开始推荐 |
+| CPSEndDate| string| 否 |三方CPS结束推荐 |
+| CPSInOrderCount| int | 否 |三方CPS评价 |
+| CPSCommissionRate| int | 否 |佣金比率 |
+| CPSCommission| int | 否 |佣金 |
+| FakeInventoryCount| int | 否 |可砍份数 |
 
 
 
