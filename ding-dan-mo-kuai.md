@@ -178,6 +178,11 @@
 | IfOverdueStautsList | array int | 是 | 服务订单是否失效（0未失效1已失效2部分失效） |
 | IsServiceOrder | int | 否 | 是否是服务订单 |
 |CommentStatusList| array int | 是 | 评价状态（0未评价，10已经评价）|
+| CPSCode| string| 是 | CPS名称 JD京东，YX严选 |
+
+
+
+
 
 
 > #### 查询Limit字段 {#请求数据}
