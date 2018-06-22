@@ -134,6 +134,15 @@
 |GroupSysNo| int | 否 | 商品组系统编码|
 | ShopShowSource|int | 否 | 店铺展示位置 |
 | ProductGroupCode| string | 否 | 款号  |
+| CPSCode| string| 是 | CPS名称 JD京东，YX严选 |
+
+
+
+
+
+
+
+
 
 
 
