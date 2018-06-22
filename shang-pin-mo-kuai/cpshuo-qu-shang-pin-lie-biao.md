@@ -22,6 +22,13 @@ http://ip:port/ProductQuery/ProductGroup/GetCPSProductGroupList
 | TouristOrganizationSysNo | int | 是 | 游客组织系统编码（传0即为游客） |
 | StartCPSCommissionRate|decimal| 是 | 开始CPS佣金比率|
 | EndCPSCommissionRate|decimal| 是 | 结束CPS佣金比率|
+| CPSCode| string| 是 | CPS名称 JD京东，YX严选 |
+
+
+
+
+
+
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
