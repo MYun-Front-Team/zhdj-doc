@@ -29,6 +29,11 @@ http://ip:port/UMQuery/DeviceStatus/GetDeviceStatusBySysNo
 | DeviceCode| string| 是 | 设备唯一编码 |
 | HeartBeat| string| 是 | 最后心跳时间|
 | HeartStatus| int | 是 |状态（0初始，10正常，9警告，11下线） |
+| JsonObj| string| 是 | 备注 |
+
+
+
+
 
 
 
