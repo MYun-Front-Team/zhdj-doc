@@ -18,7 +18,7 @@
 | ProductGroupDetail | string | 否 | 款描述 |
 | ProductGroupMemo | string | 否 | 款备注 |
 | PCDCode | string | 否 | 产地PCD代码 |
-| PCDDescription | string | 否 | 产地PCD描述 |
+| PCDDescription | string | 否 | 产地PCD描述 |SysNo
 | GoodsWeight | decimal\(18,2\) | 否 | 重量 |
 | GoodsVolumn | decimal\(18,2\) | 否 | 体积 |
 | Pinyin | string | 否 | 款名称拼音 |

@@ -45,6 +45,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | SpecValueSysNo | int | 是 | 规格值系统编码 |
+| SpecName | string | 是 | 规格名称 |
 | SpecValue | string | 是 | 规格值 |
 | SpecValueOtherName | string | 否 | 规格值别名 |
 | IsCustomized | int | 是 | 是否可定制：0否，1是 |
