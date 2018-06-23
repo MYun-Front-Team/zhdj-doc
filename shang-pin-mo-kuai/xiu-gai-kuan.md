@@ -47,6 +47,16 @@ _**【接口地址】**_
 | ServiceType| int | 否 | 消费方式（0按次数，1按时间） |
 | ServiceOutMinutes| int | 否 | 过期时间（分钟）（0为长期有效）|
 | GroupSysNos| Array[int]| 否 |商品分组|
+| CPSCategory| string| 否 |三方CPS类别 |
+| CPSMaterialUrl| string| 否 |三方CPSURL |
+| CPSStartDate| string| 否 |三方CPS开始推荐 |
+| CPSEndDate| string| 否 |三方CPS结束推荐 |
+| CPSInOrderCount| int | 否 |三方CPS评价 |
+| FakeInventoryCount| int | 否 |可砍份数 |
+
+
+
+
 
 
 

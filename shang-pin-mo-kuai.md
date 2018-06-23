@@ -65,8 +65,6 @@
 | CPSStartDate| string| 否 |三方CPS开始推荐 |
 | CPSEndDate| string| 否 |三方CPS结束推荐 |
 | CPSInOrderCount| int | 否 |三方CPS评价 |
-| CPSCommissionRate| int | 否 |佣金比率 |
-| CPSCommission| int | 否 |佣金 |
 | FakeInventoryCount| int | 否 |可砍份数 |
 
 
@@ -113,6 +111,8 @@
 | FileMasterUrlList | array string | 否 | 主图Url列表 |
 | FileDetailUrlList | array string | 否 | 详情图Url列表 |
 | ProductGroup | object | 否 | 款实体对象（不含SKU） |
+| CPSCommissionRate| int | 否 |佣金比率 |
+| CPSCommission| int | 否 |佣金 |
 
 > #### 功能按钮字段 {#请求数据}
 
