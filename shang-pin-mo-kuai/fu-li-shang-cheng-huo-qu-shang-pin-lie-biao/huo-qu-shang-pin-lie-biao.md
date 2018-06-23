@@ -21,6 +21,7 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupList
 | ProductGroupClassSysNoList | array int | 否 | 类型分类系统编码（类别树） |
 | IndustryClassSysNoList| array int | 否 | 行业类型分类系统编码（类别树） |
 | TouristOrganizationSysNo | int | 是 | 游客组织系统编码（传0即为游客） |
+| CPSCode| string| 是 | CPS名称 JD京东，YX严选 |
 | Limit| Limit| 是 | 显示限制|
 
 

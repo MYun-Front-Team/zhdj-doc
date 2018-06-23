@@ -76,9 +76,10 @@
 | :--- | :--- | :--- | :--- |
 | CostPrice | decimal\(18,2\) | 否 | 成本价 |
 | MarketPrice | decimal\(18,2\) | 否 | 市场价 |
-| SalePrice | decimal\(18,2\) | 否 | 销售价 |
+| SalePrice | decimal\(18,2\) | 否 | 销售价|
 | MaxSalePrice | decimal\(18,2\) | 否 | 最大销售价 |
 | PointPrice | decimal\(18,2\) | 否 | 积分价格 |
+| MinCutSalePrice | decimal\(18,2\) | 否 | 最低砍价 |
 
 
 > #### SKU基础字段 {#请求数据}
