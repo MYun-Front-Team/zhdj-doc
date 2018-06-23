@@ -15,7 +15,7 @@
 | IndustryClassName | string | 否 | 分类名称（行业树） |
 | ProductGroupCode | string | 是 | 款号 |
 | ProductGroupName | string | 是 | 款名称 |
-| ProductGroupDetail | string | 否 | 款描述 
+| ProductGroupDetail | string | 否 | 款描述 |
 | ProductGroupMemo | string | 否 | 款备注 |
 | PCDCode | string | 否 | 产地PCD代码 |
 | PCDDescription | string | 否 | 产地PCD描述 |
@@ -54,21 +54,18 @@
 | EffectiveDays | int | 否 | 有效天数 |
 | EffectiveDate | string | 否 | 有效期 |
 | IsHidden | int | 否 | 是否隐藏 |
-| IsSupportPointPay| int | 否 | 是否支持积分支付 |
-| RewardPoint| int | 否 | 奖励积分 |
-| ServiceType| int | 否 | 消费方式（0按次数，1按时间） |
-| ServiceOutMinutes| int | 否 | 过期时间（分钟）（0为长期有效）|
+| IsSupportPointPay | int | 否 | 是否支持积分支付 |
+| RewardPoint | int | 否 | 奖励积分 |
+| ServiceType | int | 否 | 消费方式（0按次数，1按时间） |
+| ServiceOutMinutes | int | 否 | 过期时间（分钟）（0为长期有效） |
 | GroupList | array object | 否 | 商品组 |
-| SortNo| int | 否 |排序 |
-| CPSCategory| string| 否 |三方CPS类别 |
-| CPSMaterialUrl| string| 否 |三方CPSURL |
-| CPSStartDate| string| 否 |三方CPS开始推荐 |
-| CPSEndDate| string| 否 |三方CPS结束推荐 |
-| CPSInOrderCount| int | 否 |三方CPS评价 |
-| FakeInventoryCount| int | 否 |可砍份数 |
-
-
-
+| SortNo | int | 否 | 排序 |
+| CPSCategory | string | 否 | 三方CPS类别 |
+| CPSMaterialUrl | string | 否 | 三方CPSURL |
+| CPSStartDate | string | 否 | 三方CPS开始推荐 |
+| CPSEndDate | string | 否 | 三方CPS结束推荐 |
+| CPSInOrderCount | int | 否 | 三方CPS评价 |
+| FakeInventoryCount | int | 否 | 可砍份数 |
 
 > #### Price说明 {#请求数据}
 
@@ -76,11 +73,10 @@
 | :--- | :--- | :--- | :--- |
 | CostPrice | decimal\(18,2\) | 否 | 成本价 |
 | MarketPrice | decimal\(18,2\) | 否 | 市场价 |
-| SalePrice | decimal\(18,2\) | 否 | 销售价|
+| SalePrice | decimal\(18,2\) | 否 | 销售价 |
 | MaxSalePrice | decimal\(18,2\) | 否 | 最大销售价 |
 | PointPrice | decimal\(18,2\) | 否 | 积分价格 |
 | MinCutSalePrice | decimal\(18,2\) | 否 | 最低砍价 |
-
 
 > #### SKU基础字段 {#请求数据}
 >
@@ -112,13 +108,24 @@
 | FileMasterUrlList | array string | 否 | 主图Url列表 |
 | FileDetailUrlList | array string | 否 | 详情图Url列表 |
 | ProductGroup | object | 否 | 款实体对象（不含SKU） |
-| CPSCommissionRate| int | 否 |佣金比率 |
-| CPSCommission| int | 否 |佣金 |
+| CPSCommissionRate | int | 否 | 佣金比率 |
+| CPSCommission | int | 否 | 佣金 |
 
 > #### 功能按钮字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| SkuSysNo | int | 是 | 商品规格\(SKU\)系统编码 |
+| PhysicalQuantity | int | 是 | 物理库存 |
+| AvailableQuantity | int | 是 | 可用库存 |
+| VirtualQuantity | int | 是 | 虚拟库存 |
+| FrozenQuantity | int | 是 | 冻结库存（含冻结库位库存+不可用库位库存+次品） |
+| OrderLockQuantity | int | 是 | 订单锁数量 |
+| DeliveryVoucherLockQuantity | int | 是 | 发货单锁数量 |
+
 
 
 #### 查询条件字段 {#请求数据}
@@ -137,12 +144,12 @@
 | IsHidden | int | 否 | 是否隐藏 |
 | ShopPCDCode | string | 否 | 店铺PCD代码 |
 | ShopPCDDescription | string | 否 | 店铺PCD描述 |
-|IndustryClassSysNoList| array int | 否 | 行业类别 |
-| IsSupportPointPay| int | 否 | 是否支持积分支付 |
-|GroupSysNo| int | 否 | 商品组系统编码|
-| ShopShowSource|int | 否 | 店铺展示位置 |
-| ProductGroupCode| string | 否 | 款号  |
-| CPSCode| string| 是 | CPS名称 JD京东，YX严选 |
+| IndustryClassSysNoList | array int | 否 | 行业类别 |
+| IsSupportPointPay | int | 否 | 是否支持积分支付 |
+| GroupSysNo | int | 否 | 商品组系统编码 |
+| ShopShowSource | int | 否 | 店铺展示位置 |
+| ProductGroupCode | string | 否 | 款号 |
+| CPSCode | string | 是 | CPS名称 JD京东，YX严选 |
 
 #### Spec {#应答数据-（巡河记录数组）}
 
@@ -166,19 +173,6 @@
 | SpecValueFee | decimal\(18,2\) | 否 | 费用 |
 | SpecValueUrlList | array string | 否 | 图片 |
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 > #### 查询Limit字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
@@ -198,9 +192,7 @@
 | IsShowProductInventory | int | 否 | 是否显示款库存（需要SKU库存则IsShowSkuInventory=1） |
 | IsShowSkuInventory | int | 否 | 是否显示sku库存 |
 | IsShowProductInSku | int | 否 | 是否显示sku中款的信息（款的图片需limit控制） |
-| IsShowGroupList  | int | 否 | 是否显示商品组|
-
-
+| IsShowGroupList | int | 否 | 是否显示商品组 |
 
 ####  {#应答数据-（巡河记录数组）}
 
