@@ -15,10 +15,10 @@
 | IndustryClassName | string | 否 | 分类名称（行业树） |
 | ProductGroupCode | string | 是 | 款号 |
 | ProductGroupName | string | 是 | 款名称 |
-| ProductGroupDetail | string | 否 | 款描述 |
+| ProductGroupDetail | string | 否 | 款描述 
 | ProductGroupMemo | string | 否 | 款备注 |
 | PCDCode | string | 否 | 产地PCD代码 |
-| PCDDescription | string | 否 | 产地PCD描述 |SysNo
+| PCDDescription | string | 否 | 产地PCD描述 |
 | GoodsWeight | decimal\(18,2\) | 否 | 重量 |
 | GoodsVolumn | decimal\(18,2\) | 否 | 体积 |
 | Pinyin | string | 否 | 款名称拼音 |
