@@ -55,6 +55,7 @@ http://ip:port/OrderQuery/RMA/GetOrderRMAList
 | CreateTime| datetime| 否 | 申请时间|
 | FileThumbnailUrlList | array string | 否 | 缩略图Url列表 |
 | RMACount| int | 是 | 数量 |
+| UnitPrice| decimal| 是 |单价 |
 
 
 

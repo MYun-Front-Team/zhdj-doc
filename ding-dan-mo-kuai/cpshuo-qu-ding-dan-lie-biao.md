@@ -51,6 +51,16 @@ http://ip:port/OrderQuery/Order/GetCPSOrderList
 | CancelStatus | int | 是 | 取消状态：0正常，1取消中，10已消，11取消失败 |
 | FinishStatus | int | 是 | 完结状态，0未完结，10已完结 |
 | SettlementStatus | int | 是 | 结算状态：0未结算，1部分结算，10已结算 |
+| AutoSettlementLeftMinutes| int | 是 | 离自动结算时间 |
+| AutoReceiveLeftMinutes| int | 否 |自动签收时间 |
+| AutoCancelLeftMinutes| int | 否 | 自动取消时间 |
+
+
+
+
+
+
+
 
 > ###OrderItem
 
