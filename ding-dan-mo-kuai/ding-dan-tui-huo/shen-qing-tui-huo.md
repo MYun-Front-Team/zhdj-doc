@@ -22,6 +22,15 @@ http://ip:port/OrderAction/RMA/AddOrderRMA
 | Remark | string | 否 | 退货备注 |
 | FilePathList | array string | 否 | 图片列表 |
 | RMAAmount| decimal| 是 | 退款金额 |
+| RMACount| int | 是 | 数量 |
+
+
+
+
+
+
+
+
 
 
 

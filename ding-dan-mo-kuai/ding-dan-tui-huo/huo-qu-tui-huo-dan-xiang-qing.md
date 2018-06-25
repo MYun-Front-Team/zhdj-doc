@@ -42,6 +42,12 @@ http://ip:port/OrderQuery/RMA/GetOrderRMABySysNo
 | AuditStatus | int | 是 | 审核状态：0待审核，10审核通过，11审核失败 |
 | AuditRecord | object | 否 | 审核记录实体 |
 | CreateTime| datetime| 否 | 申请时间|
+| FileThumbnailUrlList | array string | 否 | 缩略图Url列表 |
+| RMACount| int | 是 | 数量 |
+
+
+
+
 
 
 
