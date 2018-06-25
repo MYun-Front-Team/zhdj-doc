@@ -146,6 +146,19 @@
 | DeliveryItemStatus | int | 否 | 0未发，1部分发，10已发，11取消 |
 | PointPrice| int | 是 | 积分单价 | 
 | Remark | string | 否 | 备注|
+| HasOrderRMA| int | 是 | 是否退货单|
+| OrderRMACancelStatus| int | 是 | 退货单客户取消状态 0正常，10客户已取消|
+| OrderRMAAuditStatus| int | 是 | 退货单后台审核 审核状态：0待审核，10审核通过，11审核失败 |
+
+
+
+
+
+
+
+
+
+
 
 
 > #### 功能按钮字段 {#请求数据}
@@ -181,6 +194,8 @@
 | IsServiceOrder | int | 否 | 是否是服务订单 |
 |CommentStatusList| array int | 是 | 评价状态（0未评价，10已经评价）|
 | CPSCode| string| 是 | CPS名称 JD京东，YX严选 |
+| IsHasOrderRMA | int | 否 | 是否有退货单 |
+
 
 
 
