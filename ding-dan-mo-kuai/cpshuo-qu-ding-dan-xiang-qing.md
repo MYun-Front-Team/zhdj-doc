@@ -62,6 +62,21 @@ http://ip:port/OrderQuery/Order/GetCPSOrderBySysNo
 | CPSValidRemark| string | 否 |失效备|
 | CPSCode | int | 否 | CPS编码|
 | CreateTime| datetime| 否 | 三方订单下单时间|
+| HasOrderRMA| int | 是 | 是否退货单|
+| OrderRMACancelStatus| int | 是 | 退货单客户取消状态 0正常，10客户已取消|
+| OrderRMAAuditStatus| int | 是 | 退货单后台审核 审核状态：0待审核，10审核通过，11审核失败 |
+
+
+
+
+
+
+
+
+
+
+
+
 
 > ###OrderAmount
 
