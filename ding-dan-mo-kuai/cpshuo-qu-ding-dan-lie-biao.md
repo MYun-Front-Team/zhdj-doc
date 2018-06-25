@@ -24,6 +24,7 @@ http://ip:port/OrderQuery/Order/GetCPSOrderList
 | PaymentStatusList | array int | 否 | 支付状态 |
 | CPSValidList| array int | 否 | CPS是否失效（0有效，1失效） |
 | FinishStatusList | array int | 否 | 完结状态 |
+| IsShowMySon| int | 否 | 是否看我孩子的订单 |
 
 
 
