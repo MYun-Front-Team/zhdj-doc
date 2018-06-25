@@ -139,6 +139,7 @@
 | CustomizedSpecValue | string | 否 | 可定制规格值 |
 | UnitPrice | decimal（18，2） | 是 | 单价 |
 | RealPrice | decimal（18，2） | 是 | 实际价格 |
+| MarketPrice| decimal（18，2） | 是 |市场价格 |
 | OriginalQuantity | int | 是 | 原始购买数量 |
 | Quantity | int | 是 | 最终购买数量 |
 | OrderItemLockInventory | object | 否 | 订单商品锁库（见仓储） |
