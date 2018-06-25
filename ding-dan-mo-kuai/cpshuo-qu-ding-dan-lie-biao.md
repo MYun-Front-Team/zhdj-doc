@@ -89,5 +89,7 @@ http://ip:port/OrderQuery/Order/GetCPSOrderList
 | AmountType | int | 是 | 业务逻辑自定义金额类型 6实际支付总金额，9原始订单总金额，10当前商品总金额, 12CPS佣金,1运费，13砍价直推奖励，14砍价间推奖励 |
 | Amount | decimal（18，2） | 是 | 金额 |
 | Remark | string | 否 | 备注 |
+| ToPersonSysNo| int | 是 | AmountType =13和14有效，奖励人 |
+
 
 
