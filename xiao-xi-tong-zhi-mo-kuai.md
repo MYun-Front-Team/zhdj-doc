@@ -22,6 +22,13 @@
 | RemovePerson | object | 否 | 撤下人实体 |
 | FilePathList | array string | 否 | 文件或图片Path列表（第一张为首图） |
 | FileUrlList | array string | 否 | 文件或图片URL列表（第一张为首图） |
+| MessageTypes|array[int] | 否 | 消息类型：0短信，1微信模板消息，2APP |
+
+
+
+
+
+
 
 
 > #### MessageStatistic统计计算字段 {#请求数据}

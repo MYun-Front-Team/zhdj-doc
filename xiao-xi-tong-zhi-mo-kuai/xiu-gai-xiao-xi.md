@@ -29,6 +29,13 @@ _**【接口地址】**_
 | FilePathList | array string | 否 | 文件或图片Path列表（第一张为首图） |
 | OrganizationSysNo | int | 否 | 组织系统编码 |
 | SponsorDataRangeSysNo| int| 否 | 主办方ID |
+| MessageTypes|array[int] | 否 | 消息类型：0短信，1微信模板消息，2APP |
+
+
+
+
+
+
 
 
 
