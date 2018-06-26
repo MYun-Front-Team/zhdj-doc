@@ -27,6 +27,7 @@ http://ip:port/EduQuery/Student/GetStudentSignList
 | PersonSysNo| int| 是 | 人员编码 |
 | StudentSysNo| int| 是 | 人员编码 |
 | FilePathList|array string| 否 | 图片|
+| FileUrlList|array string| 否 | 图片|
 | CreateTime| datetime| 是 | 时间 |
 
 
