@@ -19,6 +19,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | MessageSysNo | int | 是 | 消息系统编码 |
+| IsForce| int | 是 | 是否不管状态强行编辑 |
 | MessageTitle | string | 是 | 标题 |
 | MessageContent | string | 是 | 内容 |
 | MessageType | int | 是 | 消息类型：0短信，1微信模板消息，2APP |
