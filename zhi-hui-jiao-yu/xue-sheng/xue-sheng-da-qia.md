@@ -25,7 +25,7 @@ http://ip:port/EduAction/Student/StudentSign
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| MessageSysNo| int| 是 | 消息编码 |
+| SignSysNo| int| 是 | 打卡编码 |
 | StudentBase | object | 是 | 基础字段 |
 | StudentStatistic | object | 否 | 统计字段 |
 
