@@ -29,7 +29,7 @@ http://ip:port/ShopQuery/CutPirce/GetMyFLCutPirceList
 | ProductGroupSysNo| int | 是 | 款系统编码 |
 | ProductGroupName| string | 是 | 款名称 |
 | ProductGroupClassSysNo| int | 是 | 款类别编码 |
-| OnSaleStatus| int | 是 | 上下架 |
+| OnSaleStatus| int | 否 | 上下架状态 0待上架 1上架 2下架|
 | ProductGroupClassName| int | 是 | 类别名称 |
 | FileThumbnailUrlList| array string | 是 | 款缩略图 |
 | CPSSysNo|int| 是 | CPS系统编码|
