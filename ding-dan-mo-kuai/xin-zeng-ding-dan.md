@@ -49,6 +49,7 @@ _**【接口地址】**_
 | PrivacyPropertys | array object | 否 | 隐私属性列表 |
 | CouponCodes | array string | 否 | 订单优惠券码 |
 |IsDoortodoor|int | 是 | 是否上门服务|
+| CPSSysNo| int | 是 | CPS系统编码 |
 
 
 
