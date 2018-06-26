@@ -10,13 +10,13 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/EduAction/Student/StudentSign
+http://ip:port/EduAction/Student/UpdateStudentSign
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| CardNo| string| 是 | 卡号 |
+| SignSysNo| int| 是 | 打卡编码 |
 | FilePathList|array string| 否 | 图片|
 
 
@@ -25,9 +25,6 @@ http://ip:port/EduAction/Student/StudentSign
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| MessageSysNo| int| 是 | 消息编码 |
-| StudentBase | object | 是 | 基础字段 |
-| StudentStatistic | object | 否 | 统计字段 |
 
 
 
