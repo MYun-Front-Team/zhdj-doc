@@ -36,7 +36,7 @@ http://ip:port/ShopQuery/CutPirce/GetMyFLCutPirceBySysNo
 | CPSSysNo|int| 是 | CPS系统编码|
 | CPSCode|string| 是 | CPSCode|
 | OrganizationSysNo|int| 是 |组织系统编码|
-| DataRangeSysNo|int| 是 |店铺数据范围|
+| DataRangeSysNo|int| 是 |店铺数据范围| 
 | DataRangeName|string| 是 |店铺数据范围|
 | CPSInOrderCount|int| 是 |评论数|
 | CPSMaterialUrl|string| 是 |CPS落地页|
