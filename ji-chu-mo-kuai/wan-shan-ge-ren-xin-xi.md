@@ -40,6 +40,22 @@ _**【接口地址】**_
 | TagSysNoList | array int | 否 | 标签列表 |
 | IfVerify | int | 否 | 是否要连接三方查证身份证合法性 |
 | FileLifePathList| array string | 否 | 生活照图片列表 |
+| BloodType| string| 否 | 血型|
+| Anaphylaxis| string| 否 |过敏史|
+| Hobby| string| 否 |爱好|
+| Remark| string| 否 |备注|
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

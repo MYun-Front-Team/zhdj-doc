@@ -65,6 +65,14 @@ _**【接口地址】**_
 | Longitude| decimal| 否 | Longitude |
 | Latitude| decimal| 否 | Latitude |
 | Distance| decimal\(18,2\) | 否 | 距离店铺距离 |
+| BloodType| string| 否 | 血型|
+| Anaphylaxis| string| 否 |过敏史|
+| Hobby| string| 否 |爱好|
+| Remark| string| 否 |备注|
+
+
+
+
 
 
 
