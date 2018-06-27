@@ -24,7 +24,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | RecruitPerson | object | 是 | 招聘人员 |
-| RecruitPersonStatus | int | 是 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效 |
+| RecruitPersonStatus | int | 是 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝 |
 | RecruitPersonTime | string | 否 | 抢的时间 |
 | PositionSalary | decimal\(18,2\) | 否 | 岗位最终薪资 |
 | SalaryType | int | 否 | 薪资类型：1月，2天，3时 |
