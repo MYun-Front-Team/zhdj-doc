@@ -35,7 +35,7 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | RecruitSysNo| int | 否 | 招聘系统编码 |
-| RecruitPersonStatus| int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效 |
+| RecruitPersonStatus| int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝 |
 | RecruitPersonTime| Datetime| 否 | 抢的时间 |
 | PositionSalary| decimal| 否 |岗位最终薪资 |
 | SalaryType| Int| 否 |薪资类型：1月，2天，3时 |
@@ -59,7 +59,7 @@
 | IsMyFootPrint | int | 否 | 是否显示自己的：0否，1是（不传查全部，传值需通过UserSysNo匹配Person） |
 | PersonPositionTypeList | array int | 否 | 人员期望职位类型：1期望，10做过（Limit开关） |
 | PositionSysNo| aint | 否 | 岗位编码 |
-
+| IsShowMyPick| int | 否 | 是否展示我抢过的 |
 
 
 > #### 查询Limit字段 {#请求数据}
