@@ -17,6 +17,9 @@ http://ip:port/EduQuery/Student/GetStudentSignList
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | IsAgent | int | 否 | 是否显示自己代理人的消息 |
+| StudentSysNo| int | 否 | 学生编码 |
+
+
 
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
