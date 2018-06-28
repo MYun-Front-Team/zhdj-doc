@@ -29,6 +29,8 @@ _**【接口地址】**_
 | SendTime | string | 否 | 发送时间 |
 | ReceiverTime | string | 否 | 接收时间 |
 | ReadTime | string | 否 | 阅读时间 |
+| ClassName| string | 否 | 班级（教育项目有效） |
+
 
 
 
