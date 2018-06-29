@@ -7,6 +7,7 @@
 | 4000100 | 活动报表 | 按区域维度 |
 | 4000101 | 活动报表 | 按时间维度 |
 | 4000102 | 活动报表 | 按活动类型 |
+| 4000103 | 活动报表 | 按活动汇总 |
 
 
 
@@ -17,6 +18,7 @@
 | ActivityType|array[int] | 是 | 活动类型 |
 | StartTime| datetime| 是 | 开始时间 |
 | EndTime| datetime| 是 | 结束时间 |
+| DataRangeSysNo| int | 是 | DataRangeSysNo |
 
 > #### 应答数据 （PageResponseBase）【24000100】
 
