@@ -18,7 +18,11 @@
 | ActivityType|array[int] | 是 | 活动类型 |
 | StartTime| datetime| 是 | 开始时间 |
 | EndTime| datetime| 是 | 结束时间 |
-| DataRangeSysNo| int | 是 | DataRangeSysNo |
+| DataRangeSysNoList | array[int] | 是 | 数据范围树枝叶编码列表 |
+| IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
+
+
+
 
 > #### 应答数据 （PageResponseBase）【24000100】
 
