@@ -30,8 +30,7 @@ http://ip:port/UMAction/PVAndUV/AddPVAndUV
 | ModuleSourceType | int | 否 | 关联模块类型 |
 | ModuleSourceClass | int | 否 | 关联模块分类 |
 | ModuleSourceSysNo | int | 是 | 关联模块来源编码 |
-
-
+| JsonRemark| string| 是 | JSON备注 |
 
 
 
