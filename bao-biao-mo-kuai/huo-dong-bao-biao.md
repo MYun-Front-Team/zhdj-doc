@@ -58,7 +58,14 @@
 | ActivityType| int| 是 | 活动类型|
 | ActivityCount| int | 是 | 数量|
 
+> #### 应答数据 PageResponseStatistic 【24000103】
 
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ActivityCount| int | 是 | 开展活动数量|
+| ActivityPersonCount| int | 是 | 签到人次|
+| ShouldPersonCount| int | 是 | 应到人次|
+| AttendanceRate| decimal| 是 | 出勤率|
 
 
 
