@@ -31,11 +31,7 @@ _**【接口地址】**_
 | TagSysNoList | array int | 否（可选配置） | 标签列表 |
 | TagClassList | array object | 否 | 福利标签列表（说明见通用） |
 | CustomerPositionName| Nvarchar\(50\) | 是 | 客户自定义职位名称 |
-
-
-
-
-
+| PositionDayAreaList | array object | 否 | 工作日期列表（日期） |
 
 
 
@@ -54,6 +50,13 @@ _**【接口地址】**_
 | StartTime | datetime | 是 |开始时间 |
 | EndTime | datetime | 是 |结算时间 |
 
+> #### 工作日期（时间）PositionDayArea（兼职有效）
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PositionDayAreaSysNo | int | 是 | 工作日期系统编码|
+| StartTime | datetime | 是 |开始时间 |
+| EndTime | datetime | 是 |结束时间 |
 
 > #### TagClass
 
