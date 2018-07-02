@@ -21,10 +21,11 @@
 | PositionSalaryList | array object | 否 | 岗位薪资列表 |
 | PositionAgeList | array object | 否 | 岗位年龄列表 |
 | IfHasRecruit | int | 否 | 是否有招聘纪录0所有。1有，2无 |
-| PositionWorkDayList | array object | 否 | 工作日期列表 |
+| PositionWorkDayList | array object | 否 | 工作日期列表（星期） |
 | PositionWorkTimeList | array object | 否 | 工作时间列表 |
 | TagClassList | array object | 否 | 福利标签列表（说明见通用） |
 | CustomerPositionName| Nvarchar\(50\) | 是 | 客户自定义职位名称 |
+| PositionDayAreaList | array object | 否 | 工作日期列表（日期） |
 
 
 
@@ -61,7 +62,7 @@
 | AgeMin | int | 是 | 最小值 |
 | Remark | Nvarchar\(max\) | 否 | 备注 |
 
-> #### 工作日期PositionWorkDay（兼职有效）
+> #### 工作日期（星期）PositionWorkDay（兼职有效）
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -75,6 +76,14 @@
 | PositionWorkTimeSysNo | int | 是 | 工作时间点系统编码|
 | StartTime | datetime | 是 |开始时间 |
 | EndTime | datetime | 是 |结算时间 |
+
+> #### 工作日期（时间）PositionDayArea（兼职有效）
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PositionDayAreaSysNo | int | 是 | 工作日期系统编码|
+| StartTime | datetime | 是 |开始时间 |
+| EndTime | datetime | 是 |结束时间 |
 
 > #### TagClass
 
