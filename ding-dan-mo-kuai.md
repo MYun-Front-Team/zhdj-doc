@@ -110,9 +110,7 @@
 | IsServiceOrder | int | 否 | 是否服务订单：0否，1是 |
 | AutoReceiveLeftMinutes| int | 否 |自动签收时间 |
 | AutoCancelLeftMinutes| int | 否 | 自动取消时间 |
-
-
-
+| AutoCancelLeftSeconds| int | 否 | 自动取消时间(秒) |
 
 
 

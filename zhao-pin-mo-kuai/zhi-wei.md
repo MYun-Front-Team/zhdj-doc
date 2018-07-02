@@ -128,6 +128,7 @@
 | IsShowPositionAgeList | int | 否 | 是否显示岗位年龄列表 |
 | IsShowPositionWorkDayList | int | 否 | 是否显示工作日列表 |
 | IsShowPositionWorkTimeList | int | 否 | 是否显示工作时间列表 |
+| IsShowPositionDayAreaList  | int | 否 | 是否显示工作日期列表（日期）|
 | IsShowTagClassList   | int | 否 | 是否显示福利列表 |
 
 
