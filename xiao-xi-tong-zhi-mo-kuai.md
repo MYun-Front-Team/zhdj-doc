@@ -42,6 +42,8 @@
 | SendCount | int | 否 | 发送数量 |
 | ReceiverCount | int | 否 | 接收数量 |
 | ReadedCount | int | 否 | 阅读数量 |
+| MyReadedStatus | int | 否 | 当前浏览人的查看状态：0未阅，1已阅 |
+
 
 #### File说明 {#应答数据-}
 
