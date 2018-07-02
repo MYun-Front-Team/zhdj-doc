@@ -178,6 +178,7 @@
 * [基础模块](ji-chu-mo-kuai.md)
   * [获取全局变量](ji-chu-mo-kuai/huo-qu-quan-ju-bian-liang.md)
   * [获取数据范围树（用户版）](ji-chu-mo-kuai/huo-qu-shu-ju-fan-wei-shu.md)
+  * [获取数据范围树（所有子节点，一条龙跟节点）](ji-chu-mo-kuai/huo-qu-shu-ju-fan-wei-shu-ff08-suo-you-zi-jie-dian-ff0c-yi-tiao-long-gen-jie-dian-ff09.md)
   * [获取账户列表](ji-chu-mo-kuai/huo-qu-zhang-hu-lie-biao.md)
   * [账号登录](ji-chu-mo-kuai/zhang-hao-deng-lu.md)
   * [修改密码](ji-chu-mo-kuai/xiu-gai-mi-ma.md)
