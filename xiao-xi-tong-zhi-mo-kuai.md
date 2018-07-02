@@ -95,6 +95,8 @@
 | IsShowReceiverCount | int | 否 | 是否显示接收数量 |
 | IsShowReadedCount | int | 否 | 是否显示阅读数量 |
 | IsShowFileUrlList  | int | 否 | 是否显示主图 |
+| IsShowMyReadedStatus   | int | 否 | 是否显示我的阅读状态 |
+
 
 #### 模块页面编号枚举说明 {#请求数据}
 
