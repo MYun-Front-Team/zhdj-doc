@@ -23,6 +23,10 @@
 | FilePathList | array string | 否 | 文件或图片Path列表（第一张为首图） |
 | FileUrlList | array string | 否 | 文件或图片URL列表（第一张为首图） |
 | MessageTypeList|array[int] | 否 | 消息类型：0短信，1微信模板消息，2APP |
+| ObjectFileList| array File| 否（可选配置） | 附件 |
+
+
+
 
 
 
@@ -38,6 +42,18 @@
 | SendCount | int | 否 | 发送数量 |
 | ReceiverCount | int | 否 | 接收数量 |
 | ReadedCount | int | 否 | 阅读数量 |
+
+#### File说明 {#应答数据-}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| FileTitle| string| 是 | 文件名称 |
+| FilePath| string| 是 | 文件地址 |
+| FileUrl| string| 是 | 文件地址 |
+
+
+
+
 
 > #### 功能按钮字段 {#请求数据}
 

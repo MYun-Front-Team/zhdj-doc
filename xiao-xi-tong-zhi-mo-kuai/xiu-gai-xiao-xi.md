@@ -31,10 +31,16 @@ _**【接口地址】**_
 | OrganizationSysNo | int | 否 | 组织系统编码 |
 | SponsorDataRangeSysNo| int| 否 | 主办方ID |
 | MessageTypeList|array[int] | 否 | 消息类型：0短信，1微信模板消息，2APP |
+| ObjectFileList| array File| 否（可选配置） | 附件 |
 
 
 
+#### File说明 {#应答数据-}
 
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| FileTitle| string| 是 | 文件名称 |
+| FilePath| string| 是 | 文件地址 |
 
 
 
