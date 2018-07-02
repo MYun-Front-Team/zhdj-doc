@@ -30,6 +30,11 @@ _**【接口地址】**_
 | PositionWorkTimeList | array object | 否 | 工作时间列表 |
 | TagSysNoList | array int | 否（可选配置） | 标签列表 |
 | TagClassList | array object | 否 | 福利标签列表（说明见通用） |
+| CustomerPositionName| Nvarchar\(50\) | 是 | 客户自定义职位名称 |
+
+
+
+
 
 
 

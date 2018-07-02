@@ -24,6 +24,11 @@
 | PositionWorkDayList | array object | 否 | 工作日期列表 |
 | PositionWorkTimeList | array object | 否 | 工作时间列表 |
 | TagClassList | array object | 否 | 福利标签列表（说明见通用） |
+| CustomerPositionName| Nvarchar\(50\) | 是 | 客户自定义职位名称 |
+
+
+
+
 
 
 
