@@ -66,6 +66,7 @@ _**【接口地址】**_
 |LicenseEndDate| datetime | 否 |营业期限结束|
 |OutParkDate| datetime | 否 |迁出时间 |
 |OutParkRemark| string | 否 |迁出备注|
+| ServicePersonSysNo| int | 否 |默认客服编码 |
 
 
 
