@@ -78,9 +78,10 @@
 | MessageType | int | 否 | 消息类型：0短信，1微信模板消息，2APP |
 | IsPublic | int | 否 | 是否公开：0否，1是 |
 |  |  |  |  |
-| IsOwner | int | 否 | 是否显示自己的消息（被圈到的全部消息） |
+| IsOwner | int | 否 | 是否显示自己的消息（被圈到的全部消息包括自己发的） |
 | IsAgent | int | 否 | 是否显示自己代理人的消息 |
 | IsCreator | int | 否 | 是否显示自己创建的消息 |
+| IsRecive | int | 否 |是否显示自己的消息（被圈到的全部消息）  |
 | OrganizationSysNo | int |否| 组织系统编码 |
 
 
