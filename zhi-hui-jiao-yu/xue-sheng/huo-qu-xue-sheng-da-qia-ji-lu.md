@@ -32,6 +32,7 @@ http://ip:port/EduQuery/Student/GetStudentSignList
 | FilePathList|array string| 否 | 图片|
 | FileUrlList|array string| 否 | 图片|
 | CreateTime| datetime| 是 | 时间 |
+| PersonName| string| 是 | 人员名称|
 
 
 
