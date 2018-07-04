@@ -56,6 +56,7 @@
 | ActivityInstantStatus | int | 是 | 活动即时状态：1未开始，2进行中，3已结束 |
 | ActivitySignUpStatus | int | 是 | 活动报名即时状态：1未开始，2进行中，3已结束 |
 
+
 > #### 功能按钮字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
@@ -97,6 +98,8 @@
 | IsShowPlugInUnitList | int | 否 | 是否显示插件列表 |
 | IsShowLoginIDStatus | int | 否 | 是否显示账号状态 |
 | IsShowScore | int | 否 | 是否显示评分 |
+
+
 
 
 
