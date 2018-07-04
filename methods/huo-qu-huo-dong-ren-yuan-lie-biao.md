@@ -43,6 +43,7 @@ _**【接口地址】**_
 | Report | object | 否 | 汇报实体（说明见通用） |
 | HelpSignInPersonSysNo | int | 否 | 帮助签到人员系统编码 |
 | CommentList | array object | 否 | 评论列表（简版） |
+| IsRemote| int | 是 | 是否远程签到 |
 
 
 
