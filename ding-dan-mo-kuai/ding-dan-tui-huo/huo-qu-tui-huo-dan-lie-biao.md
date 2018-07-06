@@ -25,6 +25,8 @@ http://ip:port/OrderQuery/RMA/GetOrderRMAList
 | Limit| Limit| 否 | 展示限制|
 | CancelStatusList | List<int> | 否 |取消状态：0正常，10客户已取消 |
 | AuditStatusList | List<int> | 否 |审核状态：0待审核，10审核通过，11审核失败 |
+| OrderItemSysNo | int | 是 | 订单明细系统编码 |
+| OrderSysNo | int | 是 | 订单系统编码 |
 
 
 
