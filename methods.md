@@ -42,6 +42,9 @@
 | SponsorDataRangeSysNo | int | 否 | 主办方ID |
 | SponsorDataRangeGradeType | int | 否 | 主办方级别 |
 | Score| Score| 否 | 评分 |
+| CanRemoteSign| int| 否 | 是否送学 |
+
+
 
 
 > #### 统计计算字段 {#请求数据}
