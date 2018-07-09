@@ -50,6 +50,7 @@ http://ip:port/ShopQuery/CutPirce/GetMyFLCutPirceBySysNo
 | FinishRemaindSecond| int| 是 | 强制完结剩余时间秒|
 | FakeSaleCount|int| 是 |销售数|
 | FakeInventoryCount|int| 是 |假库存数|
+| ProductGroupMemo | string | 否 | 款备注 |
 
 
 

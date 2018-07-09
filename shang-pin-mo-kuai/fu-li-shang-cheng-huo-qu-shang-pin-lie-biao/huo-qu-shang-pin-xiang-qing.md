@@ -55,6 +55,7 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupBySysNo
 | FakeInventoryCount|int| 是 |假库存数|
 | ProductGroupDetail|string| 是 |商品详情|
 | SpecGroup | object | 否 | 规格组（说明见“获取规格模板列表”） |
+| ProductGroupMemo | string | 否 | 款备注 |
 
 
 
