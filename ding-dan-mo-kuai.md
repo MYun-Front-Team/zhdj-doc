@@ -54,6 +54,8 @@
 |IsDoortodoor|int | 是 | 是否上门服务|
 | CPSSysNo| int | 是 | CPS系统编码 |
 | CPSCode| string| 是 | CPS名称 JD京东，YX严选 |
+| NoticeStatus| int | 是 |通知状态 （0初始 10已标记） |
+
 
 
 
@@ -194,6 +196,7 @@
 |CommentStatusList| array int | 是 | 评价状态（0未评价，10已经评价）|
 | CPSCode| string| 是 | CPS名称 JD京东，YX严选 |
 | IsHasOrderRMA | int | 否 | 是否有退货单 |
+| NoticeStatusList| array int | 否 | 通知状态 （0初始 10已标记）  |
 
 
 
