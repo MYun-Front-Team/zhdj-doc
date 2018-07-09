@@ -27,6 +27,7 @@ http://ip:port/ParkQuery/IndustryFee/GetWaitPayFee
 | BuildingSysNo | int | 否 | 楼宇编码 |
 | OrganizationSysNo | int | 是 | 企业组织系统编码 |
 |ParkRoomType | int | 否 |房间类型|
+| StartDate | datetime | 否 | 费用开始时间 |
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
