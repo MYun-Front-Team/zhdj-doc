@@ -42,6 +42,7 @@
 | PaidStatusList | array int | 否 | 缴费状态：0未开始缴费，1未下载，2已下载 9缴费中，10缴费完成 |
 | SubPaidClassCode | string | 是 | 子费种编码\(通用类\) |
 | SubmitPersonName | string | 是 | 提交人 |
+| StudentFeeSysNo | int | 是 | 缴费系统编码 |
 
 
 > #### 查询Limit字段 {#请求数据}
