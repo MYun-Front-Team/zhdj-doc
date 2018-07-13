@@ -791,6 +791,7 @@
   * [成长档案](zhi-hui-jiao-yu/cheng-chang-dang-an.md)
     * [获取学期列表](zhi-hui-jiao-yu/cheng-chang-dang-an/huo-qu-xue-qi-lie-biao.md)
     * [获取节点信息](zhi-hui-jiao-yu/cheng-chang-dang-an/huo-qu-jie-dian-jie-shao.md)
+    * [设置节点信息](zhi-hui-jiao-yu/cheng-chang-dang-an/she-zhi-jie-dian-xin-xi.md)
 * [招聘模块](zhao-pin-mo-kuai.md)
   * [职位](zhao-pin-mo-kuai/zhi-wei.md)
     * [新增岗位](zhao-pin-mo-kuai/zhi-wei/xin-zeng-gang-wei.md)
