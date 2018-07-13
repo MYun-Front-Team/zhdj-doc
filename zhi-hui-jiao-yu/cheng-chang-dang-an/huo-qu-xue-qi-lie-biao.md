@@ -23,7 +23,7 @@ http://ip:port/EduQuery/Archives/GetSemesterList
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | SemesterName| string| 是 | 学期名称 |
-| StudentStatistic | object | 否 | 统计字段 |
+
 
 
 
