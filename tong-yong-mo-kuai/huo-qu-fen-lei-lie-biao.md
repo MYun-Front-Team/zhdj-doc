@@ -23,7 +23,6 @@ _**【接口地址】**_
 | IsShowBranch | int | 否 | 是否显示分支（递归树状） |
 | LoginSource | int | 否 | 登陆来源 |
 
-
 > #### 应答数据 {#应答数据-}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
@@ -37,9 +36,7 @@ _**【接口地址】**_
 | FileUrlList | array string | 否 | 文件图片url列表 |
 | Categorys | array object | 否 | 类别列表 |
 | IsShowFront | int | 否 | 是否前端展示 |
-| ContentCount| int | 否 | 关联业务数 |
-
-
+| ContentCount | int | 否 | 关联业务数 |
 
 
 
