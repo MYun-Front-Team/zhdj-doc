@@ -32,7 +32,7 @@ http://ip:port/EduQuery/Archives/GetEduDataRangeInf
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | IsShowIntroduce| string| 是 | 是否显示节点介绍 |
-| VIPMessage| string| 是 | 是否显示院长寄语 |
+| IsShowVIPMessage| string| 是 | 是否显示院长寄语 |
 
 
 
