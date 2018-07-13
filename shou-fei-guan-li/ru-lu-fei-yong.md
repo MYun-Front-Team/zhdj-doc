@@ -18,7 +18,7 @@ http://ip:port/ParkAction/IndustryFee/AddFee
 | :--- | :--- | :--- | :--- |
 | FeeType | int | 是 | 费用类型 |
 | FeeClassSysNo | int | 否 | 费用分类（枚举） |
-| StartDateInfos| array[StartDateInfo]| 是 | 费用开始时间 |
+| StartDate| datetime | 是 | 费用开始时间 |
 | EndDate | datetime | 是 | 费用结束时间 |
 | ParkSysNo| int | 是 | 园区编码|
 | OrganizationSysNo | int | 是 | 企业组织系统编码 |
@@ -28,11 +28,6 @@ http://ip:port/ParkAction/IndustryFee/AddFee
 | IncreaseAmonut| decimal | 否 |加收费用|
 
 
- #### StartDateInfo
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-|ParkRoomSysNo | int | 是 |房间系统编码|
-| StartDate| datetime | 是  |费用开始时间|
 
  #### AddFeeItem
 

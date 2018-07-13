@@ -27,7 +27,7 @@ http://ip:port/ParkQuery/IndustryFee/GetWaitPayFee
 | BuildingSysNo | int | 否 | 楼宇编码 |
 | OrganizationSysNo | int | 是 | 企业组织系统编码 |
 |ParkRoomType | int | 否 |房间类型|
-| StartDate | datetime | 否 | 费用开始时间 |
+| StartDateInfos| array[StartDateInfoS]| 否 | 费用开始时间 |
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
@@ -37,7 +37,11 @@ http://ip:port/ParkQuery/IndustryFee/GetWaitPayFee
 | WaitPayFeeItems| array[WaitPayFeeItem]| 否 | 费用明细 |
 | WaitPayFeeTotal| WaitPayFeeTotal| 否 | 费用汇总 |
 
+#### StartDateInfo
 
+| 变量名 | 类型 | 是否必须 | 描述 |
+|ParkRoomSysNo | int | 是 |房间系统编码|
+| StartDate| datetime | 是 |费用开始时间|
 
 > #### WaitPayFeeItem
 
