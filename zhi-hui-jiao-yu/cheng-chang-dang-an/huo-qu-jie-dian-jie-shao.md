@@ -17,7 +17,7 @@ http://ip:port/EduQuery/Archives/GetEduDataRangeInf
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | DataRangeSysNo| int| 是 | 节点编码 |
-| Limit| int| 是 | 显示限制 |
+| Limit| Limit| 是 | 显示限制 |
 
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
