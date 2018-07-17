@@ -70,15 +70,7 @@ _**【接口地址】**_
 | Hobby| string| 否 |爱好|
 | Remark| string| 否 |备注|
 | InSchoolStatus| int | 否 | 在校学生状态（0不明 1是 2不是） |
-
-
-
-
-
-
-
-
-
+| IDCardType | int| 否 | 证件类型|
 
 
 
