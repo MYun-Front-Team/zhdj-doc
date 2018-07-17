@@ -47,7 +47,7 @@
 | SubmitPersonName | string | 是 | 提交人 |
 | StudentFeeSysNo | int | 是 | 缴费系统编码 |
 | ConfirmStatusList | int | 是 | 确认状态：0未提交，1待确认，2部分确认，10全部确认|
-| ItemConfirmStatus | int | 否| 费用明细确认状态：0待确认，10全部确认，（传DataRangeSysNoList才有效） |
+| ItemConfirmStatus | int | 否| 费用明细确认状态：0待确认，10全部确认，（传ItemDataRangeSysNoList才有效） |
 | ItemDataRangeSysNoList | int |否 | 费用明细数据范围树枝叶编码列表 |
 
 
