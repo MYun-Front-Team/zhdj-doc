@@ -28,6 +28,8 @@ http://ip:port/StudentFeeQuery/StudentFee/GetStudentFeePersons
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 | DataRangeSysNoList | int | 否 | 数据范围树枝叶编码列表 |
 | KeyWord | string | 否 | 关键字搜索（名称） |
+| ExemptStatusList | array[int] | 否 | 是否例外（0否，1是）|
+
 
 
 
@@ -51,8 +53,12 @@ http://ip:port/StudentFeeQuery/StudentFee/GetStudentFeePersons
 |PaidTime|string | 是 |缴费时间 |
 | PaidAmount| decimal| 是 | 已缴金额 |
 | ConfirmStatus | int | 是 | 确认状态：0待确认，10已确认|
-
-
+| ConfirmPerson | string | 是 | 确认人|
+| ConfirmTime | string | 是 | 确认时间|
+| ExemptStatus| int | 是 |是否例外（0否，1是）|
+| ExemptRemark| string| 是 |例外备注 |
+| ExemptPerson| string| 是 |例外操作人 |
+| ExemptTime| string| 是 |例外操作时间 |
 
 
 
