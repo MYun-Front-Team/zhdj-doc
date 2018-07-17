@@ -12,17 +12,14 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/StudentFeeAction/StudentFee/ConfirmStudentFee
-
+http://ip:port/StudentFeeAction/StudentFee/SetDataRangeFeePerson
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| StudentFeeSysNo | int | 是 | 缴费系统编码 |
-| DataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表 |
-
-
-
+| DataRangeSysNo | int | 是 | 数据范围树枝叶编码|
+| FeePersonName| string| 是 |对接人名称|
+| FeePersonCellPhone| string| 是 |对接人电话|
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}

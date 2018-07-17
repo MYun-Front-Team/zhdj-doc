@@ -44,6 +44,7 @@ _**【接口地址】**_
 | Anaphylaxis| string| 否 |过敏史|
 | Hobby| string| 否 |爱好|
 | Remark| string| 否 |备注|
+| IDCardType | int| 否 | 证件类型|
 
 
 
