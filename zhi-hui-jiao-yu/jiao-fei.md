@@ -25,7 +25,8 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| PayAbleTotalAmount | decimal\(18,2\) | 否 | 总金额 |
+| PayAbleTotalAmount | decimal\(18,2\) | 否 | 应缴总金额 |
+| TotalAmount | decimal\(18,2\) | 否 | 总金额 |
 | PaidTotalAmount | decimal\(18,2\) | 否 | 已缴总金额 |
 | PersonTotalCount | int | 否 | 待缴总人数 |
 | PersonPaidCount | int | 否 | 已缴总人数 |
