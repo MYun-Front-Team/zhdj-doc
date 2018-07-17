@@ -50,6 +50,8 @@ http://ip:port/StudentFeeQuery/StudentFee/GetStudentFeePersons
 |Reason|string | 是 |状原因 |
 |PaidTime|string | 是 |缴费时间 |
 | PaidAmount| decimal| 是 | 已缴金额 |
+| ConfirmStatus | int | 是 | 确认状态：0待确认，10已确认|
+
 
 
 
