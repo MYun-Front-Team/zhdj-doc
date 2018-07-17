@@ -815,6 +815,8 @@
     * [确认录用](zhao-pin-mo-kuai/zhao-pin/que-ren-lu-yong.md)
     * [获取人员期望/现有职位和期望工资](zhao-pin-mo-kuai/zhao-pin/huo-qu-ren-yuan-qi-671b-xian-you-zhi-wei-he-qi-wang-gong-zi.md)
     * [拒绝录用](zhao-pin-mo-kuai/zhao-pin/ju-jue-lu-yong.md)
+    * [编辑招聘的领队信息](zhao-pin-mo-kuai/zhao-pin/bian-ji-zhao-pin-de-ling-dui-xin-xi.md)
+    * [推送招聘给领队](zhao-pin-mo-kuai/zhao-pin/tui-song-zhao-pin-gei-ling-dui.md)
   * [求职](zhao-pin-mo-kuai/qiu-zhi.md)
     * [修改求职基本信息](zhao-pin-mo-kuai/qiu-zhi/xiu-gai-qiu-zhi-ji-ben-xin-xi.md)
     * [确认抢班](zhao-pin-mo-kuai/qiu-zhi/que-ren-qiang-ban.md)
@@ -824,7 +826,7 @@
     * [添加领队](zhao-pin-mo-kuai/tian-jia-ling-dui.md)
     * [获取领队列表](zhao-pin-mo-kuai/huo-qu-ling-dui-lie-biao.md)
     * [删除领队](zhao-pin-mo-kuai/shan-chu-ling-dui.md)
-    * [设置领导激活状态](zhao-pin-mo-kuai/she-zhi-ling-dao-ji-huo-zhuang-tai.md)
+    * [设置领队激活状态](zhao-pin-mo-kuai/she-zhi-ling-dao-ji-huo-zhuang-tai.md)
     * [用户绑定领队](zhao-pin-mo-kuai/yong-hu-bang-ding-ling-dui.md)
     * [按照用户编码获取领队信息](zhao-pin-mo-kuai/an-zhao-yong-hu-bian-ma-huo-qu-ling-dui-xin-xi.md)
 

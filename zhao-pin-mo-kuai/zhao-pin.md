@@ -18,6 +18,15 @@
 | RecruitStatus | int | 是 | 招聘状态：0新建,10发布，11撤下 |
 | EndSecond| double| 是 | 距离结束时间（秒）|
 | SellerBossPersonSysNo| int | 否 | 店铺老板编码 |
+| CustomerShopName| string| 是 | 客户名称 |
+| CustomerSalary| decimal| 否 |客户薪资 |
+| Commission| decimal| 否 |佣金 |
+| Subsidy| decimal| 否 |补贴|
+| CommissionType| int| 否 |佣金类型（不限制，端自定义） |
+| PushLeaderEndTime| datetime| 否 |领队推送结束时间|
+| PushLeaderStatus| int| 否 |推送领队状态（0待推送 10已推送） |
+| InUser| string| 是 | 发布人|
+| LeaderOnStatus| int| 否 |领队上下架状态（0下架 1上架） |
 
 
  
@@ -68,6 +77,10 @@
 | RecruitPersonStatus | int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝 |
 | LeaderPickStatus| int| 否 |领队接单状态（0未接 1已接）和IsMyFootPrint，RecruitPersonStatus 不能共存 |
 | IsLeaderPrint | int | 否 | 是否显示领队自己拉来的人：（0否，1是）和IsMyFootPrint不能共存 |
+| PositionTypeList |array[int] | 否 | 工作类型:0不限,1全职,2兼职 |
+| LeaderOnStatusList| array[int]| 否 |领队上下架状态（0下架 1上架） |
+| PushLeaderStatusList| array[int]| 否 |推送领队状态（0待推送 10已推送） |
+
 
 
 > #### 查询Limit字段 {#请求数据}
