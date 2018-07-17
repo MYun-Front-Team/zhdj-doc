@@ -823,4 +823,5 @@
   * [领队](zhao-pin-mo-kuai/ling-dui.md)
     * [添加领队](zhao-pin-mo-kuai/tian-jia-ling-dui.md)
     * [获取领队列表](zhao-pin-mo-kuai/huo-qu-ling-dui-lie-biao.md)
+    * [删除领队](zhao-pin-mo-kuai/shan-chu-ling-dui.md)
 

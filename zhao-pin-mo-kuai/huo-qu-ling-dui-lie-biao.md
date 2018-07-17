@@ -17,6 +17,10 @@ http://ip:port/RecruitQuery/Leader/GetLeaderList
 | :--- | :--- | :--- | :--- |
 | KeyWord| string | 否 |关键字|
 | CellPhoneNo| string | 是 |手机 |
+| PersonSysNo| int| 是 |人员编码|
+
+
+
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 
