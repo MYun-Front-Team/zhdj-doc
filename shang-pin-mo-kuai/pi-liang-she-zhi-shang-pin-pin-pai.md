@@ -18,7 +18,7 @@ http://ip:port/ProductAction/ProductGroup/SetProductBrand
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ProductGroupSysNos |array int | 是 | 商品系统编码 |
-| BrandSysNos|List<int> | 否 | 品牌编码 |
+| BrandSysNos|List[int] | 否 | 品牌编码 |
 
 
 
