@@ -824,4 +824,5 @@
     * [添加领队](zhao-pin-mo-kuai/tian-jia-ling-dui.md)
     * [获取领队列表](zhao-pin-mo-kuai/huo-qu-ling-dui-lie-biao.md)
     * [删除领队](zhao-pin-mo-kuai/shan-chu-ling-dui.md)
+    * [设置领导激活状态](zhao-pin-mo-kuai/she-zhi-ling-dao-ji-huo-zhuang-tai.md)
 
