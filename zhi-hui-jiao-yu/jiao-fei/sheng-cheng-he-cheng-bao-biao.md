@@ -59,7 +59,8 @@ http://ip:port/StudentFeeQuery/StudentFee/GetStudentFeePersons
 | ExemptRemark| string| 是 |例外备注 |
 | ExemptPerson| string| 是 |例外操作人 |
 | ExemptTime| string| 是 |例外操作时间 |
-
-
+| ChangeRemark| string| 是 |改价备注 |
+|ChangePerson| string| 是 |改价操作人 |
+| ChangeTime| string| 是 |改价操作时间 |
 
 

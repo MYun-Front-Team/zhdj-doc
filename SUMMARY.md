@@ -778,6 +778,8 @@
     * [获取班主任确认情况](zhi-hui-jiao-yu/jiao-fei/huo-qu-ban-zhu-ren-que-ren-qing-kuang.md)
     * [提交待确认状态](zhi-hui-jiao-yu/jiao-fei/she-zhi-que-ren-zhuang-tai.md)
     * [确认缴费学生](zhi-hui-jiao-yu/jiao-fei/que-ren-jiao-fei-xue-sheng.md)
+    * [设置例外学生](zhi-hui-jiao-yu/jiao-fei/she-zhi-li-wai-xue-sheng.md)
+    * [设置学生改价](zhi-hui-jiao-yu/jiao-fei/she-zhi-xue-sheng-gai-jia.md)
     * [银行设置学校对接人](zhi-hui-jiao-yu/jiao-fei/yin-xing-she-zhi-xue-xiao-dui-jie-ren.md)
   * [课程](zhi-hui-jiao-yu/ke-cheng.md)
     * [获取课程列表](zhi-hui-jiao-yu/ke-cheng/huo-qu-ke-cheng-lie-biao.md)
