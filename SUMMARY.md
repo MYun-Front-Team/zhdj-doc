@@ -825,4 +825,6 @@
     * [获取领队列表](zhao-pin-mo-kuai/huo-qu-ling-dui-lie-biao.md)
     * [删除领队](zhao-pin-mo-kuai/shan-chu-ling-dui.md)
     * [设置领导激活状态](zhao-pin-mo-kuai/she-zhi-ling-dao-ji-huo-zhuang-tai.md)
+    * [用户绑定领队](zhao-pin-mo-kuai/yong-hu-bang-ding-ling-dui.md)
+    * [按照用户编码获取领队信息](zhao-pin-mo-kuai/an-zhao-yong-hu-bian-ma-huo-qu-ling-dui-xin-xi.md)
 
