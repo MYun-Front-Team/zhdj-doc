@@ -26,6 +26,8 @@ _**【接口地址】**_
 | PaidEndDate | string | 否 | 有效期结束时间 |
 | Remark | string | 否 | 备注 |
 | PickRuleTemplateList | array object | 是 | 选人规则 |
+| ToParentRemark | string | 否 | 家长告知 |
+
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
