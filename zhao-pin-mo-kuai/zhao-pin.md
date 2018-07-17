@@ -42,6 +42,11 @@
 | WorkStartDay| Datetime| 否 |开始上班时间 |
 | UrgeCount| int| 否 |催促次数 |
 | Remark| string| 否 |备注|
+| LeaderPersonSysNo| int| 否 | 邀请人 |
+
+
+
+
 
 
 
@@ -61,7 +66,8 @@
 | PersonPositionTypeList | array int | 否 | 人员期望职位类型：1期望，10做过（Limit开关） |
 | PositionSysNo| aint | 否 | 岗位编码 |
 | RecruitPersonStatus | int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝 |
-
+| LeaderPickStatus| int| 否 |领队接单状态（0未接 1已接）和IsMyFootPrint，RecruitPersonStatus 不能共存 |
+| IsLeaderPrint | int | 否 | 是否显示领队自己拉来的人：（0否，1是）和IsMyFootPrint不能共存 |
 
 
 > #### 查询Limit字段 {#请求数据}

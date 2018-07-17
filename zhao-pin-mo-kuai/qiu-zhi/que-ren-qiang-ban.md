@@ -20,6 +20,11 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | RecruitSysNo | int | 是 | 招聘系统编码 |
 | PersonSysNo | int | 否 | 人员系统编码 |
+| LeaderPersonSysNo| int| 否 | 邀请人 |
+
+
+
+
 
 #### _应答数据_ {#应答数据-}
 
