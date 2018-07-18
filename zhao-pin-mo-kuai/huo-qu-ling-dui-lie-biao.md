@@ -32,6 +32,8 @@ http://ip:port/RecruitQuery/Leader/GetLeaderList
 | RealName| string | 是 |姓名|
 | PersonIDCardPathList | array string |是 | 身份证图片列表 |
 | PersonIDCardUrlList | array string | 是 | 身份证图片列表 |
+| PersonIDCardPathOtherList | array string | 否 | 身份证图片反面列表 |
+| PersonIDCardUrlOtherList | array string | 否 | 身份证图片反面列表 |
 | PersonSysNo| int| 是 |人员编码|
 | ActiveStatus| int| 是 |激活状态(0待绑定 ，10已激活，11已禁用) |
 | LastLoginDate| string | 是 |最后登录时间 |

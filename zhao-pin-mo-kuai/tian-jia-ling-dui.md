@@ -21,7 +21,16 @@ http://ip:port/RecruitAction/Leader/AddLeader
 | CellPhoneNo| string | 是 |手机 |
 | IDCard| string | 否 |身份证|
 | RealName| string | 是 |姓名|
-| PersonIDCardPathList | array string | 否 | 身份证图片列表 |
+| PersonIDCardPathList | array string | 否 | 身份证图片正面列表 |
+| PersonIDCardPathOtherList | array string | 否 | 身份证图片反面列表 |
+
+
+
+
+
+
+
+
 
 
 

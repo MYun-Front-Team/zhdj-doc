@@ -30,6 +30,8 @@ http://ip:port/RecruitQuery/Leader/GetLeaderByPersonSysNo
 | RealName| string | 是 |姓名|
 | PersonIDCardPathList | array string |是 | 身份证图片列表 |
 | PersonIDCardUrlList | array string | 是 | 身份证图片列表 |
+| PersonIDCardPathOtherList | array string | 否 | 身份证图片反面列表 |
+| PersonIDCardUrlOtherList | array string | 否 | 身份证图片反面列表 |
 | PersonSysNo| int| 是 |人员编码|
 | LastLoginDate| string | 是 |最后登录时间 |
 

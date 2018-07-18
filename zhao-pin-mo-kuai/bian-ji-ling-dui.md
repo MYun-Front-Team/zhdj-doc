@@ -22,6 +22,8 @@ http://ip:port/RecruitAction/Leader/EditLeader
 | IDCard| string | 否 |身份证|
 | RealName| string | 否  |姓名|
 | PersonIDCardPathList | array string | 否 | 身份证图片列表 |
+| PersonIDCardPathOtherList | array string | 否 | 身份证图片反面列表 |
+
 
 
 
