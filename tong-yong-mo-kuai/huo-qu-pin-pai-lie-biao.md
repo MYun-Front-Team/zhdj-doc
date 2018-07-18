@@ -33,6 +33,9 @@ _**【接口地址】**_
 | IsEnable | int | 是 | 是否启用（影响前台展示） |
 | IsEnableInBack | int | 是 | 是否后台启用 |
 | BrandUrlList | array string | 否 | 图片Url路径列表 |
+| SortNo| int | 是 | 排序|
+
+
 
 
 
