@@ -37,7 +37,7 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| DataRangeSysNoList | int |否 | 数据范围树枝叶编码列表 |
+| DataRangeSysNoList | array  int |否 | 数据范围树枝叶编码列表 |
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 | KeyWord | string | 否 | 关键字搜索（名称） |
 | IsMyFootPrint | int | 否 | 是否显示自己的：0否，1是（不传查全部，传值需通过UserSysNo匹配Person） |
@@ -48,7 +48,7 @@
 | StudentFeeSysNo | int | 是 | 缴费系统编码 |
 | ConfirmStatusList | int | 是 | 确认状态：0未提交，1待确认，2部分确认，10全部确认|
 | ItemConfirmStatus | int | 否| 费用明细确认状态：0待确认，10全部确认，（传ItemDataRangeSysNoList才有效） |
-| ItemDataRangeSysNoList | int |否 | 费用明细数据范围树枝叶编码列表 |
+| ItemDataRangeSysNoList | array  int |否 | 费用明细数据范围树枝叶编码列表 |
 
 
 
