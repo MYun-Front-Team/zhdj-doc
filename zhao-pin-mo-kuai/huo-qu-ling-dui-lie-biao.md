@@ -26,6 +26,7 @@ http://ip:port/RecruitQuery/Leader/GetLeaderList
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| LeaderSysNo| int| 是 |领队编码|
 | CellPhoneNo| string | 是 |手机 |
 | IDCard| string | 是 |身份证|
 | RealName| string | 是 |姓名|
