@@ -10,6 +10,11 @@
 | DataRanges| array[DataRange]| 是 | 班级-年级-学校数组 |
 | Person | object | 是 | 人员信息 |
 | StudentNo| string| 是 | 学号 |
+| UnionNo| string| 是 | 学籍号 |
+
+
+
+
 
 
 
