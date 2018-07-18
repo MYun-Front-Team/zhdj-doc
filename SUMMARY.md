@@ -830,4 +830,5 @@
     * [用户绑定领队](zhao-pin-mo-kuai/yong-hu-bang-ding-ling-dui.md)
     * [按照用户编码获取领队信息](zhao-pin-mo-kuai/an-zhao-yong-hu-bian-ma-huo-qu-ling-dui-xin-xi.md)
     * [编辑领队](zhao-pin-mo-kuai/bian-ji-ling-dui.md)
+    * [获取领队详情](zhao-pin-mo-kuai/huo-qu-ling-dui-xiang-qing.md)
 
