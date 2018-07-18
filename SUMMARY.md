@@ -829,4 +829,5 @@
     * [设置领队激活状态](zhao-pin-mo-kuai/she-zhi-ling-dao-ji-huo-zhuang-tai.md)
     * [用户绑定领队](zhao-pin-mo-kuai/yong-hu-bang-ding-ling-dui.md)
     * [按照用户编码获取领队信息](zhao-pin-mo-kuai/an-zhao-yong-hu-bian-ma-huo-qu-ling-dui-xin-xi.md)
+    * [编辑领队](zhao-pin-mo-kuai/bian-ji-ling-dui.md)
 
