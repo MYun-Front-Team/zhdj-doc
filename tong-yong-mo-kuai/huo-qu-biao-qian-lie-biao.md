@@ -24,6 +24,8 @@ _**【接口地址】**_
 | ~~ModuleSourceClass~~ | ~~int~~ | ~~否~~ | ~~来源分类~~ |
 | ~~ModuleSourceSysNo~~ | ~~int~~ | ~~否~~ | ~~来源系统编码~~ |
 | TagType | int | 否 | 标签类型（枚举） |
+| IsHiddenList|array int | 否 |是否对前台隐藏（1隐藏，0可见） |
+
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 
