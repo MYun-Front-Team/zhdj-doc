@@ -39,6 +39,8 @@
 | RecruitPersonRobCount | int | 否 | 意向人数（已抢） |
 | RecruitInstantStatus | int | 否 | 招聘即时状态：1未开始，2进行中，3已结束，4已过期 |
 | RecruitPerson | object | 否 | 应聘人员状态信息（IsShowMyPersonStatus=1） |
+| LeaderSuccessCount| int | 否 | 领队成功录用人数 |
+
 
 #### RecruitPerson
 | 变量名 | 类型 | 是否必须 | 描述 |
@@ -93,6 +95,8 @@
 | IsShowMyPersonStatus | int | 否 | 是否显示当前人员的参与情况 |
 | IsShowPersonPositionList | int | 否 | 是否显示期望职位列表 |
 | IsShowPersonSalaryList | int | 否 | 是否显示期望薪资列表 |
+| IsShowLeaderSuccessCount | int | 否 | 是否显示领对成功招募人数 |
+
 
 
 
