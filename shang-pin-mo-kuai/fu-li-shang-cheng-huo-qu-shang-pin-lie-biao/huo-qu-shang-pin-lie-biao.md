@@ -23,6 +23,10 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupList
 | TouristOrganizationSysNo | int | 是 | 游客组织系统编码（传0即为游客） |
 | CPSCode| string| 是 | CPS名称 JD京东，YX严选 |
 | Limit| Limit| 是 | 显示限制|
+| TagSysNoLIst | array int | 否 | 标签系统编码列表 |
+| BrandSysNoList| array int | 否 | 品牌系统编码列表 |
+
+
 
 
 
