@@ -43,6 +43,9 @@ _**【接口地址】**_
 | PersonName | string | 否 | 昵称 |
 | UserGender | int | 否 | 性别 |
 | WxUnionID| string| 否 | 微信WxUnionID|
+| CellPhoneNo| string| 否 | 手机号|
+
+
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
