@@ -781,6 +781,7 @@
     * [设置例外学生](zhi-hui-jiao-yu/jiao-fei/she-zhi-li-wai-xue-sheng.md)
     * [设置学生改价](zhi-hui-jiao-yu/jiao-fei/she-zhi-xue-sheng-gai-jia.md)
     * [银行设置学校对接人](zhi-hui-jiao-yu/jiao-fei/yin-xing-she-zhi-xue-xiao-dui-jie-ren.md)
+    * [银行获取学校对接人](zhi-hui-jiao-yu/jiao-fei/yin-xing-huo-qu-xue-xiao-dui-jie-ren.md)
   * [课程](zhi-hui-jiao-yu/ke-cheng.md)
     * [获取课程列表](zhi-hui-jiao-yu/ke-cheng/huo-qu-ke-cheng-lie-biao.md)
     * [获取课程详情](zhi-hui-jiao-yu/ke-cheng/huo-qu-ke-cheng-xiang-qing.md)
