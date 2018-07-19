@@ -71,6 +71,9 @@ _**【接口地址】**_
 | Remark| string| 否 |备注|
 | InSchoolStatus| int | 否 | 在校学生状态（0不明 1是 2不是） |
 | IDCardType | int| 否 | 证件类型|
+| NeedPartTimeJob| int | 否 | 是否屏蔽推送兼职（0正常，1屏蔽） |
+
+
 
 
 

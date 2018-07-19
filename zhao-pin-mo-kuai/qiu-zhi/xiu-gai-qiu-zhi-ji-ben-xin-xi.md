@@ -41,6 +41,8 @@ _**【接口地址】**_
 | PersonProfile | string | 否 | 个人简介 |
 | WorkingDate | string | 否 | 参加工作日期 |
 | InSchoolStatus| int | 否 | 在校学生状态（0不明 1是 2不是） |
+| NeedPartTimeJob| int | 否 | 是否屏蔽推送兼职（0正常，1屏蔽） |
+
 
 #### PersonSalary
 

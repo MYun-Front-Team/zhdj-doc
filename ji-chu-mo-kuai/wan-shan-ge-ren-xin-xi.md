@@ -45,6 +45,9 @@ _**【接口地址】**_
 | Hobby| string| 否 |爱好|
 | Remark| string| 否 |备注|
 | IDCardType | int| 否 | 证件类型|
+| NeedPartTimeJob| int | 否 | 是否屏蔽推送兼职（0正常，1屏蔽） |
+
+
 
 
 
