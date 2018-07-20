@@ -82,6 +82,7 @@
 | PositionTypeList |array[int] | 否 | 工作类型:0不限,1全职,2兼职 |
 | LeaderOnStatusList| array[int]| 否 |领队上下架状态（0下架 1上架） |
 | PushLeaderStatusList| array[int]| 否 |推送领队状态（0待推送 10已推送） |
+| RecruitInstantStatusList | int | 否 | 招聘即时状态：1未开始，2进行中，3已结束，4已过期 |
 
 
 
