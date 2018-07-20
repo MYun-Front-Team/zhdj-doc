@@ -62,5 +62,7 @@ http://ip:port/StudentFeeQuery/StudentFee/GetStudentFeePersons
 | ChangeRemark| string| 是 |改价备注 |
 |ChangePerson| string| 是 |改价操作人 |
 | ChangeTime| string| 是 |改价操作时间 |
+| StudentNo| string| 是 | 学号 |
+
 
 
