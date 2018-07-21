@@ -21,6 +21,7 @@
 | ToParentRemark | string | 否 | 家长告知 |
 | ConfirmStatus | int | 是 | 确认状态：0未提交，1待确认，2部分确认，10全部确认|
 | DataRanges| array[DataRange]| 是 | 班级-年级-学校数组 |
+| InUser| string | 否 | 创建人 |
 
 
 > #### 统计计算字段 {#请求数据}
