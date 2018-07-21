@@ -56,6 +56,10 @@
 | IsOwner | int | 否 | 是否显示自己的：0否，1是（不传查全部，传值需通过UserSysNo匹配Person） |
 | ModuleSysNo | int | 是 | 模块编码（枚举） |
 | ModuleSourceSysNo | int | 是 | 模块来源系统编码 |
+| MomentsTypeList|array int | 是 |类型（枚举） |
+
+
+
 
 > #### 查询Limit字段 {#请求数据}
 
