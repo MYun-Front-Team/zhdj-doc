@@ -26,7 +26,7 @@
 | PushLeaderEndTime| datetime| 否 |领队推送结束时间|
 | PushLeaderStatus| int| 否 |推送领队状态（0待推送 10已推送） |
 | InUser| string| 是 | 发布人|
-| LeaderOnStatus| int| 否 |领队上下架状态（0下架 1上架） |
+| LeaderOnStatus| int| 否 |领队上下架状态（0待上架 1上架，2下架） |
 
 
  
@@ -80,7 +80,7 @@
 | LeaderPickStatus| int| 否 |领队接单状态（0未接 1已接）和IsMyFootPrint，RecruitPersonStatus 不能共存 |
 | IsLeaderPrint | int | 否 | 是否显示领队自己拉来的人：（0否，1是）和IsMyFootPrint不能共存 |
 | PositionTypeList |array[int] | 否 | 工作类型:0不限,1全职,2兼职 |
-| LeaderOnStatusList| array[int]| 否 |领队上下架状态（0下架 1上架） |
+| LeaderOnStatusList| array[int]| 否 |领队上下架状态（0待上架 1上架，2下架） |
 | PushLeaderStatusList| array[int]| 否 |推送领队状态（0待推送 10已推送） |
 | RecruitInstantStatusList | int | 否 | 招聘即时状态：1未开始，2进行中，3已结束，4已过期 |
 
