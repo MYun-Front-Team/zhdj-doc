@@ -28,12 +28,12 @@ _**【应用场景】**_
 
 8、充值功能（无会员卡）：直充钱包ModuleSysNo=26000，ModuleSourceType=26011，ModuleSourceClass=0，ModuleSourceSysNo=充值系统编码；
 
-
 8、充值积分：直充钱包ModuleSysNo=3000，ModuleSourceType=304，ModuleSourceClass=0，ModuleSourceSysNo=待支付积分流水编码；
 
 10、园区费用支付ModuleSysNo=35000，ModuleSourceType=智慧园区-费用类型（35001，35002……），ModuleSourceClass=0，ModuleSourceSysNo=PayFeeSysNo（缴费流水编码）；
 
-
+11、党费支付ModuleSysNo=9000，ModuleSourceType=9003，ModuleSourceClass=0，ModuleSourceSysNo=FeeLogSysNo
+（缴费流水编码）；
 
 _**【接口地址】**_
 
