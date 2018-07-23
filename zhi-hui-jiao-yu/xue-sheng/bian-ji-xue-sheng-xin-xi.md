@@ -27,14 +27,6 @@ http://ip:port/EduAction/Student/EditStudent
 
 
 
-> #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| SignSysNo| int| 是 | 打卡编码 |
-| StudentBase | object | 是 | 基础字段 |
-| StudentStatistic | object | 否 | 统计字段 |
-
 
 
 
