@@ -83,6 +83,9 @@
 | IsCreator | int | 否 | 是否显示自己创建的消息 |
 | IsRecive | int | 否 |是否显示自己的消息（被圈到的全部消息）  |
 | OrganizationSysNo | int |否| 组织系统编码 |
+| MyReadedStatus | int | 否 | 当前浏览人的查看状态：0未阅，1已阅 |
+
+
 
 
 
