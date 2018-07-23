@@ -719,6 +719,7 @@
     * [删除企业年度报表](qi-ye-guan-li/shan-chu-qi-ye-nian-du-bao-biao.md)
     * [商家上传年度报表明细](qi-ye-guan-li/shang-jia-shang-chuan-nian-du-bao-biao-ming-xi.md)
     * [编辑企业年度报表明细](qi-ye-guan-li/ping-tai-huo-qu-nian-du-bao-biao-ming-xi.md)
+    * [获取企业租赁房间汇总](qi-ye-guan-li/huo-qu-qi-ye-zu-ren-fang-jian-hui-zong.md)
   * [招商管理](zhao-shang-guan-li.md)
     * [新增项目](zhao-shang-guan-li/xin-zeng-xiang-mu.md)
     * [编辑项目](zhao-shang-guan-li/bian-ji-xiang-mu.md)
