@@ -35,7 +35,6 @@ http://ip:port/RecruitAction/Position/AddRecruit
 | TagClassList | array object | 否 | 福利标签列表（说明见通用） |
 | CustomerPositionName| Nvarchar\(50\) | 否 | 客户自定义职位名称 |
 | PositionDayAreaList | array object | 否 | 工作日期列表（日期） |
-| IsAgent| int| 否 |是否代理 |
 | AgentRecruitShops| array RecruitShop | 否 |代理招聘的店铺组织 |
 
 > #### RecruitShop
