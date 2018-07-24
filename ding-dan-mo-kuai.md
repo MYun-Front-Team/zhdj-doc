@@ -235,7 +235,7 @@
 | IsShowPrivacyPropertys | int | 否 | 是否显示隐私属性 |
 | IsShowIsServiceOrder | int | 否 | 是否显示是否服务订单 |
 | IsShowLeftMinutes | int | 否 | 是否显示剩余操作时间 |
-| IsShowOrderItemBrand | int | 否 | 是否显示订单商品品牌 |
+| IsShowOrderItemBrandList | int | 否 | 是否显示订单商品品牌列表 |
 
 
 
