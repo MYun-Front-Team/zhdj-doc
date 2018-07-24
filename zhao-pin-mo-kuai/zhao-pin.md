@@ -119,6 +119,11 @@
 | IsShowPersonPositionList | int | 否 | 是否显示期望职位列表 |
 | IsShowPersonSalaryList | int | 否 | 是否显示期望薪资列表 |
 | IsShowLeaderSuccessCount | int | 否 | 是否显示领对成功招募人数 |
+| IsShowAgentRecruitShopsList | int | 否 | 是否显示代理招聘的店铺组织 |
+
+
+
+
 
 
 
