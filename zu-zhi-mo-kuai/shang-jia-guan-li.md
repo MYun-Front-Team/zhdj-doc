@@ -106,6 +106,7 @@
 |InParkStatusList|Array\[int\] | 否 | 状态（潜在客户，已入驻，已签出） |
 |SellerClassSysNoList|Array\[int\] | 否 | 商家类别系统编码（类目树） |
 | ParkSysNo| int | 否 |注册地址（园区） |
+| SellerTypeList | array int | 否 | 商家类型（行业枚举） |
 
 
 
