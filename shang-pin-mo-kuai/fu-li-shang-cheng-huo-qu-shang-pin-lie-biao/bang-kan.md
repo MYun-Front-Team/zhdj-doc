@@ -27,6 +27,11 @@ http://ip:port/ShopAction/CutPirce/HelpCutPirce
 | CutPirceHelpSysNo| int | 是 | 砍价帮系统编码 |
 | DelPirce| decimal| 否 |砍掉价格 |
 | RewardAmont| decimal| 否 |奖励红包|
+| IsFollow| int | 否 |是否关注 |
+
+
+
+
 
 
 

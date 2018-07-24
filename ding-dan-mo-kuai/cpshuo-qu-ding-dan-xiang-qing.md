@@ -70,15 +70,6 @@ http://ip:port/OrderQuery/Order/GetCPSOrderBySysNo
 
 
 
-
-
-
-
-
-
-
-
-
 > ###OrderAmount
 
 | 变量名 | 类型 | 是否必须 | 描述 |

@@ -31,6 +31,7 @@ http://ip:port/ShopAction/CutPirce/AddCutPirce
 | CutPirceSysNo| int | 否 |系统编码 |
 | DelPirce| decimal| 否 |砍掉价格 |
 | NextDelPirce| decimal| 否 |下次砍掉价格 |
+| IsFollow| int | 否 |是否关注 |
 
 
 
