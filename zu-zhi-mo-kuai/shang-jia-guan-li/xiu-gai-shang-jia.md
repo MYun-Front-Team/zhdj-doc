@@ -58,8 +58,7 @@ _**【接口地址】**_
 |OutParkDate| datetime | 否 |迁出时间 |
 |OutParkRemark| string | 否 |迁出备注|
 | ServicePersonSysNo| int | 否 |默认客服编码 |
-
-
+|ContractCode| string | 否 |合同编号|
 
 
 #### _应答数据 _ {#应答数据-}

@@ -64,6 +64,8 @@
 | ServicePersonName| string| 否 |默认客服名称 |
 | ServiceCellPhoneNo| string| 否 |默认客服电话 |
 | ServiceFileUrlList | array string | 否 | 头像图片列表 |
+|ContractCode| string | 否 |合同编号|
+
 
 
 
