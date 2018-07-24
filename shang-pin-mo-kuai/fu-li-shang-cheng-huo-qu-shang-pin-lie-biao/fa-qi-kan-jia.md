@@ -18,6 +18,7 @@ http://ip:port/ShopAction/CutPirce/AddCutPirce
 | DataRangeSysNo| int | 否 | 数据范围编码列表（店铺树） |
 | PersonSysNo| int | 否 | 人员系统编码 |
 | SkuSysNo| int | 否 |SKU系统编码 |
+| InvitationCode| string | 否 |邀请码（填了就会强行改变之前的上级） |
 
 
 
