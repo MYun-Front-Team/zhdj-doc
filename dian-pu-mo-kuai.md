@@ -52,6 +52,10 @@
 | SortNo | int | 否 | 排序 |
 | ShopShowSourceSysNos|array[int] | 否 | 店铺展示位置 |
 | IsScanCode| int | 否 | 是否有扫码功能 |
+| RecruitNeedAudit| int | 否 |发布岗位是否要审核（1要，0不要） |
+| IsAuthentication| int | 否 | 是否认证 |
+| PositionPathList | array string | 否 | 工作地Path文件列表 |
+| PositionUrlList | array string | 否 | 工作地Path文件列表 |
 
 
 

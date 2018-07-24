@@ -65,6 +65,12 @@
 | ServiceCellPhoneNo| string| 否 |默认客服电话 |
 | ServiceFileUrlList | array string | 否 | 头像图片列表 |
 |ContractCode| string | 否 |合同编号|
+|ActiveStatus| int | 否 |激活状态（0待激活，10启用）|
+|InUser| string | 否 |创建人|
+|EditUser| string | 否 |编辑人|
+
+
+
 
 
 
@@ -79,6 +85,7 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | Wallet | object | 否 | 钱包实体（资金说明） |
+| ShopCount| int | 否 |店铺数量 |
 
 > #### 功能按钮字段 {#请求数据}
 
