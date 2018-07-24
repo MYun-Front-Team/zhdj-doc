@@ -29,6 +29,17 @@
 | LeaderOnStatus| int| 否 |领队上下架状态（0待上架 1上架，2下架） |
 | CommissionType| int| 否 |佣金类型（不限制，端自定义） |
 | IsAgent| int| 否 |是否代理 |
+| AgentRecruitShops| array RecruitShop | 否 |代理招聘的店铺组织 |
+
+
+> #### RecruitShop
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| OrganizationSysNo | int | 是 | 组织系统编码 |
+| DataRangeSysNo | int | 否 | 所属数据范围树 |
+| ShopName| string| 否 | 店铺名称|
+| SaleName| string| 否 | 商铺名称|
 
 
 
