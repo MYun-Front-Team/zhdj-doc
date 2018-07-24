@@ -46,14 +46,6 @@ http://ip:port/RecruitAction/Position/EditRecruit
 
 
 
-> #### _返回数据_ {#返回数据}
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| RecruitSysNo | int | 否 | 招聘系统编码（传了表示延长，不传表示新增） |
-
-
-
 
 
 
