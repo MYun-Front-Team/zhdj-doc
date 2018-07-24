@@ -150,6 +150,7 @@
 | HasOrderRMA| int | 是 | 是否退货单|
 | OrderRMACancelStatus| int | 是 | 退货单客户取消状态 0正常，10客户已取消|
 | OrderRMAAuditStatus| int | 是 | 退货单后台审核 审核状态：0待审核，10审核通过，11审核失败 |
+| BrandList | array object | 否 | 品牌列表（说明见通用） |
 
 
 
@@ -234,6 +235,7 @@
 | IsShowPrivacyPropertys | int | 否 | 是否显示隐私属性 |
 | IsShowIsServiceOrder | int | 否 | 是否显示是否服务订单 |
 | IsShowLeftMinutes | int | 否 | 是否显示剩余操作时间 |
+| IsShowOrderItemBrand | int | 否 | 是否显示订单商品品牌 |
 
 
 

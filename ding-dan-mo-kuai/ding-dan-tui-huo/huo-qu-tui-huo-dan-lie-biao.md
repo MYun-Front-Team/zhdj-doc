@@ -58,6 +58,7 @@ http://ip:port/OrderQuery/RMA/GetOrderRMAList
 | FileThumbnailUrlList | array string | 否 | 缩略图Url列表 |
 | RMACount| int | 是 | 数量 |
 | UnitPrice| decimal| 是 |单价 |
+| BrandList | array object | 否 | 品牌列表（说明见通用） |
 
 
 
