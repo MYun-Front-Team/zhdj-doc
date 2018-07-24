@@ -27,6 +27,10 @@
 | PushLeaderStatus| int| 否 |推送领队状态（0待推送 10已推送） |
 | InUser| string| 是 | 发布人|
 | LeaderOnStatus| int| 否 |领队上下架状态（0待上架 1上架，2下架） |
+| CommissionType| int| 否 |佣金类型（不限制，端自定义） |
+| IsAgent| int| 否 |是否代理 |
+
+
 
 
  
@@ -40,6 +44,12 @@
 | RecruitInstantStatus | int | 否 | 招聘即时状态：1未开始，2进行中，3已结束，4已过期 |
 | RecruitPerson | object | 否 | 应聘人员状态信息（IsShowMyPersonStatus=1） |
 | LeaderSuccessCount| int | 否 | 领队成功录用人数 |
+| SuccessCount| int | 否 | 成功录用人数 |
+| GoToWrokCount| int | 否 | 已入职人数 |
+
+
+
+
 
 
 #### RecruitPerson
