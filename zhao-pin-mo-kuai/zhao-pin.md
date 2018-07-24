@@ -36,10 +36,10 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrganizationSysNo | int | 是 | 组织系统编码 |
-| DataRangeSysNo | int | 否 | 所属数据范围树 |
-| ShopName| string| 否 | 店铺名称|
-| SaleName| string| 否 | 商铺名称|
+| OrganizationSysNo | int | 是 | 招聘商家组织系统编码 |
+| DataRangeSysNo | int | 否 | 招聘商家所属数据范围树 |
+| ShopName| string| 否 | 招聘商家店铺名称|
+| SaleName| string| 否 | 招聘商家商铺名称|
 
 
 

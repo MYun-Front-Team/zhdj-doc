@@ -11,15 +11,15 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/RecruitAction/Position/AddRecruit
+http://ip:port/RecruitAction/Recruit/AddRecruit
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrganizationSysNo | int | 是 | 组织系统编码 |
-| DataRangeSysNo | int | 否 | 所属数据范围树 |
-| ShopSysNo | int | 否 | 店铺系统编码 |
+| OrganizationSysNo | int | 是 | 代理商组织系统编码 |
+| DataRangeSysNo | int | 否 | 代理商所属数据范围树 |
+| ShopSysNo | int | 否 | 代理商店铺系统编码 |
 | PositionClassSysNo | int | 是 | 职位类型编码（分类） |
 | PositionName | Nvarchar\(50\) | 是 | 职位名称（冗余） |
 | PositionType | int | 否 | 工作类型:0不限,1全职,2兼职 |
@@ -41,8 +41,8 @@ http://ip:port/RecruitAction/Position/AddRecruit
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrganizationSysNo | int | 是 | 组织系统编码 |
-| DataRangeSysNo | int | 否 | 所属数据范围树 |
+| OrganizationSysNo | int | 是 | 招聘商家组织系统编码 |
+| DataRangeSysNo | int | 否 | 招聘商家所属数据范围树 |
 
 
 

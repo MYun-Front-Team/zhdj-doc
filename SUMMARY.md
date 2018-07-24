@@ -826,6 +826,7 @@
     * [代理新增招聘](zhao-pin-mo-kuai/zhao-pin/xin-zeng-zhao-pin.md)
     * [代理商编辑招聘](zhao-pin-mo-kuai/zhao-pin/dai-li-shang-bian-ji-zhao-pin.md)
     * [下线招聘](zhao-pin-mo-kuai/zhao-pin/xia-xian-zhao-pin.md)
+    * [代理商复制招聘](zhao-pin-mo-kuai/zhao-pin/dai-li-shang-fu-zhi-zhao-pin.md)
   * [求职](zhao-pin-mo-kuai/qiu-zhi.md)
     * [修改求职基本信息](zhao-pin-mo-kuai/qiu-zhi/xiu-gai-qiu-zhi-ji-ben-xin-xi.md)
     * [确认抢班](zhao-pin-mo-kuai/qiu-zhi/que-ren-qiang-ban.md)

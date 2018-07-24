@@ -11,7 +11,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/RecruitAction/Position/EditRecruit
+http://ip:port/RecruitAction/Recruit/EditRecruit
 
 > #### _请求数据_ {#请求数据}
 
@@ -39,8 +39,8 @@ http://ip:port/RecruitAction/Position/EditRecruit
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrganizationSysNo | int | 是 | 组织系统编码 |
-| DataRangeSysNo | int | 否 | 所属数据范围树 |
+| OrganizationSysNo | int | 是 | 招聘商家组织系统编码 |
+| DataRangeSysNo | int | 否 | 招聘商家所属数据范围树 |
 
 
 
