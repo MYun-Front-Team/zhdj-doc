@@ -20,5 +20,8 @@ http://ip:port/RecruitAction/Recruit/SetGoToWrok
 | :--- | :--- | :--- | :--- |
 | RecruitSysNo | int | 是 | 招聘系统编码 |
 | PersonSysNo | int | 是 | 人员系统编码 |
+| IsNoArrival| int | 是 | 是否放鸽子了 |
+
+
 
 
