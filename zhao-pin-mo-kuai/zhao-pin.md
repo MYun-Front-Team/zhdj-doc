@@ -57,6 +57,7 @@
 | LeaderSuccessCount| int | 否 | 领队成功录用人数 |
 | SuccessCount| int | 否 | 成功录用人数 |
 | GoToWrokCount| int | 否 | 已入职人数 |
+| RefuseCount| int | 否 |拒绝人数 |
 
 
 
