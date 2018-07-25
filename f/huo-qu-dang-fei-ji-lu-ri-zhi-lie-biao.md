@@ -18,6 +18,8 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | PartyMemberSysNo | int | 是 | 党员系统编码 |
 | FeeStatusList | array int | 否 | 状态列表：0待确认，1待支付，10有效，11无效 |
+| IsReceivedList | array int | 否 | 线上支付是否已经到账管理人微信、银行卡里|
+
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
@@ -34,6 +36,5 @@ _**【接口地址】**_
 | RemoveReason | string | 否 | 作废原因 |
 | RemovePersonName | string | 否 | 作废人姓名 |
 | RemoveTime | string | 否 | 作废时间 |
-
-
+| IsReceived| int | 是 | 线上支付是否到管理人账户 |
 
