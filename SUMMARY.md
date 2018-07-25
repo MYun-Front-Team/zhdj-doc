@@ -93,6 +93,7 @@
   * [新增党费记录](f/xin-zeng-dang-fei-ji-lu.md)
   * [删除党费记录](f/shan-chu-dang-fei-ji-lu.md)
   * [设置支部党费配置](f/she-zhi-zhi-bu-dang-fei-pei-zhi.md)
+  * [设置党费支付配置（负责人绑定OpenID）](f/she-zhi-dang-fei-zhi-fu-pei-zhi-ff08-fu-ze-ren-bang-ding-openid.md)
   * [获取党费记录日志列表](f/huo-qu-dang-fei-ji-lu-ri-zhi-lie-biao.md)
   * [获取党员年缴费情况列表](f/huo-qu-dang-yuan-nian-jiao-fei-qing-kuang-lie-biao.md)
   * [获取支部党费配置](f/huo-qu-zhi-bu-dang-fei-pei-zhi.md)
