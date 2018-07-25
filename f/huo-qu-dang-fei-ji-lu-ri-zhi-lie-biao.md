@@ -36,5 +36,5 @@ _**【接口地址】**_
 | RemoveReason | string | 否 | 作废原因 |
 | RemovePersonName | string | 否 | 作废人姓名 |
 | RemoveTime | string | 否 | 作废时间 |
-| IsReceived| int | 是 | 线上支付是否到管理人账户 |
+| IsReceived| int | 是 | 线上支付是否已经到账管理人微信、银行卡里|
 
