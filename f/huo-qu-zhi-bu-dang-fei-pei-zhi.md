@@ -26,6 +26,15 @@ _**【接口地址】**_
 | RemindDay | int | 是 | 提醒天数 |
 | FileUrl | string | 否 | 文件图片Path路径 |
 | PaymentMethodList | string | 是 | 支付方式：0二维码，1在线；存储格式用“,"隔开。 |
+| ReceiveCashType| int | 否 | 线上提现方式 0银行卡，1微信 |
+| WxOpenID| string| 是 | 通用公众号对应的WxOpenID,不是Sass公众号的|
+
+
+
+
+
+
+
 
 
 
