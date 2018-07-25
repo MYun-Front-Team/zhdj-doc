@@ -35,6 +35,10 @@ _**【接口地址】**_
 | AuditTime | string | 否 | 审核时间 |
 | DealPerson | object | 否 | 处理人实体 |
 | DealTime | string | 否 | 处理时间 |
+| ReceiveCashType| int | 否 | 线上提现方式 0银行卡，1微信 |
+
+
+
 
 
 
