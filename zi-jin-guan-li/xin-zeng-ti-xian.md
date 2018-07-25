@@ -26,7 +26,10 @@ _**【接口地址】**_
 | CardSysNo | int | 是 | 提现银行卡系统编码 |
 | ReceiveTime | string | 否 | 提现时间 |
 | ReceiveRemark | string | 否 | 提现申请说明 |
-| IsOnline | int | 是 | 是否线上提现（0线下（走审核流程），1线上（无需审核，直接到银行卡））|
+| IsOnline | int | 是 | 是否线上提现（0线下（走审核流程），1线上（无需审核，直接到银行卡、微信等））|
+| ReceiveCashType| int | 否 | 提现方式 0银行卡，1微信 |
+
+
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 

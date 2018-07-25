@@ -21,6 +21,7 @@ _**【接口地址】**_
 | RemindDay | int | 是 | 提醒天数 |
 | FilePath | string | 否 | 二维码文件图片Path路径 |
 | PaymentMethodList | string | 是 | 支付方式：0二维码，1在线；存储格式用“,"隔开。 |
+| PaymentType| int | 是 |提现方式：2微信 5刷卡 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
