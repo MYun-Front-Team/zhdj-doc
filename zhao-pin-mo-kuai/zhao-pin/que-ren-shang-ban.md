@@ -19,7 +19,7 @@ http://ip:port/RecruitAction/Recruit/SetGoToWrok
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | RecruitSysNo | int | 是 | 招聘系统编码 |
-| PersonSysNo | int | 是 | 人员系统编码 |
+| PersonSysNoList |array int | 是 | 人员系统编码 |
 
 
 
