@@ -68,6 +68,22 @@ _**【接口地址】**_
 |OutParkRemark| string | 否 |迁出备注|
 | ServicePersonSysNo| int | 否 |默认客服编码 |
 |ContractCode| string | 否 |合同编号|
+| ObjectFileList| array File| 否（可选配置） | 附件 |
+
+
+#### File说明 {#应答数据-}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| FileTitle| string| 是 | 文件名称 |
+| FilePath| string| 是 | 文件地址 |
+
+
+
+
+
+
+
 
 
 

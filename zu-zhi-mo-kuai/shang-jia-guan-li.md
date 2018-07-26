@@ -68,14 +68,18 @@
 |ActiveStatus| int | 否 |激活状态（0待激活，10启用）|
 |InUser| string | 否 |创建人|
 |EditUser| string | 否 |编辑人|
+| ObjectFileList| array File| 否（可选配置） | 附件 |
 
 
 
 
+#### File说明 {#应答数据-}
 
-
-
-
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| FileTitle| string| 是 | 文件名称 |
+| FilePath| string| 是 | 文件地址 |
+| FileUrl| string| 是 | 文件地址 |
 
 
 
@@ -119,6 +123,9 @@
 | IsShowWallet | int | 否 | 是否显示钱包 |
 | IsShowSellerBossPerson | int | 否 | 是否显示商家创始人 |
 | IsShowSellerCategoryList | int | 否 | 是否显示商家行业列表 |
+| IsShowObjectFileList | int | 否 | 是否显示附件 |
+
+
 
 #### 模块页面编号枚举说明 {#请求数据}
 

@@ -35,6 +35,7 @@ http://ip:port/RecruitAction/Recruit/AgentEditRecruit
 | PositionDayAreaList | array object | 否 | 工作日期列表（日期） |
 | AgentRecruitShops| array RecruitShop | 否 |代理招聘的店铺组织 |
 
+
 > #### RecruitShop
 
 | 变量名 | 类型 | 是否必须 | 描述 |

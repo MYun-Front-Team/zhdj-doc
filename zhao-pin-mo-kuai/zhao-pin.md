@@ -113,6 +113,8 @@
 | PushLeaderStatusList| array[int]| 否 |推送领队状态（0待推送 10已推送） |
 | RecruitInstantStatusList | int | 否 | 招聘即时状态：1未开始，2进行中，3已结束，4已过期 |
 | IsAgentList|array int| 否 |是否代理 |
+| RecruitStatusList | array int | 否 | 招聘状态：0新建,10发布，11撤下  |
+
 
 
 
