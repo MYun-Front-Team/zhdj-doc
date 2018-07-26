@@ -818,6 +818,7 @@
     * [获取招聘详情](zhao-pin-mo-kuai/zhao-pin/huo-qu-zhao-pin-xiang-qing.md)
     * [获取招聘人员列表](zhao-pin-mo-kuai/zhao-pin/huo-qu-zhao-pin-ren-yuan-lie-biao.md)
     * [确认录用](zhao-pin-mo-kuai/zhao-pin/que-ren-lu-yong.md)
+    * [批量录用](zhao-pin-mo-kuai/zhao-pin/pi-liang-que-ren-shang-ban.md)
     * [获取人员期望/现有职位和期望工资](zhao-pin-mo-kuai/zhao-pin/huo-qu-ren-yuan-qi-671b-xian-you-zhi-wei-he-qi-wang-gong-zi.md)
     * [拒绝录用](zhao-pin-mo-kuai/zhao-pin/ju-jue-lu-yong.md)
     * [编辑招聘的领队信息](zhao-pin-mo-kuai/zhao-pin/bian-ji-zhao-pin-de-ling-dui-xin-xi.md)
