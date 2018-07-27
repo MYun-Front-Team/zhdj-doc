@@ -69,6 +69,7 @@ _**【接口地址】**_
 | ServicePersonSysNo| int | 否 |默认客服编码 |
 |ContractCode| string | 否 |合同编号|
 | ObjectFileList| array File| 否（可选配置） | 附件 |
+| AutoAudit| int | 否 |自动审核|
 
 
 #### File说明 {#应答数据-}
