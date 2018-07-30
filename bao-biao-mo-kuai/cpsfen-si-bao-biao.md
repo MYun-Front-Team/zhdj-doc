@@ -46,15 +46,31 @@
 | CustomerLevelName| string | 否 | 自己的客户等级 |
 | CustomerLevelSysNo| int| 否 | 自己的客户等级编码 |
 | CustomerLevelInfos| array CustomerLevelInfo| 否 | 孩子各个客户等级人数 |
+| FansLeveInfos| array FansLeveInfo| 否 | 各直推间推人数 |
+
+
+
 
 
 
 #### 应答数据 CustomerLevelInfo
+
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | CustomerLevelSysNo| int| 否 | 客户等级编码 |
 | CustomerLevelName| string| 是 | 客户等级|
 | FansCount| int| 是 | 数量|
+
+#### 应答数据 FansLeveInfo
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| FansLeve| int| 否 | 1直接粉丝，2推荐粉丝|
+| FansCount| int| 是 | 数量|
+
+
+
+
 
 
 
