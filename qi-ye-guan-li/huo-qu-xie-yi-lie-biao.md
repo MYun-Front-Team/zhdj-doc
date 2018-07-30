@@ -45,6 +45,13 @@ http://ip:port/ParkQuery/IndustrySale/GetSaleContractList
 | SellerName | string | 否 |企业名称 |
 | SellerMaster | string | 否 |企业法人 |
 | SellerTel | string | 否 |企业法人联系电话 |
+| ObjectFileList| array File| 否（可选配置） | 附件 |
+
+
+
+
+
+
 
 
 

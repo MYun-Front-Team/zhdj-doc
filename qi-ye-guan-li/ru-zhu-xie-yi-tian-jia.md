@@ -27,6 +27,7 @@ http://ip:port/ParkAction/IndustrySale/AddSaleContract
 | FilePathList | array string | 否 |照片 |
 | ContractMonth | int | 否 |收费周期|
 | ContractRooms | array[ContractRoom] | 否 |关联房间|
+| ObjectFileList| array File| 否（可选配置） | 附件 |
 
 
 

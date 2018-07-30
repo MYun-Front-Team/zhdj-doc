@@ -43,6 +43,13 @@ http://ip:port/ParkQuery/IndustrySale/GetSaleContractBySysNo
 | SellerMaster | string | 否 |企业法人 |
 | SellerTel | string | 否 |企业法人联系电话 |
 | ContractStatus | int | 是 | 协议状态（1正常，2即将过期，3已过期，4已中止，5已终止） |
+| ObjectFileList| array File| 否（可选配置） | 附件 |
+
+
+
+
+
+
 
 
 
