@@ -10,13 +10,13 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-[http://ip:port/RecruitQuery/Recruit/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Recruit](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)PersonList
+[http://ip:port/RecruitQuery/Recruit/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Recruit](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)PersonBySysNo
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| Query | object | 是 | 查询条件 |
+| RecruitPersonSysNo | int| 否 | 招聘详情记录编码 |
 | Limit | object | 否 | 限制条件 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
