@@ -32,6 +32,13 @@ http://ip:port/ParkAction/IndustrySale/EditSaleContract
 
 
 
+#### File说明 {#应答数据-}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| FileTitle| string| 是 | 文件名称 |
+| FilePath| string| 是 | 文件地址 |
+
 
 
 

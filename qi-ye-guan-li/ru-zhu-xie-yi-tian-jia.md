@@ -29,6 +29,15 @@ http://ip:port/ParkAction/IndustrySale/AddSaleContract
 | ContractRooms | array[ContractRoom] | 否 |关联房间|
 | ObjectFileList| array File| 否（可选配置） | 附件 |
 
+#### File说明 {#应答数据-}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| FileTitle| string| 是 | 文件名称 |
+| FilePath| string| 是 | 文件地址 |
+
+
+
 
 
 ###ContractRoom
