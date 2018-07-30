@@ -25,6 +25,9 @@
 | SupplierLogoPathList | array string | 否 | 供应商Logo的路径列表 |
 | SupplierLogoUrlList | array string | 否 | 供应商Logo的URL列表 |
 | OrgShop | object | 否 | 供应商默认店铺 |
+| Remark1| string | 否 | 备注1 |
+| Remark2| string | 否 | 备注2 |
+
 
 > #### SupplierStatistic统计计算字段 {#请求数据}
 
