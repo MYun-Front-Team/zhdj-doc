@@ -32,6 +32,10 @@ _**【接口地址】**_
 | Longitude | decimal\(18,2\) | 否 | 经度 |
 | Latitude | decimal\(18,2\) | 否 | 纬度 |
 | SupplierLogoPathList | array string | 否（可选配置） | 供应商Logo的路径列表 |
+| Remark1| string | 否 | 备注1 |
+| Remark2| string | 否 | 备注2 |
+
+
 
 #### _应答数据 _ {#应答数据-}
 
