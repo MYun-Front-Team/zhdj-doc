@@ -18,6 +18,7 @@ http://ip:port/ParkAction/IndustryFee/AuditFeePayDetail
 | :--- | :--- | :--- | :--- |
 | FeePayDetailSysNos |array int | 否 |支付凭着系统编码 |
 | AuditStatus| int | 是 | 确认状态（10已确认，11作废）|
+| PaidFilePathList | array string | 否 |凭证照片 |
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
