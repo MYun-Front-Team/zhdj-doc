@@ -74,6 +74,8 @@ InnerPartyStatusCountList说明：
 | ActivityType | int | 否 | 活动类型 |
 | PlayCount | int | 否 | 参与次数 |
 | PlayRate | decimal | 否 | 参与率（小于1） |
+| TotalCount| int| 否 | 总次数 |
+
 
 > #### 学习汇总计算字段 {#请求数据}
 
