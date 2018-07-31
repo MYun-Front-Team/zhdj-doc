@@ -8,7 +8,7 @@ _**【应用场景】**_
 
 创建在线支付
 
-注：1、在线支付支持的有：0余额，1支付宝，2微信，3银联，4线下支付，5刷卡支付，6积分支付
+注：1、在线支付支持的有：0余额，1支付宝，2微信，3银联，4线下支付，5刷卡支付，6积分支付,7联动支付，8工行E支付，9禾商行
 
 2、当IsNeedBalance=1时，先扣出全部可用余额后，在把剩余不足的钱用第三方付款；
 
@@ -34,6 +34,10 @@ _**【应用场景】**_
 
 11、党费支付ModuleSysNo=9000，ModuleSourceType=9003，ModuleSourceClass=0，ModuleSourceSysNo=FeeLogSysNo
 （缴费流水编码）；
+
+11、教育学费支付ModuleSysNo=39000，ModuleSourceType=39008，ModuleSourceClass=0，ModuleSourceSysNo=StudentFeePersonSysNo 缴费系统明细编码；
+
+
 
 _**【接口地址】**_
 
