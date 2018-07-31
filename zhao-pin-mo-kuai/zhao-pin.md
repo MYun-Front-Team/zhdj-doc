@@ -136,7 +136,7 @@
 | RecruitInstantStatusList | int | 否 | 招聘即时状态：1未开始，2进行中，3已结束，4已过期 |
 | IsAgentList|array int| 否 |是否代理 |
 | RecruitStatusList | array int | 否 | 招聘状态：0新建,10发布，11撤下  |
-| IsShowInCommissionList| int| 否 | 是否在佣金推送列表显示 |
+| IsShowInCommissionList|array int| 否 | 是否在佣金推送列表显示 |
 
 
 
