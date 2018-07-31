@@ -831,6 +831,7 @@
     * [推送招聘给领队](zhao-pin-mo-kuai/zhao-pin/tui-song-zhao-pin-gei-ling-dui.md)
     * [上架领队推送](zhao-pin-mo-kuai/zhao-pin/shang-jia-ling-dui-tui-song.md)
     * [确认上班](zhao-pin-mo-kuai/zhao-pin/que-ren-shang-ban.md)
+    * [确认放鸽子](zhao-pin-mo-kuai/zhao-pin/que-ren-fang-ge-zi.md)
     * [代理新增招聘](zhao-pin-mo-kuai/zhao-pin/xin-zeng-zhao-pin.md)
     * [代理商编辑招聘](zhao-pin-mo-kuai/zhao-pin/dai-li-shang-bian-ji-zhao-pin.md)
     * [下线招聘](zhao-pin-mo-kuai/zhao-pin/xia-xian-zhao-pin.md)
