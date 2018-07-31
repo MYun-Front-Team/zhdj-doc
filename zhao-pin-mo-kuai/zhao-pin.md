@@ -93,7 +93,7 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | RecruitSysNo| int | 否 | 招聘系统编码 |
-| RecruitPersonStatus| int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝，20已上班 |
+| RecruitPersonStatus| int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝，20已上班，21放鸽子 |
 | RecruitPersonTime| Datetime| 否 | 抢的时间 |
 | PositionSalary| decimal| 否 |岗位最终薪资 |
 | SalaryType| Int| 否 |薪资类型：1月，2天，3时 |

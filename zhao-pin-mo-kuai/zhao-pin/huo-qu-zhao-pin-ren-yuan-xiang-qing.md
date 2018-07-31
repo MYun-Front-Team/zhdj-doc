@@ -25,13 +25,19 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | RecruitPersonSysNo | int| 否 | 招聘详情记录编码 |
 | RecruitPerson | object | 是 | 招聘人员 |
-| RecruitPersonStatus| int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝，20已上班 |
+| RecruitPersonStatus| int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝，20已上班，21放鸽子 |
 | RecruitPersonTime | string | 否 | 抢的时间 |
 | PositionSalary | decimal\(18,2\) | 否 | 岗位最终薪资 |
 | SalaryType | int | 否 | 薪资类型：1月，2天，3时 |
 | WorkStartDay | string | 否 | 开始上班时间 |
 | Remark | string | 否 | 备注 |
 | LeaderPersonSysNo| int| 否 | 邀请人 |
+| LeaderCellPhoneNo| string| 否 | 邀请人电话 |
+| LeaderRealName| string| 否 | 邀请人姓名 |
+| InviterType| int| 否 | 邀请类型（0好友邀请，1分享邀请） |
+
+
+
 
 
 
