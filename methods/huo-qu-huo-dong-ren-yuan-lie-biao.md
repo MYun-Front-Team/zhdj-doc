@@ -44,6 +44,8 @@ _**【接口地址】**_
 | HelpSignInPersonSysNo | int | 否 | 帮助签到人员系统编码 |
 | CommentList | array object | 否 | 评论列表（简版） |
 | IsRemote| int | 是 | 是否远程签到 |
+| IsRead| int | 是 | 是否已读 |
+
 
 
 
