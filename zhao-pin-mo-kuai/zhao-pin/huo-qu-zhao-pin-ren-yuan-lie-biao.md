@@ -32,8 +32,9 @@ _**【接口地址】**_
 | WorkStartDay | string | 否 | 开始上班时间 |
 | Remark | string | 否 | 备注 |
 | LeaderPersonSysNo| int| 否 | 邀请人 |
-
-
+| LeaderCellPhoneNo| string| 否 | 邀请人电话 |
+| LeaderRealName| string| 否 | 邀请人姓名 |
+| InviterType| int| 否 | 邀请类型（0好友邀请，1分享邀请） |
 
 
 
