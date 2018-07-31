@@ -20,6 +20,9 @@ http://ip:port/StudentFeeAction/StudentFee/SetDataRangeFeePerson
 | DataRangeSysNo | int | 是 | 数据范围树枝叶编码|
 | FeePersonName| string| 是 |对接人名称|
 | FeePersonCellPhone| string| 是 |对接人电话|
+| PaymentMethodList|List[int] |否 | 允许的支付方式 0线下 1线上|
+| PaymentMethodType | int | 否 | 对接的银行（9禾商行，8工行E支付）|
+
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
