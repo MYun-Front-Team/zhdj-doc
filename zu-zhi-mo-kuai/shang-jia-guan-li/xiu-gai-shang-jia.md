@@ -60,6 +60,14 @@ _**【接口地址】**_
 | ServicePersonSysNo| int | 否 |默认客服编码 |
 |ContractCode| string | 否 |合同编号|
 | ObjectFileList| array File| 否（可选配置） | 附件 |
+| IsShowInCommission| int| 否 | 是否在抢工佣金推送列表显示 |
+
+
+
+
+
+
+
 
 #### File说明 {#应答数据-}
 

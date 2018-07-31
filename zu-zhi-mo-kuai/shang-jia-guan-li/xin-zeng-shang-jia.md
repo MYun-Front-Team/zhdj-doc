@@ -70,6 +70,14 @@ _**【接口地址】**_
 |ContractCode| string | 否 |合同编号|
 | ObjectFileList| array File| 否（可选配置） | 附件 |
 | AutoAudit| int | 否 |是否自动审核（1是 0否）|
+| IsShowInCommission| int| 否 | 是否在抢工佣金推送列表显示 |
+
+
+
+
+
+
+
 
 
 #### File说明 {#应答数据-}

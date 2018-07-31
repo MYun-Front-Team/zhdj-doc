@@ -69,6 +69,10 @@
 |InUser| string | 否 |创建人|
 |EditUser| string | 否 |编辑人|
 | ObjectFileList| array File| 否（可选配置） | 附件 |
+| IsShowInCommission| int| 否 | 是否在抢工佣金推送列表显示 |
+
+
+
 
 
 
