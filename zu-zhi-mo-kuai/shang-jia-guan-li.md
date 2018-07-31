@@ -111,6 +111,7 @@
 |SellerClassSysNoList|Array\[int\] | 否 | 商家类别系统编码（类目树） |
 | ParkSysNo| int | 否 |注册地址（园区） |
 | SellerTypeList | array int | 否 | 商家类型（行业枚举） |
+| OrganizationSysNoList | array  int | 是 | 组织系统编码 |
 
 
 
