@@ -84,6 +84,10 @@
 | UrgeCount| int| 否 |催促次数 |
 | Remark| string| 否 |备注|
 | LeaderPersonSysNo| int| 否 | 邀请人 |
+| InviterType| int| 否 | 邀请类型（0好友邀请，1分享邀请） |
+
+
+
 
 
 
