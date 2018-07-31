@@ -35,6 +35,13 @@ _**【接口地址】**_
 | LeaderCellPhoneNo| string| 否 | 邀请人电话 |
 | LeaderRealName| string| 否 | 邀请人姓名 |
 | InviterType| int| 否 | 邀请类型（0好友邀请，1分享邀请） |
+| NoComeRemark| string| 是 | 放鸽子备注 |
+| NoComeType| int| 是 | 自定义枚举备注 |
+
+
+
+
+
 
 
 

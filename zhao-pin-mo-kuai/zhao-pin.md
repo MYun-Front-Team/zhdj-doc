@@ -102,14 +102,8 @@
 | Remark| string| 否 |备注|
 | LeaderPersonSysNo| int| 否 | 邀请人 |
 | InviterType| int| 否 | 邀请类型（0好友邀请，1分享邀请） |
-
-
-
-
-
-
-
-
+| NoComeRemark| string| 是 | 放鸽子备注 |
+| NoComeType| int| 是 | 自定义枚举备注 |
 
 
 
