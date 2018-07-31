@@ -29,6 +29,7 @@ http://ip:port/StudentFeeQuery/StudentFee/GetStudentFeePersons
 | DataRangeSysNoList | int | 否 | 数据范围树枝叶编码列表 |
 | KeyWord | string | 否 | 关键字搜索（名称） |
 | ExemptStatusList | array[int] | 否 | 是否例外（0否，1是）|
+| PersonSysNo| int | 是 | 学生人员编码 |
 
 
 
@@ -65,6 +66,9 @@ http://ip:port/StudentFeeQuery/StudentFee/GetStudentFeePersons
 | StudentNo| string| 是 | 学号 |
 | FilePathList|array string| 否 | 图片|
 | FileUrlList|array string| 否 | 图片|
+| ToParentRemark | string | 否 | 家长告知 |
+| PaidName | Nvarchar\(50\) | 是 | 缴费名称 |
+|ParentRemark | string | 否 | 家长备注 |
 
 
 
