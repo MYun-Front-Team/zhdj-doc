@@ -30,8 +30,8 @@
 | CommissionType| int| 否 |佣金类型（不限制，端自定义） |
 | IsAgent| int| 否 |是否代理 |
 | AgentRecruitShops| array RecruitShop | 否 |代理招聘的店铺组织 |
-| SettlementType| string| 否 | 结算方式：月结、周结、日结，次日结，完工结 |
-| SettlementCycle| string| 否 | 结算周期 |
+| SettlementType| int| 否 | 结算方式：1月结、2周结、3日结，4次日结，5完工结 |
+| SettlementCycle| int| 否 | 结算周期 |
 | IsShowInCommission| int| 否 | 是否在佣金推送列表显示 |
 
 

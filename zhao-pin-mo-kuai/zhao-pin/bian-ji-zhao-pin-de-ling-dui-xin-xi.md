@@ -25,8 +25,9 @@ http://ip:port/RecruitAction/Recruit/EditRecruit
 | Subsidy| decimal| 否 |补贴|
 | CommissionType| int| 否 |佣金类型（不限制，端自定义） |
 | PushLeaderEndTime| datetime| 否 |推送结束时间|
-| SettlementType| string| 否 | 结算方式：月结、周结、日结，次日结，完工结 |
-| SettlementCycle| string| 否 | 结算周期 |
+| SettlementType| int| 否 | 结算方式：1月结、2周结、3日结，4次日结，5完工结 |
+| SettlementCycle| int| 否 | 结算周期 |
+
 
 
 

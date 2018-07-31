@@ -20,6 +20,10 @@ http://ip:port/RecruitAction/Recruit/SetNoCome
 | :--- | :--- | :--- | :--- |
 | RecruitSysNo | int | 是 | 招聘系统编码 |
 | PersonSysNoList |array int | 是 | 人员系统编码 |
+| NoComeRemark| string| 是 | 放鸽子备注 |
+
+
+
 
 
 
