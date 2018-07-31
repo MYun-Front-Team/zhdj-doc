@@ -32,7 +32,7 @@
 | AgentRecruitShops| array RecruitShop | 否 |代理招聘的店铺组织 |
 | SettlementType| string| 否 | 结算方式：月结、周结、日结，次日结，完工结 |
 | SettlementCycle| string| 否 | 结算周期 |
-
+| IsShowInCommission| int| 否 | 是否在佣金推送列表显示 |
 
 
 
