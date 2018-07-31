@@ -30,7 +30,10 @@
 | CommissionType| int| 否 |佣金类型（不限制，端自定义） |
 | IsAgent| int| 否 |是否代理 |
 | AgentRecruitShops| array RecruitShop | 否 |代理招聘的店铺组织 |
-| LeaderPersonSysNo| int| 否 | 邀请人 |
+| SettlementType| string| 否 | 结算方式：月结、周结、日结，次日结，完工结 |
+| SettlementCycle| string| 否 | 结算周期 |
+
+
 
 
 > #### RecruitShop
