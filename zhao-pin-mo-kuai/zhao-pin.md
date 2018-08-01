@@ -9,6 +9,7 @@
 | DataRangeSysNo | int | 否 | 所属数据范围树 |
 | ShopSysNo | int | 否 | 店铺系统编码 |
 | ShopName| string | 否 | 店铺名称 |
+| SellerName| string | 否 | 商家名称 |
 | ContractAddress| string | 否 | 店铺地址 |
 | Distance| decimal| 否 | 距离（IsMyFootPrint=1才有效） |
 | AuditStatus | int | 是 | 审核状态：0待审核，10审核通过，11审核失败 |
