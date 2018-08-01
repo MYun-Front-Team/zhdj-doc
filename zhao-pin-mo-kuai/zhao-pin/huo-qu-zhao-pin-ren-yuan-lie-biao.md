@@ -37,6 +37,22 @@ _**【接口地址】**_
 | InviterType| int| 否 | 邀请类型（0好友邀请，1分享邀请） |
 | NoComeRemark| string| 是 | 放鸽子备注 |
 | NoComeType| int| 是 | 自定义枚举备注 |
+| RefusePersonSysNo| int| 是 | 拒绝人编码|
+| RefusePersonName| string| 是 | 拒绝人名称|
+| RefuseTime| string| 是 | 拒绝时间|
+| SuccessPersonSysNo| int| 是 | 发OFFER人编码|
+| SuccessPersonName| string| 是 | 发OFFER名称|
+| SuccessTime| string| 是 | 发OFFER时间|
+| GoToWrokPersonSysNo| int| 是 | 确认上班人编码|
+| GoToWrokPersonName| string| 是 | 确认上班人名称|
+| GoToWrokTime| string| 是 |确认上班人时间|
+
+
+
+
+
+
+
 
 
 
