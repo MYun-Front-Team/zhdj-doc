@@ -69,6 +69,13 @@ http://ip:port/StudentFeeQuery/StudentFee/GetStudentFeePersons
 | ToParentRemark | string | 否 | 家长告知 |
 | PaidName | Nvarchar\(50\) | 是 | 缴费名称 |
 |ParentRemark | string | 否 | 家长备注 |
+| PaymentMethod|int| 是 | 支付方式 0线下 1线上|
+| PaymentType | int | 是 | 对接的银行（9禾商行，8工行E支付）|
+
+
+
+
+
 
 
 
