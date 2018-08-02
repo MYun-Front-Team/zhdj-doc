@@ -133,6 +133,14 @@
 | RecruitStatusList | array int | 否 | 招聘状态：0新建,10发布，11撤下  |
 | IsShowInCommissionList|array int| 否 | 是否在佣金推送列表显示 |
 | LeaderPersonSysNo| int| 否 | 邀请人 |
+|IfHasLeaderPersonOnly| int| 否 | 是否只显示有邀请人的 |
+
+
+
+
+
+
+
 
 
 
