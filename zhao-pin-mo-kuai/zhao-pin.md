@@ -122,7 +122,7 @@
 | IsMyFootPrint | int | 否 | 是否显示自己的：0否，1是（不传查全部，传值需通过UserSysNo匹配Person） |
 | PersonPositionTypeList | array int | 否 | 人员期望职位类型：1期望，10做过（Limit开关） |
 | PositionSysNo| aint | 否 | 岗位编码 |
-| RecruitPersonStatus | int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝 |
+| RecruitPersonStatus| int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝，20已上班，21放鸽子 |
 | LeaderPickStatus| int| 否 |领队接单状态（0未接 1已接）和IsMyFootPrint，RecruitPersonStatus 不能共存 |
 | IsLeaderPrint | int | 否 | 是否显示领队自己拉来的人：（0否，1是）和IsMyFootPrint不能共存 |
 | PositionTypeList |array[int] | 否 | 工作类型:0不限,1全职,2兼职 |
@@ -134,6 +134,8 @@
 | IsShowInCommissionList|array int| 否 | 是否在佣金推送列表显示 |
 | LeaderPersonSysNo| int| 否 | 邀请人 |
 |IfHasLeaderPersonOnly| int| 否 | 是否只显示有邀请人的 |
+| IsShowRefuse| int| 否 | 是否显示商家主动拒绝的人 |
+
 
 
 
