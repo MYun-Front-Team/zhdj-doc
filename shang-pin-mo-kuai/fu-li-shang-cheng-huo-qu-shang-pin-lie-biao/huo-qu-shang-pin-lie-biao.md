@@ -59,6 +59,7 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupList
 | FakeInventoryCount|int| 是 |假库存数|
 | SpecGroup | object | 否 | 规格组（说明见“获取规格模板列表”） |
 | ProductGroupMemo | string | 否 | 款备注 |
+| IsClearStocks | int | 否 | 是否是清货款：0否，1是 |
 
 
 
