@@ -29,6 +29,13 @@ http://ip:port/StudentFeeQuery/StudentFee/GetDataRangeFeePerson
 | FeePersonCellPhone| string| 是 |对接人电话|
 | PaymentMethod|List[int] | 是 | 允许的支付方式 0线下 1线上|
 | PaymentType | int | 是 | 对接的银行（9禾商行，8工行E支付）|
+| ModuleSourceType| int | 否 |模块类型|
+
+
+
+
+
+
 
 
 
