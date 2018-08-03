@@ -18,6 +18,8 @@ http://ip:port/RecruitAction/Recruit/OffRecruit
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | RecruitSysNo | int | 否 | 招聘系统编码|
+| RecruitStatus| int | 否 | 10上线，11下线|
+
 
 
 

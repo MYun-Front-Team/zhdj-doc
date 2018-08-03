@@ -836,7 +836,7 @@
     * [确认放鸽子](zhao-pin-mo-kuai/zhao-pin/que-ren-fang-ge-zi.md)
     * [代理新增招聘](zhao-pin-mo-kuai/zhao-pin/xin-zeng-zhao-pin.md)
     * [代理商编辑招聘](zhao-pin-mo-kuai/zhao-pin/dai-li-shang-bian-ji-zhao-pin.md)
-    * [下线招聘](zhao-pin-mo-kuai/zhao-pin/xia-xian-zhao-pin.md)
+    * [下线/上线招聘](zhao-pin-mo-kuai/zhao-pin/xia-xian-zhao-pin.md)
     * [代理商复制招聘](zhao-pin-mo-kuai/zhao-pin/dai-li-shang-fu-zhi-zhao-pin.md)
     * [代理商发布](zhao-pin-mo-kuai/zhao-pin/dai-li-shang-fa-bu.md)
     * [获取招聘人员详情](zhao-pin-mo-kuai/zhao-pin/huo-qu-zhao-pin-ren-yuan-xiang-qing.md)
