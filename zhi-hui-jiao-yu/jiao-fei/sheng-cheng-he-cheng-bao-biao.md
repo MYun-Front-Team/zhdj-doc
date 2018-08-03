@@ -71,6 +71,23 @@ http://ip:port/StudentFeeQuery/StudentFee/GetStudentFeePersons
 |ParentRemark | string | 否 | 家长备注 |
 | PaymentMethod|int| 是 | 支付方式 0线下 1线上|
 | PaymentType | int | 是 | 对接的银行（9禾商行，8工行E支付）|
+| InUser| string | 否 |创建人|
+| AuditPersonSysNo|int| 是 |审核人编码|
+| AuditPerson|string| 是 |审核人|
+| AuditDate|string| 是 |审核时间|
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
