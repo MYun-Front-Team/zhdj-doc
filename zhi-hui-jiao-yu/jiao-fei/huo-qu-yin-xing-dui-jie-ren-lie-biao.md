@@ -15,7 +15,6 @@ http://ip:port/StudentFeeQuery/StudentFee/GetDataRangeFeePersonList
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| DataRangeSysNo | int | 是 | 数据范围树枝叶编码|
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
