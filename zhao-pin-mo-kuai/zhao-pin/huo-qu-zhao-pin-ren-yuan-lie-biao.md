@@ -46,6 +46,10 @@ _**【接口地址】**_
 | GoToWrokPersonSysNo| int| 是 | 确认上班人编码|
 | GoToWrokPersonName| string| 是 | 确认上班人名称|
 | GoToWrokTime| string| 是 |确认上班人时间|
+| ShopName| string | 否 | 店铺名称 |
+| SellerName| string | 否 | 商家名称 |
+| CustomerPositionName| Nvarchar\(50\) | 否 | 客户自定义职位名称 |
+| PositionName | Nvarchar\(50\) | 是 | 职位名称（冗余） |
 
 
 
