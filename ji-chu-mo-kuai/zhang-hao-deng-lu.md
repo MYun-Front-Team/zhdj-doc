@@ -108,19 +108,5 @@ _**【接口地址】**_
 | CPSCode| string| 是 | CPSCode |
 | PositionId| string| 是 | 推荐位置|
 | WebId| string| 是 | 推荐网站|
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| APPId| string| 是 | 推荐APP|
 
