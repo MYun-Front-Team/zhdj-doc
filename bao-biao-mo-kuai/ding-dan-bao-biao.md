@@ -47,6 +47,9 @@
 | CustomerName | string | 是 | 客户名称 |
 | OrderItemNum | int | 是 | 订单商品总数 |
 | OrderAmount | decimal\(18,2\) | 是 | 订单金额 |
+| PaymentTypeList|array int | 是 | 支付方式 |
+
+
 
 #### _应答数据 （PageResponseBase）【23000102】_ {#应答数据-（巡河记录数组）}
 
