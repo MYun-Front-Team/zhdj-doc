@@ -36,6 +36,12 @@ _**【接口地址】**_
 | Longitude | decimal\(18,2\) | 否（可选配置） | 经度 |
 | Latitude | decimal\(18,2\) | 否（可选配置） | 纬度 |
 | ServicerLogoPathList | array string | 否（可选配置） | 服务商Logo的路径列表 |
+| Remar1| string | 否（可选配置） | 备注1|
+| Remar2| string | 否（可选配置） | 备注2|
+| Remar3| string | 否（可选配置） | 备注3|
+
+
+
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
