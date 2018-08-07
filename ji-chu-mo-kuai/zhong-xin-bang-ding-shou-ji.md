@@ -27,6 +27,8 @@ _**【接口地址】**_
 | IsCreateLogin | int | 否 | 是否创建手机账号：0否，1是 |
 | LoginSource | int | 否 | 登录来源（枚举） |
 | LoginType | int | 否 | 登录类型（枚举） |
+| LoginPwd| string | 是 | 密码 |
+
 
 
 
