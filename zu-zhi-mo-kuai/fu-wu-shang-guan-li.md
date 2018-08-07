@@ -23,6 +23,13 @@
 | Latitude | decimal\(18,2\) | 否 | 纬度 |
 | ServicerLogoPathList | array string | 否 | 服务商Logo的路径列表 |
 | ServicerLogoUrlList | array string | 否 | 服务商Logo的Url列表 |
+| Remar1| string | 否（可选配置） | 备注1|
+| Remar2| string | 否（可选配置） | 备注2|
+| Remar3| string | 否（可选配置） | 备注3|
+
+
+
+
 
 > #### ServicerStatistic统计计算字段 {#请求数据}
 
