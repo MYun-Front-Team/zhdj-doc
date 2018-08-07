@@ -11,7 +11,7 @@
 | Person | object | 是 | 人员信息 |
 | StudentNo| string| 是 | 学号 |
 | UnionNo| string| 是 | 学籍号 |
-| FreeType| int | 是 |1缴费用户、2未缴费用户、3公免用户 |
+| FreeType| int | 是 |1缴费用户、0未缴费用户、2公免用户 |
 
 
 
