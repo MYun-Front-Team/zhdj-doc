@@ -38,7 +38,6 @@ http://ip:port/EduQuery/Leave/GetLeaveBySysNo
 | CancelPerson| Person| 是 | 取消人|
 | CancelTime| Person| 是 | 取消时间|
 | LeaveTimeList| array LeaveTime| 是 |请假时间|
-| PersonSysNo| int| 是 | 创建人|
 | StudentBase| StudentBase| 是 | 请假人|
 
 

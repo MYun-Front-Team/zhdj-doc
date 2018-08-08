@@ -817,8 +817,8 @@
   * 请假
     * [获取请假列表](zhi-hui-jiao-yu/huo-qu-qing-jia-lie-biao.md)
     * [创建请教单](zhi-hui-jiao-yu/chuang-jian-qing-jiao-dan.md)
-    * 审核请假单
-    * 取消请假单
+    * [审核请假单](zhi-hui-jiao-yu/shen-he-qing-jia-dan.md)
+    * [取消请假单](zhi-hui-jiao-yu/qu-xiao-qing-jia-dan.md)
     * [获取请假详情](zhi-hui-jiao-yu/huo-qu-qing-jia-xiang-qing.md)
 * [招聘模块](zhao-pin-mo-kuai.md)
   * [职位](zhao-pin-mo-kuai/zhi-wei.md)
