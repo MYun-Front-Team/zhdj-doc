@@ -29,7 +29,12 @@ http://ip:port/EduAction/Leave/AddLeave
 
 
 
+###LeaveTime
 
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| LeaveTimeStart| string| 是 | 请假开始|
+| LeaveTimeEnd| string| 是 | 请假结束|
 
 
 
