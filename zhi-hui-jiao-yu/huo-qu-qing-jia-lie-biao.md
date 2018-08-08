@@ -32,13 +32,16 @@ http://ip:port/EduQuery/Leave/GetLeaveList
 | CreateTime| string| 是 | 创建时间|
 | FilePathList | array string | 否 | 主图Path列表（第一张为首图） |
 | FileUrlList | array string | 否 | 主图Path列表（第一张为首图） |
-| AuditPerson| Person| 是 | 审核人|
+| AuditRecord| AuditRecord| 是 | 审核人|
 | CreatePerson| Person| 是 | 创建人|
 | CancelPerson| Person| 是 | 取消人|
+| CancelTime| Person| 是 | 取消时间|
+| LeaveTimeList| array LeaveTime| 是 |请假时间|
 
-###Leave
+
+###LeaveTime
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| LeaveStart| string| 是 | 请假开始|
-| LeaveEnd| string| 是 | 请假结束|
+| LeaveTimeStart| string| 是 | 请假开始|
+| LeaveTimeEnd| string| 是 | 请假结束|

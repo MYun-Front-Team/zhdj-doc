@@ -816,9 +816,10 @@
     * [设置节点信息](zhi-hui-jiao-yu/cheng-chang-dang-an/she-zhi-jie-dian-xin-xi.md)
   * 请假
     * [获取请假列表](zhi-hui-jiao-yu/huo-qu-qing-jia-lie-biao.md)
-    * 创建请教单
+    * [创建请教单](zhi-hui-jiao-yu/chuang-jian-qing-jiao-dan.md)
     * 审核请假单
     * 取消请假单
+    * 获取请假详情
 * [招聘模块](zhao-pin-mo-kuai.md)
   * [职位](zhao-pin-mo-kuai/zhi-wei.md)
     * [新增岗位](zhao-pin-mo-kuai/zhi-wei/xin-zeng-gang-wei.md)
