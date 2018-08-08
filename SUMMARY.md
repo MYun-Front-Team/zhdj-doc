@@ -819,7 +819,7 @@
     * [创建请教单](zhi-hui-jiao-yu/chuang-jian-qing-jiao-dan.md)
     * 审核请假单
     * 取消请假单
-    * 获取请假详情
+    * [获取请假详情](zhi-hui-jiao-yu/huo-qu-qing-jia-xiang-qing.md)
 * [招聘模块](zhao-pin-mo-kuai.md)
   * [职位](zhao-pin-mo-kuai/zhi-wei.md)
     * [新增岗位](zhao-pin-mo-kuai/zhi-wei/xin-zeng-gang-wei.md)

@@ -1,16 +1,16 @@
-# 获取请假列表
+# 获取请假详情
 
 ##### _【功能说明】_ {#【功能说明】}
 
-获取请假列表
+获取请假详情
 
 _**【应用场景】**_
 
-获取请假列表
+获取请假详情
 
 _**【接口地址】**_
 
-http://ip:port/EduQuery/Leave/GetLeaveList
+http://ip:port/EduQuery/Leave/GetLeaveBySysNo
 
 > #### _请求数据_ {#请求数据}
 
@@ -18,9 +18,6 @@ http://ip:port/EduQuery/Leave/GetLeaveList
 | :--- | :--- | :--- | :--- |
 | DataRangeSysNoList |array int | 是 | 数据范围树枝叶编码列表 |
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
-| AuditStatusList| array int| 是 | 审核状态（0待审核，10已审核，11教师驳回）|
-| CancelStatusList| array  int| 是 | 取消状态（0取消状态，10已取消）|
-
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 
