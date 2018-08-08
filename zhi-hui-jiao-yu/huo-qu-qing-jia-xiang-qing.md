@@ -16,8 +16,8 @@ http://ip:port/EduQuery/Leave/GetLeaveBySysNo
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| DataRangeSysNoList |array int | 是 | 数据范围树枝叶编码列表 |
-| IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
+| LeaveSysNo| int| 是 | 请假单编码|
+
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 
