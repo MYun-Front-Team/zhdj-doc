@@ -28,6 +28,8 @@ http://ip:port/OrderQuery/Delivery/GetOrderDeliveryBySysNo
 | DeliveryDate| string| 是 | 发货时间 |
 | TrackingNo| string| 是 | 快递公司 |
 | TrackingCompany | object | 否 | 快递公司实体（见通用） |
+| DeliveryOrderItems| array DeliveryOrderItem| 否 | 发货单明细 |
+
 
  #### DeliveryOrderItem
 
