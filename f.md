@@ -64,7 +64,7 @@ InnerPartyStatusCountList说明：
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| InnerPartyStatus | int | 是 | 党内状态：0入党积极分子，1预备党员，2正式党员 |
+| InnerPartyStatus | int | 是 | 党内状态：0入党积极分子，1预备党员，2正式党员,3历史党员  |
 | InnerPartyStatusCount | int | 是 | 数量 |
 
 > #### 活动汇总计算字段 {#请求数据}
@@ -106,7 +106,7 @@ InnerPartyStatusCountList说明：
 | IsHideSelf | int | 否 | 是否隐藏自己：0否，1是 |
 | KeyWord | string | 否 | 关键字搜索（姓名、手机号、身份证） |
 | PartyMemberSysNo | int | 否 | 党员系统编码 |
-| InnerPartyStatusList | array int | 否 | 党内状态列表：0入党积极分子，1预备党员，2正式党员 |
+| InnerPartyStatusList | array int | 否 | 党内状态列表：0入党积极分子，1预备党员，2正式党员,3历史党员  |
 | DepartmentPostList | array int | 否 | 所属支部职务：0党员,1书记，2副书记，3组织委员，4宣传委员 |
 | PartyPostList | array int | 否 | 党内职务：0党员,1书记，2副书记，3组织委员，4宣传委员 |
 | OrganizationalStatusList | array int | 否 | 组织状态：0正常，1流动党员 |
