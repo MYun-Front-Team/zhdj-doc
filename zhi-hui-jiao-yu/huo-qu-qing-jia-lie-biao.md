@@ -39,7 +39,7 @@ http://ip:port/EduQuery/Leave/GetLeaveList
 | AuditPersonSysNo| int| 是 | 审核人编码|
 | CreatePerson| Person| 是 | 创建人|
 | CancelPerson| Person| 是 | 取消人|
-| CancelTime| Person| 是 | 取消时间|
+| CancelTime| string| 是 | 取消时间|
 | LeaveTimeList| array LeaveTime| 是 |请假时间|
 | StudentBase| StudentBase| 是 | 请假人|
 

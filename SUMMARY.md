@@ -815,7 +815,7 @@
     * [获取学期列表](zhi-hui-jiao-yu/cheng-chang-dang-an/huo-qu-xue-qi-lie-biao.md)
     * [获取节点信息](zhi-hui-jiao-yu/cheng-chang-dang-an/huo-qu-jie-dian-jie-shao.md)
     * [设置节点信息](zhi-hui-jiao-yu/cheng-chang-dang-an/she-zhi-jie-dian-xin-xi.md)
-  * 请假
+  * [请假](zhi-hui-jiao-yu/qing-jia.md)
     * [获取请假列表](zhi-hui-jiao-yu/huo-qu-qing-jia-lie-biao.md)
     * [创建请教单](zhi-hui-jiao-yu/chuang-jian-qing-jiao-dan.md)
     * [审核请假单](zhi-hui-jiao-yu/shen-he-qing-jia-dan.md)
