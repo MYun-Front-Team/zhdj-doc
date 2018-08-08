@@ -513,6 +513,7 @@
     * [审核退货单](ding-dan-mo-kuai/ding-dan-tui-huo/shen-he-tui-huo-dan.md)
     * [客户取消退货单](ding-dan-mo-kuai/ding-dan-tui-huo/ke-hu-qu-xiao-tui-huo-dan.md)
   * [标记订单通知](ding-dan-mo-kuai/biao-ji-ding-dan-tong-zhi.md)
+  * [获取订单发货单详情](ding-dan-mo-kuai/huo-qu-ding-dan-fa-huo-dan-xiang-qing.md)
 * [交易模块](jiao-yi-mo-kuai.md)
   * [购物车管理](jiao-yi-mo-kuai/gou-wu-che-guan-li.md)
     * [新增购物车](jiao-yi-mo-kuai/xin-zeng-gou-wu-che.md)
