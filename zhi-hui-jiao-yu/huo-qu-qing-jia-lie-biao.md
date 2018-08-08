@@ -33,7 +33,7 @@ http://ip:port/EduQuery/Leave/GetLeaveList
 | FilePathList | array string | 否 | 主图Path列表（第一张为首图） |
 | FileUrlList | array string | 否 | 主图Path列表（第一张为首图） |
 | AuditRecord| AuditRecord| 是 | 审核人|
-| AuditPersonSysNo| int| 是 | 预审核人编码|
+| AuditPersonSysNo| int| 是 | 审核人编码|
 | CreatePerson| Person| 是 | 创建人|
 | CancelPerson| Person| 是 | 取消人|
 | CancelTime| Person| 是 | 取消时间|
