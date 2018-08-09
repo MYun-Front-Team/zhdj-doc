@@ -25,6 +25,9 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupList
 | Limit| Limit| 是 | 显示限制|
 | TagSysNoList | array int | 否 | 标签系统编码列表 |
 | BrandSysNoList| array int | 否 | 品牌系统编码列表 |
+| CPSEndSecond| int | 是 | CPS结束时间|
+| CPSTotalSecond| int | 是 | CPS总计时间|
+
 
 
 
