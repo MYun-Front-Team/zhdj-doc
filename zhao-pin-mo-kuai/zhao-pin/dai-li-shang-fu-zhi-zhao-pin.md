@@ -23,6 +23,8 @@ http://ip:port/RecruitAction/Recruit/CopyRecruit
 | RecruitSysNo | int | 是 | 模板招聘系统编码|
 | RecruitCount | int | 是 | 招聘人数 |
 | AgentRecruitShops| array RecruitShop | 否 |代理招聘的店铺组织 |
+| IsAgent| int | 否 | 是否代理|
+
 
 
 > #### RecruitShop

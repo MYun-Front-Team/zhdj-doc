@@ -28,6 +28,7 @@ _**【接口地址】**_
 | StartDate | string | 否 | 开始时间 |
 | EndDate | string | 否 | 结束时间 |
 | PickRuleTemplateList | array object | 否（可选配置） | 选人规则 |
+| IsAgent| int | 否 | 是否代理|
 
 #### _应答数据_ {#应答数据-}
 

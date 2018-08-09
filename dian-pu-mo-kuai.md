@@ -56,6 +56,8 @@
 | IsAuthentication| int | 否 | 发岗位是否认证 |
 | PositionPathList | array string | 否 | 工作地Path文件列表 |
 | PositionUrlList | array string | 否 | 工作地Path文件列表 |
+| Seller| Seller| 否 | 验证商家信息 |
+
 
 
 
@@ -68,6 +70,15 @@
 | DeviceCount | int | 否 | 设备数量 |
 |SalePersonCount|int | 否 |消费人数 |
 |Wallet|int | 否 |钱包|
+
+### Seller
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| AuditStatus | int | 是 | 审核状态：0待审核，10审核通过，11审核失败 |
+| SellerName | string | 是 | 商家名称 |
+
+
 
 > #### 功能按钮字段 {#请求数据}
 

@@ -56,33 +56,16 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | RecruitPersonTotalCount | int | 否 | 圈中人数 |
-| RecruitPersonRobCount | int | 否 | 意向人数（已抢） |
+| RecruitPersonRobCount | int | 否 | 意向人数（报名总人数） |
 | RecruitInstantStatus | int | 否 | 招聘即时状态：1未开始，2进行中，3已结束，4已过期 |
 | RecruitPerson | object | 否 | 应聘人员状态信息（IsShowMyPersonStatus=1） |
 | LeaderSuccessCount| int | 否 | 领队成功录用人数 |
-| SuccessCount| int | 否 | 成功录用人数 |
+| SuccessCount| int | 否 | 成功录用人数(发OFFER人数) |
 | GoToWrokCount| int | 否 | 已入职人数 |
 | RefuseCount| int | 否 |拒绝人数 |
 | NoComeCount| int | 否 |放鸽子人数 |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| PickCount| int | 否 |已抢人数 |
+| TakeInCount| int | 否 |已录用人数 |
 
 
 
