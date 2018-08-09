@@ -17,7 +17,7 @@ http://ip:port/ShopAction/Device/SetShopOpenStatus
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ShopSysNo | int | 是 | 店铺系统编码（当DeviceSysNo=0时必填） |
-| OpenStatus | int | 是 | 开店状态：0待装修，10开，11关 |
+| OpenStatus | int | 是 | 开店状态：0初始，10开，11关 |
 
 
 #### _应答数据 _ {#应答数据-}
