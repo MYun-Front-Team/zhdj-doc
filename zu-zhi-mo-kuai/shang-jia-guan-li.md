@@ -116,6 +116,10 @@
 | ParkSysNo| int | 否 |注册地址（园区） |
 | SellerTypeList | array int | 否 | 商家类型（行业枚举） |
 | OrganizationSysNoList | array  int | 是 | 组织系统编码 |
+| IsShowInCommissionList | array  int | 是 |是否在抢工佣金推送列表显示 |
+
+
+
 
 
 
