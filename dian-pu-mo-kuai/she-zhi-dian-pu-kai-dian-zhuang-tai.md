@@ -18,6 +18,9 @@ http://ip:port/ShopAction/Shop/SetShopOpenStatus
 | :--- | :--- | :--- | :--- |
 | ShopSysNo | int | 是 | 店铺系统编码（当DeviceSysNo=0时必填） |
 | OpenStatus | int | 是 | 开店状态：0初始，10开，11关 |
+| Reamrk| string| 是 | 禁用备注|
+
+
 
 
 #### _应答数据 _ {#应答数据-}
