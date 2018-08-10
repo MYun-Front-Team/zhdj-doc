@@ -20,6 +20,10 @@ http://ip:port/EduQuery/Leave/GetLeaveList
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 | AuditStatusList| array int| 是 | 审核状态（0待审核，10已审核，11教师驳回）|
 | CancelStatusList| array  int| 是 | 取消状态（0取消状态，10已取消）|
+| CreatePersonSysNo| int | 否 | 创建者人员编码|
+| AuditPersonSysNo| int | 否 | 审核教师人员编码|
+
+
 
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
