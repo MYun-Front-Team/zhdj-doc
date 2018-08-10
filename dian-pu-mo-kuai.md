@@ -57,6 +57,11 @@
 | PositionPathList | array string | 否 | 工作地Path文件列表 |
 | PositionUrlList | array string | 否 | 工作地Path文件列表 |
 | Seller| Seller| 否 | 验证商家信息 |
+| IfHasSeller| int| 否 |是否有商家信息 |
+
+
+
+
 
 
 
