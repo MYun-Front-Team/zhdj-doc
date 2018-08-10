@@ -21,6 +21,15 @@ http://ip:port/EduAction/Student/EditStudent
 | StudentNo| string| 否 | 学号 |
 | UnionNo| string|否 | 学籍号 |
 | ClassStudentType| int | 否| 类型： 1班长，2副班长，99学生|
+| FreeType| int | 是 |1缴费用户、0未缴费用户、2公免用户 |
+
+
+
+
+
+
+
+
 
 
 
