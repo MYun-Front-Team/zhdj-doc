@@ -112,6 +112,7 @@
 |OpenStatusList | array int | 否 |开店状态：0待装修，10开，11关 |
 | SellerAuditStatusList |array int | 是 | 审核状态：0待审核，10审核通过，11审核失败 |
 | IfHasSellerList |array int | 是 | 是否有商家信息  |
+| ShopTypeList |array int | 是 | 类型（枚举） |
 
 
 
