@@ -66,6 +66,14 @@
 | NoComeCount| int | 否 |放鸽子人数 |
 | PickCount| int | 否 |已抢人数 |
 | TakeInCount| int | 否 |已录用人数 |
+| InvalidCount| int | 否 |失效人数 |
+
+
+
+
+
+
+
 
 
 
