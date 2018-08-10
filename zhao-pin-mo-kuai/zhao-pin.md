@@ -126,17 +126,7 @@
 | LeaderPersonSysNo| int| 否 | 邀请人 |
 |IfHasLeaderPersonOnly| int| 否 | 是否只显示有邀请人的 |
 | IsShowRefuse| int| 否 | 是否显示商家主动拒绝的人 |
-
-
-
-
-
-
-
-
-
-
-
+| ShopCloseHidden| int| 否 | 隐藏关店的招聘|
 
 
 
