@@ -40,7 +40,6 @@ http://ip:port/EduQuery/CourseSelect/GetCourseSelectItemBySysNo
 | PickCount| int| 是 | 已报名人数 |
 | CheatCount| int| 是 | 预留生人数 |
 | IsNeedPickStudent| int| 否 | 是否限定报名范围|
-| PickRuleTemplateList | array object | 是 | 选人规则 |
 | CourseSelectItemDayList | array CourseSelectItemDay| 是 | 上课时间 |
 
 
@@ -56,7 +55,6 @@ http://ip:port/EduQuery/CourseSelect/GetCourseSelectItemBySysNo
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| IsShowPickRuleTemplateList | int | 是 | 是否展示选人规则|
 | IsShowCourseSelectItemDayList  | int | 是 | 是否展示上课时间|
 
 

@@ -1,16 +1,16 @@
-# 报名课程
+# 取消报名
 
 ##### _【功能说明】_ {#【功能说明】}
 
-报名课程
+取消报名
 
 _**【应用场景】**_
 
-报名课程
+取消报名
 
 _**【接口地址】**_
 
-http://ip:port/EduAction/CourseSelect/PickCourseSelect
+http://ip:port/EduAction/CourseSelect/CancelCourseSelect
 
 
 
