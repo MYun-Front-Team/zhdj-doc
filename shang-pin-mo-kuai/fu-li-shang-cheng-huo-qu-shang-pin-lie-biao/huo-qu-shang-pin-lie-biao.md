@@ -27,10 +27,7 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupList
 | BrandSysNoList| array int | 否 | 品牌系统编码列表 |
 | CPSEndSecond| int | 是 | CPS结束时间|
 | CPSTotalSecond| int | 是 | CPS总计时间|
-
-
-
-
+| IsOneBuy| int | 否 | 是否是1元购 |
 
 
 
@@ -63,6 +60,15 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupList
 | SpecGroup | object | 否 | 规格组（说明见“获取规格模板列表”） |
 | ProductGroupMemo | string | 否 | 款备注 |
 | IsClearStocks | int | 否 | 是否是清货款：0否，1是 |
+| IsOneBuy| int | 否 | 是否是1元购 |
+
+
+
+
+
+
+
+
 
 
 
@@ -78,6 +84,10 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupList
 | CPSCommissionRate|decimal| 是 | CPS佣金比率|
 | SourceSkuCode| string | 是 | CPSSKU编码 |
 | SpecValueList | array object | 否 | 规格值列表 |
+
+
+
+
 
 
 
