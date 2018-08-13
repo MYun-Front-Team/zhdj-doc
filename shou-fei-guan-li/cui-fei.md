@@ -18,6 +18,9 @@ http://ip:port/ParkAction/IndustryFee/NoticeFee
 | :--- | :--- | :--- | :--- |
 | FeeSysNo | int | 否 | 项目系统编码 |
 | FeeSysNoList | int | 是 | 项目系统编码（批量用） |
+| FeeSysNo | int | 否 | 项目系统编码 |
+| IsNotice| int | 否 | 是否发送逾期提醒|
+
 
 
 
