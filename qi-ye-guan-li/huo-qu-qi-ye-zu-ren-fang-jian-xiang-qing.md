@@ -34,5 +34,15 @@ http://ip:port/ParkQuery/IndustrySale/GetParkRoomRentBySysNo
 |ParkRoomType | int | 是 |房间类型|
 | BuildingArea| decimal | 否 |总建筑面积|
 | Rent| decimal | 否 |租金单价|
+| FeeEndDate | datetime | 否 | 费用结束时间 |
+
+
+
+
+
+
+
+
+
 
 

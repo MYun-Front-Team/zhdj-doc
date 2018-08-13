@@ -41,6 +41,12 @@ http://ip:port/ParkQuery/IndustrySale/GetParkRoomRentList
 | BuildingArea| decimal | 否 |总建筑面积|
 | Rent| decimal | 否 |租金单价|
 | SellerName | string | 是 | 商家名称 |
+| FeeEndDate | datetime | 否 | 费用结束时间 |
+
+
+
+
+
 
 
 
