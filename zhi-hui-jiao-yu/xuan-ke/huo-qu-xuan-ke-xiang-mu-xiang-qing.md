@@ -21,7 +21,7 @@ http://ip:port/EduQuery/CourseSelect/GetCourseSelectItemList
 | ItemTypeList|array int| 是 | 课程类型（1长课时，2短课时上，3短课时下，4通用课时） |
 | Limit| CourseSelectItemLimit| 是 | 显示限制|
 | PickPersonSysNo| int| 是 | 选课人系统编码|
-| StudentStatusList|array int| 是 |显示当前学课学生状态0圈中，10已报名（和PickPersonSysNo一起传才有效） |
+| StudentStatusList|array int| 是 |显示当前学课学生状态0圈中，10已报名，11撤销（和PickPersonSysNo一起传才有效） |
 
 
 
@@ -46,7 +46,7 @@ http://ip:port/EduQuery/CourseSelect/GetCourseSelectItemList
 | IsNeedPickStudent| int| 否 | 是否限定报名范围|
 | PickRuleTemplateList | array object | 是 | 选人规则 |
 | CourseSelectItemDayList | array CourseSelectItemDay| 是 | 上课时间 |
-| StudentStatus| int| 是 |显示当前学课学生状态0圈中，10已报名 |
+| StudentStatus| int| 是 |显示当前学课学生状态0圈中，10已报名，11撤销 |
 
 
 ####CourseSelectItemDay
