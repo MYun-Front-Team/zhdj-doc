@@ -39,3 +39,8 @@ http://ip:port/EduQuery/CourseSelect/GetCourseSelectList
 | InUser| string| 是 | 创建人|
 
 
+
+
+
+
+

@@ -1,59 +1,26 @@
-
-# 添加选课
+# 获取选课项目详情
 
 ##### _【功能说明】_ {#【功能说明】}
 
-添加选课
+获取选课项目详情
+
 
 _**【应用场景】**_
 
-添加选课
+获取选课项目详情
+
 
 _**【接口地址】**_
 
-http://ip:port/EduAction/CourseSelect/AddCourseSelect
-
+http://ip:port/EduQuery/CourseSelect/GetCourseSelectItemList
 
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| CourseSelectName| string| 是 | 选课名称|
-| SelectStart| datetime| 是 | 报名开始|
-| SelectEnd| datetime| 是 | 报名结束|
-| CourseSelectItemList| array CourseSelectItemAdd | 是 | 课程列表|
-
-
-
-
-####CourseSelectItemAdd
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| ItemType| int| 是 | 课程类型（1长课时，2短课时上，3短课时下，4通用课时） |
-| CourseStart| datetime| 是 |课程开始 |
-| CourseEnd| string| 是 | 课程结束 |
-| CourseSysNo| int| 否 |课程主键（可以为0，如果为0，则需要传课程名，课程描述） |
-| CourseName | Nvarchar\(50\) | 否  | 课程名|
-| CourseContent | string | 否 | 课程描述 |
-| FilePathList | array string | 否 | 课程附件路径列表 |
-| TeacherName| string| 是 | 任课老师|
-| IsFree| int| 是 | 是否免费 |
-| Price| Decimal| 否 | 费用|
-| LimitCount| int| 是 | 最多报名人数 |
-| IsNeedPickStudent| int| 否 | 是否限定报名范围|
-| PickRuleTemplateList | array object | 是 | 选人规则 |
-| CourseSelectItemDayList | array CourseSelectItemDayAdd| 是 | 上课时间 |
-
-
-####CourseSelectItemDayAdd
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| WeekDay| int| 是 | (0周日，1周一，2周二，3周三，4周四，5周五，6周六) |
-| StartTime| datetime| 是 |上课时间 |
-| EndTime| datetime| 是 | 下课时间 |
+| CourseSelectSysNo| int| 是 | 选课系统编码|
+| Limit| CourseSelectItemLimit| 是 | 显示限制|
 
 
 
@@ -63,7 +30,40 @@ http://ip:port/EduAction/CourseSelect/AddCourseSelect
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| CourseSelectSysNo| int| 是 | 选课系统编码|
+| CourseSelectItemSysNo| int| 是 | 选课课程系统编码|
+| ItemType| int| 是 | 课程类型（1长课时，2短课时上，3短课时下，4通用课时） |
+| CourseStart| datetime| 是 |课程开始 |
+| CourseEnd| string| 是 | 课程结束 |
+| CourseSysNo| int| 否 |课程主键 |
+| CourseName | Nvarchar\(50\) | 否  | 课程名|
+| TeacherName| string| 是 | 任课老师|
+| IsFree| int| 是 | 是否免费 |
+| Price| Decimal| 否 | 费用|
+| LimitCount| int| 是 | 最多报名人数 |
+| PickCount| int| 是 | 已报名人数 |
+| CheatCount| int| 是 | 预留生人数 |
+| IsNeedPickStudent| int| 否 | 是否限定报名范围|
+| PickRuleTemplateList | array object | 是 | 选人规则 |
+| CourseSelectItemDayList | array CourseSelectItemDay| 是 | 上课时间 |
+
+
+####CourseSelectItemDay
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| WeekDay| int| 是 | (0周日，1周一，2周二，3周三，4周四，5周五，6周六) |
+| StartTime| datetime| 是 |上课时间 |
+| EndTime| datetime| 是 | 下课时间 |
+
+#### Limit
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| IsShowPickRuleTemplateList | int | 是 | 是否展示选人规则|
+| IsShowCourseSelectItemDayList  | int | 是 | 是否展示上课时间|
+
+
+
 
 
 
