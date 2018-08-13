@@ -18,10 +18,10 @@ http://ip:port/EduAction/CourseSelect/EditCourseSelect
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| CourseSelectSysNo| int| 是 | 选课系统编码|
-| CourseSelectName| string| 是 | 选课名称|
-| SelectStart| datetime| 是 | 报名开始|
-| SelectEnd| datetime| 是 | 报名结束|
+| CourseSelectSysNo| int| 否 | 选课系统编码|
+| CourseSelectName| string| 否  | 选课名称|
+| SelectStart| datetime| 否  | 报名开始|
+| SelectEnd| datetime|否  | 报名结束|
 
 
 
