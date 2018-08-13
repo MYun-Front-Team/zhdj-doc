@@ -18,7 +18,7 @@ http://ip:port/EduQuery/CourseSelect/GetCourseSelectItemStudentList
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | CourseSelectItemSysNo| int| 是 | 选课课程系统编码|
-| StudentStatusList|array int| 是 | 状态（0圈中，10已选）|
+| StudentStatusList|array int| 是 | 状态（0圈中，10已选,11撤销）|
 | IsCheatList|array  int| 是 |是否预留生|
 
 
