@@ -21,6 +21,7 @@ http://ip:port/ParkAction/IndustrySale/RentParkRoom
 | Remark | string | 否 | 租赁备注 |
 | ParkRoomSysNos|array int | 是  | 房间编码|
 | OrganizationSysNo | int | 是 | 企业组织系统编码 |
+| FeeEndDate | datetime | 否 | 费用结束时间 |
 
 
 
