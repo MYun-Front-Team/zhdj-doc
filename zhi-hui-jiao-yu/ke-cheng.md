@@ -38,6 +38,10 @@
 | TeacherSysNo | int | 否 | 教师编码 |
 | CourseStatusList |array int | 否 | 课程状态：0新增，10上架，11下架 |
 | TeacherDepartmentSysNo| int | 否 | 教师部门|
+|StartCourseActivityCount |int | 否 |开始上课次数|
+|EndCourseActivityCount |int | 否 |终止上课次数|
+
+
 
 
 > #### 查询Limit字段 {#请求数据}

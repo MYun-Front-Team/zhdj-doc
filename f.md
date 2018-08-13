@@ -11,7 +11,7 @@
 | DepartmentPost | int | 否 | 所属支部职务：0党员,1书记，2副书记，3组织委员，4宣传委员,5纪检委员，6工青妇委员  |
 | BranchDataRangeSysNo | int | 否 | 数据范围树编码\(所属党委，关联党内岗位\) |
 | BranchDataRangeName | string | 否 | 所属党委名称 |
-| PartyPost | int | 否 | 党内职务：0党员,1书记，2副书记，3组织委员，4宣传委员,5纪检委员，6工青妇委员  |
+| PartyPost | int | 否 | 党内职务：0党员,1书记，2副书记，3组织委员，4宣传委员,5纪检委员，6工青妇委员,7组织员 |
 | OrganizationalStatus | int | 是 | 组织状态：0正常，1流动党员 |
 | InnerPartyStatus | int | 是 | 党内状态：0入党积极分子，1预备党员，2正式党员,3历史党员 |
 | IntroducerName | string | 是 | 介绍人姓名 |
