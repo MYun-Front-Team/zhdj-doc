@@ -18,7 +18,9 @@ http://ip:port/EduQuery/CourseSelect/GetCourseSelectItemList
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | CourseSelectSysNo| int| 是 | 选课系统编码|
+| ItemTypeList|array int| 是 | 课程类型（1长课时，2短课时上，3短课时下，4通用课时） |
 | Limit| CourseSelectItemLimit| 是 | 显示限制|
+| PickPersonSysNo| int| 是 | 选课人系统编码|
 
 
 

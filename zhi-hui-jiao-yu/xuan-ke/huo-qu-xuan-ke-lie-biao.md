@@ -22,7 +22,8 @@ http://ip:port/EduQuery/CourseSelect/GetCourseSelectList
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 | KeyWord| string| 是 | 关键字|
 | CourseSelectStatusList|array int| 是 | 选课状态（0草稿，10已发布）|
-| IsOverdueList|array int| 是 | 是否过期（0正常，1过期）|
+| DateStatusList|array int| 是 | 进行状态（0未开始，10进行中，11已过期）|
+
 
 
 
@@ -35,7 +36,7 @@ http://ip:port/EduQuery/CourseSelect/GetCourseSelectList
 | SelectStart| datetime| 是 | 报名开始|
 | SelectEnd| datetime| 是 | 报名结束|
 | CourseSelectStatus| int| 是 | 选课状态（0草稿，10已发布）|
-| IsOverdue| int| 是 | 是否过期（0正常，1过期）|
+| DateStatus| int| 是 | 进行状态（0未开始，10进行中，11已过期）|
 | InUser| string| 是 | 创建人|
 
 
