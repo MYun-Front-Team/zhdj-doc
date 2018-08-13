@@ -86,6 +86,7 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupList
 | SourceSkuCode| string | 是 | CPSSKU编码 |
 | SpecValueList | array object | 否 | 规格值列表 |
 | IsOneBuy| int | 否 | 是否是1元购 |
+| OneBuyCount| int | 否 | 1元购分数 |
 
 
 

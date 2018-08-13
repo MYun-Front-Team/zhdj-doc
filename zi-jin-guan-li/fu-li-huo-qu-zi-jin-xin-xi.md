@@ -51,6 +51,8 @@ http://ip:port/WalletQuery/Wallet/GetFLWallet
 | FansOrderCount|int| 是 | 粉丝下单数 |
 | FansOrderAmount|decimal| 是 | 粉丝下单金额 |
 | Date| string | 是 | 时间 |
+| Commission| decimal | 否 | 效果预估佣金 |
+
 
 
 
