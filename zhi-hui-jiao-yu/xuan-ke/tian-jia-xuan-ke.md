@@ -23,6 +23,7 @@ http://ip:port/EduAction/CourseSelect/AddCourseSelect
 | SelectStart| datetime| 是 | 报名开始|
 | SelectEnd| datetime| 是 | 报名结束|
 | CourseSelectItemList| array CourseSelectItemAdd | 是 | 课程列表|
+| DataRangeSysNo| int| 是 | 学校DataRangeSysNo |
 
 
 
