@@ -34,6 +34,7 @@
 | SettlementType| int| 否 | 结算方式：1月结、2周结、3日结，4次日结，5完工结 |
 | SettlementCycle| int| 否 | 结算周期 |
 | IsShowInCommission| int| 否 | 是否在佣金推送列表显示 |
+| OpenStatus | int | 是 | 开店状态：0待装修，10开，11关 |
 
 
 
