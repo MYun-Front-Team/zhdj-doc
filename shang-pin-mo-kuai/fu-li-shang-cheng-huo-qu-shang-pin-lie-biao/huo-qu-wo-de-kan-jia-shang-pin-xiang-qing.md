@@ -52,6 +52,12 @@ http://ip:port/ShopQuery/CutPirce/GetMyFLCutPirceBySysNo
 | FakeInventoryCount|int| 是 |假库存数|
 | ProductGroupMemo | string | 否 | 款备注 |
 | BrandList | array object | 否 | 品牌列表（说明见通用） |
+| CutPirceType|int| 是 |砍价类型（0普通 1一元购）|
+
+
+
+
+
 
 
 
