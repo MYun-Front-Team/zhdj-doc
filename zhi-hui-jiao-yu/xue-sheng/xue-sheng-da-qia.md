@@ -18,6 +18,11 @@ http://ip:port/EduAction/Student/StudentSign
 | :--- | :--- | :--- | :--- |
 | CardNo| string| 是 | 卡号 |
 | FilePathList|array string| 否 | 图片|
+| SignTime| datetime| 是 | 打卡时间 |
+| SignType| int| 是 | 进校/出校 |
+
+
+
 
 
 
