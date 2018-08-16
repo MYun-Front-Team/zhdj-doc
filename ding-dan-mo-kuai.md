@@ -198,7 +198,7 @@
 | CPSCode| string| 是 | CPS名称 JD京东，YX严选 |
 | IsHasOrderRMA | int | 否 | 是否有退货单 |
 | NoticeStatusList| array int | 否 | 通知状态 （0初始 10已标记）  |
-| OrderTypeList |array int | 是 | 订单类型（枚举） |
+
 
 
 
