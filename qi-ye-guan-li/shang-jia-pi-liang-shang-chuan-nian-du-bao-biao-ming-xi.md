@@ -33,8 +33,10 @@ http://ip:port/ParkAction/IndustrySale/ImportSaleYearReportDetail
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| TaxRevenue| decimal | 否 |税额|
-| Turnover | decimal | 否 |销售额|
+| InitialTaxRevenue| decimal | 否 |企业上报税额|
+| InitialTurnover| decimal | 否 |企业上报销售额|
+| TaxRevenue| decimal | 否 |平台实际税额|
+| Turnover | decimal | 否 |平台实际销售额|
 | TotalTaxRevenue| decimal | 否 |本年累计税额|
 | TotalTurnover | decimal | 否 |本年累计销售额|
 | Month| int | 是 | 月份 |
