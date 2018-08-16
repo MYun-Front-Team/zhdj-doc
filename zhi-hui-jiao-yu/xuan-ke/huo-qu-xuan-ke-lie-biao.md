@@ -23,6 +23,7 @@ http://ip:port/EduQuery/CourseSelect/GetCourseSelectList
 | KeyWord| string| 是 | 关键字|
 | CourseSelectStatusList|array int| 是 | 选课状态（0草稿，10已发布）|
 | DateStatusList|array int| 是 | 进行状态（0未开始，10进行中，11已过期）|
+| PickPersonSysNo| int| 是 | 选课人系统编码|
 
 
 
