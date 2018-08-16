@@ -14,7 +14,7 @@ http://ip:port/ParkAction/IndustrySale/ImportSaleYearReport
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-|SaleYearReports|array[SaleYearReportImport]|企业年度报表|
+|SaleYearReports|array[SaleYearReportImport]|是|企业年度报表|
 
 
 > #### SaleYearReportImport
