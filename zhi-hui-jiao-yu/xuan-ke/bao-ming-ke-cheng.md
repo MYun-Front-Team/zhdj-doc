@@ -20,7 +20,7 @@ http://ip:port/EduAction/CourseSelect/PickCourseSelect
 | :--- | :--- | :--- | :--- |
 | CourseSelectItemSysNo| int| 是 | 选课课程系统编码|
 | StudentSysNo| int| 是 | 选课学生系统编码|
-| IsCheat| int| 是 | 是否是预留生|
+| IsCheat| int| 否 | 是否是预留生|
 
 
 
