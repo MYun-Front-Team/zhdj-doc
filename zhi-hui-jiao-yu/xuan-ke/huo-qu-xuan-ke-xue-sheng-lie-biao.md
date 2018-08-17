@@ -39,6 +39,13 @@ http://ip:port/EduQuery/CourseSelect/GetCourseSelectItemStudentList
 | PersonName| string| 是 | 学生名称|
 | InUser| string| 是 | 操作人|
 | CreateTime| string| 是 |操作时间|
+| LastModifyTime| string| 是 |最后编辑时间|
+| ItemType| int| 是 | 课程类型（1长课时，2短课时上，3短课时下，4通用课时） |
+| CourseSysNo| int| 否 |课程主键 |
+| CourseName | Nvarchar\(50\) | 否  | 课程名|
+| TeacherName| string| 是 | 任课老师|
+| IsFree| int| 是 | 是否免费 |
+| Price| Decimal| 否 | 费用|
 
 
 
