@@ -15,6 +15,8 @@ http://ip:port/ShopQuery/CutPirce/GetMyCutPirceHelpList
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | CutPirceSysNo| int | 是 | 砍价系统编码 |
+| PersonSysNo| int | 是 | 砍价人系统编码 |
+
 
 
 
