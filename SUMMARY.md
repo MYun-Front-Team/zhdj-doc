@@ -750,6 +750,7 @@
     * [编辑费用](shou-fei-guan-li/bian-ji-fei-yong.md)
     * [删除退款费用](shou-fei-guan-li/shan-chu-tui-kuan-fei-yong.md)
     * [新增待收费查询](shou-fei-guan-li/huo-qu-dai-shou-fei-fang-zu.md)
+    * [批量生成租金](shou-fei-guan-li/pi-liang-sheng-cheng-zu-jin.md)
   * [企业待收费列表](qi-ye-dai-shou-fei-lie-biao.md)
     * [按商家](qi-ye-dai-shou-fei-lie-biao/an-shang-jia.md)
     * [按园区](qi-ye-dai-shou-fei-lie-biao/an-yuan-qu.md)
