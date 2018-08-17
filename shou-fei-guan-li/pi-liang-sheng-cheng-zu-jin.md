@@ -21,7 +21,7 @@ _**【接口地址】**_
 | ParkFloorSysNo | int | 否 | 楼层编码 |
 | ParkSysNo | int | 否 | 园区编码 |
 | BuildingSysNo | int | 否 | 楼宇编码 |
-| ParkRoomTypeList | int | 否 | 房间类型 |
+| ParkRoomTypeList | array int | 否 | 房间类型 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
