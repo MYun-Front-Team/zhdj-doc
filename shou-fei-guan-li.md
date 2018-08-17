@@ -25,6 +25,11 @@
 | IncreaseAmonut| decimal | 否 |加收费用|
 | InitialTotalFee | decimal | 否 |初始费用（FeeItem的TotalFee的总计） |
 | Remark | string| 否 | 备注|
+|ParkRoomTypeList |array int | 是 |房间类型|
+
+
+
+
 
 
 
