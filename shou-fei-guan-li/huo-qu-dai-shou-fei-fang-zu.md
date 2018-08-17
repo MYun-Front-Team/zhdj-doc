@@ -40,6 +40,7 @@ http://ip:port/ParkQuery/IndustryFee/GetWaitPayFee
 #### StartDateInfo
 
 | 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
 |ParkRoomSysNo | int | 是 |房间系统编码|
 | StartDate| datetime | 是 |费用开始时间|
 
