@@ -16,8 +16,12 @@ http://ip:port/ParkAction/IndustrySale/AddSaleYearReportDetail
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | YearReportSysNo | int | 是 | 年度报表系统编码 |
-| TaxRevenue| decimal | 否 |税额|
-| Turnover | decimal | 否 |销售额|
+| TaxRevenue| decimal | 否 |最终税额|
+| Turnover | decimal | 否 |最终销售额|
+| TotalTaxRevenue| decimal | 否 |本年累计税额|
+| TotalTurnover | decimal | 否 |本年累计销售额|
+| InitialTaxRevenue| decimal | 否 |企业上报税额|
+| InitialTurnover| decimal | 否 |企业上报销售额|
 | FilePathList | array string | 否 |照片 |
 | Month| int | 是 | 月份 |
 
