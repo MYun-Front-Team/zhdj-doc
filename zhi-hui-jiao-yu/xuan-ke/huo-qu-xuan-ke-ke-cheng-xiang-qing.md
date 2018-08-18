@@ -41,6 +41,8 @@ http://ip:port/EduQuery/CourseSelect/GetCourseSelectItemBySysNo
 | CheatCount| int| 是 | 预留生人数 |
 | IsNeedPickStudent| int| 否 | 是否限定报名范围|
 | CourseSelectItemDayList | array CourseSelectItemDay| 是 | 上课时间 |
+| CourseRemark| string| 是 | 课程备注|
+
 
 
 ####CourseSelectItemDay

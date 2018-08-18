@@ -35,6 +35,7 @@
 | SettlementCycle| int| 否 | 结算周期 |
 | IsShowInCommission| int| 否 | 是否在佣金推送列表显示 |
 | OpenStatus | int | 是 | 开店状态：0待装修，10开，11关 |
+| CommissionRemark| string| 否 |佣金备注 |
 
 
 
