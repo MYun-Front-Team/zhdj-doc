@@ -19,6 +19,8 @@ http://ip:port/EduAction/CourseSelect/SetCourseSelectItemType
 | DataRangeSysNo|int| 是 | 数据范围|
 | ItemType| int| 是 | 课程类型（1长课时，2短课时上，3短课时下，4通用课时） |
 | ItemTypeName|string| 是 |别名|
+| DataRangeName|string| 是 |范围|
+
 
 
 

@@ -42,6 +42,13 @@ http://ip:port/EduQuery/CourseSelect/GetCourseSelectItemBySysNo
 | IsNeedPickStudent| int| 否 | 是否限定报名范围|
 | CourseSelectItemDayList | array CourseSelectItemDay| 是 | 上课时间 |
 | CourseRemark| string| 是 | 课程备注|
+| ItemTypeName| string| 是 |课程类型别名|
+
+
+
+
+
+
 
 
 
