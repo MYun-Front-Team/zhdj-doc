@@ -835,6 +835,7 @@
     * [报名课程](zhi-hui-jiao-yu/xuan-ke/bao-ming-ke-cheng.md)
     * [取消报名](zhi-hui-jiao-yu/xuan-ke/qu-xiao-bao-ming.md)
     * [发布选课](zhi-hui-jiao-yu/xuan-ke/fa-bu-xuan-ke.md)
+    * [获取学校长短课程配置](zhi-hui-jiao-yu/xuan-ke/huo-qu-xue-xiao-chang-duan-ke-cheng-pei-zhi.md)
 * [招聘模块](zhao-pin-mo-kuai.md)
   * [职位](zhao-pin-mo-kuai/zhi-wei.md)
     * [新增岗位](zhao-pin-mo-kuai/zhi-wei/xin-zeng-gang-wei.md)
