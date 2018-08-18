@@ -27,6 +27,7 @@ http://ip:port/RecruitAction/Recruit/EditRecruit
 | PushLeaderEndTime| datetime| 否 |推送结束时间|
 | SettlementType| int| 否 | 结算方式：1月结、2周结、3日结，4次日结，5完工结 |
 | SettlementCycle| int| 否 | 结算周期 |
+| CommissionRemark| string| 否 |佣金备注 |
 
 
 
