@@ -131,7 +131,7 @@
 |IfHasLeaderPersonOnly| int| 否 | 是否只显示有邀请人的 |
 | IsShowRefuse| int| 否 | 是否显示商家主动拒绝的人 |
 | ShopCloseHidden| int| 否 | 隐藏关店的招聘|
-| AuditStatusList|array int| 否 |审核状态（0待审核 10已经审核 11审核不通过） |
+| RecruitAuditStatusList|array int| 否 |岗位审核状态（0待审核 10已经审核 11审核不通过） |
 
 
 
