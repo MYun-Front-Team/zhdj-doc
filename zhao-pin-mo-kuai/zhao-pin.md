@@ -61,7 +61,7 @@
 | :--- | :--- | :--- | :--- |
 | RecruitPersonTotalCount | int | 否 | 圈中人数 |
 | RecruitPersonRobCount | int | 否 | 意向人数（报名总人数） |
-| RecruitInstantStatus | int | 否 | 招聘即时状态：1未开始，2进行中，3已结束，4已过期 |
+| RecruitInstantStatus | int | 否 | 招聘即时状态：0岗位待审核 1未开始，2进行中，3已结束，4已过期 |
 | RecruitPerson | object | 否 | 应聘人员状态信息（IsShowMyPersonStatus=1） |
 | LeaderSuccessCount| int | 否 | 领队成功录用人数 |
 | SuccessCount| int | 否 | 成功录用人数(发OFFER人数) |
@@ -123,7 +123,7 @@
 | PositionTypeList |array[int] | 否 | 工作类型:0不限,1全职,2兼职 |
 | LeaderOnStatusList| array[int]| 否 |领队上下架状态（0待上架 1上架，2下架） |
 | PushLeaderStatusList| array[int]| 否 |推送领队状态（0待推送 10已推送） |
-| RecruitInstantStatusList | int | 否 | 招聘即时状态：1未开始，2进行中，3已结束，4已过期 |
+| RecruitInstantStatusList | int | 否 | 招聘即时状态：0岗位待审核 1未开始，2进行中，3已结束，4已过期 |
 | IsAgentList|array int| 否 |是否代理 |
 | RecruitStatusList | array int | 否 | 招聘状态：0新建,10发布，11撤下  |
 | IsShowInCommissionList|array int| 否 | 是否在佣金推送列表显示 |
