@@ -18,7 +18,7 @@ http://ip:port/RecruitAction/Recruit/SetRecruitAuditStauts
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | RecruitSysNoList |array[int] | 否 | 招聘系统编码|
-| AuditStatus | int | 否 | 招聘系统编码|
+| AuditStatus | int | 否 | 审核状态（10已经审核 11审核不通过）|
 | Remark| string| 否 | 备注|
 
 
