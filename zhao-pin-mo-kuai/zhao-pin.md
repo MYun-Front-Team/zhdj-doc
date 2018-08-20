@@ -12,7 +12,7 @@
 | SellerName| string | 否 | 商家名称 |
 | ContractAddress| string | 否 | 店铺地址 |
 | Distance| decimal| 否 | 距离（IsMyFootPrint=1才有效） |
-| AuditStatus | int | 是 | 审核状态：0待审核，10审核通过，11审核失败 |
+| AuditStatus | int | 是 | 商家审核状态：0待审核，10审核通过，11审核失败 |
 | Position | object | 是 | 职位 |
 | StartDate | string | 是 | 开始时间 |
 | EndDate | string | 是 | 结束时间 |
@@ -36,7 +36,7 @@
 | IsShowInCommission| int| 否 | 是否在佣金推送列表显示 |
 | OpenStatus | int | 是 | 开店状态：0待装修，10开，11关 |
 | CommissionRemark| string| 否 |佣金备注 |
-| AuditStatus| int| 否 |审核状态（0待审核 10已经审核 11审核不通过） |
+| RecruitAuditStatus| int| 否 |岗位审核状态（0待审核 10已经审核 11审核不通过） |
 
  
 
