@@ -8,6 +8,9 @@
 | 101 | 首页报表 | 点东东-平台APP |
 | 102 | 首页报表 | 翰想汇-微信端个人中心首页 |
 | 103 | 首页报表 | 智慧园区-app个人中心首页 |
+| 104 | 首页报表 | 招聘首页-app个人中心首页 |
+
+
 
 
 > #### _请求数据（PageRequestData）_ {#请求数据}
@@ -84,6 +87,28 @@
 | :--- | :--- | :--- | :--- |
 | ProjectStatus | int | 否 |项目状态（0潜在，1洽谈，2入住，3长期） |
 | Count| int | 是 |数量 |
+
+> #### _应答数据 （PageResponseBase）【104】_ {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| AuditStatusInfos| array[AuditStatusInfo] | 是 | 审核状态信息|
+| RecruitPersonStatusInfos| array[RecruitPersonStatusInfo]| 否 |抢班状态  |
+
+#### AuditStatusInfo
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| AuditStatus| int| 是 | 岗位审核状态（0待审核 10已经审核 11审核不通过）|
+| Count| int| 是 | 数量|
+
+###RecruitPersonStatusInfo
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| RecruitPersonStatus| int| 是 |状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝，20已上班，21放鸽子|
+| Count| int| 是 | 数量|
+
 
 
 
