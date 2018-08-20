@@ -19,9 +19,7 @@ http://ip:port/RecruitAction/Recruit/SetRecruitAuditStauts
 | :--- | :--- | :--- | :--- |
 | RecruitSysNoList |array[int] | 否 | 招聘系统编码|
 | AuditStatus | int | 否 | 招聘系统编码|
-
-
-
+| Remark| string| 否 | 备注|
 
 
 
