@@ -557,6 +557,7 @@
     * [退卡](zi-jin-guan-li/tui-qia.md)
     * [获取会员卡日志列表](zi-jin-guan-li/huo-qu-hui-yuan-qia-ri-zhi-lie-biao.md)
     * [实名认证](zi-jin-guan-li/shi-ming-ren-zheng.md)
+    * [查询三方会员卡余额](zi-jin-guan-li/cha-xun-san-fang-hui-yuan-qia-yu-e.md)
   * [获取钱包充值详情](zi-jin-guan-li/huo-qu-qian-bao-chong-zhi-xiang-qing.md)
   * [钱包充值](zi-jin-guan-li/qian-bao-chong-zhi.md)
   * [新增保证金](zi-jin-guan-li/xin-zeng-bao-zheng-jin.md)
