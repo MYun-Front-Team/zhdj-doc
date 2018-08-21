@@ -27,6 +27,7 @@
 | TagList | array object | 否 | 标签列表（说明见通用） |
 
 
+
 > #### CustomerStatistic统计计算字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
