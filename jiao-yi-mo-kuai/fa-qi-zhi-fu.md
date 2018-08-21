@@ -41,7 +41,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-[http://ip:port/DealQuery/](http://ip:port/HMAction/River/AddRiver)Payment[/G](http://ip:port/HMAction/River/AddRiver)etPaymentUrl
+http://ip:port/DealQuery/Payment/GetPaymentUrl
 
 > #### _请求数据_ {#请求数据}
 
