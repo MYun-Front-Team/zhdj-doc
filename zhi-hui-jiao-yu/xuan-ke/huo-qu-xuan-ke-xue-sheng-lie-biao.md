@@ -47,9 +47,6 @@ http://ip:port/EduQuery/CourseSelect/GetCourseSelectItemStudentList
 | TeacherName| string| 是 | 任课老师|
 | IsFree| int| 是 | 是否免费 |
 | Price| Decimal| 否 | 费用|
-
-
-
-
+| ItemTypeName| string| 是 |课程类型别名|
 
 
