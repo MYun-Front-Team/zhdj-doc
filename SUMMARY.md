@@ -871,6 +871,7 @@
     * [代理商发布](zhao-pin-mo-kuai/zhao-pin/dai-li-shang-fa-bu.md)
     * [获取招聘人员详情](zhao-pin-mo-kuai/zhao-pin/huo-qu-zhao-pin-ren-yuan-xiang-qing.md)
     * [获取招聘领队报表](zhao-pin-mo-kuai/zhao-pin/huo-qu-zhao-pin-ling-dui-bao-biao.md)
+    * [删除招聘](zhao-pin-mo-kuai/zhao-pin/shan-chu-zhao-pin.md)
   * [求职](zhao-pin-mo-kuai/qiu-zhi.md)
     * [修改求职基本信息](zhao-pin-mo-kuai/qiu-zhi/xiu-gai-qiu-zhi-ji-ben-xin-xi.md)
     * [确认抢班](zhao-pin-mo-kuai/qiu-zhi/que-ren-qiang-ban.md)
