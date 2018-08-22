@@ -76,6 +76,16 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupBySysNo
 | IsOneBuy| int | 否 | 是否是1元购 |
 | OneBuyCount| int | 否 | 1元购分数 |
 | IsGroupBuy| int | 否 | 是否是拼购 |
+|CouponList| array Coupon | 否 |可使用优惠券 |
+
+### Coupon
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| CouponName| string| 是 | 优惠券名称|
+| FullAmount| decimal| 是 | 优惠券使用金额条件|
+| ReduceAmount| decimal| 是 | 优惠券金额|
+| CPSMaterialUrl|string| 是 |CPS领取地址|
 
 
 #### Price {#应答数据-（巡河记录数组）}
@@ -97,39 +107,6 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupBySysNo
 | IsShowSkuList | int | 否 | 是否显示sku列表 |
 | IsShowSpecGroup | int | 否 | 是否显示规格组（说明见“获取规格模板列表”） |
 | IsShowSpecValueList | int | 否 | 是否显示规格值（当IsShowSkuList/IsShowSpecGroup=1时启用） |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| IsShowCouponList | int | 否 | 是否显示可用优惠券 |
 
 
