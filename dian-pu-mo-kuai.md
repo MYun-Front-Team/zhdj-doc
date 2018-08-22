@@ -57,7 +57,6 @@
 | PositionPathList | array string | 否 | 工作地Path文件列表 |
 | PositionUrlList | array string | 否 | 工作地Path文件列表 |
 | Seller| Seller| 否 | 验证商家信息 |
-| IfHasSeller| int| 否 |是否有商家信息 |
 
 
 
@@ -113,6 +112,7 @@
 | SellerAuditStatusList |array int | 是 | 审核状态：0待审核，10审核通过，11审核失败 |
 | IfHasSellerList |array int | 是 | 是否有商家信息  |
 | ShopTypeList |array int | 是 | 类型（枚举） |
+| ShopPersonCellPhoneNo| string | 否 | 店长电话 |
 
 
 
