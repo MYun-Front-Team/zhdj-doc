@@ -28,6 +28,7 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupList
 | CPSEndSecond| int | 是 | CPS结束时间|
 | CPSTotalSecond| int | 是 | CPS总计时间|
 | IsOneBuy| int | 否 | 是否是1元购 |
+| IsGroupBuy| int | 否 | 是否是拼购 |
 
 
 
@@ -87,7 +88,7 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupList
 | SpecValueList | array object | 否 | 规格值列表 |
 | IsOneBuy| int | 否 | 是否是1元购 |
 | OneBuyCount| int | 否 | 1元购分数 |
-
+| IsGroupBuy| int | 否 | 是否是拼购 |
 
 
 

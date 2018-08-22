@@ -75,9 +75,7 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupBySysNo
 | SpecValueList | array object | 否 | 规格值列表 |
 | IsOneBuy| int | 否 | 是否是1元购 |
 | OneBuyCount| int | 否 | 1元购分数 |
-
-
-
+| IsGroupBuy| int | 否 | 是否是拼购 |
 
 
 #### Price {#应答数据-（巡河记录数组）}
