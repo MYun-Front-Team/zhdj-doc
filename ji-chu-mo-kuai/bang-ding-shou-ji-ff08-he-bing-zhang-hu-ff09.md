@@ -28,6 +28,8 @@ _**【接口地址】**_
 | ReSetStatus | int | 是 | 状态：1绑定成功，10占用成功（需重新登录），11绑定失败 |
 | UserSysNo| int | 是 | UserSysNo |
 | PersonSysNo| int | 是 | PersonSysNo|
+| OrganizationList| array[Organization]| 是 | OrganizationList|
+
 
 
 
