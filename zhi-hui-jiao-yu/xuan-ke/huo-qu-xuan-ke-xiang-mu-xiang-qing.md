@@ -48,6 +48,7 @@ http://ip:port/EduQuery/CourseSelect/GetCourseSelectItemList
 | StudentStatus| int| 是 |显示当前学课学生状态0圈中，10已报名，11撤销 |
 | CourseRemark| string| 是 | 课程备注|
 | ItemTypeName| string| 是 |课程类型别名|
+| FileUrlList | array string | 否 | 附件地址列表 |
 
 
 
