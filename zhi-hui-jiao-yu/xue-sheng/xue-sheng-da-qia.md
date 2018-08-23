@@ -20,9 +20,7 @@ http://ip:port/EduAction/Student/StudentSign
 | FilePathList|array string| 否 | 图片|
 | SignTime| datetime| 否| 打卡时间 |
 | SignType| int| 否 | 进校/出校 |
-
-
-
+| PersonSysNo| int| 否 | 学生编码 |
 
 
 
