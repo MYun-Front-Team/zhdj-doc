@@ -99,6 +99,10 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupList
 | FullAmount| decimal| 是 | 优惠券使用金额条件|
 | ReduceAmount| decimal| 是 | 优惠券金额|
 | CPSMaterialUrl|string| 是 |CPS领取地址|
+| EndSecond| int | 否 | 剩余秒数 |
+| TotalSecond| int | 否 | 总秒数 |
+
+
 
 
 #### Price {#应答数据-（巡河记录数组）}
