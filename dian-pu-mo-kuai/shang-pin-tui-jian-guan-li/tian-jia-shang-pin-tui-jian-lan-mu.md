@@ -16,7 +16,7 @@ http://ip:port/ShopAction/Recommend/AddRecommendType
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 是 | 所有者组织系统编码 |
-| DataRangeSysNo | int | 是 | 数据范围系统编码（店铺树） |
+| DataRangeSysNo | int | 否 | 数据范围系统编码（店铺树） |
 | RecommendTypeName | string| 是 | 栏目名称 |
 
 
