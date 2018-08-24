@@ -18,7 +18,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | OrganizationFromSysNo | int | 否 | 所属组织系统编码 |
 | OrganizationToSysNo | int | 否 | 附属组织系统编码 |
-| CardTypeList | int | 否 | 会员卡类型：0会员卡，1礼品卡，2临时卡 |
+| CardTypeList | int | 否 | 会员卡类型：0会员卡，1礼品卡，2临时卡，3考勤卡 |
 | CardNo | string | 否 | 卡号 |
 | CardPhoneNo | string | 否 | 手机号 |
 | IDCard | string | 否 | 身份证 |
@@ -38,7 +38,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | MemberCardSysNo | int | 是 | 会员卡系统编码 |
-| CardType | int | 是 | 会员卡类型：0会员卡，1礼品卡，2临时卡 |
+| CardType | int | 是 | 会员卡类型：0会员卡，1礼品卡，2临时卡，3考勤卡 |
 | CardNo | string | 是 | 卡号 |
 | CardPhoneNo | string | 否 | 手机号 |
 | IDCard | string | 否 | 身份证 |
