@@ -30,6 +30,20 @@ http://ip:port/ShopQuery/Recommend/GetRecommendTypeBySysNo
 | OrganizationSysNo | int | 是 | 所有者组织系统编码 |
 | DataRangeSysNo | int | 是 | 数据范围系统编码（店铺树） |
 | RecommendTypeName | string| 是 | 栏目名称 |
+| RecommendTypePathList | array string | 否 | 栏目主图path路径 |
+| RecommendTypeUrlList | array string | 否 | 栏目主图url路径 |
+| Remark| string| 是 | 栏目备注 |
+
+
+
+
+
+
+
+
+
+
+
 
 
 

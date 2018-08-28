@@ -17,7 +17,9 @@ http://ip:port/ShopAction/Recommend/EditRecommendType
 | :--- | :--- | :--- | :--- |
 | RecommendTypeSysNo | int | 是 | 系统编码 |
 | RecommendTypeName | string| 是 | 栏目名称 |
-
+| RecommendTypePathList | array string | 否 | 栏目主图path路径 |
+| RecommendTypeUrlList | array string | 否 | 栏目主图url路径 |
+| Remark| string| 是 | 栏目备注 |
 
 
 
