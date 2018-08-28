@@ -834,6 +834,7 @@
     * [添加选课](zhi-hui-jiao-yu/xuan-ke/tian-jia-xuan-ke.md)
     * [编辑选课](zhi-hui-jiao-yu/xuan-ke/bian-ji-xuan-ke.md)
     * [编辑选课课程详情](zhi-hui-jiao-yu/xuan-ke/bian-ji-xuan-ke-ke-cheng-xiang-qing.md)
+    * [添加选课课程详情](zhi-hui-jiao-yu/xuan-ke/tian-jia-xuan-ke-ke-cheng-xiang-qing.md)
     * [获取选课课程列表](zhi-hui-jiao-yu/xuan-ke/huo-qu-xuan-ke-xiang-mu-xiang-qing.md)
     * [获取选课课程详情](zhi-hui-jiao-yu/xuan-ke/huo-qu-xuan-ke-ke-cheng-xiang-qing.md)
     * [获取选课学生列表](zhi-hui-jiao-yu/xuan-ke/huo-qu-xuan-ke-xue-sheng-lie-biao.md)
@@ -842,7 +843,7 @@
     * [发布选课](zhi-hui-jiao-yu/xuan-ke/fa-bu-xuan-ke.md)
     * [获取学校长短课程配置](zhi-hui-jiao-yu/xuan-ke/huo-qu-xue-xiao-chang-duan-ke-cheng-pei-zhi.md)
     * [学校长短课程配置](zhi-hui-jiao-yu/xuan-ke/xue-xiao-chang-duan-ke-cheng-pei-zhi.md)
-    * [删除选课课程](zhi-hui-jiao-yu/xuan-ke/shan-chu-xuan-ke-ke-cheng.md)
+    * 添加选课课程详情
 * [招聘模块](zhao-pin-mo-kuai.md)
   * [职位](zhao-pin-mo-kuai/zhi-wei.md)
     * [新增岗位](zhao-pin-mo-kuai/zhi-wei/xin-zeng-gang-wei.md)
