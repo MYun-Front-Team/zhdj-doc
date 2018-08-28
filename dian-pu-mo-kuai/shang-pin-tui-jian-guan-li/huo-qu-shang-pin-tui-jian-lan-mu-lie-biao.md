@@ -19,6 +19,7 @@ http://ip:port/ShopQuery/Recommend/GetRecommendTypeList
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 否 | 所有者组织系统编码 |
 | DataRangeSysNoList | array int | 否 | 数据范围系统编码（投放位置树） |
+| KeyWord | string| 是 | 关键字 |
 
 
 

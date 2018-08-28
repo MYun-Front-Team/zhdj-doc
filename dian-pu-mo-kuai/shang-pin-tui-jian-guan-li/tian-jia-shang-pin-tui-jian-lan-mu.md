@@ -19,7 +19,6 @@ http://ip:port/ShopAction/Recommend/AddRecommendType
 | DataRangeSysNo | int | 否 | 数据范围系统编码（店铺树） |
 | RecommendTypeName | string| 是 | 栏目名称 |
 | RecommendTypePathList | array string | 否 | 栏目主图path路径 |
-| RecommendTypeUrlList | array string | 否 | 栏目主图url路径 |
 | Remark| string| 是 | 栏目备注 |
 
 
