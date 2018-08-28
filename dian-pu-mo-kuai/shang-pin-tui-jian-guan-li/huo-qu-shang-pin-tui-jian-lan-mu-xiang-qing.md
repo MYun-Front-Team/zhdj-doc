@@ -33,7 +33,6 @@ http://ip:port/ShopQuery/Recommend/GetRecommendTypeBySysNo
 | RecommendTypePathList | array string | 否 | 栏目主图path路径 |
 | RecommendTypeUrlList | array string | 否 | 栏目主图url路径 |
 | Remark| string| 是 | 栏目备注 |
-| Remark| string| 是 | 栏目备注 |
 
 
 
