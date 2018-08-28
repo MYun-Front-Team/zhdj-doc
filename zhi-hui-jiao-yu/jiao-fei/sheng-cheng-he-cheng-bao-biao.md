@@ -75,24 +75,6 @@ http://ip:port/StudentFeeQuery/StudentFee/GetStudentFeePersons
 | AuditPersonSysNo|int| 是 |审核人编码|
 | AuditPerson|string| 是 |审核人|
 | AuditDate|string| 是 |审核时间|
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| UnionNo| string| 是 | 学籍号 |
+| IDCard| string| 是 | 身份证号 |
 
