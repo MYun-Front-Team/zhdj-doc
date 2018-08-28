@@ -27,7 +27,6 @@ http://ip:port/ParkAction/IndustrySale/EditSaleYearReportDetails
 | Turnover | decimal | 否 |最终销售额|
 | TotalTaxRevenue| decimal | 否 |本年累计税额|
 | TotalTurnover | decimal | 否 |本年累计销售额|
-| FilePathList | array string | 否 |照片 |
 | InitialTaxRevenue| decimal | 否 |企业上报税额|
 | InitialTurnover| decimal | 否 |企业上报销售额|
 
