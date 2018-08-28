@@ -32,6 +32,7 @@ http://ip:port/EduQuery/CourseSelect/GetCourseSelectList
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| DataRangeSysNo | int | 是 | 数据范围树枝叶编码 |
 | CourseSelectSysNo| int| 是 | 选课系统编码|
 | CourseSelectName| string| 是 | 选课名称|
 | SelectStart| datetime| 是 | 报名开始|
