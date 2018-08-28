@@ -29,7 +29,7 @@ _**【接口地址】**_
 | OrganizationSysNo | int | 是 | 推荐组织系统编码 |
 | ShopSysNo | int | 否 | 推荐店铺（空则取默认） |
 | DataRangeSysNo | int | 是 | 数据范围系统编码（店铺树） |
-| RecommendType | int | 是 | 类型：0首页推荐，1特惠 |
+| RecommendType | int | 是 | 类型：0首页推荐，1特惠…… |
 | CategorySysNo | int | 否 | 推荐行业系统编码 |
 | AreaSysNo | int | 否 | 推荐区域系统编码 |
 | PCDCode | string | 否 | 推荐区域PCDCode |
