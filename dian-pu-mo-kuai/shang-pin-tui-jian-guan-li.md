@@ -34,6 +34,49 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 
+### Product
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ProductGroupSysNo | int | 是 | 系统编码 |
+| PriceRuleType| int | 是 | 定价规则（0款，1SKU） |
+| ProductGroupName| STRING | 是 | 规格名称|
+| ProductGroupClassSysNo| int| 是 | 类别编码|
+| ProductGroupClassName| STRING | 是 | 类别名称|
+| ProductGroupMemo| STRING | 是 | 款备注|
+| FileThumbnailUrlList|array STRING | 是 |缩略图|
+| Price| Price| 是 | 价格|
+| UnitList| array[Unit]| 是 | 单位|
+| OrganizationSysNo| int| 是 | 组织号|
+| DataRangeSysNo| int | 是 | 店铺数据范围|
+| DataRangeName| STRING | 是 | 店铺数据范围|
+| SkuList| array[Sku]| 是 | sku|
+| TagList| array[Tag]| 是 |标签|
+
+### Sku
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| SkuSysNo| int | 是 | 系统编码 |
+| SkuName|STRING | 是 | sku名称|
+| BarCode| STRING | 是 | 条码 |
+| Price| Price| 是 | 价格|
+| FileThumbnailUrlList|array[ STRING] | 是 | sku缩略图|
+
+
+
+> #### Price说明 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| CostPrice | decimal\(18,2\) | 否 | 成本价 |
+| MarketPrice | decimal\(18,2\) | 否 | 市场价 |
+| SalePrice | decimal\(18,2\) | 否 | 销售价 |
+| MaxSalePrice | decimal\(18,2\) | 否 | 最大销售价 |
+| PointPrice | decimal\(18,2\) | 否 | 积分价格 |
+| MinCutSalePrice | decimal\(18,2\) | 否 | 最低砍价 |
+
+
 
 #### 查询条件字段 {#请求数据}
 
