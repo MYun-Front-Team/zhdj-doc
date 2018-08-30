@@ -15,6 +15,7 @@ http://ip:port/ParkAction/IndustrySale/EditSaleYearReportDetails
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| YearReportSysNo| int | 是 | 年度报表系统编码 |
 | SaleYearReportDetails|array[SaleYearReportDetailEdit]| 是 | 年度报表明细 |
 
 
