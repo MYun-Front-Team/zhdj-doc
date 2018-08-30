@@ -12,7 +12,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-[http://ip:port/BasicAction/](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Basic](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[/E](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)ditPerson
+http://ip:port/BasicAction/Basic/EditPerson
 
 > #### _请求数据_ {#请求数据}
 
@@ -46,6 +46,7 @@ _**【接口地址】**_
 | Remark| string| 否 |备注|
 | IDCardType | int| 否 | 证件类型|
 | NeedPartTimeJob| int | 否 | 是否屏蔽推送兼职（0正常，1屏蔽） |
+| CellPhoneNo| string | 否 |手机号 |
 
 
 
