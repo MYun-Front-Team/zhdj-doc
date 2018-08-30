@@ -19,7 +19,11 @@ http://ip:port/EduAction/Parent/AddParentComing
 | PersonSysNo| int | 是 | 家长人员编码 |
 | StudentSysNo| int | 是 | 学生编码|
 
+> #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ParentComingSysNo| int| 是 | 来访编码 |
 
 
 

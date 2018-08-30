@@ -28,6 +28,7 @@ http://ip:port/EduQuery/Student/GetParentComing
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| ParentComingSysNo| int| 是 | 来访编码 |
 | Student | StudentBase | 是 | 学生 |
 | ParentPerson| Person| 是 | 家长 |
 | PersonSysNo| int | 是 | 家长人员编码 |
