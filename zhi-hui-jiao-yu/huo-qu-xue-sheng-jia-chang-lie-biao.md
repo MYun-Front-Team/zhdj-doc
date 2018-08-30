@@ -25,6 +25,7 @@ http://ip:port/EduQuery/Student/GetParentList
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| PersonSysNo | int| 是 | 家长编码 |
 | ParentName | string| 是 | 家长名称|
 | ParentCellPhoneNo | string| 是 | 家长电话 |
 
