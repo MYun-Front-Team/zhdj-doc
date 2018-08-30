@@ -42,6 +42,7 @@
 | OrganizationFromSysNo| int | 是 | 微信登陆者组织 |
 | KeyWord | string | 否 | 关键字搜索（名称） |
 | CellPhoneNo| string | 是 | 家长手机号 |
+| StudentSysNo | int | 是 |学生系统编码 |
 
 
 > #### 查询Limit字段 {#请求数据}

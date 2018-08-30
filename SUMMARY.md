@@ -820,6 +820,7 @@
     * [添加学生](zhi-hui-jiao-yu/tian-jia-xue-sheng.md)
     * [获取学生家长列表](zhi-hui-jiao-yu/huo-qu-xue-sheng-jia-chang-lie-biao.md)
     * [添加家长](zhi-hui-jiao-yu/tian-jia-jia-chang.md)
+    * 家长来访
   * [成长档案](zhi-hui-jiao-yu/cheng-chang-dang-an.md)
     * [获取学期列表](zhi-hui-jiao-yu/cheng-chang-dang-an/huo-qu-xue-qi-lie-biao.md)
     * [获取节点信息](zhi-hui-jiao-yu/cheng-chang-dang-an/huo-qu-jie-dian-jie-shao.md)
