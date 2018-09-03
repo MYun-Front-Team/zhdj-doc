@@ -53,6 +53,7 @@ http://ip:port/ShopQuery/CutPirce/GetMyFLCutPirceList
 | CutPirceType|int| 是 |砍价类型（0普通 1一元购）|
 | MustCutPirce| decimal| 是 | 必砍价 |
 | OneBuyPirce| decimal| 是 | 一元购价 |
+| MinCPSPirce| decimal| 是 | 必砍价 |
 
 
 
