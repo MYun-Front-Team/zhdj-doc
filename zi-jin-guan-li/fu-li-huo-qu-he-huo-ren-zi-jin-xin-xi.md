@@ -33,7 +33,7 @@ http://ip:port/WalletQuery/Wallet/GetFLPartnerWallet
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | Commission| decimal | 否 | 效果预估佣金 |
-| FinishCommission| decimal（18，10） | 是 | 结算效果预估 |
+| FinishCommission| decimal | 是 | 结算效果预估 |
 | AvailableReceiveCashAmount| decimal | 否 | 可提现金额 |
 
 
