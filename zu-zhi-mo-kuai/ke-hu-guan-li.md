@@ -25,6 +25,7 @@
 | CustomerPersonFileUrlList|array string | 否 | 客户老板头像 |
 | CustomerPersonFileUrlList|array string | 否 | 客户老板头像 |
 | TagList | array object | 否 | 标签列表（说明见通用） |
+| IsPartner| int | 是 |是否合伙人|
 
 
 

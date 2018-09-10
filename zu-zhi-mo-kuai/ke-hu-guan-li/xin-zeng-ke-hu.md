@@ -35,6 +35,10 @@ _**【接口地址】**_
 | Longitude | decimal\(18,2\) | 否 | 经度 |
 | Latitude | decimal\(18,2\) | 否 | 纬度 |
 | CustomerLogoPathList | array string | 否（可选配置） | 客户Logo的路径列表 |
+| IsPartner| int | 是 |是否合伙人|
+
+
+
 
 #### _应答数据 _ {#应答数据-}
 
