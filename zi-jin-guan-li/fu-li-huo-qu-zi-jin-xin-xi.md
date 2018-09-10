@@ -41,6 +41,10 @@ http://ip:port/WalletQuery/Wallet/GetFLWallet
 | Commission| decimal | 否 | 效果预估佣金 |
 | FinishCommission| decimal（18，10） | 是 | 结算效果预估 |
 | SaveAmount| decimal（18，10） | 是 |节省金额 |
+| FinishCommission| decimal（18，10） | 是 | 合伙人结算效果预估 |
+| Commission| decimal | 否 | 合伙人效果预估佣金 |
+
+
 
 
 > #### Item
