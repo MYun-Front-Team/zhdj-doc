@@ -574,6 +574,7 @@
   * [设置支付密码](zi-jin-guan-li/she-zhi-zhi-fu-mi-ma.md)
   * [CPS获取资金信息](zi-jin-guan-li/cpshuo-qu-zi-jin-xin-xi.md)
   * [福狸获取资金信息](zi-jin-guan-li/fu-li-huo-qu-zi-jin-xin-xi.md)
+  * [福狸获取合伙人资金信息](zi-jin-guan-li/fu-li-huo-qu-he-huo-ren-zi-jin-xin-xi.md)
 * [工单模块](gong-dan-mo-kuai.md)
   * [获取工单列表](gong-dan-mo-kuai/huo-qu-gong-dan-lie-biao.md)
   * [获取工单详情](gong-dan-mo-kuai/huo-qu-gong-dan-xiang-qing.md)
