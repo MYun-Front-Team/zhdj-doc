@@ -13,6 +13,9 @@
 | :--- | :--- | :--- | :--- |
 | PersonSysNo|int | 是 |人员编码 |
 | FansLeve| int| 否 | 1直接粉丝，2推荐粉丝|
+|IsShowAllLeve | int| 是 | 是否无穷递归下去(最多20，不传就递归2级)|
+
+
 
 
 > #### 应答数据 （PageResponseBase）【38000100】
