@@ -26,6 +26,7 @@
 | CreateTime| string | 否 | 创建时间 |
 | CustomerLevelName| string | 否 | 客户等级 |
 | CustomerLevelSysNo| int| 否 | 客户等级编码 |
+| IsPartner| int | 是 |是否合伙人|
 | CustomerSonCount| int| 否 | 推荐孩子数 |
 | FansLeve| int| 否 | 1直接粉丝，2推荐粉丝|
 | FileUrlList | array string | 否 | 头像图片列表 |
