@@ -10,7 +10,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-[http://ip:port/UMQuery/Comment/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)CommentList
+http://ip:port/UMQuery/Comment/GetCommentList
 
 > #### _请求数据_ {#请求数据}
 
@@ -28,6 +28,7 @@ _**【接口地址】**_
 | AuditStatus | int | 否 | 回复状态：0否，1是 |
 | AverageStartScore | decimal\(18,2\) | 否 | 开始分数 |
 | AverageEndScore | decimal\(18,2\) | 否 | 结束分数 |
+| SemesterSysNo | int | 否 | 学期系统编码 |
 
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
@@ -44,6 +45,9 @@ _**【接口地址】**_
 | ModuleRelation | object | 否 | 模块关联实体 |
 | AuditRecord | object | 否 | 回复实体（同审核） |
 | AuditStatus | int | 否 | 回复状态：0否，1是 |
+| SemesterSysNo | int | 否 | 学期系统编码 |
+
+
 
 #### Limit说明 {#应答数据-（巡河记录数组）}
 
