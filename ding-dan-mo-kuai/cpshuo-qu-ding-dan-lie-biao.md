@@ -25,8 +25,7 @@ http://ip:port/OrderQuery/Order/GetCPSOrderList
 | CPSValidList| array int | 否 | CPS是否失效（0有效，1失效） |
 | FinishStatusList | array int | 否 | 完结状态 |
 | IsShowMySon| int | 否 | 是否看我孩子的订单 |
-
-
+| IsShowInPartner| int | 否 | 是否看合伙人的孩子订单 |
 
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
