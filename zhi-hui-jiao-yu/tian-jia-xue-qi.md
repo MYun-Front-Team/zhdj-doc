@@ -20,8 +20,13 @@ http://ip:port/EduAction/Student/AddSemester
 | :--- | :--- | :--- | :--- |
 | DataRangeSysNo | int | 是 | 数据范围树枝叶编码 |
 | SemesterName| string| 是 |学期名称 |
-| SemesterCode| string| 是 |学期编码 |
+| SemesterCode| string| 否 |学期编码 |
 
+> #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| SemesterSysNo| int| 是 | 系统编码|
 
 
 

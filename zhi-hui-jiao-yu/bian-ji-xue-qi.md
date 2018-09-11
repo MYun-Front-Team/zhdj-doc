@@ -20,7 +20,7 @@ http://ip:port/EduAction/Student/EditSemester
 | :--- | :--- | :--- | :--- |
 | SemesterSysNo| int| 是 | 系统编码|
 | SemesterName| string| 是 |学期名称 |
-| SemesterCode| string| 是 |学期编码 |
+| SemesterCode| string| 否 |学期编码 |
 
 
 
