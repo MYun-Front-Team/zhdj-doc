@@ -852,6 +852,8 @@
     * [获取学校长短课程配置](zhi-hui-jiao-yu/xuan-ke/huo-qu-xue-xiao-chang-duan-ke-cheng-pei-zhi.md)
     * [学校长短课程配置](zhi-hui-jiao-yu/xuan-ke/xue-xiao-chang-duan-ke-cheng-pei-zhi.md)
     * 添加选课课程详情
+  * 学期
+    * [获取学期列表](zhi-hui-jiao-yu/huo-qu-xue-qi-lie-biao.md)
 * [招聘模块](zhao-pin-mo-kuai.md)
   * [职位](zhao-pin-mo-kuai/zhi-wei.md)
     * [新增岗位](zhao-pin-mo-kuai/zhi-wei/xin-zeng-gang-wei.md)
