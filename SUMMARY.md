@@ -854,6 +854,10 @@
     * 添加选课课程详情
   * 学期
     * [获取学期列表](zhi-hui-jiao-yu/huo-qu-xue-qi-lie-biao.md)
+    * [添加学期](zhi-hui-jiao-yu/tian-jia-xue-qi.md)
+    * [编辑学期](zhi-hui-jiao-yu/bian-ji-xue-qi.md)
+    * [获取学期详情](zhi-hui-jiao-yu/huo-qu-xue-qi-xiang-qing.md)
+    * [删除学期](zhi-hui-jiao-yu/shan-chu-xue-qi.md)
 * [招聘模块](zhao-pin-mo-kuai.md)
   * [职位](zhao-pin-mo-kuai/zhi-wei.md)
     * [新增岗位](zhao-pin-mo-kuai/zhi-wei/xin-zeng-gang-wei.md)
