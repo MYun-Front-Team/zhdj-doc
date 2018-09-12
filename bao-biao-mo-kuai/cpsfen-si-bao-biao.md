@@ -16,6 +16,12 @@
 | :--- | :--- | :--- | :--- |
 | PersonSysNo|int | 是 |人员编码 |
 | FansLeve| int| 否 | 1直接粉丝，2推荐粉丝|
+| KeyWord| string| 否 | 关键字|
+
+
+
+
+
 
 
 

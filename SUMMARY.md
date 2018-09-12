@@ -411,6 +411,7 @@
   * [获取店铺列表](dian-pu-mo-kuai/huo-qu-dian-pu-lie-biao.md)
   * [获取店铺详情](dian-pu-mo-kuai/huo-qu-dian-pu-xiang-qing.md)
   * [设置店铺开店状态](dian-pu-mo-kuai/she-zhi-dian-pu-kai-dian-zhuang-tai.md)
+    * 一元购管理
   * [设备管理](dian-pu-mo-kuai/she-bei-guan-li.md)
     * [新增设备](dian-pu-mo-kuai/xin-zeng-she-bei.md)
     * [修改设备](dian-pu-mo-kuai/xiu-gai-she-bei.md)
@@ -474,6 +475,8 @@
     * [添加商品推荐栏目](dian-pu-mo-kuai/shang-pin-tui-jian-guan-li/tian-jia-shang-pin-tui-jian-lan-mu.md)
     * [编辑商品推荐栏目](dian-pu-mo-kuai/shang-pin-tui-jian-guan-li/bian-ji-shang-pin-tui-jian-lan-mu.md)
     * [删除商品推荐栏目](dian-pu-mo-kuai/shang-pin-tui-jian-guan-li/shan-chu-shang-pin-tui-jian-lan-mu.md)
+  * [一元购管理](dian-pu-mo-kuai/yi-yuan-gou-guan-li.md)
+    * [获取一元购列表](dian-pu-mo-kuai/yi-yuan-gou-guan-li/huo-qu-yi-yuan-gou-lie-biao.md)
 * [仓库库存模块](cang-ku-ku-cun-mo-kuai.md)
   * [获取仓库库位树](huo-qu-cang-ku-ku-wei-shu.md)
   * [入库](ru-ku.md)
