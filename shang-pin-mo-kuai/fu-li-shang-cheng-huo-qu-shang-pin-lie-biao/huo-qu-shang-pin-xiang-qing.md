@@ -64,6 +64,10 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupBySysNo
 
 
 
+
+
+
+
 #### Sku {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
