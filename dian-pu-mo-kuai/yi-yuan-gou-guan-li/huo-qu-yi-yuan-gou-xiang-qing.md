@@ -30,7 +30,7 @@ http://ip:port/ShopQuery/OneBuy/GetOneBuyBySysNo
 | :--- | :--- | :--- | :--- |
 | OneBuySysNo| int| 是 |系统编码|
 | SourceProductGroupCode| string| 否 | 引入商品编码 |
-| FileThumbnailPathList | array string | 否 | 缩略图Path列表（第一张为首图） |
+| FileThumbnailUrlList | array string | 否 | 缩略图Path列表（第一张为首图） |
 | ProductGroupName| string| 否 | 商品名称|
 | ProductGroupClassName | string | 否 | 分类名称（类别树） |
 | CPSCommissionRate|decimal| 是 | CPS佣金比率|
