@@ -54,6 +54,8 @@ http://ip:port/ShopQuery/CutPirce/GetMyFLCutPirceList
 | MustCutPirce| decimal| 是 | 必砍价 |
 | OneBuyPirce| decimal| 是 | 一元购价 |
 | MinCPSPirce| decimal| 是 | 必砍价 |
+| ReduceCount|int| 是 |预估刀数|
+| HaveReduceCount|int| 是 |已砍刀数|
 
 
 

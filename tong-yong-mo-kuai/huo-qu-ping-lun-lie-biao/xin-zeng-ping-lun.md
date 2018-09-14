@@ -12,7 +12,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-[http://ip:port/UMAction/Comment/A](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)ddComment
+http://ip:port/UMAction/Comment/AddComment
 
 > #### _请求数据_ {#请求数据}
 
@@ -28,6 +28,9 @@ _**【接口地址】**_
 | IsAnonymous | int | 是 | 是否匿名：0否，1是 |
 | CommentPathList | array string | 否 | 图片Path路径列表 |
 | Propertys | array object | 是 | 评论明细列表（见通用-属性） |
+| SemesterSysNo | int | 否 | 学期系统编码 |
+
+
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 

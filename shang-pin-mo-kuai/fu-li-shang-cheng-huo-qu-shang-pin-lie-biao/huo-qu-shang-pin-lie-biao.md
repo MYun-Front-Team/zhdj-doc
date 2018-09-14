@@ -63,6 +63,7 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupList
 | IsClearStocks | int | 否 | 是否是清货款：0否，1是 |
 | CutCount|int| 是 |当前参与人数|
 |CutPersons|array CutPerson| 是 |当前参与人|
+| ReduceCount|int| 是 |预估刀数|
 
 
 #### CutPerson{#应答数据-（巡河记录数组）}
