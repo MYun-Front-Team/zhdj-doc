@@ -20,6 +20,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | CouponSysNo | int | 是 | 优惠券系统编码 |
 | PersonSysNo | int | 否 | 人员系统编码 |
+| CouponCode | string | 否 | 优惠券号码 |
 
 
 
