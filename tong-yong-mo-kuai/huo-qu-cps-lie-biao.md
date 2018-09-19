@@ -23,7 +23,11 @@ http://ip:port/UMQuery/CPS/GetCPSList
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | CPSSysNo| int| 是 | CPS系统编码 |
-| CPSCode| object | 否 | 统计字段 |
+| CPSCode| string| 否 |CPS编码 |
+| CPSName| string| 否 |CPS名称|
+
+
+
 
 
 

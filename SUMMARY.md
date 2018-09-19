@@ -171,6 +171,7 @@
     * [获取监视设备详情](tong-yong-mo-kuai/jian-shi-she-bei/huo-qu-jian-shi-she-bei-xiang-qing.md)
   * [PV和UV](tong-yong-mo-kuai/pvhe-up.md)
     * [添加游览](tong-yong-mo-kuai/pvhe-up/tian-jia-you-lan.md)
+  * [获取CPS列表](tong-yong-mo-kuai/huo-qu-cps-lie-biao.md)
 * [积分模块](ji-fen-mo-kuai.md)
   * [根据模块，获取积分配置列表](ji-fen-mo-kuai/gen-ju-mo-kuai-ff0c-huo-qu-ji-fen-pei-zhi-lie-biao.md)
   * [获取业务积分记录详情列表](tong-yong-mo-kuai/huo-qu-ye-wu-ji-fen-ji-lu-xiang-qing-lie-biao.md)
