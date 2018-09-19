@@ -43,6 +43,7 @@
 | SponsorDataRangeGradeType | int | 否 | 主办方级别 |
 | Score| Score| 否 | 评分 |
 | CanRemoteSign| int| 否 | 是否送学 |
+| CPSs| array[CPS]| 否 |三方平台|
 
 
 
@@ -108,8 +109,13 @@
 
 
 
+> #### CPS
 
-
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| CPSSysNo| int | 否 | CPS系统编码 |
+| CPSCode| string| 否 | CPSCode |
+| CPSName| string| 否 | CPS名称  |
 
 
 
