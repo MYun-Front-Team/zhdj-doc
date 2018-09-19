@@ -12,19 +12,15 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/ShopAction/Coupon/PickShareCoupon
+[http://ip:port/ShopAction/Coupon/PickShareCoupon](http://ip:port/ShopAction/Coupon/PickShareCoupon)
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| CouponCodeSysNo | int | 是 | 领取的优惠券码系统编码  |
+| CouponCodeSysNo | int | 是 | 领取的优惠券码系统编码 |
 | PersonSysNo | int | 否 | 人员系统编码 |
-
-
-
-
-
+| CouponCode | string | 否 | 优惠券编码 |
 
 
 
