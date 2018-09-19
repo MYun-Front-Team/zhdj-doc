@@ -28,6 +28,7 @@
   * [获取活动人员列表](methods/huo-qu-huo-dong-ren-yuan-lie-biao.md)
   * [设置直播状态](methods/she-zhi-zhi-bo-zhuang-tai.md)
   * [推送送学通知](methods/tui-song-song-xue-tong-zhi.md)
+  * [获取活动报名报表](methods/huo-qu-huo-dong-bao-ming-bao-biao.md)
 * [学习模块](xue-xi-mo-kuai.md)
   * [获取学习列表](xue-xi-mo-kuai/huo-qu-xue-xi-lie-biao.md)
   * [获取学习详情](xue-xi-mo-kuai/huo-qu-xue-xi-xiang-qing.md)
