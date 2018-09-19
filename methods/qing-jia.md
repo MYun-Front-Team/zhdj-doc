@@ -34,6 +34,7 @@ _**【接口地址】**_
 | IsNeedSignUp | int | 否 | 是否需要报名：0否，1是 |
 | SignInPersonSysNo | int | 否 | 需代请假人员系统编码 |
 | IsRemove | int | 否 | 是否撤销：0否，1是 |
+| CPSSysNo | int | 否 | CPS渠道编码 |
 
 
 

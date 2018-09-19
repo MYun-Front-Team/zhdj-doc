@@ -38,7 +38,7 @@ _**【接口地址】**_
 | CoSponsorName | string | 否（可选配置） | 协办方 |
 | PlugInUnitList | array object | 否 | 插件列表（见活动新增接口） |
 | ModuleRelationList | array object | 否（可选配置） | 关联模块列表（实体说明见活动） |
-
+| CPSSysNoList | array\[int\] | 否 | CPS渠道列表 |
 
 
 

@@ -40,6 +40,7 @@ _**【接口地址】**_
 | PlugInUnitList | array object | 否 | 插件列表 |
 | SponsorDataRangeSysNo | int | 否 | 主办方ID |
 | ModuleRelationList | array object | 否（可选配置） | 关联模块列表（实体说明见活动） |
+| CPSSysNoList | array\[int\] | 否 | CPS渠道列表 |
 
 #### PointsValues说明 {#应答数据-}
 
