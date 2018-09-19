@@ -155,6 +155,7 @@
 | ProductGroupCode | string | 否 | 款号 |
 | CPSCode | string | 是 | CPS名称 JD京东，YX严选 |
 | BrandSysNoList| array int | 否 | 品牌系统编码列表 |
+| ProductServiceTypeList |array int | 否 | 服务方式：0物流配送，1到店消费 |
 
 
 #### Spec {#应答数据-（巡河记录数组）}
