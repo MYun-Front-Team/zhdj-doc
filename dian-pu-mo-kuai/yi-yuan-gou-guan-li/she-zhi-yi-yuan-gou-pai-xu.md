@@ -19,7 +19,7 @@ http://ip:port/ShopAction/OneBuy/SetOneBuySort
 | :--- | :--- | :--- | :--- |
 | OneBuySysNo|int | 是 |一元购编码 |
 | SortNo| int | 否 |排序 |
-| StartPirce| decimal\(18,2\) | 否 | 一元必砍价 |
+| StartPrice| decimal\(18,2\) | 否 | 一元必砍价 |
 
 
 
