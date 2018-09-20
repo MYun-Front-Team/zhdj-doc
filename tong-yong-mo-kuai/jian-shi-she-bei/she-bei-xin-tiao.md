@@ -19,7 +19,7 @@ http://ip:port/UMAction/DeviceStatus/BeatDevice
 | :--- | :--- | :--- | :--- |
 | DeviceCode| string| 是 | 设备唯一编码 |
 | JsonObj| string| 是 | 备注 |
-| DataRangeSysNo| int| 是 | 数据范围编码 |
+| DataRangeSysNo| int| 否 | 数据范围编码 |
 
 
 
