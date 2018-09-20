@@ -173,6 +173,7 @@
     * [获取设备模板列表](tong-yong-mo-kuai/jian-shi-she-bei/huo-qu-she-bei-jian-kong-mo-ban.md)
     * [获取设备分组列表](tong-yong-mo-kuai/jian-shi-she-bei/huo-qu-she-bei-fen-zu-lie-biao.md)
     * [获取设备分组详情](tong-yong-mo-kuai/jian-shi-she-bei/huo-qu-she-bei-fen-zu-xiang-qing.md)
+    * [添加设备分组](tong-yong-mo-kuai/jian-shi-she-bei/tian-jia-she-bei-fen-zu.md)
   * [PV和UV](tong-yong-mo-kuai/pvhe-up.md)
     * [添加游览](tong-yong-mo-kuai/pvhe-up/tian-jia-you-lan.md)
   * [获取CPS列表](tong-yong-mo-kuai/huo-qu-cps-lie-biao.md)
