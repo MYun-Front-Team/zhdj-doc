@@ -18,7 +18,8 @@ http://ip:port/ShopAction/OneBuy/SetOneBuySort
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | OneBuySysNo|int | 是 |一元购编码 |
-| SortNo| int | 是 |排序 |
+| SortNo| int | 否 |排序 |
+| StartPirce| decimal\(18,2\) | 否 | 一元价 |
 
 
 
