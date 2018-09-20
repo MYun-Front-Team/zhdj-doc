@@ -19,6 +19,7 @@ http://ip:port/UMQuery/DeviceStatus/GetDeviceStatusList
 | DeviceCode| string| 是 | 设备唯一编码 |
 | DataRangeSysNo| int| 是 | 学校数据范围编码 |
 | HeartStatusList|array[int] | 是 |状态（0初始，10正常，9警告，11下线） |
+| GroupSysNo| int| 是 |分组编码 |
 
 
 

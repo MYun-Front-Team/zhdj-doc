@@ -43,6 +43,11 @@ http://ip:port/UMQuery/DeviceStatus/GetDeviceStatusBySysNo
 | TemplateName| string| 是 | 当前模板名称|
 | GroupName| string| 是 | 当前分组名称|
 | GroupSysNo| int | 是 | 当前分组编码|
+| SortNo| int | 是 | 排序|
+| StartDate| datetime| 是 | 开始展示时间|
+| EndDate| datetime| 是 | 结束展示时间|
+
+
 
 
 
