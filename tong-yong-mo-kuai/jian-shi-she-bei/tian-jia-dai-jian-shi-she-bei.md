@@ -19,6 +19,7 @@ http://ip:port/UMAction/DeviceStatus/AddDeviceStatus
 | :--- | :--- | :--- | :--- |
 | DeviceName| string| 是 | 设备名称 |
 | DeviceCode| string| 是 | 设备唯一编码 |
+| DataRangeSysNo| int| 是 | 学校数据范围编码 |
 
 > #### _应答数据（Propertys数组）_ {#应答数据-}
 
