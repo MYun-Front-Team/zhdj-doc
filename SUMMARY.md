@@ -168,6 +168,7 @@
     * [设备心跳](tong-yong-mo-kuai/jian-shi-she-bei/she-bei-xin-tiao.md)
     * [添加待监视设备](tong-yong-mo-kuai/jian-shi-she-bei/tian-jia-dai-jian-shi-she-bei.md)
     * [编辑监视设备](tong-yong-mo-kuai/jian-shi-she-bei/bian-ji-jian-shi-she-bei.md)
+    * [删除监视设备](tong-yong-mo-kuai/jian-shi-she-bei/shan-chu-jian-shi-she-bei.md)
     * [获取监视设备列表](tong-yong-mo-kuai/jian-shi-she-bei/huo-qu-jian-shi-she-bei-lie-biao.md)
     * [获取监视设备详情](tong-yong-mo-kuai/jian-shi-she-bei/huo-qu-jian-shi-she-bei-xiang-qing.md)
     * [获取设备模板列表](tong-yong-mo-kuai/jian-shi-she-bei/huo-qu-she-bei-jian-kong-mo-ban.md)
@@ -178,7 +179,7 @@
     * [删除设备分组](tong-yong-mo-kuai/jian-shi-she-bei/shan-chu-she-bei-fen-zu.md)
     * [添加设备到分组](tong-yong-mo-kuai/jian-shi-she-bei/tian-jia-she-bei-dao-fen-zu.md)
     * [从分组移除设备](tong-yong-mo-kuai/jian-shi-she-bei/cong-fen-zu-yi-chu-she-bei.md)
-    * [调整设备分组](tong-yong-mo-kuai/jian-shi-she-bei/diao-zheng-she-bei-fen-zu.md)
+    * 删除监视设备
   * [PV和UV](tong-yong-mo-kuai/pvhe-up.md)
     * [添加游览](tong-yong-mo-kuai/pvhe-up/tian-jia-you-lan.md)
   * [获取CPS列表](tong-yong-mo-kuai/huo-qu-cps-lie-biao.md)
