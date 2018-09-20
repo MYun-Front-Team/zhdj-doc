@@ -17,7 +17,8 @@ http://ip:port/UMQuery/DeviceStatus/GetDeviceStatusList
 | :--- | :--- | :--- | :--- |
 | DeviceName| string| 是 | 设备名称 |
 | DeviceCode| string| 是 | 设备唯一编码 |
-| DataRangeSysNo| int| 是 | 学校数据范围编码 |
+| DataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表 |
+| IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 | HeartStatusList|array[int] | 是 |状态（0初始，10正常，9警告，11下线） |
 | GroupSysNo| int| 是 |分组编码 |
 
