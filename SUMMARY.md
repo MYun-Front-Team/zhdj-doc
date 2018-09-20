@@ -179,7 +179,7 @@
     * [删除设备分组](tong-yong-mo-kuai/jian-shi-she-bei/shan-chu-she-bei-fen-zu.md)
     * [添加设备到分组](tong-yong-mo-kuai/jian-shi-she-bei/tian-jia-she-bei-dao-fen-zu.md)
     * [从分组移除设备](tong-yong-mo-kuai/jian-shi-she-bei/cong-fen-zu-yi-chu-she-bei.md)
-    * 删除监视设备
+    * [设置监控设备分组](tong-yong-mo-kuai/jian-shi-she-bei/she-zhi-jian-kong-she-bei-fen-zu.md)
   * [PV和UV](tong-yong-mo-kuai/pvhe-up.md)
     * [添加游览](tong-yong-mo-kuai/pvhe-up/tian-jia-you-lan.md)
   * [获取CPS列表](tong-yong-mo-kuai/huo-qu-cps-lie-biao.md)
