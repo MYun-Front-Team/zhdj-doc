@@ -44,5 +44,5 @@ http://ip:port/ShopQuery/OneBuy/GetOneBuyList
 | DataRangeSysNo| int | 是 |店铺范围编码 |
 | ProductGroupSysNo| int | 是 |款编码范围编码 |
 | SortNo| int | 是 |排序 |
-| StartPirce| decimal\(18,2\) | 否 | 一元必砍价 |
+| StartPrice| decimal\(18,2\) | 否 | 一元必砍价 |
 
