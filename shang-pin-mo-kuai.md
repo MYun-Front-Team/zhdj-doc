@@ -66,6 +66,9 @@
 | CPSEndDate | string | 否 | 三方CPS结束推荐 |
 | CPSInOrderCount | int | 否 | 三方CPS评价 |
 | FakeInventoryCount | int | 否 | 可砍份数 |
+| IsTop| int | 是 | 是否置顶|
+
+
 
 > #### Price说明 {#请求数据}
 

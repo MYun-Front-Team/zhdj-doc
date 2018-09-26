@@ -17,10 +17,8 @@ http://ip:port/ProductAction/ProductGroup/SetProductTop
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrganizationSysNo | int | 是 | 组织系统编码 |
-| DataRangeSysNo | int | 否 | 数据范围枝叶编码 |
-| ProductGroupSysNo | int | 是 | 款号系统编码 |
-
+| ProductGroupSysNoList |array[int] | 是 | 款号系统编码 |
+| IsTop| int | 是 | 是否置顶|
 
 
 > #### 应答_数据_ {#请求数据}
