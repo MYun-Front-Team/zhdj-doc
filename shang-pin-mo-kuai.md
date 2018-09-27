@@ -67,6 +67,8 @@
 | CPSInOrderCount | int | 否 | 三方CPS评价 |
 | FakeInventoryCount | int | 否 | 可砍份数 |
 | IsTop| int | 是 | 是否置顶|
+| RewardMP| decimal| 否 | 奖励魔力|
+
 
 
 

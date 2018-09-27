@@ -54,6 +54,13 @@ _**【接口地址】**_
 | ServiceType| int | 否 | 消费方式（0按次数，1按时间） |
 | ServiceOutMinutes| int | 否 | 过期时间（分钟）（0为长期有效）|
 | GroupSysNos| Array[int]| 否 |商品分组|
+| RewardMP| decimal| 否 | 奖励魔力|
+
+
+
+
+
+
 
 
 
