@@ -56,9 +56,8 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderList
 | DetailItems| array[DetailItem]| 是 | 三方订单号|
 | PersonName | string| 是 | 买家人员昵称 |
 | CellPhoneNo| string| 是 | 买家人员手机 |
-
-
-
+| FillSourceOrderCodeTime| datetime| 是 | 填三方订单号时间|
+| CreateTime| datetime| 是 | 创建时间 |
 
 
 

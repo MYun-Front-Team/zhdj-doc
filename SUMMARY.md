@@ -550,6 +550,7 @@
     * [获取订单详情](ding-dan-mo-kuai/lan-jing/huo-qu-ding-dan-xiang-qing.md)
     * [填写三方订单号](ding-dan-mo-kuai/lan-jing/tian-xie-san-fang-ding-dan-hao.md)
     * [买手确认三方订单号](ding-dan-mo-kuai/lan-jing/mai-shou-que-ren-san-fang-ding-dan-hao.md)
+    * [获取商品列表](ding-dan-mo-kuai/lan-jing/huo-qu-shang-pin-lie-biao.md)
 * [交易模块](jiao-yi-mo-kuai.md)
   * [购物车管理](jiao-yi-mo-kuai/gou-wu-che-guan-li.md)
     * [新增购物车](jiao-yi-mo-kuai/xin-zeng-gou-wu-che.md)
