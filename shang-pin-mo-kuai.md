@@ -68,6 +68,8 @@
 | FakeInventoryCount | int | 否 | 可砍份数 |
 | IsTop| int | 是 | 是否置顶|
 | RewardMP| decimal| 否 | 奖励魔力|
+| FakeSaleCount|int| 是 |虚假销量|
+| CPSMaterialUrl|string| 是 |CPS落地页|
 
 
 

@@ -55,6 +55,8 @@ _**【接口地址】**_
 | ServiceOutMinutes| int | 否 | 过期时间（分钟）（0为长期有效）|
 | GroupSysNos| Array[int]| 否 |商品分组|
 | RewardMP| decimal| 否 | 奖励魔力|
+| FakeSaleCount|int| 是 |虚假销量|
+| CPSMaterialUrl|string| 是 |CPS落地页|
 
 
 
