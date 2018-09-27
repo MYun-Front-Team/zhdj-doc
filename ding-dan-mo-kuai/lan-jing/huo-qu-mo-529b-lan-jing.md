@@ -23,32 +23,29 @@ http://ip:port/PointQuery/LJPoint/GetLJPoint
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | Total| Total| 是 | 积分汇总|
-| Items| string | 是 | 款名称 |
+| Items|array[Item]| 是 | 积分明细 |
 
 
 
-#### Sku {#应答数据-（巡河记录数组）}
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| SkuSysNo| int | 是 | SKU系统编码 |
-| SkuName| string | 是 | SKU名称 |
-| Price|Price| 是 | 价格|
-| FileThumbnailUrlList| array string | 是 | sku缩略图 |
-| SourceSkuCode| string | 是 | CPSSKU编码 |
-
-
-
-#### Price {#应答数据-（巡河记录数组）}
+#### Total
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| SalePrice| decimal| 是 | 券后价|
-| MarketPrice| decimal| 是 | 市场价|
-| RewardMP| decimal| 否 | 奖励魔力|
+| PointsValue| decimal| 是 | 当前积分|
+| AvaPointsValue| decimal| 是 | 可用魔力|
+| FroPointsValue| decimal| 是 | 冻结魔力|
+| HisPointsValue| decimal| 是 | 历史魔力|
+| UncPointsValue| decimal| 是 | 不可兑换魔力|
 
 
 
 
+#### Item
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ChangePointsValue| decimal| 是 | 积分（正数/负数）|
+| Remark| string| 是 | 备注|
+| CreateTime| datetime| 是 |创建时间|
 
 
