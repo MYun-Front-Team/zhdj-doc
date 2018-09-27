@@ -50,11 +50,6 @@ http://ip:port/OrderQuery/Order/GetLJOrderList
 | DataRangeSysNo | int | 是 | 数据范围树编码（店铺树） |
 | OrganizationToSysNo | int | 是 | 买家组织系统编码 |
 | PersonSysNo | int | 是 | 买家人员系统编码 |
-| ReceiverName | string | 是 | 收货人 |
-| ReceiverPhone | string | 是 | 收货电话 |
-| ReceiverAddress | string | 是 | 收货地址 |
-| PCDCode | string | 是 | 省市区 代码 |
-| PCDDescription | string | 是 | 省市区 名称 |
 
 
 

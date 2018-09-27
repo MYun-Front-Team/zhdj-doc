@@ -21,6 +21,7 @@ http://ip:port/UMQuery/DeviceStatus/GetDeviceStatusList
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 | HeartStatusList|array[int] | 是 |状态（0初始，10正常，9警告，11下线） |
 | GroupSysNo| int| 是 |分组编码 |
+| TemplateSysNo| int| 是 |模板编码 |
 
 
 
