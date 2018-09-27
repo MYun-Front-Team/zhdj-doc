@@ -547,6 +547,7 @@
   * [获取订单发货单详情](ding-dan-mo-kuai/huo-qu-ding-dan-fa-huo-dan-xiang-qing.md)
   * [蓝晶](ding-dan-mo-kuai/lan-jing.md)
     * [获取订单列表](ding-dan-mo-kuai/lan-jing/huo-qu-ding-dan-lie-biao.md)
+    * [获取订单详情](ding-dan-mo-kuai/lan-jing/huo-qu-ding-dan-xiang-qing.md)
 * [交易模块](jiao-yi-mo-kuai.md)
   * [购物车管理](jiao-yi-mo-kuai/gou-wu-che-guan-li.md)
     * [新增购物车](jiao-yi-mo-kuai/xin-zeng-gou-wu-che.md)
