@@ -10,7 +10,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/OrderQuery/Order/GetLJOrderList
+http://ip:port/OrderQuery/LJOrder/GetLJOrderList
 
 > #### _请求数据_ {#请求数据}
 
@@ -52,10 +52,13 @@ http://ip:port/OrderQuery/Order/GetLJOrderList
 | PersonSysNo | int | 是 | 买家人员系统编码 |
 | OrderStatus| int | 是 | 订单状态（1待填订单号，2等待奖励，10已完成，11已关闭） |
 | WaitCodeSecond| int| 否 | 待填订单号秒数|
-| CPSSysNo| int | 是 | CPS系统编码 |
-| CPSCode| string| 是 | CPS编号 |
 | SourceOrderCode| string| 是 | 三方订单号|
 | DetailItems| array[DetailItem]| 是 | 三方订单号|
+| PersonName | string| 是 | 买家人员昵称 |
+| CellPhoneNo| string| 是 | 买家人员手机 |
+
+
+
 
 
 
@@ -71,6 +74,8 @@ http://ip:port/OrderQuery/Order/GetLJOrderList
 | Const| decimal | 否 | 成本价|
 | RewardMP| decimal | 否 | 奖励魔力|
 | ProductGroupName| string| 否 | 商品名称 |
+| CPSSysNo| int | 是 | CPS系统编码 |
+| CPSCode| string| 是 | CPS编号 |
 
 
 
