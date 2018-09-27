@@ -555,6 +555,8 @@
     * [获取商品详情](ding-dan-mo-kuai/lan-jing/huo-qu-shang-pin-xiang-qing.md)
     * [获取待回填订单汇总信息](ding-dan-mo-kuai/lan-jing/huo-qu-dai-hui-tian-ding-dan-hui-zong-xin-xi.md)
     * [获取魔力/蓝晶](ding-dan-mo-kuai/lan-jing/huo-qu-mo-529b-lan-jing.md)
+    * [获取魔力/蓝晶排行榜](ding-dan-mo-kuai/lan-jing/huo-qu-mo-529b-lan-jing-pai-xing-bang.md)
+    * 魔力合成蓝晶
 * [交易模块](jiao-yi-mo-kuai.md)
   * [购物车管理](jiao-yi-mo-kuai/gou-wu-che-guan-li.md)
     * [新增购物车](jiao-yi-mo-kuai/xin-zeng-gou-wu-che.md)
