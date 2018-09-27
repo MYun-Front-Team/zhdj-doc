@@ -466,6 +466,7 @@
     * [分享优惠券](dian-pu-mo-kuai/you-hui-quan-guan-li/fen-xiang-you-hui-quan.md)
     * [领取分享优惠券](dian-pu-mo-kuai/you-hui-quan-guan-li/ling-qu-fen-xiang-you-hui-quan.md)
     * [撤回分享优惠券](dian-pu-mo-kuai/you-hui-quan-guan-li/che-hui-fen-xiang-you-hui-quan.md)
+    * [获取我的优惠券](dian-pu-mo-kuai/you-hui-quan-guan-li/huo-qu-wo-de-you-hui-quan.md)
   * [视频管理](dian-pu-mo-kuai/shi-pin-guan-li.md)
     * [获取视频列表](dian-pu-mo-kuai/shi-pin-guan-li/huo-qu-shi-pin-lie-biao.md)
     * [获取视频详情](dian-pu-mo-kuai/shi-pin-guan-li/huo-qu-shi-pin-xiang-qing.md)
