@@ -6,6 +6,7 @@
 | :--- | :--- | :--- |
 | 38000100 | 严选联盟CPS报表 | 严选联盟CPS报表 |
 | 38000101 | 严选联盟合伙人CPS报表 | 严选联盟合伙人CPS报表 |
+| 38000102 | 蓝晶CPS报表 | 蓝晶CPS报表 |
 
 
 
@@ -82,6 +83,15 @@
 | FansCount| int| 是 | 数量|
 
 
+> #### 应答数据 （PageResponseBase）【38000102】
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PersonSysNo | int | 是 | 人员系统编码 |
+| PersonName | string | 否 | 昵称 |
+| FileUrlList | array string | 否 | 头像图片列表 |
+| AMPPoints| decimal | 否 | 一级贡献魔力|
+| BMPPoints| decimal | 否 | 二级贡献魔力|
 
 
 

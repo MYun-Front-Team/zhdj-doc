@@ -14,7 +14,7 @@ http://ip:port/PointQuery/LJPoint/GetLJPointRank
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| PointsType| int | 否 |积分类型 |
+| PointsType| int | 否 |积分类型（1蓝晶/2魔力） |
 
 
 
