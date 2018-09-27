@@ -16,8 +16,8 @@ http://ip:port/BasicAction/InvitationCode/GiveInvitationCode
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| PersonSysNo|int| 否 | 人员编码|
-| Count|int| 否 | 邀请码数量|
+| PersonSysNo|int| 是 | 人员编码|
+| Count|int| 是 | 邀请码数量|
 
 
 
