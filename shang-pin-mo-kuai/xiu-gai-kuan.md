@@ -54,8 +54,8 @@ _**【接口地址】**_
 | CPSInOrderCount| int | 否 |三方CPS评价 |
 | FakeInventoryCount| int | 否 |可砍份数 |
 | RewardMP| decimal| 否 | 奖励魔力|
-| FakeSaleCount|int| 是 |虚假销量|
-| CPSMaterialUrl|string| 是 |CPS落地页|
+| FakeSaleCount|int| 否 |虚假销量|
+| CPSMaterialUrl|string| 否|CPS落地页|
 
 
 
