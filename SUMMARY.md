@@ -551,6 +551,8 @@
     * [填写三方订单号](ding-dan-mo-kuai/lan-jing/tian-xie-san-fang-ding-dan-hao.md)
     * [买手确认三方订单号](ding-dan-mo-kuai/lan-jing/mai-shou-que-ren-san-fang-ding-dan-hao.md)
     * [获取商品列表](ding-dan-mo-kuai/lan-jing/huo-qu-shang-pin-lie-biao.md)
+    * [获取商品详情](ding-dan-mo-kuai/lan-jing/huo-qu-shang-pin-xiang-qing.md)
+    * [获取待回填订单汇总信息](ding-dan-mo-kuai/lan-jing/huo-qu-dai-hui-tian-ding-dan-hui-zong-xin-xi.md)
 * [交易模块](jiao-yi-mo-kuai.md)
   * [购物车管理](jiao-yi-mo-kuai/gou-wu-che-guan-li.md)
     * [新增购物车](jiao-yi-mo-kuai/xin-zeng-gou-wu-che.md)
