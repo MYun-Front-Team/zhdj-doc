@@ -39,6 +39,7 @@ http://ip:port/UMQuery/DeviceStatus/GetDeviceStatusList
 | HeartStatus| int | 是 |状态（0初始，10正常，9警告，11下线） |
 | JsonObj| string| 是 | 备注 |
 | GroupInfos|array[GroupInfo] | 是 | 所有相关分组信息|
+| Remark| string| 是 | 描述 |
 
 > #### GroupInfo
 

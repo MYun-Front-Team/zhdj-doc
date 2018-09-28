@@ -19,5 +19,7 @@ http://ip:port/UMAction/DeviceStatus/EditDeviceStatus
 | :--- | :--- | :--- | :--- |
 | DeviceSysNo | int | 是 | 系统编码 |
 | DeviceName| string| 是 | 设备名称 |
+| Remark| string| 是 | 描述 |
+
 
 
