@@ -20,16 +20,22 @@ http://ip:port/ShopAction/OneBuy/AddOneBuy
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo| int | 是 |平台编码 |
 | DataRangeSysNo| int | 是 |店铺范围编码 |
-| ProductGroupSysNoList|array[int] | 是 |款编码范围编码 |
+| ProductGroupList|array[ProductGroup] | 是 |款编码范围编码 |
 | StartTime| datetime | 是 | 开始时间 |
 | EndTime| int | 是 | 结束时间 |
+
+
+
+
+> #### ProductGroup
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ProductGroupSysNo|int | 是 |款编码范围编码 |
 | FakeSaleCount| int | 是 |已经购买|
 | FakeInventoryCount| int | 是 |总份数|
 
 
 
 
-> #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
