@@ -38,6 +38,8 @@ _**【接口地址】**_
 | AddSpecValueList | array object | 否 | 规格值列表（说明见新增） |
 | FileMasterPathList | array string | 否 | 主图图片列表 |
 | ProductPrice | decimal\(18,2\) | 否 | 价格（按规格定价时有效） |
+| Quantity | int | 否 | 库存数量 |
+
 
 > #### 应答_数据_ {#请求数据}
 
