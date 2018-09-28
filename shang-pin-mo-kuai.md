@@ -70,6 +70,12 @@
 | RewardMP| decimal| 否 | 奖励魔力|
 | FakeSaleCount|int| 是 |虚假销量|
 | CPSMaterialUrl|string| 是 |CPS落地页|
+| CPSSysNo | int | 否 | CPS编码 |
+| CPSCode | string| 否 | CPS编码 |
+
+
+
+
 
 
 

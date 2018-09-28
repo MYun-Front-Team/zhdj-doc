@@ -56,6 +56,9 @@ _**【接口地址】**_
 | RewardMP| decimal| 否 | 奖励魔力|
 | FakeSaleCount|int| 否 |虚假销量|
 | CPSMaterialUrl|string| 否|CPS落地页|
+| CPSSysNo | int | 否 | CPS编码 |
+
+
 
 
 
