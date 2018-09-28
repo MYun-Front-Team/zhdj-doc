@@ -502,6 +502,7 @@
     * [编辑一元购时间](dian-pu-mo-kuai/yi-yuan-gou-guan-li/bian-ji-yi-yuan-gou.md)
     * [删除一元购](dian-pu-mo-kuai/yi-yuan-gou-guan-li/shan-chu-yi-yuan-gou.md)
     * [设置一元购排序](dian-pu-mo-kuai/yi-yuan-gou-guan-li/she-zhi-yi-yuan-gou-pai-xu.md)
+    * [设置一元购商品剩余库存](dian-pu-mo-kuai/yi-yuan-gou-guan-li/she-zhi-yi-yuan-gou-shang-pin-sheng-yu-ku-cun.md)
 * [仓库库存模块](cang-ku-ku-cun-mo-kuai.md)
   * [获取仓库库位树](huo-qu-cang-ku-ku-wei-shu.md)
   * [入库](ru-ku.md)

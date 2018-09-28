@@ -1,28 +1,23 @@
-
-# 添加一元购
+# 设置一元购商品剩余库存
 
 ##### _【功能说明】_ {#【功能说明】}
 
-添加一元购
+设置一元购商品剩余库存
 
 _**【应用场景】**_
 
-添加一元购
+设置一元购商品剩余库存
 
 _**【接口地址】**_
 
-http://ip:port/ShopAction/OneBuy/AddOneBuy
+http://ip:port/ShopAction/OneBuy/SetOneBuyStore
 
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrganizationSysNo| int | 是 |平台编码 |
-| DataRangeSysNo| int | 是 |店铺范围编码 |
-| ProductGroupSysNoList|array[int] | 是 |款编码范围编码 |
-| StartTime| datetime | 是 | 开始时间 |
-| EndTime| int | 是 | 结束时间 |
+| OneBuySysNo|int | 是 |一元购编码 |
 | FakeSaleCount| int | 是 |已经购买|
 | FakeInventoryCount| int | 是 |总份数|
 
