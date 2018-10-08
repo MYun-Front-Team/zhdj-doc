@@ -23,21 +23,20 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| DataRangeName| string | 是 | 党委支部名称|
-| ChildrenCount| int| 是 | 孩子党委数|
-| MomentPartyCount| int| 是 | 评论党员数|
-| PartyCount| int| 是 | 党员数|
-| Rate| decimal| 是 | 签到率|
+| HouseMasterPersonName| string | 是 | 户主姓名|
+| DataRanges| array[DataRange]| 是 | 省-市-区……|
+| HouseAddress| string| 是 | 详细地址|
+| HouseMasterCellPhoneNo| string| 是 | 户主手机号|
+| Floors| array[Floor]| 是 | 楼层信息|
 
 
-> #### 应答数据 PageResponseStatistic 【25004100】
+
+#### Floor
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| ChildrenCount| int| 是 | 孩子党委数|
-| MomentPartyCount| int| 是 | 评论党员数|
-| PartyCount| int| 是 | 党员数|
-| Rate| decimal| 是 | 签到率|
+| FloorName| string| 是 | 楼层信息|
+
 
 
 
