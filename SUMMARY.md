@@ -865,6 +865,7 @@
     * [获取学生打卡记录](zhi-hui-jiao-yu/xue-sheng/huo-qu-xue-sheng-da-qia-ji-lu.md)
     * [编辑学生信息](zhi-hui-jiao-yu/xue-sheng/bian-ji-xue-sheng-xin-xi.md)
     * [学生打卡批量](zhi-hui-jiao-yu/xue-sheng/xue-sheng-da-qia-pi-liang.md)
+    * [获取学生每日考勤报表](zhi-hui-jiao-yu/xue-sheng/huo-qu-xue-sheng-mei-ri-kao-qin-bao-biao.md)
   * [家长](zhi-hui-jiao-yu/jia-chang.md)
     * [添加学生](zhi-hui-jiao-yu/tian-jia-xue-sheng.md)
     * [获取学生家长列表](zhi-hui-jiao-yu/huo-qu-xue-sheng-jia-chang-lie-biao.md)

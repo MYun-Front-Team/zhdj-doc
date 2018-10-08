@@ -59,6 +59,8 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderList
 | CellPhoneNo| string| 是 | 买家人员手机 |
 | FillSourceOrderCodeTime| datetime| 是 | 填三方订单号时间|
 | CreateTime| datetime| 是 | 创建时间 |
+| TotalPrice| decimal | 否 | 总价|
+| TotalRewardMP| decimal | 否 | 总奖励魔力|
 
 
 
