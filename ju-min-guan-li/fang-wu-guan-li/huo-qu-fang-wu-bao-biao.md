@@ -34,6 +34,7 @@ http://ip:port/ResidentQuery/House/GetHouseReport
 | HouseMasterCellPhoneNo| string| 是 | 户主手机号|
 | Floors| array[Floor]| 是 | 楼层信息|
 | Rooms| array[Room]| 是 | 房间信息|
+| Propertys | array object | 否 | 房屋属性列表 |
 
 
 
