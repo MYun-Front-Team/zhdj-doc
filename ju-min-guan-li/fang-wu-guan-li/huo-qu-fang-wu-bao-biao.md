@@ -33,7 +33,7 @@ http://ip:port/ResidentQuery/House/GetHouseReport
 | HouseAddress| string| 是 | 详细地址|
 | HouseMasterCellPhoneNo| string| 是 | 户主手机号|
 | Floors| array[Floor]| 是 | 楼层信息|
-| Rooms| array[Floor]| 是 | 房间信息|
+| Rooms| array[Room]| 是 | 房间信息|
 
 
 
