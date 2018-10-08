@@ -1,11 +1,16 @@
-# 居民报表
+# 获取房屋报表
 
-#### 页面编号枚举说明 {#请求数据}
+##### _【功能说明】_ {#【功能说明】}
 
-| 页编码 | 模块说明 | 页面说明 |
-| :--- | :--- | :--- |
-| 25004100 | 居民报表按房屋| 居民报表按房屋 |
+获取房屋列表
 
+_**【应用场景】**_
+
+获取房屋列表
+
+_**【接口地址】**_
+
+http://ip:port/ResidentQuery/House/GetHouseReport
 
 
 
@@ -28,15 +33,8 @@
 | HouseAddress| string| 是 | 详细地址|
 | HouseMasterCellPhoneNo| string| 是 | 户主手机号|
 | Floors| array[Floor]| 是 | 楼层信息|
-| Rooms| array[Floor]| 是 | 楼层信息|
+| Rooms| array[Floor]| 是 | 房间信息|
 
-
-#### Floor
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| FloorName| string| 是 | 楼层信息|
-| Propertys | array object | 否 | 楼层属性列表 |
 
 
 
