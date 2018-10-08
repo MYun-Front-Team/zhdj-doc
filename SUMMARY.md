@@ -4,8 +4,8 @@
 
 * [总览](README.md)
 * [命名规则](tt.md)
-* [全局规则](quan-ju-gui-ze.md)
 * [模块类型枚举说明](zi-xun-mo-kuai-lei-xing-mei-ju-shuo-ming.md)
+* [全局规则](quan-ju-gui-ze.md)
 
 ## Methods
 
@@ -696,6 +696,7 @@
     * [新闻报表](bao-biao-mo-kuai/xin-wen-bao-biao.md)
     * [CPS粉丝报表](bao-biao-mo-kuai/cpsfen-si-bao-biao.md)
     * [学习报表](bao-biao-mo-kuai/xue-xi-bao-biao.md)
+    * [居民报表](bao-biao-mo-kuai/fang-wu-bao-biao.md)
 * [投票模块](tou-piao-mo-kuai.md)
   * [获取投票列表](tou-piao-mo-kuai/huo-qu-tou-piao-lie-biao.md)
   * [获取投票详情](tou-piao-mo-kuai/huo-qu-tou-piao-xiang-qing.md)
