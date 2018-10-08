@@ -14,7 +14,7 @@ http://ip:port/ResidentQuery/House/GetHouseReport
 
 
 
-> #### 请求数据（PageRequestData）_ {#请求数据}
+> #### 请求数据
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -24,7 +24,7 @@ http://ip:port/ResidentQuery/House/GetHouseReport
 
 
 
-> #### 应答数据 （PageResponseBase）【25004100】
+> #### 应答数据 
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
