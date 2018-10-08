@@ -9,7 +9,7 @@
 | DataRangeSysNo | int | 是 | 数据范围树编码（店铺树） |
 | OrganizationToSysNo | int | 是 | 买家组织系统编码 |
 | PersonSysNo | int | 是 | 买家人员系统编码 |
-| OrderType | int | 是 | 订单类型：23001普通订单，23002预采购订单（点东东），23003采购单（翰想汇）,23004积分单，23005 CPS单，23006砍价单 |
+| OrderType | int | 是 | 订单类型：23001普通订单，23002预采购订单（点东东），23003采购单（翰想汇）,23004积分单，23005 CPS单，23006砍价单，23007蓝晶专用普通单 |
 | OrderClassSysNo | int | 是 | 订单分类：0正常订单，1合单订单，2拆单订单 |
 | RelativeOrderSysNo | int | 否 | 合单，存储 To 关系；拆单，存储 From 关系 |
 | OrderCode | string | 是 | 订单号 |
