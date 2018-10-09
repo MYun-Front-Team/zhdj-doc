@@ -31,6 +31,13 @@ _**【接口地址】**_
 | HousePathList | array string | 否 | 房屋图片路径列表 |
 | TwoRoundElectrombile | int | 否 | 二轮电动车 |
 | ThreeRoundElectrombile | int | 否 | 三轮电动车 |
+| Longitude | decimal| 否 |经度 |
+| Latitude| decimal| 否 |纬度 |
+| HouseNumber | string | 否 | 门牌号 |
+
+
+
+
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 

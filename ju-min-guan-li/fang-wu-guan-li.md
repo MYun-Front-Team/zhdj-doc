@@ -23,6 +23,12 @@
 | PatrolHouseList | array object | 否 | 巡查记录列表 |
 | TwoRoundElectrombile | int | 否 | 二轮电动车 |
 | ThreeRoundElectrombile | int | 否 | 三轮电动车 |
+| Longitude | decimal| 否 |经度 |
+| Latitude| decimal| 否 |纬度 |
+| HouseNumber | string | 否 | 门牌号 |
+
+
+
 
 > #### 统计计算字段 {#请求数据}
 
