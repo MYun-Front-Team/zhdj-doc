@@ -15,7 +15,7 @@ http://ip:port/OrderAction/LJOrder/ConfirmSourceLJOrderCode
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrderSysNo | int | 否 | 订单系统编码 |
+| OrderSysNoList |array[int] | 否 | 订单系统编码 |
 | IsCorrect| int| 是 | 是否正确|
 
 
