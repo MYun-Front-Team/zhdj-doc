@@ -53,3 +53,4 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderBySysNo
 | ProductGroupName| string| 否 | 商品名称 |
 | CPSSysNo| int | 是 | CPS系统编码 |
 | CPSCode| string| 是 | CPS编号 |
+| FileThumbnailUrlList| array string | 是 | 款缩略图 |
