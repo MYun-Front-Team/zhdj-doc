@@ -116,6 +116,7 @@
 |InParkStatusList|Array\[int\] | 否 | 状态（潜在客户，已入驻，已签出） |
 |SellerClassSysNoList|Array\[int\] | 否 | 商家类别系统编码（类目树） |
 |ParkRoomTypeList |array int | 是 |房间类型|
+| IfHasNotice| int | 否 |是否已经通知|
 
 
 
