@@ -56,8 +56,8 @@ _**【接口地址】**_
 | Person | object | 是 | 人员实体对象 |
 | OrganizationList | array object | 是 | 组织列表 |
 | AccessToken | string | 是 | 登录授权Token |
-| InvitationCode  | string | 否 | 邀请码 |
 | CPSInfos| array CPSInfo| 否 | CPS信息|
+| RewardMP| decimal | 否 | 奖励魔力|
 
 
 #### Person说明_ （简要，需要全部字段请调用“获取个人信息”接口）_ {#应答数据-（巡河记录数组）}
