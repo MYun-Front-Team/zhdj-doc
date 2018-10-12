@@ -691,6 +691,7 @@
     * [导入干部和党支部](ju-min-guan-li/min-bing-gan-90e8-dang-zhi-bu/dao-ru-gan-bu-he-dang-zhi-bu.md)
     * [编辑干部和党支部](ju-min-guan-li/min-bing-gan-90e8-dang-zhi-bu/bian-ji-gan-bu-he-dang-zhi-bu.md)
     * [删除民兵干部和党支部](ju-min-guan-li/min-bing-gan-90e8-dang-zhi-bu/shan-chu-min-bing-gan-bu-he-dang-zhi-bu.md)
+    * [获取民兵地图](ju-min-guan-li/min-bing-gan-90e8-dang-zhi-bu/huo-qu-min-bing-di-tu.md)
   * [军人名册](ju-min-guan-li/jun-ren-ming-ce.md)
     * [获取军人名册列表](ju-min-guan-li/jun-ren-ming-ce/huo-qu-xin-bing-hua-ming-ce.md)
     * [获取军人名册详情](ju-min-guan-li/jun-ren-ming-ce/huo-qu-xin-bing-hua-ming-ce-xiang-qing.md)
