@@ -10,7 +10,7 @@ _**【应用场景】**_
 
 
 _**【接口地址】**_
-http://ip:port/PointAction/LJPoint/ChangeLJPoint
+http://ip:port/PointsAction/LJPoint/ChangeLJPoint
 
 
 > #### _请求数据_ {#请求数据}

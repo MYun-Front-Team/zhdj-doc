@@ -8,7 +8,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/PointQuery/LJPoint/GetLJPointRank
+http://ip:port/PointsQuery/LJPoint/GetLJPointRank
 
 > #### _请求数据_ {#请求数据}
 
