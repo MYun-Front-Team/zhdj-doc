@@ -52,6 +52,7 @@ http://ip:port/ProductQuery/LJProductGroup/GetLJProductGroupList
 | FileUrlList | array string | 否 | 买手头像图片列表 |
 
 
+
 #### Sku {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
