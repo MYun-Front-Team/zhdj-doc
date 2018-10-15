@@ -19,6 +19,11 @@ http://ip:port/BasicAction/InvitationCode/UseInvitationCode
 | PersonSysNo|int| 是 | 人员编码|
 | InvitationCode| string| 否 | 邀请码|
 
+> #### _请求数据_ {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| RewardMP|decimal| 是 | 当前魔力|
 
 
 
