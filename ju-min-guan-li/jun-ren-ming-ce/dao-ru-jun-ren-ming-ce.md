@@ -25,7 +25,7 @@ http://ip:port/ResidentAction/Resident/ImportResidentSoldierYear
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| DataRangeSysNo| int | 是 | 数据范围树编码 |
+| DataRangeName| string | 是 | 数据范围树名称 |
 | Year| int | 是 | 年度 |
 | Sex| int | 是 | 性别：1男，2女 |
 | Name| string | 是 | 姓名 |
