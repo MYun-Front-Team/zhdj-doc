@@ -28,7 +28,6 @@ http://ip:port/ResidentAction/Resident/ImportResidentSoldier
 | District | string | 是 | 区 |
 | Street | string | 是 | 街道|
 | Community | string | 是 | 社区|
-| Village | string | 是 | 小区|
 | Sex| int | 是 | 性别：1男，2女 |
 | Name| string | 是 | 姓名 |
 | CellPhoneNo| string  | 是 | 手机号|
