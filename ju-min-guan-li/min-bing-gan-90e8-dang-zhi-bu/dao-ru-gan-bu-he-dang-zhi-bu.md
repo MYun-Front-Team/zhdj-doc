@@ -23,7 +23,12 @@ http://ip:port/ResidentAction/Resident/ImportResidentSoldier
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| DataRangeName| string | 是 | 数据范围树名称 |
+| Province | string | 是 | 省 |
+| City | string | 是 | 市 |
+| District | string | 是 | 区 |
+| Street | string | 是 | 街道|
+| Community | string | 是 | 社区|
+| Village | string | 是 | 小区|
 | Sex| int | 是 | 性别：1男，2女 |
 | Name| string | 是 | 姓名 |
 | CellPhoneNo| string  | 是 | 手机号|
