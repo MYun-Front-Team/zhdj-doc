@@ -56,5 +56,18 @@ http://ip:port/UMQuery/Comment/GetCommentList
 | IsShowModuleRelation | int | 否 | 是否显示模块信息 |
 | IsShowAuditRecord | int | 否 | 是否显示回复记录 |
 
+#### ModuleRelation 
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ModuleSysNo | int | 是 | 模块编码 |
+| ModuleSourceType | int | 否 | 来源类型 |
+| ModuleSourceClass | int | 否 | 来源分类 |
+| ModuleSourceSysNo | int | 否 | 来源系统编码 |
+| ModuleSourceTitle| string| 否 | 来源标题|
+
+
+
+
 
 
