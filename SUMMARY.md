@@ -249,6 +249,7 @@
   * [设置微信OPENID的上级邀请码](ji-chu-mo-kuai/she-zhi-wei-xin-openid-de-shang-ji-yao-qing-ma.md)
   * [新增人员](ji-chu-mo-kuai/xin-zeng-ren-yuan.md)
   * [获取人员列表](ji-chu-mo-kuai/huo-qu-ren-yuan-lie-biao.md)
+  * [获取上级用户](ji-chu-mo-kuai/huo-qu-shang-ji-yong-hu.md)
 * [邀请码管理](tong-yong-mo-kuai/yao-qing-ma-guan-li.md)
   * [获取邀请码列表](tong-yong-mo-kuai/yao-qing-ma-guan-li/huo-qu-yao-qing-ma-lie-biao.md)
   * [给用户分配邀请码](tong-yong-mo-kuai/yao-qing-ma-guan-li/gei-yong-hu-fen-pei-yao-qing-ma.md)
