@@ -254,6 +254,7 @@
   * [获取邀请码列表](tong-yong-mo-kuai/yao-qing-ma-guan-li/huo-qu-yao-qing-ma-lie-biao.md)
   * [给用户分配邀请码](tong-yong-mo-kuai/yao-qing-ma-guan-li/gei-yong-hu-fen-pei-yao-qing-ma.md)
   * [获取邀请码对应的人员](tong-yong-mo-kuai/yao-qing-ma-guan-li/huo-qu-yao-qing-ma-dui-ying-de-ren-yuan.md)
+  * [使用邀请码](tong-yong-mo-kuai/yao-qing-ma-guan-li/shi-yong-yao-qing-ma.md)
 * [朋友圈模块](peng-you-quan-mo-kuai.md)
   * [获取朋友圈列表](peng-you-quan-mo-kuai/huo-qu-peng-you-quan-lie-biao.md)
   * [获取朋友圈详情](peng-you-quan-mo-kuai/huo-qu-peng-you-quan-xiang-qing.md)
