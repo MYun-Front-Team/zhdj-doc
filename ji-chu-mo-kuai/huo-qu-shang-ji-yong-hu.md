@@ -22,7 +22,7 @@ http://ip:port/BasicQuery/Basic/GetFatherPerson
 | :--- | :--- | :--- | :--- |
 | PersonSysNo | int | 是 | 人员系统编码 |
 
-> #### 应答数据 （PageResponseBase）【38000100】
+> #### 应答数据 
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
