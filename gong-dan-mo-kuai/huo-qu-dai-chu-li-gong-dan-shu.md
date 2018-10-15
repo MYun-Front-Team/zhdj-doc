@@ -25,7 +25,7 @@ http://ip:port/WorkQuery/Work/GetWorkCountList
 | :--- | :--- | :--- | :--- |
 | PersonSysNo| int| 是 | 人员编码 |
 | RealName| string| 否 | 名字|
-| WorkCount| int| 是 | 工单数 |
+| Count| int| 是 | 工单数 |
 | LastCreateTime| datetime| 是 |最新单据时间 |
 
 
