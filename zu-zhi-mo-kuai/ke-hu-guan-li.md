@@ -24,6 +24,9 @@
 | CustomerPersonSysNo | string | 否 | 客户老板系统编码 |
 | CustomerPersonFileUrlList|array string | 否 | 客户老板头像 |
 | CustomerPersonFileUrlList|array string | 否 | 客户老板头像 |
+| CustomerPCDCode | string | 否 | 客户省市区 |
+| CustomerPCDDescription | string | 否 | 客户省市区 |
+| CustomerBirthDay | string | 否 | 客户生日|
 | TagList | array object | 否 | 标签列表（说明见通用） |
 | IsPartner| int | 是 |是否合伙人|
 
