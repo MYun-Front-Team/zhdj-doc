@@ -48,7 +48,7 @@ http://ip:port/BasicQuery/Basic/GetPersonBySysNo
 | IDCard | string | 否 | 身份证 |
 | Nation | string | 否 | 民族 |
 | Origin | string | 否 | 籍贯 |
-| Education | int | 否 | 学历：0未知,1小学,2初中,3中转,4高中,5专科,6本科,7硕士,8博士 |
+| Education | int | 否 | 学历：0未知,1小学,2初中,3中转,4高中,5专科,6本科,7硕士,8博士,9其它，20硕士生班，21中央党校研究生，22省（区、市）委党校研究生，23大学，24第二学士学位班，25中央党校大学，26省（区、市）委党校大学，27中央党校大专，28省（区、市）委党校大专，29职业高中，30技术学校 |
 | FileUrlList | array string | 否 | 头像图片列表 |
 | PersonIDPhotoUrlList | array string | 否 | 证件照图片列表 |
 | PersonProfile | string | 否 | 个人简介 |
