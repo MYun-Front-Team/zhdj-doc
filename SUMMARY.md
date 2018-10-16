@@ -844,6 +844,7 @@
     * [删除](zhi-hui-jiao-yu/ban-ji/shan-chu.md)
     * [设置班级图片](zhi-hui-jiao-yu/ban-ji/she-zhi-ban-ji-tu-pian.md)
     * [获取班级日课程列表](zhi-hui-jiao-yu/ban-ji/huo-qu-ban-ji-ri-ke-cheng-lie-biao.md)
+    * [设置临时课表](zhi-hui-jiao-yu/ban-ji/she-zhi-lin-shi-ke-biao.md)
   * [教师](zhi-hui-jiao-yu/jiao-shi.md)
     * [获取教师列表](zhi-hui-jiao-yu/huo-qu-jiao-shi-lie-biao.md)
     * [获取教师详情](zhi-hui-jiao-yu/huo-qu-jiao-shi-xiang-qing.md)
