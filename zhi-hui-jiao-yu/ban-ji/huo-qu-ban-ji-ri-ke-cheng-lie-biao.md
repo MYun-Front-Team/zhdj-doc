@@ -10,7 +10,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-[http://ip:port/EduQuery/Class/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)ClassDayCourseList
+http://ip:port/EduQuery/Class/GetClassDayCourseList
 
 > #### _请求数据_ {#请求数据}
 
