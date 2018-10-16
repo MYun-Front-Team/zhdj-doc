@@ -1,4 +1,4 @@
-# 回复工单 {#新增河流}
+# 回复工单
 
 ##### _【功能说明】_ {#【功能说明】}
 
@@ -16,7 +16,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-[http://ip:port/WorkAction/](http://ip:port/HMAction/River/AddRiver)Work/ReplyWork
+http://ip:port/WorkAction/Work/ReplyWork
 
 > #### _请求数据_ {#请求数据}
 

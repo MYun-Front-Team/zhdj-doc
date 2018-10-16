@@ -9,8 +9,7 @@ _**【应用场景】**_
 获取工单列表
 
 _**【接口地址】**_
-
-[http://ip:port/WorkQuery/Work/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)WorkList
+http://ip:port/WorkQuery/Work/GetWorkList
 
 > #### _请求数据_ {#请求数据}
 
