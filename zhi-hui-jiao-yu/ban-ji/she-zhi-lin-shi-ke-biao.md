@@ -27,7 +27,6 @@ http://ip:port/EduAction/Class/SetClassDayCourseTemp
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ClassDayCourseSysNo| int | 是 | 课表系统编码 |
-| DayWeek | int | 是 | 星期（如周一） |
 | CourseSysNo | int | 是 | 课程系统编码 |
 
 
