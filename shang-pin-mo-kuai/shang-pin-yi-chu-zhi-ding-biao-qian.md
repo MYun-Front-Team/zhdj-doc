@@ -19,6 +19,7 @@ http://ip:port/ProductAction/ProductGroup/RemoveProductTag
 | :--- | :--- | :--- | :--- |
 | TagSysNos|array[int] | 是 | 标签编码 |
 | ProductGroupSysNos|array[int] | 是 | 款编码 |
+| OrganizationSysNo | int | 是 | 组织系统编码 |
 
 
 
