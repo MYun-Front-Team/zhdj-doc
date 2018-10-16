@@ -157,6 +157,7 @@
 | OnSaleStatusList | array int | 否 | 上下状态:0待上架 1上架 2下架 3部分上架 4停售 |
 | TouristOrganizationSysNo | int | 否 | 游客组织系统编码（传0即为游客） |
 | TagSysNoLIst | array int | 否 | 标签系统编码列表 |
+| NotInTagSysNoLIst | array int | 否 | 不在标签系统编码列表 |
 | IsTagProduct | int | 否 | 是否显示含有标签的商品 |
 | IsHidden | int | 否 | 是否隐藏 |
 | ShopPCDCode | string | 否 | 店铺PCD代码 |
