@@ -62,6 +62,17 @@ http://ip:port/ProductQuery/LJProductGroup/GetLJProductGroupList
 | Price|Price| 是 | 价格|
 | FileThumbnailUrlList| array string | 是 | sku缩略图 |
 | SourceSkuCode| string | 是 | CPSSKU编码 |
+| SkuInventory| SkuInventory | 是 | 库存信息|
+
+
+#### SkuInventory
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PhysicalQuantity| int| 是 | 物理库存|
+| AvailableQuantity| int| 是 | 可用库存|
+| OrderLockQuantity| int| 是 | 锁定库存|
+
 
 
 

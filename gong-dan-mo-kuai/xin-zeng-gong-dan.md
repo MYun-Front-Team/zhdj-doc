@@ -12,7 +12,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-[http://ip:port/WorkAction/](http://ip:port/HMAction/River/AddRiver)Work/AddWork
+http://ip:port/WorkAction/Work/AddWork
 
 > #### _请求数据_ {#请求数据}
 
