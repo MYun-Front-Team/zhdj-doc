@@ -46,6 +46,7 @@ http://ip:port/UMQuery/Comment/GetCommentList
 | AuditRecord | object | 否 | 回复实体（同审核） |
 | AuditStatus | int | 否 | 回复状态：0否，1是 |
 | SemesterSysNo | int | 否 | 学期系统编码 |
+| ShowStatus| int | 否 | 显示状态：0不显示，1显示 |
 
 
 
