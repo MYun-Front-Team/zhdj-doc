@@ -34,6 +34,7 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderBySysNo
 | CellPhoneNo| string| 是 | 买家人员手机 |
 | FillSourceOrderCodeTime| datetime| 是 | 填三方订单号时间|
 | CreateTime| datetime| 是 | 创建时间 |
+|CommentStatus|int | 是 | 评价状态（0未评价，10已经评价）|
 
 
 
