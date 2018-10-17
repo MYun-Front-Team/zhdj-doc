@@ -15,6 +15,10 @@ http://ip:port/PointsQuery/LJPoint/GetLJPoint
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PointsType| int | 否 |积分类型（1蓝晶/2魔力） |
+| PersonSysNo| int | 否 |人员系统编码 |
+
+
+
 
 
 
