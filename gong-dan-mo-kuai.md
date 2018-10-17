@@ -79,6 +79,8 @@
 | GridSysNo | int | 否 | 网格系统编码（房管家） |
 | HouseKeyWord | string | 否 | 房屋关键字（房管家） |
 | HouseDataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表 |
+| ToPersonCardNo | string | 否 | 卡号|
+
 
 > #### 查询Limit字段 {#请求数据}
 
