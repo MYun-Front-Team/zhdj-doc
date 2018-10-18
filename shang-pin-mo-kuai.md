@@ -72,7 +72,8 @@
 | CPSMaterialUrl|string| 是 |CPS落地页|
 | CPSSysNo | int | 否 | CPS编码 |
 | CPSCode | string| 否 | CPS编码 |
-
+| SourceCPSSysNo|int| 是 |来源三方CPS|
+| SourceCPSCode|string| 是 |来源跳转三方CPSCode|
 
 
 

@@ -58,6 +58,7 @@ _**【接口地址】**_
 | FakeSaleCount|int| 否 |虚假销量|
 | CPSMaterialUrl|string| 否 |CPS落地页|
 | CPSSysNo | int | 否 | CPS编码 |
+| SourceCPSSysNo|int| 是 |来源三方CPS|
 
 
 
