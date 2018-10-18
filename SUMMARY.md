@@ -373,6 +373,7 @@
     * [砍价设置为待下单](shang-pin-mo-kuai/fu-li-shang-cheng-huo-qu-shang-pin-lie-biao/kan-jia-she-zhi-wei-dai-xia-dan.md)
     * [获取砍价详情（超级快）](shang-pin-mo-kuai/fu-li-shang-cheng-huo-qu-shang-pin-lie-biao/huo-qu-kan-jia-xiang-qing-ff08-chao-ji-kuai-ff09.md)
     * [严选专用设置价格](shang-pin-mo-kuai/fu-li-shang-cheng-huo-qu-shang-pin-lie-biao/huo-qu-lan-6676-mo-li.md)
+    * [获取CPS回填订单列表](shang-pin-mo-kuai/fu-li-shang-cheng-huo-qu-shang-pin-lie-biao/huo-qu-cps-hui-tian-ding-dan-lie-biao.md)
   * [批量设置商品品牌](shang-pin-mo-kuai/pi-liang-she-zhi-shang-pin-pin-pai.md)
   * [商品置顶](shang-pin-mo-kuai/shang-pin-zhi-ding.md)
   * [商品移除指定标签](shang-pin-mo-kuai/shang-pin-yi-chu-zhi-ding-biao-qian.md)
