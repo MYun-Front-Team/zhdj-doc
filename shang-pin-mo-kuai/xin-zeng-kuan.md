@@ -61,6 +61,7 @@ _**【接口地址】**_
 | SourceCPSSysNo|int| 是 |来源三方CPS|
 | CPSStartDate | string | 否 | 三方CPS开始推荐 |
 | CPSEndDate | string | 否 | 三方CPS结束推荐 |
+| CPSInOrderCount | int | 否 | 三方CPS评价 |
 
 
 
