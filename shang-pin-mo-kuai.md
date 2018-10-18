@@ -76,6 +76,7 @@
 | SourceCPSName|string| 是 |来源跳转三方名称|
 | CPSCommissionRate | int | 否 | 佣金比率 |
 | CPSCommission | int | 否 | 佣金 |
+| SourceProductGroupCode|string| 是 |来源三方编码|
 
 
 
