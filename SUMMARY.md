@@ -372,7 +372,7 @@
     * [获取商品推荐列表（福狸商城）](shang-pin-mo-kuai/fu-li-shang-cheng-huo-qu-shang-pin-lie-biao/huo-qu-shang-pin-tui-jian-lie-biao-ff08-fu-li-shang-cheng-ff09.md)
     * [砍价设置为待下单](shang-pin-mo-kuai/fu-li-shang-cheng-huo-qu-shang-pin-lie-biao/kan-jia-she-zhi-wei-dai-xia-dan.md)
     * [获取砍价详情（超级快）](shang-pin-mo-kuai/fu-li-shang-cheng-huo-qu-shang-pin-lie-biao/huo-qu-kan-jia-xiang-qing-ff08-chao-ji-kuai-ff09.md)
-    * [获取蓝晶/魔力](shang-pin-mo-kuai/fu-li-shang-cheng-huo-qu-shang-pin-lie-biao/huo-qu-lan-6676-mo-li.md)
+    * [严选专用设置价格](shang-pin-mo-kuai/fu-li-shang-cheng-huo-qu-shang-pin-lie-biao/huo-qu-lan-6676-mo-li.md)
   * [批量设置商品品牌](shang-pin-mo-kuai/pi-liang-she-zhi-shang-pin-pin-pai.md)
   * [商品置顶](shang-pin-mo-kuai/shang-pin-zhi-ding.md)
   * [商品移除指定标签](shang-pin-mo-kuai/shang-pin-yi-chu-zhi-ding-biao-qian.md)
