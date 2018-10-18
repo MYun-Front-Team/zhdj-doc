@@ -59,8 +59,8 @@ _**【接口地址】**_
 | CPSMaterialUrl|string| 否 |CPS落地页|
 | CPSSysNo | int | 否 | CPS编码 |
 | SourceCPSSysNo|int| 是 |来源三方CPS|
-
-
+| CPSStartDate | string | 否 | 三方CPS开始推荐 |
+| CPSEndDate | string | 否 | 三方CPS结束推荐 |
 
 
 
