@@ -8,7 +8,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/UMAction/PriceGroup/SetPriceGroup
+http://ip:port/UMAction/PriceGroup/SetFLPriceGroup
 
 
 
