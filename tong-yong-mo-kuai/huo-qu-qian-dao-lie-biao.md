@@ -28,7 +28,9 @@ http://ip:port/UMQuery/Sign/GetSignList
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | SignItems | array[SignItem] | 否 | 签到明细|
-| SignDay | int | 否 | 连续签到天数 |
+| SignDay | int | 否 | 累计签到天数 |
+| ContinDay | int | 否 | 连续天数 |
+
 
 #### SignItem
 
