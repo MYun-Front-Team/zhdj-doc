@@ -20,7 +20,7 @@ http://ip:port/UMAction/PriceGroup/SetPriceGroup
 | SkuSysNo| int | 否 | SKU系统编码 |
 | CommissionRate | decimal\(18,4\) | 否 | 佣金比例 |
 | SalePrice | decimal\(18,2\) | 否 | 销售价 |
-
+ 
 
 
 
