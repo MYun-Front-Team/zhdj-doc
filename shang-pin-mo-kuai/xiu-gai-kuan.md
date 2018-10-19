@@ -61,6 +61,11 @@ _**【接口地址】**_
 | CPSStartDate | string | 否 | 三方CPS开始推荐 |
 | CPSEndDate | string | 否 | 三方CPS结束推荐 |
 | SourceProductGroupCode|string| 是 |来源三方编码|
+| TaoWord|string| 是 |淘口令|
+
+
+
+
 
 
 

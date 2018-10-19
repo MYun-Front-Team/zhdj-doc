@@ -63,7 +63,7 @@ _**【接口地址】**_
 | CPSEndDate | string | 否 | 三方CPS结束推荐 |
 | CPSInOrderCount | int | 否 | 三方CPS评价 |
 | SourceProductGroupCode|string| 是 |来源三方编码|
-
+| TaoWord|string| 是 |淘口令|
 
 
 
