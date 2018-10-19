@@ -1,11 +1,10 @@
-# 获取商品推荐列表（福狸商城）
+# 获取商品推荐列表
 
-获取商品推荐列表（福狸商城）
+获取商品推荐列表
 
 _**【应用场景】**_
 
-获取商品推荐列表（福狸商城）
-
+获取商品推荐列表
 _**【接口地址】**_
 
 http://ip:port/ProductQuery/LJProductGroup/GetLJRecommendList
