@@ -31,6 +31,7 @@ http://ip:port/ResidentQuery/Resident/GetResidentSoldierMap
 | Items| array[Item]| 是 |人数信息|
 
 
+
 #### Item
 
 | 变量名 | 类型 | 是否必须 | 描述 |
