@@ -52,7 +52,6 @@ http://ip:port/OrderQuery/FLOrder/GetFLOrderBySysNo
 | UnitPrice| decimal | 否 | 单价|
 | RealPrice| decimal | 否 | 总价|
 | Const| decimal | 否 | 成本价|
-| RewardMP| decimal | 否 | 奖励魔力|
 | ProductGroupName| string| 否 | 商品名称 |
 | SourceCPSSysNo| int | 是 | 来源CPS系统编码 |
 | SourceCPSName| string| 是 | 来源CPS名称 |
