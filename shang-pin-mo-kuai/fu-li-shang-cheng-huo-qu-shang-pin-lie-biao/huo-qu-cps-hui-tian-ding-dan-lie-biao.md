@@ -73,6 +73,8 @@ http://ip:port/OrderQuery/FLOrder/GetFLOrderList
 | SourceCPSName| string| 是 | 来源CPS名称 |
 | SourceCPSCode| string| 是 | 来源CPSCode |
 | FileThumbnailUrlList| array string | 是 | 款缩略图 |
+| SourceProductGroupCode| string| 是 | 三方款编码 |
+
 
 
 
