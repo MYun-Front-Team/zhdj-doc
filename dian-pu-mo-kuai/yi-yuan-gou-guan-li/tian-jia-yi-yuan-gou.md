@@ -34,7 +34,7 @@ http://ip:port/ShopAction/OneBuy/AddOneBuy
 | ProductGroupSysNo|int | 是 |款编码范围编码 |
 | FakeSaleCount| int | 是 |已经购买|
 | FakeInventoryCount| int | 是 |总份数|
-| SalePrice | decimal\(18,2\) | 否 | 销售价 |
+| SalePrice | decimal\(18,2\) | 否 | 必砍价 |
 
 
 
