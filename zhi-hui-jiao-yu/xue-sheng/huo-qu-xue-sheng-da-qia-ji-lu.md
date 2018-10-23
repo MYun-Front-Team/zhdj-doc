@@ -18,8 +18,12 @@ http://ip:port/EduQuery/Student/GetStudentSignList
 | :--- | :--- | :--- | :--- |
 | IsAgent | int | 否 | 是否显示自己代理人的消息 |
 | StudentSysNo| int | 否 | 学生编码 |
-
-
+| StartSignTime| datetime| 否 | 开始时间|
+| EndSignTime| int | 否 | 结束时间 |
+| CardNo| string| 是 | 卡号 |
+| SignTypeList| int| 否 | 0进校/1出校 |
+| DataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表 |
+| IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
@@ -33,6 +37,11 @@ http://ip:port/EduQuery/Student/GetStudentSignList
 | FileUrlList|array string| 否 | 图片|
 | CreateTime| datetime| 是 | 时间 |
 | PersonName| string| 是 | 人员名称|
+| SignType| int| 否 | 0进校/1出校 |
+| SignTime| datetime| 否| 打卡时间 |
+| CardNo| string| 是 | 卡号 |
+| PersonName| string| 是 | 学生姓名 |
+| DataRanges| array[DataRange]| 是 | 班级-年级-学校数组 |
 
 
 

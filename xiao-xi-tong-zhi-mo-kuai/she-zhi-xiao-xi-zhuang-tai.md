@@ -16,7 +16,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-[http://ip:port/MessageAction/Message/S](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)etMessageStatus
+http://ip:port/MessageAction/Message/SetMessageStatus
 
 > #### _请求数据_ {#请求数据}
 
