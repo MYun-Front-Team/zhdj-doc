@@ -35,7 +35,7 @@ http://ip:port/ShopAction/OneBuy/AddOneBuy
 | FakeSaleCount| int | 是 |已经购买|
 | FakeInventoryCount| int | 是 |总份数|
 | OneBuyCutPrice | decimal\(18,2\) | 否 | 一元购必砍价 |
-
+ 
 
 
 
