@@ -8,7 +8,9 @@
 | 26000101 | 资金报表 | 按日期维度 |
 | ~~26000102~~ | ~~资金报表~~ | ~~按可提现维度（订单销售的金额）~~ |
 | 26000103 | 分润报表 | 按分润来源 |
-| 26000104 | 资金报表 | 工商行对账 |
+| 26000104 | 资金报表 | 工商行对账详情 |
+| 26000105 | 资金报表 | 工商行对账汇总 |
+
 
 > #### _请求数据（PageRequestData）_ {#请求数据}
 
@@ -89,15 +91,22 @@
 | TradeDescription| string| 是 | 描述 |
 
 
+#### _应答数据 （PageResponseBase）【26000104】
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| OrderSysNo| int | 是 | 订单编号 |
+| PersonName| string | 否 |姓名 |
+| DataRanges| array[DataRange]| 是 | 班级-年级-学校数组 |
+| PaymentAmount| decimal| 否 |支付金额 |
+| ModuleSourceType| int | 否 | 费用类型：26001一卡通充值，39008缴费明细|
+| PaidName| string | 否 |项目名称 |
+| PaymentAmount| decimal| 否 |支付金额 |
+| PaidTime| datetime| 否 |支付时间 |
 
+#### _应答数据 （PageResponseBase）【26000105】
 
-
-
-
-
-
-
-
-
-
-
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PaidTime| datetime| 否 |支付时间 |
+| PaymentAmount| decimal| 否 |支付金额 |
+| OrderCount| int| 否 |笔数 |
