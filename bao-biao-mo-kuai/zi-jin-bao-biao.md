@@ -26,6 +26,7 @@
 | PersonName| string | 否 |姓名 |
 | DataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表 |
 | ModuleSourceType| int | 否 | 费用类型：26001一卡通充值，39008缴费明细|
+| PaidName| string | 否 |项目名称 |
 
 
 > #### _应答数据 （PageResponseBase）【26000100】_ {#应答数据-（巡河记录数组）}
