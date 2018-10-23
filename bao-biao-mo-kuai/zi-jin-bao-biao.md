@@ -110,3 +110,12 @@
 | PaidTime| datetime| 否 |支付时间 |
 | PaymentAmount| decimal| 否 |支付金额 |
 | OrderCount| int| 否 |笔数 |
+
+> #### 应答数据 PageResponseStatistic 【26000105】
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PaymentAmount| decimal| 否 |支付金额 |
+| OrderCount| int| 否 |笔数 |
+
+
