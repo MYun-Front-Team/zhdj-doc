@@ -8,6 +8,7 @@
 | 26000101 | 资金报表 | 按日期维度 |
 | ~~26000102~~ | ~~资金报表~~ | ~~按可提现维度（订单销售的金额）~~ |
 | 26000103 | 分润报表 | 按分润来源 |
+| 26000104 | 资金报表 | 工商行对账 |
 
 > #### _请求数据（PageRequestData）_ {#请求数据}
 
@@ -18,8 +19,11 @@
 | OrderStartTime | string | 否 | 订单开始时间 |
 | OrderEndTime | string | 否 | 订单结束时间 |
 | ProfitModuleSourceType | int | 是 | 分润来源 |
-
-
+| DataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表 |
+| IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
+| PersonName| string | 否 |姓名 |
+| DataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表 |
+| ModuleSourceType| int | 否 | 费用类型：26001一卡通充值，39008缴费明细|
 
 
 > #### _应答数据 （PageResponseBase）【26000100】_ {#应答数据-（巡河记录数组）}

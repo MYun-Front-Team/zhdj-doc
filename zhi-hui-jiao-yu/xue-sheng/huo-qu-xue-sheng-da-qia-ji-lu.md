@@ -40,7 +40,6 @@ http://ip:port/EduQuery/Student/GetStudentSignList
 | SignType| int| 否 | 0进校/1出校 |
 | SignTime| datetime| 否| 打卡时间 |
 | CardNo| string| 是 | 卡号 |
-| PersonName| string| 是 | 学生姓名 |
 | DataRanges| array[DataRange]| 是 | 班级-年级-学校数组 |
 
 
