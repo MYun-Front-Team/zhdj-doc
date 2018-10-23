@@ -100,6 +100,7 @@
 | MaxSalePrice | decimal\(18,2\) | 否 | 最大销售价 |
 | PointPrice | decimal\(18,2\) | 否 | 积分价格 |
 | MinCutSalePrice | decimal\(18,2\) | 否 | 最低砍价 |
+| OneBuyCutPrice | decimal\(18,2\) | 否 | 一元购必砍价 |
 
 > #### SKU基础字段 {#请求数据}
 >
