@@ -47,6 +47,8 @@ http://ip:port/BasicAction/Basic/EditPerson
 | IDCardType | int| 否 | 证件类型|
 | NeedPartTimeJob| int | 否 | 是否屏蔽推送兼职（0正常，1屏蔽） |
 | CellPhoneNo| string | 否 |手机号 |
+| DoctorPersonSysNo| int | 否 | 医生编码 |
+| Salesman | string| 否 | 业务员 |
 
 
 
