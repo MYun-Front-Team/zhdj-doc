@@ -72,6 +72,10 @@ http://ip:port/BasicQuery/Basic/GetPersonBySysNo
 | InSchoolStatus| int | 否 | 在校学生状态（0不明 1是 2不是） |
 | IDCardType | int| 否 | 证件类型|
 | NeedPartTimeJob| int | 否 | 是否屏蔽推送兼职（0正常，1屏蔽） |
+| DoctorPersonSysNo| int| 否 |医生编码 |
+| Salesman| string | 否 |业务员 |
+| PersonStatus| int| 否 |客户状态 |
+
 
 
 
