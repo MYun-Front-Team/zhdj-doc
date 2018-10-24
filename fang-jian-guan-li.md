@@ -65,6 +65,7 @@
 |ParkRoomTypeList  |array  int | 是 |房间类型|
 |StartBuildingArea|decimal | 是 |开始面积 |
 |EndBuildingArea|decimal | 是 |截至面积 |
+|ResourcesTypeList  |array  int | 是 |是否是不可用资源（0否 1是） |
 
 
 

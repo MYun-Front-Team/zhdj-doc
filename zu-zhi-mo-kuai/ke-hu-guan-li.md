@@ -29,9 +29,7 @@
 | CustomerBirthDay | string | 否 | 客户生日|
 | TagList | array object | 否 | 标签列表（说明见通用） |
 | IsPartner| int | 是 |是否合伙人|
-| CustomerDoctorPersonSysNo| int | 否 | 医生编码 |
-| CustomerDoctorPersonName| int | 否 | 医生名称 |
-| CustomerSalesman | string| 否 | 业务员 |
+
 
 
 > #### CustomerStatistic统计计算字段 {#请求数据}
@@ -56,11 +54,6 @@
 | KeyWord | string | 否 | 关键字（名称/负责人/联系人/电话） |
 | CustomerLevelSysNoList| Array\[int\] | 否 | 客户等级|
 | TagSysNoList| Array\[int\] | 否 | 客户标签|
-| CustomerPCDDescription | string | 否 | 客户省市区 |
-| StartCustomerBirthDay | string | 否 | 客户生日|
-| EndCustomerBirthDay | string | 否 | 客户生日|
-| CustomerSalesman | string| 否 | 业务员 |
-| CustomerDoctorPersonSysNo| int | 否 | 医生编码 |
 
 
 
