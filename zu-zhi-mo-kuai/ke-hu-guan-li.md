@@ -56,6 +56,11 @@
 | KeyWord | string | 否 | 关键字（名称/负责人/联系人/电话） |
 | CustomerLevelSysNoList| Array\[int\] | 否 | 客户等级|
 | TagSysNoList| Array\[int\] | 否 | 客户标签|
+| CustomerPCDDescription | string | 否 | 客户省市区 |
+| StartCustomerBirthDay | string | 否 | 客户生日|
+| EndCustomerBirthDay | string | 否 | 客户生日|
+| CustomerSalesman | string| 否 | 业务员 |
+| CustomerDoctorPersonSysNo| int | 否 | 医生编码 |
 
 
 
