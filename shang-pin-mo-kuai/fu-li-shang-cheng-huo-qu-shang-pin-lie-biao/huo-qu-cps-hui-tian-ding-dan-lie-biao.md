@@ -55,6 +55,7 @@ http://ip:port/OrderQuery/FLOrder/GetFLOrderList
 | CreateTime| datetime| 是 | 创建时间 |
 | TotalPrice| decimal | 否 | 总价|
 | TotalReward| decimal | 否 | 效果预估|
+| SettlementStatus | int | 是 | 结算状态：0未结算，1部分结算，10已结算 |
 
 
 
