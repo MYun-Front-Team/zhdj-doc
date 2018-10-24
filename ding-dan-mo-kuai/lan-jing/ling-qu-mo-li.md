@@ -15,7 +15,6 @@ http://ip:port/PointsAction/LJPoint/PickLJPoint
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PickLJPointSysNo| int| 是 | 系统编码|
-| PersonSysNo| int | 否 |人员系统编码 |
 
 
 
