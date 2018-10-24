@@ -29,6 +29,11 @@
 | CustomerBirthDay | string | 否 | 客户生日|
 | TagList | array object | 否 | 标签列表（说明见通用） |
 | IsPartner| int | 是 |是否合伙人|
+| CustomerDoctorPersonSysNo| int| 否 |医生编码 |
+| CustomerDoctorPersonName| int| 否 |医生名称 |
+| CustomerSalesman| string | 否 |业务员 |
+| CustomerPersonStatus| int| 否 |客户状态 |
+
 
 
 
