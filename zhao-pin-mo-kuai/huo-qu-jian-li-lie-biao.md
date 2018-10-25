@@ -1,25 +1,36 @@
-# 新增简历
+# 获取简历
 ##### _【功能说明】_ {#【功能说明】}
 
-新增简历
+获取简历
 
 
 _**【应用场景】**_
 
-新增简历
-1.查询[MY_BasicMgmt].[dbo].[T_Basic_Person]是否存在手机号一样的，存在报错，不存在，调用MyBizHelp.LoginHelp.Register
-2.根据返回的PersonSysNo编辑人员信息
-3.保存人员的期望工作，工资，期望地点
+获取简历
+
 
 
 _**【接口地址】**_
 
-http://ip:port/RecruitAction/Resume/AddResume
+http://ip:port/RecruitQuery/Resume/GetResumeList
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| Person | object | 是 | 人员（简版） |
+| PersonPositionList | array object | 否 | 期望岗位列表（Limit） |
+| PersonSalaryList | array object | 否 | 期望薪资列表（Limit） |
+| PersonPositionList | array object | 否 | 期望职位列表 |
+| PersonSalaryList | array object | 否 | 期望薪资列表 |
+| ExpectAddresses | array[ExpectAddress] | 否 |期望工作地点 |
+| FreeTimes| array[FreeTime] | 否 |空闲时间 |
+
+#### Person
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PersonSysNo | int| 是 | 人员系统编码 |
 | PersonName | string | 是 | 昵称 |
 | RealName | string | 是 | 真实姓名 |
 | UserGender | int | 否 | 性别：1男，2女 |
@@ -50,19 +61,11 @@ http://ip:port/RecruitAction/Resume/AddResume
 | NeedPartTimeJob| int | 否 | 是否屏蔽推送兼职（0正常，1屏蔽） |
 | ExpectPCDDescriptions | array[string] | 否 |期望工作省市区 |
 | WorkingStatus | int | 否 | 工作状态：0离职，1在职，2观望 |
-| PersonPositionList | array object | 否 | 期望职位列表 |
-| PersonSalaryList | array object | 否 | 期望薪资列表 |
-| ExpectAddresses | array[ExpectAddress] | 否 |期望工作地点 |
 | ExpectPositionType | int | 否 | 期望工作类型:0不限,1全职,2兼职 |
 | FreeTimeType| int | int | 空闲时间类型（1按标签2按星期）|
-| FreeTimes| array[FreeTime] | 否 |空闲时间 |
 | CpsSysNo| int | 否 | CPS来源编码|
 | IsInsurance| int | 否 | 有无社保|
-
-
-
-
-
+| ExpectPCDDescriptions | array[string] | 否 |期望工作省市区 |
 
 
 
