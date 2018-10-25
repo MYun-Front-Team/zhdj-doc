@@ -19,8 +19,11 @@ http://ip:port/UMAction/PriceGroup/SetFLPriceGroup
 | :--- | :--- | :--- | :--- |
 | SkuSysNo| int | 否 | SKU系统编码 |
 | CPSCommissionRate | int | 否 | 佣金比率 |
-| SalePrice | decimal\(18,2\) | 否 | 销售价 |
- 
+| SalePrice | decimal\(18,2\) | 否 | 销售价（原价） |
+| CPSCommission| decimal\(18,2\) | 否 | 佣金 |
+| MinCutSalePrice | decimal\(18,2\) | 否 | 最低砍价（成本价） |
+
+
 
 
 
