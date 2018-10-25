@@ -84,7 +84,7 @@ http://ip:port/RecruitAction/Resume/AddResume
 | :--- | :--- | :--- | :--- |
 | Longitude| decimal | 是 | 经度|
 | Latitude| decimal | 是 |维度 |
-| Address| string | 是 | 职位编码 |
+| Address| string | 是 | 地址 |
 
 
 
