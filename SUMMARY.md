@@ -984,4 +984,6 @@
     * [编辑领队](zhao-pin-mo-kuai/bian-ji-ling-dui.md)
     * [获取领队详情](zhao-pin-mo-kuai/huo-qu-ling-dui-xiang-qing.md)
     * [领队接单](zhao-pin-mo-kuai/ling-dui-jie-dan.md)
+  * 简历
+    * [添加简历](zhao-pin-mo-kuai/tian-jia-jian-li.md)
 
