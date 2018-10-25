@@ -986,4 +986,5 @@
     * [领队接单](zhao-pin-mo-kuai/ling-dui-jie-dan.md)
   * 简历
     * [添加简历](zhao-pin-mo-kuai/tian-jia-jian-li.md)
+    * [添加沟通记录](zhao-pin-mo-kuai/tian-jia-gou-tong-ji-lu.md)
 
