@@ -9,7 +9,8 @@ _**【应用场景】**_
 新增简历
 1.查询[MY_BasicMgmt].[dbo].[T_Basic_Person]是否存在手机号一样的，存在报错，不存在，调用MyBizHelp.LoginHelp.Register
 2.根据返回的PersonSysNo编辑人员信息
-3.保存人员的期望工作，工资，期望地点
+3.保存人员的期望工作，工资，期望地点等
+4.填写日志
 
 
 _**【接口地址】**_
