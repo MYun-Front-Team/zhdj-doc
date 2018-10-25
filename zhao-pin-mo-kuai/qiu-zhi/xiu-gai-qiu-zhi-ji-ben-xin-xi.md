@@ -43,6 +43,14 @@ _**【接口地址】**_
 | InSchoolStatus| int | 否 | 在校学生状态（0不明 1是 2不是） |
 | NeedPartTimeJob| int | 否 | 是否屏蔽推送兼职（0正常，1屏蔽） |
 | ExpectPCDDescriptions | array[string] | 否 |期望工作省市区 |
+| ------------------ | ------------------ | ------------------ |------------------ |
+| ExpectAddresses | array[ExpectAddress] | 否 |期望工作地点 |
+| ExpectPositionType | int | 否 | 期望工作类型:0不限,1全职,2兼职 |
+| FreeTimeType| int | int | 空闲时间类型（1按标签2按星期）|
+| FreeTimes| array[FreeTime] | 否 |空闲时间 |
+| CpsSysNo| int | int | CPS来源编码|
+
+
 
 
 #### PersonSalary
@@ -63,6 +71,26 @@ _**【接口地址】**_
 | PositionClassSysNo | int | 是 | 职位编码 |
 | PersonPositionType | int | 是 | 类型：1期望，10做过 |
 | PositionName | string | 是 | 职位名称 |
+
+#### ExpectAddress
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ExpectAddressSysNo | int | 是 | 系统编码 （0新增，非0编辑）|
+| Longitude| decimal | 是 | 经度|
+| Latitude| decimal | 是 |维度 |
+| Address| string | 是 | 地址 |
+
+#### FreeTime
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| FreeTimeSysNo | int | 是 | 系统编码 （0新增，非0编辑）|
+| TimeType| int | 否 | 标签类型：端自定义（任意时间、双休日……）|
+| DayOfWeek| int | 否 |周几（1-7周1~周日） |
+| StartTime| datetime| 是 | 开始时间（只有时分秒有效)|
+| EndTime| datetime| 是 |结束时间（只有时分秒有效） |
+
 
 #### _应答数据_
 
