@@ -49,5 +49,4 @@ http://ip:port/BasicAction/Basic/EditPerson
 | CellPhoneNo| string | 否 |手机号 |
 | DoctorPersonSysNo| int| 否 |医生编码 |
 | Salesman| string | 否 |业务员 |
-| PersonStatus| int| 否 |客户状态 1待发展、2正常、11隐藏已终止状态|
 
