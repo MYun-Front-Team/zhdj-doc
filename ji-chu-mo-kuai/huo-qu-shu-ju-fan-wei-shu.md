@@ -25,6 +25,10 @@ _**【接口地址】**_
 | OrganizationSysNo | int | 否 | 组织系统编码 |
 | DataRangeTreeType | int | 否 | 树类型（枚举） |
 | MaxDataRangeGradeType| int | 否 |最大树类型（枚举） |
+| ShowMyOnly| int | 否 |是否只显示挂在自己权限上的节点 |
+
+
+
 
 
 
