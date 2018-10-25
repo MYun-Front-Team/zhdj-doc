@@ -16,7 +16,9 @@ http://ip:port/RecruitAction/Interview/AddInterview
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| PositionSysNo| int | 是 | 岗位编码 |
+| OrganizationSysNo| int| 是 |组织编码（先用平台组织）|
+| DataRangeSysNo| int| 否 |数据范围结点编码|
+| PositionSysNoList|array[int] | 是 | 岗位编码 |
 | InterviewName| string| 是 |面试项目|
 | StartTime| datetime| 是 |面试开始 |
 | EndTime| datetime| 是 |面试结束|

@@ -26,10 +26,9 @@
 | TagClassList | array object | 否 | 福利标签列表（说明见通用） |
 | CustomerPositionName| Nvarchar\(50\) | 否 | 客户自定义职位名称 |
 | PositionDayAreaList | array object | 否 | 工作日期列表（日期） |
-
-
-
-
+|---------------- | ---------------- | ---------------- | ----------------|
+| ShopName | string| 否 | 店铺 |
+| SellerName| string| 否 | 商家名称|
 
 
 
