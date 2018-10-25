@@ -992,4 +992,7 @@
     * [获取沟通记录](zhao-pin-mo-kuai/huo-qu-gou-tong-ji-lu.md)
   * 面试
     * [添加面试](zhao-pin-mo-kuai/tian-jia-mian-shi.md)
+    * [编辑面试](zhao-pin-mo-kuai/bian-ji-mian-shi.md)
+    * [删除面试](zhao-pin-mo-kuai/shan-chu-mian-shi.md)
+    * 获取面试列表
 
