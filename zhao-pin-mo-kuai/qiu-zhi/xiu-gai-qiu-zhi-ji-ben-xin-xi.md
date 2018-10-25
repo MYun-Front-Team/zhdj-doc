@@ -48,7 +48,12 @@ _**【接口地址】**_
 | ExpectPositionType | int | 否 | 期望工作类型:0不限,1全职,2兼职 |
 | FreeTimeType| int | int | 空闲时间类型（1按标签2按星期）|
 | FreeTimes| array[FreeTime] | 否 |空闲时间 |
-| CpsSysNo| int | int | CPS来源编码|
+| CpsSysNo| int | 否 | CPS来源编码|
+| IsInsurance| int | 否 | 有无社保|
+
+
+
+
 
 
 
