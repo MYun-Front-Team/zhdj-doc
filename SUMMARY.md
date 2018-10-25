@@ -993,8 +993,11 @@
   * 面试
     * [编辑面试](zhao-pin-mo-kuai/bian-ji-mian-shi.md)
     * [删除面试](zhao-pin-mo-kuai/shan-chu-mian-shi.md)
+    * [添加面试](zhao-pin-mo-kuai/tian-jia-mian-shi.md)
     * [获取面试列表](zhao-pin-mo-kuai/huo-qu-mian-shi-lie-biao.md)
     * [获取面试详情](zhao-pin-mo-kuai/huo-qu-mian-shi-xiang-qing.md)
     * [人员邀约到面试](zhao-pin-mo-kuai/ren-yuan-yao-yue-dao-mian-shi.md)
-  * [添加面试](zhao-pin-mo-kuai/tian-jia-mian-shi.md)
+    * [获取面试人员列表](zhao-pin-mo-kuai/huo-qu-mian-shi-ren-yuan-lie-biao.md)
+    * [人员通过面试](zhao-pin-mo-kuai/ren-yuan-tong-guo-mian-shi.md)
+    * [人员未通过面试](zhao-pin-mo-kuai/ren-yuan-wei-tong-guo-mian-shi.md)
 
