@@ -988,4 +988,5 @@
     * [添加简历](zhao-pin-mo-kuai/tian-jia-jian-li.md)
     * [添加沟通记录](zhao-pin-mo-kuai/tian-jia-gou-tong-ji-lu.md)
     * [获取简历列表](zhao-pin-mo-kuai/huo-qu-jian-li-lie-biao.md)
+    * [获取简历详情](zhao-pin-mo-kuai/huo-qu-jian-li-xiang-qing.md)
 
