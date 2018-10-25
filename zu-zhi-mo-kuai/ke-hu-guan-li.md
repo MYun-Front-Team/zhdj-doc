@@ -32,7 +32,6 @@
 | CustomerDoctorPersonSysNo| int| 否 |医生编码 |
 | CustomerDoctorPersonName| int| 否 |医生名称 |
 | CustomerSalesman| string | 否 |业务员 |
-| CustomerPersonStatus| int| 否 |客户状态 |
 
 
 

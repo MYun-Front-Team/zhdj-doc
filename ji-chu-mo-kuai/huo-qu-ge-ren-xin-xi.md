@@ -74,7 +74,7 @@ http://ip:port/BasicQuery/Basic/GetPersonBySysNo
 | NeedPartTimeJob| int | 否 | 是否屏蔽推送兼职（0正常，1屏蔽） |
 | DoctorPersonSysNo| int| 否 |医生编码 |
 | Salesman| string | 否 |业务员 |
-| PersonStatus| int| 否 |客户状态 |
+| PersonStatus| int| 否 |客户状态1待发展、2正常、11隐藏已终止状态 |
 
 
 
