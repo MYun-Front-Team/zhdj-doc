@@ -16,7 +16,7 @@ http://ip:port/RecruitAction/Interview/AddPersonToInterview
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| InterviewSysNo| int | 是 | 面试编码 |
+| InterviewSysNoList|array[int] | 是 | 面试编码 |
 | PersonSysNo|int | 是 | 人员编码 |
 
 

@@ -106,7 +106,10 @@ http://ip:port/RecruitAction/Resume/AddResume
 | EndTime| datetime| 是 |结束时间（只有时分秒有效） |
 
 
-
+#### _应答数据_ {#应答数据-}
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| | int| 是 |系统编码|
 
 
 

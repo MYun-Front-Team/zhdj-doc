@@ -17,7 +17,7 @@ http://ip:port/RecruitAction/Interview/EditInterview
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | InterviewSysNo| int | 是 | 面试编码 |
-| PositionSysNoList|array[int] | 是 | 岗位编码 |
+| PositionSysNo|int | 是 | 岗位编码 |
 | InterviewName| string| 是 |面试项目|
 | StartTime| datetime| 是 |面试开始 |
 | EndTime| datetime| 是 |面试结束|

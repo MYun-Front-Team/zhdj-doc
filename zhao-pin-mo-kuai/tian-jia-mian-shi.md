@@ -8,6 +8,8 @@ _**【应用场景】**_
 添加面试
 T_Recruit_Interview表加记录
 
+PositionSysNoList几条就添加几个T_Recruit_Interview
+
 _**【接口地址】**_
 
 http://ip:port/RecruitAction/Interview/AddInterview
@@ -16,8 +18,6 @@ http://ip:port/RecruitAction/Interview/AddInterview
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrganizationSysNo| int| 是 |组织编码（先用平台组织）|
-| DataRangeSysNo| int| 否 |数据范围结点编码|
 | PositionSysNoList|array[int] | 是 | 岗位编码 |
 | InterviewName| string| 是 |面试项目|
 | StartTime| datetime| 是 |面试开始 |
@@ -30,12 +30,6 @@ http://ip:port/RecruitAction/Interview/AddInterview
 
 
 
-
-#### 返回数据
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| | int | 否 | 系统编码 |
 
 
 

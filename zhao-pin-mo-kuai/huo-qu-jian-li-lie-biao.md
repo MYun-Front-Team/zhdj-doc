@@ -34,9 +34,9 @@ http://ip:port/RecruitQuery/Resume/GetResumeList
 | DayOfWeekList| array[int] | 否 |周几（1-7周1~周日） |
 | StartTime| datetime| 否 | 开始时间（只有时分秒有效)|
 | EndTime| datetime| 否 |结束时间（只有时分秒有效） |
-| Longitude| decimal | 是 | 经度|
-| Latitude| decimal | 是 |维度 |
-| Distance| decimal | 是 |维度 |
+| Longitude| decimal | 否 | 经度|
+| Latitude| decimal | 否 |维度 |
+| Distance| decimal | 否 |距离|
 
 
 
