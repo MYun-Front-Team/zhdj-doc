@@ -66,9 +66,8 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | IsQuit| int | 是 | 是否离职 |
 | QuitDate| datetime| 是 | 离职时间 |
 | QuitType| int | 否 | 离职类型 |
-| QuitReason| int | 是 | 离职原因 端定义 |
+| QuitReason| string| 是 | 离职原因  |
 | QuitRemark| string| 否 | 离职备注 |
-
 
 
 

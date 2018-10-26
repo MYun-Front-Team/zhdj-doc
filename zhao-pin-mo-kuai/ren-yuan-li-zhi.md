@@ -19,5 +19,5 @@ http://ip:port/RecruitAction/Interview/QuitPersonToInterview
 | InterviewPersonSysNo| int | 是 | 面试人表编码 |
 | QuitDate| datetime| 是 | 离职时间 |
 | QuitType| int | 否 | 离职类型 |
-| QuitReason| int | 是 | 离职原因 端定义 |
+| QuitReason| string| 是 | 离职原因  |
 | QuitRemark| string| 否 | 离职备注 |
