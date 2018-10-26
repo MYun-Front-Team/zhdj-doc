@@ -18,7 +18,7 @@ http://ip:port/RecruitQuery/Interview/GetInterviewList
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int |否| 组织系统编码 |
-| DataRangeSysNoList | int | 否 | 数据范围树枝叶编码列表 |
+| DataRangeSysNoList | array[int] | 否 | 数据范围树枝叶编码列表 |
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 | KeyWord| string| 否 |关键字|
 | InterviewShopSysNo| int | 否 | 商家店铺编码|
