@@ -53,7 +53,7 @@ http://ip:port/RecruitAction/Resume/AddResume
 | WorkingStatus | int | 否 | 工作状态：0离职，1在职，2观望 |
 | PersonPositionList | array object | 否 | 期望职位列表 |
 | PersonSalaryList | array object | 否 | 期望薪资列表 |
-| ExpectAddresses | array[ExpectAddress] | 否 |期望工作地点 |
+| expectAddresses | array[ExpectAddress] | 否 |期望工作地点 |
 | ExpectPositionType | int | 否 | 期望工作类型:0不限,1全职,2兼职 |
 | FreeTimeType| int | int | 空闲时间类型（1按标签2按星期）|
 | FreeTimes| array[FreeTime] | 否 |空闲时间 |
