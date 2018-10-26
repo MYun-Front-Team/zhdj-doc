@@ -47,6 +47,7 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | InterviewPersonSysNo| int | 是 | 面试人员表编码 |
 | PersonSysNo| int | 是 | 人员编码 |
 | Person | object | 是 | 人员（简版） |
+| ExpectPCDDescriptions | array[string] | 是 |期望工作省市区 |
 | ExpectAddresses | array[ExpectAddress] | 是 |期望工作地点 |
 | FreeTimes| array[FreeTime] | 是 |空闲时间 |
 | LastCommunicateStatus| int | 是 |最后沟通状态（端定义）|
@@ -112,7 +113,7 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | FreeTimeType| int | 是 | 空闲时间类型（1按标签2按星期）|
 | CpsSysNo| int | 是 | CPS来源编码|
 | IsInsurance| int |是 | 有无社保|
-| ExpectPCDDescriptions | array[string] | 是 |期望工作省市区 |
+
 
 
 
