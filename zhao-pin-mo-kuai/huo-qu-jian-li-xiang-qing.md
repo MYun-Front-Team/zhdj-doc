@@ -38,6 +38,10 @@ http://ip:port/RecruitQuery/Resume/GetResumeList
 | Interviews| array[Interview] | 是 |最近面试 |
 | LastCommunicatePersonFromName| string | 是 |最后沟通人 |
 | SysJobStatus| int | 是 |系统计算在职状态|
+| ExpectPCDDescriptions | array[string] | 否 |期望工作省市区 |
+
+
+
 
 
 
@@ -83,7 +87,7 @@ http://ip:port/RecruitQuery/Resume/GetResumeList
 | FreeTimeType| int | int | 空闲时间类型（1按标签2按星期）|
 | CpsSysNo| int | 否 | CPS来源编码|
 | IsInsurance| int | 否 | 有无社保|
-| ExpectPCDDescriptions | array[string] | 否 |期望工作省市区 |
+
 
 
 
