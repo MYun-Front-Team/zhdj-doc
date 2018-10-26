@@ -42,7 +42,7 @@ _**【接口地址】**_
 | WorkingDate | string | 否 | 参加工作日期 |
 | InSchoolStatus| int | 否 | 在校学生状态（0不明 1是 2不是） |
 | NeedPartTimeJob| int | 否 | 是否屏蔽推送兼职（0正常，1屏蔽） |
-| ExpectPCDDescriptions | array[string] | 否 |期望工作省市区 |
+| expectPCDDescriptions | array[string] | 否 |期望工作省市区 |
 | ------------------ | ------------------ | ------------------ |------------------ |
 | ExpectAddresses | array[ExpectAddress] | 否 |期望工作地点 |
 | ExpectPositionType | int | 否 | 期望工作类型:0不限,1全职,2兼职 |
