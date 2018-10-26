@@ -969,6 +969,8 @@
     * [获取招聘人员详情](zhao-pin-mo-kuai/zhao-pin/huo-qu-zhao-pin-ren-yuan-xiang-qing.md)
     * [获取招聘领队报表](zhao-pin-mo-kuai/zhao-pin/huo-qu-zhao-pin-ling-dui-bao-biao.md)
     * [删除招聘](zhao-pin-mo-kuai/zhao-pin/shan-chu-zhao-pin.md)
+    * [平台审核招聘](zhao-pin-mo-kuai/zhao-pin/ping-tai-shen-he-zhao-pin.md)
+    * [商家审核店铺的招聘](zhao-pin-mo-kuai/zhao-pin/shang-jia-shen-he-dian-pu-de-zhao-pin.md)
   * [求职](zhao-pin-mo-kuai/qiu-zhi.md)
     * [修改求职基本信息](zhao-pin-mo-kuai/qiu-zhi/xiu-gai-qiu-zhi-ji-ben-xin-xi.md)
     * [确认抢班](zhao-pin-mo-kuai/qiu-zhi/que-ren-qiang-ban.md)
@@ -991,8 +993,8 @@
     * [添加沟通记录](zhao-pin-mo-kuai/tian-jia-gou-tong-ji-lu.md)
     * [获取沟通记录](zhao-pin-mo-kuai/huo-qu-gou-tong-ji-lu.md)
   * 面试
-    * [编辑面试](zhao-pin-mo-kuai/bian-ji-mian-shi.md)
     * [删除面试](zhao-pin-mo-kuai/shan-chu-mian-shi.md)
+    * [编辑面试](zhao-pin-mo-kuai/bian-ji-mian-shi.md)
     * [添加面试](zhao-pin-mo-kuai/tian-jia-mian-shi.md)
     * [获取面试列表](zhao-pin-mo-kuai/huo-qu-mian-shi-lie-biao.md)
     * [获取面试详情](zhao-pin-mo-kuai/huo-qu-mian-shi-xiang-qing.md)
