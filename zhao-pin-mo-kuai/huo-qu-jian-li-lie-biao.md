@@ -49,8 +49,6 @@ http://ip:port/RecruitQuery/Resume/GetResumeList
 | Person | object | 是 | 人员（简版） |
 | PersonPositionList | array object | 是 | 期望岗位列表（Limit） |
 | PersonSalaryList | array object | 是| 期望薪资列表（Limit） |
-| PersonPositionList | array object | 是 | 期望职位列表 |
-| PersonSalaryList | array object | 是 | 期望薪资列表 |
 | ExpectAddresses | array[ExpectAddress] | 是 |期望工作地点 |
 | FreeTimes| array[FreeTime] | 是 |空闲时间 |
 | LastCommunicateStatus| int | 是 |最后沟通状态（端定义）|
