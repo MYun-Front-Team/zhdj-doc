@@ -33,7 +33,9 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | PersonStatusList | array[int] | 否 | 面试人员状态（0邀约，10通过，11未通过） |
 | IsQuitList|array[int] | 否 | 是否离职|
 | ShopSysNo| int | 否 | 店铺编码|
-
+| PositionSysNo| int | 否 | 岗位编码|
+| StartWorkStartDay|datetime| 否 | 开始预计入职时间|
+| EndWorkStartDay|datetime| 否 | 结束预计入职时间|
 
 
 
@@ -58,6 +60,17 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | Salary|decimal| 否 | 薪水|
 | Reward|decimal| 否 | 平台奖励|
 | Position | Position| 是 | 岗位 |
+| WorkStartRemark| string | 是 |描述 |
+| NoPassType| int | 是 | 未通过原因，端定义 |
+| NoPassRemark| string | 是 |未通过备注 |
+| IsQuit| int | 是 | 是否离职 |
+| QuitDate| datetime| 是 | 离职时间 |
+| QuitType| int | 否 | 离职类型 |
+| QuitReason| int | 是 | 离职原因 端定义 |
+| QuitRemark| string| 否 | 离职备注 |
+
+
+
 
 
 

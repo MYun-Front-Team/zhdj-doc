@@ -1000,4 +1000,7 @@
     * [获取面试人员列表](zhao-pin-mo-kuai/huo-qu-mian-shi-ren-yuan-lie-biao.md)
     * [人员通过面试](zhao-pin-mo-kuai/ren-yuan-tong-guo-mian-shi.md)
     * [人员未通过面试](zhao-pin-mo-kuai/ren-yuan-wei-tong-guo-mian-shi.md)
+    * [员工设置薪水、赏金](zhao-pin-mo-kuai/yuan-gong-she-zhi-xin-shui-3001-shang-jin.md)
+    * [人员移除面试](zhao-pin-mo-kuai/ren-yuan-yi-chu-mian-shi.md)
+    * [人员离职](zhao-pin-mo-kuai/ren-yuan-li-zhi.md)
 

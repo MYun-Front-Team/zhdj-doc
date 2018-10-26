@@ -19,7 +19,7 @@ http://ip:port/RecruitAction/Interview/NoPassInterview
 | InterviewSysNo| int | 是 | 面试编码 |
 | PersonSysNo|int | 是 | 人员编码 |
 | NoPassType|int | 是 | 未通过原因，端定义 |
-| NoPassRemark|string| 是 | 未通过备注 |
+| NoPassRemark|string| 否 | 未通过备注 |
 
 
 
