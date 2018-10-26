@@ -61,6 +61,13 @@ _**【接口地址】**_
 |ContractCode| string | 否 |合同编号|
 | ObjectFileList| array File| 否（可选配置） | 附件 |
 | IsShowInCommission| int| 否 | 是否在抢工佣金推送列表显示 |
+| RecruitNeedPlatAudit| int | 否 |发布岗位是否需要平台审核|
+
+
+
+
+
+
 
 
 

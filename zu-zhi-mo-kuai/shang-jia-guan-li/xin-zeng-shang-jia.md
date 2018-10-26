@@ -71,9 +71,7 @@ _**【接口地址】**_
 | ObjectFileList| array File| 否（可选配置） | 附件 |
 | AutoAudit| int | 否 |是否自动审核（1是 0否）|
 | IsShowInCommission| int| 否 | 是否在抢工佣金推送列表显示 |
-
-
-
+| RecruitNeedPlatAudit| int | 否 |发布岗位是否需要平台审核|
 
 
 

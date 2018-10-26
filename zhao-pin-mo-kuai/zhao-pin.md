@@ -38,6 +38,7 @@
 | CommissionRemark| string| 否 |佣金备注 |
 | RecruitAuditStatus| int| 否 |岗位审核状态（0待审核 10已经审核 11审核不通过） |
 | AuditRemark| string| 否 |审核备注 |
+| PlatAuditStatus| int | 否 |岗位平台审核状态（0待审核 10已经审核 11审核不通过） |
 
 
 
@@ -132,6 +133,10 @@
 | IsShowRefuse| int| 否 | 是否显示商家主动拒绝的人 |
 | ShopCloseHidden| int| 否 | 隐藏关店的招聘|
 | RecruitAuditStatusList|array int| 否 |岗位审核状态（0待审核 10已经审核 11审核不通过） |
+| PlatAuditStatusList| array int | 否 |岗位平台审核状态（0待审核 10已经审核 11审核不通过） |
+
+
+
 
 
 
