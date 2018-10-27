@@ -35,6 +35,8 @@ _**【接口地址】**_
 | Longitude | decimal | 否 | 经度 |
 | Latitude | decimal | 否 | 维度 |
 | Distance | decimal | 否 | 距离 |
+| SysJobStatusList |array[int] | 是 | 系统计算在职状态 （10在职 0不在职）|
+
 
 #### Resume
 
