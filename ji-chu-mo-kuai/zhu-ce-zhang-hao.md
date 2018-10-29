@@ -36,9 +36,10 @@ _**【接口地址】**_
 | IsEnable | int | 否 | 是否启用 |
 | IsNewPerson | int | 否 | 是否新的人员（禁用） |
 | OrganizationSysNo | int | 否 | 注册账号到指定的组织 |
-| Post| string |否 | 职位 |
+| Post| string |否 | 职位跟着人走 |
 | AdminStatus| int | 否 | 状态：0未激活，1正常，2禁用 |
 | WxUnionID| string | 否 | 微信UnionID |
+| PostSysNo| int |否 | 职位跟组织走(HR、店长)端自定义 |
 
 
 
