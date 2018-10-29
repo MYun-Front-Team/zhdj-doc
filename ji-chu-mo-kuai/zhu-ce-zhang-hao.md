@@ -38,6 +38,7 @@ _**【接口地址】**_
 | OrganizationSysNo | int | 否 | 注册账号到指定的组织 |
 | Post| string |否 | 职位 |
 | AdminStatus| int | 否 | 状态：0未激活，1正常，2禁用 |
+| WxUnionID| string | 否 | 微信UnionID |
 
 
 
