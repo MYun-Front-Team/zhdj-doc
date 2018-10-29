@@ -50,6 +50,8 @@ _**【接口地址】**_
 | CouponCodes | array string | 否 | 订单优惠券码 |
 |IsDoortodoor|int | 是 | 是否上门服务|
 | CPSSysNo| int | 是 | CPS系统编码 |
+| InvitationCode| string | 否 | 邀请码 |
+
 
 
 
