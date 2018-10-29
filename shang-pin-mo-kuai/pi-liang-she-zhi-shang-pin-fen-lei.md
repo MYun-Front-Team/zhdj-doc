@@ -1,16 +1,16 @@
-# 批量设置商品行业类别
+# 批量设置商品分类
 
 ##### _【功能说明】_ {#【功能说明】}
 
-批量设置商品行业类别
+批量设置商品分类
 
 _**【应用场景】**_
 
-批量设置商品行业类别
+批量设置商品分类
 
 _**【接口地址】**_
 
-[http://ip:port/ProductAction/ProductGroup/SetProductClass](http://ip:port/ProductAction/ProductGroup/SetProductIndustryClass)
+http://ip:port/ProductAction/ProductGroup/SetProductClass
 
 > #### _请求数据_ {#请求数据}
 
