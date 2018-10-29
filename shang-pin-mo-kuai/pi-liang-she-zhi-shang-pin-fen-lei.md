@@ -17,7 +17,7 @@ http://ip:port/ProductAction/ProductGroup/SetProductClass
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ProductGroupSysNos | array int | 是 | 商品系统编码 |
-| ProductClassSysNo | int | 否 | 行业类别 |
+| ProductClassSysNo | int | 否 | 类别 |
 
 > #### 应答_数据_ {#请求数据}
 
