@@ -99,7 +99,7 @@ _**【接口地址】**_
 | OrganizationClassSysNo | int | 否 | 分类（树） |
 | OrganizationName | string | 是 | 组织名称 |
 | OrganizationShortName | string | 否 | 组织简称 |
-| PostSysNo| int | 否 | 职务(店员/HR) |
+| PostSysNo| int | 否 | 职务端自定义(店员/HR) |
 
 
 #### CPSInfo说明_ _ {#应答数据-（巡河记录数组）}
