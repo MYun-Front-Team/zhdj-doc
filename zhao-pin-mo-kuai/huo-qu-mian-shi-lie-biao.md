@@ -53,5 +53,5 @@ http://ip:port/RecruitQuery/Interview/GetInterviewList
 | PersonStatus| int| 否 |面试人员状态（0邀约，10通过，11未通过）（显示当前人传了才有效） |
 | ResultTime| datetime| 否 |面试结果时间（显示当前人传了才有效） |
 | InvitePersonName| string| 否 |邀请人（显示当前人传了才有效） |
-
+| InvitePersonCount| int| 否 |面试人数 |
 
