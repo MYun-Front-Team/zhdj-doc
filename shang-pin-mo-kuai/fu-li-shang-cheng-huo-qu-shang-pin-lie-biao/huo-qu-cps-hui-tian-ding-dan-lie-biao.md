@@ -20,6 +20,9 @@ http://ip:port/OrderQuery/FLOrder/GetFLOrderList
 | PersonSysNo | int | 否 | 买家人员系统编码 |
 | OrganizationSysNo | int | 否 | 组织系统编码 |
 | OrderStatus| int | 否 | 订单状态（1待填订单号，2等待奖励，10已完成，11订单有误） |
+| SettlementStatusList|array[int] | 否 |结算状态：0未结算，1部分结算，10已结算  |
+
+
 
 
 > #### 返回数据
@@ -48,6 +51,7 @@ http://ip:port/OrderQuery/FLOrder/GetFLOrderList
 | PersonSysNo | int | 是 | 买家人员系统编码 |
 | OrderStatus| int | 是 | 订单状态（1待填订单号，2等待奖励，10已完成，11已关闭） |
 | WaitCodeSecond| int| 否 | 待填订单号秒数|
+| WaitSettlementSecond| int| 否 | 待结算秒数|
 | SourceOrderCode| string| 是 | 三方订单号|
 | DetailItems| array[DetailItem]| 是 | 三方订单号|
 | PersonName | string| 是 | 买家人员昵称 |
@@ -56,7 +60,9 @@ http://ip:port/OrderQuery/FLOrder/GetFLOrderList
 | CreateTime| datetime| 是 | 创建时间 |
 | TotalPrice| decimal | 否 | 总价|
 | TotalReward| decimal | 否 | 效果预估|
+| TotalConst| decimal | 否 |原价|
 | SettlementStatus | int | 是 | 结算状态：0未结算，1部分结算，10已结算 |
+| SellerName| int | 是 |商家名称 |
 
 
 
