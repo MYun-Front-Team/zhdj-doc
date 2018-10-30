@@ -64,6 +64,8 @@ _**【接口地址】**_
 | CPSInOrderCount | int | 否 | 三方CPS评价 |
 | SourceProductGroupCode|string| 是 |来源三方编码|
 | TaoWord|string| 是 |淘口令|
+| FakeInventoryCount | int | 否 | 可砍份数 |
+
 
 
 
