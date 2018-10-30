@@ -15,8 +15,7 @@ http://ip:port/RecruitAction/Interview/PassInterview
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| InterviewSysNo| int | 是 | 面试编码 |
-| PersonSysNo|int | 是 | 人员编码 |
+| InterviewPersonSysNo| int | 是 | 面试人表编码 |
 | WorkStartDay|datetime| 否 | 预计入职时间 |
 | WorkStartRemark|string| 否 | 描述 |
 
