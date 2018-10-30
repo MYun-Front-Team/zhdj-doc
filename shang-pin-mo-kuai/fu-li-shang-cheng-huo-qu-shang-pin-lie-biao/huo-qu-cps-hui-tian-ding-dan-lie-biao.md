@@ -18,6 +18,7 @@ http://ip:port/OrderQuery/FLOrder/GetFLOrderList
 | :--- | :--- | :--- | :--- |
 | KeyWord| string| 否 | 关键字 |
 | PersonSysNo | int | 否 | 买家人员系统编码 |
+| OrganizationSysNo | int | 否 | 组织系统编码 |
 | OrderStatus| int | 否 | 订单状态（1待填订单号，2等待奖励，10已完成，11订单有误） |
 
 
