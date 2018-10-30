@@ -29,9 +29,12 @@
 | CustomerBirthDay | string | 否 | 客户生日 |
 | TagList | array object | 否 | 标签列表（说明见通用） |
 | IsPartner | int | 是 | 是否合伙人 |
-| CustomerDoctorPersonSysNo | int | 否 | 医生编码 |
-| CustomerDoctorPersonName | string | 否 | 医生名称 |
-| HospitalDataRangeName | string | 否 | 所属医院机构 |
+| CustomerDoctorPersonSysNo | int | 否 | 促销员\医生编码 |
+| CustomerDoctorPersonName | string | 否 | 促销员\医生名称 |
+| HospitalDataRangeName | string | 否 | 所属医院\机构 |
+| AgentPersonSysNo | int | 否 | 渠道经理编码 |
+| AgentPersonName | string | 否 | 渠道经理名称 |
+| PCDDataRangeName | string | 否 | 所属机构的区域 |
 | CustomerSalesman | string | 否 | 业务员 |
 
 > #### CustomerStatistic统计计算字段 {#请求数据}
@@ -56,8 +59,10 @@
 | KeyWord | string | 否 | 关键字（名称/负责人/联系人/电话） |
 | CustomerLevelSysNoList | Array\[int\] | 否 | 客户等级 |
 | TagSysNoList | Array\[int\] | 否 | 客户标签 |
-| CustomerDoctorPersonName | string | 否 | 医生名称 |
-| DataRangeSysNoList | array\[int\] | 否 | 所属医院 |
+| CustomerDoctorPersonName | string | 否 | 促销员\医生 |
+| HospitalDataRangeSysNoList | array\[int\] | 否 | 所属医院\机构 |
+| AgentPersonSysNo | int | 否 | 所属渠道经理编码 |
+| PCDDataRangeSysNoList | array\[int\] | 否 | 所属机构区域 |
 | CustomerSalesman | string | 否 | 业务员 |
 | StartCustomerBirthDay | string | 否 | 开始客户生日 |
 | EndCustomerBirthDay | string | 否 | 结束客户生日 |
