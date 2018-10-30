@@ -378,6 +378,7 @@
     * [核销CPS回填订单](shang-pin-mo-kuai/fu-li-shang-cheng-huo-qu-shang-pin-lie-biao/he-xiao-cps-hui-tian-ding-dan.md)
     * [回填自营单三方订单号](shang-pin-mo-kuai/fu-li-shang-cheng-huo-qu-shang-pin-lie-biao/hui-tian-zi-ying-dan-san-fang-ding-dan-hao.md)
     * [强制取消砍价单](shang-pin-mo-kuai/fu-li-shang-cheng-huo-qu-shang-pin-lie-biao/qiang-zhi-qu-xiao-kan-jia-dan.md)
+    * [CPS回填单同意奖励](shang-pin-mo-kuai/fu-li-shang-cheng-huo-qu-shang-pin-lie-biao/cpshui-tian-dan-tong-yi-jiang-li.md)
   * [批量设置商品品牌](shang-pin-mo-kuai/pi-liang-she-zhi-shang-pin-pin-pai.md)
   * [商品置顶](shang-pin-mo-kuai/shang-pin-zhi-ding.md)
   * [商品移除指定标签](shang-pin-mo-kuai/shang-pin-yi-chu-zhi-ding-biao-qian.md)
