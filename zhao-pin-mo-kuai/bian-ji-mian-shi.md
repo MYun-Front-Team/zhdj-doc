@@ -18,6 +18,9 @@ http://ip:port/RecruitAction/Interview/EditInterview
 | :--- | :--- | :--- | :--- |
 | InterviewSysNo| int | 是 | 面试编码 |
 | PositionSysNo|int | 是 | 岗位编码 |
+| OrganizationSysNo|int | 是 | 组织编码 |
+| DataRangeSysNo| int | 是 |数据结构树编码|
+| ShopSysNo| int | 是 |店铺编码|
 | InterviewName| string| 是 |面试项目|
 | StartTime| datetime| 是 |面试开始 |
 | EndTime| datetime| 是 |面试结束|
