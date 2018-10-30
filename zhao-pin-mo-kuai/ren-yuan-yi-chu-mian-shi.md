@@ -17,7 +17,8 @@ http://ip:port/RecruitAction/Interview/DelPersonToInterview
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| InterviewSysNo|int | 是 | 面试编码 |
+| InterviewPersonSysNo| int | 是 | 面试人表编码 |
+
 
 
 
