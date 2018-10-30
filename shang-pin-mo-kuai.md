@@ -78,6 +78,10 @@
 | CPSCommission | int | 否 | 佣金 |
 | SourceProductGroupCode|string| 是 |来源三方编码|
 | TaoWord|string| 是 |淘口令|
+| SellerName| int | 是 |商家名称 |
+
+
+
 
 
 
