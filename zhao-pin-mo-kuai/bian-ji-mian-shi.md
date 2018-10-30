@@ -28,7 +28,10 @@ http://ip:port/RecruitAction/Interview/EditInterview
 | Longitude| decimal| 是 |经度|
 | Latitude| decimal| 是 |维度|
 | Remark| string| 否 |备注|
- 
+ | RecruitSysNo| int| 否 |招聘编码|
+
+
+
 
 
 

@@ -41,6 +41,9 @@ http://ip:port/RecruitQuery/Interview/GetInterviewBySysNo
 | InUser| string| 是 |创建人 |
 | CreateTime| datetime| 是 |创建时间 |
 | InterviewStatus| int | 是 |面试状态(0未开始 10进行中 11已结束)|
+| RecruitSysNo| int| 否 |招聘编码|
+
+
 
 
 

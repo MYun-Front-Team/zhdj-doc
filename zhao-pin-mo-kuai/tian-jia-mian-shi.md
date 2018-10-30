@@ -36,6 +36,9 @@ http://ip:port/RecruitAction/Interview/AddInterview
 | DataRangeSysNo| int | 是 |数据结构树编码|
 | ShopSysNo| int | 是 |店铺编码|
 | PositionSysNo| int | 是 |岗位编码|
+| RecruitSysNo| int| 否 |招聘编码|
+
+
 
 
 

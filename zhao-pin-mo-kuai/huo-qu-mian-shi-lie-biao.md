@@ -54,4 +54,6 @@ http://ip:port/RecruitQuery/Interview/GetInterviewList
 | ResultTime| datetime| 否 |面试结果时间（显示当前人传了才有效） |
 | InvitePersonName| string| 否 |邀请人（显示当前人传了才有效） |
 | InvitePersonCount| int| 否 |面试人数 |
+| RecruitSysNo| int| 否 |招聘编码|
+
 
