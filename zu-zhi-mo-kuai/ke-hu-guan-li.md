@@ -31,7 +31,7 @@
 | IsPartner | int | 是 | 是否合伙人 |
 | CustomerDoctorPersonSysNo | int | 否 | 促销员\医生编码 |
 | CustomerDoctorPersonName | string | 否 | 促销员\医生名称 |
-| HospitalDataRangeName | string | 否 | 所属医院\机构 |
+| HospitalOrgName | string | 否 | 所属医院\机构 |
 | AgentPersonSysNo | int | 否 | 渠道经理编码 |
 | AgentPersonName | string | 否 | 渠道经理名称 |
 | PCDDataRangeName | string | 否 | 所属机构的区域 |
@@ -60,7 +60,7 @@
 | CustomerLevelSysNoList | Array\[int\] | 否 | 客户等级 |
 | TagSysNoList | Array\[int\] | 否 | 客户标签 |
 | CustomerDoctorPersonName | string | 否 | 促销员\医生 |
-| HospitalDataRangeSysNoList | array\[int\] | 否 | 所属医院\机构 |
+| HospitalOrgName | string | 否 | 所属医院\机构 |
 | AgentPersonSysNo | int | 否 | 所属渠道经理编码 |
 | PCDDataRangeSysNoList | array\[int\] | 否 | 所属机构区域 |
 | CustomerSalesman | string | 否 | 业务员 |
