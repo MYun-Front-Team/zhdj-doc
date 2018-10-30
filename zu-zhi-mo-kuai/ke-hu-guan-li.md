@@ -22,19 +22,16 @@
 | CustomerLogoPathList | array string | 否 | 客户Logo的路径列表 |
 | CustomerLogoUrlList | array string | 否 | 客户Logo的Url列表 |
 | CustomerPersonSysNo | string | 否 | 客户老板系统编码 |
-| CustomerPersonFileUrlList|array string | 否 | 客户老板头像 |
-| CustomerPersonFileUrlList|array string | 否 | 客户老板头像 |
+| CustomerPersonFileUrlList | array string | 否 | 客户老板头像 |
+| CustomerPersonFileUrlList | array string | 否 | 客户老板头像 |
 | CustomerPCDCode | string | 否 | 客户省市区 |
 | CustomerPCDDescription | string | 否 | 客户省市区 |
-| CustomerBirthDay | string | 否 | 客户生日|
+| CustomerBirthDay | string | 否 | 客户生日 |
 | TagList | array object | 否 | 标签列表（说明见通用） |
-| IsPartner| int | 是 |是否合伙人|
-| CustomerDoctorPersonSysNo| int| 否 |医生编码 |
-| CustomerDoctorPersonName| string| 否 |医生名称 |
-| CustomerSalesman| string | 否 |业务员 |
-
-
-
+| IsPartner | int | 是 | 是否合伙人 |
+| CustomerDoctorPersonSysNo | int | 否 | 医生编码 |
+| CustomerDoctorPersonName | string | 否 | 医生名称 |
+| CustomerSalesman | string | 否 | 业务员 |
 
 > #### CustomerStatistic统计计算字段 {#请求数据}
 
@@ -56,18 +53,14 @@
 | CustomerSysNo | int | 否 | 客户系统编码 |
 | CustomerStatusList | Array\[int\] | 否 | 状态：0待发展，10正常，11终止 |
 | KeyWord | string | 否 | 关键字（名称/负责人/联系人/电话） |
-| CustomerLevelSysNoList| Array\[int\] | 否 | 客户等级|
-| TagSysNoList| Array\[int\] | 否 | 客户标签|
-| CustomerDoctorPersonName| int| 否 |医生名称 |
-| CustomerSalesman| string | 否 |业务员 |
-| StartCustomerBirthDay | string | 否 | 开始客户生日|
-| EndCustomerBirthDay | string | 否 | 结束客户生日|
+| CustomerLevelSysNoList | Array\[int\] | 否 | 客户等级 |
+| TagSysNoList | Array\[int\] | 否 | 客户标签 |
+| CustomerDoctorPersonName | int | 否 | 医生名称 |
+| CustomerHospital | string | 否 | 所属医院名称 |
+| CustomerSalesman | string | 否 | 业务员 |
+| StartCustomerBirthDay | string | 否 | 开始客户生日 |
+| EndCustomerBirthDay | string | 否 | 结束客户生日 |
 | CustomerPCDDescription | string | 否 | 客户省市区 |
-
-
-
-
-
 
 > #### Limit限制字段 {#请求数据}
 
@@ -75,7 +68,6 @@
 | :--- | :--- | :--- | :--- |
 | IsShowDefaultAddress | int | 否 | 是否显示客户所属组织的默认地址（当原客户地址没有维护时有效） |
 | IsShowTagList | int | 否 | 是否显示标签列表 |
-
 
 #### 模块页面编号枚举说明 {#请求数据}
 
