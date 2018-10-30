@@ -63,7 +63,7 @@
 | TagSysNoList | Array\[int\] | 否 | 客户标签 |
 | CustomerDoctorPersonName | string | 否 | 促销员\医生 |
 | HospitalOrgName | string | 否 | 所属医院\机构 |
-| AgentPersonSysNo | int | 否 | 所属渠道经理编码 |
+| AgentPersonSysNoList | array\[int\] | 否 | 所属渠道经理编码 |
 | PCDDataRangeSysNoList | array\[int\] | 否 | 所属机构区域 |
 | CustomerSalesman | string | 否 | 业务员 |
 | StartCustomerBirthDay | string | 否 | 开始客户生日 |
