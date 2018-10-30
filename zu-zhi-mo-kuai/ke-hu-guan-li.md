@@ -31,9 +31,11 @@
 | IsPartner | int | 是 | 是否合伙人 |
 | CustomerDoctorPersonSysNo | int | 否 | 促销员\医生编码 |
 | CustomerDoctorPersonName | string | 否 | 促销员\医生名称 |
+| HospitalOrgSysNo | int | 否 | 所属医院\机构编码 |
 | HospitalOrgName | string | 否 | 所属医院\机构 |
 | AgentPersonSysNo | int | 否 | 渠道经理编码 |
 | AgentPersonName | string | 否 | 渠道经理名称 |
+| PCDDataRangeSysNo | int | 否 | 所属机构的区域编码 |
 | PCDDataRangeName | string | 否 | 所属机构的区域 |
 | CustomerSalesman | string | 否 | 业务员 |
 
