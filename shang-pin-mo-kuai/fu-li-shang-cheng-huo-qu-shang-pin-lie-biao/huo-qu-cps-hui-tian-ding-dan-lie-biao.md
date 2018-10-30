@@ -63,6 +63,7 @@ http://ip:port/OrderQuery/FLOrder/GetFLOrderList
 | TotalConst| decimal | 否 |原价|
 | SettlementStatus | int | 是 | 结算状态：0未结算，1部分结算，10已结算 |
 | SellerName| int | 是 |商家名称 |
+| AutoConfirmSecond| int | 否 |自动确认秒数 |
 
 
 
