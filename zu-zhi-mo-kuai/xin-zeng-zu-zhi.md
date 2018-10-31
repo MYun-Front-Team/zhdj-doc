@@ -8,7 +8,8 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-|  |  |  |  |
+| OrganizationType | int | 是 | 组织类型 |
+| OrganizationClassSysNo | int | 否 | 组织类别 |
 | OrganizationName | string | 是 | 组织名称 |
 | OrganizationShortName | string | 否 | 组织简称 |
 | OrganizationTel | string | 否 | 组织联系电话 |
