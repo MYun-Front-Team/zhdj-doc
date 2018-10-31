@@ -17,7 +17,7 @@ http://ip:port/EduAction/Teacher/AddTeacher
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 是 | 组织系统编码 |
-| DataRangeSysNoList |array[int] | 是 | 负责班级 |
+| DataRangeSysNoList |array[int] | 否 | 负责班级 |
 | CellPhoneNo| string| 是 | 手机号 |
 | LoginPwd| string | 是 | 密码|
 | RealName| string | 是 | 姓名|

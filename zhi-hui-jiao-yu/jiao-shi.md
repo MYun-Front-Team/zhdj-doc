@@ -12,12 +12,36 @@
 | TeacherContent | string | 否 | 描述 |
 |  |  |  |  |
 |  |  |  |  |
+| MemberCards| array[MemberCard]| 是 |教师卡包 |
+| DataRanges| array[DataRange]| 是 |教师班级权限 |
+
+
+
+
+
 
 > #### 统计计算字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | TeacherScore | decimal\(18,2\) | 否 | 评分 |
+
+#### MemberCard说明 {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| MemberCardSysNo | int | 是 | 会员卡系统编码 |
+| CardType | int | 是 | 会员卡类型：0会员卡，1礼品卡，2临时卡，3考勤卡,4一卡通，5教师考勤卡 |
+| CardNo | string | 是 | 卡号 |
+
+#### DataRange说明 {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| DataRangeSysNo | int | 是 | 系统编码 |
+| DataRangeName| string| 是 | 权限树名称|
+
+
 
 > #### 功能按钮字段 {#请求数据}
 

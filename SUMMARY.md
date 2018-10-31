@@ -864,6 +864,7 @@
     * [获取教师列表](zhi-hui-jiao-yu/huo-qu-jiao-shi-lie-biao.md)
     * [获取教师详情](zhi-hui-jiao-yu/huo-qu-jiao-shi-xiang-qing.md)
     * [添加教师](zhi-hui-jiao-yu/tian-jia-jiao-shi.md)
+    * [编辑教师](zhi-hui-jiao-yu/bian-ji-jiao-shi.md)
   * [缴费](zhi-hui-jiao-yu/jiao-fei.md)
     * [获取缴费列表](zhi-hui-jiao-yu/jiao-fei/huo-qu-jiao-fei-lie-biao.md)
     * [获取缴费详情](zhi-hui-jiao-yu/jiao-fei/huo-qu-jiao-fei-xiang-qing.md)
