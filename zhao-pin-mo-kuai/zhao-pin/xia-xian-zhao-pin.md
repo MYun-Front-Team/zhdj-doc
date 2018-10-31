@@ -19,6 +19,9 @@ http://ip:port/RecruitAction/Recruit/OffRecruit
 | :--- | :--- | :--- | :--- |
 | RecruitSysNo | int | 否 | 招聘系统编码|
 | RecruitStatus| int | 否 | 10上线，11下线|
+| Remark| string| 否 |备注|
+
+
 
 
 
