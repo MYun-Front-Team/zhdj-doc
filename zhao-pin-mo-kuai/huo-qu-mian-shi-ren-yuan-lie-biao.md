@@ -79,10 +79,8 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | EntryRemark|string| 否 | 入职备注 |
 | ShopName | string| 否 | 店铺 |
 | SellerName| string| 否 | 商家名称|
-
-
-
-
+| SalaryUnit| int | 否 | 薪资单位枚举，端定义 |
+| RewardUnit| int | 否 | 平台奖励单位枚举，端定义 |
 
 
 #### Person
