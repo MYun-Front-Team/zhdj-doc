@@ -1,16 +1,16 @@
-# 修改 {#新增河流}
-
+# 设置岗位的客户可见薪资
 ##### _【功能说明】_ {#【功能说明】}
 
-修改
+设置岗位的客户可见薪资
+
 
 _**【应用场景】**_
 
-修改
+设置岗位的客户可见薪资
 
 _**【接口地址】**_
 
-[http://ip:port/RecruitAction/Position/E](http://ip:port/HMAction/River/AddRiver)ditPosition
+http://ip:port/RecruitAction/Position/SetPositionSalary
 
 > #### _请求数据_ {#请求数据}
 
