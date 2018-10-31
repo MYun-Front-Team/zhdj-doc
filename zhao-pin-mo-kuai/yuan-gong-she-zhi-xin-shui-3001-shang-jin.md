@@ -20,6 +20,13 @@ http://ip:port/RecruitAction/Interview/EditInterviewPerson
 | Salary| Decimal| 否 | 面试人表编码 |
 | WorkStartDay|datetime| 否 | 预计入职时间 |
 | Reward|Decimal| 否 | 平台奖励 |
+| EntryStatus|int | 否 | 入职状态（0待入职10已入职11未入职）|
+| EntryDate|datetime| 否 | 入职时间 |
+| EntryRemark|string| 否 | 入职备注 |
+
+
+
+
 
 
 
