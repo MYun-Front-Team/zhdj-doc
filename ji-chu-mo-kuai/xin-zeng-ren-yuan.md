@@ -44,8 +44,8 @@ _**【接口地址】**_
 | IDCardType | int | 否 | 证件类型 |
 | NeedPartTimeJob | int | 否 | 是否屏蔽推送兼职（0正常，1屏蔽） |
 | CellPhoneNo | string | 否 | 手机号 |
-| OrganizationSysNo | int | 否 | 组织编码 |
-| OrganizationTypeList | array\[int\] | 否 | 组织类型 |
+| OrganizationSysNo | int | 否 | 所属医院组织编码 |
+| OrganizationTypeList | array\[int\] | 否 | 组织类型 医生组织类型 |
 | DataRangeSysNoList | array\[int\] | 否 | 数据范围 |
 
 
