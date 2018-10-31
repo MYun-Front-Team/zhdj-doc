@@ -40,6 +40,7 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | StartEntryDate|datetime| 否 | 开始入职时间|
 | EndEntryDate|datetime| 否 | 结束入职时间|
 | OrganizationSysNo| int | 否 |组织编码 |
+| PositionName | string  | 是 | 岗位名称 |
 
 
 
