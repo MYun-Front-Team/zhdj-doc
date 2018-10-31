@@ -18,7 +18,7 @@
 | Remark | Nvarchar\(max\) | 否 | 备注 |
 | PositionPathList | array string | 否 | 工作地Path文件列表 |
 | PositionUrlList | array string | 否 | 工作地Url文件列表 |
-| PositionSalaryList | array object | 否 | 岗位薪资列表 |
+| PositionSalaryList | array object | 否 | 客户岗位薪资列表 |
 | PositionAgeList | array object | 否 | 岗位年龄列表 |
 | IfHasRecruit | int | 否 | 是否有招聘纪录0所有。1有，2无 |
 | PositionWorkDayList | array object | 否 | 工作日期列表（星期） |
@@ -128,7 +128,8 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | IsShowPositionUrlList | int | 否 | 是否显示工作地图片 |
-| IsShowPositionSalaryList | int | 否 | 是否显示岗位薪资列表 |
+| IsShowPositionSalaryList | int | 否 | 是否显示客户岗位薪资列表 |
+| IsShowPlatPositionSalaryList  | int | 否 | 是否显示平台岗位薪资列表 |
 | IsShowPositionAgeList | int | 否 | 是否显示岗位年龄列表 |
 | IsShowPositionWorkDayList | int | 否 | 是否显示工作日列表 |
 | IsShowPositionWorkTimeList | int | 否 | 是否显示工作时间列表 |
