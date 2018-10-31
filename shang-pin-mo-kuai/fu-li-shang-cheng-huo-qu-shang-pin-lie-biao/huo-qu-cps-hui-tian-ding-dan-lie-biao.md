@@ -67,6 +67,7 @@ http://ip:port/OrderQuery/FLOrder/GetFLOrderList
 
 
 
+
 #### DetailItem
 
 | 变量名 | 类型 | 是否必须 | 描述 |
@@ -76,7 +77,7 @@ http://ip:port/OrderQuery/FLOrder/GetFLOrderList
 | Quantity| int | 否 | 数量 |
 | UnitPrice| decimal | 否 | 单价|
 | RealPrice| decimal | 否 | 总价|
-| Const| decimal | 否 | 成本价|
+| Const| decimal | 否 | 原价|
 | ProductGroupName| string| 否 | 商品名称 |
 | SourceCPSSysNo| int | 是 | 来源CPS系统编码 |
 | SourceCPSName| string| 是 | 来源CPS名称 |
