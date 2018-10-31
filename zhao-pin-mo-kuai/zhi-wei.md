@@ -30,6 +30,9 @@
 | ShopName | string| 否 | 店铺 |
 | SellerName| string| 否 | 商家名称|
 | ContractAddress| string| 否 | 店铺地址 |
+| PlatPositionSalaryList | array object | 否 | 平台可见岗位薪资列表 |
+
+
 
 
 
