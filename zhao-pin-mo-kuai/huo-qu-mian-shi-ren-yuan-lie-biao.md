@@ -37,6 +37,9 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | StartWorkStartDay|datetime| 否 | 开始预计入职时间|
 | EndWorkStartDay|datetime| 否 | 结束预计入职时间|
 | EntryStatusList|array[int] | 否 | 入职状态（0待入职10已入职11未入职）|
+| StartEntryDate|datetime| 否 | 开始入职时间|
+| EndEntryDate|datetime| 否 | 结束入职时间|
+| OrganizationSysNo| int | 否 |组织编码 |
 
 
 
@@ -73,6 +76,8 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | EntryStatus|int | 否 | 入职状态（0待入职10已入职11未入职）|
 | EntryDate|datetime| 否 | 入职时间 |
 | EntryRemark|string| 否 | 入职备注 |
+| ShopName | string| 否 | 店铺 |
+| SellerName| string| 否 | 商家名称|
 
 
 
