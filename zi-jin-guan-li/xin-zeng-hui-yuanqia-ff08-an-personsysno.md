@@ -17,7 +17,7 @@ http://ip:port/WalletAction/MemberCard/AddPersonMemberCard
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PersonSysNo| int | 是 |人员系统编码|
-| CardType | int | 是 | 会员卡类型：0会员卡，1礼品卡，2临时卡，3学生考勤卡，4学生一卡通 |
+| CardType | int | 是 | 会员卡类型：0会员卡，1礼品卡，2临时卡，3学生考勤卡，4学生一卡通 ，5教师考勤卡|
 | CardNo | string | 是 | 卡号 |
 | CardKey | string | 否 | 卡密码 |
 | CardPhoneNo | string | 否 | 手机号 |
