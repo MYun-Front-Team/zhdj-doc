@@ -62,7 +62,7 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderList
 | TotalPrice| decimal | 否 | 总价|
 | TotalRewardMP| decimal | 否 | 总奖励魔力|
 |CommentStatus|int | 是 | 评价状态（0未评价，10已经评价）|
-|EditCodeCount|int | 是 | 修改三方单次数|
+
 
 
 
