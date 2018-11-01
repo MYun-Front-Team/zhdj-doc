@@ -49,4 +49,7 @@ http://ip:port/BasicAction/Basic/EditPerson
 | CellPhoneNo| string | 否 |手机号 |
 | DoctorPersonInvitaionCode| string | 否 |医生邀请码|
 | Salesman| string | 否 |业务员 |
+| OrganizationSysNo| int | 否 | 组织编码（用于修改T_RM_OrgPersonRelation的PostSysNo） |
+| PostSysNo| int | 否 | 职位编码（端自定义）|
+
 
