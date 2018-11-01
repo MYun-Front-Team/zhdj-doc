@@ -26,7 +26,7 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderBySysNo
 | DataRangeSysNo | int | 是 | 数据范围树编码（店铺树） |
 | OrganizationToSysNo | int | 是 | 买家组织系统编码 |
 | PersonSysNo | int | 是 | 买家人员系统编码 |
-| OrderStatus| int | 是 | 订单状态（1待填订单号，2等待奖励，10已完成，11已关闭） |
+| OrderStatus| int | 是 | 订单状态（1待填订单号，2等待奖励，10已完成，11已关闭，12订单有误） |
 | WaitCodeSecond| int| 否 | 待填订单号秒数|
 | SourceOrderCode| string| 是 | 三方订单号|
 | DetailItems| array[DetailItem]| 是 | 三方订单号|
