@@ -12,10 +12,11 @@
 | TeacherContent | string | 否 | 描述 |
 |  |  |  |  |
 |  |  |  |  |
-| MemberCards| array[MemberCard]| 是 |教师卡包 |
-| DataRanges| array[DataRange]| 是 |教师班级权限 |
-
-
+| MemberCards | array\[MemberCard\] | 是 | 教师卡包 |
+| DataRanges | array\[DataRange\] | 是 | 教师班级权限 |
+| UserSysNo | int | 是  |用户编码  |
+| AdminStatus| int | 是  |用户状态  |
+| Roles| array[Role] | 是  |角色  |
 
 
 
@@ -39,9 +40,7 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | DataRangeSysNo | int | 是 | 系统编码 |
-| DataRangeName| string| 是 | 权限树名称|
-
-
+| DataRangeName | string | 是 | 权限树名称 |
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -49,15 +48,13 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| DataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表(党建专用) |
+| DataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表\(党建专用\) |
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 | KeyWord | string | 否 | 关键字搜索（名称） |
 | IsMyFootPrint | int | 否 | 是否显示自己的：0否，1是（不传查全部，传值需通过UserSysNo匹配Person） |
-| ClassSysNo| int | 否 | 班级系统编码 |
-| ClassTeacherType| int | 否 | 教师类型（类型： 1班主任，2副班主任，99教师） |
-| EduDataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表(教育专用) |
-
-
+| ClassSysNo | int | 否 | 班级系统编码 |
+| ClassTeacherType | int | 否 | 教师类型（类型： 1班主任，2副班主任，99教师） |
+| EduDataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表\(教育专用\) |
 
 > #### 查询Limit字段 {#请求数据}
 
