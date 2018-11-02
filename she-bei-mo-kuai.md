@@ -1,17 +1,17 @@
-# 商品模块-字段说明 {#新增河流}
+# 设备模块-字段说明 {#新增河流}
 
-> #### ProductGroup基础字段 {#请求数据}
+> #### Equipment基础字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrganizationSysNo | int | 是 | 组织系统编码 |
-| DataRangeSysNo | int | 是 | 数据范围编码列表（店铺树） |
+| EquipmentSysNo | int | 是 | 设备系统编码 |
+| OrganizationSysNo | int | 是 | 产权所属组织系统编码 |
+| OrganizationName | string | 是 | 产权所属组织 |
+| DataRangeSysNo | int | 是 | 数据范围编码列表 |
 | DataRangeName | string | 是 | 数据范围名称 |
-| ProductGroupSysNo | int | 是 | 系统编码 |
-| ProductGroupType | int | 是 | 类型（枚举） |
-| ProductGroupClassSysNo | int | 否 | 类型分类系统编码（类别树） |
-| ProductGroupClassName | string | 否 | 分类名称（类别树） |
-| IndustryClassSysNo | int | 否 | 类型分类系统编码（行业树） |
+| EquipmentClassSysNo | int | 是 | 设备类型编码 |
+| EquipmentClassName | string | 是 | 设备类型名称 |
+| Passageway | int | 是 | 货道 |
 | IndustryClassName | string | 否 | 分类名称（行业树） |
 | ProductGroupCode | string | 是 | 款号 |
 | ProductGroupName | string | 是 | 款名称 |
@@ -80,69 +80,7 @@
 | TaoWord | string | 是 | 淘口令 |
 | SellerName | int | 是 | 商家名称 |
 
-> #### Price说明 {#请求数据}
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| CostPrice | decimal\(18,2\) | 否 | 成本价 |
-| MarketPrice | decimal\(18,2\) | 否 | 市场价 |
-| SalePrice | decimal\(18,2\) | 否 | 销售价 |
-| MaxSalePrice | decimal\(18,2\) | 否 | 最大销售价 |
-| PointPrice | decimal\(18,2\) | 否 | 积分价格 |
-| MinCutSalePrice | decimal\(18,2\) | 否 | 最低砍价 |
-| OneBuyCutPrice | decimal\(18,2\) | 否 | 一元购必砍价 |
-
-> #### SKU基础字段 {#请求数据}
->
-> #### ProductGroup统计计算字段 {#请求数据}
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| SkuCount | int | 否 | sku数量 |
-
-> #### SKU基础字段 {#请求数据}
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| SkuSysNo | int | 是 | sku系统编码 |
-| SkuName | string | 是 | sku名称 |
-| SkuCode | string | 是 | sku代码 |
-| SkuDetail | string | 否 | 详情 |
-| SkuMemo | string | 否 | 备注 |
-| BarCode | string | 否 | 条形码 |
-| InternationalCode | string | 否 | 国际码 |
-| GoodsWeight | decimal\(18,2\) | 否 | 重量 |
-| GoodsVolumn | decimal\(18,2\) | 否 | 体积 |
-| SpecValueList | array object | 否 | 规格值列表 |
-| IsClearStocks | int | 否 | 是否限制库存：0否，1是 |
-| PriceGroupList | array object | 否 | 价格组列表（说明见通用） |
-| SkuInventory | object | 否 | sku库存 |
-| Price | object | 否 | 价格实体 |
-| FileThumbnailUrlList | array string | 否 | 缩略图Url列表 |
-| FileMasterUrlList | array string | 否 | 主图Url列表 |
-| FileDetailUrlList | array string | 否 | 详情图Url列表 |
-| ProductGroup | object | 否 | 款实体对象（不含SKU） |
-| CPSCommissionRate | int | 否 | 佣金比率 |
-| CPSCommission | int | 否 | 佣金 |
-| OnSaleStatus | int | 否 | 上下架状态 0待上架 1上架 2下架 |
-
-> #### 功能按钮字段 {#请求数据}
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-
-
-> ### SkuInventory
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| SkuSysNo | int | 是 | 商品规格\(SKU\)系统编码 |
-| PhysicalQuantity | int | 是 | 物理库存 |
-| AvailableQuantity | int | 是 | 可用库存 |
-| VirtualQuantity | int | 是 | 虚拟库存 |
-| FrozenQuantity | int | 是 | 冻结库存（含冻结库位库存+不可用库位库存+次品） |
-| OrderLockQuantity | int | 是 | 订单锁数量 |
-| DeliveryVoucherLockQuantity | int | 是 | 发货单锁数量 |
+####  {#请求数据}
 
 #### 查询条件字段 {#请求数据}
 
@@ -170,27 +108,7 @@
 | BrandSysNoList | array int | 否 | 品牌系统编码列表 |
 | ProductServiceTypeList | array int | 否 | 服务方式：0物流配送，1到店消费 |
 
-#### Spec {#应答数据-（巡河记录数组）}
 
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| SpecSysNo | int | 是 | 规格系统编码 |
-| SpecName | string | 是 | 规格名称 |
-| SpecValueList | array object | 是 | 规格值列表 |
-
-#### SpecValue {#应答数据-（巡河记录数组）}
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| SpecValueSysNo | int | 是 | 规格值系统编码 |
-| SpecName | string | 是 | 规格名称 |
-| SpecValue | string | 是 | 规格值 |
-| SpecValueOtherName | string | 否 | 规格值别名 |
-| IsCustomized | int | 是 | 是否可定制：0否，1是 |
-| IsChecked | int | 否 | 是否选中：0否，1是 |
-| IconColor | string | 否 | 色号 |
-| SpecValueFee | decimal\(18,2\) | 否 | 费用 |
-| SpecValueUrlList | array string | 否 | 图片 |
 
 > #### 查询Limit字段 {#请求数据}
 
@@ -213,16 +131,7 @@
 | IsShowProductInSku | int | 否 | 是否显示sku中款的信息（款的图片需limit控制） |
 | IsShowGroupList | int | 否 | 是否显示商品组 |
 
-####  {#应答数据-（巡河记录数组）}
 
-#### 模块页面编号枚举说明 {#请求数据}
-
-| 枚举值 | 模块说明 | 模块类型 | 模块类型分类 | 页面说明 |
-| :--- | :--- | :--- | :--- | :--- |
-| 1600101 | 商品模块 | 普通商品 |  | 新增页 |
-| 1600102 |  | 普通商品 |  | 修改页 |
-| 1600103 |  | 普通商品 |  | 详情页 |
-| 1600104 |  | 普通商品 |  | 列表页 |
 
 
 

@@ -1011,4 +1011,7 @@
     * [员工设置薪水、赏金](zhao-pin-mo-kuai/yuan-gong-she-zhi-xin-shui-3001-shang-jin.md)
     * [人员移除面试](zhao-pin-mo-kuai/ren-yuan-yi-chu-mian-shi.md)
     * [人员离职](zhao-pin-mo-kuai/ren-yuan-li-zhi.md)
+* [设备模块](she-bei-mo-kuai.md)
+  * 获取设备列表
+  * 获取设备详情
 
