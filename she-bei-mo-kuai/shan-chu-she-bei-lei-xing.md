@@ -1,8 +1,8 @@
-# 删除设备 {#获取河长巡河记录}
+# 删除设备类型 {#获取河长巡河记录}
 
 _**【接口地址】**_
 
-http://ip:port/EqmAction/Equipment/DelEquipmentType
+[http://ip:port/EqmAction/Equipment/DelEquipmentType](http://ip:port/EqmAction/Equipment/DelEquipmentType)
 
 > #### _请求数据_ {#请求数据}
 
