@@ -1,10 +1,16 @@
-# 新增设备 {#获取河长巡河记录}
+# 批量导入设备 {#获取河长巡河记录}
 
 _**【接口地址】**_
 
-[http://ip:port/EqmAction/Equipment/AddEquipment](http://ip:port/EqmQuery/Equipment/GetEquipmentBySysNo)
+[http://ip:port/EqmAction/Equipment/ImportEquipment](http://ip:port/EqmQuery/Equipment/GetEquipmentBySysNo)
 
 > #### _请求数据_ {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| EquipmentList | array EquipmentImport | 是 | 设备列表 |
+
+**EquipmentImport**
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -22,7 +28,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| Body | int | 是 | 设备编码 |
+
 
 
 

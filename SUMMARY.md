@@ -1025,4 +1025,5 @@
   * 新增路线
   * 修改路线
   * 删除路线
+  * [批量导入设备](she-bei-mo-kuai/pi-liang-dao-ru-she-bei.md)
 
