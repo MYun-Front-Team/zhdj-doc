@@ -1014,4 +1014,15 @@
 * [设备模块](she-bei-mo-kuai.md)
   * [获取设备列表](she-bei-mo-kuai/huo-qu-she-bei-lie-biao.md)
   * [获取设备详情](she-bei-mo-kuai/huo-qu-she-bei-xiang-qing.md)
+  * 新增设备
+  * 修改设备
+  * 删除设备
+  * 获取设备类型列表
+  * 新增设备类型
+  * 编辑设备类型
+  * 删除设备类型
+  * 获取路线列表
+  * 新增路线
+  * 修改路线
+  * 删除路线
 
