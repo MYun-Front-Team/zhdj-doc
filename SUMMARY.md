@@ -1018,8 +1018,8 @@
   * [修改设备](she-bei-mo-kuai/xiu-gai-she-bei.md)
   * [删除设备](she-bei-mo-kuai/shan-chu-she-bei.md)
   * [获取设备类型列表](she-bei-mo-kuai/huo-qu-she-bei-lei-xing-lie-biao.md)
-  * 新增设备类型
-  * 编辑设备类型
+  * [新增设备类型](she-bei-mo-kuai/xin-zeng-she-bei-lei-xing.md)
+  * [编辑设备类型](she-bei-mo-kuai/bian-ji-she-bei-lei-xing.md)
   * 删除设备类型
   * 获取路线列表
   * 新增路线
