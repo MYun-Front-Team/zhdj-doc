@@ -1029,7 +1029,7 @@
   * [获取商品列表](she-bei-mo-kuai/huo-qu-shang-pin-lie-biao.md)
   * [获取商品详情](she-bei-mo-kuai/huo-qu-shang-pin-xiang-qing.md)
   * [新增商品](she-bei-mo-kuai/xin-zeng-shang-pin.md)
-  * 编辑商品
+  * [编辑商品](she-bei-mo-kuai/bian-ji-shang-pin.md)
   * 删除商品
   * 设置货道商品
 
