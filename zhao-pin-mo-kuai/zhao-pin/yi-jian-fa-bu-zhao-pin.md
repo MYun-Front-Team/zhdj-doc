@@ -29,7 +29,7 @@ _**【接口地址】**_
 | EndDate | string | 否 | 结束时间 |
 | PickRuleTemplateList | array object | 否（可选配置） | 选人规则 |
 | IsAgent| int | 否 | 是否代理|
-
+| ClearAuditStatus| int | 否 | 是否清理审核状态|
 
 
 
