@@ -9,85 +9,45 @@
 | OrganizationName | string | 是 | 产权所属组织 |
 | DataRangeSysNo | int | 是 | 数据范围编码列表 |
 | DataRangeName | string | 是 | 数据范围名称 |
-| EquipmentClassSysNo | int | 是 | 设备类型编码 |
-| EquipmentClassName | string | 是 | 设备类型名称 |
-| Passageway | int | 是 | 货道 |
-| IndustryClassName | string | 否 | 分类名称（行业树） |
-| ProductGroupCode | string | 是 | 款号 |
-| ProductGroupName | string | 是 | 款名称 |
-| ProductGroupDetail | string | 否 | 款描述 |
-| ProductGroupMemo | string | 否 | 款备注 |
-| PCDCode | string | 否 | 产地PCD代码 |
-| PCDDescription | string | 否 | 产地PCD描述 |
-| GoodsWeight | decimal\(18,2\) | 否 | 重量 |
-| GoodsVolumn | decimal\(18,2\) | 否 | 体积 |
-| Pinyin | string | 否 | 款名称拼音 |
-| FileThumbnailPathList | array string | 否 | 缩略图Path列表（第一张为首图） |
-| FileMasterPathList | array string | 否 | 主图Path列表（第一张为首图） |
-| FileThumbnailUrlList | array string | 否 | 缩略图Url列表（第一张为首图） |
-| FileMasterUrlList | array string | 否 | 主图Url列表（第一张为首图） |
-| FileDetailPathList | array string | 否 | 详情图Path列表（第一张为首图） |
-| FileDetailUrlList | array string | 否 | 详情图Url列表（第一张为首图） |
-| SkuList | array object | 否 | 商品规格Sku列表 |
-| OnSaleStatus | int | 是 | 上下状态:0待上架 1上架 2下架 3部分上架 4停售 |
-| IsClearStocks | int | 否 | 是否是清货款：0否，1是 |
-| FirstOnSaleDate | string | 否 | 最早上架时间 |
-| FirstOnSalePerson | object | 否 | 最早上架人实体（简） |
-| LastOnSaleDate | string | 否 | 最近上架时间 |
-| LastOnSalePerson | object | 否 | 最近上架人实体（简） |
-| LastOffShelvesDate | string | 否 | 最近下架时间 |
-| LastOffShelvesPerson | object | 否 | 最近下架人实体（简） |
-| SpecGroup | object | 否 | 规格组（说明见“获取规格模板列表”） |
-| UnitList | array object | 否 | 计量单位列表（说明见通用） |
-| TagList | array object | 否 | 标签列表（说明见通用） |
-| BrandList | array object | 否 | 品牌列表（说明见通用） |
-| SupplierList | array object | 否 | 供应商列表（说明见组织） |
-| PriceGroupList | array object | 否 | 价格组列表（说明见通用） |
-| ProductInventory | object | 否 | 库存（说明见仓储） |
-| PriceRuleType | int | 否 | 定价规则：0按款定价，1按规格定价 |
-| Price | object | 否 | 价格实体 |
-| IsCreator | int | 否 | 商品是否属于自己：0否，1是 |
-| ProductServiceType | int | 否 | 服务方式：0物流配送，1到店消费 |
-| IsDisableRMA | int | 否 | 是否禁用退货：0否，1是 |
-| CommissionRate | decimal\(18,4\) | 否 | 佣金比例 |
-| EffectiveType | int | 否 | 有效类型：0天数，1日期 |
-| EffectiveDays | int | 否 | 有效天数 |
-| EffectiveDate | string | 否 | 有效期 |
-| IsHidden | int | 否 | 是否隐藏 |
-| IsSupportPointPay | int | 否 | 是否支持积分支付 |
-| RewardPoint | int | 否 | 奖励积分 |
-| ServiceType | int | 否 | 消费方式（0按次数，1按时间） |
-| ServiceOutMinutes | int | 否 | 过期时间（分钟）（0为长期有效） |
-| GroupList | array object | 否 | 商品组 |
-| SortNo | int | 否 | 排序 |
-| CPSCategory | string | 否 | 三方CPS类别 |
-| CPSMaterialUrl | string | 否 | 三方CPSURL |
-| CPSStartDate | string | 否 | 三方CPS开始推荐 |
-| CPSEndDate | string | 否 | 三方CPS结束推荐 |
-| CPSInOrderCount | int | 否 | 三方CPS评价 |
-| FakeInventoryCount | int | 否 | 可砍份数 |
-| IsTop | int | 是 | 是否置顶 |
-| RewardMP | decimal | 否 | 奖励魔力 |
-| FakeSaleCount | int | 是 | 虚假销量 |
-| CPSMaterialUrl | string | 是 | CPS落地页 |
-| CPSSysNo | int | 否 | CPS编码 |
-| CPSCode | string | 否 | CPS编码 |
-| SourceCPSSysNo | int | 是 | 来源三方CPS |
-| SourceCPSName | string | 是 | 来源跳转三方名称 |
-| CPSCommissionRate | int | 否 | 佣金比率 |
-| CPSCommission | int | 否 | 佣金 |
-| SourceProductGroupCode | string | 是 | 来源三方编码 |
-| TaoWord | string | 是 | 淘口令 |
-| SellerName | int | 是 | 商家名称 |
+| PersonSysNo | int | 是 | 产权人编码 |
+| PersonName | string | 是 | 产权人姓名 |
+| CellPhoneNo | string | 是 | 产权人手机 |
+| EquipmentTypeSysNo | int | 是 | 设备类型编码 |
+| EquipmentTypeName | string | 是 | 设备类型名称 |
+| Passageway | int | 是 | 货道数量 |
+| SN | string | 是 | SN号 |
+| EquipmentName | string | 是 | 设备名称 |
+| PCDCode | string | 是 | PCD代码 |
+| PCDDescription | string | 是 | PCD描述 |
+| Location | string | 是 | 具体位置 |
+| QCCode | string | 是 | 二维码 |
+| EquipmentStatus | int | 是 | 设备状态10正常 11故障 |
+| OnlineStatus | int | 是 | 在线状态10在线 11离线 |
+| FaultType | string | 否 | 故障类型描述 |
+| FaultTime | datetime | 否 | 故障时间 |
+| LineSysNo | int | 否 | 线路编码 |
+| LineName | string | 否 | 线路名称 |
+| PassagewayList | array object | 否 | 货道商品列表 |
+|  |  |  |  |
 
-####  {#请求数据}
+**Passageway货道商品**
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| EquipmentSysNo | int | 是 | 设备编码 |
+| PassagewayNo | int | 是 | 货道号 |
+| ProductGroupSysNo | int | 是 | 商品编码 |
+| ProductGroupName | string | 是 | 商品名称 |
+| ImgList | array string | 是 | 图片列表 |
+| SalePrice | decimal\(18,2\) | 是 | 销售价格 |
+| OutStock | int | 是 | 10正常，11缺货 |
 
 #### 查询条件字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrganizationSysNo | int | 否 | 组织系统编码 |
-| DataRangeSysNoList | int | 否 | 数据范围编码列表（店铺树） |
+| OrganizationSysNo | int | 否 | 产权人组织系统编码 |
+| DataRangeSysNoList | int | 否 | 数据范围编码列表 |
 | IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
 | KeyWord | string | 否 | 关键字搜索（名称\规格\标签） |
 | ProductGroupClassSysNoList | array int | 否 | 类型分类系统编码（类别树） |
@@ -107,8 +67,6 @@
 | CPSCode | string | 是 | CPS名称 JD京东，YX严选 |
 | BrandSysNoList | array int | 否 | 品牌系统编码列表 |
 | ProductServiceTypeList | array int | 否 | 服务方式：0物流配送，1到店消费 |
-
-
 
 > #### 查询Limit字段 {#请求数据}
 
@@ -130,8 +88,6 @@
 | IsShowSkuInventory | int | 否 | 是否显示sku库存 |
 | IsShowProductInSku | int | 否 | 是否显示sku中款的信息（款的图片需limit控制） |
 | IsShowGroupList | int | 否 | 是否显示商品组 |
-
-
 
 
 
