@@ -1026,4 +1026,10 @@
   * [修改路线](she-bei-mo-kuai/xiu-gai-lu-xian.md)
   * [删除路线](she-bei-mo-kuai/shan-chu-lu-xian.md)
   * [批量导入设备](she-bei-mo-kuai/pi-liang-dao-ru-she-bei.md)
+  * [获取商品列表](she-bei-mo-kuai/huo-qu-shang-pin-lie-biao.md)
+  * 获取商品详情
+  * 新增商品
+  * 编辑商品
+  * 删除商品
+  * 设置货道商品
 
