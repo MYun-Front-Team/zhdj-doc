@@ -48,6 +48,13 @@ _**【接口地址】**_
 | SellerLogoPathList | array string | 否（可选配置） | 商家Logo的Path路径列表 |
 |ContractCode| string | 否 |合同编号|
 | AutoAudit| int | 否 |是否自动审核（1是 0否）|
+| RecruitNeedPlatAudit| int | 否 |发布岗位是否需要平台审核|
+| PostSysNo| int | 否 |职位编码 |
+
+
+
+
+
 
 
 
