@@ -1022,8 +1022,8 @@
   * [编辑设备类型](she-bei-mo-kuai/bian-ji-she-bei-lei-xing.md)
   * [删除设备类型](she-bei-mo-kuai/shan-chu-she-bei-lei-xing.md)
   * [获取线路列表](she-bei-mo-kuai/huo-qu-lu-xian-lie-biao.md)
-  * 新增路线
-  * 修改路线
-  * 删除路线
+  * [新增路线](she-bei-mo-kuai/xin-zeng-lu-xian.md)
+  * [修改路线](she-bei-mo-kuai/xiu-gai-lu-xian.md)
+  * [删除路线](she-bei-mo-kuai/shan-chu-lu-xian.md)
   * [批量导入设备](she-bei-mo-kuai/pi-liang-dao-ru-she-bei.md)
 
