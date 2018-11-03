@@ -2,7 +2,7 @@
 
 _**【接口地址】**_
 
-[http://ip:port/EqmAction/Equipment/AddEqmProduct](http://ip:port/EqmQuery/Equipment/GetEqmProductBySysNo)
+[http://ip:port/EqmAction/Equipment/EditEqmProduct](http://ip:port/EqmQuery/Equipment/GetEqmProductBySysNo)
 
 > #### _请求数据_ {#请求数据}
 

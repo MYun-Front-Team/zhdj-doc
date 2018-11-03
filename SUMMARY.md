@@ -1030,6 +1030,6 @@
   * [获取商品详情](she-bei-mo-kuai/huo-qu-shang-pin-xiang-qing.md)
   * [新增商品](she-bei-mo-kuai/xin-zeng-shang-pin.md)
   * [编辑商品](she-bei-mo-kuai/bian-ji-shang-pin.md)
-  * 删除商品
+  * [删除商品](she-bei-mo-kuai/shan-chu-shang-pin.md)
   * 设置货道商品
 
