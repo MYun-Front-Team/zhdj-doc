@@ -1014,7 +1014,7 @@
 * [设备模块](she-bei-mo-kuai.md)
   * [获取设备列表](she-bei-mo-kuai/huo-qu-she-bei-lie-biao.md)
   * [获取设备详情](she-bei-mo-kuai/huo-qu-she-bei-xiang-qing.md)
-  * 新增设备
+  * [新增设备](she-bei-mo-kuai/xin-zeng-she-bei.md)
   * 修改设备
   * 删除设备
   * 获取设备类型列表
