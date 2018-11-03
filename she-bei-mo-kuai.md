@@ -46,48 +46,19 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrganizationSysNo | int | 否 | 产权人组织系统编码 |
-| DataRangeSysNoList | int | 否 | 数据范围编码列表 |
-| IsBranch | int | 否 | 是否枝叶，向下兼容查询：0查树，1查枝叶 |
-| KeyWord | string | 否 | 关键字搜索（名称\规格\标签） |
-| ProductGroupClassSysNoList | array int | 否 | 类型分类系统编码（类别树） |
-| OnSaleStatusList | array int | 否 | 上下状态:0待上架 1上架 2下架 3部分上架 4停售 |
-| TouristOrganizationSysNo | int | 否 | 游客组织系统编码（传0即为游客） |
-| TagSysNoLIst | array int | 否 | 标签系统编码列表 |
-| NotInTagSysNoLIst | array int | 否 | 不在标签系统编码列表 |
-| IsTagProduct | int | 否 | 是否显示含有标签的商品 |
-| IsHidden | int | 否 | 是否隐藏 |
-| ShopPCDCode | string | 否 | 店铺PCD代码 |
-| ShopPCDDescription | string | 否 | 店铺PCD描述 |
-| IndustryClassSysNoList | array int | 否 | 行业类别 |
-| IsSupportPointPay | int | 否 | 是否支持积分支付 |
-| GroupSysNo | int | 否 | 商品组系统编码 |
-| ShopShowSource | int | 否 | 店铺展示位置 |
-| ProductGroupCode | string | 否 | 款号 |
-| CPSCode | string | 是 | CPS名称 JD京东，YX严选 |
-| BrandSysNoList | array int | 否 | 品牌系统编码列表 |
-| ProductServiceTypeList | array int | 否 | 服务方式：0物流配送，1到店消费 |
+| OrganizationSysNo | int | 否 | 产权人所属组织系统编码 |
+| PersonSysNo | int | 否 | 产权人编码 |
+| Keywords | string | 否 | 关键字搜索 |
+| EquipmentTypeSysNoList | array int | 否 | 设备类型编码列表 |
+| EquipmentStatusList | array int | 否 | 设备状态列表 |
+| OnlineStatusLIst | array int | 否 | 在线状态列表 |
+| LineSysNoList | array int | 否 | 线路编码列表 |
 
 > #### 查询Limit字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| IsShowFileThumbnailUrlList | int | 否 | 是否显示缩略图列表（数量） |
-| IsShowFileMasterUrlList | int | 否 | 是否显示主图列表（数量） |
-| IsShowFileDetailUrlList | int | 否 | 是否显示详情图列表（数量） |
-| IsShowUnitList | int | 否 | 是否显示计量单位列表 |
-| IsShowTagList | int | 否 | 是否显示标签列表 |
-| IsShowBrandList | int | 否 | 是否显示品牌列表 |
-| IsShowSupplierList | int | 否 | 是否显示供应商列表 |
-| IsShowSkuList | int | 否 | 是否显示sku列表 |
-| IsShowSpecGroup | int | 否 | 是否显示规格组（说明见“获取规格模板列表”） |
-| IsShowSpecValueList | int | 否 | 是否显示规格值（当IsShowSkuList/IsShowSpecGroup=1时启用） |
-| ShowPriceGroupTypeList | array int | 否 | 价格组类型（见通用价格） |
-| ShowPriceTypeList | array int | 否 | 价格类型（见通用价格） |
-| IsShowProductInventory | int | 否 | 是否显示款库存（需要SKU库存则IsShowSkuInventory=1） |
-| IsShowSkuInventory | int | 否 | 是否显示sku库存 |
-| IsShowProductInSku | int | 否 | 是否显示sku中款的信息（款的图片需limit控制） |
-| IsShowGroupList | int | 否 | 是否显示商品组 |
+| IsShowPassageway | int | 否 | 是否显示货道商品 |
 
 
 
