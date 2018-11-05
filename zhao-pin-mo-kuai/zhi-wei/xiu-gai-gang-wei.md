@@ -32,6 +32,10 @@ _**【接口地址】**_
 | TagClassList | array object | 否 | 福利标签列表（说明见通用） |
 | CustomerPositionName| Nvarchar\(50\) | 否 | 客户自定义职位名称 |
 | PositionDayAreaList | array object | 否 | 工作日期列表（日期） |
+| PlatPositionSalaryList | array object | 否 | 平台岗位薪资列表 |
+
+
+
 
 
 
