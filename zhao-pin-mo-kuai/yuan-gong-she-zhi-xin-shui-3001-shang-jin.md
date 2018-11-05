@@ -25,19 +25,7 @@ http://ip:port/RecruitAction/Interview/EditInterviewPerson
 | EntryRemark|string| 否 | 入职备注 |
 | SalaryUnit| int | 否 | 薪资单位枚举，端定义 |
 | RewardUnit| int | 否 | 平台奖励单位枚举，端定义 |
-
-
-
-
-
-
-
-
-
-
-
-
-
+| EntrySysDate|datetime| 否 | 录入日期 |
 
 
 
