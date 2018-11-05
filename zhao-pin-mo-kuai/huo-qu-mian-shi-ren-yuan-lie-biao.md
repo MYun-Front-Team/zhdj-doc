@@ -81,6 +81,10 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | SellerName| string| 否 | 商家名称|
 | SalaryUnit| int | 否 | 薪资单位枚举，端定义 |
 | RewardUnit| int | 否 | 平台奖励单位枚举，端定义 |
+| EntrySysDate|datetime| 否 | 录入日期 |
+
+
+
 
 
 #### Person
