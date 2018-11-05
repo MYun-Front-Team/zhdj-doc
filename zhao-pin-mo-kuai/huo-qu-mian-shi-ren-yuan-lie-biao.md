@@ -126,9 +126,7 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | FreeTimeType| int | 是 | 空闲时间类型（1按标签2按星期）|
 | CpsSysNo| int | 是 | CPS来源编码|
 | IsInsurance| int |是 | 有无社保|
-| EntryStatus|int | 否 | 入职状态（0待入职10已入职11未入职）|
-| EntryDate|datetime| 否 | 入职时间 |
-| EntryRemark|string| 否 | 入职备注 |
+
 
 
 
