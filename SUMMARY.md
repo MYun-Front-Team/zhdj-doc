@@ -1032,4 +1032,6 @@
   * [编辑商品](she-bei-mo-kuai/bian-ji-shang-pin.md)
   * [删除商品](she-bei-mo-kuai/shan-chu-shang-pin.md)
   * [设置货道商品](she-bei-mo-kuai/she-zhi-huo-dao-shang-pin.md)
+  * [设备转移](she-bei-mo-kuai/she-bei-zhuan-yi.md)
+  * 获取设备转移日志
 
