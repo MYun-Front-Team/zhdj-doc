@@ -28,7 +28,7 @@ http://ip:port/RecruitAction/Recruit/AddRecruit
 | ExperienceRequirements | int | 否 | 经验要求：0不限,1一年内，2一到三年，3三到五年，4五到十年，5十年以上 |
 | Remark | Nvarchar\(max\) | 否 | 备注 |
 | PositionPathList | array string | 否 | 工作地Path文件列表 |
-| PositionSalaryList | array object | 否 | 岗位薪资列表 |
+| PositionSalaryList | array object | 否 | 客户可见岗位薪资列表 |
 | PositionAgeList | array object | 否 | 岗位年龄列表 |
 | PositionWorkDayList | array object | 否 | 工作日期列表 |
 | PositionWorkTimeList | array object | 否 | 工作时间列表 |
@@ -37,6 +37,8 @@ http://ip:port/RecruitAction/Recruit/AddRecruit
 | PositionDayAreaList | array object | 否 | 工作日期列表（日期） |
 | AgentRecruitShops| array RecruitShop | 否 |代理招聘的店铺组织 |
 | IsAgent| int | 否 | 是否代理|
+| PlatPositionSalaryList | array object | 否 | 平台岗位薪资列表 |
+
 
 
 > #### RecruitShop
