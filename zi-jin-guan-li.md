@@ -9,7 +9,7 @@
 | FrozenAmount | decimal（18，2） | 是 | 冻结余额1（如待提现冻结） |
 | AvailableAmount | decimal（18，2） | 是 | 可用余额=钱包余额-冻结余额1 |
 | TotalAmount | decimal（18，2） | 是 | 钱包总额=钱包余额+冻结余额2 |
-|  |  |  |  |
+|  |  |  |  |  
 | FrozenOrderAmount | decimal（18，2） | 是 | 冻结余额2（如未结算订单冻结） |
 | InComeTotalAmount | decimal（18，2） | 是 | 收入总金额（订单+佣金等） |
 | ReceiveCashTotalAmount | decimal（18，2） | 是 | 提现总金额（已提现+待提现） |
