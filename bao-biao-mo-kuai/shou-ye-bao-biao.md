@@ -125,6 +125,7 @@
 | FinishCommission| decimal（18，10） | 是 | 结算效果预估 |
 | AvailableAmount | decimal（18，2） | 是 | 钱包可用余额|
 | AvailableReceiveCashAmount | decimal（18，2） | 是 | 钱包可提现金额|
+| WalletSysNo | int | 是 | 钱包系统编码 |
 
 
 

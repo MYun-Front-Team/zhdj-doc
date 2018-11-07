@@ -23,6 +23,8 @@ _**【接口地址】**_
 | HonorStartTime | string | 否 | 荣誉获得开始时间 |
 | HonorEndTime | string | 否 | 荣誉获得结束时间 |
 | KeyWord | string | 否 | 关键字（标题） |
+| EDUDataRangeSysNoList | array int | 否 | 教育权限树（智慧教育有效）|
+
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 
