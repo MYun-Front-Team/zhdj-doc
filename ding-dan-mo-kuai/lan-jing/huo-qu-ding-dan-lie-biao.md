@@ -64,6 +64,7 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderList
 | CreateTime| datetime| 是 | 创建时间 |
 | TotalPrice| decimal | 否 | 总价|
 | TotalRewardMP| decimal | 否 | 总奖励魔力|
+| TotalRewardAmount| decimal | 否 | 总奖励金额|
 |CommentStatus|int | 是 | 评价状态（0未评价，10已经评价）|
 | SettlementStatus| int | 是 | 结算状态（10已结算，0待结算） |
 

@@ -35,6 +35,7 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderBySysNo
 | FillSourceOrderCodeTime| datetime| 是 | 填三方订单号时间|
 | CreateTime| datetime| 是 | 创建时间 |
 |CommentStatus|int | 是 | 评价状态（0未评价，10已经评价）|
+| TotalRewardAmount| decimal | 否 | 总奖励金额|
 
 
 
