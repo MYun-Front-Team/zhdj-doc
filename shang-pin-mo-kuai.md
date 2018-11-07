@@ -91,6 +91,8 @@
 | PointPrice | decimal\(18,2\) | 否 | 积分价格 |
 | MinCutSalePrice | decimal\(18,2\) | 否 | 最低砍价 |
 | OneBuyCutPrice | decimal\(18,2\) | 否 | 一元购必砍价 |
+| CouponPrice| decimal\(18,2\) | 否 | 优惠券金额 |
+| ReturnPrice | decimal\(18,2\) | 否 | 返还金额 |
 
 > #### SKU基础字段 {#请求数据}
 >
