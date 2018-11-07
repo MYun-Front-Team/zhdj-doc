@@ -31,7 +31,7 @@
 | WalletPurchaseOrderTotalAmount| decimal | 是 | 钱包采购总金额|
 | FrozenPurchaseOrderTotalAmount| decimal | 是 | 冻结钱包采购总金额|
 | Commission| decimal | 否 | 效果预估佣金 |
-| FinishCommission| decimal（18，10） | 是 | 结算效果预估 |
+| FinishCommission| decimal（18，10） | 是 | 结算效果预估 | 
 
 
 
