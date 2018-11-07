@@ -52,6 +52,7 @@ _**【接口地址】**_
 | OrganizationSysNo | int | 否 | 组织编码（用于修改T\_RM\_OrgPersonRelation的PostSysNo） |
 | PostSysNo | int | 否 | 职位编码（端自定义） |
 | PCDDataRangeSysNoList | array\[int\] | 否 | 负责区域系统编码列表 |
+| HosOrganizationSysNo | int | 否 | 所属医院、机构 |
 
 
 
