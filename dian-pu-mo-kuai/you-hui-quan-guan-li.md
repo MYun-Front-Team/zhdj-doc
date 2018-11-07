@@ -7,7 +7,7 @@
 | CouponSysNo | int | 是 | 优惠券系统编码 |
 | OrganizationSysNo | int | 是 | 组织系统编码 |
 | ShopSysNo | int | 是 | 店铺编码 |
-| CouponType | int | 是 | 类型，1001-免邮，1002-全场通用，1003-限定商品，1004-满件券 |
+| CouponType | int | 是 | 类型，1001-免邮，1002-全场通用，1003-限定商品，1004-满件券,1005 VIP |
 | CouponSubType | int | 是 | 优惠券子类型，0-总金额满减，1-单件金额满减 |
 | CouponName | string | 是 | 优惠券名称 |
 | Description | string | 否 | 说明描述 |
@@ -27,7 +27,7 @@
 | CouponStatus | int | 是 | 状态：0新建,10发布,11撤下 |
 | OverlayType | int | 是 | 叠加类型，0-不可叠加，1-可叠加 |
 | IsShareToPublic | int | 是 | 是否分享券：0否，1是 |
-| ShareStatus | int | 否 | 分享状态0未分享，1已分享，10已领取|
+| ShareStatus | int | 否 | 分享状态0未分享，1已分享，10已领取 |
 | ~~IsSendToFriend~~ | ~~int~~ | ~~是~~ | ~~是否转增：0否，1是~~ |
 | IsUnifiedCoding | int | 是 | 是否统一编码：0否，1是 |
 | TicketCode | string | 否 | 券编码\(当统一编码=1必填\) |
@@ -46,8 +46,8 @@
 | SendedCount | int | 否 | 已发数量 |
 | UsedCount | int | 否 | 已使用数量 |
 | IsReceived | int | 否 | 是否已领取：0否，1是 |
-| CouponCodeSysNo | int | 否 |领取的优惠券码系统编码  |
-| CouponCode | string | 否 |领取的优惠券码  |
+| CouponCodeSysNo | int | 否 | 领取的优惠券码系统编码 |
+| CouponCode | string | 否 | 领取的优惠券码 |
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -84,8 +84,6 @@
 | IsShowUsedCount | int | 否 | 是否显示已使用数量 |
 | IsShowCouponUrlList | int | 否 | 是否显示图片列表 |
 | IsShowIsReceived | int | 否 | 是否显示操作人的领取状态 |
-
-
 
 ####  {#应答数据-（巡河记录数组）}
 
