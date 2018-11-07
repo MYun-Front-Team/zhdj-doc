@@ -22,6 +22,9 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderList
 | OrganizationToSysNo | int |否 | 买家组织系统编码 |
 | PersonSysNo | int | 否 | 买家人员系统编码 |
 | OrderStatus| int | 否 | 订单状态（1待填订单号，2等待奖励，10已完成，11已关闭，12订单有误） |
+| SettlementStatusList|array[int] | 否 |结算状态（10已结算，0待结算）|
+
+
 
 
 > #### 返回数据
@@ -62,6 +65,7 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderList
 | TotalPrice| decimal | 否 | 总价|
 | TotalRewardMP| decimal | 否 | 总奖励魔力|
 |CommentStatus|int | 是 | 评价状态（0未评价，10已经评价）|
+| SettlementStatus| int | 是 | 结算状态（10已结算，0待结算） |
 
 
 
