@@ -83,6 +83,9 @@ http://ip:port/ProductQuery/LJProductGroup/GetLJProductGroupList
 | SalePrice| decimal| 是 | 券后价|
 | MarketPrice| decimal| 是 | 市场价|
 | RewardMP| decimal| 否 | 奖励魔力|
+| CouponPrice| decimal | 否 | 优惠券金额 |
+| ReturnPrice | decimal| 否 | 返还金额 |
+
 
 
 
