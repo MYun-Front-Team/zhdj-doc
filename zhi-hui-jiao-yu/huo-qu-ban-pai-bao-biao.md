@@ -12,7 +12,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/EduQuery/Report/GetCourseSelectList
+http://ip:port/EduQuery/Report/GetDeviceReportList
 
 > #### _请求数据_ {#请求数据}
 
@@ -27,14 +27,42 @@ http://ip:port/EduQuery/Report/GetCourseSelectList
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| DataRangeSysNo | int | 是 | 数据范围树枝叶编码 |
-| CourseSelectSysNo| int| 是 | 选课系统编码|
-| CourseSelectName| string| 是 | 选课名称|
-| SelectStart| datetime| 是 | 报名开始|
-| SelectEnd| datetime| 是 | 报名结束|
-| CourseSelectStatus| int| 是 | 选课状态（0草稿，10已发布）|
-| DateStatus| int| 是 | 进行状态（0未开始，10进行中，11已过期）|
-| InUser| string| 是 | 创建人|
+| DeviceTemplates | array[DeviceTemplate] | 是 | 模板统计|
+| DeviceGroups | array[DeviceGroup] | 是 | 分组统计|
+| HeartStatusGroups | array[HeartStatusGroup] | 是 | 状态统计|
+
+
+
+
+
+
+> #### DeviceTemplate
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| TemplateCode| int | 是 | 模板编号 |
+| TemplateName| int | 是 | 模板名称 |
+| Count| int | 是 | 设备数量 |
+
+> #### DeviceGroup
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| GroupName| int | 是 | 分组名称 |
+| Count| int | 是 | 设备数量 |
+
+> #### HeartStatusGroup
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| HeartStatus|int | 是 |状态（0初始，10正常，9警告，11下线） |
+| Count| int | 是 | 设备数量 |
+
+
+
+
+
+
 
 
 
