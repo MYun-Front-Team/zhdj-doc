@@ -17,8 +17,7 @@ http://ip:port/EduQuery/Student/GetSignReport
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | Date| datetime| 是 | 日期 |
-| DataRangeSysNo| int| 是 | 班级|
-
+| DataRangeSysNo| int| 是 | 学生班级|
 
 
 

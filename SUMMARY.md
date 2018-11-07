@@ -943,6 +943,8 @@
     * [编辑学期](zhi-hui-jiao-yu/bian-ji-xue-qi.md)
     * [获取学期详情](zhi-hui-jiao-yu/huo-qu-xue-qi-xiang-qing.md)
     * [删除学期](zhi-hui-jiao-yu/shan-chu-xue-qi.md)
+  * 报表
+    * [获取班排报表](zhi-hui-jiao-yu/huo-qu-ban-pai-bao-biao.md)
 * [招聘模块](zhao-pin-mo-kuai.md)
   * [职位](zhao-pin-mo-kuai/zhi-wei.md)
     * [新增岗位](zhao-pin-mo-kuai/zhi-wei/xin-zeng-gang-wei.md)
