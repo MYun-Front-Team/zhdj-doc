@@ -30,6 +30,9 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupList
 | IsOneBuy| int | 否 | 是否是1元购 |
 | IsGroupBuy| int | 否 | 是否是拼购 |
 | IfHasCoupon| int | 否 | 是否有券 |
+| SourceCPSCode|int| 是 |预估刀数|
+
+
 
 
 
