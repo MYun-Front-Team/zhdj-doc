@@ -67,8 +67,7 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderList
 | TotalRewardAmount| decimal | 否 | 总奖励金额|
 |CommentStatus|int | 是 | 评价状态（0未评价，10已经评价）|
 | SettlementStatus| int | 是 | 结算状态（10已结算，0待结算） |
-| CouponPrice| decimal\(18,2\) | 否 | 优惠券金额 |
-| ReturnPrice | decimal\(18,2\) | 否 | 返还金额 |
+| TotalReturnPrice | decimal\(18,2\) | 否 | 返还金额 |
 
 
 
@@ -92,6 +91,7 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderList
 | CPSSysNo| int | 是 | CPS系统编码 |
 | CPSCode| string| 是 | CPS编号 |
 | FileThumbnailUrlList| array string | 是 | 款缩略图 |
+| CouponPrice| decimal\(18,2\) | 否 | 优惠券金额 |
 
 
 
