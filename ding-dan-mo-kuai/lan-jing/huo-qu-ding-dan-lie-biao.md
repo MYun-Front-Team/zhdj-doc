@@ -66,11 +66,7 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderList
 | TotalRewardAmount| decimal | 否 | 总奖励金额|
 |CommentStatus|int | 是 | 评价状态（0未评价，10已经评价）|
 | SettlementStatus| int | 是 | 结算状态（10已结算，0待结算） |
-
-
-
-
-
+| AuditStatus| int | 是 | 审核状态（0待审核，10审核通过，11审核不通过） |
 
 
 
