@@ -577,6 +577,8 @@
     * [分享商品](ding-dan-mo-kuai/lan-jing/fen-xiang-shang-pin.md)
     * [获取待领取魔力/蓝晶](ding-dan-mo-kuai/lan-jing/huo-qu-dai-ling-qu-mo-li.md)
     * [领取魔力/蓝晶](ding-dan-mo-kuai/lan-jing/ling-qu-mo-li.md)
+    * [获取冻结钱包列表](ding-dan-mo-kuai/lan-jing/huo-qu-dong-jie-qian-bao-lie-biao.md)
+    * [获取冻结蓝晶/魔力列表](ding-dan-mo-kuai/lan-jing/huo-qu-dong-jie-lan-6676-mo-li-lie-biao.md)
 * [交易模块](jiao-yi-mo-kuai.md)
   * [购物车管理](jiao-yi-mo-kuai/gou-wu-che-guan-li.md)
     * [新增购物车](jiao-yi-mo-kuai/xin-zeng-gou-wu-che.md)
