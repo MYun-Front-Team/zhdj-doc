@@ -41,8 +41,7 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderList
 | RewardMP| decimal| 否 | 总奖励魔力|
 | WaitCodeCount| int| 否 | 待填订单号数量|
 | WaitRewardCount| int| 否 | 等待奖励数量|
-
-
+| ErrorCount| int| 否 | 订单有误数量|
 
 
 #### Detail
