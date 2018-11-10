@@ -9,8 +9,7 @@ _**【应用场景】**_
 获取会员卡列表
 
 _**【接口地址】**_
-
-[http://ip:port/WalletQuery/MemberCard/G](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)etMemberCardList
+http://ip:port/WalletQuery/MemberCard/GetMemberCardList
 
 > #### _请求数据_ {#请求数据}
 
