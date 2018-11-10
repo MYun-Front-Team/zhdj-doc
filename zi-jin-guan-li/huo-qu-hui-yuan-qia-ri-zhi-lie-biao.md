@@ -52,6 +52,11 @@ http://ip:port/WalletQuery/MemberCard/GetMemberCardLogList
 | PaymentType | int | 否 | 支付方式 |
 | Remark | string | 否 | 备注 |
 | CardType | int | 否 | 会员卡类型 |
+| RealName| string  | 否 | 姓名|
+
+
+
+
 
 #### MemberCardStatistic说明 {#应答数据-（巡河记录数组）}
 
