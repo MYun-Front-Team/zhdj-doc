@@ -53,6 +53,11 @@ http://ip:port/WalletQuery/MemberCard/GetMemberCardList
 | CardStatus | int | 否 | 卡状态：0初始化，9已挂失，10已激活，11已删除 |
 | User | object | 否 | 账户 |
 | CreateTime | string | 是 | 开卡时间 |
+| RealName| string  | 否 | 姓名|
+
+
+
+
 
 #### WalletStatistics说明 {#应答数据-（巡河记录数组）}
 
