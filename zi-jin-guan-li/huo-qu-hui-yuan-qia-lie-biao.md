@@ -24,7 +24,7 @@ _**【接口地址】**_
 | IDCard | string | 否 | 身份证 |
 | KeyWord | string | 否 | 身份证/手机号/卡号 |
 | CardStatusList | int | 否 | 卡状态：0初始化，9已挂失，10已激活，11已删除 |
-| EDUDataRangeSysNoList | array int | 否 | 教育权限树（智慧教育有效）|
+| EduDataRangeSysNoList | array int | 否 | 教育权限树（智慧教育有效）|
 | RealName| string  | 否 | 姓名|
 
 
