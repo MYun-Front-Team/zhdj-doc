@@ -10,7 +10,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-[http://ip:port/WalletAction/MemberCard/S](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)etMemberCardStatus
+http://ip:port/WalletAction/MemberCard/SetMemberCardStatus
 
 > #### _请求数据_ {#请求数据}
 
