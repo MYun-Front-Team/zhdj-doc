@@ -69,6 +69,9 @@
 | StartCustomerBirthDay | string | 否 | 开始客户生日 |
 | EndCustomerBirthDay | string | 否 | 结束客户生日 |
 | CustomerPCDDescription | string | 否 | 客户省市区 |
+| IfHasCustomerPersonPhone | array[int]| 否 | 是否有电话（1有 0无）|
+
+
 
 > #### Limit限制字段 {#请求数据}
 
