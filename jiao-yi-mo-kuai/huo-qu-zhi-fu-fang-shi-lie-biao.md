@@ -14,7 +14,7 @@ _**【接口地址】**_
 
 [http://ip:port/DealQuery/](http://ip:port/HMAction/River/AddRiver)Payment[/G](http://ip:port/HMAction/River/AddRiver)etPaymentList
 
-> #### _请求数据_ {#请求数据}
+> #### _请求数据_ {#请求数据} 
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
