@@ -31,16 +31,8 @@ http://ip:port/EduAction/Student/StudentSign
 | SignSysNo| int| 是 | 打卡编码 |
 | StudentBase | object | 是 | 基础字段 |
 | StudentStatistic | object | 否 | 统计字段 |
-
-
-
-
-
-
-
-
-
-
-
-
+| PersonName| string| 是 | 人员名字 |
+| CardType| int| 是 | 卡类型：3学生考勤卡，4学生一卡通，5教师考勤卡|
+| ClassName| string| 是 | 班级名称 |
+| SchoolName| string| 是 | 学校名称 |
 

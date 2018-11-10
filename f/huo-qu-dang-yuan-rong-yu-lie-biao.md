@@ -9,8 +9,7 @@ _**【应用场景】**_
 获取荣誉列表
 
 _**【接口地址】**_
-
-[http://ip:port/UMQuery/Honor/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)HonorList
+http://ip:port/UMQuery/Honor/GetHonorList
 
 > #### _请求数据_ {#请求数据}
 
