@@ -10,7 +10,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-[http://ip:port/WalletQuery/MemberCard/G](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)etMemberCardLogList
+http://ip:port/WalletQuery/MemberCard/GetMemberCardLogList
 
 > #### _请求数据_ {#请求数据}
 
@@ -22,6 +22,11 @@ _**【接口地址】**_
 | CardStatusList | int | 否 | 日志类型：1开卡，2挂失，3退卡，4充值，6实名认证 |
 | IsShowStatistics | int | 否 | 是否显示统计数据 |
 | PersonSysNo | int | 否 | 操作人系统编码 |
+| EduDataRangeSysNoList | array int | 否 | 教育权限树（智慧教育有效）|
+| RealName| string  | 否 | 姓名|
+
+
+
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
