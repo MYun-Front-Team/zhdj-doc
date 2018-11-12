@@ -57,6 +57,10 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | StartTime | datetime | 是 |开始时间 |
 | EndTime | datetime | 是 |结算时间 |
+| WorkTimeType| int| 是 |10其他 1早班 2中班 3晚班（班次） |
+
+
+
 
 > #### 工作日期（时间）PositionDayArea（兼职有效）
 
