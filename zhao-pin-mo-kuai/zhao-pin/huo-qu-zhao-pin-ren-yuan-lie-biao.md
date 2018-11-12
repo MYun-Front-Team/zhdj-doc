@@ -50,7 +50,7 @@ http://ip:port/RecruitQuery/Recruit/GetRecruitPersonList
 | SellerName| string | 否 | 商家名称 |
 | CustomerPositionName| Nvarchar\(50\) | 否 | 客户自定义职位名称 |
 | PositionName | Nvarchar\(50\) | 是 | 职位名称（冗余） |
-| ApplyInterviewTime|datetime| 否 | 入职时间 |
+| ApplyInterviewTime|datetime| 否 | 面试申请时间 |
 | CancelStatus| int| 是 | 取消状态（0正常，10取消） |
 | CancelRemark| string| 是 | 取消备注 |
 | HandleOfferStatus|int | 否 | Offer处理状态（0初始 1待处理 10通过，11不通过）|

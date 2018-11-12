@@ -130,10 +130,7 @@
 | PlatAuditStatusList| array int | 否 |岗位平台审核状态（0待审核 10已经审核 11审核不通过） |
 | HandleOfferStatusList|Array[int] | 否 | Offer处理状态（0初始 1待处理 10通过，11不通过）|
 | IsFavorite| int| 否 | 是否显示收藏夹的 |
-
-
-
-
+| InterviewStaus| int| 否 | 面试状态（1即将面试 2待处理 3已完成） |
 
 
 > #### 查询Limit字段 {#请求数据}
