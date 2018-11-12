@@ -56,13 +56,13 @@ _**【接口地址】**_
 | PositionPathList | array string | 否 | 工作地Path文件列表 |
 | ShopPersonSysNo | int  | 否 | 店铺负责人编码（店长） |
 | ------- | -以下为11-12抢班- | -- | ------- |
-| ShopInterviewDateList | array ShopInterviewDateAdd | 否 | 面试时间 |
+| ShopInterviewDateList | array ShopInterviewDateEdit | 否 | 面试时间 |
 
 
 
 #### _应答数据 _ {#应答数据-}
 
-#### ShopInterviewDate
+#### ShopInterviewDateEdit
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
