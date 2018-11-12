@@ -60,6 +60,18 @@ _**【接口地址】**_
 | IsAuthentication| int | 否 | 是否认证 |
 | PositionPathList | array string | 否 | 工作地Path文件列表 |
 | ShopPersonSysNo | int  | 否 | 店铺负责人编码（店长） |
+| ------- | -以下为11-12抢班- | -- | ------- |
+
+
+
+
+#### ShopInterviewDate
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ShopSysNo | int | 是 | 系统编码 |
+| StartDate| datetime| 是 |开始面试时间（只有时分秒有效）|
+| EndDate| datetime| 是 |结束面试时间（只有时分秒有效） |
 
 
 
