@@ -66,7 +66,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| ShopInterviewDateSysNo| int| 是 |面试时间系统编码|
+| ShopInterviewDateSysNo| int| 是 |面试时间系统编码(0为新增，非0为编辑已有的)|
 | StartDate| datetime| 是 |开始面试时间（只有时分秒有效）|
 | EndDate| datetime| 是 |结束面试时间（只有时分秒有效） |
 
