@@ -74,6 +74,7 @@ http://ip:port/BasicQuery/Basic/GetPersonBySysNo
 | NeedPartTimeJob| int | 否 | 是否屏蔽推送兼职（0正常，1屏蔽） |
 | DoctorPersonSysNo| int| 否 |医生编码 |
 | Salesman| string | 否 |业务员 |
+| Height| decimal| 否 | 身高 |
 
 
 

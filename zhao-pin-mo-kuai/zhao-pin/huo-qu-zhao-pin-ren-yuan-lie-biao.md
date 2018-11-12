@@ -25,7 +25,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | RecruitPersonSysNo | int| 否 | 招聘详情记录编码 |
 | RecruitPerson | object | 是 | 招聘人员 |
-| RecruitPersonStatus| int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝，20已上班，21放鸽子 |
+| RecruitPersonStatus| int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝，20已上班，21放鸽子，22取消 |
 | RecruitPersonTime | string | 否 | 抢的时间 |
 | PositionSalary | decimal\(18,2\) | 否 | 岗位最终薪资 |
 | SalaryType | int | 否 | 薪资类型：1月，2天，3时 |
@@ -50,17 +50,11 @@ _**【接口地址】**_
 | SellerName| string | 否 | 商家名称 |
 | CustomerPositionName| Nvarchar\(50\) | 否 | 客户自定义职位名称 |
 | PositionName | Nvarchar\(50\) | 是 | 职位名称（冗余） |
-
-
-
-
-
-
-
-
-
-
-
+| ApplyInterviewTime|datetime| 否 | 入职时间 |
+| CancelStatus| int| 是 | 取消状态（0正常，10取消） |
+| CancelRemark| string| 是 | 取消备注 |
+| HandleOfferStatus|int | 否 | Offer处理状态（0初始 1待处理 10通过，11不通过）|
+| HandleOfferRmark|string | 否 | Offer处理备注|
 
 
 

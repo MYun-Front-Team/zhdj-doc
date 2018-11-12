@@ -53,6 +53,7 @@ _**【接口地址】**_
 | PostSysNo | int | 否 | 职位编码（端自定义） |
 | PCDDataRangeSysNoList | array\[int\] | 否 | 负责区域系统编码列表 |
 | HosOrganizationSysNo | int | 否 | 所属医院、机构 |
+| Height| decimal| 否 | 身高 |
 
 
 

@@ -1,4 +1,4 @@
-# 确认抢班 {#新增河流}
+# 确认抢班
 
 ##### _【功能说明】_ {#【功能说明】}
 
@@ -21,6 +21,7 @@ _**【接口地址】**_
 | RecruitSysNo | int | 是 | 招聘系统编码 |
 | PersonSysNo | int | 否 | 人员系统编码 |
 | LeaderPersonSysNo| int| 否 | 邀请人 |
+| ApplyInterviewTime| datetime| 否 | 面试申请时间 |
 
 
 

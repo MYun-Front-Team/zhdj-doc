@@ -25,7 +25,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | RecruitPersonSysNo | int| 否 | 招聘详情记录编码 |
 | RecruitPerson | object | 是 | 招聘人员 |
-| RecruitPersonStatus| int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝，20已上班，21放鸽子 |
+| RecruitPersonStatus| int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝，20已上班，21放鸽子，22取消|
 | RecruitPersonTime | string | 否 | 抢的时间 |
 | PositionSalary | decimal\(18,2\) | 否 | 岗位最终薪资 |
 | SalaryType | int | 否 | 薪资类型：1月，2天，3时 |
@@ -46,7 +46,11 @@ _**【接口地址】**_
 | GoToWrokPersonSysNo| int| 是 | 确认上班人编码|
 | GoToWrokPersonName| string| 是 | 确认上班人名称|
 | GoToWrokTime| string| 是 |确认上班人时间|
-
+| ApplyInterviewTime| datetime| 否 | 面试申请时间 |
+| CancelStatus| int| 是 | 取消状态（0正常，10取消） |
+| CancelRemark| string| 是 | 取消备注 |
+| HandleOfferStatus|int | 否 | Offer处理状态（0初始 1待处理 10通过，11不通过）|
+| HandleOfferRmark|string | 否 | Offer处理备注|
 
 
 

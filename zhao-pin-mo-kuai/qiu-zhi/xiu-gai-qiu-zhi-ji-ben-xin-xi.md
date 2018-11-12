@@ -50,13 +50,7 @@ _**【接口地址】**_
 | FreeTimes| array[FreeTime] | 否 |空闲时间 |
 | CpsSysNo| int | 否 | CPS来源编码|
 | IsInsurance| int | 否 | 有无社保|
-
-
-
-
-
-
-
+| Height| decimal| 否 | 身高 |
 
 #### PersonSalary
 

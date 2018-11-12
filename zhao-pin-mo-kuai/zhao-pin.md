@@ -91,7 +91,7 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | RecruitSysNo| int | 否 | 招聘系统编码 |
-| RecruitPersonStatus| int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝，20已上班，21放鸽子 |
+| RecruitPersonStatus| int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝，20已上班，21放鸽子，22取消 |
 | RecruitPersonTime| Datetime| 否 | 抢的时间 |
 | PositionSalary| decimal| 否 |岗位最终薪资 |
 | SalaryType| Int| 否 |薪资类型：1月，2天，3时 |
@@ -102,6 +102,11 @@
 | InviterType| int| 否 | 邀请类型（0好友邀请，1分享邀请） |
 | NoComeRemark| string| 是 | 放鸽子备注 |
 | NoComeType| int| 是 | 自定义枚举备注 |
+| CancelStatus| int| 是 | 取消状态（0正常，10取消） |
+| CancelRemark| string| 是 | 取消备注 |
+| HandleOfferStatus|int | 否 | Offer处理状态（0初始 1待处理 10通过，11不通过）|
+| HandleOfferRmark|string | 否 | Offer处理备注|
+
 
 
 
@@ -119,7 +124,7 @@
 | IsMyFootPrint | int | 否 | 是否显示自己的：0否，1是（不传查全部，传值需通过UserSysNo匹配Person） |
 | PersonPositionTypeList | array int | 否 | 人员期望职位类型：1期望，10做过（Limit开关） |
 | PositionSysNo| aint | 否 | 岗位编码 |
-| RecruitPersonStatus| int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝，20已上班，21放鸽子 |
+| RecruitPersonStatus| int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝，20已上班，21放鸽子，22取消 |
 | LeaderPickStatus| int| 否 |领队接单状态（0未接 1已接）和IsMyFootPrint，RecruitPersonStatus 不能共存 |
 | IsLeaderPrint | int | 否 | 是否显示领队自己拉来的人：（0否，1是）和IsMyFootPrint不能共存 |
 | PositionTypeList |array[int] | 否 | 工作类型:0不限,1全职,2兼职 |
@@ -135,8 +140,8 @@
 | ShopCloseHidden| int| 否 | 隐藏关店的招聘|
 | RecruitAuditStatusList|array int| 否 |岗位审核状态（0待审核 10已经审核 11审核不通过） |
 | PlatAuditStatusList| array int | 否 |岗位平台审核状态（0待审核 10已经审核 11审核不通过） |
-
-
+| HandleOfferStatusList|Array[int] | 否 | Offer处理状态（0初始 1待处理 10通过，11不通过）|
+| IsFavorite| int| 否 | 是否显示收藏夹的 |
 
 
 
