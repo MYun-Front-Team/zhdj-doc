@@ -57,11 +57,8 @@
 | PositionPathList | array string | 否 | 工作地Path文件列表 |
 | PositionUrlList | array string | 否 | 工作地Path文件列表 |
 | Seller| Seller| 否 | 验证商家信息 |
-
-
-
-
-
+| ------- | -以下为11-12抢班- | -- | ------- |
+| ShopInterviewDateList | array ShopInterviewDate | 否 | 店铺面试时间 |
 
 
 
@@ -74,6 +71,14 @@
 | DeviceCount | int | 否 | 设备数量 |
 |SalePersonCount|int | 否 |消费人数 |
 |Wallet|int | 否 |钱包|
+
+#### ShopInterviewDate
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ShopInterviewDateSysNo| int| 是 |面试时间系统编码|
+| StartDate| datetime| 是 |开始面试时间（只有时分秒有效）|
+| EndDate| datetime| 是 |结束面试时间（只有时分秒有效） |
 
 ### Seller
 
@@ -131,6 +136,8 @@
 | IsShowBrand | int | 否 | 是否显示品牌 |
 | IsShowShopBannerUrlList | int | 否 | 是否显示店铺Banner列表 |
 | IsShowWallet| int | 否 | 是否显示钱包|
+| ------- | -以下为11-12抢班- | -- | ------- |
+| IsShowShopInterviewDateList | int | 否 | 是否显示店铺面试时间 |
 
 
 ####  {#应答数据-（巡河记录数组）}
