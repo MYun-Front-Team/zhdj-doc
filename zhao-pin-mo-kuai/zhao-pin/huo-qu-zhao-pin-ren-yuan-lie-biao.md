@@ -10,7 +10,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-[http://ip:port/RecruitQuery/Recruit/Get](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)[Recruit](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)PersonList
+http://ip:port/RecruitQuery/Recruit/GetRecruitPersonList
 
 > #### _请求数据_ {#请求数据}
 
