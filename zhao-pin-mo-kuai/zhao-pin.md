@@ -74,6 +74,7 @@
 | TakeInCount| int | 否 |已录用人数 |
 | InvalidCount| int | 否 |失效人数 |
 | FavoriteCount| int| 是 | 收藏数 |
+| CancelStatus| int | 否 |已取消人数 |
 
 
 #### RecruitPerson
