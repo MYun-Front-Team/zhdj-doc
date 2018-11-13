@@ -22,6 +22,11 @@ http://ip:port/RecruitAction/Recruit/SetNoCome
 | PersonSysNoList |array int | 是 | 人员系统编码 |
 | NoComeRemark| string| 是 | 放鸽子备注 |
 | NoComeType| int| 是 | 自定义枚举备注 |
+| IsDove| int | 是 | 是否放鸽子 |
+
+
+
+
 
 
 

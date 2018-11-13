@@ -20,6 +20,9 @@ http://ip:port/RecruitAction/Recruit/SetRecruitRefuse
 | PersonSysNo | int | 否 | 人员系统编码 |
 | PersonSysNoList |array int | 否 | 人员系统编码 |
 | Remark | string | 是 | 备注 |
+| IsDove| int | 是 | 是否放鸽子 |
+
+
 
 
 #### _应答数据_ {#应答数据-}
