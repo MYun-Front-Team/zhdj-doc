@@ -171,6 +171,12 @@
 | CPSCode | string | 是 | CPS名称 JD京东，YX严选 |
 | BrandSysNoList | array int | 否 | 品牌系统编码列表 |
 | ProductServiceTypeList | array int | 否 | 服务方式：0物流配送，1到店消费 |
+| StartLastOnSaleDate | string | 否 | 开始最近上架时间 |
+| EndLastOnSaleDate | string | 否 | 终止最近上架时间 |
+| StartCPSEndDate | string | 否 | 开始三方CPS结束推荐 |
+| EndCPSEndDate | string | 否 | 终止三方CPS结束推荐 |
+| SellerName | int | 是 | 商家名称 |
+
 
 #### Spec {#应答数据-（巡河记录数组）}
 
