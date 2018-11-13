@@ -25,7 +25,7 @@ http://ip:port/RecruitQuery/Recruit/GetRecruitPersonList
 | :--- | :--- | :--- | :--- |
 | RecruitPersonSysNo | int| 否 | 招聘详情记录编码 |
 | RecruitPerson | object | 是 | 招聘人员 |
-| RecruitPersonStatus| int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝，20已上班，21放鸽子，22取消 |
+| RecruitPersonStatus| int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝，19待入职（C接受Offer），20已上班，21放鸽子，22取消（C不接受Offerr和C取消面试）  |
 | RecruitPersonTime | string | 否 | 抢的时间 |
 | PositionSalary | decimal\(18,2\) | 否 | 岗位最终薪资 |
 | SalaryType | int | 否 | 薪资类型：1月，2天，3时 |
