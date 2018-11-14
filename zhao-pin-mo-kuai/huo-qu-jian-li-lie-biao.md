@@ -35,7 +35,7 @@ _**【接口地址】**_
 | Longitude | decimal | 否 | 经度 |
 | Latitude | decimal | 否 | 维度 |
 | Distance | decimal | 否 | 距离 |
-| SysJobStatusList |array[int] | 是 | 系统计算在职状态 （10在职 0不在职）|
+| SysJobStatusList |array[int] | 是 | 系统计算在职状态 （10在职 0不在职，1待面试）|
 
 
 #### Resume
@@ -53,7 +53,7 @@ _**【接口地址】**_
 | AdminStatus | int | 是 | 0待激活，1已激活 |
 | Interviews | array\[Interview\] | 是 | 最近面试 |
 | LastCommunicatePersonFromName | string | 是 | 最后沟通人 |
-| SysJobStatus | int | 是 | 系统计算在职状态 |
+| SysJobStatus | int | 是 | 系统计算在职状态（10在职 0不在职，1待面试） |
 
 #### Person
 
