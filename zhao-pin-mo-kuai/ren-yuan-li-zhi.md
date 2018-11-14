@@ -1,11 +1,17 @@
-# 人员离职
+# 人员离职/在职
+
+
+
 ##### _【功能说明】_ {#【功能说明】}
 
-人员离职
+人员离职/在职
 
 
 _**【应用场景】**_
-人员离职
+人员离职/在职
+
+
+
 
 
 _**【接口地址】**_
@@ -21,3 +27,4 @@ http://ip:port/RecruitAction/Interview/QuitPersonToInterview
 | QuitType| int | 否 | 离职类型 |
 | QuitReason| string| 是 | 离职原因  |
 | QuitRemark| string| 否 | 离职备注 |
+| IsQuit| int | 否 | 是否离职|

@@ -41,7 +41,11 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | EndEntryDate|datetime| 否 | 结束入职时间|
 | OrganizationSysNo| int | 否 |组织编码 |
 | PositionName | string  | 是 | 岗位名称 |
-
+| InvitePersonName| int | 是 | 邀请人|
+| StartCreateTime| datetime| 是 | 开始邀请时间|
+| EndCreateTime| datetime| 是 | 结束邀请时间|
+| StartStartDate| datetime| 否 | 起始面试时间|
+| EndStartDate| datetime| 否 | 终止面试时间|
 
 
 
@@ -82,6 +86,9 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | SalaryUnit| int | 否 | 薪资单位枚举，端定义 |
 | RewardUnit| int | 否 | 平台奖励单位枚举，端定义 |
 | EntrySysDate|datetime| 否 | 录入日期 |
+| StartTime| datetime| 是 |面试开始 |
+| EndTime| datetime| 是 |面试结束|
+| InterviewAddress| string| 是 |面试地址 |
 
 
 
