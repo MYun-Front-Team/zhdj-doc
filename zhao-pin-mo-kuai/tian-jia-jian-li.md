@@ -59,10 +59,7 @@ http://ip:port/RecruitAction/Resume/AddResume
 | FreeTimes| array[FreeTime] | 否 |空闲时间 |
 | CpsSysNo| int | 否 | CPS来源编码|
 | IsInsurance| int | 否 | 有无社保|
-
-
-
-
+| IsHealthy| int | 否 | 有无健康证|
 
 
 

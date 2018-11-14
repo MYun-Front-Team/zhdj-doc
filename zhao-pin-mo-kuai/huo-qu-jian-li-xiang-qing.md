@@ -87,7 +87,7 @@ http://ip:port/RecruitQuery/Resume/GetResumeBySysNo
 | FreeTimeType| int | int | 空闲时间类型（1按标签2按星期）|
 | CpsSysNo| int | 否 | CPS来源编码|
 | IsInsurance| int | 否 | 有无社保|
-
+| IsHealthy| int | 否 | 有无健康证|
 
 
 

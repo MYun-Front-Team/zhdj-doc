@@ -94,6 +94,8 @@ _**【接口地址】**_
 | FreeTimeType | int | 是 | 空闲时间类型（1按标签2按星期） |
 | CpsSysNo | int | 是 | CPS来源编码 |
 | IsInsurance | int | 是 | 有无社保 |
+| IsHealthy| int | 否 | 有无健康证|
+
 
 
 #### PersonSalary
