@@ -37,8 +37,7 @@ _**【接口地址】**_
 | Distance | decimal | 否 | 距离 |
 | SysJobStatusList |array[int] | 是 | 系统计算在职状态 （9已入用 10在职 0初始，1待面试）|
 | IsHealthyList|array[int] | 否 | 有无健康证|
-
-
+| ExpectPositionTypeList  |array[int] | 否 | 期望工作类型:0不限,1全职,2兼职 |
 
 
 
