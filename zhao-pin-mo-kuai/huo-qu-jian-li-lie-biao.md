@@ -36,6 +36,10 @@ _**【接口地址】**_
 | Latitude | decimal | 否 | 维度 |
 | Distance | decimal | 否 | 距离 |
 | SysJobStatusList |array[int] | 是 | 系统计算在职状态 （9已入用 10在职 0初始，1待面试）|
+| IsHealthyList|array[int] | 否 | 有无健康证|
+
+
+
 
 
 #### Resume
@@ -54,7 +58,7 @@ _**【接口地址】**_
 | Interviews | array\[Interview\] | 是 | 最近面试 |
 | LastCommunicatePersonFromName | string | 是 | 最后沟通人 |
 | SysJobStatus | int | 是 | 系统计算在职状态（9已入用 10在职 0不在职，1待面试） |
-| IsHealthyList|array[int] | 否 | 有无健康证|
+
 
 
 
