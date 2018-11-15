@@ -48,6 +48,9 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | EndInterviewStartTime| datetime| 否 | 终止面试时间|
 | NoPassTypeList|array[int] | 是 | 未通过原因，端定义 |
 | PositionTypeList  |array[int] | 否 | 工作类型:0不限,1全职,2兼职 |
+| StartQuitDate| datetime| 是 | 开始离职时间 |
+| EndQuitDate| datetime| 是 | 结束离职时间 |
+
 
 
 
