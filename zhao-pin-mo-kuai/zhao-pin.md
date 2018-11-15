@@ -76,6 +76,7 @@
 | FavoriteCount| int| 是 | 收藏数 |
 | CancelCount| int | 否 |已取消人数（不确认OFFER人数和取消面试人数和） |
 | WaitGoToWrokCount| int | 否 | 待入职人数 |
+| InterviewPersonCount| int | 否 | 后台面试人数 |
 
 
 

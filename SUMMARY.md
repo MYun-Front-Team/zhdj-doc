@@ -1005,7 +1005,7 @@
     * [编辑领队](zhao-pin-mo-kuai/bian-ji-ling-dui.md)
     * [获取领队详情](zhao-pin-mo-kuai/huo-qu-ling-dui-xiang-qing.md)
     * [领队接单](zhao-pin-mo-kuai/ling-dui-jie-dan.md)
-  * 简历
+  * [简历](zhao-pin-mo-kuai/jian-li.md)
     * [添加简历](zhao-pin-mo-kuai/tian-jia-jian-li.md)
     * [获取简历列表](zhao-pin-mo-kuai/huo-qu-jian-li-lie-biao.md)
     * [获取简历详情](zhao-pin-mo-kuai/huo-qu-jian-li-xiang-qing.md)
