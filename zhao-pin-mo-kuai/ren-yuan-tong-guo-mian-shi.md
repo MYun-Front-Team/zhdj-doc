@@ -18,6 +18,9 @@ http://ip:port/RecruitAction/Interview/PassInterview
 | InterviewPersonSysNo| int | 是 | 面试人表编码 |
 | WorkStartDay|datetime| 否 | 预计入职时间 |
 | WorkStartRemark|string| 否 | 描述 |
+| SalaryUnit| int | 否 | 薪资单位枚举，端定义 |
+| RewardUnit| int | 否 | 平台奖励单位枚举，端定义 |
+| Salary| Decimal| 否 | 薪资 |
 
 
 
