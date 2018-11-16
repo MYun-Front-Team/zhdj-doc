@@ -54,11 +54,7 @@ http://ip:port/OrderQuery/Order/GetCPSOrderList
 | AutoSettlementLeftMinutes| int | 是 | 离自动结算时间 |
 | AutoReceiveLeftMinutes| int | 否 |自动签收时间 |
 | AutoCancelLeftMinutes| int | 否 | 自动取消时间 |
-
-
-
-
-
+| OrderSettlementTime| datetime| 否 | 结算时间 |
 
 
 
