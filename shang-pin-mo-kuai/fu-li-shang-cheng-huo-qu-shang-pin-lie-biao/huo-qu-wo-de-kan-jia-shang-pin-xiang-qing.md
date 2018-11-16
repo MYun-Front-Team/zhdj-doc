@@ -58,7 +58,7 @@ http://ip:port/ShopQuery/CutPirce/GetMyFLCutPirceBySysNo
 | HaveReduceCount|int| 是 |已砍刀数|
 | OrderSysNo|int| 是 |订单编码|
 | SourceOrderCode|string| 是 |三方订单号|
-| CancelStatus | int | 是 | 取消状态：0正常，1取消中，10已消，11取消失败 |
+| CancelStatus | int | 是 | 订单取消状态：0正常，1取消中，10已消，11取消失败 |
 
 #### Sku {#应答数据-（巡河记录数组）}
 
