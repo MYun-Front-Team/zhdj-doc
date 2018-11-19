@@ -41,6 +41,12 @@
 | PersonSysNo | int | 否 | 人员编码 |
 | UseInvitation| int | 否 | 已使用邀请码 |
 | NoUseInvitation| int | 否 | 未使用邀请码 |
+| PersonName| int | 否 |人员昵称|
+| RealName| int | 否 |人员姓名|
+
+
+
+
 
 
 
