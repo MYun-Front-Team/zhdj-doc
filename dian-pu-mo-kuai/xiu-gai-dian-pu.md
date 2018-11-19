@@ -57,6 +57,15 @@ _**【接口地址】**_
 | ShopPersonSysNo | int  | 否 | 店铺负责人编码（店长） |
 | ------- | -以下为11-12抢班- | -- | ------- |
 | ShopInterviewDateList | array ShopInterviewDateEdit | 否 | 面试时间 |
+| InterviewBrand| string| 否 |面试品牌|
+| InterviewPerson| string| 否 | 面试联系人 |
+| InterviewPhone| string| 否 |面试联系人手机|
+| InterviewPersonPost| string| 否 | 面试联系人职务 |
+| InterviewAddress| string| 否 |面试联系人地址|
+| InterviewRemark| string| 否 | 面试备注 |
+
+
+
 
 
 
