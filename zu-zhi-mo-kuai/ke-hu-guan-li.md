@@ -38,6 +38,7 @@
 | PCDDataRangeSysNo | int | 否 | 所属机构的区域编码 |
 | PCDDataRangeName | string | 否 | 所属机构的区域 |
 | CustomerSalesman | string | 否 | 业务员 |
+| PersonSysNo | int | 否 | 人员编码 |
 
 > #### CustomerStatistic统计计算字段 {#请求数据}
 
