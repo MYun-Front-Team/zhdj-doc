@@ -59,6 +59,7 @@
 | Seller| Seller| 否 | 验证商家信息 |
 | ------- | -以下为11-12抢班- | -- | ------- |
 | ShopInterviewDateList | array ShopInterviewDate | 否 | 店铺面试时间 |
+| InterviewBrand| string| 否 |面试品牌|
 
 
 
