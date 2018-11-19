@@ -39,6 +39,11 @@
 | PCDDataRangeName | string | 否 | 所属机构的区域 |
 | CustomerSalesman | string | 否 | 业务员 |
 | PersonSysNo | int | 否 | 人员编码 |
+| UseInvitation| int | 否 | 已使用邀请码 |
+| NoUseInvitation| int | 否 | 未使用邀请码 |
+
+
+
 
 > #### CustomerStatistic统计计算字段 {#请求数据}
 
