@@ -26,6 +26,7 @@ http://ip:port/BasicQuery/InvitationCode/GetInvitationPeron
 | PersonSysNo| int | 否 |邀请的人编码 |
 | PersonName| string| 否 |邀请人员名称 |
 | FileUrlList | array string | 否 | 头像图片列表 |
+| IsUsed| int | 否 |是否使用 |
 
 
 
