@@ -22,7 +22,11 @@ http://ip:port/EduAction/Student/AddStudentParent
 | ParentType| int | 是 |家长类型 |
 
 
+> #### 返回数据
 
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+|  | int | 是 |家长编码 |
 
 
 
