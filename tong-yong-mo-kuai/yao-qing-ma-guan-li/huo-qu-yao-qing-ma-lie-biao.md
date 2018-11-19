@@ -17,8 +17,7 @@ http://ip:port/BasicQuery/InvitationCode/GetInvitationCodeList
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | IsUsedList|array[int] | 否 | 1已用 0未用|
-
-
+| PersonSysNo| int | 否 |人员编码 |
 
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
