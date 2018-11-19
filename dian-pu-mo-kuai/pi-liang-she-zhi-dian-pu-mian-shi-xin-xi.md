@@ -1,24 +1,32 @@
-# 设置店铺开店状态
+# 批量设置店铺面试信息
 
 ##### _【功能说明】_ {#【功能说明】}
 
-设置店铺开店状态
+批量设置店铺面试信息
 
 _**【应用场景】**_
 
-设置店铺开店状态
+批量设置店铺面试信息
 
 _**【接口地址】**_
 
-http://ip:port/ShopAction/Shop/SetShopOpenStatus
+http://ip:port/ShopAction/Shop/SetShopInterview
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| ShopSysNo | int | 是 | 店铺系统编码（当DeviceSysNo=0时必填） |
-| OpenStatus | int | 是 | 开店状态：0初始，10开，11关 |
-| Reamrk| string| 是 | 禁用备注|
+| ShopSysNoList |array[int] | 是 | 店铺系统编码 |
+| InterviewBrand| string| 否 |面试品牌|
+| InterviewPerson| string| 否 | 面试联系人 |
+| InterviewPhone| string| 否 |面试联系人手机|
+| InterviewPersonPost| string| 否 | 面试联系人职务 |
+| InterviewAddress| string| 否 |面试联系人地址|
+| InterviewRemark| string| 否 | 面试备注 |
+
+
+
+
 
 
 
