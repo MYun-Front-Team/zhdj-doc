@@ -137,9 +137,7 @@
 | IsFavorite| int| 否 | 是否显示收藏夹的 |
 | InterviewStaus| int| 否 | 面试状态（1即将面试 2待处理 3已完成） |
 | IsMyOffer| int| 否 | 是否查看我的Offer(包括待入职和抢中，排除已取消) |
-
-
-
+| IsOverdueList| int| 是 | 是否过期（0未过期 1已过期） |
 
 
 > #### 查询Limit字段 {#请求数据}
