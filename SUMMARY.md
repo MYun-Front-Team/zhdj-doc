@@ -715,6 +715,7 @@
     * [导入军人名册](ju-min-guan-li/jun-ren-ming-ce/dao-ru-jun-ren-ming-ce.md)
     * [编辑军人名册](ju-min-guan-li/jun-ren-ming-ce/bian-ji-jun-ren-ming-ce.md)
     * [删除军人名册](ju-min-guan-li/jun-ren-ming-ce/shan-chu-jun-ren-ming-ce.md)
+    * 获取军人地图
 * [报表模块](bao-biao-mo-kuai.md)
   * [获取报表数据](bao-biao-mo-kuai/huo-qu-bao-biao-shu-ju.md)
   * [获取报表模板](bao-biao-mo-kuai/huo-qu-bao-biao-mo-ban.md)
