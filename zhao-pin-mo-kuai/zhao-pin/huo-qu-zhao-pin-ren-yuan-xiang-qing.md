@@ -51,7 +51,7 @@ _**【接口地址】**_
 | CancelRemark| string| 是 | 取消备注 |
 | HandleOfferStatus|int | 否 | Offer处理状态（0初始 1待处理 10通过，11不通过）|
 | HandleOfferRmark|string | 否 | Offer处理备注|
-
+| IsOverdue| int| 是 | 是否过期（0未过期 1已过期） |
 
 
 #### RecruitPerson说明_ _ {#应答数据-（巡河记录数组）}
