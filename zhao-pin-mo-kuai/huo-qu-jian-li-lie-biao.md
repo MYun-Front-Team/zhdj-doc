@@ -38,10 +38,6 @@ _**【接口地址】**_
 | SysJobStatusList |array[int] | 是 | 系统计算在职状态 （9已入用 10在职 0初始，1待面试）|
 | IsHealthyList|array[int] | 否 | 有无健康证|
 | ExpectPositionTypeList  |array[int] | 否 | 期望工作类型:0不限,1全职,2兼职 |
-| StartCreateTime| datetime | 否 | 开始创建时间 |
-| EndCreateTime| datetime | 否 | 结束创建时间 |
-| CreatePersonSysNo| int| 否 | 创建人 |
-
 
 
 
