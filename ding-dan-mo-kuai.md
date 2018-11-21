@@ -151,15 +151,7 @@
 | OrderRMACancelStatus| int | 是 | 退货单客户取消状态 0正常，10客户已取消|
 | OrderRMAAuditStatus| int | 是 | 退货单后台审核 审核状态：0待审核，10审核通过，11审核失败 |
 | BrandList | array object | 否 | 品牌列表（说明见通用） |
-
-
-
-
-
-
-
-
-
+|CanRMAAmount| decimal| 是 | 可退款金额|
 
 
 
