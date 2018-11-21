@@ -1,17 +1,16 @@
-# 申请退货
+# 填写退货单信息
 
 ##### _【功能说明】_ {#【功能说明】}
 
-申请退货
+填写退货单信息
 
 _**【应用场景】**_
 
-申请退货
-
+填写退货单信息
 
 _**【接口地址】**_
 
-http://ip:port/OrderAction/RMA/AddOrderRMA
+http://ip:port/OrderAction/RMA/TrackingOrderRMA
 
 > #### _请求数据_ {#请求数据}
 
