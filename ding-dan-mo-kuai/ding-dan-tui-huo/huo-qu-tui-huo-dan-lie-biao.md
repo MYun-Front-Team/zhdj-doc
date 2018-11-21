@@ -24,7 +24,7 @@ http://ip:port/OrderQuery/RMA/GetOrderRMAList
 | KeyWord| string| 否 | 关键字 |
 | Limit| Limit| 否 | 展示限制|
 | CancelStatusList | List<int> | 否 |取消状态：0正常，10客户已取消 |
-| AuditStatusList | List<int> | 否 |审核状态：0待审核，10审核通过，11审核失败 |
+| AuditStatusList | List<int> | 否 |退款审核状态：0待审核，10审核通过，11审核失败 |
 | OrderItemSysNo | int | 是 | 订单明细系统编码 |
 | OrderSysNo | int | 是 | 订单系统编码 |
 | RMAType | int | 是 | 退货单类型（1仅退款，2退货/退款） |
@@ -57,14 +57,24 @@ http://ip:port/OrderQuery/RMA/GetOrderRMAList
 | ProductGroupName | string | 是 | 款名称 |
 | RMAAmount| decimal| 是 | 退款金额 |
 | CancelStatus | int | 是 | 取消状态：0正常，10客户已取消|
-| AuditStatus | int | 是 | 审核状态：0待审核，10审核通过，11审核失败 |
-| AuditRecord | object | 否 | 审核记录实体 |
+| AuditStatus | int | 是 | 退款审核状态：0待审核，10审核通过，11审核失败 |
+| AuditRecord | object | 否 | 退款审核记录实体 |
 | CreateTime| datetime| 否 | 申请时间|
 | FileThumbnailUrlList | array string | 否 | 缩略图Url列表 |
 | RMACount| int | 是 | 数量 |
 | UnitPrice| decimal| 是 |单价 |
 | BrandList | array object | 否 | 品牌列表（说明见通用） |
 | OrderAmount| decimal| 是 | 订单金额 |
+| GoodBackAuditStatus | int | 是 | 退货审核状态：0待审核，10审核通过，11审核失败 |
+| GoodBackAuditRecord| int | 是 | 退货审核记录实体 |
+| TrackingNo| string| 是 | 退货单快递单号 |
+| TrackingCompanySysNo| int | 是 | 快递公司系统编码 |
+| TrackingCompanyName| string| 是 | 快递公司名称 |
+| TrackingCompanyCode| string| 是 | 三方快递公司查询码 |
+| TrackingFileUrlList | array string | 否 | 快递凭证图片 |
+| TrackingCompanyName| string| 是 | 快递公司名称 |
+| SourceCPSName| string| 是 | 来源 |
+| SourceCPSCode| string| 是 | 来源编号 |
 
 
 
