@@ -58,6 +58,9 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupBySysNo
 | ProductGroupMemo | string | 否 | 款备注 |
 | IsClearStocks | int | 否 | 是否是清货款：0否，1是 |
 | ReduceCount|int| 是 |预估刀数|
+| GoodRate| decimal | 否 | 好评率(%) |
+
+
 
 
 

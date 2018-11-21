@@ -47,6 +47,7 @@ http://ip:port/UMQuery/Comment/GetCommentList
 | AuditStatus | int | 否 | 回复状态：0否，1是 |
 | SemesterSysNo | int | 否 | 学期系统编码 |
 | ShowStatus| int | 否 | 显示状态：0不显示，1显示 |
+| AverageScore | decimal\(18,2\) | 否 | 平均分 |
 
 
 
