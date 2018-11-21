@@ -49,7 +49,7 @@ http://ip:port/UMQuery/Comment/GetCommentList
 | ShowStatus| int | 否 | 显示状态：0不显示，1显示 |
 | AverageScore | decimal\(18,2\) | 否 | 平均分 |
 
-
+ 
 
 #### Limit说明 {#应答数据-（巡河记录数组）}
 
