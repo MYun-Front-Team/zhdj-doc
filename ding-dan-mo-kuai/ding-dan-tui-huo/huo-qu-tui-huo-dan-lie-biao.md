@@ -23,8 +23,8 @@ http://ip:port/OrderQuery/RMA/GetOrderRMAList
 | PersonSysNo | int | 否 | 买家人员系统编码 |
 | KeyWord| string| 否 | 关键字 |
 | Limit| Limit| 否 | 展示限制|
-| CancelStatusList | List<int> | 否 |取消状态：0正常，10客户已取消 |
-| AuditStatusList | List<int> | 否 |退款审核状态：0待审核，10审核通过，11审核失败 |
+| CancelStatusList | array [int] | 否 |取消状态：0正常，10客户已取消 |
+| AuditStatusList | array [int] | 否 |退款审核状态：0待审核，10审核通过，11审核失败 |
 | OrderItemSysNo | int | 是 | 订单明细系统编码 |
 | OrderSysNo | int | 是 | 订单系统编码 |
 | RMAType | int | 是 | 退货单类型（1仅退款，2退货/退款） |
@@ -79,8 +79,6 @@ http://ip:port/OrderQuery/RMA/GetOrderRMAList
 | RMAReceiverAddress| string| 是 | 退货地址 |
 | RMAReceiverName| string| 是 | 退货收货人 |
 | RMAReceiverPhone| string| 是 | 退货收货人电话|
-
-
 
 
 
