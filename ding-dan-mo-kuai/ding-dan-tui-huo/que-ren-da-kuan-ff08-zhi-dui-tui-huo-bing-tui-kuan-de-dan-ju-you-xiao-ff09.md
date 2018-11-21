@@ -22,7 +22,9 @@ http://ip:port/OrderAction/RMA/GoodBackOrderRMA
 | RMASysNo | int | 是 | 退货单系统编码 |
 | AuditRemark | string | 否 | 审核备注 |
 | AuditStatus | int | 是 | 审核状态：10同意退货，11不同意退货 |
-
+| RMAReceiverAddress| string| 是 | 退货地址 |
+| RMAReceiverName| string| 是 | 退货收货人 |
+| RMAReceiverPhone| string| 是 | 退货收货人电话|
 
 
 > #### 应答_数据_ {#请求数据}

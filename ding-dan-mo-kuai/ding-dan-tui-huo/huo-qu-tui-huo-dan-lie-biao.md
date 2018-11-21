@@ -75,6 +75,10 @@ http://ip:port/OrderQuery/RMA/GetOrderRMAList
 | TrackingCompanyName| string| 是 | 快递公司名称 |
 | SourceCPSName| string| 是 | 来源 |
 | SourceCPSCode| string| 是 | 来源编号 |
+| RMAReceiverAddress| string| 是 | 退货地址 |
+| RMAReceiverName| string| 是 | 退货收货人 |
+| RMAReceiverPhone| string| 是 | 退货收货人电话|
+
 
 
 

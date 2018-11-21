@@ -48,6 +48,19 @@ http://ip:port/OrderQuery/RMA/GetOrderRMABySysNo
 | RMACount| int | 是 | 数量 |
 | UnitPrice| decimal| 是 |单价 |
 | OrderAmount| decimal| 是 | 订单金额 |
+| GoodBackAuditStatus | int | 是 | 退货审核状态：0待审核，10审核通过，11审核失败 |
+| GoodBackAuditRecord| int | 是 | 退货审核记录实体 |
+| TrackingNo| string| 是 | 退货单快递单号 |
+| TrackingCompanySysNo| int | 是 | 快递公司系统编码 |
+| TrackingCompanyName| string| 是 | 快递公司名称 |
+| TrackingCompanyCode| string| 是 | 三方快递公司查询码 |
+| TrackingFileUrlList | array string | 否 | 快递凭证图片 |
+| TrackingCompanyName| string| 是 | 快递公司名称 |
+| SourceCPSName| string| 是 | 来源 |
+| SourceCPSCode| string| 是 | 来源编号 |
+| RMAReceiverAddress| string| 是 | 退货地址 |
+| RMAReceiverName| string| 是 | 退货收货人 |
+| RMAReceiverPhone| string| 是 | 退货收货人电话|
 
 
 
