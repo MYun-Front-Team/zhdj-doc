@@ -25,6 +25,8 @@ http://ip:port/OrderQuery/RMA/GetOrderRMABySysNo
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | RMASysNo | int | 是 | 退货单系统编码 |
+| RMAType | int | 是 | 退货单类型（1仅退款，2退货/退款） |
+| RMAStatus | int | 是 | 退货单状态（1等待卖家同意退货，2等待卖家同意退款，3等待买家退货，4等待卖家确认收货，10退款成功，11退款关闭） |
 | OrderSysNo | int | 是 | 订单系统编码 |
 | OrganizationFromSysNo | int | 是 | 卖家组织系统编码 |
 | DataRangeSysNo | int | 是 | 数据范围树编码（店铺树） |
@@ -45,15 +47,7 @@ http://ip:port/OrderQuery/RMA/GetOrderRMABySysNo
 | FileThumbnailUrlList | array string | 否 | 缩略图Url列表 |
 | RMACount| int | 是 | 数量 |
 | UnitPrice| decimal| 是 |单价 |
-
-
-
-
-
-
-
-
-
+| OrderAmount| decimal| 是 | 订单金额 |
 
 
 

@@ -27,6 +27,9 @@ http://ip:port/OrderQuery/RMA/GetOrderRMAList
 | AuditStatusList | List<int> | 否 |审核状态：0待审核，10审核通过，11审核失败 |
 | OrderItemSysNo | int | 是 | 订单明细系统编码 |
 | OrderSysNo | int | 是 | 订单系统编码 |
+| RMAType | int | 是 | 退货单类型（1仅退款，2退货/退款） |
+| RMAStatus | int | 是 | 退货单状态（1等待卖家同意退货，2等待卖家同意退款，3等待买家退货，4等待卖家确认收货，10退款成功，11退款关闭） |
+| RMASysNo | int | 是 | 退货单系统编码 |
 
 
 
@@ -38,6 +41,8 @@ http://ip:port/OrderQuery/RMA/GetOrderRMAList
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | RMASysNo | int | 是 | 退货单系统编码 |
+| RMAType | int | 是 | 退货单类型（1仅退款，2退货/退款） |
+| RMAStatus | int | 是 | 退货单状态（1等待卖家同意退货，2等待卖家同意退款，3等待买家退货，4等待卖家确认收货，10退款成功，11退款关闭） |
 | OrderSysNo | int | 是 | 订单系统编码 |
 | OrganizationFromSysNo | int | 是 | 卖家组织系统编码 |
 | DataRangeSysNo | int | 是 | 数据范围树编码（店铺树） |
@@ -59,6 +64,7 @@ http://ip:port/OrderQuery/RMA/GetOrderRMAList
 | RMACount| int | 是 | 数量 |
 | UnitPrice| decimal| 是 |单价 |
 | BrandList | array object | 否 | 品牌列表（说明见通用） |
+| OrderAmount| decimal| 是 | 订单金额 |
 
 
 
