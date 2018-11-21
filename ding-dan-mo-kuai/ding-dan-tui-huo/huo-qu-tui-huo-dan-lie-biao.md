@@ -66,7 +66,7 @@ http://ip:port/OrderQuery/RMA/GetOrderRMAList
 | BrandList | array object | 否 | 品牌列表（说明见通用） |
 | OrderAmount| decimal| 是 | 订单金额 |
 | GoodBackAuditStatus | int | 是 | 退货审核状态：0待审核，10审核通过，11审核失败 |
-| GoodBackAuditRecord| int | 是 | 退货审核记录实体 |
+| GoodBackAuditRecord| object | 是 | 退货审核记录实体 |
 | TrackingNo| string| 是 | 退货单快递单号 |
 | TrackingCompanySysNo| int | 是 | 快递公司系统编码 |
 | TrackingCompanyName| string| 是 | 快递公司名称 |
