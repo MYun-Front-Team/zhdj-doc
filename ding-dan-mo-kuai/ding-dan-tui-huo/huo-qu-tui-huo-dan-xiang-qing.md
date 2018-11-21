@@ -54,6 +54,7 @@ http://ip:port/OrderQuery/RMA/GetOrderRMABySysNo
 | TrackingCompanySysNo| int | 是 | 快递公司系统编码 |
 | TrackingCompanyName| string| 是 | 快递公司名称 |
 | TrackingCompanyCode| string| 是 | 三方快递公司查询码 |
+| TrackingRemark| string| 是 | 快递备注 |
 | TrackingFileUrlList | array string | 否 | 快递凭证图片 |
 | TrackingCompanyName| string| 是 | 快递公司名称 |
 | SourceCPSName| string| 是 | 来源 |

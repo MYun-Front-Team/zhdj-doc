@@ -17,12 +17,13 @@ http://ip:port/OrderAction/RMA/AddOrderRMA
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrderItemSysNo | int | 是 | 订单明细系统编码 |
-| RMAReason| string| 是 | 退货理由 |
-| Remark | string | 否 | 退货备注 |
-| FilePathList | array string | 否 | 图片列表 |
-| RMAAmount| decimal| 是 | 退款金额 |
-| RMACount| int | 是 | 数量 |
+| RMASysNo | int | 是 | 退货单系统编码 |
+| TrackingNo| string| 是 | 退货单快递单号 |
+| TrackingCompanySysNo| int | 是 | 快递公司系统编码 |
+| TrackingRemark| string| 是 | 快递备注 |
+| TrackingFileUrlList | array string | 否 | 快递凭证图片 |
+
+
 
 
 > #### 应答_数据_ {#请求数据}
