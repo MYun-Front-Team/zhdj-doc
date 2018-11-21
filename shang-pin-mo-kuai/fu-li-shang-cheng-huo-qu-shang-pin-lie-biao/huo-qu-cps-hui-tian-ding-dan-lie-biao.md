@@ -64,9 +64,8 @@ http://ip:port/OrderQuery/FLOrder/GetFLOrderList
 | SettlementStatus | int | 是 | 结算状态：0未结算，1部分结算，10已结算 |
 | SellerName| int | 是 |商家名称 |
 | AutoConfirmSecond| int | 否 |自动确认秒数 |
-
-
-
+| RelativeOrderSysNo| int | 否 | 关联小程序订单|
+| RelativeOrderPaymentStatus| int | 否 | 关联小程序订单支付状态（0待支付，10已支付）|
 
 #### DetailItem
 
