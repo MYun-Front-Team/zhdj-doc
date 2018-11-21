@@ -1,20 +1,19 @@
-
-# 审核退款退货单
+# 审核退货
 
 ##### _【功能说明】_ {#【功能说明】}
 
-审核退款退货单
+审核退货
 
 _**【应用场景】**_
 
-审核退款退货单
-(将退货资金打入钱包余额)
-
+审核退货
+1（仅退款的退货单调用不能调用此接口）
+2（退货退款的退货单，等待卖家同意退货时可以调用）
 
 
 _**【接口地址】**_
 
-http://ip:port/OrderAction/RMA/AuditOrderRMA
+http://ip:port/OrderAction/RMA/GoodBackOrderRMA
 
 > #### _请求数据_ {#请求数据}
 
@@ -22,11 +21,10 @@ http://ip:port/OrderAction/RMA/AuditOrderRMA
 | :--- | :--- | :--- | :--- |
 | RMASysNo | int | 是 | 退货单系统编码 |
 | AuditRemark | string | 否 | 审核备注 |
-| AuditStatus | int | 是 | 审核状态：0待审核，10审核通过，11审核失败 |
+| AuditStatus | int | 是 | 审核状态：10同意退货，11不同意退货 |
 
 
 
 > #### 应答_数据_ {#请求数据}
-
 
 
