@@ -42,6 +42,9 @@ _**【接口地址】**_
 | InArmyDate | Datetime | 是 | 入伍时间 |
 | OutArmyDate | Datetime | 是 | 退伍时间 |
 | MilitaryRank | string | 是 | 军衔 |
+| Lat | decimal | 是 | 纬度 |
+| Lon | decimal | 是 | 经度 |
+| Address | string | 是 | 详细地址 |
 
 
 
