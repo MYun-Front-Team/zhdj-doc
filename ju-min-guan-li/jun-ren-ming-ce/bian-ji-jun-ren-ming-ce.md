@@ -31,6 +31,7 @@ _**【接口地址】**_
 | OutArmyDate | Datetime | 否 | 退伍时间 |
 | MilitaryRank | string | 否 | 军衔 |
 | Address | string | 否 | 详细地址 |
+| FullAddress | string | 否 | 定位地址 |
 
 
 
