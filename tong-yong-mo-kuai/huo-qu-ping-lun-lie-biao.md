@@ -29,6 +29,8 @@ http://ip:port/UMQuery/Comment/GetCommentList
 | AverageStartScore | decimal\(18,2\) | 否 | 开始分数 |
 | AverageEndScore | decimal\(18,2\) | 否 | 结束分数 |
 | SemesterSysNo | int | 否 | 学期系统编码 |
+| AverageScore | decimal\(18,2\) | 否 | 平均分 |
+
 
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
