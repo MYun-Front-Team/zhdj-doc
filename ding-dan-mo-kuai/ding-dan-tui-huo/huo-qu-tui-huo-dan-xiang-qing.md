@@ -57,6 +57,8 @@ http://ip:port/OrderQuery/RMA/GetOrderRMABySysNo
 | TrackingRemark| string| 是 | 快递备注 |
 | TrackingFileUrlList | array string | 否 | 快递凭证图片 |
 | TrackingCompanyName| string| 是 | 快递公司名称 |
+| TrackingStatus| int | 是 | 快递单号上传状态（0初始 10已上传） |
+| TrackingTime| datetime| 是 | 快递单号上传时间 |
 | SourceCPSName| string| 是 | 来源 |
 | SourceCPSCode| string| 是 | 来源编号 |
 | RMAReceiverAddress| string| 是 | 退货地址 |
