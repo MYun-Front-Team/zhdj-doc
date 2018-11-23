@@ -55,6 +55,16 @@
 | CPSSysNo| int | 是 | CPS系统编码 |
 | CPSCode| string| 是 | CPS名称 JD京东，YX严选 |
 | NoticeStatus| int | 是 |通知状态 （0初始 10已标记） |
+| HasOrderRMA| int | 是 | 是否退货单|
+| OrderRMAType | int | 是 | 退货单类型（1仅退款，2退货/退款） |
+| OrderRMAStatus | int | 是 | 退货单状态（1等待卖家同意退货，2等待卖家同意退款，3等待买家退货，4等待卖家确认收货，10退款成功，11退款关闭） |
+| OrderRMASysNo | int | 是 | 退货单系统编码 |
+
+
+
+
+
+
 
 
 
