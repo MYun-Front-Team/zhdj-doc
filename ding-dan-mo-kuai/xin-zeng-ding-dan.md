@@ -51,6 +51,7 @@ _**【接口地址】**_
 |IsDoortodoor|int | 是 | 是否上门服务|
 | CPSSysNo| int | 是 | CPS系统编码 |
 | InvitationCode| string | 否 | 邀请码 |
+| RelativeOrderSysNo | int | 否 | 来源订单 |
 
 
 
