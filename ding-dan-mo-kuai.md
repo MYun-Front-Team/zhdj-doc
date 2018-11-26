@@ -138,6 +138,9 @@
 | OrderSettlementTime | string | 否 | 订单结算时间 |
 | OrderCancelTime | string | 否 | 订单取消时间 |
 
+
+
+
 > #### OrderItem基础字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
