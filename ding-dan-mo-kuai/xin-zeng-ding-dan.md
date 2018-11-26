@@ -52,7 +52,7 @@ _**【接口地址】**_
 | CPSSysNo| int | 是 | CPS系统编码 |
 | InvitationCode| string | 否 | 邀请码 |
 | RelativeOrderSysNo | int | 否 | 来源订单 |
-
+ 
 
 
 
