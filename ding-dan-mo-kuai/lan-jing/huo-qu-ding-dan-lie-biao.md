@@ -23,6 +23,15 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderList
 | PersonSysNo | int | 否 | 买家人员系统编码 |
 | OrderStatus| int | 否 | 订单状态（1待填订单号，2等待奖励，10已完成，11已关闭，12订单有误） |
 | SettlementStatusList|array[int] | 否 |结算状态（10已结算，0待结算）|
+| SourceOrderCode | string | 否 | 订单来源订单号 |
+| StartFillSourceOrderCodeTime| datetime| 是 | 开始填三方订单号时间|
+| EndFillSourceOrderCodeTime| datetime| 是 | 结束填三方订单号时间|
+| OrderStartTime | string | 否 | 开始时间（订单创建时间） |
+| OrderEndTime | string | 否 | 结束时间（订单创建时间） |
+| ProductGroupName| string| 否 | 商品名称 |
+| CellPhoneNo| string| 否 | 手机号 |
+
+
 
 
 
