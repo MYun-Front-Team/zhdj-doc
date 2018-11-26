@@ -16,7 +16,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-[http://ip:port/EduAction/Class/E](http://ip:port/HMAction/River/AddRiver)ditClass
+http://ip:port/EduAction/Class/EditClass
 
 > #### _请求数据_ {#请求数据}
 
