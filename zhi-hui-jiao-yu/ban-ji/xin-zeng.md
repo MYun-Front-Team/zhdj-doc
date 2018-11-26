@@ -28,6 +28,8 @@ _**【接口地址】**_
 | AddClassTeacherList | array object | 否（可选配置） | 新增班级教师列表 |
 | AddCollectivePhotoList | array string | 否（可选配置） | 新增集体照列表 |
 | AddClassBannerList | array string | 否（可选配置） | 新增班旗列表 |
+| SortNo| int | 是 | 排序|
+
 
 #### _应答数据_ {#应答数据-}
 

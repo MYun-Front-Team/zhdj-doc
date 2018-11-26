@@ -17,6 +17,7 @@
 | ClassBannerPathList | array string | 否 | 班旗Path文件列表 |
 | ClassBannerUrlList | array string | 否 | 班旗Url文件列表 |
 |  |  |  |  |
+| SortNo| int | 是 | 排序|
 
 > #### 班级统计计算字段 {#请求数据}
 

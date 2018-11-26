@@ -29,6 +29,8 @@ _**【接口地址】**_
 | ClassMotto | string | 否 | 班训 |
 | HeadMasterWord | string | 否 | 班主任寄语 |
 | EditClassTeacherList | array object | 否 | 修改班级教师列表 |
+| SortNo| int | 是 | 排序|
+
 
 #### _应答数据_ {#应答数据-}
 
