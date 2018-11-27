@@ -8,19 +8,17 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/ProductAction/LJProductGroup/AddWantBuy
+http://ip:port/ProductAction/LJProductGroup/PickWantBuyPoint
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-|JsonObj| string| 是 | Json描述|
-| CPSCode|string| 是 | CPSCode|
-| PersonSysNo|int| 是 | 人员编码|
+| WantBuySysNo| int | 是 | 想要系统编码 |
 
 
 > #### 应答_数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| WantBuySysNo| int | 是 | 想要系统编码|
+| | decimal| 是 |魔力 |
