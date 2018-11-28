@@ -14,7 +14,7 @@ http://ip:port/ProductAction/LJProductGroup/AddWantBuy
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-|JsonObj| string| 是 | Json描述|
+|CPSProductID| string| 是 | 三方款主键|
 | CPSCode|string| 是 | CPSCode|
 | PersonSysNo|int| 是 | 人员编码|
 
