@@ -26,3 +26,4 @@ http://ip:port/ProductAction/LJProductGroup/AddWantBuy
 | :--- | :--- | :--- | :--- |
 | WantBuySysNo| int | 是 | 想要系统编码|
 | ProductGroupSysNo| int | 是 | 款系统编码 |
+| OrganizationSysNo | int | 是 | 组织系统编码 |
