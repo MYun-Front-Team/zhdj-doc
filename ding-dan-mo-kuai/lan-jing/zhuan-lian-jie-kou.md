@@ -25,3 +25,4 @@ http://ip:port/ProductAction/LJProductGroup/AddWantBuy
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | WantBuySysNo| int | 是 | 想要系统编码|
+| ProductGroupSysNo| int | 是 | 款系统编码 |
