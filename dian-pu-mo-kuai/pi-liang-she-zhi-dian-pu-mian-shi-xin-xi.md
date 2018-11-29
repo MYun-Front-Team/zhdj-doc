@@ -23,11 +23,15 @@ http://ip:port/ShopAction/Shop/SetShopInterview
 | InterviewPersonPost| string| 否 | 面试联系人职务 |
 | InterviewAddress| string| 否 |面试联系人地址|
 | InterviewRemark| string| 否 | 面试备注 |
+| ShopInterviewDateList | array ShopInterviewDate| 否 | 面试时间 |
 
 
+#### ShopInterviewDate
 
-
-
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| StartDate| datetime| 是 |开始面试时间（只有时分秒有效）|
+| EndDate| datetime| 是 |结束面试时间（只有时分秒有效） |
 
 
 
