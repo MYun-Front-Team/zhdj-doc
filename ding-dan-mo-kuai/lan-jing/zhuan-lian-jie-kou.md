@@ -17,7 +17,7 @@ http://ip:port/ProductAction/LJProductGroup/AddWantBuy
 |CPSProductID| string| 是 | 三方款主键|
 | CPSCode|string| 是 | CPSCode|
 | PersonSysNo|int| 是 | 人员编码|
-| CPSMaterialUrl|string| 是 |CPS落地页|
+
 
 
 > #### 应答_数据_ {#请求数据}
