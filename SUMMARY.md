@@ -511,7 +511,7 @@
     * [添加商品推荐栏目](dian-pu-mo-kuai/shang-pin-tui-jian-guan-li/tian-jia-shang-pin-tui-jian-lan-mu.md)
     * [编辑商品推荐栏目](dian-pu-mo-kuai/shang-pin-tui-jian-guan-li/bian-ji-shang-pin-tui-jian-lan-mu.md)
     * [删除商品推荐栏目](dian-pu-mo-kuai/shang-pin-tui-jian-guan-li/shan-chu-shang-pin-tui-jian-lan-mu.md)
-  * 批量设置店铺面试信息
+  * [批量设置店铺面试信息](dian-pu-mo-kuai/pi-liang-she-zhi-dian-pu-mian-shi-xin-xi.md)
 * [仓库库存模块](cang-ku-ku-cun-mo-kuai.md)
   * [获取仓库库位树](huo-qu-cang-ku-ku-wei-shu.md)
   * [入库](ru-ku.md)

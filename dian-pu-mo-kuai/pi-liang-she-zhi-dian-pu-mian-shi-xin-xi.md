@@ -24,6 +24,8 @@ http://ip:port/ShopAction/Shop/SetShopInterview
 | InterviewAddress| string| 否 |面试联系人地址| 
 | InterviewRemark| string| 否 | 面试备注 |
 | ShopInterviewDateList | array ShopInterviewDate| 否 | 面试时间 |
+| InterviewLongitude | decimal（18，10） | 否 | 面试经度 |
+| InterviewLatitude | decimal（18，10） | 否 | 面试纬度 |
 
 
 #### ShopInterviewDate

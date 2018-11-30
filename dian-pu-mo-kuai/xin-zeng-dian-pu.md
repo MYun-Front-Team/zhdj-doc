@@ -68,10 +68,8 @@ _**【接口地址】**_
 | InterviewPersonPost| string| 否 | 面试联系人职务 |
 | InterviewAddress| string| 否 |面试联系人地址|
 | InterviewRemark| string| 否 | 面试备注 |
-
-
-
-
+| InterviewLongitude | decimal（18，10） | 否 | 面试经度 |
+| InterviewLatitude | decimal（18，10） | 否 | 面试纬度 |
 
 
 

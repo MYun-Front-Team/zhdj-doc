@@ -125,6 +125,7 @@
 | ShopTypeList |array int | 是 | 类型（枚举） |
 | ShopPersonCellPhoneNo| string | 否 | 店长电话 |
 | OrganizationSysNoList |array int | 是 |组织系统编码 |
+| RecruitNeedPlatAuditList|array int | 否 |发布岗位是否需要平台审核|
 
 
 
