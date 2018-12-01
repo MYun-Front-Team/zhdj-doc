@@ -23,6 +23,31 @@ http://ip:port/RecruitQuery/Recruit/GetPersonRecruit
 | :--- | :--- | :--- | :--- |
 | PersonPositions |array object | 是 | 基础字段 |
 | PersonSalarys |array object | 否 | 统计字段 |
+| ExpectPCDDescriptions|array string| 否 |期望工作省市区|
+| ExpectAddresses | array[ExpectAddress] | 否 |期望工作地点 |
+| FreeTimes| array[FreeTime] | 否 |空闲时间 |
+
+#### ExpectAddress
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ExpectAddressSysNo | int | 是 | 系统编码 （0新增，非0编辑）|
+| Longitude| decimal | 是 | 经度|
+| Latitude| decimal | 是 |维度 |
+| Address| string | 是 | 地址 |
+
+#### FreeTime
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| FreeTimeSysNo | int | 是 | 系统编码 （0新增，非0编辑）|
+| TimeType| int | 否 | 标签类型：端自定义（任意时间、双休日……）|
+| DayOfWeek| int | 否 |周几（1-7周1~周日） |
+| StartTime| datetime| 是 | 开始时间（只有时分秒有效)|
+| EndTime| datetime| 是 |结束时间（只有时分秒有效） |
+
+
+
 
 #### PersonSalary
 
