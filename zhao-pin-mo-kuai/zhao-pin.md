@@ -146,7 +146,7 @@
 | IsOverdueList| int| 是 | 是否过期（0未过期 1已过期） |
 | ShowFavoritePerson| int| 否 | 是否只显示收藏的人 |
 | NotEqualRecruitSysNo| int | 否 | 排除招聘系统编码 |
-
+ 
 
 > #### 查询Limit字段 {#请求数据}
 
