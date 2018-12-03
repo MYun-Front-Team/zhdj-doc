@@ -1051,4 +1051,5 @@
   * [设备转移](she-bei-mo-kuai/she-bei-zhuan-yi.md)
   * [获取设备转移日志](she-bei-mo-kuai/huo-qu-she-bei-zhuan-yi-ri-zhi.md)
   * [获取销售业绩](she-bei-mo-kuai/huo-qu-xiao-shou-ye-ji.md)
+  * [获取设备数量](she-bei-mo-kuai/huo-qu-she-bei-shu-liang.md)
 
