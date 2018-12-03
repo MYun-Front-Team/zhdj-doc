@@ -997,6 +997,7 @@
     * [确认抢班](zhao-pin-mo-kuai/qiu-zhi/que-ren-qiang-ban.md)
     * [确认忽略](zhao-pin-mo-kuai/qiu-zhi/que-ren-hu-lve.md)
     * [催促](zhao-pin-mo-kuai/qiu-zhi/cui-cu.md)
+    * [取消抢班](zhao-pin-mo-kuai/qiu-zhi/qu-xiao-qiang-ban.md)
   * [领队](zhao-pin-mo-kuai/ling-dui.md)
     * [添加领队](zhao-pin-mo-kuai/tian-jia-ling-dui.md)
     * [获取领队列表](zhao-pin-mo-kuai/huo-qu-ling-dui-lie-biao.md)

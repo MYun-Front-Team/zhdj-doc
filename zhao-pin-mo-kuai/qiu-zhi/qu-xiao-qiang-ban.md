@@ -12,7 +12,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/RecruitAction/Recruit/SetRecruitPersonSuccess
+http://ip:port/RecruitAction/Recruit/SetRecruitPersonCancel
 
 > #### _请求数据_ {#请求数据}
 
@@ -20,8 +20,7 @@ http://ip:port/RecruitAction/Recruit/SetRecruitPersonSuccess
 | :--- | :--- | :--- | :--- |
 | RecruitSysNo | int | 是 | 招聘系统编码 |
 | PersonSysNo | int | 否 | 人员系统编码 |
-| LeaderPersonSysNo| int| 否 | 邀请人 |
-| ApplyInterviewTime| datetime| 否 | 面试申请时间 |
+
 
 
 
