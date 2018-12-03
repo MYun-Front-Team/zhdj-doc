@@ -40,6 +40,11 @@
 | ShopInterviewDateList | array ShopInterviewDate| 否 | 面试时间 |
 | InterviewLongitude | decimal（18，10） | 否 | 面试经度 |
 | InterviewLatitude | decimal（18，10） | 否 | 面试纬度 |
+| Reward|decimal| 否 | 平台奖励|
+
+
+
+
 
 
 #### ShopInterviewDate
