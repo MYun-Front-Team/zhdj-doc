@@ -27,7 +27,7 @@ http://ip:port/UMQuery/KeyWord/GetKeyWordList
 | :--- | :--- | :--- | :--- |
 | KeyWordSysNo| int | 否 | 系统编码 |
 | SearchKey| string | 是 |关键字|
-| CPSCode| string | 否 | CPS编码 |
+
 
 
 
