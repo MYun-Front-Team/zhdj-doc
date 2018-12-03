@@ -21,6 +21,7 @@ http://ip:port/RecruitAction/Recruit/SetGoToWrok
 | RecruitSysNo | int | 是 | 招聘系统编码 |
 | PersonSysNo| int | 否 | 人员系统编码|
 | PersonSysNoList |array int | 否 | 人员系统编码 |
+| GoToWrokTime| datetime| 否 | 确认上时间|
 
 
 
