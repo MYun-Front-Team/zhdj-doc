@@ -1,12 +1,12 @@
-# 确认抢班
+# 取消抢班
 
 ##### _【功能说明】_ {#【功能说明】}
 
-确认抢班
+取消抢班
 
 _**【应用场景】**_
 
-确认抢班
+取消抢班
 
 注：人员如果为空，那么就用操作人的PersonSysNo；
 
@@ -20,6 +20,7 @@ http://ip:port/RecruitAction/Recruit/SetRecruitPersonCancel
 | :--- | :--- | :--- | :--- |
 | RecruitSysNo | int | 是 | 招聘系统编码 |
 | PersonSysNo | int | 否 | 人员系统编码 |
+| CancelRemark| string| 是 |取消备注 |
 
 
 
