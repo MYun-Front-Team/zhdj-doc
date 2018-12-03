@@ -19,9 +19,7 @@ http://ip:port/RecruitAction/Position/SetPositionSalary
 | PositionSysNo | int | 是 | 职位系统编码 |
 | PositionSalaryList | array object | 否 | 客户可见岗位薪资列表 |
 | Remark| string| 是 | 日志备注 |
-
-
-
+| Reward|decimal| 否 | 平台奖励|
 
 
 
