@@ -79,6 +79,9 @@
 | SourceProductGroupCode | string | 是 | 来源三方编码 |
 | TaoWord | string | 是 | 淘口令 |
 | SellerName | int | 是 | 商家名称 |
+| StartSaleDate| datetime| 是 | 开卖时间|
+
+
 
 > #### Price说明 {#请求数据}
 
