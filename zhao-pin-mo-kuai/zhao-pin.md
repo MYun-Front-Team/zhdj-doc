@@ -42,7 +42,6 @@
 | RecruitNeedPlatAudit| int | 否 |发布岗位是否需要平台审核|
 
 
-
 > #### RecruitShop
 
 | 变量名 | 类型 | 是否必须 | 描述 |
@@ -77,6 +76,10 @@
 | CancelCount| int | 否 |已取消人数（不确认OFFER人数和取消面试人数和） |
 | WaitGoToWrokCount| int | 否 | 待入职人数 |
 | InterviewPersonCount| int | 否 | 后台面试人数 |
+| IsFavorite| int| 否 | 是否收藏夹的 |
+
+
+
 
 
 

@@ -56,8 +56,8 @@ http://ip:port/RecruitQuery/Recruit/GetRecruitPersonList
 | HandleOfferStatus|int | 否 | Offer处理状态（0初始 1待处理 10通过，11不通过）|
 | HandleOfferRmark|string | 否 | Offer处理备注|
 | IsOverdue| int| 是 | 是否过期（0未过期 1已过期） |
-
-
+| IsDove| int | 是 | 是否放鸽子 |
+| IsFavorite| int| 否 | 是否收藏夹的 |
 
 
 #### RecruitPerson说明_ _ {#应答数据-（巡河记录数组）}
@@ -65,6 +65,7 @@ http://ip:port/RecruitQuery/Recruit/GetRecruitPersonList
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | Person | object | 是 | 人员（简版） |
+| DoveCount| int | 是 | 鸽子数 |
 | Distance| decimal\(18,2\) | 否 | 距离店铺距离 |
 | PersonPositionList | array object | 否 | 期望岗位列表（Limit） |
 | PersonSalaryList | array object | 否 | 期望薪资列表（Limit） |
