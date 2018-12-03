@@ -65,6 +65,10 @@ _**【接口地址】**_
 | SourceProductGroupCode|string| 是 |来源三方编码|
 | TaoWord|string| 是 |淘口令|
 | FakeInventoryCount | int | 否 | 可砍份数 |
+| StartSaleDate| datetime| 是 | 开卖时间|
+
+
+
 
 
 
