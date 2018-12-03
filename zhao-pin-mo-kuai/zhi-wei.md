@@ -31,10 +31,23 @@
 | SellerName| string| 否 | 商家名称|
 | ContractAddress| string| 否 | 店铺地址 |
 | PlatPositionSalaryList | array object | 否 | 平台可见岗位薪资列表 |
+| InterviewBrand| string| 否 |面试品牌|
+| InterviewPerson| string| 否 | 面试联系人 |
+| InterviewPhone| string| 否 |面试联系人手机|
+| InterviewPersonPost| string| 否 | 面试联系人职务 |
+| InterviewAddress| string| 否 |面试联系人地址| 
+| InterviewRemark| string| 否 | 面试备注 |
+| ShopInterviewDateList | array ShopInterviewDate| 否 | 面试时间 |
+| InterviewLongitude | decimal（18，10） | 否 | 面试经度 |
+| InterviewLatitude | decimal（18，10） | 否 | 面试纬度 |
 
 
+#### ShopInterviewDate
 
-
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| StartDate| datetime| 是 |开始面试时间（只有时分秒有效）|
+| EndDate| datetime| 是 |结束面试时间（只有时分秒有效） |
 
 
 > #### PositionClass
