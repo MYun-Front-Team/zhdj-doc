@@ -20,6 +20,7 @@ http://ip:port/RecruitAction/Recruit/SetRecruitPersonCancel
 | :--- | :--- | :--- | :--- |
 | RecruitSysNo | int | 是 | 招聘系统编码 |
 | PersonSysNo | int | 否 | 人员系统编码 |
+| IsForce| int | 否 | 强制取消（0要是超出限制会报错提示，1超出限制也不报错） |
 | CancelRemark| string| 是 |取消备注 |
 
 
