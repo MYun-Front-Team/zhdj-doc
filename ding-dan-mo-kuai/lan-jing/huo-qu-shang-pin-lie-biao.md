@@ -23,6 +23,7 @@ http://ip:port/ProductQuery/LJProductGroup/GetLJProductGroupList
 | Limit| Limit| 是 | 显示限制|
 | TagSysNoList | array int | 否 | 标签系统编码列表 |
 | BrandSysNoList| array int | 否 | 品牌系统编码列表 |
+| StartSaleDate| datetime| 是 | 开卖时间|
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
@@ -50,6 +51,8 @@ http://ip:port/ProductQuery/LJProductGroup/GetLJProductGroupList
 | ProductGroupMemo | string | 否 | 款备注 |
 | FakeSaleCount|int| 是 |虚假销量|
 | FileUrlList | array string | 否 | 买手头像图片列表 |
+| StartSaleDate| datetime| 是 | 开卖时间|
+
 
 
 
