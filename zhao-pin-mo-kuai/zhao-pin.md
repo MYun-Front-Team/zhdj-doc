@@ -40,6 +40,9 @@
 | AuditRemark| string| 否 |审核备注 |
 | PlatAuditStatus| int | 否 |岗位平台审核状态（0待审核 10已经审核 11审核不通过） |
 | RecruitNeedPlatAudit| int | 否 |发布岗位是否需要平台审核|
+| Reward|decimal| 否 | 平台奖励|
+
+
 
 
 > #### RecruitShop
