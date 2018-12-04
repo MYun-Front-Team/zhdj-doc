@@ -10,7 +10,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-[http://ip:port/BasicQuery/Basic/GetPersonList](http://ip:port/BasicQuery/Basic/GetPersonList)
+http://ip:port/BasicQuery/Basic/GetPersonList
 
 > #### _请求数据_ {#请求数据}
 
@@ -22,6 +22,7 @@ _**【接口地址】**_
 | HospitalOrgName | string | 否 | 医院、机构名称 |
 | AgentPersonSysNoList | array\[int\] | 否 | 渠道经理列表 |
 | PCDDataRangeSysNoList | array\[int\] | 否 | 负责区域列表 |
+| CellPhoneNo | string | 否 | 手机 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
