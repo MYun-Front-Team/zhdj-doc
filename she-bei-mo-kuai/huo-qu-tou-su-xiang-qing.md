@@ -1,22 +1,20 @@
-# 获取投诉列表 {#获取河长巡河记录}
+# 获取投诉详情 {#获取河长巡河记录}
 
 _**【接口地址】**_
 
-[http://ip:port/EqmQuery/Equipment/GetComplainList](http://ip:port/EqmQuery/Equipment/GetComplainList)
+http://ip:port/EqmQuery/Equipment/GetComplainBySysNo
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| PersonSysNo | int | 否 | 运营商人员编码 |
-| CustomerPersonSysNo | int | 否 | 消费者人员编码 |
-| ComplainStatusList | array\[int\] | 否 | 1未处理，10已处理 |
+| ComplainSysNo | int | 否 | 申诉编码 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| ComplainSysNo | int | 是 | 申诉编码 |
+| ComplainSysNo | int | 是 | 申述编码 |
 | PersonSysNo | int | 是 | 消费者人员编码 |
 | PersonName | string | 是 | 昵称 |
 | AvatarUrl | string | 是 | 头像 |
