@@ -58,6 +58,7 @@ http://ip:port/RecruitQuery/Recruit/GetRecruitPersonList
 | IsOverdue| int| 是 | 是否过期（0未过期 1已过期） |
 | IsDove| int | 是 | 是否放鸽子 |
 | IsFavorite| int| 否 | 是否收藏夹的 |
+| PositionWorkTimeList | array object | 否 | 工作时间列表 |
 
 
 #### RecruitPerson说明_ _ {#应答数据-（巡河记录数组）}
