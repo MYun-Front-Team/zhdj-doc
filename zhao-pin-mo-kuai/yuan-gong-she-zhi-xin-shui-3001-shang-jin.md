@@ -27,6 +27,7 @@ http://ip:port/RecruitAction/Interview/EditInterviewPerson
 | RewardUnit| int | 否 | 平台奖励单位枚举，端定义 |
 | EntrySysDate|datetime| 否 | 录入日期 |
 | Reward|decimal| 否 | 平台奖励|
+| SalaryUnit| int | 否 | 薪资单位枚举，端定义 |
 
 
 
