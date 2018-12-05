@@ -17,6 +17,7 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| InterviewPersonSysNo| int | 是 | 面试人员表编码 |
 | InterviewSysNo| int | 否 | 面试编码|
 | KeyWord| string| 否 | 姓名手机 |
 | BeforePositionName | string | 否 | 曾经做过 |
