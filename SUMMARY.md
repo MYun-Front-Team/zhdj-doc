@@ -187,6 +187,7 @@
   * 搜索记录管理
     * [获取搜索记录列表](tong-yong-mo-kuai/huo-qu-sou-suo-ji-lu-lie-biao.md)
     * [新增搜索记录](tong-yong-mo-kuai/xin-zeng-sou-suo-ji-lu.md)
+    * [删除历史搜索记录](tong-yong-mo-kuai/shan-chu-li-shi-sou-suo-ji-lu.md)
 * [积分模块](ji-fen-mo-kuai.md)
   * [根据模块，获取积分配置列表](ji-fen-mo-kuai/gen-ju-mo-kuai-ff0c-huo-qu-ji-fen-pei-zhi-lie-biao.md)
   * [获取业务积分记录详情列表](tong-yong-mo-kuai/huo-qu-ye-wu-ji-fen-ji-lu-xiang-qing-lie-biao.md)
@@ -584,6 +585,7 @@
     * [获取想要列表](ding-dan-mo-kuai/lan-jing/huo-qu-xiang-yao-lie-biao.md)
     * [转链接口](ding-dan-mo-kuai/lan-jing/zhuan-lian-jie-kou.md)
     * [领取转链积分](ding-dan-mo-kuai/lan-jing/ling-qu-zhuan-lian-ji-fen.md)
+    * [后台手动赠送魔力/蓝晶](ding-dan-mo-kuai/lan-jing/hou-tai-shou-dong-zeng-song-mo-529b-lan-jing.md)
 * [交易模块](jiao-yi-mo-kuai.md)
   * [购物车管理](jiao-yi-mo-kuai/gou-wu-che-guan-li.md)
     * [新增购物车](jiao-yi-mo-kuai/xin-zeng-gou-wu-che.md)

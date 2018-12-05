@@ -92,6 +92,9 @@
 | FileUrlList | array string | 否 | 头像图片列表 |
 | AMPPoints| decimal | 否 | 一级贡献魔力|
 | BMPPoints| decimal | 否 | 二级贡献魔力|
+| FansCount| int| 是 | 粉丝数量|
+
+
 
 
 
