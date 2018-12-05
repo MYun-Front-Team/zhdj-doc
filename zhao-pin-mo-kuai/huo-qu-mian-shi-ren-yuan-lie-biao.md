@@ -50,6 +50,7 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | PositionTypeList  |array[int] | 否 | 工作类型:0不限,1全职,2兼职 |
 | StartQuitDate| datetime| 是 | 开始离职时间 |
 | EndQuitDate| datetime| 是 | 结束离职时间 |
+| DataRangeSysNo| int | 否 |店铺树编码 |
 
 
 
