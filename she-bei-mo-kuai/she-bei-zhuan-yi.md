@@ -8,7 +8,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| EquipmentSysNo | int | 是 | 设备编码 |
+| EquipmentSysNos | array\[int\] | 是 | 设备编码列表 |
 | PersonSysNo | int | 是 | 转入人编码 |
 | CellPhoneNo | string | 是 | 转入人手机 |
 | Remark | string | 否 | 备注 |

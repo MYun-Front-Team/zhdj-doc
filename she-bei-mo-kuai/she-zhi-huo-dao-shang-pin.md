@@ -2,13 +2,13 @@
 
 _**【接口地址】**_
 
-http://ip:port/EqmAction/Equipment/SetProductPassageway
+[http://ip:port/EqmAction/Equipment/SetProductPassageway](http://ip:port/EqmAction/Equipment/SetProductPassageway)
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| Equipment | int | 是 | 设备编码 |
+| EquipmentSysNos | array\[int\] | 是 | 设备编码列表 |
 | SetPassagewayList | array object | 否 | 设置货道列表 |
 
 SetPassageway
