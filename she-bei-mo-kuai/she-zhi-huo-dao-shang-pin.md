@@ -15,8 +15,10 @@ SetPassageway
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| ProductGroupSysNo | int | 是 | 商品编码 |
-| PassagewayNo | int | 是 | 货道号 |
+| ProductGroupName | string | 是 | 商品名称 |
+| ImgList | array string | 否 | 图片列表 |
+| SalePrice | decimal\(18,2\) | 是 | 销售价格 |
+| PassageWayNo | int | 是 | 货道号 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
