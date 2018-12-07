@@ -8,10 +8,8 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| EquipmentSysNo | int | 是 | 设备编码 |
+| EquipmentSysNos | array\[int\] | 是 | 设备编码列表 |
 | PassagewayList | array\[int\] | 否 | 清空货道列表 |
-
-
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
