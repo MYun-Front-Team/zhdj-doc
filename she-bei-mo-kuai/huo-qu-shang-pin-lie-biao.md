@@ -8,6 +8,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| OrganizationSysNo | int | 否 | 组织编码 |
 | EquipmentTypeSysNoList | int | 否 | 适用设备类型列表 |
 | Keywords | string | 否 | 关键字 |
 
