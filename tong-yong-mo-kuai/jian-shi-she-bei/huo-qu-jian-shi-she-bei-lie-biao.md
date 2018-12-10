@@ -40,6 +40,11 @@ http://ip:port/UMQuery/DeviceStatus/GetDeviceStatusList
 | JsonObj| string| 是 | 备注 |
 | GroupInfos|array[GroupInfo] | 是 | 所有相关分组信息|
 | Remark| string| 是 | 描述 |
+| ShouldBeStatus| int| 是 |当前应该状态（0未知，10开机，11关机） |
+| NextOnTime| string| 是 |下次开机时间 |
+| NextOffTime| string| 是 |下次关机时间 |
+
+
 
 > #### GroupInfo
 
