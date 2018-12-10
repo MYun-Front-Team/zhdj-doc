@@ -68,6 +68,10 @@ http://ip:port/ProductQuery/ProductGroup/GetFLProductGroupList
 |CutPersons|array CutPerson| 是 |当前参与人|
 | ReduceCount|int| 是 |预估刀数|
 | GoodRate| decimal | 否 | 好评率(%) |
+| GroupByCode| string| 否 | 多款聚合款号 |
+| GroupByOtherName| string| 否 | 多款聚合别名 |
+
+
 
 
 #### CutPerson{#应答数据-（巡河记录数组）}
