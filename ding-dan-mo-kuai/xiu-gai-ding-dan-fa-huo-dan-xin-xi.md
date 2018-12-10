@@ -19,7 +19,7 @@ http://ip:port/OrderAction/Order/EditDeliveryVoucher
 | :--- | :--- | :--- | :--- |
 | OrderDeliverySysNo | int | 是 | 订单发货单系统编码 |
 | TrackingNo | string | 否 | 快递单号 |
-| TrackingCompanySysNo | int | 是 | 快递公司系统编码 |
+| TrackingCompanySysNo | int | 否 | 快递公司系统编码 |
 
 
 
