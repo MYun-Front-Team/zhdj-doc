@@ -18,6 +18,7 @@ http://ip:port/ProductQuery/ProductGroup/GetGroupByProduct
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | GroupByCode| string| 否 | 多款聚合款号 |
+| IsOneBuy| int | 是 | 是否是一元购入口进入 |
 
 
 
