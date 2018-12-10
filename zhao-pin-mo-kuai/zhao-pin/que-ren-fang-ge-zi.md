@@ -12,23 +12,17 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/RecruitAction/Recruit/SetNoCome
+[http://ip:port/RecruitAction/Recruit/SetNoCome](http://ip:port/RecruitAction/Recruit/SetNoCome)
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | RecruitSysNo | int | 是 | 招聘系统编码 |
-| PersonSysNoList |array int | 是 | 人员系统编码 |
-| NoComeRemark| string| 是 | 放鸽子备注 |
-| NoComeType| int| 是 | 自定义枚举备注 |
-| IsDove| int | 是 | 是否放鸽子 |
-
-
-
-
-
-
+| PersonSysNoList | array int | 是 | 人员系统编码 |
+| NoComeRemark | string | 是 | 放鸽子备注 |
+| NoComeType | int | 是 | 自定义枚举备注 |
+| IsDove | int | 是 | 是否放鸽子 |
 
 
 

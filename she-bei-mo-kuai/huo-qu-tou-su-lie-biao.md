@@ -8,6 +8,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| EquipmentSysNo | int | 否 | 设备编码 |
 | PersonSysNo | int | 否 | 运营商人员编码 |
 | CustomerPersonSysNo | int | 否 | 消费者人员编码 |
 | ComplainStatusList | array\[int\] | 否 | 1未处理，10已处理 |
