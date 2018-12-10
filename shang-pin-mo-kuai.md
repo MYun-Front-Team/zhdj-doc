@@ -181,6 +181,7 @@
 | StartCPSEndDate | string | 否 | 开始三方CPS结束推荐 |
 | EndCPSEndDate | string | 否 | 终止三方CPS结束推荐 |
 | SellerName | string | 是 | 商家名称 |
+| GroupByCode| string| 否 | 多款聚合款号 |
 
 
 #### Spec {#应答数据-（巡河记录数组）}
