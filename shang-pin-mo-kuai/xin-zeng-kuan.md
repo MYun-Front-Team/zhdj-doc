@@ -66,9 +66,8 @@ _**【接口地址】**_
 | TaoWord|string| 是 |淘口令|
 | FakeInventoryCount | int | 否 | 可砍份数 |
 | StartSaleDate| datetime| 是 | 开卖时间|
- 
-
-
+| GroupByCode| string| 否 | 多款聚合规格名称 |
+| IsGroupByDefault| int | 否 | 多款聚合默认显示 |
 
 
 

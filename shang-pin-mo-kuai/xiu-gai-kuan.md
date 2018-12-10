@@ -63,10 +63,8 @@ _**【接口地址】**_
 | SourceProductGroupCode|string| 是 |来源三方编码|
 | TaoWord|string| 是 |淘口令|
 | StartSaleDate| datetime| 是 | 开卖时间|
-
-
-
-
+| GroupByCode| string| 否 | 多款聚合规格名称 |
+| IsGroupByDefault| int | 否 | 多款聚合默认显示 |
 
 
 
