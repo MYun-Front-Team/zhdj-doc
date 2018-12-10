@@ -80,8 +80,9 @@
 | TaoWord | string | 是 | 淘口令 |
 | SellerName | int | 是 | 商家名称 |
 | StartSaleDate| datetime| 是 | 开卖时间|
-| GroupByCode| string| 否 | 多款聚合规格名称 |
+| GroupByCode| string| 否 | 多款聚合款号 |
 | IsGroupByDefault| int | 否 | 多款聚合默认显示 |
+| GroupByOtherName| string| 否 | 多款聚合别名 |
 
 
 > #### Price说明 {#请求数据}
