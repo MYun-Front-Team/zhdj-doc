@@ -51,7 +51,7 @@
 | Keywords | string | 否 | 关键字搜索 |
 | EquipmentTypeSysNoList | array int | 否 | 设备类型编码列表 |
 | EquipmentStatusList | array int | 否 | 设备状态列表 |
-| OnlineStatusLIst | array int | 否 | 在线状态列表 |
+| OnlineStatusList | array int | 否 | 在线状态列表 |
 | LineSysNoList | array int | 否 | 线路编码列表 |
 
 > #### 查询Limit字段 {#请求数据}
