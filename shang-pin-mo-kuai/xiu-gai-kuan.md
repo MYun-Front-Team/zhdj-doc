@@ -65,6 +65,9 @@ _**【接口地址】**_
 | StartSaleDate| datetime| 是 | 开卖时间|
 | GroupByCode| string| 否 | 多款聚合规格名称 |
 | IsGroupByDefault| int | 否 | 多款聚合默认显示 |
+| GroupByOtherName| string| 否 | 多款聚合别名 |
+
+
 
 
 
