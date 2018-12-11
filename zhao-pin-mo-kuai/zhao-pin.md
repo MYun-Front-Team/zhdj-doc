@@ -124,6 +124,7 @@
 | PersonPositionTypeList | array int | 否 | 人员期望职位类型：1期望，10做过（Limit开关） |
 | PositionSysNo| aint | 否 | 岗位编码 |
 | RecruitPersonStatus| int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝，19待入职（C接受Offer），20已上班，21放鸽子，22取消（C不接受Offerr和C取消面试）  |
+| RecruitPersonStatusList|array[int] | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝，19待入职（C接受Offer），20已上班，21放鸽子，22取消（C不接受Offerr和C取消面试）  |
 | LeaderPickStatus| int| 否 |领队接单状态（0未接 1已接）和IsMyFootPrint，RecruitPersonStatus 不能共存 |
 | IsLeaderPrint | int | 否 | 是否显示领队自己拉来的人：（0否，1是）和IsMyFootPrint不能共存 |
 | PositionTypeList |array[int] | 否 | 工作类型:0不限,1全职,2兼职 |
@@ -146,7 +147,13 @@
 | IsOverdueList| int| 是 | 是否过期（0未过期 1已过期） |
 | ShowFavoritePerson| int| 否 | 是否只显示收藏的人 |
 | NotEqualRecruitSysNo| int | 否 | 排除招聘系统编码 |
- 
+| StartRecruitPersonTime| datetime| 否 |客户抢的时间开始 |
+| EndRecruitPersonTime| datetime| 否 | 客户抢的时间结束 |
+| StartApplyInterviewTime|datetime| 否 |面试申请时间开始 |
+| EndApplyInterviewTime|datetime| 否 | 面试申请时间结束 |
+
+
+
 
 > #### 查询Limit字段 {#请求数据}
 
