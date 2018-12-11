@@ -127,5 +127,5 @@
 | AvailableReceiveCashAmount | decimal（18，2） | 是 | 钱包可提现金额|
 | WalletSysNo | int | 是 | 钱包系统编码 |
 | CustomerLevelName| string| 是 | 客户等级|
-
-
+| FroMPPoints| decimal| 是 | 冻结魔力|
+| FrozenAmount| decimal| 是 | 冻结资金|

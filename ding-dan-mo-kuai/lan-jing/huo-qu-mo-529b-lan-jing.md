@@ -18,6 +18,7 @@ http://ip:port/PointsQuery/LJPoint/GetLJPoint
 | PersonSysNo| int | 否 |人员系统编码 |
 | ModuleSourceType| int | 否 |来源类型系统编码 |
 | ModuleSysNo| int | 否 |来源类型系统编码 |
+| ModuleSourceClass| int | 否 |来源类别系统编码 |
 | ChangePointsValueType| int | 否 |1转入 2转出 |
 
 
