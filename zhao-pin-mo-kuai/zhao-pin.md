@@ -151,6 +151,7 @@
 | EndRecruitPersonTime| datetime| 否 | 客户抢的时间结束 |
 | StartApplyInterviewTime|datetime| 否 |面试申请时间开始 |
 | EndApplyInterviewTime|datetime| 否 | 面试申请时间结束 |
+| CancelStatusList|array int| 是 | 面试申请取消状态（0正常，10取消） |
 
 
 
