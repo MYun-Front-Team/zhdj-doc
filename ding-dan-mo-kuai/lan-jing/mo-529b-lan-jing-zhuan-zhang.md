@@ -25,6 +25,7 @@ http://ip:port/PointsAction/LJPoint/TransferLJPoint
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| | int | 是 |记录系统编码 |
 
 
 
