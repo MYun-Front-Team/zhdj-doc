@@ -587,6 +587,7 @@
     * [转链接口](ding-dan-mo-kuai/lan-jing/zhuan-lian-jie-kou.md)
     * [领取转链积分](ding-dan-mo-kuai/lan-jing/ling-qu-zhuan-lian-ji-fen.md)
     * [后台手动赠送魔力/蓝晶](ding-dan-mo-kuai/lan-jing/hou-tai-shou-dong-zeng-song-mo-529b-lan-jing.md)
+    * [魔力/蓝晶转账](ding-dan-mo-kuai/lan-jing/mo-529b-lan-jing-zhuan-zhang.md)
   * [修改订单发货单信息](ding-dan-mo-kuai/xiu-gai-ding-dan-fa-huo-dan-xin-xi.md)
 * [交易模块](jiao-yi-mo-kuai.md)
   * [购物车管理](jiao-yi-mo-kuai/gou-wu-che-guan-li.md)
