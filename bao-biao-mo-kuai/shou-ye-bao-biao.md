@@ -129,3 +129,4 @@
 | CustomerLevelName| string| 是 | 客户等级|
 | FroMPPoints| decimal| 是 | 冻结魔力|
 | FrozenAmount| decimal| 是 | 冻结资金|
+| HisAmount| decimal| 是 | 历史资金|
