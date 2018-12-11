@@ -16,9 +16,9 @@ http://ip:port/PointsQuery/LJPoint/GetLJPoint
 | :--- | :--- | :--- | :--- |
 | PointsType| int | 否 |积分类型（1蓝晶/2魔力） |
 | PersonSysNo| int | 否 |人员系统编码 |
-
-
-
+| ModuleSourceType| int | 否 |来源类型系统编码 |
+| ModuleSysNo| int | 否 |来源类型系统编码 |
+| ChangePointsValueType| int | 否 |1转入 2转出 |
 
 
 
@@ -51,5 +51,6 @@ http://ip:port/PointsQuery/LJPoint/GetLJPoint
 | ChangePointsValue| decimal| 是 | 魔力/蓝晶（正数/负数）|
 | Remark| string| 是 | 备注|
 | CreateTime| datetime| 是 |创建时间|
-
+| FileUrlList | array string | 否 | 头像图片列表（仅转账操作才有值） |
+| PersonName| string | 否 | 人员昵称（仅转账操作才有值） |
 
