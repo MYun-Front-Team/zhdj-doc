@@ -16,7 +16,7 @@ http://ip:port/PointsAction/LJPoint/TransferLJPoint
 | :--- | :--- | :--- | :--- |
 | PointsType| int | 是 |积分类型（1蓝晶/2魔力） |
 | FromPersonSysNo| int | 是 |转出人员系统编码 |
-| ToPersonCellPhoneNo| string| 是 |转入人员手机 |
+| ToPersonSysNo| int | 是 |转入人员系统编码 |
 | PointsValue| decimal| 是 | 魔力/蓝晶数量|
 
 
