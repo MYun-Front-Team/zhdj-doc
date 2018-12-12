@@ -155,7 +155,7 @@
 | StartWorkStartDay|datetime| 否 |预计入职时间开始 |
 | EndWorkStartDay|datetime| 否 | 预计入职时间结束 |
 | Remark|string| 否 | 面试备注 |
-| CancelOrNoComeRemark|string| 否 | 取消或未入职备注 |
+| CancelOrHandleOfferRemark|string| 否 | 客户取消或拒绝Offer备注 |
 
 
 > #### 查询Limit字段 {#请求数据}

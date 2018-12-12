@@ -54,6 +54,7 @@ http://ip:port/RecruitQuery/Recruit/GetRecruitPersonList
 | CancelStatus| int| 是 | 取消状态（0正常，10取消） |
 | CancelRemark| string| 是 | 取消备注 |
 | HandleOfferStatus|int | 否 | Offer处理状态（0初始 1待处理 10通过，11不通过）|
+| HandleOfferTime|datetime| 否 | Offer处理时间|
 | HandleOfferRmark|string | 否 | Offer处理备注|
 | IsOverdue| int| 是 | 是否过期（0未过期 1已过期） |
 | IsDove| int | 是 | 是否放鸽子 |
