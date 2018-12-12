@@ -33,6 +33,12 @@ _**【接口地址】**_
 | vehicleType | string | 是 | 车辆类型 |
 | registDate | string | 是 | 注册日期 |
 | busTypeLevel | string | 是 | 客车类型与等级 |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+| detectResult | string | 是 | 检验结果 |
+| detectSafeyResult | string | 是 | 安全检测结果 |
 | uploadStatus | int | 是 | 上传状态 1待上传，10已上传，11不上传 |
 | uploadTime | datetime | 是 | 上传时间 |
 | requireStatus | int | 是 | 10正常，11市平台要求字段未填写 |
