@@ -2,7 +2,7 @@
 
 _**【接口地址】**_
 
-http://ip:port/VDQuery/Detect/GetDSBySysNo
+[http://ip:port/VDQuery/Detect/GetDSBySysNo](http://ip:port/VDQuery/Detect/GetDSBySysNo)
 
 > #### _请求数据_ {#请求数据}
 
@@ -15,6 +15,7 @@ http://ip:port/VDQuery/Detect/GetDSBySysNo
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | dsSysNo | int | 是 | 检测站id |
+| dsId | string | 是 | 检测机构代码 |
 | LoginId | string | 是 | 登录账号 |
 | Password | string | 是 | 登录密码 |
 | dsName | string | 是 | 检测机构名称 |

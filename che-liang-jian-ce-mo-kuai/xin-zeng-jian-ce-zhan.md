@@ -8,6 +8,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| dsId | string | 是 | 检测机构代码 |
 | LoginId | string | 是 | 登录账号 |
 | Password | string | 是 | 登录密码 |
 | dsName | string | 是 | 检测机构名称 |
