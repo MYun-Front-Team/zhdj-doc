@@ -2,7 +2,7 @@
 
 _**【接口地址】**_
 
-http://ip:port/VDAction/Detect/EditAbnormal
+[http://ip:port/VDAction/Detect/EditAbnormal](http://ip:port/VDAction/Detect/EditAbnormal)
 
 > #### _请求数据_ {#请求数据}
 
