@@ -1069,4 +1069,7 @@
   * [获取检测报告列表](che-liang-jian-ce-mo-kuai/huo-qu-jian-ce-bao-gao-lie-biao.md)
   * [获取检测报告详情](che-liang-jian-ce-mo-kuai/huo-qu-jian-ce-bao-gao-xiang-qing.md)
   * [修改车牌号](che-liang-jian-ce-mo-kuai/xiu-gai-che-pai-hao.md)
+  * 获取异常名单列表
+  * [新增异常名单](che-liang-jian-ce-mo-kuai/huo-qu-yi-chang-ming-dan-xiang-qing.md)
+  * 编辑异常名单
 
