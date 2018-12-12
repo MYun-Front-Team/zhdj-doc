@@ -1079,6 +1079,6 @@
   * [获取燃油消耗量及安全核查详情](che-liang-jian-ce-mo-kuai/huo-qu-ran-you-xiao-hao-liang-ji-an-quan-he-cha-xiang-qing.md)
   * [获取检测站检测合格率统计分析](che-liang-jian-ce-mo-kuai/huo-qu-jian-ce-zhan-jian-ce-he-ge-lv-tong-ji-fen-xi.md)
   * [获取委托人送检合格率统计分析](che-liang-jian-ce-mo-kuai/huo-qu-wei-tuo-ren-song-jian-he-ge-lv-tong-ji-fen-xi.md)
-  * 获取检测机构燃油消耗量及安全核查合格率
+  * [获取检测机构燃油消耗量及安全核查合格率](che-liang-jian-ce-mo-kuai/huo-qu-jian-ce-ji-gou-ran-you-xiao-hao-liang-ji-an-quan-he-cha-he-ge-lv.md)
   * 获取车辆类型燃油消耗量及安全核查合格率
 
