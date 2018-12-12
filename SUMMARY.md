@@ -1076,4 +1076,5 @@
   * [新增燃油消耗量及安全核查](che-liang-jian-ce-mo-kuai/xin-zeng-ran-you-xiao-hao-liang-ji-an-quan-he-cha.md)
   * [编辑燃油消耗量及安全核查](che-liang-jian-ce-mo-kuai/bian-ji-ran-you-xiao-hao-liang-ji-an-quan-he-cha.md)
   * [获取异常名单详情](che-liang-jian-ce-mo-kuai/huo-qu-yi-chang-xiang-qing.md)
+  * [获取燃油消耗量及安全核查详情](che-liang-jian-ce-mo-kuai/huo-qu-ran-you-xiao-hao-liang-ji-an-quan-he-cha-xiang-qing.md)
 
