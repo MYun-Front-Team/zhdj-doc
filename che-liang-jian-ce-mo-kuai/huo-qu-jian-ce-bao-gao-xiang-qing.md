@@ -33,9 +33,17 @@ _**【接口地址】**_
 | vehicleType | string | 是 | 车辆类型 |
 | registDate | string | 是 | 注册日期 |
 | busTypeLevel | string | 是 | 客车类型与等级 |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+| tractorVehicleNo | string | 是 | 单车车牌号码 |
+| tractorClient | string | 是 | 单车委托人 |
+| tractorVehicleBrandModel | string | 是 | 单车品牌型号 |
+| tractorVinNo | string | 是 | 单车车辆识别码 |
+| tractorAdministrativeAera | string | 是 | 单车行政区域 |
+| tractorEngineNo | string | 是 | 单车发动机号码 |
+| trailerVehicleNo | string | 是 | 挂车车牌号码 |
+| trailerClient | string | 是 | 挂车委托人 |
+| trailerVehicleBrandModel | string | 是 | 挂车品牌型号 |
+| trailerVinNo | string | 是 | 挂车车辆识别码 |
+| trailerDriveLicense | string | 是 | 挂车车辆行驶证 |
 |  |  |  |  |
 | detectResult | string | 是 | 检验结果 |
 | detectSafeyResult | string | 是 | 安全检测结果 |
