@@ -53,5 +53,25 @@ _**【接口地址】**_
 | tempStatus | int | 是 | 10正常，11临时牌照未修改 |
 | abnormalStatus | int | 是 | 10正常，11在异常名单内 |
 
+人工检测结果
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| manualTestResultSysNo | int | 是 | 人工检测结果id |
+| detectRecordSysNo | int | 是 | 检测报告id |
+| detectCls | string | 是 | 检测项目 |
+| evaluate | string | 是 | 判定 |
+| unqualifiedItem | string | 是 | 不符合项目 |
+
+性能检测结果
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| performanceItemSysNo | int | 是 | 性能检测结果id |
+| detectRecordSysNo | int | 是 | 检测报告id |
+| itemCode | string | 是 | 性能检测项目 |
+| detectData | string | 是 | 性能检测数据 |
+| evaluate | string | 是 | 判定 |
+
 
 
