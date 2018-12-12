@@ -2,7 +2,7 @@
 
 _**【接口地址】**_
 
-[http://ip:port/VDQuery/Detect/GetDSPassPercent](http://ip:port/EqmQuery/Equipment/GetEquipmentList)
+[http://ip:port/VDQuery/Detect/GetDSDetectPassPercent](http://ip:port/EqmQuery/Equipment/GetEquipmentList)
 
 > #### _请求数据_ {#请求数据}
 

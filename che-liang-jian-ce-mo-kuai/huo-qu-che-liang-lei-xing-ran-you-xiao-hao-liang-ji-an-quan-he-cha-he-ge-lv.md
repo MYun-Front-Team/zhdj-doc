@@ -1,14 +1,14 @@
-# 获取检测机构燃油消耗量及安全核查合格率 {#获取河长巡河记录}
+# 获取车辆类型燃油消耗量及安全核查合格率 {#获取河长巡河记录}
 
 _**【接口地址】**_
 
-[http://ip:port/VDQuery/Detect/GetDSFuelSafetyPassPercent](http://ip:port/EqmQuery/Equipment/GetEquipmentList)
+[http://ip:port/VDQuery/Detect/GetVehicleTypeFuelSafetyPassPercent](http://ip:port/EqmQuery/Equipment/GetEquipmentList)
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrganizationSysNo | int | 否 | 检测站组织编码 |
+| vehicleType | int | 否 | 1挂车，2牵引车，3客车，4货车，5专项作业车，6其他 |
 | StartDate | datetime | 否 | 开始日期 |
 | EndDate | datetime | 否 | 结束日期 |
 
