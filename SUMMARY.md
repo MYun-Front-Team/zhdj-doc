@@ -1065,4 +1065,7 @@
   * [提交申诉单](she-bei-mo-kuai/ti-jiao-shen-su-dan.md)
   * [处理申诉](she-bei-mo-kuai/chu-li-shen-su.md)
   * [清除货道](she-bei-mo-kuai/qing-chu-huo-dao.md)
+* [车辆检测模块](che-liang-jian-ce-mo-kuai.md)
+  * 获取检测报告列表
+  * 获取检测报告详情
 
