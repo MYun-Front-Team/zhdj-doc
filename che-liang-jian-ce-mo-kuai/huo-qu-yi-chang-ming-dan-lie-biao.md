@@ -2,32 +2,33 @@
 
 _**【接口地址】**_
 
-[http://ip:port/VDQuery/Detect/GetDetectRecordList](http://ip:port/EqmQuery/Equipment/GetEquipmentList)
+[http://ip:port/VDQuery/Detect/GetAbnormalList](http://ip:port/EqmQuery/Equipment/GetEquipmentList)
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| dsName | string | 否 | 机构名称 |
+| OrganizationSysNo | int | 否 | 检测站组织编码 |
+| vehicleTypeList | array int | 否 | 1挂车，2牵引车，3客车，4货车，5专项作业车，6其他 |
 | StartDetectDate | datetime | 否 | 检测日期起 |
 | EndDetectDate | datetime | 否 | 检测日期止 |
 | vehicleNo | string | 否 | 车牌号码 |
-| plateColorCode | string | 否 | 车牌颜色代码 |
 
 > #### _应答数据 \_DetectRecord_（数组） {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| detectSn | string | 是 | 检测流水号 |
+| AbnormalSysNo | int | 是 | 异常名单id |
+| OrganizationSysNo | int | 是 | 检测站组织名称 |
 | dsName | string | 是 | 检测机构名称 |
-| detectDate | string | 是 | 检测日期 |
+| vehicleType | int | 是 | 1挂车，2牵引车，3客车，4货车，5专项作业车，6其他 |
+| vehicleTypeName | string | 是 | 车辆类型 |
+| detectDate | datetime | 是 | 检测日期 |
 | vehicleNo | string | 是 | 车牌号码 |
 | plateColorCode | string | 是 | 车牌颜色 |
-| uploadStatus | int | 是 | 上传状态 1待上传，10已上传，11不上传 |
-| uploadTime | datetime | 是 | 上传时间 |
-| requireStatus | int | 是 | 10正常，11市平台要求字段未填写 |
-| tempStatus | int | 是 | 10正常，11临时牌照未修改 |
-| abnormalStatus | int | 是 | 10正常，11在异常名单内 |
+| vehicleBrandModel | string | 是 | 品牌型号 |
+| remark | string | 是 | 备注 |
+| LastModifyTime | datetime | 是 | 更新时间 |
 
 
 
