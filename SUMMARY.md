@@ -1082,4 +1082,5 @@
   * [获取检测机构燃油消耗量及安全核查合格率](che-liang-jian-ce-mo-kuai/huo-qu-jian-ce-ji-gou-ran-you-xiao-hao-liang-ji-an-quan-he-cha-he-ge-lv.md)
   * [获取车辆类型燃油消耗量及安全核查合格率](che-liang-jian-ce-mo-kuai/huo-qu-che-liang-lei-xing-ran-you-xiao-hao-liang-ji-an-quan-he-cha-he-ge-lv.md)
   * [新增检测站](che-liang-jian-ce-mo-kuai/xin-zeng-jian-ce-zhan.md)
+  * [编辑检测站](che-liang-jian-ce-mo-kuai/bian-ji-jian-ce-zhan.md)
 
