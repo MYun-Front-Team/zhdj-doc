@@ -24,6 +24,7 @@ _**【接口地址】**_
 | LastCommunicateStatusList | array\[int\] | 否 | 最后沟通状态（端定义） |
 | UserGenderList | array\[int\] | 否 | 性别：1男，2女 |
 | Year | int | 否 | 年龄（以下） |
+| StartYear| int | 否 | 年龄（以上） |
 | EducationList | array\[int\] | 否 | 学历：0未知,1小学,2初中,3中转,4高中,5专科,6本科,7硕士,8博士,9其它 |
 | ExpectPositionName | string | 否 | 期望岗位 |
 | ExpectAddress | string | 否 | 期望工作地点 |

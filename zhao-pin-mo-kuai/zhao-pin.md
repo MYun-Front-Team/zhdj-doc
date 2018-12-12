@@ -152,8 +152,10 @@
 | StartApplyInterviewTime|datetime| 否 |面试申请时间开始 |
 | EndApplyInterviewTime|datetime| 否 | 面试申请时间结束 |
 | CancelStatusList|array int| 是 | 面试申请取消状态（0正常，10取消） |
-
-
+| StartWorkStartDay|datetime| 否 |预计入职时间开始 |
+| EndWorkStartDay|datetime| 否 | 预计入职时间结束 |
+| Remark|string| 否 | 面试备注 |
+| CancelOrNoComeRemark|string| 否 | 取消或未入职备注 |
 
 
 > #### 查询Limit字段 {#请求数据}
