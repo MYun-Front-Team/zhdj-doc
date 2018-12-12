@@ -1068,4 +1068,5 @@
 * [车辆检测模块](che-liang-jian-ce-mo-kuai.md)
   * [获取检测报告列表](che-liang-jian-ce-mo-kuai/huo-qu-jian-ce-bao-gao-lie-biao.md)
   * [获取检测报告详情](che-liang-jian-ce-mo-kuai/huo-qu-jian-ce-bao-gao-xiang-qing.md)
+  * [修改车牌号](che-liang-jian-ce-mo-kuai/xiu-gai-che-pai-hao.md)
 
