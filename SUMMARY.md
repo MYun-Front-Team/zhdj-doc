@@ -1071,5 +1071,5 @@
   * [修改车牌号](che-liang-jian-ce-mo-kuai/xiu-gai-che-pai-hao.md)
   * [获取异常名单列表](che-liang-jian-ce-mo-kuai/huo-qu-yi-chang-ming-dan-lie-biao.md)
   * [新增异常名单](che-liang-jian-ce-mo-kuai/huo-qu-yi-chang-ming-dan-xiang-qing.md)
-  * 编辑异常名单
+  * [编辑异常名单](che-liang-jian-ce-mo-kuai/bian-ji-yi-chang-ming-dan.md)
 
