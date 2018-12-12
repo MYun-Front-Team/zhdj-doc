@@ -9,7 +9,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 否 | 检测站组织编码 |
-| vehicleTypeList | array int | 否 | 1挂车，2牵引车，3客车，4货车，5专项作业车，6其他 |
+| vehicleType | string | 否 | 挂车，牵引车，客车，货车，专项作业车，其他 |
 | StartRegistDate | datetime | 否 | 注册日期起 |
 | EndRegistDate | datetime | 否 | 注册日期止 |
 | vehicleNo | string | 否 | 车牌号码 |
@@ -21,7 +21,7 @@ _**【接口地址】**_
 | FuelSafetySysNo | int | 是 | 燃油消耗量及安全核查id |
 | OrganizationSysNo | int | 是 | 检测站组织名称 |
 | dsName | string | 是 | 检测机构名称 |
-| vehicleType | int | 是 | 1挂车，2牵引车，3客车，4货车，5专项作业车，6其他 |
+| vehicleType | string | 是 | 挂车，牵引车，客车，货车，专项作业车，其他 |
 | vehicleTypeName | string | 是 | 车辆类型 |
 | registDate | datetime | 是 | 注册日期 |
 | vehicleNo | string | 是 | 车牌号码 |

@@ -17,7 +17,7 @@ _**【接口地址】**_
 | FuelSafetySysNo | int | 是 | 燃油消耗量及安全核查id |
 | OrganizationSysNo | int | 是 | 检测站组织名称 |
 | dsName | string | 是 | 检测机构名称 |
-| vehicleType | int | 是 | 1挂车，2牵引车，3客车，4货车，5专项作业车，6其他 |
+| vehicleType | string | 是 | 挂车，牵引车，客车，货车，专项作业车，其他 |
 | vehicleTypeName | string | 是 | 车辆类型 |
 | registDate | datetime | 是 | 注册日期 |
 | vehicleNo | string | 是 | 车牌号码 |

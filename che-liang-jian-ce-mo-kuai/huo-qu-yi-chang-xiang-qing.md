@@ -2,7 +2,7 @@
 
 _**【接口地址】**_
 
-http://ip:port/VDQuery/Detect/GetAbnormalBySysNo
+[http://ip:port/VDQuery/Detect/GetAbnormalBySysNo](http://ip:port/VDQuery/Detect/GetAbnormalBySysNo)
 
 > #### _请求数据_ {#请求数据}
 
@@ -17,7 +17,7 @@ http://ip:port/VDQuery/Detect/GetAbnormalBySysNo
 | AbnormalSysNo | int | 是 | 异常名单id |
 | OrganizationSysNo | int | 是 | 检测站组织名称 |
 | dsName | string | 是 | 检测机构名称 |
-| vehicleType | int | 是 | 1挂车，2牵引车，3客车，4货车，5专项作业车，6其他 |
+| vehicleType | string | 是 | 挂车，牵引车，客车，货车，专项作业车，其他 |
 | vehicleTypeName | string | 是 | 车辆类型 |
 | detectDate | datetime | 是 | 检测日期 |
 | vehicleNo | string | 是 | 车牌号码 |

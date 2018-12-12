@@ -8,7 +8,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| vehicleType | int | 否 | 1挂车，2牵引车，3客车，4货车，5专项作业车，6其他 |
+| vehicleType | string | 否 | 挂车，牵引车，客车，货车，专项作业车，其他 |
 | StartDate | datetime | 否 | 开始日期 |
 | EndDate | datetime | 否 | 结束日期 |
 

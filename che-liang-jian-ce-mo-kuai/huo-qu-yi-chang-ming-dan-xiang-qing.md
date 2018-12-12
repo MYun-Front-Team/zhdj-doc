@@ -9,7 +9,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 是 | 检测站组织名称 |
-| vehicleType | int | 是 | 1挂车，2牵引车，3客车，4货车，5专项作业车，6其他 |
+| vehicleType | string | 是 | 挂车，牵引车，客车，货车，专项作业车，其他 |
 | detectDate | datetime | 是 | 检测日期 |
 | vehicleNo | string | 是 | 车牌号码 |
 | plateColorCode | string | 是 | 车牌颜色 |

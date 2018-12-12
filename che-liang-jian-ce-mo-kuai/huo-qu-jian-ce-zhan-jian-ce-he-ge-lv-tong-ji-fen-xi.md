@@ -8,7 +8,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| dsId | int | 否 | 检测机构代码 |
+| dsName | string | 否 | 检测机构名称 |
 | StartDate | datetime | 否 | 开始日期 |
 | EndDate | datetime | 否 | 结束日期 |
 
