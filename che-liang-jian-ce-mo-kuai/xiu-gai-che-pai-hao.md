@@ -10,6 +10,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | detectRecordSysNo | int | 是 | 检验报告id |
 | vehicleNo | string | 是 | 新车牌号码 |
+| plateColorCode | string | 否 | 新车牌颜色 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
