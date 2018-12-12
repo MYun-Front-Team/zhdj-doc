@@ -1073,4 +1073,6 @@
   * [新增异常名单](che-liang-jian-ce-mo-kuai/huo-qu-yi-chang-ming-dan-xiang-qing.md)
   * [编辑异常名单](che-liang-jian-ce-mo-kuai/bian-ji-yi-chang-ming-dan.md)
   * [获取燃油消耗量及安全核查列表](che-liang-jian-ce-mo-kuai/huo-qu-ran-you-xiao-hao-liang-ji-an-quan-he-cha-lie-biao.md)
+  * [新增燃油消耗量及安全核查](che-liang-jian-ce-mo-kuai/xin-zeng-ran-you-xiao-hao-liang-ji-an-quan-he-cha.md)
+  * 编辑燃油消耗量及安全核查
 
