@@ -23,6 +23,9 @@ _**【接口地址】**_
 | dsTel | string | 是 | 服务热线 |
 | uploadTime | int | 是 | 上传时间，秒数 |
 | uploadCount | int | 是 | 每次上传检测数 |
+| IsEnable | int | 是 | 1启用，0禁用 |
+| detectRecorduploadCount | int | 是 | 上传报告数 |
+| detectRecordSuccessCount | int | 是 | 成功报告数 |
 
 
 
