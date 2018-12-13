@@ -15,6 +15,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | dsSysNo | int | 是 | 检测站id |
+| AdminSysNo | int | 是 | 用户id |
 | dsId | string | 是 | 检测机构代码 |
 | LoginId | string | 是 | 登录账号 |
 | Password | string | 是 | 登录密码 |
@@ -23,7 +24,7 @@ _**【接口地址】**_
 | dsTel | string | 是 | 服务热线 |
 | uploadTime | int | 是 | 上传时间，秒数 |
 | uploadCount | int | 是 | 每次上传检测数 |
-| IsEnable | int | 是 | 1启用，0禁用 |
+| IsEnable | int | 是 | 1启用，2禁用 |
 | detectRecorduploadCount | int | 是 | 上传报告数 |
 | detectRecordSuccessCount | int | 是 | 成功报告数 |
 
