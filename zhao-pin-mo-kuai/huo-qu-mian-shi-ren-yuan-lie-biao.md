@@ -52,7 +52,7 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | StartQuitDate| datetime| 是 | 开始离职时间 |
 | EndQuitDate| datetime| 是 | 结束离职时间 |
 | DataRangeSysNo| int | 否 |店铺树编码 |
-
+| SourceFrom| int | 否 |来源详情 |
 
 
 
