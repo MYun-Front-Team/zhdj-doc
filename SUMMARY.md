@@ -1087,4 +1087,5 @@
   * [编辑检测站](che-liang-jian-ce-mo-kuai/bian-ji-jian-ce-zhan.md)
   * [获取检测站列表](che-liang-jian-ce-mo-kuai/huo-qu-jian-ce-zhan-lie-biao.md)
   * [获取检测站详情](che-liang-jian-ce-mo-kuai/huo-qu-jian-ce-zhan-xiang-qing.md)
+  * [获取委托人列表](che-liang-jian-ce-mo-kuai/huo-qu-wei-tuo-ren-lie-biao.md)
 
