@@ -130,3 +130,11 @@
 | FroMPPoints| decimal| 是 | 冻结魔力|
 | FrozenAmount| decimal| 是 | 冻结资金|
 | HisAmount| decimal| 是 | 历史资金|
+| SysTotalLANPoints| decimal | 否 | 系统总蓝晶|
+| LANPointsPercent| decimal | 否 | 自己蓝晶占合成蓝晶百分比|
+| SysSuccessLANPoints| decimal | 否 | 系统已合成蓝晶|
+| SysLeftLANPoints| decimal | 否 | 系统剩余蓝晶|
+
+
+
+
