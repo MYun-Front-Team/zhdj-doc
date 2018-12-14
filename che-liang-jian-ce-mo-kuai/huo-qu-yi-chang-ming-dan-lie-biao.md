@@ -19,7 +19,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | AbnormalSysNo | int | 是 | 异常名单id |
-| OrganizationSysNo | int | 是 | 检测站组织名称 |
+| OrganizationSysNo | int | 是 | 检测站组织id |
 | dsName | string | 是 | 检测机构名称 |
 | vehicleType | string | 是 | 挂车，牵引车，客车，货车，专项作业车，其他 |
 | vehicleTypeName | string | 是 | 车辆类型 |
