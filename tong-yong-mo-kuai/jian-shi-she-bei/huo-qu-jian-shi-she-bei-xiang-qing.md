@@ -16,7 +16,7 @@ http://ip:port/UMQuery/DeviceStatus/GetDeviceStatusBySysNo
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | DeviceSysNo | int | 是 | 系统编码 |
-
+| DeviceTime| datetime| 是 | 当前设备时间|
 
 
 
