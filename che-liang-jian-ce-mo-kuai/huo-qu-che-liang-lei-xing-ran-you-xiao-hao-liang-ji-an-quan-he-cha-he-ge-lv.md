@@ -20,6 +20,7 @@ _**【接口地址】**_
 | FuelNoPassPercent | decimal | 是 | 燃油消耗量核查不合格率 |
 | SafetyPassPercent | decimal | 是 | 安全核查合格率 |
 | SafetyNoPassPercent | decimal | 是 | 安全核查不合格率 |
+| TotalCount | decimal | 是 | 总数 |
 
 
 
