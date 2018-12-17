@@ -33,5 +33,6 @@ http://ip:port/RecruitQuery/Authentication/SubmitAuthentication
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| AuthenticationSysNo| int | 是 | 实名认证系统编码 |
 
 
