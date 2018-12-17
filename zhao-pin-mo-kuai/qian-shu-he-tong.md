@@ -17,12 +17,6 @@ http://ip:port/RecruitAction/Contract/SetContractStart
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ContractSysNo| int | 是 | 合同系统编码 |
-
-#### 返回参数
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| ContractSysNo| int | 是 | 合同系统编码 |
 | ContractStatus| int | 是 |合同状态（0待签 10已签 11拒签） |
 | ContractStart| datetime| 否 |合同开始 |
 | ContractEnd| datetime| 否 |合同结束 |
