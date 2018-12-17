@@ -21,10 +21,10 @@ _**【接口地址】**_
 | OrganizationSysNo | int | 是 | 商家组织号 |
 | ShopSysNo | int | 是 | 店铺编码 |
 | ContractStatusList | array int | 是 | 合同状态（0待签 10已签 11拒签） |
-| StartContractStart | int | 是 | 起始合同开始 |
-| EndContractStart | int | 是 | 终止合同开始 |
-| StartContractEnd | int | 是 | 起始合同结束 |
-| EndContractEnd | int | 是 | 终止合同结束 |
+| StartContractStart | datetime | 是 | 起始合同开始 |
+| EndContractStart | datetime | 是 | 终止合同开始 |
+| StartContractEnd | datetime | 是 | 起始合同结束 |
+| EndContractEnd | datetime | 是 | 终止合同结束 |
 | KeyWord | string | 是 | 关键字 |
 | InvitePersonSysNo | int | 是 | 交付人编码 |
 
