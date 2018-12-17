@@ -1048,6 +1048,7 @@
     * [获取合同列表](zhao-pin-mo-kuai/huo-qu-he-tong-lie-biao.md)
     * [获取合同详情](zhao-pin-mo-kuai/huo-qu-he-tong-xiang-qing.md)
     * [签署合同](zhao-pin-mo-kuai/qian-shu-he-tong.md)
+    * [获取企业证书列表](zhao-pin-mo-kuai/huo-qu-qi-ye-zheng-shu-lie-biao.md)
 * [设备模块](she-bei-mo-kuai.md)
   * [获取设备列表](she-bei-mo-kuai/huo-qu-she-bei-lie-biao.md)
   * [获取设备详情](she-bei-mo-kuai/huo-qu-she-bei-xiang-qing.md)
