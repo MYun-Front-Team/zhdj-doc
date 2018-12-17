@@ -1037,6 +1037,12 @@
     * [员工设置薪水、赏金](zhao-pin-mo-kuai/yuan-gong-she-zhi-xin-shui-3001-shang-jin.md)
     * [人员移除面试](zhao-pin-mo-kuai/ren-yuan-yi-chu-mian-shi.md)
     * [人员离职/在职](zhao-pin-mo-kuai/ren-yuan-li-zhi.md)
+  * 实名认证
+    * [获取实名认证列表](zhao-pin-mo-kuai/huo-qu-shi-ming-ren-zheng-lie-biao.md)
+    * [审核通过/不通过实名认证](zhao-pin-mo-kuai/shen-he-tong-8fc7-bu-tong-guo-shi-ming-ren-zheng.md)
+    * [修改实名认证](zhao-pin-mo-kuai/xiu-gai-shi-ming-ren-zheng.md)
+    * [获取人员是否有实名认证](zhao-pin-mo-kuai/huo-qu-ren-yuan-shi-fou-you-shi-ming-ren-zheng.md)
+    * [递交实名认证](zhao-pin-mo-kuai/di-jiao-shi-ming-ren-zheng.md)
 * [设备模块](she-bei-mo-kuai.md)
   * [获取设备列表](she-bei-mo-kuai/huo-qu-she-bei-lie-biao.md)
   * [获取设备详情](she-bei-mo-kuai/huo-qu-she-bei-xiang-qing.md)
