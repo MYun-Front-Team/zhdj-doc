@@ -51,6 +51,27 @@
 | ModuleSourceName| string | 否 | 来源系统名称 |
 | HollowUrl | string | 否 | 链接地址 |
 | OrganizationSysNo | int | 是 | 商品组织系统编码 |
+| Price| Price| 否 | 价格（商品有效） |
+| FakeSaleCount|int| 是 |销售数（商品有效）|
+| FakeInventoryCount|int| 是 |假库存数（商品有效）|
+| ModuleThumbnailUrlList| array string | 是 | 缩略图 |
+
+
+> #### Price说明 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| CostPrice | decimal\(18,2\) | 否 | 成本价 |
+| MarketPrice | decimal\(18,2\) | 否 | 市场价 |
+| SalePrice | decimal\(18,2\) | 否 | 销售价 |
+| MaxSalePrice | decimal\(18,2\) | 否 | 最大销售价 |
+| PointPrice | decimal\(18,2\) | 否 | 积分价格 |
+| MinCutSalePrice | decimal\(18,2\) | 否 | 最低砍价 |
+| OneBuyCutPrice | decimal\(18,2\) | 否 | 一元购必砍价 |
+| CouponPrice| decimal\(18,2\) | 否 | 优惠券金额 |
+| ReturnPrice | decimal\(18,2\) | 否 | 返还金额 |
+
+
 
 > #### 统计计算字段 {#请求数据}
 
