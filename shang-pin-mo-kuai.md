@@ -83,6 +83,7 @@
 | GroupByCode| string| 否 | 多款聚合款号 |
 | IsGroupByDefault| int | 否 | 多款聚合默认显示 |
 | GroupByOtherName| string| 否 | 多款聚合别名 |
+| HollowSortNo | int | 否 | 坑位排序 |
 
 
 > #### Price说明 {#请求数据}
