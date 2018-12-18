@@ -182,6 +182,7 @@
 | EndCPSEndDate | string | 否 | 终止三方CPS结束推荐 |
 | SellerName | string | 是 | 商家名称 |
 | GroupByCode| string| 否 | 多款聚合款号 |
+| HollowSysNo | int | 是 | 坑位编码 |
 
 
 #### Spec {#应答数据-（巡河记录数组）}
