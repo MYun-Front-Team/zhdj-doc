@@ -120,6 +120,11 @@
 | IsShowVisitorCount | int | 否 | 是否显示浏览人次 |
 | IsShowHollowObjectList | int | 否 | 是否显示坑位中对象实体列表 |
 | IsShowHollowTime | int | 否 | 是否启用坑位时间（一旦启用，那么当前时间必须在启用时间范围内，适用前台） |
+| IsShowHollowObjectFile | int | 否 | 是否显示坑位中对象实体图片 |
+| IsShowHollowObjectPrice| int | 否 | 是否显示坑位中对象实体价格 |
+
+
+
 
 ####  {#应答数据-（巡河记录数组）}
 
