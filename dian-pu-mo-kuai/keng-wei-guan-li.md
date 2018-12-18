@@ -80,6 +80,7 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| ObjectCount | int | 否 | 对象数量 |
 | BrowseCount | int | 否 | 浏览数量 |
 | VisitorCount | int | 否 | 浏览人次 |
 | LaunchStatus | int | 否 | 投放状态：0未开始，1进行中，2已过期（只有当已发布状态时该值有意义） |
