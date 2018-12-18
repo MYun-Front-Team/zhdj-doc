@@ -10,7 +10,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-[http://ip:port/ShopAction/Hollow/S](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)etHollowStatus
+[http://ip:port/ShopAction/Hollow/S](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)etHollowSta=tus
 
 > #### _请求数据_ {#请求数据}
 
