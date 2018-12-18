@@ -504,6 +504,8 @@
     * [删除坑位](dian-pu-mo-kuai/keng-wei-guan-li/shan-chu-keng-wei.md)
     * [设置坑位状态](dian-pu-mo-kuai/keng-wei-guan-li/she-zhi-keng-wei-zhuang-tai.md)
     * [设置坑位人员足迹](dian-pu-mo-kuai/keng-wei-guan-li/she-zhi-keng-wei-ren-yuan-zu-ji.md)
+    * [新增对象到坑位](dian-pu-mo-kuai/keng-wei-guan-li/xin-zeng-dui-xiang-dao-keng-wei.md)
+    * 从坑位移除对象
   * [商品推荐管理](dian-pu-mo-kuai/shang-pin-tui-jian-guan-li.md)
     * [获取商品推荐列表](dian-pu-mo-kuai/shang-pin-tui-jian-guan-li/huo-qu-shang-pin-tui-jian-lie-biao.md)
     * [获取商品推荐详情](dian-pu-mo-kuai/shang-pin-tui-jian-guan-li/huo-qu-shang-pin-tui-jian-xiang-qing.md)

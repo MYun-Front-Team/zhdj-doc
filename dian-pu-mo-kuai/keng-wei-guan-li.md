@@ -59,6 +59,7 @@
 | BrowseCount | int | 否 | 浏览数量 |
 | VisitorCount | int | 否 | 浏览人次 |
 | LaunchStatus | int | 否 | 投放状态：0未开始，1进行中，2已过期（只有当已发布状态时该值有意义） |
+| ObjectCount | int | 否 | 节点数量 |
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -82,6 +83,7 @@
 | LaunchPCDDesc | string| 否 |投放区域PCD描述  |
 | LaunchStatusList| array object | 否 |投放状态：0未开始，1进行中，2已过期（只有当已发布状态时该值有意义） |
 |DataRangeCodeList| array string| 否 |投放位置编码 |
+| HollowTitle | string | 是 | 坑位标题 |
 
 
 > #### 查询Limit字段 {#请求数据}
