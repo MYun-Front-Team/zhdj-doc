@@ -18,7 +18,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| dedtectRecordSysNo | int | 是 | 检测报告id |
+| detectRecordSysNo | int | 是 | 检测报告id |
 | detectSn | string | 是 | 检测流水号 |
 | dsName | string | 是 | 检测机构名称 |
 | detectDate | string | 是 | 检测日期 |
