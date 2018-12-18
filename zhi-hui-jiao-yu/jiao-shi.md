@@ -17,9 +17,10 @@
 | UserSysNo | int | 是  |用户编码  |
 | AdminStatus| int | 是  |用户状态  |
 | Roles| array[Role] | 是  |角色  |
-
-
-
+| WebSite| string| 是  |教师介绍连接  |
+| About| string| 是  |个人介绍  |
+| ClassTypeRemark| string| 是  |任课类别  |
+| FileUrlList|array[string]| 是  |头像  |
 
 > #### 统计计算字段 {#请求数据}
 

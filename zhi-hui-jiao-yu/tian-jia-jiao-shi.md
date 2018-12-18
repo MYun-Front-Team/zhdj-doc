@@ -22,6 +22,11 @@ http://ip:port/EduAction/Teacher/AddTeacher
 | LoginPwd| string | 是 | 密码|
 | RealName| string | 是 | 姓名|
 | RoleSysNoList| array[int]| 是 | 角色编码 |
+| WebSite| string| 否  |教师介绍连接  |
+| About| string| 否  |个人介绍  |
+| ClassTypeRemark| string| 否  |任课类别  |
+| FileUrlList|array[string]| 否  |头像  |
+
 
 
 
