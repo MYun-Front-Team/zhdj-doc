@@ -13,6 +13,7 @@ _**【接口地址】**_
 | StartRegistDate | datetime | 否 | 注册日期起 |
 | EndRegistDate | datetime | 否 | 注册日期止 |
 | vehicleNo | string | 否 | 车牌号码 |
+| plateColorCode | string | 否 | 车牌颜色 |
 
 > #### _应答数据 _（数组） {#应答数据-（巡河记录数组）}
 
