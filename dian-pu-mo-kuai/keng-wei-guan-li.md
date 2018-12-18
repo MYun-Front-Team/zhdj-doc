@@ -30,6 +30,13 @@
 | HollowPathList | array string | 否 | 坑位主图path路径 |
 | HollowUrlList | array string | 否 | 坑位主图url路径 |
 | HollowObjectList | array object | 否 | 坑位中对象实体列表 |
+| HollowLogoPathList | array string | 否 | 坑位LOGOpath路径 |
+| HollowLogoUrlList | array string | 否 | 坑位LOGOurl路径 |
+| HollowBackPathList | array string | 否 | 坑位背景path路径 |
+| HollowBackUrlList | array string | 否 | 坑位背景url路径 |
+
+
+
 
 
 

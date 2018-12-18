@@ -33,6 +33,9 @@ _**【接口地址】**_
 | Remark | string | 否 | 备注 |
 | HollowPathList | array string | 否 | 坑位主图path路径 |
 | HollowObjectList | array object | 否 | 坑位中对象实体列表 |
+| HollowLogoPathList | array string | 否 | 坑位LOGOpath路径 |
+| HollowBackPathList | array string | 否 | 坑位背景path路径 |
+
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
