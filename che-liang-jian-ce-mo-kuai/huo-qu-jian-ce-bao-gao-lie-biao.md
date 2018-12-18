@@ -13,6 +13,7 @@ _**【接口地址】**_
 | EndDetectDate | datetime | 否 | 检测日期止 |
 | vehicleNo | string | 否 | 车牌号码 |
 | plateColorCode | string | 否 | 车牌颜色代码 |
+| uploadStatusList | array\[int\] | 否 | 1待上传，10已上传，11不上传 |
 
 > #### _应答数据 \_DetectRecord_（数组） {#应答数据-（巡河记录数组）}
 
