@@ -34,9 +34,7 @@
 | HollowLogoUrlList | array string | 否 | 坑位LOGOurl路径 |
 | HollowBackPathList | array string | 否 | 坑位背景path路径 |
 | HollowBackUrlList | array string | 否 | 坑位背景url路径 |
-
-
-
+| SortNo| int | 是 | 排序 |
 
 
 
