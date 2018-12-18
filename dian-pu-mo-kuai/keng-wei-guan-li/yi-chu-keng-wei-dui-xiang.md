@@ -1,27 +1,35 @@
-# 设置坑位状态 {#获取河长巡河记录}
+# 移除坑位对象
 
 ##### _【功能说明】_ {#【功能说明】}
 
-设置坑位状态
+移除坑位对象
 
 _**【应用场景】**_
 
-设置坑位状态
+移除坑位对象
 
 _**【接口地址】**_
 
-[http://ip:port/ShopAction/Hollow/S](http://ip:port/HMQuery/PatrolRiver/GetPatrolRivers)etHollowSta=tus
+http://ip:port/ShopAction/Hollow/RemoveHollowObject
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | HollowSysNo | int | 是 | 系统编码 |
-| HollowStatus | int | 否 | 状态：10发布，11撤下 |
-| IsShield | int | 否 | 是否屏蔽：0否，1是 |
-| ShieldReason | string | 否 | 屏蔽理由 |
+| HollowObjectList| array[HollowObject ] | 是 | 对象列表 |
 
-> #### _应答数据 _ {#应答数据-（巡河记录数组）}
+
+> #### HollowObject {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ModuleSysNo | int | 否 | 模块编码 |
+| ModuleSourceType | int | 否 | 来源类型 |
+| ModuleSourceClass | int | 否 | 来源分类 |
+| ModuleSourceSysNo | int | 否 | 来源系统编码 |
+| OrganizationSysNo | int | 是 | 商品组织系统编码 |
+
 
 
 
