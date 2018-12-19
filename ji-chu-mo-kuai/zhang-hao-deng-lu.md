@@ -33,6 +33,7 @@ _**【接口地址】**_
 | Captcha | string | 否 | 验证码（短信登录时必填） |
 | SaasKey | string | 否 | SaasKey值（多公众号项目有效） |
 | OrganizationTypeList | array int | 否 | 组织类型（枚举） |
+| CellPhoneNo| string | 否| 手机号 |
 
 > #### RegisterMsg {#应答数据-（巡河记录数组）}
 
