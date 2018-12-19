@@ -18,8 +18,8 @@ http://ip:port/PointsAction/LJPoint/TransferLJPoint
 | FromPersonSysNo| int | 是 |转出人员系统编码 |
 | ToPersonSysNo| int | 是 |转入人员系统编码 |
 | PointsValue| decimal| 是 | 魔力/蓝晶数量|
-| Captcha | string | 否 | 验证码（短信登录时必填） |
-| CellPhoneNo| string | 否| 手机号 | 
+| Captcha | string | 是 | 验证码 |
+| CellPhoneNo| string | 是| 手机号 | 
 
 
 
