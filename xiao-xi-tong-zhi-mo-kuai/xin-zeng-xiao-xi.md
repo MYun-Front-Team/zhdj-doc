@@ -34,7 +34,17 @@ _**【接口地址】**_
 | SponsorDataRangeSysNo| int| 否 | 主办方ID |
 | MessageTypeList|array[int] | 否 | 消息类型：0短信，1微信模板消息，2APP |
 | ObjectFileList| array File| 否（可选配置） | 附件 |
+| MessageObjectList| array File| 否（可选配置） | 消息附属对象|
 
+> #### MessageObject
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ModuleSysNo | int | 是 | 模块编码 |
+| ModuleSourceType | int | 否 | 来源类型 |
+| ModuleSourceClass | int | 否 | 来源分类 |
+| ModuleSourceSysNo | int | 是 | 来源系统编码 |
+| OrganizationSysNo | int | 是 | 商品组织系统编码 |
 
 
 #### File说明 {#应答数据-}
