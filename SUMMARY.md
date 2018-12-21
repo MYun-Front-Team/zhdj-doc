@@ -594,6 +594,7 @@
     * [获取钱包排行榜](ding-dan-mo-kuai/lan-jing/huo-qu-qian-bao-pai-xing-bang.md)
     * [获取蓝晶转赠记录日志](ding-dan-mo-kuai/lan-jing/huo-qu-lan-jing-zhuan-zeng-ji-lu-ri-zhi.md)
     * [获取蓝晶报警日志](ding-dan-mo-kuai/lan-jing/huo-qu-lan-jing-bao-jing-ri-zhi.md)
+    * 升级社长
   * [修改订单发货单信息](ding-dan-mo-kuai/xiu-gai-ding-dan-fa-huo-dan-xin-xi.md)
 * [交易模块](jiao-yi-mo-kuai.md)
   * [购物车管理](jiao-yi-mo-kuai/gou-wu-che-guan-li.md)
@@ -750,6 +751,7 @@
     * [新闻报表](bao-biao-mo-kuai/xin-wen-bao-biao.md)
     * [CPS粉丝报表](bao-biao-mo-kuai/cpsfen-si-bao-biao.md)
     * [学习报表](bao-biao-mo-kuai/xue-xi-bao-biao.md)
+    * [蓝晶报表](bao-biao-mo-kuai/lan-jing-bao-biao.md)
 * [投票模块](tou-piao-mo-kuai.md)
   * [获取投票列表](tou-piao-mo-kuai/huo-qu-tou-piao-lie-biao.md)
   * [获取投票详情](tou-piao-mo-kuai/huo-qu-tou-piao-xiang-qing.md)
