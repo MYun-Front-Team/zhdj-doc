@@ -22,5 +22,5 @@ http://ip:port/RecruitQuery/Authentication/CheckAuthentication
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| AuthenticationStatus| int | 是 |0未认证 10认证通过 11三方认证失败 12平台认证失败 |
+| AuthenticationStatus| int | 是 |0未认证 1认证中 10认证通过 11三方认证失败 12平台认证失败 |
 
