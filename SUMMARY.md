@@ -593,6 +593,7 @@
     * [魔力/蓝晶转账](ding-dan-mo-kuai/lan-jing/mo-529b-lan-jing-zhuan-zhang.md)
     * [获取钱包排行榜](ding-dan-mo-kuai/lan-jing/huo-qu-qian-bao-pai-xing-bang.md)
     * [获取蓝晶转赠记录日志](ding-dan-mo-kuai/lan-jing/huo-qu-lan-jing-zhuan-zeng-ji-lu-ri-zhi.md)
+    * [获取蓝晶报警日志](ding-dan-mo-kuai/lan-jing/huo-qu-lan-jing-bao-jing-ri-zhi.md)
   * [修改订单发货单信息](ding-dan-mo-kuai/xiu-gai-ding-dan-fa-huo-dan-xin-xi.md)
 * [交易模块](jiao-yi-mo-kuai.md)
   * [购物车管理](jiao-yi-mo-kuai/gou-wu-che-guan-li.md)
