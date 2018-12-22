@@ -20,6 +20,7 @@ _**【接口地址】**_
 | PersonSysNo | int | 是 | 线路所属运营商人员编码 |
 | CellPhoneNo | string | 是 | 线路所属运营商人员手机 |
 | PersonName | string | 是 | 线路所属运营商人员姓名 |
+| EquipmentNum | int | 是 | 设备数量 |
 
 
 
