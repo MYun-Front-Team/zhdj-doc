@@ -12,7 +12,7 @@ _**【接口地址】**_
 | OrderSysNo | int | 是 | 订单编码 |
 | Reason | string | 否 | 申诉理由 |
 | ContactPhone | string | 是 | 联系电话 |
-| FileUrlList | string | 否 | 凭证列表 |
+| FileUrlList | array string | 否 | 凭证列表 |
 |  |  |  |  |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
