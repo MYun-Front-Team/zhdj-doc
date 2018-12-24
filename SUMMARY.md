@@ -1059,6 +1059,7 @@
     * [获取合同模板列表](zhao-pin-mo-kuai/huo-qu-he-tong-mo-ban-lie-biao.md)
     * [获取合同预览](zhao-pin-mo-kuai/huo-qu-he-tong-yu-lan.md)
     * [跳转到三方页面签署合同](zhao-pin-mo-kuai/tiao-zhuan-dao-san-fang-ye-mian-qian-shu-he-tong.md)
+    * [下载合同](zhao-pin-mo-kuai/xia-zai-he-tong.md)
 * [设备模块](she-bei-mo-kuai.md)
   * [获取设备列表](she-bei-mo-kuai/huo-qu-she-bei-lie-biao.md)
   * [获取设备详情](she-bei-mo-kuai/huo-qu-she-bei-xiang-qing.md)
