@@ -107,6 +107,8 @@
 | TotalOrder | decimal | 否 | 订单 |
 | TotalMPPoints | decimal | 否 | 魔力 |
 | TotalAmount | decimal | 否 | 金额 |
+| SonCount| int| 否 | 共发展粉丝 |
+
 
 > #### 应答数据 PageResponseStatistic 【9000107】
 
