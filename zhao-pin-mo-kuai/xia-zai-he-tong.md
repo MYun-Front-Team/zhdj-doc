@@ -11,7 +11,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/RecruitQuery/Contract/GetCertificatePDF
+http://ip:port/RecruitQuery/Contract/GetContractPDF
 
 > #### _请求数据_ {#请求数据}
 
