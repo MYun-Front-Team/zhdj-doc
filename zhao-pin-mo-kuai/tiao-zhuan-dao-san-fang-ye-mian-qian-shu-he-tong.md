@@ -18,7 +18,6 @@ http://ip:port/RecruitAction/Contract/SendContractStart
 | :--- | :--- | :--- | :--- |
 | dpi| string | 是 |预览图片清晰度，枚举值：96-低清（默认），120-普清，160-高清，240-超清|
 | expireTime| string | 是 |链接有效期清|
-| ThreePartyContractId| string | 是 |合同编号|
 | PersonSysNo| int | 是 |人员系统编码|
 | returnUrl| string| 是 |同步跳转地址|
 | ContractSysNo | int | 是 | 合同系统编码 |
