@@ -18,6 +18,7 @@ http://ip:port/RecruitQuery/Contract/GetContractPDF
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ThreePartyContractId| string | 是 |合同编号|
+| PersonSysNo| int | 是 |人员系统编码|
 
 
 
