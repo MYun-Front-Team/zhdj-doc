@@ -1087,6 +1087,7 @@
   * [提交申诉单](she-bei-mo-kuai/ti-jiao-shen-su-dan.md)
   * [处理申诉](she-bei-mo-kuai/chu-li-shen-su.md)
   * [清除货道](she-bei-mo-kuai/qing-chu-huo-dao.md)
+  * [获取销售折线图](she-bei-mo-kuai/huo-qu-xiao-shou-zhe-xian-tu.md)
 * [车辆检测模块](che-liang-jian-ce-mo-kuai.md)
   * [获取检测报告列表](che-liang-jian-ce-mo-kuai/huo-qu-jian-ce-bao-gao-lie-biao.md)
   * [获取检测报告详情](che-liang-jian-ce-mo-kuai/huo-qu-jian-ce-bao-gao-xiang-qing.md)
