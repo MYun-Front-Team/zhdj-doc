@@ -21,6 +21,7 @@ http://ip:port/RecruitAction/Contract/SendContractStart
 | ThreePartyContractId| string | 是 |合同编号|
 | PersonSysNo| int | 是 |人员系统编码|
 | returnUrl| string| 是 |同步跳转地址|
+| ContractSysNo | int | 是 | 合同系统编码 |
 
 #### 返回参数
 
