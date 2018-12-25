@@ -15,6 +15,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| SellerSysNo | int | 是 | 商家编码 |
 | OrganizationSysNo | int | 是 | 组织编码 |
 | PersonSysNo | int | 是 | 人员编码 |
 | SellerName | string | 是 | 运营商名称 |
