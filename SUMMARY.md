@@ -1120,4 +1120,6 @@
   * [编辑水箱](shui-xiang-mo-kuai/bian-ji-shui-xiang.md)
   * [获取小区列表](shui-xiang-mo-kuai/huo-qu-xiao-qu-lie-biao.md)
   * [获取小区详情](shui-xiang-mo-kuai/huo-qu-xiao-qu-xiang-qing.md)
+  * [新增小区](shui-xiang-mo-kuai/xin-zeng-xiao-qu.md)
+  * [编辑小区](shui-xiang-mo-kuai/bian-ji-xiao-qu.md)
 
