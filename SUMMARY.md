@@ -1122,4 +1122,5 @@
   * [获取小区详情](shui-xiang-mo-kuai/huo-qu-xiao-qu-xiang-qing.md)
   * [新增小区](shui-xiang-mo-kuai/xin-zeng-xiao-qu.md)
   * [编辑小区](shui-xiang-mo-kuai/bian-ji-xiao-qu.md)
+  * [获取预警列表](shui-xiang-mo-kuai/huo-qu-yu-jing-lie-biao.md)
 
