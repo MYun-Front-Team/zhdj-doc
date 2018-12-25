@@ -1119,5 +1119,5 @@
   * [获取水箱详情](shui-xiang-mo-kuai/huo-qu-shui-xiang-xiang-qing.md)
   * [编辑水箱](shui-xiang-mo-kuai/bian-ji-shui-xiang.md)
   * [获取小区列表](shui-xiang-mo-kuai/huo-qu-xiao-qu-lie-biao.md)
-  * 获取小区详情
+  * [获取小区详情](shui-xiang-mo-kuai/huo-qu-xiao-qu-xiang-qing.md)
 
