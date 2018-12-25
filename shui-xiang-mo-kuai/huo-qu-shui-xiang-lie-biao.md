@@ -2,7 +2,7 @@
 
 _**【接口地址】**_
 
-http://ip:port/WTQuery/Water/GetWaterTankList
+[http://ip:port/WTQuery/Water/GetWaterTankList](http://ip:port/WTQuery/Water/GetWaterTankList)
 
 > #### _请求数据_ {#请求数据}
 
@@ -29,7 +29,18 @@ http://ip:port/WTQuery/Water/GetWaterTankList
 | CapAlarm | string | 是 | 1水箱盖开启报警，0不报警 |
 | WaterTankStatus | int | 是 | 1正常，11预警 |
 | SyncTime | datetime | 是 | 最后同步时间 |
-|  |  |  |  |
+| AlarmRuleList | array AlarmRule | 是 | 预警规则数组 |
+
+AlarmRule
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| AlarmRuleSysNo | int | 是 | 预警规则id |
+| WaterTankSysNo | int | 是 | 水箱id |
+| AlarmName | string | 是 | 警报名称 |
+| AlarmType | string | 是 | 报警类型\(水箱硬件提供\) |
+| UpperLimit | decimal | 是 | 上限 |
+| LowerLimit | decimal | 是 | 下限 |
 
 
 
