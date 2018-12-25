@@ -1,18 +1,16 @@
-# 获取水箱列表 {#获取河长巡河记录}
+# 获取水箱详情 {#获取河长巡河记录}
 
 _**【接口地址】**_
 
-[http://ip:port/WTQuery/Water/GetWaterTankList](http://ip:port/WTQuery/Water/GetWaterTankList)
+http://ip:port/WTQuery/Water/GetWaterTankBySysNo
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| PCDDescription | string | 否 | 省市区名称 |
-| HouseEstateName | string | 否 | 小区名称 |
-| WaterTankCode | string | 否 | 水箱编号 |
+| WaterTankSysNo | int | 是 | 水箱id |
 
-> #### _应答数据 _（数组） {#应答数据-（巡河记录数组）}
+> #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -29,6 +27,8 @@ _**【接口地址】**_
 | CapAlarm | string | 是 | 1水箱盖开启报警，0不报警 |
 | WaterTankStatus | int | 是 | 1正常，11预警 |
 | SyncTime | datetime | 是 | 最后同步时间 |
+| Longitude | decimal | 是 | 经度 |
+| Latitude | decimal | 是 | 纬度 |
 | AlarmRuleList | array AlarmRule | 是 | 预警规则数组 |
 
 AlarmRule
