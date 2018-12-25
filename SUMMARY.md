@@ -1125,4 +1125,6 @@
   * [获取预警列表](shui-xiang-mo-kuai/huo-qu-yu-jing-lie-biao.md)
   * [获取用户列表](shui-xiang-mo-kuai/huo-qu-yong-hu-guan-li.md)
   * [新增账号](shui-xiang-mo-kuai/xin-zeng-zhang-hao.md)
+  * [编辑账号](shui-xiang-mo-kuai/bian-ji-zhang-hao.md)
+  * [获取用户详情](shui-xiang-mo-kuai/huo-qu-yong-hu-xiang-qing.md)
 
