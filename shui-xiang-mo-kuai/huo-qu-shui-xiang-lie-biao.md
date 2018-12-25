@@ -8,6 +8,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| HouseEstateSysNo | int | 否 | 小区id |
 | PCDDescription | string | 否 | 省市区名称 |
 | HouseEstateName | string | 否 | 小区名称 |
 | WaterTankCode | string | 否 | 水箱编号 |
