@@ -1116,5 +1116,5 @@
   * [获取委托人列表](che-liang-jian-ce-mo-kuai/huo-qu-wei-tuo-ren-lie-biao.md)
 * [水箱模块](shui-xiang-mo-kuai.md)
   * [获取水箱列表](shui-xiang-mo-kuai/huo-qu-shui-xiang-lie-biao.md)
-  * 获取水箱详情
+  * [获取水箱详情](shui-xiang-mo-kuai/huo-qu-shui-xiang-xiang-qing.md)
 

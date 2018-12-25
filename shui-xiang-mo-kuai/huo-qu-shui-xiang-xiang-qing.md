@@ -29,8 +29,6 @@ _**【接口地址】**_
 | CapAlarm | string | 是 | 1水箱盖开启报警，0不报警 |
 | WaterTankStatus | int | 是 | 1正常，11预警 |
 | SyncTime | datetime | 是 | 最后同步时间 |
-| Longitude | decimal | 是 | 经度 |
-| Latitude | decimal | 是 | 纬度 |
 | AlarmRuleList | array AlarmRule | 是 | 预警规则数组 |
 
 AlarmRule
