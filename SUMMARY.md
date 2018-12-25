@@ -1127,4 +1127,5 @@
   * [新增账号](shui-xiang-mo-kuai/xin-zeng-zhang-hao.md)
   * [编辑账号](shui-xiang-mo-kuai/bian-ji-zhang-hao.md)
   * [获取用户详情](shui-xiang-mo-kuai/huo-qu-yong-hu-xiang-qing.md)
+  * [获取中国地图](shui-xiang-mo-kuai/huo-qu-zhong-guo-di-tu.md)
 
