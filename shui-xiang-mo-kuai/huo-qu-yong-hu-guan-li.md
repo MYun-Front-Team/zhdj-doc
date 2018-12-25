@@ -9,7 +9,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PersonSysNo | int | 否 | 登录人id |
-| OrganizationTypeList | array int | 否 |  |
+| OrganizationTypeList | array int | 否 | 17031小区负责人，17032小区物业，17033水务局 |
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 
