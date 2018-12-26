@@ -2,7 +2,7 @@
 
 _**【接口地址】**_
 
-http://ip:port/WTQuery/Water/GetUserBySysNo
+[http://ip:port/WTQuery/Water/GetUserBySysNo](http://ip:port/WTQuery/Water/GetUserBySysNo)
 
 > #### _请求数据_ {#请求数据}
 
@@ -16,6 +16,7 @@ http://ip:port/WTQuery/Water/GetUserBySysNo
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 是 | 组织编码 |
 | PersonSysNo | int | 是 | 人员编码 |
+| AdminSysNo | int | 是 | 账户编码 |
 | OrganizationType | int | 是 | 组织类型 |
 | PersonName | string | 是 | 姓名 |
 | CellPhoneNo | string | 是 | 手机号 |
