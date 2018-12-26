@@ -23,6 +23,6 @@ http://ip:port/RecruitQuery/Authentication/CheckAuthenticationIDCard
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| CheckStatus| int | 是 | 实名认证系统编码 |
+| CheckStatus| int | 是 | 1已存在 0不存在|
 
 
