@@ -12,20 +12,22 @@ _**【接口地址】**_
 
 > #### _应答数据_ {#应答数据-（巡河记录数组）}
 
-#### NationReport {#应答数据-（巡河记录数组）}
+#### CityReport {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | HouseEstateNum | int | 是 | 小区总数 |
-| CityList | array CityData | 是 | 市列表 |
+| AlarmHouseEstateNum | int | 是 | 预警小区数 |
+| NormalHouseEstateNum | int | 是 | 正常小区数 |
+| FaultHouseEstateNum | int | 是 | 故障小区数 |
 
 CityData
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| PCDCode | string | 是 | 省市区编码 |
-| PCDDescription | string | 是 | 省市区名称 |
-| HouseEstateNum | int | 是 | 小区数 |
+| HouseEstateName | string | 是 | 小区名称 |
+| ContactPerson | string | 是 | 负责人 |
+| ContactPhone | string | 是 | 联系电话 |
 | WaterTankNum | int | 是 | 水箱数 |
 | WaterTankStatus | int | 是 | 1正常，11预警 |
 
