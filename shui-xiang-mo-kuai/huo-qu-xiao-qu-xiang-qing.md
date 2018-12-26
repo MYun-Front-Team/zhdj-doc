@@ -2,7 +2,7 @@
 
 _**【接口地址】**_
 
-[http://ip:port/WTQuery/Water/GetHouseEstateList](http://ip:port/WTQuery/Water/GetWaterTankList)
+http://ip:port/WTQuery/Water/GetHouseEstateBySysNo
 
 > #### _请求数据_ {#请求数据}
 

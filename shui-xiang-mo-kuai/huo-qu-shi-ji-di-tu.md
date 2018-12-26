@@ -26,7 +26,7 @@ HouseEstateData
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| HouseEstateName | int | 是 | 小区id |
+| HouseEstateSysNo | int | 是 | 小区id |
 | HouseEstateName | string | 是 | 小区名称 |
 | ContactPerson | string | 是 | 负责人 |
 | ContactPhone | string | 是 | 联系电话 |
