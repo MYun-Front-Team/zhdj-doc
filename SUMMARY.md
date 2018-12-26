@@ -1130,4 +1130,5 @@
   * [获取中国地图](shui-xiang-mo-kuai/huo-qu-zhong-guo-di-tu.md)
   * [获取市级地图](shui-xiang-mo-kuai/huo-qu-shi-ji-di-tu.md)
   * [获取小区地图](shui-xiang-mo-kuai/huo-qu-xiao-qu-di-tu.md)
+  * [获取大数据](shui-xiang-mo-kuai/huo-qu-da-shu-ju.md)
 

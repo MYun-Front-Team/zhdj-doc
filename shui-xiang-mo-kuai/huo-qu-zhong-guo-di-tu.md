@@ -26,6 +26,8 @@ CityData
 | :--- | :--- | :--- | :--- |
 | PCDCode | string | 是 | 省市区编码 |
 | PCDDescription | string | 是 | 省市区名称 |
+| Longitude | decimal | 是 | 经度 |
+| Latitude | decimal | 是 | 纬度 |
 | HouseEstateNum | int | 是 | 小区数 |
 | WaterTankNum | int | 是 | 水箱数 |
 | WaterTankStatus | int | 是 | 1正常，11预警 |
