@@ -23,4 +23,5 @@ http://ip:port/RecruitAction/Contract/SetContractThreePartyContractId
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| | int | 是 | 三方合同编码 |
+| ThreePartyContractId| string | 是 |三方合同编号|
+
