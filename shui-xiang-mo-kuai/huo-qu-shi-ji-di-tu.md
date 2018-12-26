@@ -20,14 +20,18 @@ _**【接口地址】**_
 | AlarmHouseEstateNum | int | 是 | 预警小区数 |
 | NormalHouseEstateNum | int | 是 | 正常小区数 |
 | FaultHouseEstateNum | int | 是 | 故障小区数 |
+| HouseEstateList | array HouseEstateData | 是 | 小区列表 |
 
-CityData
+HouseEstateData
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| HouseEstateName | int | 是 | 小区id |
 | HouseEstateName | string | 是 | 小区名称 |
 | ContactPerson | string | 是 | 负责人 |
 | ContactPhone | string | 是 | 联系电话 |
+| Longitude | deciaml | 是 | 经度 |
+| Latitude | decimal | 是 | 纬度 |
 | WaterTankNum | int | 是 | 水箱数 |
 | WaterTankStatus | int | 是 | 1正常，11预警 |
 

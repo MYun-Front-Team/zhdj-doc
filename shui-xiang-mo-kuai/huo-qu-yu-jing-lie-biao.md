@@ -10,6 +10,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | PersonSysNo | int | 否 | 登录人id |
 | PCDDescription | string | 否 | 省市区名称 |
+| HouseEstateSysNo | int | 否 | 小区id |
 | HouseEstateName | string | 否 | 小区名称 |
 | AlarmStatusList | array int | 否 | 1未处理，10已处理 |
 
@@ -29,8 +30,6 @@ _**【接口地址】**_
 | AlarmValue | decimal | 是 | 警报数值 |
 | AlarmContent | string | 是 | 预警内容 |
 | AlarmStatus | int | 是 | 1未处理，10已处理 |
-
-
 
 
 
