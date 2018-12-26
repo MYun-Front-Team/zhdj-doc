@@ -24,7 +24,7 @@ _**【接口地址】**_
 | Length | decimal | 是 | 长 |
 | Width | decimal | 是 | 宽 |
 | Height | decimal | 是 | 高 |
-| CapAlarm | string | 是 | 1水箱盖开启报警，0不报警 |
+| CapAlarm | int | 是 | 1水箱盖开启报警，0不报警 |
 | WaterTankStatus | int | 是 | 1正常，11预警 |
 | SyncTime | datetime | 是 | 最后同步时间 |
 | Longitude | decimal | 是 | 经度 |
