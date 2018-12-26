@@ -38,6 +38,9 @@ WaterTankData
 | PCDCode | string | 是 | 省市区编码 |
 | PCDDescription | string | 是 | 省市区名称 |
 | Location | string | 是 | 具体地址 |
+| Length | decimal | 是 | 长 |
+| Width | decimal | 是 | 宽 |
+| Height | decimal | 是 | 高 |
 | WaterTankStatus | int | 是 | 1正常，11预警 |
 
 
