@@ -14,7 +14,7 @@ _**【接口地址】**_
 | Length | decimal | 是 | 长 |
 | Width | decimal | 是 | 宽 |
 | Height | decimal | 是 | 高 |
-| CapAlarm | string | 是 | 1水箱盖开启报警，0不报警 |
+| CapAlarm | int | 是 | 1水箱盖开启报警，0不报警 |
 | AlarmRuleList | array AlarmRuleEdit | 是 | 预警规则数组 |
 
 AlarmRuleEdit
