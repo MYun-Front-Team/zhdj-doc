@@ -8,6 +8,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| PersonSysNo | int | 是 | 用户id |
 | PersonName | string | 是 | 姓名 |
 | CellPhoneNo | string | 是 | 手机号 |
 | UserGender | int | 是 | 1男，2女 |
