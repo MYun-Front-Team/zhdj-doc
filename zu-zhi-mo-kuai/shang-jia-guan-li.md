@@ -74,6 +74,10 @@
 | RMAReceiverAddress| string| 是 | 退货地址 |
 | RMAReceiverName| string| 是 | 退货收货人 |
 | RMAReceiverPhone| string| 是 | 退货收货人电话|
+|BackMoneyDay1| int | 否 |回款日期1(号)|
+|BackMoneyDay2| int | 否 |回款日期2(号)|
+|OutMoneyDay1| int | 否 |发薪日期1(号)|
+|OutMoneyDay2| int | 否 |发薪日期2(号)|
 
 
 #### File说明 {#应答数据-}

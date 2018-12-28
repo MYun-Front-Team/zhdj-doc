@@ -62,18 +62,10 @@ _**【接口地址】**_
 | ObjectFileList| array File| 否（可选配置） | 附件 |
 | IsShowInCommission| int| 否 | 是否在抢工佣金推送列表显示 |
 | RecruitNeedPlatAudit| int | 否 |发布岗位是否需要平台审核|
-
-
-
-
-
-
-
-
-
-
-
-
+|BackMoneyDay1| int | 否 |回款日期1(号)|
+|BackMoneyDay2| int | 否 |回款日期2(号)|
+|OutMoneyDay1| int | 否 |发薪日期1(号)|
+|OutMoneyDay2| int | 否 |发薪日期2(号)|
 
 
 #### File说明 {#应答数据-}
