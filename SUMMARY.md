@@ -1010,6 +1010,7 @@
     * [C端收藏招聘](zhao-pin-mo-kuai/zhao-pin/cduan-shou-cang-zhao-pin.md)
     * [C端取消收藏](zhao-pin-mo-kuai/zhao-pin/cduan-qu-xiao-shou-cang.md)
     * [修改招聘人员详情](zhao-pin-mo-kuai/zhao-pin/xiu-gai-zhao-pin-ren-yuan-xiang-qing.md)
+    * [获取领队报表（按岗位）](zhao-pin-mo-kuai/zhao-pin/huo-qu-ling-dui-bao-biao-ff08-an-gang-wei-ff09.md)
   * [求职](zhao-pin-mo-kuai/qiu-zhi.md)
     * [修改求职基本信息](zhao-pin-mo-kuai/qiu-zhi/xiu-gai-qiu-zhi-ji-ben-xin-xi.md)
     * [确认抢班](zhao-pin-mo-kuai/qiu-zhi/que-ren-qiang-ban.md)
