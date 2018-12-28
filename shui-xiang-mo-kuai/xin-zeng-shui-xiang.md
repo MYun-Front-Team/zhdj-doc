@@ -10,6 +10,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | HouseEstateSysNo | int | 是 | 小区id |
 | WaterTankCode | string | 是 | 水箱编号 |
+| IP | string | 是 | ip地址 |
 | Location | string | 是 | 具体地址 |
 | Length | decimal | 是 | 长 |
 | Width | decimal | 是 | 宽 |
