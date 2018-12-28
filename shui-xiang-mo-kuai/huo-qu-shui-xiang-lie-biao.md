@@ -22,6 +22,7 @@ _**【接口地址】**_
 | HouseEstateSysNo | int | 是 | 小区id |
 | HouseEstateName | string | 是 | 小区名称 |
 | WaterTankCode | string | 是 | 水箱编号 |
+| IP | string | 是 | IP地址 |
 | PCDCode | string | 是 | 省市区编码 |
 | PCDDescription | string | 是 | 省市区名称 |
 | Location | string | 是 | 具体地址 |
