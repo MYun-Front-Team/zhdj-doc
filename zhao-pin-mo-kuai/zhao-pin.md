@@ -11,7 +11,7 @@
 | ShopName| string | 否 | 店铺名称 |
 | SellerName| string | 否 | 商家名称 |
 | ContractAddress| string | 否 | 店铺地址 |
-| Distance| decimal| 否 | 距离（IsMyFootPrint=1才有效） |
+| Distance| decimal| 否 | 距离（IsMyFootPrint=1或查询条件传了经纬度有效） |
 | AuditStatus | int | 是 | 商家审核状态：0待审核，10审核通过，11审核失败 |
 | Position | object | 是 | 职位 |
 | StartDate | string | 是 | 开始时间 |
@@ -156,6 +156,10 @@
 | EndWorkStartDay|datetime| 否 | 预计入职时间结束 |
 | Remark|string| 否 | 面试备注 |
 | CancelOrHandleOfferRemark|string| 否 | 客户取消或拒绝Offer备注 |
+| Latitude|decimal| 否 | 纬度（后台需求总览需要） |
+| Longitude|decimal| 否 | 经度（后台需求总览需要） |
+
+
 
 
 > #### 查询Limit字段 {#请求数据}
