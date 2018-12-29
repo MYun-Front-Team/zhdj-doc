@@ -158,6 +158,7 @@
 | CancelOrHandleOfferRemark|string| 否 | 客户取消或拒绝Offer备注 |
 | Latitude|decimal| 否 | 纬度（后台需求总览需要） |
 | Longitude|decimal| 否 | 经度（后台需求总览需要） |
+| CustomerPositionName| Nvarchar\(50\) | 否 | 客户自定义职位名称 |
 
  
 
