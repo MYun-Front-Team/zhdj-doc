@@ -1136,4 +1136,5 @@
   * [获取小区地图](shui-xiang-mo-kuai/huo-qu-xiao-qu-di-tu.md)
   * [获取大数据](shui-xiang-mo-kuai/huo-qu-da-shu-ju.md)
   * [新增水箱](shui-xiang-mo-kuai/xin-zeng-shui-xiang.md)
+  * [删除小区](shui-xiang-mo-kuai/shan-chu-xiao-qu.md)
 
