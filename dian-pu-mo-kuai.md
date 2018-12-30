@@ -128,6 +128,7 @@
 | ShopPersonCellPhoneNo| string | 否 | 店长电话 |
 | OrganizationSysNoList |array int | 是 |组织系统编码 |
 | RecruitNeedPlatAuditList|array int | 否 |发布岗位是否需要平台审核|
+| SellerTypeList | array int | 否 | 商家类型（行业枚举） |
 
 
 
