@@ -104,10 +104,13 @@
 | PersonName | string | 否 | 昵称 |
 | FileUrlList | array string | 否 | 头像图片列表 |
 | CustomerLevelName | string | 否 | 客户等级 |
-| TotalOrder | decimal | 否 | 订单 |
+| TotalOrder | decimal | 否 | 已结算订单 |
 | TotalMPPoints | decimal | 否 | 魔力 |
 | TotalAmount | decimal | 否 | 金额 |
 | SonCount| int| 否 | 共发展粉丝 |
+| FrozenOrder| int| 否 | 冻结订单 |
+
+
 
 
 > #### 应答数据 PageResponseStatistic 【9000107】
