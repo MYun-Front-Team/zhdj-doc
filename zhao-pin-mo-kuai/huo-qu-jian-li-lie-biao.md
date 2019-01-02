@@ -58,10 +58,9 @@ _**【接口地址】**_
 | Interviews | array\[Interview\] | 是 | 最近面试 |
 | LastCommunicatePersonFromName | string | 是 | 最后沟通人 |
 | SysJobStatus | int | 是 | 系统计算在职状态（9已入用 10在职 0不在职，1待面试） |
-
-
-
-
+| InviterPersonSysNo| int | 是 | 邀请人 |
+| InviterIsLeader| int | 是 | 邀请人是否是领队 |
+| InviterPersonName| string| 是 | 邀请人名字 |
 
 #### Person
 

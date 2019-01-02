@@ -60,6 +60,15 @@ http://ip:port/RecruitQuery/Recruit/GetRecruitPersonList
 | IsDove| int | 是 | 是否放鸽子 |
 | IsFavorite| int| 否 | 是否收藏夹的 |
 | PositionWorkTimeList | array object | 否 | 工作时间列表 |
+| InterviewBrand| string| 否 |面试品牌|
+| InterviewPerson| string| 否 | 面试联系人 |
+| InterviewPhone| string| 否 |面试联系人手机|
+| InterviewPersonPost| string| 否 | 面试联系人职务 |
+| InterviewAddress| string| 否 |面试联系人地址| 
+| InterviewRemark| string| 否 | 面试备注 |
+| ShopInterviewDateList | array ShopInterviewDate| 否 | 面试时间 |
+| InterviewLongitude | decimal（18，10） | 否 | 面试经度 |
+| InterviewLatitude | decimal（18，10） | 否 | 面试纬度 |
 
 
 #### RecruitPerson说明_ _ {#应答数据-（巡河记录数组）}

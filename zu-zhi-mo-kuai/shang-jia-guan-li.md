@@ -78,6 +78,7 @@
 |BackMoneyDay2| int | 否 |回款日期2(号)|
 |OutMoneyDay1| int | 否 |发薪日期1(号)|
 |OutMoneyDay2| int | 否 |发薪日期2(号)|
+|IsDisable| int | 否 |是否禁用（1禁用，0启用）|
 
 
 #### File说明 {#应答数据-}

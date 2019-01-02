@@ -105,6 +105,18 @@
 | CancelRemark| string| 是 | 取消备注 |
 | HandleOfferStatus|int | 否 | Offer处理状态（0初始 1待处理 10通过，11不通过）|
 | HandleOfferRmark|string | 否 | Offer处理备注|
+| CancelCount| int| 否 |该岗位已经取消过的次数 |
+| InterviewBrand| string| 否 |面试品牌|
+| InterviewPerson| string| 否 | 面试联系人 |
+| InterviewPhone| string| 否 |面试联系人手机|
+| InterviewPersonPost| string| 否 | 面试联系人职务 |
+| InterviewAddress| string| 否 |面试联系人地址| 
+| InterviewRemark| string| 否 | 面试备注 |
+| ShopInterviewDateList | array ShopInterviewDate| 否 | 面试时间 |
+| InterviewLongitude | decimal（18，10） | 否 | 面试经度 |
+| InterviewLatitude | decimal（18，10） | 否 | 面试纬度 |
+
+
 
 
 
