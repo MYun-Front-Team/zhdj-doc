@@ -43,7 +43,7 @@ http://ip:port/UMQuery/DeviceStatus/GetDeviceStatusList
 | ShouldBeStatus| int| 是 |当前应该状态（0未知，10开机，11关机） |
 | NextOnTime| string| 是 |下次开机时间 |
 | NextOffTime| string| 是 |下次关机时间 |
-
+| ReceiveMessageCount| int| 否 | 接收消息次数 |
 
 
 > #### GroupInfo
