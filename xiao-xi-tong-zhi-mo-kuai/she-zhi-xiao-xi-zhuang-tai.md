@@ -24,6 +24,8 @@ http://ip:port/MessageAction/Message/SetMessageStatus
 | :--- | :--- | :--- | :--- |
 | MessageSysNo | int | 是 | 消息系统编码 |
 | MessageStatus | int | 是 | 消息状态（0草稿，1发送中，10已发送， 11撤销） |
+| MessageSendTime | datatime | 否 | 定时发布时间 |
+
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
