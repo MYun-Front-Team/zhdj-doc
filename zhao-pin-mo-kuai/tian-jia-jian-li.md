@@ -60,7 +60,7 @@ http://ip:port/RecruitAction/Resume/AddResume
 | CpsSysNo| int | 否 | CPS来源编码|
 | IsInsurance| int | 否 | 有无社保|
 | IsHealthy| int | 否 | 有无健康证|
-| InviterPersonSysNo| int | 是 | 邀请人 |
+| InviterPersonSysNo| int | 否 | 邀请人 |
 
 
 
