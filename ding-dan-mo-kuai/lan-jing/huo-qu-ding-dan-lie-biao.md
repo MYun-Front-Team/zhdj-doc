@@ -30,10 +30,8 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderList
 | OrderEndTime | string | 否 | 结束时间（订单创建时间） |
 | ProductGroupName| string| 否 | 商品名称 |
 | CellPhoneNo| string| 否 | 手机号 |
-
-
-
-
+| StartRewardMP| decimal | 否 | 开始奖励魔力|
+| EndRewardMP| decimal | 否 | 终止奖励魔力|
 
 
 > #### 返回数据
