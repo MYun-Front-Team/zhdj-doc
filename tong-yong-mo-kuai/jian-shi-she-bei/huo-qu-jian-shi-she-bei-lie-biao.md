@@ -22,6 +22,7 @@ http://ip:port/UMQuery/DeviceStatus/GetDeviceStatusList
 | HeartStatusList|array[int] | 是 |状态（0初始，10正常，9警告，11下线） |
 | GroupSysNo| int| 是 |分组编码 |
 | TemplateSysNo| int| 是 |模板编码 |
+| PersonSysNo| int| 是 |设备拥有者编码 |
 
 
 
