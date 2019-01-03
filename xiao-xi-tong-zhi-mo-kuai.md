@@ -25,6 +25,9 @@
 | MessageTypeList|array[int] | 否 | 消息类型：0短信，1微信模板消息，2APP |
 | ObjectFileList| array File| 否（可选配置） | 附件 |
 | MessageObjectList| array File| 否（可选配置） | 消息附属对象|
+| MessageSendTime | datatime | 否 | 定时发布时间 |
+
+
 
 
 > #### MessageStatistic统计计算字段 {#请求数据}
