@@ -45,6 +45,8 @@ _**【接口地址】**_
 | UserGender | int | 否 | 性别 |
 | WxUnionID| string| 否 | 微信WxUnionID|
 | PostSysNo| int | 否 |职位编码 |
+| InvitationPersonSysNo| int | 否 |邀请人编码|
+| InvitationCode| string| 否 |邀请码(优先级高于邀请人编码)|
 
 
 
