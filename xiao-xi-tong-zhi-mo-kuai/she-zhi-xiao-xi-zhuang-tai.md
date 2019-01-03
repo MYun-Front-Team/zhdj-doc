@@ -23,7 +23,7 @@ http://ip:port/MessageAction/Message/SetMessageStatus
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | MessageSysNo | int | 是 | 消息系统编码 |
-| MessageStatus | int | 是 | 消息状态（0草稿，10已发送， 11撤销） |
+| MessageStatus | int | 是 | 消息状态（0草稿，1发送中，10已发送， 11撤销） |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 

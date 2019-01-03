@@ -9,7 +9,7 @@
 | ModuleSourceType | int | 否 | 模块类型（枚举） |
 | ModuleSourceClass | int | 否 | 模块分类编码（枚举） |
 | ModuleSourceSysNo | int | 否 | 模块来源系统编码 |
-| MessageStatus | int | 是 | 消息状态（0草稿，10已发送， 11撤销） |
+| MessageStatus | int | 是 | 消息状态（0草稿，10已发送， 11撤销，1发送中） |
 | MessageTitle | string | 是 | 标题 |
 | MessageContent | string | 是 | 内容 |
 | MessageType | int | 是 | 消息类型：0短信，1微信模板消息，2APP |
