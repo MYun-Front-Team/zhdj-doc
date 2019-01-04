@@ -75,6 +75,8 @@ http://ip:port/BasicQuery/Basic/GetPersonBySysNo
 | DoctorPersonSysNo| int| 否 |医生编码 |
 | Salesman| string | 否 |业务员 |
 | Height| decimal| 否 | 身高 |
+| WeiXin| string  | 否 | 微信号|
+| IsPublishCellPhone| int | 否 | 是否公开手机 |
 
 
 

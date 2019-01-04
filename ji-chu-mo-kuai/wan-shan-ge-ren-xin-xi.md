@@ -54,6 +54,5 @@ _**【接口地址】**_
 | PCDDataRangeSysNoList | array\[int\] | 否 | 负责区域系统编码列表 |
 | HosOrganizationSysNo | int | 否 | 所属医院、机构 |
 | Height| decimal| 否 | 身高 |
-
-
-
+| WeiXin| string  | 否 | 微信号|
+| IsPublishCellPhone| int | 否 | 是否公开手机 |
