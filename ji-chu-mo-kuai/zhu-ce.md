@@ -35,6 +35,7 @@ _**【接口地址】**_
 | IsForce | int | 否 | 是否强制注册（禁用） |
 | OpenID | int | 否 | 微信OpenID |
 | InvitationCode| string | 否 | 邀请码 |
+| CellPhoneNo| string | 是 | 手机号 |
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
