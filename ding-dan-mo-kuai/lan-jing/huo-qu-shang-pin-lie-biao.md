@@ -52,9 +52,7 @@ http://ip:port/ProductQuery/LJProductGroup/GetLJProductGroupList
 | FakeSaleCount|int| 是 |虚假销量|
 | FileUrlList | array string | 否 | 买手头像图片列表 |
 | StartSaleDate| datetime| 是 | 开卖时间|
-
-
-
+| IsOnSale| int| 是 | 是否在售|
 
 #### Sku {#应答数据-（巡河记录数组）}
 
