@@ -25,6 +25,7 @@ _**【接口地址】**_
 | FilePaths | array string | 否（可选配置） | 文件或图片列表（第一张为首图） |
 | PointsValues | array object | 否（可选配置） | 积分赠送配置 |
 | ObjectFileList| array File| 否（可选配置） | 附件 |
+| SortNo | int | 否 | 排序 |
 
 #### File说明 {#应答数据-}
 
