@@ -96,7 +96,7 @@
 | FileTitle| string| 是 | 文件名称 |
 | FilePath| string| 是 | 文件地址 |
 | FileUrl| string| 是 | 文件地址 |
-
+| FileFormat| int| 是 | 附件类型（0图片，……端定义） |
 
 
 #### ModuleRelationList说明 {#应答数据-（巡河记录数组）}
