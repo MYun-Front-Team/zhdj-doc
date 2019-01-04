@@ -17,6 +17,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | NewsSysNo | int | 是 | 新闻系统编码 |
+| NewsClassSysNo | int | 否（可选配置） | 类型分类系统编码（类别树） |
 | NewsTitle | string | 是 | 标题 |
 | NewsContent | string | 是 | 内容 |
 | Remark | string | 否（可选配置） | 备注 |
