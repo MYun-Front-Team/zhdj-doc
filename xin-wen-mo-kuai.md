@@ -31,10 +31,7 @@
 | SponsorDataRangeSysNo| int| 否 | 主办方ID |
 | SponsorDataRangeGradeType| int| 否 | 主办方级别 |
 | ObjectFileList| array File| 否（可选配置） | 附件 |
-
-
-
-
+| IsTop | int | 否 | 是否置顶 |
 
 
 

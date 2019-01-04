@@ -54,6 +54,7 @@
   * [设置新闻类型描述](xin-wen-mo-kuai/she-zhi-xin-wen-lei-xing-miao-shu.md)
   * [根据页面，获取可选字段列表](xin-wen-mo-kuai/gen-ju-ye-mian-ff0c-huo-qu-ke-xuan-zi-duan-lie-biao.md)
   * [获取浏览人员列表](xin-wen-mo-kuai/huo-qu-liu-lan-ren-yuan-lie-biao.md)
+  * [置顶](xin-wen-mo-kuai/zhi-ding.md)
 * [服务跟踪模块](fu-wu-gen-zong-mo-kuai.md)
   * [获取服务跟踪列表](fu-wu-gen-zong-mo-kuai/huo-qu-fu-wu-gen-zong-lie-biao.md)
   * [获取服务跟踪详情](fu-wu-gen-zong-mo-kuai/huo-qu-fu-wu-gen-zong-xiang-qing.md)
