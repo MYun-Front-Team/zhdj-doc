@@ -22,6 +22,7 @@ _**【接口地址】**_
 | CategoryFatherSysNo | int | 否 | 类别父级主键（传0表示获取根类别） |
 | IsShowBranch | int | 否 | 是否显示分支（递归树状） |
 | LoginSource | int | 否 | 登陆来源 |
+| IsShowActive | int | 否 | 1显示到活动 |
 
 > #### 应答数据 {#应答数据-}
 
