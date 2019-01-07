@@ -333,6 +333,7 @@
   * [编辑素材](xiao-xi-tong-zhi-mo-kuai/bian-ji-su-cai.md)
   * [删除素材](xiao-xi-tong-zhi-mo-kuai/shan-chu-su-cai.md)
   * [发布素材](xiao-xi-tong-zhi-mo-kuai/fa-bu-su-cai.md)
+  * [获取素材列表](xiao-xi-tong-zhi-mo-kuai/huo-qu-su-cai-lie-biao.md)
 * [商品模块](shang-pin-mo-kuai.md)
   * [新增款](shang-pin-mo-kuai/xin-zeng-kuan.md)
   * [修改款](shang-pin-mo-kuai/xiu-gai-kuan.md)
