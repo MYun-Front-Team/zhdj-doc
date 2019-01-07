@@ -337,6 +337,7 @@
   * [获取素材详情](xiao-xi-tong-zhi-mo-kuai/huo-qu-su-cai-xiang-qing.md)
   * [获取发布记录列表](xiao-xi-tong-zhi-mo-kuai/huo-qu-fa-bu-ji-lu-lie-biao.md)
   * [获取发布记录详情](xiao-xi-tong-zhi-mo-kuai/huo-qu-fa-bu-ji-lu-xiang-qing.md)
+  * [设置发送结果](xiao-xi-tong-zhi-mo-kuai/she-zhi-fa-song-jie-guo.md)
 * [商品模块](shang-pin-mo-kuai.md)
   * [新增款](shang-pin-mo-kuai/xin-zeng-kuan.md)
   * [修改款](shang-pin-mo-kuai/xiu-gai-kuan.md)
