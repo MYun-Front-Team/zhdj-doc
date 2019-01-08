@@ -25,7 +25,7 @@ _**【接口地址】**_
 | detectDate | string | 是 | 检测日期 |
 | vehicleNo | string | 是 | 车牌号码 |
 | plateColorCode | string | 是 | 车牌颜色 |
-| uploadStatus | int | 是 | 上传状态 1待上传，10已上传，11不上传 |
+| uploadStatus | int | 是 | 上传状态 1待上传，2暂停上传，10已上传，11不上传 |
 | uploadTime | datetime | 是 | 上传时间 |
 | requireStatus | int | 是 | 10正常，11市平台要求字段未填写 |
 | tempStatus | int | 是 | 10正常，11临时牌照未修改 |

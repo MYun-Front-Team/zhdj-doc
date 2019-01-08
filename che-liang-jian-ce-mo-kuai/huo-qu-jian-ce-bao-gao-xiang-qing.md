@@ -47,7 +47,7 @@ _**【接口地址】**_
 |  |  |  |  |
 | detectResult | string | 是 | 检验结果 |
 | detectSafeyResult | string | 是 | 安全检测结果 |
-| uploadStatus | int | 是 | 上传状态 1待上传，10已上传，11不上传 |
+| uploadStatus | int | 是 | 上传状态 1待上传，2暂停上传，10已上传，11不上传 |
 | uploadTime | datetime | 是 | 上传时间 |
 | requireStatus | int | 是 | 10正常，11市平台要求字段未填写 |
 | tempStatus | int | 是 | 10正常，11临时牌照未修改 |
