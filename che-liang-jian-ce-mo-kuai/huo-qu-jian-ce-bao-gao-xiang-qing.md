@@ -52,7 +52,7 @@ _**【接口地址】**_
 | requireStatus | int | 是 | 10正常，11市平台要求字段未填写 |
 | tempStatus | int | 是 | 10正常，11临时牌照未修改 |
 | abnormalStatus | int | 是 | 10正常，11在异常名单内 |
-|  |  |  |  |
+| CreateTime | datetime | 是 | 创建时间 |
 | manualTestResultList | array object | 是 | 人工检测列表 |
 | performanceItemList | array object | 是 | 性能检测列表 |
 
