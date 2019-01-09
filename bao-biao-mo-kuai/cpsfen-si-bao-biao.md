@@ -89,10 +89,13 @@
 | :--- | :--- | :--- | :--- |
 | PersonSysNo | int | 是 | 人员系统编码 |
 | PersonName | string | 否 | 昵称 |
+| CellPhoneNo| string | 否 | 手机号|
+| PersonSysNo | int | 是 | 人员系统编码 |
 | FileUrlList | array string | 否 | 头像图片列表 |
 | AMPPoints| decimal | 否 | 一级贡献魔力|
 | BMPPoints| decimal | 否 | 二级贡献魔力|
 | FansCount| int| 是 | 粉丝数量|
+| CreateTime| datetime| 否 | 创建时间|
 
 
 

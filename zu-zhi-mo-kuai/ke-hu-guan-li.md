@@ -43,13 +43,8 @@
 | NoUseInvitation| int | 否 | 未使用邀请码 |
 | PersonName| int | 否 |人员昵称|
 | RealName| int | 否 |人员姓名|
-
-
-
-
-
-
-
+| InvitationCode| string| 否 | 邀请码 |
+| FatherPersonName| string| 否 | 邀请人 |
 
 > #### CustomerStatistic统计计算字段 {#请求数据}
 
