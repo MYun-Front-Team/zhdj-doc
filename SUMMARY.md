@@ -1164,7 +1164,7 @@
   * [获取残疾人列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-can-ji-ren-lie-biao.md)
   * [获取残疾人详情](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-can-ji-ren-xiang-qing.md)
   * [获取申请列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-shen-qing-lie-biao.md)
-  * 获取申请详情
+  * [获取申请详情](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-shen-qing-xiang-qing.md)
   * 获取评估列表
   * 获取评估详情
   * 获取报告书列表
