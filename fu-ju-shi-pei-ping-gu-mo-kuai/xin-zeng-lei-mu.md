@@ -8,7 +8,6 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| AssistantTypeSysNo | int | 是 | 类目id |
 | AreaCode | int | 是 | 区域编号 |
 | AreaName | string | 是 | 区域名称 |
 | CategorySysNo | int | 是 | 辅具类别id |
