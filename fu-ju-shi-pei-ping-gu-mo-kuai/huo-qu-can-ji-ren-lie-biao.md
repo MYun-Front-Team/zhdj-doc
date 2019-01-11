@@ -10,6 +10,8 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | Name | string | 否 | 姓名 |
 | IDNo | string | 否 | 身份证号 |
+| DisabledType | int | 否 | 残疾类别 |
+| DisabledLevel | int | 否 | 残疾等级 |
 | AreaCode | string | 否 | 区域编号 |
 
 > ####  {#应答数据-（巡河记录数组）}
