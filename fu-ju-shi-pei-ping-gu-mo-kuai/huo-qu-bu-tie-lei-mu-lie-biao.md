@@ -14,7 +14,6 @@ _**【接口地址】**_
 | AssistantType | int | 否 | 申请类目 |
 | AreaCode | string | 否 | 区域编号 |
 | ApplyStatusList | array int | 否 | 状态列表 |
-| PersonSysNo | int | 否 | 人员编码 |
 
 > ####  {#应答数据-（巡河记录数组）}
 
