@@ -1,15 +1,14 @@
-# 获取补贴类目列表
+# 获取补贴类目详情
 
 _**【接口地址】**_
 
-[http://ip:port/FJQuery/Adaptation/GetAssistantTypeList](http://ip:port/FJQuery/Adaptation/GetDisabledPersonList)
+http://ip:port/FJQuery/Adaptation/GetAssistantTypeBySysNo
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| Keyword | string | 否 | 关键字 |
-| ApplyStatusList | array int | 否 | 状态列表 |
+| AssistantTypeSysNo | int | 是 | 类目id |
 
 > ####  {#应答数据-（巡河记录数组）}
 

@@ -1170,5 +1170,5 @@
   * 获取报告书列表
   * 获取报告单详情
   * [获取补贴类目列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-bu-tie-lei-mu-lie-biao.md)
-  * 获取补贴类目详情
+  * [获取补贴类目详情](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-bu-tie-lei-mu-xiang-qing.md)
 
