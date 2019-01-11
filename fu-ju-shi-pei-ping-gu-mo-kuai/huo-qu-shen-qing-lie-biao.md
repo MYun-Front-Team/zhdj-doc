@@ -8,11 +8,12 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| Name | string | 否 | 姓名 |
-| IDNo | string | 否 | 身份证号 |
-| DisabledType | int | 否 | 残疾类别 |
-| DisabledLevel | int | 否 | 残疾等级 |
+| ApplyTimeStart | datetime | 否 | 开始时间 |
+| ApplyTimeEnd | datetime | 否 | 结束时间 |
+| Keyword | string | 否 | 关键字 |
+| AssistantType | int | 否 | 申请类目 |
 | AreaCode | string | 否 | 区域编号 |
+| ApplyStatusList | array int | 否 | 状态列表 |
 
 > ####  {#应答数据-（巡河记录数组）}
 
@@ -24,6 +25,7 @@ _**【接口地址】**_
 | Name | string | 是 | 姓名 |
 | Gender | int | 是 | 1男，2女 |
 | Age | int | 是 | 年龄 |
+| Birthday | datetime | 是 | 生日 |
 | CellPhoneNo | string | 是 | 手机号 |
 | IDNo | string | 是 | 身份证号 |
 | DisabledNo | string | 是 | 残疾证号 |
@@ -33,6 +35,17 @@ _**【接口地址】**_
 | AreaName | string | 是 | 区域名称 |
 | State | int | 是 | 1有效，0注销 |
 | AvatarUrl | string | 是 | 头像 |
+| Nation | string | 是 | 民族 |
+| Education | string | 是 | 学历 |
+| Profession | string | 是 | 职业 |
+| ContactPerson | string | 是 | 联系人 |
+| ContactPhone | string | 是 | 联系电话 |
+| Relation | string | 是 | 关系 |
+| HomeAreaCode | string | 是 | 家庭区域编号 |
+| HomeAreaName | string | 是 | 家庭区域名称 |
+| Address | string | 是 | 具体地址 |
+| Postalcode | string | 是 | 邮政编码 |
+| Email | string | 是 | 电子邮件 |
 | ApplyCode | string | 是 | 申请单编号 |
 | ApplyTime | datetime | 是 | 申请时间 |
 | ApplyPersonSysNo | int | 是 | 申请人编码 |
