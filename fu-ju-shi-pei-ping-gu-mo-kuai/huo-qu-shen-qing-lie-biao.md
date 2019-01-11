@@ -48,24 +48,20 @@ SubsidyType
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ApplySysNo | int | 是 | 申请id |
+| SubsidyTypeSysNo | int | 是 | 符合补贴人群类别id |
+| SubsidyTypeName | string | 是 | 符合补贴人群类型名称 |
 
+HandleLog
 
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ApplySysNo | int | 是 | 申请id |
 
 SubsidyType
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ApplySysNo | int | 是 | 申请id |
-
-
-
-SubsidyType
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| ApplySysNo | int | 是 | 申请id |
-
-
 
 
 
