@@ -2,7 +2,7 @@
 
 _**【接口地址】**_
 
-http://ip:port/FJQuery/Adaptation/GetDisabledPersonList
+[http://ip:port/FJQuery/Adaptation/GetDisabledPersonList](http://ip:port/FJQuery/Adaptation/GetDisabledPersonList)
 
 > #### _请求数据_ {#请求数据}
 
@@ -27,7 +27,7 @@ http://ip:port/FJQuery/Adaptation/GetDisabledPersonList
 | AreaCode | string | 是 | 区域编号 |
 | AreaName | string | 是 | 区域名称 |
 | State | int | 是 | 1有效，0注销 |
-|  |  |  |  |
+| AvatarUrl | string | 是 | 头像 |
 
 
 
