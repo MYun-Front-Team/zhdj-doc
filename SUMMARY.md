@@ -1162,5 +1162,5 @@
   * [删除小区](shui-xiang-mo-kuai/shan-chu-xiao-qu.md)
 * [辅具适配评估模块](fu-ju-shi-pei-ping-gu-mo-kuai.md)
   * [获取残疾人列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-can-ji-ren-lie-biao.md)
-  * 获取残疾人详情
+  * [获取残疾人详情](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-can-ji-ren-xiang-qing.md)
 
