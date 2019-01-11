@@ -2,7 +2,7 @@
 
 _**【接口地址】**_
 
-http://ip:port/FJQuery/Adaptation/GetDisabledPersonBySysNo
+[http://ip:port/FJQuery/Adaptation/GetDisabledPersonBySysNo](http://ip:port/FJQuery/Adaptation/GetDisabledPersonBySysNo)
 
 > #### _请求数据_ {#请求数据}
 
