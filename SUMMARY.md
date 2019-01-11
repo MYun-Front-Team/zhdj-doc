@@ -1174,4 +1174,6 @@
   * [新增类目](fu-ju-shi-pei-ping-gu-mo-kuai/xin-zeng-lei-mu.md)
   * [修改类目](fu-ju-shi-pei-ping-gu-mo-kuai/xiu-gai-lei-mu.md)
   * [删除类目](fu-ju-shi-pei-ping-gu-mo-kuai/shan-chu-lei-mu.md)
+  * [获取补贴比例列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-bu-tie-bi-li-lie-biao.md)
+  * [获取补贴比例详情](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-bu-tie-bi-li-xiang-qing.md)
 
