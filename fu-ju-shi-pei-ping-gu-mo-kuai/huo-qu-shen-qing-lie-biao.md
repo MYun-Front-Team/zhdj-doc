@@ -18,6 +18,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| ApplySysNo | int | 是 | 申请id |
 | PersonSysNo | int | 是 | 人员系统编码 |
 | AdminSysNo | int | 是 | 用户系统编码 |
 | Name | string | 是 | 姓名 |
@@ -41,6 +42,30 @@ _**【接口地址】**_
 | ApplyRemark | string | 是 | 申请辅助器具说明 |
 | HandleLogList | array HandleLog | 是 | 处理流程列表 |
 | WaitHandleList | array WaitHandle | 是 | 待处理信息列表 |
+
+SubsidyType
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ApplySysNo | int | 是 | 申请id |
+
+
+
+SubsidyType
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ApplySysNo | int | 是 | 申请id |
+
+
+
+SubsidyType
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ApplySysNo | int | 是 | 申请id |
+
+
 
 
 
