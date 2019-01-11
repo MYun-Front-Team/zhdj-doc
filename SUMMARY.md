@@ -191,6 +191,12 @@
     * [新增搜索记录](tong-yong-mo-kuai/xin-zeng-sou-suo-ji-lu.md)
     * [删除历史搜索记录](tong-yong-mo-kuai/shan-chu-li-shi-sou-suo-ji-lu.md)
   * [设置分类是否显示到活动](tong-yong-mo-kuai/she-zhi-fen-lei-shi-fou-xian-shi-dao-huo-dong.md)
+  * [省市区新接口](tong-yong-mo-kuai/sheng-shi-qu-xin-jie-kou.md)
+    * [获取省级列表](tong-yong-mo-kuai/sheng-shi-qu-xin-jie-kou/huo-qu-sheng-ji-lie-biao.md)
+    * [获取地级列表](tong-yong-mo-kuai/sheng-shi-qu-xin-jie-kou/huo-qu-di-ji-lie-biao.md)
+    * [获取县级列表](tong-yong-mo-kuai/sheng-shi-qu-xin-jie-kou/huo-qu-xian-ji-lie-biao.md)
+    * 获取乡级列表
+    * 获取村级列表
 * [积分模块](ji-fen-mo-kuai.md)
   * [根据模块，获取积分配置列表](ji-fen-mo-kuai/gen-ju-mo-kuai-ff0c-huo-qu-ji-fen-pei-zhi-lie-biao.md)
   * [获取业务积分记录详情列表](tong-yong-mo-kuai/huo-qu-ye-wu-ji-fen-ji-lu-xiang-qing-lie-biao.md)
