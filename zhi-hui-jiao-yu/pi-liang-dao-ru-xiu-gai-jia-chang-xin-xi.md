@@ -16,6 +16,12 @@ http://ip:port/EduAction/Student/ImportStudentParent
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| ParentImports| array[ParentImport]| 是 |导入元素 |
+
+#### ParentImport
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
 | StudentSysNo| int | 是 |学生系统编码 |
 | ParentSysNo1| int | 否 | 家长1系统编码 |
 | ParentName1| string| 否 | 家长1姓名 |
