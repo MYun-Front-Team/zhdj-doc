@@ -955,6 +955,7 @@
     * [家长来访](zhi-hui-jiao-yu/jia-chang-lai-fang.md)
     * [获取家长来访](zhi-hui-jiao-yu/huo-qu-jia-chang-lai-fang.md)
     * [删除学生家长](zhi-hui-jiao-yu/shan-chu-xue-sheng-jia-chang.md)
+    * [批量导入修改家长信息](zhi-hui-jiao-yu/pi-liang-dao-ru-xiu-gai-jia-chang-xin-xi.md)
   * [成长档案](zhi-hui-jiao-yu/cheng-chang-dang-an.md)
     * [获取学期列表](zhi-hui-jiao-yu/cheng-chang-dang-an/huo-qu-xue-qi-lie-biao.md)
     * [获取节点信息](zhi-hui-jiao-yu/cheng-chang-dang-an/huo-qu-jie-dian-jie-shao.md)
