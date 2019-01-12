@@ -13,6 +13,9 @@
 | UnionNo| string| 是 | 学籍号 |
 | FreeType| int | 是 |1缴费用户、0未缴费用户、2公免用户 |
 | MemberCards| array[MemberCard]| 是 |学生卡包 |
+| Parents| array[Parent]| 是 |学生家长 |
+
+
 
 
 > #### 统计计算字段 {#请求数据}
@@ -27,6 +30,13 @@
 | MemberCardSysNo | int | 是 | 会员卡系统编码 |
 | CardType | int | 是 | 会员卡类型：0会员卡，1礼品卡，2临时卡，3考勤卡,4一卡通 |
 | CardNo | string | 是 | 卡号 |
+
+###Parent说明
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PersonSysNo | int| 是 | 家长编码 |
+| ParentName | string| 是 | 家长名称|
+| ParentCellPhoneNo | string| 是 | 家长电话 |
 
 
 > #### 功能按钮字段 {#请求数据}
