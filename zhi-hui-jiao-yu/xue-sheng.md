@@ -61,5 +61,8 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | IsShowMemberCards| int | 是 | 是否展示卡包 |
+| IsShowParents| int | 是 | 是否展示家长 |
+
+
 
 
