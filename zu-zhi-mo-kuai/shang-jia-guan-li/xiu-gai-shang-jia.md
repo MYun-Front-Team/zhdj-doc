@@ -66,6 +66,14 @@ _**【接口地址】**_
 |BackMoneyDay2| int | 否 |回款日期2(号)|
 |OutMoneyDay1| int | 否 |发薪日期1(号)|
 |OutMoneyDay2| int | 否 |发薪日期2(号)|
+|SignDate| datetime| 否 |签约日期|
+|InvoiceType| int | 否 |开票方式（1专用发票 2普通发票）|
+|IfHasTax| int | 否 |是否含税|
+|TaxRate| decimal| 否 |税率|
+|SalaryTimes| int | 否 |加班时薪倍数|
+|SalesManagerPersonSysNo| int | 否 |销售经理|
+
+
 
 
 #### File说明 {#应答数据-}
