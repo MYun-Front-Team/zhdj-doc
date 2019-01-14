@@ -2,13 +2,14 @@
 
 _**【接口地址】**_
 
-http://ip:port/MessageQuery/Message/GetMaterialList
+[http://ip:port/MessageQuery/Message/GetMaterialList](http://ip:port/MessageQuery/Message/GetMaterialList)
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PersonSysNo | int | 否 | 人员编码 |
+| IsShowFriends | int | 否 | 1显示好友素材 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
