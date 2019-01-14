@@ -13,8 +13,8 @@ http://ip:port/FJQuery/Adaption/GetApplyList
 | IDNo | string | 否 | 身份证号 |
 | DisabledNo | string | 否 | 残疾人证号 |
 | AreaCode | string | 否 | 区域编号 |
-| DisabledType | int | 否 | 残疾类型 |
-| DisabledLevel | int | 否 | 残疾等级 |
+| ApplyTimeStart | datetime | 否 | 申请时间开始 |
+| ApplyTimeEnd | datetime | 否 | 申请时间结束 |
 
 
 > #### _应答数据_
