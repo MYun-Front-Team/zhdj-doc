@@ -1,8 +1,8 @@
-# 获取申请列表
+# 获取评估列表
 
 _**【接口地址】**_
 
-http://ip:port/FJQuery/Adaption/GetApplyList
+http://ip:port/FJQuery/Adaption/GetAssessList
 
 > #### _请求数据_
 
@@ -13,21 +13,25 @@ http://ip:port/FJQuery/Adaption/GetApplyList
 | IDNo | string | 否 | 身份证号 |
 | DisabledNo | string | 否 | 残疾人证号 |
 | AreaCode | string | 否 | 区域编号 |
-| ApplyStatusList | array int | 否 | 1待评估，2待村社区审核，3待乡镇街道审批，4待区县审批，5待市级审批，6待省级审批，10已完成，11已退回 |
-| ApplyTimeStart | datetime | 否 | 申请时间开始 |
-| ApplyTimeEnd | datetime | 否 | 申请时间结束 |
+| AssessStatusList | array int | 否 | 1待评估，10已评估，11已作废 |
+| AssessTimeStart | datetime | 否 | 评估时间开始 |
+| AssessTimeEnd | datetime | 否 | 评估时间结束 |
 
 
 > #### _应答数据_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| AssessSysNo | int | 是 | 评估id |
+| AssessCode | string | 是 | 评估编号 |
+| AssessTime | datetime | 是 | 评估时间 |
+| AssessPersonSysNo | int | 是 | 评估人编码 |
+| AssessPerson | string | 是 | 评估人 |
 | ApplySysNo | int | 是 | 申请id |
 | ApplyCode | string | 是 | 申请编号 |
-| ApplyTime | datetime | 是 | 申请时间 |
 | ApplyPersonSysNo | int | 是 | 申请人编码 |
 | ApplyPerson | string | 是 | 申请人 |
-| ApplyStatus | int | 是 | 1待评估，2待村社区审核，3待乡镇街道审批，4待区县审批，5待市级审批，6待省级审批，10已完成，11已退回 |
+| AssessStatus | int | 是 | 1待评估，10已评估，11已作废 |
 | PersonSysNo | int | 是 | 人员id |
 | AdminSysNo | int | 是 | 用户id |
 | Name | string | 是 | 姓名 |
@@ -58,8 +62,6 @@ http://ip:port/FJQuery/Adaption/GetApplyList
 | AssistantTypeName | string | 是 | 申请辅助器具类别 |
 | ApplyRemark | string | 是 | 申请辅助器具说明 |
 | SubsidyTypeList | array SubsidyType | 是 | 符合补贴人群类别列表 |
-| HandleLogList | array Handlelog | 是 | 处理流程列表 |
-| WaitHandleList | array WaitHandle | 是 | 待处理信息列表 |
 
 SubsidyType
 
@@ -69,25 +71,7 @@ SubsidyType
 | SubsidyTypeName | string | 是 | 补贴名称 |
 | Ratio | decimal | 是 | 补贴比例 |
 
-HandleLog
 
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| ApplySysNo | int | 是 | 申请id |
-| HandleType | int | 是 | 1评估，2村社区审核，3乡镇街道审批，4区县审批，5市级审批，6省级审批 |
-| HandleResult | int | 是 | 10通过(或已评估)，11拒绝 |
-| HandleTime | datetime | 是 | 处理时间 |
-| HandlePersonSysNo | int | 是 | 操作人id |
-| HandlePersonName | string | 是 | 操作人 |
-| HandleRemark | string | 是 | 处理意见 |
-| AssessmentSysNo | int | 是 | 评估id |
-| ReportSysNo | int | 是 | 报告书id |
 
-WaitHandle
 
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
-| HandleType | int | 是 | 1评估，2村社区审核，3乡镇街道审批，4区县审批，5市级审批，6省级审批 |
-| HandlePersonSysNo | int | 是 | 处未理人id |
-| HandlePersonName | string | 是 | 未处理人 |
 
