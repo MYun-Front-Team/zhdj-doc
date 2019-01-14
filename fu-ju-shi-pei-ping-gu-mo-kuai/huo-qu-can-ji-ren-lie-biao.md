@@ -1,10 +1,10 @@
-# 获取残疾人列表 {#获取河长巡河记录}
+# 获取残疾人列表
 
 _**【接口地址】**_
 
 http://ip:port/FJQuery/Adaption/GetDisabledPersonList
 
-> #### _请求数据_ {#请求数据}
+> #### _请求数据_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -17,8 +17,7 @@ http://ip:port/FJQuery/Adaption/GetDisabledPersonList
 | DisabledLevel | int | 否 | 残疾等级 |
 
 
-
-> #### _应答数据_ {#应答数据}
+> #### _应答数据_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
