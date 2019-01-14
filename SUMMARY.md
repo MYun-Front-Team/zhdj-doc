@@ -1168,8 +1168,8 @@
   * [获取申请详情](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-shen-qing-xiang-qing.md)
   * [获取评估列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-ping-gu-lie-biao.md)
   * [获取评估详情](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-ping-gu-xiang-qing.md)
-  * 获取报告书列表
-  * 获取报告单详情
+  * [获取报告书列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-bao-gao-shu-lie-biao.md)
+  * [获取报告单详情](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-bao-gao-dan-xiang-qing.md)
   * [获取补贴类目列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-bu-tie-lei-mu-lie-biao.md)
   * [获取补贴类目详情](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-bu-tie-lei-mu-xiang-qing.md)
   * [新增类目](fu-ju-shi-pei-ping-gu-mo-kuai/xin-zeng-lei-mu.md)
