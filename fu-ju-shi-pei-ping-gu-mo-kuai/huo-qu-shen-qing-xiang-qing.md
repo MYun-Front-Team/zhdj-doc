@@ -1,8 +1,8 @@
-# 获取申请列表
+# 获取申请详情
 
 _**【接口地址】**_
 
-http://ip:port/FJQuery/Adaption/GetApplyList
+http://ip:port/FJQuery/Adaption/GetApplyBySysNo
 
 > #### _请求数据_
 
