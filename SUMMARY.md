@@ -1177,4 +1177,7 @@
   * [删除类目](fu-ju-shi-pei-ping-gu-mo-kuai/shan-chu-lei-mu.md)
   * [获取补贴比例列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-bu-tie-bi-li-lie-biao.md)
   * [获取补贴比例详情](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-bu-tie-bi-li-xiang-qing.md)
+  * 新增补贴比例
+  * 修改补贴比例
+  * 删除补贴比例
 
