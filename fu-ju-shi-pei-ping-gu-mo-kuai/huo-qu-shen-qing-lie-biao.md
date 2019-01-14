@@ -68,3 +68,25 @@ SubsidyType
 | SubsidyTypeName | string | 是 | 补贴名称 |
 | Ratio | decimal | 是 | 补贴比例 |
 
+HandleLog
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ApplySysNo | int | 是 | 申请id |
+| HandleType | int | 是 | 1评估，2村社区审核，3乡镇街道审批，4区县审批，5市级审批，6省级审批 |
+| HandleResult | int | 是 | 10通过(或已评估)，11拒绝 |
+| HandleTime | datetime | 是 | 处理时间 |
+| HandlePersonSysNo | int | 是 | 操作人id |
+| HandlePersonName | string | 是 | 操作人 |
+| HandleRemark | string | 是 | 处理意见 |
+| AssessmentSysNo | int | 是 | 评估id |
+| ReportSysNo | int | 是 | 报告书id |
+
+WaitHandle
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| HandleType | int | 是 | 1评估，2村社区审核，3乡镇街道审批，4区县审批，5市级审批，6省级审批 |
+| HandlePersonSysNo | int | 是 | 处未理人id |
+| HandlePersonName | string | 是 | 未处理人 |
+
