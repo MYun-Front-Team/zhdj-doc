@@ -9,6 +9,9 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | Keyword | string | 否 | 关键字 |
+| Name | string | 否 | 姓名 |
+| IDNo | string | 否 | 身份证号 |
+| DisabledNo | string | 否 | 残疾人证号 |
 | AreaCode | string | 否 | 区域编号 |
 | DisabledType | int | 否 | 残疾类型 |
 | DisabledLevel | int | 否 | 残疾等级 |
@@ -28,7 +31,7 @@ _**【接口地址】**_
 | Age | int | 是 | 年龄 |
 | CellPhoneNo | string | 是 | 手机 |
 | IDNo | string | 是 | 身份证号 |
-| DisabledNo | string | 是 | 残疾人证 |
+| DisabledNo | string | 是 | 残疾人证号 |
 | DisabledType | int | 是 | 残疾类型 |
 | DisabledLevel | int | 是 | 残疾等级 |
 | AreaCode | string | 是 | 区域编号 |
