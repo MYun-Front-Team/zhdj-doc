@@ -53,6 +53,14 @@ http://ip:port/FJQuery/Adaption/GetApplyList
 | Address | string | 是 | 具体地址 |
 | Postalcode | string | 是 | 邮政编码 |
 | Email | string | 是 | 电子邮件 |
+| AssistantType | int | 是 | 申请辅助器具类别id |
+| AssistantTypeName | string | 是 | 申请辅助器具类别 |
+| ApplyRemark | string | 是 | 申请辅助器具说明 |
+
+
+
+
+
 
 
 
