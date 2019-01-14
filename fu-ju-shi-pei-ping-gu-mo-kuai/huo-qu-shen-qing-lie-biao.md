@@ -56,11 +56,15 @@ http://ip:port/FJQuery/Adaption/GetApplyList
 | AssistantType | int | 是 | 申请辅助器具类别id |
 | AssistantTypeName | string | 是 | 申请辅助器具类别 |
 | ApplyRemark | string | 是 | 申请辅助器具说明 |
+| SubsidyTypeList | array SubsidyType | 是 | 符合补贴人群类别列表 |
+| HandleLogList | array Handlelog | 是 | 处理流程列表 |
+| WaitHandleList | array WaitHandle | 是 | 待处理信息列表 |
 
+SubsidyType
 
-
-
-
-
-
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| SubsidyTypeSysNo | int | 是 | 补贴id |
+| SubsidyTypeName | string | 是 | 补贴名称 |
+| Ratio | decimal | 是 | 补贴比例 |
 
