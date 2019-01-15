@@ -58,3 +58,4 @@ http://ip:port/RecruitQuery/Settlement/GetSettlementList
 | EmployeeCheck| int| 是 |员工核对0初始，1部分，10全部|
 | MoneyBack| int| 是 |回款状态（0初始10正常回款11异常回款）|
 | FinishStatus| int| 是 |是否发薪水(0初始，10已发)|
+| MoneyBackRemark| string| 是 |实收金额备注|
