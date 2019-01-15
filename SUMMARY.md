@@ -2378,4 +2378,5 @@
   * [修改补贴比例](fu-ju-shi-pei-ping-gu-mo-kuai/xiu-gai-bu-tie-bi-li.md)
   * [删除补贴比例](fu-ju-shi-pei-ping-gu-mo-kuai/shan-chu-bu-tie-bi-li.md)
   * [残疾人注册](fu-ju-shi-pei-ping-gu-mo-kuai/can-ji-ren-zhu-ce.md)
+  * [新增服务人员](fu-ju-shi-pei-ping-gu-mo-kuai/xin-zeng-fu-wu-ren-yuan.md)
 
