@@ -2406,4 +2406,5 @@
   * 注销岗位
   * [编辑残疾人](fu-ju-shi-pei-ping-gu-mo-kuai/bian-ji-can-ji-ren.md)
   * [注销残疾人](fu-ju-shi-pei-ping-gu-mo-kuai/zhu-xiao-can-ji-ren.md)
+  * [申请辅具](fu-ju-shi-pei-ping-gu-mo-kuai/shen-qing-fu-ju.md)
 
