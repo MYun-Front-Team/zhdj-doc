@@ -2392,4 +2392,10 @@
   * [删除管理员](fu-ju-shi-pei-ping-gu-mo-kuai/shan-chu-guan-li-yuan.md)
   * [获取管理员列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-guan-li-yuan-lie-biao.md)
   * [获取管理员详情](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-guan-li-yuan-xiang-qing.md)
+  * 获取部门列表
+  * 获取部门详情
+  * 新增部门
+  * 编辑部门
+  * 删除部门
+  * 注销部门
 
