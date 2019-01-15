@@ -8,6 +8,7 @@ http://ip:port/FJAction/Adaption/EditServicePerson
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| PersonSysNo | int | 是 | 人员id |
 | LoginId | string | 是 | 登录账号 |
 | PersonName | string | 是 | 用户姓名 |
 | CellPhoneNo | string | 否 | 手机号 |
