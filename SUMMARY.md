@@ -1098,6 +1098,7 @@
     * [员工核对](zhao-pin-mo-kuai/yuan-gong-he-dui.md)
     * [编辑实收金额](zhao-pin-mo-kuai/bian-ji-shi-shou-jin-e.md)
     * [平台退回](zhao-pin-mo-kuai/ping-tai-tui-hui.md)
+    * [薪资发放](zhao-pin-mo-kuai/xin-zi-fa-fang.md)
 * [设备模块](she-bei-mo-kuai.md)
   * [获取设备列表](she-bei-mo-kuai/huo-qu-she-bei-lie-biao.md)
   * [获取设备详情](she-bei-mo-kuai/huo-qu-she-bei-xiang-qing.md)
