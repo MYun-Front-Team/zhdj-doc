@@ -2390,6 +2390,6 @@
   * [新增管理员](fu-ju-shi-pei-ping-gu-mo-kuai/xin-zeng-guan-li-yuan.md)
   * [修改管理员](fu-ju-shi-pei-ping-gu-mo-kuai/xiu-gai-guan-li-yuan.md)
   * [删除管理员](fu-ju-shi-pei-ping-gu-mo-kuai/shan-chu-guan-li-yuan.md)
-  * 获取管理员列表
-  * 获取管理员详情
+  * [获取管理员列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-guan-li-yuan-lie-biao.md)
+  * [获取管理员详情](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-guan-li-yuan-xiang-qing.md)
 

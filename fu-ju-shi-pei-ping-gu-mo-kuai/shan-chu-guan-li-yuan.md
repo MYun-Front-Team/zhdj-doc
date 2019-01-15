@@ -2,7 +2,7 @@
 
 _**【接口地址】**_
 
-http://ip:port/FJAction/Adaption/EditAdminPerson
+http://ip:port/FJAction/Adaption/DelAdminPerson
 
 > #### _请求数据_
 
