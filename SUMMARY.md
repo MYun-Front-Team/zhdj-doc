@@ -1090,7 +1090,7 @@
   * 项目结算
     * [获取项目结算列表](zhao-pin-mo-kuai/huo-qu-xiang-mu-jie-suan-lie-biao.md)
     * [获取项目结算列表详情](zhao-pin-mo-kuai/huo-qu-xiang-mu-jie-suan-lie-biao-xiang-qing.md)
-    * 获取项目结算人员列表
+    * [获取项目结算人员列表](zhao-pin-mo-kuai/huo-qu-xiang-mu-jie-suan-ren-yuan-lie-biao.md)
 * [设备模块](she-bei-mo-kuai.md)
   * [获取设备列表](she-bei-mo-kuai/huo-qu-she-bei-lie-biao.md)
   * [获取设备详情](she-bei-mo-kuai/huo-qu-she-bei-xiang-qing.md)
