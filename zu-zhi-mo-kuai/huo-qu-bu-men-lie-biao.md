@@ -16,7 +16,7 @@ http://ip:port/OrganizationQuery/Department/GetDepartmentList
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-
+| FatherDepartmentSysNo| int| 否 | 父亲部门编号 |
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 
@@ -25,6 +25,7 @@ http://ip:port/OrganizationQuery/Department/GetDepartmentList
 | DepartmentSysNo| int| 是 | 部门编号 |
 | DepartmentName| string| 否 | 部门名称 |
 | DepartmentTel| string| 否 | 部门电话 |
+| FatherDepartmentSysNo| int| 是 | 父亲部门编号 |
 
 
 
