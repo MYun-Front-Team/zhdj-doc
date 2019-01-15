@@ -58,3 +58,5 @@ http://ip:port/RecruitQuery/Settlement/GetSettlementItemList
 | BankName| string  | 是 | 银行名称 |
 | BankBranchName| string  | 是 | 支行名称 |
 | IDCard| string  | 是 | 身份证号 |
+| CheckCount| int | 是 |用户核对次数|
+| PlatformAdjustCount| int | 是 |平台校对次数|

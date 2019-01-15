@@ -19,7 +19,7 @@ http://ip:port/RecruitQuery/Settlement/GetSettlementList
 | StartSettlementDate|datetime | 否 | 开始考勤月份 |
 | EndSettlementDate|datetime |否 | 结束考勤月份 |
 | OrganizationSysNo| int | 否 |所有者组织系统编码|
-| SellerName| string| 否 |商家名称|
+| SellerKeyWord| string| 否 |商家名称|
 | TotalStatusList|array[int] | 否 | 状态（0草稿，1已提交，2考勤已发放（待员工核对）， 3部分员工核对，4全部员工核对（待回款），5已回款，11平台退回，12员工退回，10已发薪水） |
 | SubmitStatusList| array[int] | 否 |提交状态（0初始，10已提交）|
 | SendStatusList| array[int] | 否|是否考勤发放（0初始，10已发放）|
@@ -40,6 +40,8 @@ http://ip:port/RecruitQuery/Settlement/GetSettlementList
 | SettlementDate| datetime| 是 | 考勤月份 |
 | OrganizationSysNo| int | 是 |所有者组织系统编码|
 | SellerName| string| 是 |商家名称|
+| SellerShortName| string| 是 |商家简称|
+| ContractCode| string| 是 |商家合同号|
 | SellerBossCellPhoneNo| int| 是 |商家老板手机号|
 | ShopCount| int | 是 | 门店数 |
 | WorkHour| int | 是 |工作小时数合计 |

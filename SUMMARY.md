@@ -1096,6 +1096,8 @@
     * [提交考勤表](zhao-pin-mo-kuai/ti-jiao-kao-qin-biao.md)
     * [发送考勤表](zhao-pin-mo-kuai/fa-song-kao-qin-biao.md)
     * [员工核对](zhao-pin-mo-kuai/yuan-gong-he-dui.md)
+    * [编辑实收金额](zhao-pin-mo-kuai/bian-ji-shi-shou-jin-e.md)
+    * [平台退回](zhao-pin-mo-kuai/ping-tai-tui-hui.md)
 * [设备模块](she-bei-mo-kuai.md)
   * [获取设备列表](she-bei-mo-kuai/huo-qu-she-bei-lie-biao.md)
   * [获取设备详情](she-bei-mo-kuai/huo-qu-she-bei-xiang-qing.md)
