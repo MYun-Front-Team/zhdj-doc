@@ -1,15 +1,14 @@
-# 新增服务人员
+# 编辑服务人员
 
 _**【接口地址】**_
 
-http://ip:port/FJAction/Adaption/AddServicePerson
+http://ip:port/FJAction/Adaption/EditServicePerson
 
 > #### _请求数据_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | LoginId | string | 是 | 登录账号 |
-| LoginPwd | string | 是 | 登录密码 |
 | PersonName | string | 是 | 用户姓名 |
 | CellPhoneNo | string | 否 | 手机号 |
 | UserGender | int | 否 | 1男，2女 |
@@ -22,7 +21,7 @@ http://ip:port/FJAction/Adaption/AddServicePerson
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| Body | int | 是 | 人员id |
+
 
 
 
