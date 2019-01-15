@@ -2395,7 +2395,14 @@
   * 获取部门列表
   * 获取部门详情
   * 新增部门
-  * 编辑部门
+  * [编辑部门](fu-ju-shi-pei-ping-gu-mo-kuai/bian-ji-bu-men.md)
   * 删除部门
   * 注销部门
+  * 获取岗位列表
+  * 获取岗位详情
+  * 新增岗位
+  * 编辑岗位
+  * 删除岗位
+  * 注销岗位
+  * [编辑残疾人](fu-ju-shi-pei-ping-gu-mo-kuai/bian-ji-can-ji-ren.md)
 
