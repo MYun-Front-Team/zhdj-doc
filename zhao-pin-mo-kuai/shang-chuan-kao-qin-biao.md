@@ -24,13 +24,13 @@ http://ip:port/RecruitAction/Settlement/AddSettlement
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| SettlementDate| string| 是 | 考勤月份(2019-01-01) |
 | OrganizationSysNo| int | 是 |所有者组织系统编码|
 
 #### SettlementItemAdd
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| SettlementDate| string| 是 | 考勤月份(2019-01-01) |
 | RealName| string| 是 | 人员名称|
 | CellPhoneNo| string| 是 | 手机号|
 | OrganizationSysNo| int | 是 | 组织系统编码 |
