@@ -45,3 +45,9 @@ http://ip:port/RecruitQuery/Settlement/GetSettlementItemBySysNo
 | EmployeeBackStatus| int | 是 |员工退回（0初始，10已退回）|
 | PlatformBackStatus| int | 是 |是否平台退回（0初始，10已退回）|
 | FinishStatus| int | 是 |是否发薪水(0初始，10已发)|
+| DownSalary| decimal | 是 |下发薪水 |
+| CardNo| string  | 是 | 银行卡号 |
+| BankSysNo| int | 是 | 银行编码 |
+| BankName| string  | 是 | 银行名称 |
+| BankBranchName| string  | 是 | 支行名称 |
+| IDCard| string  | 是 | 身份证号 |
