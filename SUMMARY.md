@@ -2380,4 +2380,5 @@
   * [残疾人注册](fu-ju-shi-pei-ping-gu-mo-kuai/can-ji-ren-zhu-ce.md)
   * [新增服务人员](fu-ju-shi-pei-ping-gu-mo-kuai/xin-zeng-fu-wu-ren-yuan.md)
   * [修改服务人员](fu-ju-shi-pei-ping-gu-mo-kuai/xiu-gai-fu-wu-ren-yuan.md)
+  * [获取服务人员列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-fu-wu-ren-yuan-lie-biao.md)
 
