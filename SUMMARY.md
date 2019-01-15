@@ -2388,7 +2388,7 @@
   * [获取服务人员详情](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-fu-wu-ren-yuan-xiang-qing.md)
   * [删除服务人员](fu-ju-shi-pei-ping-gu-mo-kuai/shan-chu-fu-wu-ren-yuan.md)
   * [新增管理员](fu-ju-shi-pei-ping-gu-mo-kuai/xin-zeng-guan-li-yuan.md)
-  * 修改管理员
+  * [修改管理员](fu-ju-shi-pei-ping-gu-mo-kuai/xiu-gai-guan-li-yuan.md)
   * 删除管理员
   * 获取管理员列表
   * 获取管理员详情
