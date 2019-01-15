@@ -1184,4 +1184,5 @@
   * [新增补贴比例](fu-ju-shi-pei-ping-gu-mo-kuai/xin-zeng-bu-tie-bi-li.md)
   * [修改补贴比例](fu-ju-shi-pei-ping-gu-mo-kuai/xiu-gai-bu-tie-bi-li.md)
   * [删除补贴比例](fu-ju-shi-pei-ping-gu-mo-kuai/shan-chu-bu-tie-bi-li.md)
+  * 残疾人注册
 
