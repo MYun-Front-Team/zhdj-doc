@@ -40,6 +40,7 @@ http://ip:port/RecruitQuery/Settlement/GetSettlementList
 | SettlementDate| datetime| 是 | 考勤月份 |
 | OrganizationSysNo| int | 是 |所有者组织系统编码|
 | SellerName| string| 是 |商家名称|
+| SellerBossCellPhoneNo| int| 是 |商家老板手机号|
 | ShopCount| int | 是 | 门店数 |
 | WorkHour| int | 是 |工作小时数合计 |
 | OvertimeHour| int | 是 | 固定加班小时数|
