@@ -1093,6 +1093,8 @@
     * [获取项目结算人员列表](zhao-pin-mo-kuai/huo-qu-xiang-mu-jie-suan-ren-yuan-lie-biao.md)
     * [获取结算人员详情](zhao-pin-mo-kuai/huo-qu-jie-suan-ren-yuan-xiang-qing.md)
     * [上传考勤表](zhao-pin-mo-kuai/shang-chuan-kao-qin-biao.md)
+    * [提交考勤表](zhao-pin-mo-kuai/ti-jiao-kao-qin-biao.md)
+    * [发送考勤表](zhao-pin-mo-kuai/fa-song-kao-qin-biao.md)
 * [设备模块](she-bei-mo-kuai.md)
   * [获取设备列表](she-bei-mo-kuai/huo-qu-she-bei-lie-biao.md)
   * [获取设备详情](she-bei-mo-kuai/huo-qu-she-bei-xiang-qing.md)

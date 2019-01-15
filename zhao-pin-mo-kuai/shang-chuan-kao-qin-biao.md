@@ -42,5 +42,9 @@ http://ip:port/RecruitAction/Settlement/AddSettlement
 | QuitDate| datetime| 是 |离职时间 |
 
 
+#### 返回数据
 
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| | | 是 |项目表系统编码 |
 
