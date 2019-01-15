@@ -1,29 +1,22 @@
-# 获取项目结算人员列表
+# 获取结算人员详情
 ##### _【功能说明】_ {#【功能说明】}
 
-获取项目结算人员列表
+获取结算人员详情
 
 _**【应用场景】**_
 
-获取项目结算人员列表
+获取结算人员详情
 
 _**【接口地址】**_
 
-http://ip:port/RecruitQuery/Settlement/GetSettlementItemList
+http://ip:port/RecruitQuery/Settlement/GetSettlementItemBySysNo
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| StartSettlementDate|datetime | 否 | 开始考勤月份 |
-| PersonKeyWord| string| 是 | 人员关键字|
-| ShopName| string| 是 |店铺名称 |
-| ItemStatusList|array[int] | 是 |人员核对状态（0初始，1已核对，10已发薪水，11平台退回，12员工退回） |
-| EmployeeCheckList| array[int] | 是 |员工核对0初始，10核对|
-| EmployeeBackStatusList| array[int]| 是 |员工退回（0初始，10已退回）|
-| PlatformBackStatusList| array[int]| 是 |是否平台退回（0初始，10已退回）|
-| FinishStatusList| array[int] | 是 |是否发薪水(0初始，10已发)|
-| SettlementSysNo | int | 是 | 项目结算系统编码 |
+| SettlementItemSysNo | int | 是 | 项目结算人员系统编码 |
+
 
 
 
