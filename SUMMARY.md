@@ -2395,12 +2395,12 @@
   * [删除管理员](fu-ju-shi-pei-ping-gu-mo-kuai/shan-chu-guan-li-yuan.md)
   * [获取管理员列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-guan-li-yuan-lie-biao.md)
   * [获取管理员详情](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-guan-li-yuan-xiang-qing.md)
-  * 获取部门列表
-  * 获取部门详情
-  * 新增部门
+  * [获取部门列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-bu-men-lie-biao.md)
+  * [获取部门详情](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-bu-men-xiang-qing.md)
+  * [新增部门](fu-ju-shi-pei-ping-gu-mo-kuai/xin-zeng-bu-men.md)
   * [编辑部门](fu-ju-shi-pei-ping-gu-mo-kuai/bian-ji-bu-men.md)
-  * 删除部门
-  * 注销部门
+  * [删除部门](fu-ju-shi-pei-ping-gu-mo-kuai/shan-chu-bu-men.md)
+  * [注销部门](fu-ju-shi-pei-ping-gu-mo-kuai/zhu-xiao-bu-men.md)
   * [获取岗位列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-gang-wei-lie-biao.md)
   * 获取岗位详情
   * 新增岗位
