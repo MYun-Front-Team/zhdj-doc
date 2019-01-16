@@ -45,7 +45,7 @@ http://ip:port/OrderQuery/LJOrder/GetLJChangeOrderList
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrderSysNo | int | 否 | 买家人员系统编码 |
+| OrderSysNo | int | 否 | 系统编码 |
 | OrganizationFromSysNo | int | 是 | 卖家组织系统编码 |
 | DataRangeSysNo | int | 是 | 数据范围树编码（店铺树） |
 | OrganizationToSysNo | int | 是 | 买家组织系统编码 |
