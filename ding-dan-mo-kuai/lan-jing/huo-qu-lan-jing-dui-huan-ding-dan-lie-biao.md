@@ -21,7 +21,7 @@ http://ip:port/OrderQuery/LJOrder/GetLJChangeOrderList
 | DataRangeSysNo | int | 否 | 数据范围树编码（店铺树） |
 | OrganizationToSysNo | int |否 | 买家组织系统编码 |
 | PersonSysNo | int | 否 | 买家人员系统编码 |
-| DeliveryStatusList|array[int] | 否 |结算状态（10已结算，0待结算）|
+| DeliveryStatusList|array[int] | 否 |发货状态（10已发货，0待发货）|
 | OrderStartTime | string | 否 | 开始时间（订单创建时间） |
 | OrderEndTime | string | 否 | 结束时间（订单创建时间） |
 
