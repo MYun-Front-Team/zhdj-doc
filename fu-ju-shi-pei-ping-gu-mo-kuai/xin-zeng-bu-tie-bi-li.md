@@ -8,7 +8,6 @@ http://ip:port/FJAction/Adaption/AddSubsidyType
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| SubsidyTypeSysNo | int | 是 | 补贴比例id |
 | AreaCode | string | 是 | 区域编号 |
 | AreaName | string | 是 | 区域名称 |
 | SubsidyTypeName | string | 是 | 补贴人群类别 |
