@@ -24,6 +24,7 @@ http://ip:port/ProductQuery/LJProductGroup/GetLJProductGroupList
 | TagSysNoList | array int | 否 | 标签系统编码列表 |
 | BrandSysNoList| array int | 否 | 品牌系统编码列表 |
 | StartSaleDate| datetime| 是 | 开卖时间|
+| ShopShowSourceList|array[int] | 否 |展示来源（0普通，1蓝晶兑换） |
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
@@ -53,6 +54,8 @@ http://ip:port/ProductQuery/LJProductGroup/GetLJProductGroupList
 | FileUrlList | array string | 否 | 买手头像图片列表 |
 | StartSaleDate| datetime| 是 | 开卖时间|
 | IsOnSale| int| 是 | 是否在售|
+| ShopShowSourceList|array[int] | 否 |展示来源（0普通，1蓝晶兑换） |
+
 
 #### Sku {#应答数据-（巡河记录数组）}
 
@@ -86,6 +89,9 @@ http://ip:port/ProductQuery/LJProductGroup/GetLJProductGroupList
 | RewardMP| decimal| 否 | 奖励魔力|
 | CouponPrice| decimal | 否 | 优惠券金额 |
 | ReturnPrice | decimal| 否 | 返还金额 |
+| LJPrice | decimal\(18,2\) | 否 | 蓝晶价 |
+
+
 
 
 

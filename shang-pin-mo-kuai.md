@@ -102,6 +102,8 @@
 | OneBuyCutPrice | decimal\(18,2\) | 否 | 一元购必砍价 |
 | CouponPrice| decimal\(18,2\) | 否 | 优惠券金额 |
 | ReturnPrice | decimal\(18,2\) | 否 | 返还金额 |
+| LJPrice | decimal\(18,2\) | 否 | 蓝晶价 |
+
 
 > #### SKU基础字段 {#请求数据}
 >
