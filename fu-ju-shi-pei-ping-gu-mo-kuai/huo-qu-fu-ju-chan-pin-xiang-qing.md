@@ -18,7 +18,7 @@ http://ip:port/FJQuery/Adaption/GetAssistantBySysNo
 | AssistantCode | string | 是 | 产品编码 |
 | AssistantName | string | 是 | 产品名称 
 | AssistantType | string | 是 | 型号 |
-| SupplierSysNo | int | 否 | 供应商id |
+| SupplierSysNo | int | 是 | 供应商id |
 | Supplier | string | 是 | 供应商 |
 | BrandSysNo | int | 是 | 品牌id |
 | Brand | string | 是 | 品牌 |

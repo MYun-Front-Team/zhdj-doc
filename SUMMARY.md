@@ -2416,7 +2416,7 @@
   * 形成报告书
   * [获取辅具产品列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-fu-ju-chan-pin-lie-biao.md)
   * [获取辅具产品详情](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-fu-ju-chan-pin-xiang-qing.md)
-  * 新增辅具产品
-  * 编辑辅具产品
-  * 删除辅具产品
+  * [新增辅具产品](fu-ju-shi-pei-ping-gu-mo-kuai/xin-zeng-fu-ju-chan-pin.md)
+  * [编辑辅具产品](fu-ju-shi-pei-ping-gu-mo-kuai/bian-ji-fu-ju-chan-pin.md)
+  * [删除辅具产品](fu-ju-shi-pei-ping-gu-mo-kuai/shan-chu-fu-ju-chan-pin.md)
 
