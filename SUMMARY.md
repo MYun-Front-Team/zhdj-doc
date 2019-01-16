@@ -2401,7 +2401,7 @@
   * [编辑部门](fu-ju-shi-pei-ping-gu-mo-kuai/bian-ji-bu-men.md)
   * 删除部门
   * 注销部门
-  * 获取岗位列表
+  * [获取岗位列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-gang-wei-lie-biao.md)
   * 获取岗位详情
   * 新增岗位
   * 编辑岗位
@@ -2414,6 +2414,6 @@
   * [适配评估](fu-ju-shi-pei-ping-gu-mo-kuai/shi-pei-ping-gu.md)
   * 下一组问题
   * 形成报告书
-  * 获取辅具产品列表
+  * [获取辅具产品列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-fu-ju-chan-pin-lie-biao.md)
   * 获取辅具产品详情
 
