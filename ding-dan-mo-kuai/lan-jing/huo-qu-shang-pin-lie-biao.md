@@ -55,6 +55,8 @@ http://ip:port/ProductQuery/LJProductGroup/GetLJProductGroupList
 | StartSaleDate| datetime| 是 | 开卖时间|
 | IsOnSale| int| 是 | 是否在售|
 | ShopShowSourceList|array[int] | 否 |展示来源（0普通，1蓝晶兑换） |
+| SourceCPSSysNo | int | 是 | 来源三方CPS |
+| SourceCPSCode | string | 是 | 来源跳转三方编码 |
 
 
 #### Sku {#应答数据-（巡河记录数组）}
