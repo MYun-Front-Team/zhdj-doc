@@ -2425,4 +2425,10 @@
   * [编辑品牌](fu-ju-shi-pei-ping-gu-mo-kuai/bian-ji-pin-pai.md)
   * [删除品牌](fu-ju-shi-pei-ping-gu-mo-kuai/shan-chu-pin-pai.md)
   * [注销品牌](fu-ju-shi-pei-ping-gu-mo-kuai/zhu-xiao-pin-pai.md)
+  * [获取供应商列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-gong-ying-shang-lie-biao.md)
+  * [获取供应商详情](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-gong-ying-shang-xiang-qing.md)
+  * [新增供应商](fu-ju-shi-pei-ping-gu-mo-kuai/xin-zeng-gong-ying-shang.md)
+  * [编辑供应商](fu-ju-shi-pei-ping-gu-mo-kuai/bian-ji-gong-ying-shang.md)
+  * [删除供应商](fu-ju-shi-pei-ping-gu-mo-kuai/shan-chu-gong-ying-shang.md)
+  * [注销供应商](fu-ju-shi-pei-ping-gu-mo-kuai/zhu-xiao-gong-ying-shang.md)
 

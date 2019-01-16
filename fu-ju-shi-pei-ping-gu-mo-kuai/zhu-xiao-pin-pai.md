@@ -2,7 +2,7 @@
 
 _**【接口地址】**_
 
-http://ip:port/FJQuery/Adaption/SetBrandEnable
+http://ip:port/FJAction/Adaption/SetBrandEnable
 
 > #### _请求数据_
 

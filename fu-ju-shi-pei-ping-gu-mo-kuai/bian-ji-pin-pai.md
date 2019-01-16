@@ -2,7 +2,7 @@
 
 _**【接口地址】**_
 
-http://ip:port/FJQuery/Adaption/EditBrand
+http://ip:port/FJAction/Adaption/EditBrand
 
 > #### _请求数据_
 
