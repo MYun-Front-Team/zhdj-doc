@@ -84,6 +84,9 @@
 | IsGroupByDefault| int | 否 | 多款聚合默认显示 |
 | GroupByOtherName| string| 否 | 多款聚合别名 |
 | HollowSortNo | int | 否 | 坑位排序 |
+| ShopShowSourceList|array[int] | 否 |展示来源（0普通，1蓝晶兑换） |
+
+
 
 
 > #### Price说明 {#请求数据}
@@ -184,6 +187,7 @@
 | SellerName | string | 是 | 商家名称 |
 | GroupByCode| string| 否 | 多款聚合款号 |
 | HollowSysNo | int | 是 | 坑位编码 |
+| ShopShowSourceList|array[int] | 否 |展示来源（0普通，1蓝晶兑换） |
 
 
 #### Spec {#应答数据-（巡河记录数组）}
