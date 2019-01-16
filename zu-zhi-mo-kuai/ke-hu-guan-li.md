@@ -77,6 +77,8 @@
 | EndCustomerBirthDay | string | 否 | 结束客户生日 |
 | CustomerPCDDescription | string | 否 | 客户省市区 |
 | IfHasCustomerPersonPhone | array[int]| 否 | 是否有电话（1有 0无）| 
+| StartCreateTime| string | 否 | 开始注册时间 |
+| EndCreateTime| string | 否 | 结束注册时间|
 
 
 
