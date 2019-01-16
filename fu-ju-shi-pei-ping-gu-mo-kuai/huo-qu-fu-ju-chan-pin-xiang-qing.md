@@ -1,18 +1,14 @@
-# 获取辅具产品列表
+# 获取辅具产品详情
 
 _**【接口地址】**_
 
-http://ip:port/FJQuery/Adaption/GetAssistantList
+http://ip:port/FJQuery/Adaption/GetAssistantBySysNo
 
 > #### _请求数据_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| Keyword | string | 否 | 关键字 |
-| CodeName | string | 否 | 编号名称 |
-| AssistantType | string | 否 | 型号 |
-| BrandSysNo | int | 否 | 品牌 |
-| ABList | string | 否 | AB目录 |
+| AssistantSysNo | int | 是 | 产品id |
 
 > #### _应答数据_
 
@@ -20,7 +16,7 @@ http://ip:port/FJQuery/Adaption/GetAssistantList
 | :--- | :--- | :--- | :--- |
 | AssistantSysNo | int | 是 | 产品id |
 | AssistantCode | string | 是 | 产品编码 |
-| AssistantName | string | 是 | 产品名称 |
+| AssistantName | string | 是 | 产品名称 
 | AssistantType | string | 是 | 型号 |
 | SupplierSysNo | int | 否 | 供应商id |
 | Supplier | string | 是 | 供应商 |
