@@ -2419,10 +2419,10 @@
   * [新增辅具产品](fu-ju-shi-pei-ping-gu-mo-kuai/xin-zeng-fu-ju-chan-pin.md)
   * [编辑辅具产品](fu-ju-shi-pei-ping-gu-mo-kuai/bian-ji-fu-ju-chan-pin.md)
   * [删除辅具产品](fu-ju-shi-pei-ping-gu-mo-kuai/shan-chu-fu-ju-chan-pin.md)
-  * 获取品牌列表
-  * 获取品牌详情
-  * 新增品牌
-  * 编辑品牌
-  * 删除品牌
-  * 注销品牌
+  * [获取品牌列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-pin-pai-lie-biao.md)
+  * [获取品牌详情](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-pin-pai-xiang-qing.md)
+  * [新增品牌](fu-ju-shi-pei-ping-gu-mo-kuai/xin-zeng-pin-pai.md)
+  * [编辑品牌](fu-ju-shi-pei-ping-gu-mo-kuai/bian-ji-pin-pai.md)
+  * [删除品牌](fu-ju-shi-pei-ping-gu-mo-kuai/shan-chu-pin-pai.md)
+  * [注销品牌](fu-ju-shi-pei-ping-gu-mo-kuai/zhu-xiao-pin-pai.md)
 
