@@ -35,6 +35,7 @@ _**【接口地址】**_
 | Department | object | 否 | 部门实体 |
 | Post | object | 否 | 岗位实体 |
 | User | object | 否 | 账户实体（见基本模块） |
+| IsDepartmentBoss | int | 否 | 是否部门领导|
 
 
 

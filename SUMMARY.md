@@ -414,6 +414,7 @@
   * [修改组织基本信息](zu-zhi-mo-kuai/xiu-gai-zu-zhi-ji-ben-xin-xi.md)
   * [获取部门列表](zu-zhi-mo-kuai/huo-qu-bu-men-lie-biao.md)
   * [根据数据范围结点，获取组织人员列表](gong-dan-mo-kuai/gen-ju-shu-ju-fan-wei-jie-dian-ff0c-huo-qu-zu-zhi-ren-yuan-lie-biao.md)
+  * [设置组织人员为部门负责人](zu-zhi-mo-kuai/she-zhi-zu-zhi-ren-yuan-wei-bu-men-fu-ze-ren.md)
   * [客户管理](zu-zhi-mo-kuai/ke-hu-guan-li.md)
     * [获取客户列表](zu-zhi-mo-kuai/ke-hu-guan-li/huo-qu-ke-hu-lie-biao.md)
     * [获取客户详情](zu-zhi-mo-kuai/ke-hu-guan-li/huo-qu-ke-hu-xiang-qing.md)
@@ -465,7 +466,7 @@
   * [新增部门](zu-zhi-mo-kuai/xin-zeng-bu-men.md)
   * [编辑部门](zu-zhi-mo-kuai/bian-ji-bu-men.md)
   * [删除部门](zu-zhi-mo-kuai/shan-chu-bu-men.md)
-  * [编辑人员部门](zu-zhi-mo-kuai/bian-ji-ren-yuan-bu-men.md)
+  * 设置组织人员为部门负责人
 * [店铺模块](dian-pu-mo-kuai.md)
   * [新增店铺](dian-pu-mo-kuai/xin-zeng-dian-pu.md)
   * [修改店铺](dian-pu-mo-kuai/xiu-gai-dian-pu.md)
