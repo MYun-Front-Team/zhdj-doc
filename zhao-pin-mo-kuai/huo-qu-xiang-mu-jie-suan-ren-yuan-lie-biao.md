@@ -16,6 +16,7 @@ http://ip:port/RecruitQuery/Settlement/GetSettlementItemList
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | StartSettlementDate|datetime | 否 | 开始考勤月份 |
+| EndSettlementDate|datetime | 否 | 开始考勤月份 |
 | PersonKeyWord| string| 是 | 人员关键字|
 | ShopName| string| 是 |店铺名称 |
 | ItemStatusList|array[int] | 是 |人员核对状态（0初始，1已核对，10已发薪水，11平台退回，12员工退回） |
