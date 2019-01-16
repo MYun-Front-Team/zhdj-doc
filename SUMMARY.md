@@ -2402,11 +2402,11 @@
   * [删除部门](fu-ju-shi-pei-ping-gu-mo-kuai/shan-chu-bu-men.md)
   * [注销部门](fu-ju-shi-pei-ping-gu-mo-kuai/zhu-xiao-bu-men.md)
   * [获取岗位列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-gang-wei-lie-biao.md)
-  * 获取岗位详情
-  * 新增岗位
-  * 编辑岗位
-  * 删除岗位
-  * 注销岗位
+  * [获取岗位详情](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-gang-wei-xiang-qing.md)
+  * [新增岗位](fu-ju-shi-pei-ping-gu-mo-kuai/xin-zeng-gang-wei.md)
+  * [编辑岗位](fu-ju-shi-pei-ping-gu-mo-kuai/bian-ji-gang-wei.md)
+  * [删除岗位](fu-ju-shi-pei-ping-gu-mo-kuai/shan-chu-gang-wei.md)
+  * [注销岗位](fu-ju-shi-pei-ping-gu-mo-kuai/zhu-xiao-gang-wei.md)
   * [编辑残疾人](fu-ju-shi-pei-ping-gu-mo-kuai/bian-ji-can-ji-ren.md)
   * [注销残疾人](fu-ju-shi-pei-ping-gu-mo-kuai/zhu-xiao-can-ji-ren.md)
   * [申请辅具](fu-ju-shi-pei-ping-gu-mo-kuai/shen-qing-fu-ju.md)

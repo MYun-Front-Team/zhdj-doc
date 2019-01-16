@@ -1,14 +1,14 @@
-# 获取岗位列表
+# 获取岗位详情
 
 _**【接口地址】**_
 
-http://ip:port/FJQuery/Adaption/GetPostList
+http://ip:port/FJQuery/Adaption/GetPostBySysNo
 
 > #### _请求数据_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| Name | string | 否 | 岗位名称 |
+| PostSysNo | int | 是 | 岗位id |
 
 > #### _应答数据_
 
