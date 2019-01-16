@@ -16,6 +16,8 @@ http://ip:port/FJQuery/Adaption/GetAssessList
 | AssessStatusList | array int | 否 | 1待评估，2评估中，10已评估，11已作废 |
 | AssessTimeStart | datetime | 否 | 评估时间开始 |
 | AssessTimeEnd | datetime | 否 | 评估时间结束 |
+| ApplyTimeStart | datetime | 否 | 申请时间开始 |
+| ApplyTimeEnd | datetime | 否 | 申请时间结束 |
 
 
 > #### _应答数据_
@@ -31,6 +33,7 @@ http://ip:port/FJQuery/Adaption/GetAssessList
 | ApplyCode | string | 是 | 申请编号 |
 | ApplyPersonSysNo | int | 是 | 申请人编码 |
 | ApplyPerson | string | 是 | 申请人 |
+| ApplyTime | datetime | 是 | 申请时间 |
 | AssessStatus | int | 是 | 1待评估，2评估中，10已评估，11已作废 |
 | PersonSysNo | int | 是 | 人员id |
 | AdminSysNo | int | 是 | 用户id |
