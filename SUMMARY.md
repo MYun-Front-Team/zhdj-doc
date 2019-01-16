@@ -621,8 +621,8 @@
     * [升级社长](ding-dan-mo-kuai/lan-jing/sheng-ji-she-chang.md)
     * [获取蓝晶每日转账限额](ding-dan-mo-kuai/lan-jing/huo-qu-lan-jing-mei-ri-zhuan-zhang-xian-e.md)
     * [获取用户列表](ding-dan-mo-kuai/lan-jing/huo-qu-yong-hu-lie-biao.md)
-    * 获取蓝晶兑换订单列表
-    * 获取蓝晶兑换订单详情
+    * [获取蓝晶兑换订单详情](ding-dan-mo-kuai/lan-jing/huo-qu-lan-jing-dui-huan-ding-dan-xiang-qing.md)
+    * [获取蓝晶兑换订单列表](ding-dan-mo-kuai/lan-jing/huo-qu-lan-jing-dui-huan-ding-dan-lie-biao.md)
   * [修改订单发货单信息](ding-dan-mo-kuai/xiu-gai-ding-dan-fa-huo-dan-xin-xi.md)
 * [交易模块](jiao-yi-mo-kuai.md)
   * [购物车管理](jiao-yi-mo-kuai/gou-wu-che-guan-li.md)
