@@ -16,7 +16,7 @@ http://ip:port/FJQuery/Adaption/GetApplyList
 | ApplyStatusList | array int | 否 | 1待评估，2待村社区审核，3待乡镇街道审批，4待区县审批，5待市级审批，6待省级审批，10已完成，11已退回 |
 | ApplyTimeStart | datetime | 否 | 申请时间开始 |
 | ApplyTimeEnd | datetime | 否 | 申请时间结束 |
-
+| AssistantType | int | 是 | 申请辅助器具类别id |
 
 > #### _应答数据_
 
