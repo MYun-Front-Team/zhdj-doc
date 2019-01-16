@@ -24,7 +24,7 @@ http://ip:port/FJQuery/Adaption/GetAssessBySysNo
 | ApplyCode | string | 是 | 申请编号 |
 | ApplyPersonSysNo | int | 是 | 申请人编码 |
 | ApplyPerson | string | 是 | 申请人 |
-| AssessStatus | int | 是 | 1待评估，10已评估，11已作废 |
+| AssessStatus | int | 是 | 1待评估，2评估中，10已评估，11已作废 |
 | PersonSysNo | int | 是 | 人员id |
 | AdminSysNo | int | 是 | 用户id |
 | Name | string | 是 | 姓名 |

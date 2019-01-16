@@ -13,7 +13,7 @@ http://ip:port/FJQuery/Adaption/GetAssessList
 | IDNo | string | 否 | 身份证号 |
 | DisabledNo | string | 否 | 残疾人证号 |
 | AreaCode | string | 否 | 区域编号 |
-| AssessStatusList | array int | 否 | 1待评估，10已评估，11已作废 |
+| AssessStatusList | array int | 否 | 1待评估，2评估中，10已评估，11已作废 |
 | AssessTimeStart | datetime | 否 | 评估时间开始 |
 | AssessTimeEnd | datetime | 否 | 评估时间结束 |
 
@@ -31,7 +31,7 @@ http://ip:port/FJQuery/Adaption/GetAssessList
 | ApplyCode | string | 是 | 申请编号 |
 | ApplyPersonSysNo | int | 是 | 申请人编码 |
 | ApplyPerson | string | 是 | 申请人 |
-| AssessStatus | int | 是 | 1待评估，10已评估，11已作废 |
+| AssessStatus | int | 是 | 1待评估，2评估中，10已评估，11已作废 |
 | PersonSysNo | int | 是 | 人员id |
 | AdminSysNo | int | 是 | 用户id |
 | Name | string | 是 | 姓名 |
