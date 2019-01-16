@@ -56,21 +56,26 @@ http://ip:port/FJQuery/Adaption/GetReportBySysNo
 | Summary | string | 是 | 辅具配置总结 |
 | Suggest | string | 是 | 评估意见 |
 | SelectAssistantSysNo | int | 是 | 选择辅具id |
-| RecommendList | array Recommend | 是 | 推荐辅具列表 |
+| FJList | array FJ | 是 | 推荐辅具列表 |
+| AssistantList | array Assistant | 是 | 推荐产品列表 |
 
-Recommend
+FJ
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| AssistantSysNo | int | 是 | 辅具id |
-| AssistantCode | string | 是 | 辅具编号 |
-| AssistantName | string | 是 | 辅具名称 |
+| FJSysNo | int | 是 | 辅具id |
+| ISO | string | 是 | ISO |
+| FJName | string | 是 | 辅具名称 |
+| IsMain | int | 是 | 1主件，0配件 |
+
+Assistant
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| AssistantSysNo | int | 是 | 产品id |
+| AssistantCode | string | 是 | 产品编号 |
+| AssistantName | string | 是 | 产品名称 |
 | BrandSysNo | int | 是 | 品牌id |
 | BrandName | string | 是 | 品牌名称 |
 | SupplierSysNo | int | 是 | 供应商id |
 | SupplierName | string | 是 | 供应商名称 |
-
-
-
-
-
