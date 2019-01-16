@@ -25,6 +25,10 @@ http://ip:port/FJAction/Adaption/AddServicePerson
 | Body | int | 是 | 人员id |
 
 
+LoginSource 1
+LoginType 4
+OrganizationType  17041
+
 
 
 

@@ -24,6 +24,13 @@ http://ip:port/FJAction/Adaption/AddAdminPerson
 | Body | int | 是 | 人员id |
 
 
+LoginSource 2
+LoginType 4
+OrganizationType  17042
+
+
+
+
 
 
 

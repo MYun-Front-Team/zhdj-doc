@@ -25,6 +25,9 @@ http://ip:port/FJAction/Adaption/AddDisabledPerson
 | :--- | :--- | :--- | :--- |
 | Body | int | 是 | 人员id |
 
+LoginSource 1
+LoginType 0
+OrganizationType  17040
 
 
 
