@@ -189,7 +189,7 @@
 | SellerName | string | 是 | 商家名称 |
 | GroupByCode| string| 否 | 多款聚合款号 |
 | HollowSysNo | int | 是 | 坑位编码 |
-| ShopShowSourceList|array[int] | 否 |展示来源（0普通，1蓝晶兑换） |
+| ShopShowSourceList|array[int] | 否 |款展示来源（0普通，1蓝晶兑换） |
 
 
 #### Spec {#应答数据-（巡河记录数组）}
