@@ -2419,4 +2419,10 @@
   * [新增辅具产品](fu-ju-shi-pei-ping-gu-mo-kuai/xin-zeng-fu-ju-chan-pin.md)
   * [编辑辅具产品](fu-ju-shi-pei-ping-gu-mo-kuai/bian-ji-fu-ju-chan-pin.md)
   * [删除辅具产品](fu-ju-shi-pei-ping-gu-mo-kuai/shan-chu-fu-ju-chan-pin.md)
+  * 获取品牌列表
+  * 获取品牌详情
+  * 新增品牌
+  * 编辑品牌
+  * 删除品牌
+  * 注销品牌
 
