@@ -22,6 +22,26 @@ http://ip:port/FJQuery/Adaption/GetAdminPersonBySysNo
 | AreaCode | string | 是 | 区域编号 |
 | DepartmentSysNo | int | 是 | 部门id |
 | PostSysNo | int | 是 | 岗位id |
+| RightList | array Right | 是 | 权限列表 |
+
+Right
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| RightSysNo | int | 是 | 权限系统编码 |
+| RightName | string | 是 | 权限名称 |
+| RightCode | string | 是 | 权限代码 |
+| RightType | int | 是 | 权限类型：1模块，2子模块，3页面，4按钮 |
+
+
+
+
+
+
+
+
+
+
 
 
 
