@@ -2413,7 +2413,7 @@
   * [审核申请](fu-ju-shi-pei-ping-gu-mo-kuai/shen-he-shen-qing.md)
   * [适配评估](fu-ju-shi-pei-ping-gu-mo-kuai/shi-pei-ping-gu.md)
   * [下一组问题](fu-ju-shi-pei-ping-gu-mo-kuai/xia-yi-zu-wen-ti.md)
-  * 形成报告书
+  * [形成报告书](fu-ju-shi-pei-ping-gu-mo-kuai/xing-cheng-bao-gao-shu.md)
   * [获取辅具产品列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-fu-ju-chan-pin-lie-biao.md)
   * [获取辅具产品详情](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-fu-ju-chan-pin-xiang-qing.md)
   * [新增辅具产品](fu-ju-shi-pei-ping-gu-mo-kuai/xin-zeng-fu-ju-chan-pin.md)
