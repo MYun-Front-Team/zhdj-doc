@@ -42,6 +42,8 @@ _**【接口地址】**_
 | PostSysNo | int | 否 | 职位跟组织走\(HR、店长\)端自定义 |
 | PCDDataRangeSysNoList | array\[int\] | 否 | 负责区域列表 |
 | CellPhoneNo| string | 是 | 手机号 |
+| IsDepartmentBoss | int | 否 | 是否部门领导|
+| DepartmentSysNo| int | 否 | 部门|
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}

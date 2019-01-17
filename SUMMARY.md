@@ -466,7 +466,7 @@
   * [新增部门](zu-zhi-mo-kuai/xin-zeng-bu-men.md)
   * [编辑部门](zu-zhi-mo-kuai/bian-ji-bu-men.md)
   * [删除部门](zu-zhi-mo-kuai/shan-chu-bu-men.md)
-  * 设置组织人员为部门负责人
+  * [设置组织人员为部门负责人](zu-zhi-mo-kuai/she-zhi-zu-zhi-ren-yuan-wei-bu-men-fu-ze-ren.md)
 * [店铺模块](dian-pu-mo-kuai.md)
   * [新增店铺](dian-pu-mo-kuai/xin-zeng-dian-pu.md)
   * [修改店铺](dian-pu-mo-kuai/xiu-gai-dian-pu.md)
