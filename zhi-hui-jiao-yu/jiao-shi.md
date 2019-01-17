@@ -21,12 +21,21 @@
 | About| string| 是  |个人介绍  |
 | ClassTypeRemark| string| 是  |任课类别  |
 | FileUrlList|array[string]| 是  |头像  |
+| CourseList| array[Course] | 是  |课程  |
 
 > #### 统计计算字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | TeacherScore | decimal\(18,2\) | 否 | 评分 |
+
+> #### Course
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| CourseSysNo | int | 是 | 课程系统编码 |
+| CourseName | Nvarchar\(50\) | 是 | 课程名称 |
+
 
 #### MemberCard说明 {#应答数据-（巡河记录数组）}
 
