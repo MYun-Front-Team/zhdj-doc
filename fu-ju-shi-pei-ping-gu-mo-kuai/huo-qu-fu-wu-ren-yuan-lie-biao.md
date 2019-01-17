@@ -24,6 +24,8 @@ http://ip:port/FJQuery/Adaption/GetServicePersonList
 | UserGender | int | 否 | 1男，2女 |
 | Email | string | 否 | 邮箱 |
 | AreaCode | string | 是 | 区域编号 |
+| AreaName | string | 是 | 区域名称 |
+
 | DepartmentSysNo | int | 是 | 部门id |
 | IsEnable | int | 是 | 1启用，2禁用 |
 

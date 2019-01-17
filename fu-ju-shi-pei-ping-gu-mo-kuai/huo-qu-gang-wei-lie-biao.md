@@ -19,6 +19,8 @@ http://ip:port/FJQuery/Adaption/GetPostList
 | DepartmentSysNo | int | 是 | 部门id |
 | Department | string | 是 | 部门名称 |
 | Master | string | 是 | 负责人 |
+| AreaCode | string | 是 | 区域编号 |
+| AreaName | string | 是 | 区域名称 |
 | IsEnable | int | 是 | 1启用，0禁用 |
 
 

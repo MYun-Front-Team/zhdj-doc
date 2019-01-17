@@ -11,6 +11,7 @@ http://ip:port/FJAcion/Adaption/AddDepartment
 | Name | string | 是 | 部门名称 |
 | Master | string | 是 | 负责人 |
 | Phone | string | 是 | 联系电话 |
+| AreaCode | string | 是 | 区域编号 |
 
 > #### _应答数据_
 

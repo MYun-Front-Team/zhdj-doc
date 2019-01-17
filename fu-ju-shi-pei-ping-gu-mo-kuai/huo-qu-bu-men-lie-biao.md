@@ -18,6 +18,8 @@ http://ip:port/FJQuery/Adaption/GetDepartmentList
 | Name | string | 是 | 部门名称 |
 | Master | string | 是 | 负责人 |
 | Phone | string | 是 | 联系电话 |
+| AreaCode | string | 是 | 区域编号 |
+| AreaName | string | 是 | 区域名称 |
 | IsEnable | int | 是 | 1启用，0禁用 |
 
 
