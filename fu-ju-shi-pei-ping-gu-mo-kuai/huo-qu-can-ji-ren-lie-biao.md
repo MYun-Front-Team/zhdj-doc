@@ -15,7 +15,7 @@ http://ip:port/FJQuery/Adaption/GetDisabledPersonList
 | AreaCode | string | 否 | 区域编号 |
 | DisabledType | int | 否 | 残疾类型 |
 | DisabledLevel | int | 否 | 残疾等级 |
-
+| ServicePersonSysNo | int | 否 | 服务人员id |
 
 > #### _应答数据_
 
@@ -47,6 +47,4 @@ http://ip:port/FJQuery/Adaption/GetDisabledPersonList
 | Address | string | 是 | 具体地址 |
 | Postalcode | string | 是 | 邮政编码 |
 | Email | string | 是 | 电子邮件 |
-
-
-
+| IsNew | int | 是 | 1新，0否 |
