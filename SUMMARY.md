@@ -2438,4 +2438,6 @@
   * [新增审批节点](fu-ju-shi-pei-ping-gu-mo-kuai/xin-zeng-shen-pi-jie-dian.md)
   * [编辑审批节点](fu-ju-shi-pei-ping-gu-mo-kuai/bian-ji-shen-pi-jie-dian.md)
   * [删除审批节点](fu-ju-shi-pei-ping-gu-mo-kuai/shan-chu-shen-pi-jie-dian.md)
+  * [获取待评估数量](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-dai-ping-gu-shu-liang.md)
+  * [清空待评估数量](fu-ju-shi-pei-ping-gu-mo-kuai/qing-kuang-dai-ping-gu-shu-liang.md)
 
