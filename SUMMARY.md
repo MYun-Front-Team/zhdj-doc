@@ -2433,4 +2433,8 @@
   * [注销供应商](fu-ju-shi-pei-ping-gu-mo-kuai/zhu-xiao-gong-ying-shang.md)
   * [编辑岗位权限](fu-ju-shi-pei-ping-gu-mo-kuai/bian-ji-gang-wei-quan-xian.md)
   * [确认推荐辅具产品](fu-ju-shi-pei-ping-gu-mo-kuai/que-ren-tui-jian-fu-ju-chan-pin.md)
+  * 获取审批站点列表
+  * 获取审批站点详情
+  * 新增审批节点
+  * 编辑审批节点
 
