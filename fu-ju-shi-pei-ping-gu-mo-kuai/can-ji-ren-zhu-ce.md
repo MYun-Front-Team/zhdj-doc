@@ -17,6 +17,7 @@ http://ip:port/FJAction/Adaption/AddDisabledPerson
 | DisabledType | int | 是 | 残疾类型 |
 | DisabledLevel | int | 是 | 残疾等级 |
 | State | int | 是 | 1有效，0注销 |
+| openid | string | 否 | 微信openid |
 
 > #### _应答数据_
 
