@@ -2435,7 +2435,7 @@
   * [确认推荐辅具产品](fu-ju-shi-pei-ping-gu-mo-kuai/que-ren-tui-jian-fu-ju-chan-pin.md)
   * [获取审批站点列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-shen-pi-zhan-dian-lie-biao.md)
   * [获取审批站点详情](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-shen-pi-zhan-dian-xiang-qing.md)
-  * 新增审批节点
-  * 编辑审批节点
-  * 删除审批节点
+  * [新增审批节点](fu-ju-shi-pei-ping-gu-mo-kuai/xin-zeng-shen-pi-jie-dian.md)
+  * [编辑审批节点](fu-ju-shi-pei-ping-gu-mo-kuai/bian-ji-shen-pi-jie-dian.md)
+  * [删除审批节点](fu-ju-shi-pei-ping-gu-mo-kuai/shan-chu-shen-pi-jie-dian.md)
 
