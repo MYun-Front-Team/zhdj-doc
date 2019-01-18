@@ -2346,6 +2346,7 @@
   * [获取检测站详情](che-liang-jian-ce-mo-kuai/huo-qu-jian-ce-zhan-xiang-qing.md)
   * [获取委托人列表](che-liang-jian-ce-mo-kuai/huo-qu-wei-tuo-ren-lie-biao.md)
   * [恢复上传](che-liang-jian-ce-mo-kuai/hui-fu-shang-chuan.md)
+  * [删除异常名单](che-liang-jian-ce-mo-kuai/shan-chu-yi-chang-ming-dan.md)
 * [水箱模块](shui-xiang-mo-kuai.md)
   * [获取水箱列表](shui-xiang-mo-kuai/huo-qu-shui-xiang-lie-biao.md)
   * [获取水箱详情](shui-xiang-mo-kuai/huo-qu-shui-xiang-xiang-qing.md)
