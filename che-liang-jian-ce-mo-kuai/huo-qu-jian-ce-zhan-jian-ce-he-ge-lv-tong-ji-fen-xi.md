@@ -19,6 +19,6 @@ _**【接口地址】**_
 | OncePassPercent | decimal | 是 | 一次合格率 |
 | SecondaryPassPercent | decimal | 是 | 二次合格率 |
 | OtherPassPercent | decimal | 是 | 其他 |
-
+| NoPassPercent | decimal | 是 | 不合格率 |
 
 
