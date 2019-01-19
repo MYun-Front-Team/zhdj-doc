@@ -13,6 +13,8 @@ http://ip:port/FJQuery/Adaption/GetAssistantList
 | AssistantType | string | 否 | 型号 |
 | BrandSysNo | int | 否 | 品牌 |
 | ABList | string | 否 | AB目录 |
+| CategorySysNo | int | 是 | 分类id |
+
 
 > #### _应答数据_
 
