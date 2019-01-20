@@ -134,7 +134,5 @@
 | LANPointsPercent| decimal | 否 | 自己蓝晶占合成蓝晶百分比|
 | SysSuccessLANPoints| decimal | 否 | 系统已合成蓝晶|
 | SysLeftLANPoints| decimal | 否 | 系统剩余蓝晶|
-
-
-
+| ChangeLANPoints| decimal | 否 | 系统已兑换蓝晶|
 
