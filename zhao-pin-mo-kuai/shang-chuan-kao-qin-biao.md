@@ -31,6 +31,7 @@ http://ip:port/RecruitAction/Settlement/AddSettlement
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| Index| int| 是 |行号（1开始） |
 | RealName| string| 是 | 人员名称|
 | CellPhoneNo| string| 是 | 手机号|
 | OrganizationSysNo| int | 是 | 组织系统编码 |
