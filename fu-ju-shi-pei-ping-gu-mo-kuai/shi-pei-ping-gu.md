@@ -47,4 +47,4 @@ Answer
 | AnswerSysNo | int | 是 | 答案id |
 | Answer | string | 是 | 答案文本 |
 | AnswerType | int | 是 | 1文本，2图片，3语音 |
-| Url | array Answer | 是 | 资源链接 |
+| Urls | array Answer | 是 | 资源链接 |
