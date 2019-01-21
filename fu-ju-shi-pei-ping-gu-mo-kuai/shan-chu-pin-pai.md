@@ -2,7 +2,7 @@
 
 _**【接口地址】**_
 
-http://ip:port/FJAction/Adaption/EditBrand
+http://ip:port/FJAction/Adaption/DelBrand
 
 > #### _请求数据_
 
