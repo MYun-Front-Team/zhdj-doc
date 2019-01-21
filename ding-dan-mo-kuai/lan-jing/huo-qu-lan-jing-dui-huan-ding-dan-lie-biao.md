@@ -61,8 +61,10 @@ http://ip:port/OrderQuery/LJOrder/GetLJChangeOrderList
 | TotalPointLJ| decimal | 否 | 总价|
 | PersonName | string| 是 | 买家人员昵称 |
 | CellPhoneNo| string| 是 | 买家人员手机 |
-
-
+| TrackingCompanyCode| string| 是 | 快递公司编号 |
+| TrackingCompanyName| string| 是 | 快递公司名称 |
+| TrackingCompanySysNo| int| 是 | 快递公司系统编号 |
+| TrackingNo| string| 是 | 快递单号 |
 
 
 #### DetailItem
