@@ -24,6 +24,15 @@ http://ip:port/FJQuery/Adaption/GetAdminPersonList
 | AreaCode | string | 是 | 区域编号 |
 | DepartmentSysNo | int | 是 | 部门id |
 | PostSysNo | int | 是 | 岗位id |
+| IsEnable | int | 是 | 1启用，2禁用 |
+
+
+
+
+
+
+
+
 
 
 
