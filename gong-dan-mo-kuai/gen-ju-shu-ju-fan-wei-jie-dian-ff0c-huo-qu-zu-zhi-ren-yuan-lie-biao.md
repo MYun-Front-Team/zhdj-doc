@@ -25,6 +25,8 @@ _**【接口地址】**_
 | keyWord | string | 否 | 关键字搜索（姓名） |
 | Limit | object | 否 | 限制条件 |
 | IsHasDepartment | int | 否 | 是否有部门 |
+| DepartmentSysNo| int | 否 | 部门编码 |
+
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 
