@@ -2,7 +2,7 @@
 
 _**【接口地址】**_
 
-http://ip:port/FJAction/Adaption/EditDepartment
+http://ip:port/FJAction/Adaption/DelDepartment
 
 > #### _请求数据_
 
