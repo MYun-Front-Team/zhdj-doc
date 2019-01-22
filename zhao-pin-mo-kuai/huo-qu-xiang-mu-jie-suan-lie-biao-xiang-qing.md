@@ -44,3 +44,4 @@ http://ip:port/RecruitQuery/Settlement/GetSettlementBySysNo
 | MoneyBack| int| 是 |回款状态（0初始10正常回款11异常回款）|
 | FinishStatus| int| 是 |是否发薪水(0初始，10已发)|
 | MoneyBackRemark| string| 是 |实收金额备注|
+| PlatformAdjustCount| int | 是 |平台校对次数|
