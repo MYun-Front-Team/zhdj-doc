@@ -53,3 +53,4 @@ http://ip:port/RecruitQuery/Settlement/GetSettlementItemBySysNo
 | IDCard| string  | 是 | 身份证号 |
 | CheckCount| int | 是 |用户核对次数|
 | PlatformAdjustCount| int | 是 |平台校对次数|
+| ActualAmount| decimal| 是 |应发薪资|
