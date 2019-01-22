@@ -26,6 +26,7 @@ http://ip:port/RecruitQuery/Settlement/GetSettlementItemList
 | FinishStatusList| array[int] | 是 |是否发薪水(0初始，10已发)|
 | SettlementSysNo | int | 是 | 项目结算系统编码 |
 | PersonSysNo| int | 是 | 人员系统编码 |
+| ShopSysNo| int| 是 |店铺编码 |
 
 
 
