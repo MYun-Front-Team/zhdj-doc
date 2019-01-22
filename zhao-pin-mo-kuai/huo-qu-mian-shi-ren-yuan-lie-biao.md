@@ -53,6 +53,7 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | EndQuitDate| datetime| 是 | 结束离职时间 |
 | DataRangeSysNo| int | 否 |店铺树编码 |
 | SourceFrom| int | 否 |来源详情 |
+| SettlementDate| datetime| 是 | 账期时间 |
 
 
 
