@@ -15,7 +15,7 @@ http://ip:port/RecruitAction/Settlement/EditSettlementItem
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| SettlementSysNo | int | 是 | 项目结算系统编码 |
+| SettlementItemSysNo | int | 是 | 项目结算系统编码 |
 | WorkHour| int | 是 |工作小时数合计 |
 | OvertimeHour| int | 是 |固定加班小时数 |
 | Salary| decimal | 是 |时薪水 |
