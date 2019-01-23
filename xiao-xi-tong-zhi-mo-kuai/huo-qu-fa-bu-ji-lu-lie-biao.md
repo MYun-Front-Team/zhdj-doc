@@ -1,8 +1,8 @@
-# 获取发布记录列表 {#获取河长巡河记录}
+# 获取发布记录列表
 
 _**【接口地址】**_
 
-[http://ip:port/MessageQuery/Message/GetPublishRecordList](http://ip:port/MessageQuery/Message/GetMaterialList)
+http://ip:port/MessageQuery/Message/GetPublishRecordList
 
 > #### _请求数据_ {#请求数据}
 
@@ -11,7 +11,7 @@ _**【接口地址】**_
 | PersonSysNo | int | 否 | 人员编码 |
 | IsShowFriends | int | 否 | 1显示好友的发布记录 |
 
-> #### _应答数据 _ {#应答数据-（巡河记录数组）}
+> #### _应答数据 _
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -26,9 +26,9 @@ _**【接口地址】**_
 | DeviceList | array\[object\] | 是 | 设备列表 |
 | CreateTime | datetime | 是 | 创建时间 |
 | PublishTime | datetime | 是 | 发布时间 |
-| RecordStatus | int | 是 | 1待发送，2进行中，10已成功，11已失败 |
+| RecordStatus | int | 是 | 1待发送，2进行中，10已成功，11已失败，12已取消 |
 
-#### _设备_ {#应答数据-（巡河记录数组）}
+#### _设备_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |

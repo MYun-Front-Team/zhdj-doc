@@ -25,7 +25,7 @@ _**【接口地址】**_
 | DeviceList | array\[object\] | 是 | 设备列表 |
 | CreateTime | datetime | 是 | 创建时间 |
 | PublishTime | datetime | 是 | 发布时间 |
-| RecordStatus | int | 是 | 1待发送，2进行中，10已成功，11已失败 |
+| RecordStatus | int | 是 | 1待发送，2进行中，10已成功，11已失败，12已取消 |
 
 #### _设备_ {#应答数据-（巡河记录数组）}
 
