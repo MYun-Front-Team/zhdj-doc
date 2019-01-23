@@ -85,6 +85,10 @@
 |TaxRate| decimal| 否 |税率|
 |SalaryTimes| int | 否 |加班时薪倍数|
 |SalesManagerPersonSysNo| int | 否 |销售经理|
+|SalesManagerDepartmentSysNo| int | 否 |销售部门编码|
+|SalesManagerDepartmentName| string| 否 |销售部门|
+
+
 
 
 #### File说明 {#应答数据-}
@@ -127,8 +131,8 @@
 | SellerTypeList | array int | 否 | 商家类型（行业枚举） |
 | OrganizationSysNoList | array  int | 是 | 组织系统编码 |
 | IsShowInCommissionList | array  int | 是 |是否在抢工佣金推送列表显示 |
-
-
+| SalesManagerPersonSysNo| int | 是 |销售人员 |
+| IfHasSalesManagerDepartment| int | 是 |是否有销售部门 |
 
 
 

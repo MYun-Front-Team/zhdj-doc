@@ -90,7 +90,7 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | RecruitSysNo| int | 否 | 招聘系统编码 |
-| RecruitPersonStatus| int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝，19待入职（C接受Offer），20已上班，21放鸽子，22取消（C不接受Offerr和C取消面试） |
+| RecruitPersonStatus| int | 否 | 状态：0圈中，1已抢，2忽略，10抢中，11已失效，12拒绝，19待入职（C接受Offer），20已上班，21放鸽子，22取消（C不接受Offerr和C取消面试）,30离职 |
 | RecruitPersonTime| Datetime| 否 | 抢的时间 |
 | PositionSalary| decimal| 否 |岗位最终薪资 |
 | SalaryType| Int| 否 |薪资类型：1月，2天，3时 |
@@ -115,9 +115,8 @@
 | ShopInterviewDateList | array ShopInterviewDate| 否 | 面试时间 |
 | InterviewLongitude | decimal（18，10） | 否 | 面试经度 |
 | InterviewLatitude | decimal（18，10） | 否 | 面试纬度 |
-
-
-
+| IsQuit| int| 是 | 是否离职（0正常，1离职） |
+| QuitDate| datetime| 是 | 离职时间 |
 
 
 
