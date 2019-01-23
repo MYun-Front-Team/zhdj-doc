@@ -87,6 +87,8 @@
 |SalesManagerPersonSysNo| int | 否 |销售经理|
 |SalesManagerDepartmentSysNo| int | 否 |销售部门编码|
 |SalesManagerDepartmentName| string| 否 |销售部门|
+|RecruitStatus| int | 否 |招聘状态（10进行中，0未开始）|
+
 
 
 
@@ -108,6 +110,9 @@
 | :--- | :--- | :--- | :--- |
 | Wallet | object | 否 | 钱包实体（资金说明） |
 | ShopCount| int | 否 |店铺数量 |
+| PartTimeJobCount| int | 否 |兼职数量 |
+| FullTimeJobCount| int | 否 |全职数量 |
+
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -133,6 +138,7 @@
 | IsShowInCommissionList | array  int | 是 |是否在抢工佣金推送列表显示 |
 | SalesManagerPersonSysNo| int | 是 |销售人员 |
 | IfHasSalesManagerDepartment| int | 是 |是否有销售部门 |
+| RecruitStatusList | array  int | 是 |招聘状态（10进行中，0未开始）|
 
 
 
