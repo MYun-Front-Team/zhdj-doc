@@ -170,6 +170,7 @@
 | Latitude|decimal| 否 | 纬度（后台需求总览需要） |
 | Longitude|decimal| 否 | 经度（后台需求总览需要） |
 | CustomerPositionName| Nvarchar\(50\) | 否 | 客户自定义职位名称 |
+| IsQuitList|array int| 是 | 是否离职（0正常，1离职） |
 
  
 
