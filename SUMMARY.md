@@ -1111,6 +1111,7 @@
     * [编辑项目结算人员](zhao-pin-mo-kuai/bian-ji-xiang-mu-jie-suan-ren-yuan.md)
     * [删除结算列表](zhao-pin-mo-kuai/shan-chu-jie-suan-lie-biao.md)
     * [删除结算人员列表](zhao-pin-mo-kuai/shan-chu-jie-suan-ren-yuan-lie-biao.md)
+    * [获取未上传的人员](zhao-pin-mo-kuai/huo-qu-wei-shang-chuan-de-ren-yuan.md)
 * [设备模块](she-bei-mo-kuai.md)
   * [获取设备列表](she-bei-mo-kuai/huo-qu-she-bei-lie-biao.md)
   * [获取设备详情](she-bei-mo-kuai/huo-qu-she-bei-xiang-qing.md)
