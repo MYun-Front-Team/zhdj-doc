@@ -8,12 +8,12 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/OrganizationAction/Seller/SetSellerManagerPerson
+http://ip:port/OrganizationAction/Seller/SetSalesManagerDepartment
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | SellerSysNoList |array[int] | 否 | 商家系统编码 |
-|SalesManagerPersonSysNo| int | 否 |商家销售部门|
+|SalesManagerDepartmentSysNo| int | 否 |商家销售部门|
 
