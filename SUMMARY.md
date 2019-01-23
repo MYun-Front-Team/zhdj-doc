@@ -462,6 +462,7 @@
     * [确认迁移商家](zu-zhi-mo-kuai/shang-jia-guan-li/que-ren-qian-yi-shang-jia.md)
     * [待迁移商家获取申请详情](zu-zhi-mo-kuai/shang-jia-guan-li/huo-qu-dai-qian-yi-shang-jia-xiang-qing.md)
     * [启用/禁用商家](zu-zhi-mo-kuai/shang-jia-guan-li/qi-7528-jin-yong-shang-jia.md)
+    * [设置商家销售部门](zu-zhi-mo-kuai/shang-jia-guan-li/she-zhi-shang-jia-xiao-shou-bu-men.md)
   * [获取部门列表](zu-zhi-mo-kuai/huo-qu-bu-men-lie-biao.md)
   * [新增组织](zu-zhi-mo-kuai/xin-zeng-zu-zhi.md)
   * [新增部门](zu-zhi-mo-kuai/xin-zeng-bu-men.md)
