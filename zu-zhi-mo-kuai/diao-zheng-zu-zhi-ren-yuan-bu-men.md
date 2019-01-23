@@ -16,7 +16,7 @@ http://ip:port/OrganizationAction/Organization/SetOrganizationPersonDepartment
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 否 | 组织系统编码 |
-| PersonSysNo | int | 否 | 人员系统编码 |
+| PersonSysNoList |array[int] | 否 | 人员系统编码 |
 | DepartmentSysNo | int | 否 | 部门编码|
 
 
