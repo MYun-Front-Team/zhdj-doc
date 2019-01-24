@@ -13,6 +13,7 @@ http://ip:port/FJAction/Adaption/EditPost
 | DepartmentSysNo | int | 是 | 部门id |
 | Master | string | 是 | 负责人 |
 | AreaCode | string | 是 | 区域编号 |
+| RightList | array int | 否 | 权限列表 |
 
 > #### _应答数据_
 
