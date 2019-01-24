@@ -10,7 +10,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/WalletQuery/Bank/GetBankInofByCode
+http://ip:port/WalletQuery/Bank/GetBankInofByCardNo
 
 > #### _请求数据_ {#请求数据}
 
