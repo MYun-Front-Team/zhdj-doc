@@ -27,10 +27,10 @@ _**【接口地址】**_
 | ReceiveTime | string | 否 | 提现时间 |
 | ReceiveRemark | string | 否 | 提现申请说明 |
 | IsOnline | int | 是 | 是否线上提现（0线下（走审核流程），1线上（无需审核，直接到银行卡、微信等））|
-| ReceiveCashType| int | 否 | 线上提现方式 0银行卡，1微信,2支付宝 |
+| ReceiveCashType| int | 否 | 线上提现方式 0银行卡，1微信,2支付宝，3畅捷支付（到银行卡） |
 | WxOpenID| string | 否 | 微信OpenID |
 | AliAccount| string | 否 | 支付宝账号 |
-| Captcha | string | 否  | 验证码 |
+| Captcha | string | 否  | 验证码（畅捷支付必传） |
 
  
 
