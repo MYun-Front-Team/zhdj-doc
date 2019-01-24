@@ -26,7 +26,7 @@ _**【接口地址】**_
 | Limit | object | 否 | 限制条件 |
 | IsHasDepartment | int | 否 | 是否有部门 |
 | DepartmentSysNo| int | 否 | 部门编码 |
-
+| AdminStatusList|array[int] | 否 | 用户状态（0待激活，1启用，2禁用）|
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 
