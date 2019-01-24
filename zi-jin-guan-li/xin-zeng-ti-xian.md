@@ -30,7 +30,7 @@ _**【接口地址】**_
 | ReceiveCashType| int | 否 | 线上提现方式 0银行卡，1微信,2支付宝，3畅捷支付（到银行卡） |
 | WxOpenID| string | 否 | 微信OpenID |
 | AliAccount| string | 否 | 支付宝账号 |
-| Captcha | string | 否  | 验证码（畅捷支付必传） |
+| Captcha | string | 否  | 验证码 |
 
  
 
