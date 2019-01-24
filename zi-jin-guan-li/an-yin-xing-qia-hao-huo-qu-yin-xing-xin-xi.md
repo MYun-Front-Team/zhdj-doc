@@ -23,9 +23,8 @@ http://ip:port/WalletQuery/Bank/GetBankInofByCode
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| BankSysNo | int | 是 | 银行系统编码 |
-| BankName | string | 是 | 银行名称 |
-| BankUrl | string | 否 | 银行logo |
+| | string| 是 | 三方json信息|
+
 
 
 
