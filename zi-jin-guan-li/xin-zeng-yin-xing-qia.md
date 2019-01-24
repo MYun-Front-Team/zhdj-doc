@@ -24,7 +24,8 @@ _**【接口地址】**_
 | CardNo | string | 是 | 银行卡号 |
 | CardName | string | 是 | 银行卡户名 |
 | CardPhoneNo | string | 是 | 预留手机号 |
-| BankSysNo | int | 是 | 银行系统编码 |
+| BankSysNo | int | 否 | 银行系统编码 （二选一）|
+| BankName| string  | 否 | 银行名称（二选一） |
 | BankBranchName | string | 是 | 开户行-支行名称 |
 | PCDCode | string | 否 | PCD编码 |
 | PCDDescription | string | 否 | PCD详情 |
