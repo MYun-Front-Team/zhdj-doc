@@ -649,6 +649,7 @@
     * [获取银行列表](zi-jin-guan-li/huo-qu-yin-xing-lie-biao.md)
     * [获取银行支行信息](zi-jin-guan-li/huo-qu-yin-xing-zhi-xing-xin-xi.md)
     * [编辑银行卡](zi-jin-guan-li/bian-ji-yin-xing-qia.md)
+    * [按银行卡号获取银行信息](zi-jin-guan-li/an-yin-xing-qia-hao-huo-qu-yin-xing-xin-xi.md)
   * [提现管理](zi-jin-guan-li/ti-xian-guan-li.md)
     * [获取提现列表](zi-jin-guan-li/huo-qu-ti-xian-lie-biao.md)
     * [获取提现详情](zi-jin-guan-li/huo-qu-ti-xian-xiang-qing.md)
