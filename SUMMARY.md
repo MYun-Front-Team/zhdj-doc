@@ -1558,7 +1558,7 @@
   * [获取未发送消息](xiao-xi-tong-zhi-mo-kuai/huo-qu-wei-fa-song-xiao-xi.md)
   * [取消发送](xiao-xi-tong-zhi-mo-kuai/qu-xiao-fa-song.md)
   * [新增分组](xiao-xi-tong-zhi-mo-kuai/xin-zeng-fen-zu.md)
-  * 编辑分组
+  * [编辑分组](xiao-xi-tong-zhi-mo-kuai/bian-ji-fen-zu.md)
   * 删除分组
   * 获取分组列表
   * 获取分组详情
