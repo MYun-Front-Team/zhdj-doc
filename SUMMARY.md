@@ -1561,7 +1561,7 @@
   * [编辑分组](xiao-xi-tong-zhi-mo-kuai/bian-ji-fen-zu.md)
   * [删除分组](xiao-xi-tong-zhi-mo-kuai/shan-chu-fen-zu.md)
   * [获取分组列表](xiao-xi-tong-zhi-mo-kuai/huo-qu-fen-zu-lie-biao.md)
-  * 获取分组详情
+  * [获取分组详情](xiao-xi-tong-zhi-mo-kuai/huo-qu-fen-zu-xiang-qing.md)
 * [商品模块](shang-pin-mo-kuai.md)
   * [新增款](shang-pin-mo-kuai/xin-zeng-kuan.md)
   * [修改款](shang-pin-mo-kuai/xiu-gai-kuan.md)
