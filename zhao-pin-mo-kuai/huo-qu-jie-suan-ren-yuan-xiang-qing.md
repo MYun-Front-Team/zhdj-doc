@@ -54,3 +54,4 @@ http://ip:port/RecruitQuery/Settlement/GetSettlementItemBySysNo
 | CheckCount| int | 是 |用户核对次数|
 | PlatformAdjustCount| int | 是 |平台校对次数|
 | ActualAmount| decimal| 是 |应发薪资|
+| ColourType| int | 是 | 0正常 1红背景红文字 2红子|

@@ -59,3 +59,4 @@ http://ip:port/RecruitQuery/Settlement/GetSettlementList
 | MoneyBack| int| 是 |回款状态（0初始10正常回款11异常回款）|
 | FinishStatus| int| 是 |是否发薪水(0初始，10已发)|
 | MoneyBackRemark| string| 是 |实收金额备注|
+| ColourType| int | 是 | 0正常 1红背景红文字 2红子|
