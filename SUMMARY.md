@@ -1557,7 +1557,7 @@
   * [获取设备消息发送状态列表](xiao-xi-tong-zhi-mo-kuai/huo-qu-she-bei-xiao-xi-fa-song-zhuang-tai-lie-biao.md)
   * [获取未发送消息](xiao-xi-tong-zhi-mo-kuai/huo-qu-wei-fa-song-xiao-xi.md)
   * [取消发送](xiao-xi-tong-zhi-mo-kuai/qu-xiao-fa-song.md)
-  * 新增分组
+  * [新增分组](xiao-xi-tong-zhi-mo-kuai/xin-zeng-fen-zu.md)
   * 编辑分组
   * 删除分组
   * 获取分组列表
