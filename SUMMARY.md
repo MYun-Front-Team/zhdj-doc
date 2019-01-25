@@ -1560,7 +1560,7 @@
   * [新增分组](xiao-xi-tong-zhi-mo-kuai/xin-zeng-fen-zu.md)
   * [编辑分组](xiao-xi-tong-zhi-mo-kuai/bian-ji-fen-zu.md)
   * [删除分组](xiao-xi-tong-zhi-mo-kuai/shan-chu-fen-zu.md)
-  * 获取分组列表
+  * [获取分组列表](xiao-xi-tong-zhi-mo-kuai/huo-qu-fen-zu-lie-biao.md)
   * 获取分组详情
 * [商品模块](shang-pin-mo-kuai.md)
   * [新增款](shang-pin-mo-kuai/xin-zeng-kuan.md)
