@@ -24,6 +24,7 @@ _**【接口地址】**_
 | Text | string | 是 | 文本内容 |
 | UrlList | array\[string\] | 是 | 资源内容列表 |
 | CreateTime | datetime | 是 | 创建时间 |
-
+| GroupSysNo | int | 是 | 分组id |
+| GroupName | string | 是 | 分组名称 |
 
 
