@@ -9,6 +9,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | MaterialSysNo | int | 是 | 素材编码 |
+| GroupSysNo | int | 否 | 分组id |
 | Text | string | 否 | 文本 |
 | UrlList | array\[string\] | 否 | 资源内容列表 |
 

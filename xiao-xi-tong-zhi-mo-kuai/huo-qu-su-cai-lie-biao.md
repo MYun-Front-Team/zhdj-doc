@@ -10,6 +10,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | PersonSysNo | int | 否 | 人员编码 |
 | IsShowFriends | int | 否 | 1显示好友素材 |
+| GroupSysNoList | array int | 否 | 分组id列表 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
