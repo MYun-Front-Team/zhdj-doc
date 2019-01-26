@@ -1558,10 +1558,10 @@
   * [获取未发送消息](xiao-xi-tong-zhi-mo-kuai/huo-qu-wei-fa-song-xiao-xi.md)
   * [取消发送](xiao-xi-tong-zhi-mo-kuai/qu-xiao-fa-song.md)
   * [新增分组](xiao-xi-tong-zhi-mo-kuai/xin-zeng-fen-zu.md)
-  * 编辑分组
-  * 删除分组
-  * 获取分组列表
-  * 获取分组详情
+  * [编辑分组](xiao-xi-tong-zhi-mo-kuai/bian-ji-fen-zu.md)
+  * [删除分组](xiao-xi-tong-zhi-mo-kuai/shan-chu-fen-zu.md)
+  * [获取分组列表](xiao-xi-tong-zhi-mo-kuai/huo-qu-fen-zu-lie-biao.md)
+  * [获取分组详情](xiao-xi-tong-zhi-mo-kuai/huo-qu-fen-zu-xiang-qing.md)
 * [商品模块](shang-pin-mo-kuai.md)
   * [新增款](shang-pin-mo-kuai/xin-zeng-kuan.md)
   * [修改款](shang-pin-mo-kuai/xiu-gai-kuan.md)
