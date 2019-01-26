@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Summary
 
 ## 概述
@@ -2459,9 +2458,6 @@
   * [获取待评估数量](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-dai-ping-gu-shu-liang.md)
   * [清空待评估数量](fu-ju-shi-pei-ping-gu-mo-kuai/qing-kuang-dai-ping-gu-shu-liang.md)
 
-=======
-# Summary
-
 ## 概述
 
 * [总览](README.md)
@@ -4024,6 +4020,7 @@
   * [删除分组](xiao-xi-tong-zhi-mo-kuai/shan-chu-fen-zu.md)
   * [获取分组列表](xiao-xi-tong-zhi-mo-kuai/huo-qu-fen-zu-lie-biao.md)
   * [获取分组详情](xiao-xi-tong-zhi-mo-kuai/huo-qu-fen-zu-xiang-qing.md)
+  * [设置多个素材到分组](xiao-xi-tong-zhi-mo-kuai/she-zhi-duo-ge-su-cai-dao-fen-zu.md)
 * [商品模块](shang-pin-mo-kuai.md)
   * [新增款](shang-pin-mo-kuai/xin-zeng-kuan.md)
   * [修改款](shang-pin-mo-kuai/xiu-gai-kuan.md)
@@ -4920,4 +4917,3 @@
   * [获取待评估数量](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-dai-ping-gu-shu-liang.md)
   * [清空待评估数量](fu-ju-shi-pei-ping-gu-mo-kuai/qing-kuang-dai-ping-gu-shu-liang.md)
 
->>>>>>> 10db79149b87904dac81e8a3b0df32f852662c12
