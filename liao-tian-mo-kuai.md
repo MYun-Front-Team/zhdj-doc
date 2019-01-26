@@ -48,6 +48,11 @@
 | UserGender | int | 否 | 性别：0全部，1男，2女 |
 | KeyWord | string | 否 | 关键字搜索：手机号、昵称 |
 | GroupTypeList | int | 否 | 群类型列表（枚举） |
+| FriendStatusList| int | 否 | 盆友列表（枚举0正常 11黑名单） |
+| JoinStatusList| int | 否 |加入状态：0申请中，1加入，2拒绝 |
+
+
+
 
 > #### Limit限制字段 {#请求数据}
 
