@@ -11,7 +11,7 @@ http://ip:port/FJAction/Adaption/Assess
 | adapType | int | 否 | 适配类型 |
 | AssessSysNo | int | 是 | 评估id |
 | AssessPersonSysNo | int | 是 | 评估人编码 |
-| AssistSysNoList | array int | 否 | 所选辅具id |
+| AssistSysNoList | array int | 否 | 所选生活辅具id |
 | height | decimal | 否 | 身高 |
 | weight | decimal | 否 | 体重 |
 | living | valueData | 否 | 生活 |
