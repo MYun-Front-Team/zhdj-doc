@@ -31,6 +31,7 @@ http://ip:port/FJAction/Adaption/Assess
 | suit | string | 否 | 适合 |
 
 valueData
+
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | id | int | 是 | id |
