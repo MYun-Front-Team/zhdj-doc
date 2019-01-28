@@ -8,10 +8,13 @@ http://ip:port/FJAction/Adaption/Assess
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| adapType | int | 否 | 适配类型 |
 | AssessSysNo | int | 是 | 评估id |
 | AssessPersonSysNo | int | 是 | 评估人编码 |
+| AssistSysNoList | array int | 否 | 所选辅具id |
 | height | decimal | 否 | 身高 |
 | weight | decimal | 否 | 体重 |
+| living | string | 否 | 主要环境 |
 | menv1 | string | 否 | 主要环境 |
 | menv2 | string | 否 | 主要环境里有 |
 | senv1 | string | 否 | 次要环境 |
@@ -23,6 +26,28 @@ http://ip:port/FJAction/Adaption/Assess
 | purpose | string | 否 | 使用目的 |
 | assistance | string | 否 | 目前使用辅具 |
 | usetime | string | 否  | 使用时间 |
+
+normalData
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| id | int | 是 | id |
+| name | string | 是 | 名称 |
+| value | string | 否 | 值 |
+| option | string | 否 | 选项 |
+
+valueData
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| id | int | 是 | id |
+| name | string | 是 | 名称 |
+| value | value | 否 | 值 |
+
+value
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| id | int | 是 | id |
+| name | string | 是 | 名称 |
+
 
 > #### _应答数据_
 
