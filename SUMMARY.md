@@ -4918,4 +4918,5 @@
   * [获取待评估数量](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-dai-ping-gu-shu-liang.md)
   * [清空待评估数量](fu-ju-shi-pei-ping-gu-mo-kuai/qing-kuang-dai-ping-gu-shu-liang.md)
   * [获取生活辅具列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-sheng-huo-fu-ju-lie-biao.md)
+  * [重新评估](fu-ju-shi-pei-ping-gu-mo-kuai/zhong-xin-ping-gu.md)
 
