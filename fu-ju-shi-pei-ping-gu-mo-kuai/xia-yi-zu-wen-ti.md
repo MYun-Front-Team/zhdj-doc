@@ -8,6 +8,7 @@ http://ip:port/FJAction/Adaption/NextQuestion
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| AssessSysNo | int| 是 | 评估id |
 | QuestionList | array object | 是 | 问题数组 |
 
 | 变量名 | 类型 | 是否必须 | 描述 |
