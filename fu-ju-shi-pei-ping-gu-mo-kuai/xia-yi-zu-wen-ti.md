@@ -13,8 +13,8 @@ http://ip:port/FJAction/Adaption/NextQuestion
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | QuestionSysNo | int | 是 | 问题id |
-| AnswerSysNoList | array int | 是 | 答案数组 |
-
+| AnswerSysNoList | array int | 是 | 选择题答案id数组 |
+| AnswerList | array string | 否 | 填空题答案内容数组 |
 
 > #### _应答数据_
 
