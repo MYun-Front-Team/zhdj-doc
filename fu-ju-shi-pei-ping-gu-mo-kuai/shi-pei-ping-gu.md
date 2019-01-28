@@ -9,7 +9,7 @@ http://ip:port/FJAction/Adaption/Assess
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | AssessSysNo | int | 是 | 评估id |
-| AssessPersonSysNo | int | 是 | 审核人编码 |
+| AssessPersonSysNo | int | 是 | 评估人编码 |
 | height | decimal | 否 | 身高 |
 | weight | decimal | 否 | 体重 |
 | menv1 | string | 否 | 主要环境 |
