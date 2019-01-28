@@ -24,7 +24,7 @@ _**【接口地址】**_
 | Nation | string | 是 | 民族 |
 | OriginType | int | 是 | 籍贯性质（1城镇，2乡村） |
 | BirthDay | Datetime | 是 | 生日 |
-| Education | int | 是 | 学历：0未知,1小学,2初中,3中转,4高中,5专科,6本科,7硕士,8博士 |
+| Education | int | 是 | 学历：0未知,1小学,2初中,3中转,4高中,5专科,6本科,7硕士,8博士，10高校新生 |
 | PoliticalType | int | 是 | 政治面貌（1党员2团员3群众） |
 | Remark | string | 否 | 去向 |
 | ArmyType | int | 否 | 军种1陆军2海军3空军4火箭军5战略支援部队6武警 |
