@@ -62,6 +62,8 @@ _**【接口地址】**_
 | InviterPersonSysNo| int | 是 | 邀请人 |
 | InviterIsLeader| int | 是 | 邀请人是否是领队 |
 | InviterPersonName| string| 是 | 邀请人名字 |
+| IsDove| int | 是 | 是否放鸽子 |
+| DoveCount| int | 是 | 鸽子数 |
 
 #### Person
 
