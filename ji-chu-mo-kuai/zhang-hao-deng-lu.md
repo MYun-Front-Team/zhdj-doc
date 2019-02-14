@@ -115,4 +115,5 @@ _**【接口地址】**_
 | PositionId| string| 是 | 推荐位置|
 | WebId| string| 是 | 推荐网站|
 | APPId| string| 是 | 推荐APP|
-
+| ChannelId| string| 是 |渠道ID|
+| MemberId| string| 是 |会员ID|
