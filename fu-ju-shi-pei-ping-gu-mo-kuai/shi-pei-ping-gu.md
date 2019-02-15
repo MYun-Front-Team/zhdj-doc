@@ -36,7 +36,7 @@ valueData
 | :--- | :--- | :--- | :--- |
 | id | int | 是 | id |
 | name | string | 是 | 名称 |
-| value | object | 否 | 值 |
+| value | string | 否 | 值 |
 | option | string | 否 | 选项 |
 
 
