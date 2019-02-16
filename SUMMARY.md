@@ -4024,7 +4024,7 @@
   * [获取分组列表](xiao-xi-tong-zhi-mo-kuai/huo-qu-fen-zu-lie-biao.md)
   * [获取分组详情](xiao-xi-tong-zhi-mo-kuai/huo-qu-fen-zu-xiang-qing.md)
   * [设置多个素材到分组](xiao-xi-tong-zhi-mo-kuai/she-zhi-duo-ge-su-cai-dao-fen-zu.md)
-  * 新增草稿
+  * [新增草稿](xiao-xi-tong-zhi-mo-kuai/xin-zeng-cao-gao.md)
   * 发布草稿
   * 获取草稿列表
   * 获取草稿详情
