@@ -4026,8 +4026,8 @@
   * [设置多个素材到分组](xiao-xi-tong-zhi-mo-kuai/she-zhi-duo-ge-su-cai-dao-fen-zu.md)
   * [新增草稿](xiao-xi-tong-zhi-mo-kuai/xin-zeng-cao-gao.md)
   * [发布草稿](xiao-xi-tong-zhi-mo-kuai/fa-bu-cao-gao.md)
-  * 获取草稿列表
-  * 获取草稿详情
+  * [获取草稿列表](xiao-xi-tong-zhi-mo-kuai/huo-qu-cao-gao-lie-biao.md)
+  * [获取草稿详情](xiao-xi-tong-zhi-mo-kuai/huo-qu-cao-gao-xiang-qing.md)
 * [商品模块](shang-pin-mo-kuai.md)
   * [新增款](shang-pin-mo-kuai/xin-zeng-kuan.md)
   * [修改款](shang-pin-mo-kuai/xiu-gai-kuan.md)

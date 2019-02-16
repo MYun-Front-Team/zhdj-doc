@@ -10,6 +10,7 @@ http://ip:port/MessageQuery/Message/GetGroupList
 | :--- | :--- | :--- | :--- |
 | PersonSysNo | int | 否 | 人员编码 |
 | Keywords | string | 否 | 关键字 |
+| GroupType | int | 否 | 0素材分组，1草稿分组 |
 
 > #### _应答数据 _ 
 

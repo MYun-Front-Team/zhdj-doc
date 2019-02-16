@@ -9,7 +9,8 @@ http://ip:port/MessageAction/Message/AddGroup
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PersonSysNo | int | 是 | 人员编码 |
-| GroupName | int | 是 | 分组名称 |
+| GroupName | string | 是 | 分组名称 |
+| GroupType | int | 否 | 0素材分组，1草稿分组 |
 
 > #### _应答数据 _ 
 
