@@ -36,7 +36,7 @@ _**【接口地址】**_
 | OpenID | int | 否 | 微信OpenID |
 | InvitationCode| string | 否 | 邀请码 |
 | CellPhoneNo| string | 是 | 手机号 |
-
+| SourceType| int | 否 | 项目自定义来源（0默认，1销售，2交付，3运营等） |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
