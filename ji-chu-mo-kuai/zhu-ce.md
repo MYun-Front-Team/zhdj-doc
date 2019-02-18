@@ -37,6 +37,10 @@ _**【接口地址】**_
 | InvitationCode| string | 否 | 邀请码 |
 | CellPhoneNo| string | 是 | 手机号 |
 | SourceType| int | 否 | 项目自定义来源（0默认，1销售，2交付，3运营等） |
+| ContactTel| string | 是 | 联系方式（仅仅是备注，允许重复） |
+
+
+
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
