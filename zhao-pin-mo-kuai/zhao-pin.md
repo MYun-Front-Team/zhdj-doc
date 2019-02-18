@@ -71,7 +71,7 @@
 | RefuseCount| int | 否 |拒绝人数 |
 | NoComeCount| int | 否 |放鸽子人数 |
 | PickCount| int | 否 |已抢人数 |
-| TakeInCount| int | 否 |已录用人数 |
+| TakeInCount| int | 否 |线上已录用人数 |
 | InvalidCount| int | 否 |失效人数 |
 | FavoriteCount| int| 是 | 收藏数 |
 | CancelCount| int | 否 |已取消人数（不确认OFFER人数和取消面试人数和） |
