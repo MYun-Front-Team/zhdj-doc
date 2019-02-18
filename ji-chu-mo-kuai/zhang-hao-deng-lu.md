@@ -47,7 +47,7 @@ _**【接口地址】**_
 | PostSysNo| int | 否 |职位编码 |
 | InvitationPersonSysNo| int | 否 |邀请人编码|
 | InvitationCode| string| 否 |邀请码(优先级高于邀请人编码)|
-| SourceType| int | 否 | 项目自定义来源（新账号自动注册有效 0默认，1销售，2交付，3运营等） |
+| SourceType| int | 否 | 账号项目自定义来源（新账号自动注册有效 0默认，1销售，2交付，3运营等） |
 
 
 
