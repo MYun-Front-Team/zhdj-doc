@@ -37,7 +37,7 @@
 | OpenStatus | int | 是 | 开店状态：0待装修，10开，11关 |
 | CommissionRemark| string| 否 |佣金备注 |
 | RecruitAuditStatus| int| 否 |岗位审核状态（0待审核 10已经审核 11审核不通过） |
-| AuditRemark| string| 否 |审核备注 |
+| AuditRemark| string| 否 |HR审核备注 |
 | PlatAuditStatus| int | 否 |岗位平台审核状态（0待审核 10已经审核 11审核不通过） |
 | PlatAuditRemark| int | 否 |岗位平台审核备注 |
 | RecruitNeedPlatAudit| int | 否 |发布岗位是否需要平台审核|
