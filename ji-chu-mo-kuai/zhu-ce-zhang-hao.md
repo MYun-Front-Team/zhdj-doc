@@ -41,11 +41,13 @@ _**【接口地址】**_
 | WxUnionID | string | 否 | 微信UnionID |
 | PostSysNo | int | 否 | 职位跟组织走\(HR、店长\)端自定义 |
 | PCDDataRangeSysNoList | array\[int\] | 否 | 负责区域列表 |
-| CellPhoneNo| string | 是 | 手机号 |
+| CellPhoneNo| string | 是 | 手机号（如果存在历史用户，就会合并用户，不存在就会新增） |
 | IsDepartmentBoss | int | 否 | 是否部门领导|
 | DepartmentSysNo| int | 否 | 部门|
 | SourceType| int | 否 | 项目自定义来源（0默认，1销售，2交付，3运营等） |
 | UserGender | int | 否 | 性别：1男，2女 |
+| ContactTel| string | 是 | 联系方式（仅仅是备注，允许重复） |
+
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
