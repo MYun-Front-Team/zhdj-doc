@@ -45,6 +45,7 @@ _**【接口地址】**_
 | IsDepartmentBoss | int | 否 | 是否部门领导|
 | DepartmentSysNo| int | 否 | 部门|
 | SourceType| int | 否 | 项目自定义来源（0默认，1销售，2交付，3运营等） |
+| UserGender | int | 否 | 性别：1男，2女 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
