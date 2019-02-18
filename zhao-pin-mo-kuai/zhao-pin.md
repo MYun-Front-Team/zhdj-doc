@@ -78,6 +78,8 @@
 | WaitGoToWrokCount| int | 否 | 待入职人数 |
 | InterviewPersonCount| int | 否 | 后台面试人数 |
 | IsFavorite| int| 否 | 是否收藏夹的 |
+| InterviewTakeInCount| int| 否 |线下已录用|
+
 
 
 
