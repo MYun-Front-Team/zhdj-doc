@@ -92,6 +92,7 @@ _**【接口地址】**_
 | DeviceType | int | 否 | 设备类型：1IOS，2安卓，3小米，4华为 |
 | DeviceToken | string | 否 | 设备Token |
 | WxOpenID | string | 否 | 微信Openid |
+| SourceType| int | 否 | 项目自定义来源（0默认，1销售，2交付，3运营等） |
 
 #### Organization说明_ （简要，需要全部字段请调用“获取组织信息”接口）_ {#应答数据-（巡河记录数组）}
 
