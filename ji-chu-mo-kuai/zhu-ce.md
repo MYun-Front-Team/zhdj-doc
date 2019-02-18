@@ -35,7 +35,7 @@ _**【接口地址】**_
 | IsForce | int | 否 | 是否强制注册（禁用） |
 | OpenID | int | 否 | 微信OpenID |
 | InvitationCode| string | 否 | 邀请码 |
-| CellPhoneNo| string | 是 | 手机号 |
+| CellPhoneNo| string | 是 | 手机号（如果存在历史用户，就会合并用户，不存在就会新增） |
 | SourceType| int | 否 | 项目自定义来源（0默认，1销售，2交付，3运营等） |
 | ContactTel| string | 是 | 联系方式（仅仅是备注，允许重复） |
 
