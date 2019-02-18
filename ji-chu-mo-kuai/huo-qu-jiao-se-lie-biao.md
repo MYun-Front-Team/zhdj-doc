@@ -20,6 +20,7 @@ _**【接口地址】**_
 | ~~DataRangeSysNo~~ | ~~int~~ | ~~是~~ | ~~数据范围树编码~~ |
 | OrganizationSysNo | int | 是 | 组织系统编码 |
 | RoleLimit | object | 否 | 角色限制条件（见获取账户详情接口） |
+| SourceType| int | 否 | 项目自定义来源（0所有，1销售，2交付，3运营等） |
 
 > #### _Role应答数据 （记录数组）_ {#应答数据-（巡河记录数组）}
 
@@ -29,6 +30,7 @@ _**【接口地址】**_
 | RoleName | string | 是 | 角色名称 |
 | RoleDesc | string | 否 | 角色描述 |
 | RightList | array object | 否 | 权限列表（见获取账户详情接口） |
+| SourceType| int | 否 | 项目自定义来源（0默认，1销售，2交付，3运营等） |
 
 #### Right说明 {#应答数据-（巡河记录数组）}
 
