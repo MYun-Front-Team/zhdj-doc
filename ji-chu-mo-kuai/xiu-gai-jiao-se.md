@@ -20,6 +20,8 @@ _**【接口地址】**_
 | RoleName | string | 是 | 角色名称 |
 | RoleDesc | string | 否 | 角色描述 |
 | SortNo | int | 否 | 排序 |
+| SourceType| int | 否 | 项目自定义来源（0默认，1销售，2交付，3运营等） |
+
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 

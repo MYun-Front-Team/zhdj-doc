@@ -31,6 +31,8 @@ _**【接口地址】**_
 | RoleDesc | string | 否 | 角色描述 |
 | RightList | array object | 否 | 权限列表（见获取账户详情接口） |
 | SourceType| int | 否 | 项目自定义来源（0默认，1销售，2交付，3运营等） |
+| IsSystem| int | 否 | 是否是系统角色 |
+
 
 #### Right说明 {#应答数据-（巡河记录数组）}
 
