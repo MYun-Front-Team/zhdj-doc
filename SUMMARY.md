@@ -1015,6 +1015,7 @@
     * [获取职位列表](zhao-pin-mo-kuai/zhi-wei/huo-qu-zhi-wei-lie-biao.md)
     * [获取职位详情](zhao-pin-mo-kuai/zhi-wei/huo-qu-zhi-wei-xiang-qing.md)
     * [设置岗位的薪资](zhao-pin-mo-kuai/zhi-wei/she-zhi-gang-wei-de-xin-zi.md)
+    * [重设岗位薪资](zhao-pin-mo-kuai/zhi-wei/zhong-she-gang-wei-xin-zi.md)
   * [招聘](zhao-pin-mo-kuai/zhao-pin.md)
     * [一键发布招聘](zhao-pin-mo-kuai/zhao-pin/yi-jian-fa-bu-zhao-pin.md)
     * [获取招聘列表](zhao-pin-mo-kuai/zhao-pin/huo-qu-zhao-pin-lie-biao.md)
