@@ -41,10 +41,8 @@
 | InterviewLongitude | decimal（18，10） | 否 | 面试经度 |
 | InterviewLatitude | decimal（18，10） | 否 | 面试纬度 |
 | Reward|decimal| 否 | 平台奖励|
-
-
-
-
+|SalesManagerPersonSysNo| int | 否 |销售经理编码|
+|SalesManagerPersonName| int | 否 |销售经理名称|
 
 
 #### ShopInterviewDate
