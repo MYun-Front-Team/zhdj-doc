@@ -174,12 +174,8 @@
 | PlatPositionSalaryStatusList |array[int] | 否 | 平台可见岗位薪资状态（0待设置，10已设置） |
 | LeaderAdminStatusList|array[int] | 否 | 邀请人状态（0待激活 1激活 2禁用） |
 | SalesManagerPersonSysNo| int | 否 |销售经理系统编码| 
-
-
-
-
-
- 
+| SalesManagerDepartmentSysNo| int| 否 |交付当前部门|
+| FatherSalesManagerDepartmentSysNo| int | 否 |交付当前部门或下属部门| 
 
 
 > #### 查询Limit字段 {#请求数据}
