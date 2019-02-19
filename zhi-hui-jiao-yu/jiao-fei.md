@@ -31,7 +31,8 @@
 | PayAbleTotalAmount | decimal\(18,2\) | 否 | 应缴总金额 |
 | TotalAmount | decimal\(18,2\) | 否 | 总金额 |
 | PaidTotalAmount | decimal\(18,2\) | 否 | 已缴总金额 |
-| PersonTotalCount | int | 否 | 待缴总人数 |
+| PersonTotalCount | int | 否 | 费用相关总人数 |
+| WaitPaidCount | int | 否 | 待缴总人数 |
 | PersonPaidCount | int | 否 | 已缴总人数 |
 
 > #### 功能按钮字段 {#请求数据}
