@@ -28,8 +28,7 @@ http://ip:port/RecruitQuery/Settlement/GetSettlementList
 | EmployeeCheckList| array[int] | 否 |员工核对0初始，1部分，10全部|
 | MoneyBackList| array[int] | 否 |回款状态（0初始10正常回款11异常回款）|
 | FinishStatusList| array[int] | 否 |是否发薪水(0初始，10已发)|
-
-
+| SalesManagerPersonSysNo| int | 否 |销售经理系统编码|
 
 
 #### 返回参数
