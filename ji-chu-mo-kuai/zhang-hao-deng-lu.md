@@ -110,6 +110,9 @@ _**【接口地址】**_
 | OrganizationName | string | 是 | 组织名称 |
 | OrganizationShortName | string | 否 | 组织简称 |
 | PostSysNo| int | 否 | 职务端自定义(店员/HR) |
+| DepartmentSysNo| int | 否 | 部门编码 |
+
+
 
 
 #### CPSInfo说明_ _ {#应答数据-（巡河记录数组）}
