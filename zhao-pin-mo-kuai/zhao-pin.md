@@ -172,6 +172,8 @@
 | CustomerPositionName| Nvarchar\(50\) | 否 | 客户自定义职位名称 |
 | IsQuitList|array int| 是 | 是否离职（0正常，1离职） |
 | PlatPositionSalaryStatusList |array[int] | 否 | 平台可见岗位薪资状态（0待设置，10已设置） |
+| LeaderAdminStatusList|array[int] | 否 | 邀请人状态（0待激活 1激活 2禁用） |
+
 
 
  
