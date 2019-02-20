@@ -176,7 +176,7 @@
 | SalesManagerPersonSysNo| int | 否 |销售经理系统编码| 
 | SalesManagerDepartmentSysNo| int| 否 |交付当前部门|
 | FatherSalesManagerDepartmentSysNo| int | 否 |交付当前部门或下属部门| 
-| IsShowPublic| int | 是 |限制邀请人后，是否同时展示公海和潜客 |
+| IsShowPublic| int | 是 |限制交付人后，是否同时展示公海和潜客 |
 
 
 
