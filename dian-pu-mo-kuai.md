@@ -129,6 +129,8 @@
 | OrganizationSysNoList |array int | 是 |组织系统编码 |
 | RecruitNeedPlatAuditList|array int | 否 |发布岗位是否需要平台审核|
 | SellerTypeList | array int | 否 | 商家类型（行业枚举） |
+|SalesManagerDepartmentSysNo| int | 否 |商家销售部门编码|
+|FatherSalesManagerDepartmentSysNo| int | 否 |商家销售部门及下属部门编码|
 
 
 
