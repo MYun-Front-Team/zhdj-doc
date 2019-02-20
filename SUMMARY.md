@@ -1085,6 +1085,7 @@
     * [人员移除面试](zhao-pin-mo-kuai/ren-yuan-yi-chu-mian-shi.md)
     * [人员离职/在职](zhao-pin-mo-kuai/ren-yuan-li-zhi.md)
     * [删除面试人员](zhao-pin-mo-kuai/shan-chu-mian-shi-ren-yuan.md)
+    * [面试重新分配邀约人](zhao-pin-mo-kuai/mian-shi-zhong-xin-fen-pei-yao-yue-ren.md)
   * 实名认证
     * [获取实名认证列表](zhao-pin-mo-kuai/huo-qu-shi-ming-ren-zheng-lie-biao.md)
     * [审核通过/不通过实名认证](zhao-pin-mo-kuai/shen-he-tong-8fc7-bu-tong-guo-shi-ming-ren-zheng.md)
