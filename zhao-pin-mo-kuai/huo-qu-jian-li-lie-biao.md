@@ -40,8 +40,9 @@ _**【接口地址】**_
 | IsHealthyList|array[int] | 否 | 有无健康证|
 | ExpectPositionTypeList  |array[int] | 否 | 期望工作类型:0不限,1全职,2兼职 |
 | InviterPersonSysNo| int | 是 | 邀请人 |
-
-
+| InviterPersonDepartmentSysNo| int | 是 | 邀请人部门编码|
+| FatherInviterPersonDepartmentSysNo| int | 是 | 邀请人部门编码及下属部门|
+| IsShowPublic| int | 是 |限制邀请人后，是否同时展示公海和潜客 |
 
 #### Resume
 
