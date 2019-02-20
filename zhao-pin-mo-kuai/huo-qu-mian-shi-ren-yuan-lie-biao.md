@@ -54,6 +54,7 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | DataRangeSysNo| int | 否 |店铺树编码 |
 | SourceFrom| int | 否 |来源详情 |
 | SettlementDate| datetime| 是 | 账期时间 |
+| InvitePersonAdminStatusList|array[int] | 否 | 邀请人状态（0待激活 1激活 2禁用） |
 
 
 
