@@ -55,7 +55,8 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | SourceFrom| int | 否 |来源详情 |
 | SettlementDate| datetime| 是 | 账期时间 |
 | InvitePersonAdminStatusList|array[int] | 否 | 邀请人状态（0待激活 1激活 2禁用） |
-
+| InvitePersonDepartmentSysNo| int | 是 | 邀请人部门|
+| FatherInvitePersonDepartmentSysNo| int | 是 | 邀请人部门和下属部门|
 
 
 #### 返回参数
