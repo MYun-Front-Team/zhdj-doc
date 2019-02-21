@@ -136,6 +136,7 @@
 | :--- | :--- | :--- | :--- |
 | IndexSort| int| 否 | 排序 |
 | PersonName | string | 否 | 昵称 |
+| IsEnable| int| 否 |启用状态 |
 | FileUrlList | array string | 否 | 头像图片列表 |
 
 
@@ -147,6 +148,7 @@
 | :--- | :--- | :--- | :--- |
 | IndexSort| int| 否 | 排序 |
 | PersonName | string | 否 | 昵称 |
+| IsEnable| int| 否 |启用状态 |
 | FileUrlList | array string | 否 | 头像图片列表 |
 
 
