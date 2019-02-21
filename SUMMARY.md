@@ -628,6 +628,7 @@
     * [获取蓝晶兑换订单详情](ding-dan-mo-kuai/lan-jing/huo-qu-lan-jing-dui-huan-ding-dan-xiang-qing.md)
     * [获取蓝晶兑换订单列表](ding-dan-mo-kuai/lan-jing/huo-qu-lan-jing-dui-huan-ding-dan-lie-biao.md)
     * [编辑订单金额和魔力](ding-dan-mo-kuai/lan-jing/bian-ji-ding-dan-jin-e-he-mo-li.md)
+    * [随机获取渠道ID](ding-dan-mo-kuai/lan-jing/sui-ji-huo-qu-qu-dao-id.md)
   * [修改订单发货单信息](ding-dan-mo-kuai/xiu-gai-ding-dan-fa-huo-dan-xin-xi.md)
 * [交易模块](jiao-yi-mo-kuai.md)
   * [购物车管理](jiao-yi-mo-kuai/gou-wu-che-guan-li.md)
