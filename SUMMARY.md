@@ -4034,6 +4034,7 @@
   * [获取草稿详情](xiao-xi-tong-zhi-mo-kuai/huo-qu-cao-gao-xiang-qing.md)
   * [同步微信好友](xiao-xi-tong-zhi-mo-kuai/tong-bu-wei-xin-hao-you.md)
   * [获取微信好友](xiao-xi-tong-zhi-mo-kuai/huo-qu-wei-xin-hao-you.md)
+  * [发布同步微信好友信息](xiao-xi-tong-zhi-mo-kuai/fa-bu-tong-bu-wei-xin-hao-you-xin-xi.md)
 * [商品模块](shang-pin-mo-kuai.md)
   * [新增款](shang-pin-mo-kuai/xin-zeng-kuan.md)
   * [修改款](shang-pin-mo-kuai/xiu-gai-kuan.md)
