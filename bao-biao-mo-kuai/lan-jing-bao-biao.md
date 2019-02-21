@@ -1,4 +1,4 @@
-# 新闻报表
+# 蓝晶报表
 
 #### 页面编号枚举说明 {#请求数据}
 
@@ -12,6 +12,10 @@
 | 9000105 | 今年收益 | 今年收益 |
 | 9000106 | 月账单 | 月账单 |
 | 9000107 | 团队 | 团队 |
+| 9000108 | 蓝晶排名 | 蓝晶排名  |
+| 9000109 | 魔力排名 | 魔力排名  |
+| 9000110|影响力排名 | 影响力排名  |
+
 
 > #### 请求数据（PageRequestData）\_ {#请求数据}
 
@@ -124,3 +128,28 @@
 | LowFanLevel2Count| int| 否 | 二级理事人数|
 | HigFanLevel1Count| int| 否 | 一级社长人数|
 | HigFanLevel2Count| int| 否 | 二级社长人数|
+
+
+> #### 应答数据 （PageResponseBase）【9000108，9000109，9000110】
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| IndexSort| int| 否 | 排序 |
+| PersonName | string | 否 | 昵称 |
+| FileUrlList | array string | 否 | 头像图片列表 |
+
+
+
+
+> #### 应答数据 PageResponseStatistic 【9000108，9000109，9000110】
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| IndexSort| int| 否 | 排序 |
+| PersonName | string | 否 | 昵称 |
+| FileUrlList | array string | 否 | 头像图片列表 |
+
+
+
+
+
