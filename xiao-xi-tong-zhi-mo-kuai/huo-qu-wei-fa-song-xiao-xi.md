@@ -17,6 +17,11 @@ http://ip:port/MessageQuery/Message/GetMsgUnsendByDeviceCode
 | MsgType | int | 是 | 1群发，2朋友圈 |
 | Content | string | 是 | 文本内容 |
 | FileUrlList | array[string] | 是 | 资源内容列表 |
+| Friends | array[string] | 是 | 好友列表 |
+
+
+
+
 
 
 
