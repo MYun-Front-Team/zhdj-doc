@@ -16,7 +16,7 @@ http://ip:port/RecruitAction/Position/ReSetPositionSalary
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| PositionSysNo | int | 是 | 职位系统编码 |
+| PositionSysNoList |array[int] | 是 | 职位系统编码 |
 
 
 

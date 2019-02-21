@@ -40,6 +40,7 @@
 | AuditRemark| string| 否 |HR审核备注 |
 | PlatAuditStatus| int | 否 |岗位平台审核状态（0待审核 10已经审核 11审核不通过） |
 | PlatAuditRemark| int | 否 |岗位平台审核备注 |
+| PlatAuditPersonName| string| 否 |岗位平台审核人 |
 | RecruitNeedPlatAudit| int | 否 |发布岗位是否需要平台审核|
 | PlatPositionSalaryStatus | int | 否 | 平台可见岗位薪资状态（0待设置，10已设置） |
 
