@@ -4040,7 +4040,7 @@
   * [批量新增草稿](xiao-xi-tong-zhi-mo-kuai/pi-liang-xin-zeng-cao-gao.md)
   * [发布抓取朋友圈消息](xiao-xi-tong-zhi-mo-kuai/fa-bu-zhua-qu-peng-you-quan-xiao-xi.md)
   * [设置抓取朋友圈消息结果](xiao-xi-tong-zhi-mo-kuai/she-zhi-zhua-qu-peng-you-quan-xiao-xi-jie-guo.md)
-  * 获取抓取朋友圈消息结果
+  * [获取抓取朋友圈消息结果](xiao-xi-tong-zhi-mo-kuai/huo-qu-zhua-qu-peng-you-quan-xiao-xi-jie-guo.md)
 * [商品模块](shang-pin-mo-kuai.md)
   * [新增款](shang-pin-mo-kuai/xin-zeng-kuan.md)
   * [修改款](shang-pin-mo-kuai/xiu-gai-kuan.md)
