@@ -18,6 +18,7 @@ http://ip:port/MessageAction/Message/PublishSyncCircle
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| Body | int | 是 | 消息id |
 
 
 
