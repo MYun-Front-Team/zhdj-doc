@@ -2,7 +2,7 @@
 
 _**【接口地址】**_
 
-http://ip:port/MessageQuery/Message/GetDraftList
+http://ip:port/MessageQuery/Message/GetDraftBySysNo
 
 > #### _请求数据_
 
