@@ -71,7 +71,7 @@
 | GoToWrokCount| int | 否 | 已入职人数 |
 | RefuseCount| int | 否 |拒绝人数 |
 | NoComeCount| int | 否 |放鸽子人数 |
-| PickCount| int | 否 |已抢人数 |
+| PickCount| int | 否 |已抢人数（待面试） |
 | TakeInCount| int | 否 |线上已录用人数 |
 | InvalidCount| int | 否 |失效人数 |
 | FavoriteCount| int| 是 | 收藏数 |
@@ -80,11 +80,9 @@
 | InterviewPersonCount| int | 否 | 后台面试人数 |
 | IsFavorite| int| 否 | 是否收藏夹的 |
 | InterviewTakeInCount| int| 否 |线下已录用|
-
-
-
-
-
+| InterviewWaitGoToWrokCount| int| 否 |线下待入职人数|
+| InterviewGoToWrokCount| int| 否 |线下已入职人数|
+| InterviewPickCount| int | 否 |线下已抢人数（待面试） |
 
 
 #### RecruitPerson
