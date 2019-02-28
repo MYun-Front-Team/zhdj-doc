@@ -27,6 +27,11 @@ _**【接口地址】**_
 | IsEnable | int | 是 | 1启用，2禁用 |
 | detectRecorduploadCount | int | 是 | 上传报告数 |
 | detectRecordSuccessCount | int | 是 | 成功报告数 |
-
-
-
+| CMAUrl | string | 是 | CMA证书url |
+| CMAStartDate | datetime | 是 | CMA证书有效期始 |
+| CMAEndDate | datetime | 是 | CMA证书有效期止 |
+| CMALeftDay | int | 是 | CMA证书剩余有效期 |
+| VideoUrl | string | 是 | 视频url |
+| AreaCode | string | 是 | 区域编号 |
+| AreaName | string | 是 | 区域名称 |
+| DeviceNum | int | 是 | 设备数量 |
