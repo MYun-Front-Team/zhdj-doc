@@ -35,3 +35,12 @@ _**【接口地址】**_
 | AreaCode | string | 是 | 区域编号 |
 | AreaName | string | 是 | 区域名称 |
 | DeviceNum | int | 是 | 设备数量 |
+| DeviceList | array object | 是 | 设备列表 |
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| DeviceSysNo | int | 是 | 设备id |
+| DevicecName | string | 是 | 设备名称 |
+| StartDate | datetime | 是 | 设备有效期起 |
+| EndDate | datetime | 是 | 设备有效期止 |
+| DeviceStatus | int | 是 | 1未过期，10已过期 |
