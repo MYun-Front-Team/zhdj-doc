@@ -4847,6 +4847,7 @@
   * [删除设备](che-liang-jian-ce-mo-kuai/shan-chu-she-bei.md)
   * [获取预警条件列表](che-liang-jian-ce-mo-kuai/huo-qu-yu-jing-tiao-jian-lie-biao.md)
   * [获取预警条件详情](che-liang-jian-ce-mo-kuai/huo-qu-gui-ze-xiang-qing.md)
+  * [编辑预警条件](che-liang-jian-ce-mo-kuai/bian-ji-yu-jing-tiao-jian.md)
 * [水箱模块](shui-xiang-mo-kuai.md)
   * [获取水箱列表](shui-xiang-mo-kuai/huo-qu-shui-xiang-lie-biao.md)
   * [获取水箱详情](shui-xiang-mo-kuai/huo-qu-shui-xiang-xiang-qing.md)
