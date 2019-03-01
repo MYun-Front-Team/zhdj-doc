@@ -8,7 +8,7 @@ http://ip:port/VDQuery/Detect/GetRuleBySysNo
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-
+| RuleSysNo | int | 是 | 规则id |
 
 > #### _应答数据 _
 
