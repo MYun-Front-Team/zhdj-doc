@@ -4850,6 +4850,7 @@
   * [编辑预警条件](che-liang-jian-ce-mo-kuai/bian-ji-yu-jing-tiao-jian.md)
   * [设置预警条件启用](che-liang-jian-ce-mo-kuai/she-zhi-yu-jing-tiao-jian-qi-yong.md)
   * [获取预警列表](che-liang-jian-ce-mo-kuai/huo-qu-yu-jing-lie-biao.md)
+  * [处理预警](che-liang-jian-ce-mo-kuai/chu-li-yu-jing.md)
 * [水箱模块](shui-xiang-mo-kuai.md)
   * [获取水箱列表](shui-xiang-mo-kuai/huo-qu-shui-xiang-lie-biao.md)
   * [获取水箱详情](shui-xiang-mo-kuai/huo-qu-shui-xiang-xiang-qing.md)
