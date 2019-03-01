@@ -8,7 +8,7 @@ http://ip:port/VDAction/Detect/HandleAlarm
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| AlarmSysNo | int | 是 | 预警id |
+| AlarmSysNoList | array[int] | 是 | 预警id列表 |
 
 
 > #### _应答数据 _
