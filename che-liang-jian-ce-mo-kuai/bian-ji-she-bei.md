@@ -9,7 +9,7 @@ http://ip:port/VDAction/Detect/EditDevice
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | DeviceSysNo | int | 是 | 设备id |
-| DevicecName | string | 是 | 设备名称 |
+| DeviceName | string | 是 | 设备名称 |
 | StartDate | datetime | 是 | 设备有效期起 |
 | EndDate | datetime | 是 | 设备有效期止 |
 
