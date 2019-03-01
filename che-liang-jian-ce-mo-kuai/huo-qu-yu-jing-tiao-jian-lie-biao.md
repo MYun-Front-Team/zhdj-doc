@@ -17,4 +17,5 @@ http://ip:port/VDQuery/Detect/GetRuleList
 | RuleSysNo | int | 是 | 规则id |
 | RuleType | int | 是 | 1动力性（稳定车速），2经济性（实测值），3第一转向轮（侧滑量），4第二转向轮（侧滑量），5同一车辆两次检测间隔时间 |
 | RuleName | string | 是 | 规则名称 |
+| RuleValue | string | 是 | 规则值 |
 | IsEnable | int | 是 | 0否1是 |
