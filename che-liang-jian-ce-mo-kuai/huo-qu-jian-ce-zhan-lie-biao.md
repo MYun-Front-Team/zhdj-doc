@@ -37,3 +37,4 @@ _**【接口地址】**_
 | AreaCode | string | 是 | 区域编号 |
 | AreaName | string | 是 | 区域名称 |
 | DeviceNum | int | 是 | 设备数量 |
+| DeviceInvalidNum | int | 是 | 设备过期数量 |
