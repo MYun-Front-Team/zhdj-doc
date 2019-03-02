@@ -80,6 +80,7 @@
 | HouseKeyWord | string | 否 | 房屋关键字（房管家） |
 | HouseDataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表 |
 | ToPersonCardNo | string | 否 | 卡号|
+| PCDCode | string | 否 | 省市区 代码 |
 
 
 > #### 查询Limit字段 {#请求数据}
