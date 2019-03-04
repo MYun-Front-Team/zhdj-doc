@@ -49,30 +49,29 @@ _**【接口地址】**_
 | EffectiveDays | int | 否（可选配置） | 有效天数 |
 | EffectiveDate | string | 否（可选配置） | 有效期 |
 | EffectiveType | int | 否（可选配置） | 有效类型：0天数，1日期 |
-| IsSupportPointPay| int | 否 | 是否支持积分支付 |
-| RewardPoint| int | 否 | 奖励积分 |
-| ServiceType| int | 否 | 消费方式（0按次数，1按时间） |
-| ServiceOutMinutes| int | 否 | 过期时间（分钟）（0为长期有效）|
-| GroupSysNos| Array[int]| 否 |商品分组|
-| RewardMP| decimal| 否 | 奖励魔力|
-| FakeSaleCount|int| 否 |虚假销量|
-| CPSMaterialUrl|string| 否 |CPS落地页|
+| IsSupportPointPay | int | 否 | 是否支持积分支付 |
+| RewardPoint | int | 否 | 奖励积分 |
+| ServiceType | int | 否 | 消费方式（0按次数，1按时间） |
+| ServiceOutMinutes | int | 否 | 过期时间（分钟）（0为长期有效） |
+| GroupSysNos | Array\[int\] | 否 | 商品分组 |
+| RewardMP | decimal | 否 | 奖励魔力 |
+| FakeSaleCount | int | 否 | 虚假销量 |
+| CPSMaterialUrl | string | 否 | CPS落地页 |
 | CPSSysNo | int | 否 | CPS编码 |
-| SourceCPSSysNo|int| 是 |来源三方CPS|
+| SourceCPSSysNo | int | 是 | 来源三方CPS |
 | CPSStartDate | string | 否 | 三方CPS开始推荐 |
 | CPSEndDate | string | 否 | 三方CPS结束推荐 |
 | CPSInOrderCount | int | 否 | 三方CPS评价 |
-| SourceProductGroupCode|string| 是 |来源三方编码|
-| TaoWord|string| 是 |淘口令|
+| SourceProductGroupCode | string | 是 | 来源三方编码 |
+| TaoWord | string | 是 | 淘口令 |
 | FakeInventoryCount | int | 否 | 可砍份数 |
-| StartSaleDate| datetime| 是 | 开卖时间|
-| GroupByCode| string| 否 | 多款聚合规格名称 |
-| IsGroupByDefault| int | 否 | 多款聚合默认显示 |
-| GroupByOtherName| string| 否 | 多款聚合别名 |
-| ShopShowSourceList|array[int] | 否 |展示来源（0普通，1蓝晶兑换） |
-
-
-
+| StartSaleDate | datetime | 是 | 开卖时间 |
+| GroupByCode | string | 否 | 多款聚合规格名称 |
+| IsGroupByDefault | int | 否 | 多款聚合默认显示 |
+| GroupByOtherName | string | 否 | 多款聚合别名 |
+| ShopShowSourceList | array\[int\] | 否 | 展示来源（0普通，1蓝晶兑换） |
+| SubsidyMP | decimal | 否 | 补贴魔力 |
+| SubsidyMPRate | decimal | 否 | 补贴魔力比率 |
 
 
 #### _应答数据 _ {#应答数据-}
