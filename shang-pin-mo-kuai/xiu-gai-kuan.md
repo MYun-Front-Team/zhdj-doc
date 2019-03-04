@@ -67,8 +67,8 @@ _**【接口地址】**_
 | IsGroupByDefault| int | 否 | 多款聚合默认显示 |
 | GroupByOtherName| string| 否 | 多款聚合别名 |
 | ShopShowSourceList|array[int] | 否 |展示来源（0普通，1蓝晶兑换） |
-
-
+| SubsidyMP | decimal | 否 | 补贴魔力 |
+| SubsidyMPRate | decimal | 否 | 补贴魔力比率 |
 
 #### _应答数据_ {#应答数据-}
 

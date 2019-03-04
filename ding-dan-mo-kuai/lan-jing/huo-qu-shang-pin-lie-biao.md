@@ -70,7 +70,6 @@ http://ip:port/ProductQuery/LJProductGroup/GetLJProductGroupList
 | SourceSkuCode| string | 是 | CPSSKU编码 |
 | SkuInventory| SkuInventory | 是 | 库存信息|
 
-
 #### SkuInventory
 
 | 变量名 | 类型 | 是否必须 | 描述 |
@@ -78,8 +77,6 @@ http://ip:port/ProductQuery/LJProductGroup/GetLJProductGroupList
 | PhysicalQuantity| int| 是 | 物理库存|
 | AvailableQuantity| int| 是 | 可用库存|
 | OrderLockQuantity| int| 是 | 锁定库存|
-
-
 
 
 #### Price {#应答数据-（巡河记录数组）}
@@ -92,12 +89,5 @@ http://ip:port/ProductQuery/LJProductGroup/GetLJProductGroupList
 | CouponPrice| decimal | 否 | 优惠券金额 |
 | ReturnPrice | decimal| 否 | 返还金额 |
 | LJPrice | decimal\(18,2\) | 否 | 蓝晶价 |
-
-
-
-
-
-
-
-
+| SubsidyMP | decimal | 否 | 补贴魔力 |
 
