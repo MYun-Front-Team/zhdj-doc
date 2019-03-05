@@ -155,6 +155,10 @@
 | IsShowSellerBossPerson | int | 否 | 是否显示商家创始人 |
 | IsShowSellerCategoryList | int | 否 | 是否显示商家行业列表 |
 | IsShowObjectFileList | int | 否 | 是否显示附件 |
+| IsShowContractUrlList  | int | 否 | 是否显示合同图片 |
+
+
+
 
 
 
