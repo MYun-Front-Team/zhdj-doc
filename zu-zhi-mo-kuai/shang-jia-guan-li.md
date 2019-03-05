@@ -90,7 +90,12 @@
 |SalesManagerDepartmentSysNo| int | 否 |销售部门编码|
 |SalesManagerDepartmentName| string| 否 |销售部门|
 |RecruitStatus| int | 否 |招聘状态（10进行中，0未开始）|
-
+|IsRecruitFullTime| int | 否 |是否支持全职招聘|
+|RecruitFullTimeServerSysNo| int | 否 |全职招聘服务商|
+|RecruitFullTimeCertificateSysNo| int | 否 |全职招聘签约主体|
+|IsRecruitPartTime| int | 否 |是否支持兼职招聘|
+|RecruitPartTimeServerSysNo| int | 否 |兼职招聘服务商|
+|RecruitPartTimeCertificateSysNo| int | 否 |兼职招聘签约主体|
 
 
 
@@ -102,8 +107,6 @@
 | FileTitle| string| 是 | 文件名称 |
 | FilePath| string| 是 | 文件地址 |
 | FileUrl| string| 是 | 文件地址 |
-
-
 
 
 > #### SellerStatistic统计计算字段 {#请求数据}
