@@ -41,6 +41,8 @@ http://ip:port/RecruitAction/Settlement/AddSettlement
 | Salary| decimal | 是 |时薪水 |
 | EntryDate| datetime| 是 |入职时间 |
 | QuitDate| datetime| 是 |离职时间 |
+| SellerReward | decimal| 是 |商家奖励金|
+| SellerFine| decimal| 是 |商家罚款|
 
 
 #### 返回数据
