@@ -72,8 +72,12 @@ _**【接口地址】**_
 |TaxRate| decimal| 否 |税率|
 |SalaryTimes| int | 否 |加班时薪倍数|
 |SalesManagerPersonSysNo| int | 否 |销售经理|
-
-
+|IsRecruitFullTime| int | 否 |是否支持全职招聘|
+|RecruitFullTimeServerSysNo| int | 否 |全职招聘服务商|
+|RecruitFullTimeCertificateSysNo| int | 否 |全职招聘签约主体|
+|IsRecruitPartTime| int | 否 |是否支持兼职招聘|
+|RecruitPartTimeServerSysNo| int | 否 |兼职招聘服务商|
+|RecruitPartTimeCertificateSysNo| int | 否 |兼职招聘签约主体|
 
 
 #### File说明 {#应答数据-}
