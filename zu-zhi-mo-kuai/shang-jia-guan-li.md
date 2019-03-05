@@ -92,13 +92,14 @@
 |RecruitStatus| int | 否 |招聘状态（10进行中，0未开始）|
 |IsRecruitFullTime| int | 否 |是否支持全职招聘|
 |RecruitFullTimeServerSysNo| int | 否 |全职招聘服务商|
+|RecruitFullTimeServerName| string| 否 |全职招聘服务商名称|
 |RecruitFullTimeCertificateSysNo| int | 否 |全职招聘签约主体|
+|RecruitFullTimeCertificateName| int | 否 |全职招聘签约主体名称|
 |IsRecruitPartTime| int | 否 |是否支持兼职招聘|
 |RecruitPartTimeServerSysNo| int | 否 |兼职招聘服务商|
+|RecruitPartTimeServerName| int | 否 |兼职招聘服务商名称|
 |RecruitPartTimeCertificateSysNo| int | 否 |兼职招聘签约主体|
-
-
-
+|RecruitPartTimeCertificateName| int | 否 |兼职招聘签约主体名称|
 
 #### File说明 {#应答数据-}
 
