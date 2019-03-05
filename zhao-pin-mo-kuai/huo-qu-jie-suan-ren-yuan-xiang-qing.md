@@ -55,3 +55,7 @@ http://ip:port/RecruitQuery/Settlement/GetSettlementItemBySysNo
 | PlatformAdjustCount| int | 是 |平台校对次数|
 | ActualAmount| decimal| 是 |应发薪资|
 | ColourType| int | 是 | 0正常 1红背景红文字 2红子|
+| SellerReward | decimal| 是 |商家奖励金|
+| SellerFine| decimal| 是 |商家罚款|
+
+
