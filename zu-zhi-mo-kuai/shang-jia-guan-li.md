@@ -65,6 +65,8 @@
 | ServiceCellPhoneNo| string| 否 |默认客服电话 |
 | ServiceFileUrlList | array string | 否 | 头像图片列表 |
 |ContractCode| string | 否 |合同编号|
+| ContractPathList | array string | 否 | 合同路径列表 |
+| ContractUrlList | array string | 否 | 合同的URL列表 |
 |ActiveStatus| int | 否 |激活状态（0待激活，10启用）|
 |InUser| string | 否 |创建人|
 |EditUser| string | 否 |编辑人|
