@@ -94,12 +94,12 @@
 |RecruitFullTimeServerSysNo| int | 否 |全职招聘服务商|
 |RecruitFullTimeServerName| string| 否 |全职招聘服务商名称|
 |RecruitFullTimeCertificateSysNo| int | 否 |全职招聘签约主体|
-|RecruitFullTimeCertificateName| int | 否 |全职招聘签约主体名称|
+|RecruitFullTimeCertificateName| string | 否 |全职招聘签约主体名称|
 |IsRecruitPartTime| int | 否 |是否支持兼职招聘|
 |RecruitPartTimeServerSysNo| int | 否 |兼职招聘服务商|
-|RecruitPartTimeServerName| int | 否 |兼职招聘服务商名称|
+|RecruitPartTimeServerName| string | 否 |兼职招聘服务商名称|
 |RecruitPartTimeCertificateSysNo| int | 否 |兼职招聘签约主体|
-|RecruitPartTimeCertificateName| int | 否 |兼职招聘签约主体名称|
+|RecruitPartTimeCertificateName| string| 否 |兼职招聘签约主体名称|
 
 #### File说明 {#应答数据-}
 
