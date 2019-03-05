@@ -17,6 +17,7 @@ http://ip:port/RecruitQuery/Contract/GetCertificateList
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| RecruitServerSysNo| int | 否 | 服务商系统编码 |
 
 
 
@@ -34,4 +35,5 @@ http://ip:port/RecruitQuery/Contract/GetCertificateList
 | SellerMasterPhone| string| 是 | 法人代表电话 |
 | CertificateStatus| int | 是 | 证书申请状态（10通过） |
 | TemCount| int | 是 | 模板数量|
-
+| RecruitServerSysNo| int | 是 | 服务商系统编码 |
+| RecruitServerName| int | 是 | 服务商名称 |
