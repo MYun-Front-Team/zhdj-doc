@@ -19,4 +19,8 @@ http://ip:port/RecruitAction/Settlement/EditSettlementItem
 | WorkHour| int | 是 |工作小时数合计 |
 | OvertimeHour| int | 是 |固定加班小时数 |
 | Salary| decimal | 是 |时薪水 |
+| SellerReward | decimal| 是 |商家奖励金|
+| SellerFine| decimal| 是 |商家罚款|
+
+
 
