@@ -59,3 +59,5 @@ http://ip:port/RecruitQuery/Settlement/GetSettlementList
 | FinishStatus| int| 是 |是否发薪水(0初始，1发放薪水中，10已发)|
 | MoneyBackRemark| string| 是 |实收金额备注|
 | ColourType| int | 是 | 0正常 1红背景红文字 2红子|
+| ItemActualAmount| decimal| 是 |应发薪资|
+

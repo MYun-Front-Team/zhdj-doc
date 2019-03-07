@@ -46,3 +46,5 @@ http://ip:port/RecruitQuery/Settlement/GetSettlementBySysNo
 | MoneyBackRemark| string| 是 |实收金额备注|
 | PlatformAdjustCount| int | 是 |平台校对次数|
 | ColourType| int | 是 | 0正常 1红背景红文字 2红子|
+| ItemActualAmount| decimal| 是 |应发薪资|
+
