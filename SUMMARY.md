@@ -1111,6 +1111,7 @@
     * [下载合同](zhao-pin-mo-kuai/xia-zai-he-tong.md)
     * [获取三方合同ID接口](zhao-pin-mo-kuai/huo-qu-san-fang-he-tong-id-jie-kou.md)
     * [获取抢工服务商列表](zhao-pin-mo-kuai/huo-qu-qiang-gong-fu-wu-shang-lie-biao.md)
+    * [获取爱员工合同模板](zhao-pin-mo-kuai/huo-qu-he-tong-mo-ban.md)
   * 项目结算
     * [获取项目结算列表](zhao-pin-mo-kuai/huo-qu-xiang-mu-jie-suan-lie-biao.md)
     * [获取项目结算列表详情](zhao-pin-mo-kuai/huo-qu-xiang-mu-jie-suan-lie-biao-xiang-qing.md)
