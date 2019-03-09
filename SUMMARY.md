@@ -1113,6 +1113,7 @@
     * [获取抢工服务商列表](zhao-pin-mo-kuai/huo-qu-qiang-gong-fu-wu-shang-lie-biao.md)
     * [获取爱员工合同模板](zhao-pin-mo-kuai/huo-qu-he-tong-mo-ban.md)
     * [签署合同（爱员工）](zhao-pin-mo-kuai/qian-shu-he-tong-ff08-ai-yuan-gong-ff09.md)
+    * [获取爱员工合同详情](zhao-pin-mo-kuai/huo-qu-ai-yuan-gong-he-tong-xiang-qing.md)
   * 项目结算
     * [获取项目结算列表](zhao-pin-mo-kuai/huo-qu-xiang-mu-jie-suan-lie-biao.md)
     * [获取项目结算列表详情](zhao-pin-mo-kuai/huo-qu-xiang-mu-jie-suan-lie-biao-xiang-qing.md)
