@@ -44,4 +44,9 @@ http://ip:port/RecruitQuery/Authentication/GetAuthenticationList
 | CreateTime| string  | 是 |递交认证日期|
 | FPersonIDCardUrl | string | 否 | 身份证正面 |
 | BPersonIDCardUrl | string | 否 | 身份证反面 |
+| FrontfileByte| string | 否 |身份证正面 |
+| BackfileByte| string | 否 |身份证背面 |
+
+
+
 
