@@ -3791,6 +3791,7 @@
   * [确认党费记录状态](f/que-ren-jiao-fei.md)
   * [党费微信在线支付](f/dang-fei-wei-xin-zai-xian-zhi-fu.md)
   * [获取党员发展统计](f/huo-qu-dang-yuan-fa-zhan-tong-ji.md)
+  * [新增干部](f/xin-zeng-gan-bu.md)
 * [帮扶管理（删）](methods/bang-fu-guan-li.md)
   * [获取帮扶列表](methods/bang-fu-guan-li/huo-qu-bang-fu-lie-biao.md)
   * [获取帮扶详情](methods/bang-fu-guan-li/huo-qu-bang-fu-xiang-qing.md)
