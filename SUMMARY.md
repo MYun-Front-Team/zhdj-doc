@@ -3794,6 +3794,10 @@
   * [新增干部](f/xin-zeng-gan-bu.md)
   * [编辑干部](f/bian-ji-gan-bu.md)
   * [获取干部列表](f/huo-qu-gan-bu-lie-biao.md)
+  * 新增奖惩
+  * 编辑奖惩
+  * 删除奖惩
+  * 获取干部详情
 * [帮扶管理（删）](methods/bang-fu-guan-li.md)
   * [获取帮扶列表](methods/bang-fu-guan-li/huo-qu-bang-fu-lie-biao.md)
   * [获取帮扶详情](methods/bang-fu-guan-li/huo-qu-bang-fu-xiang-qing.md)
