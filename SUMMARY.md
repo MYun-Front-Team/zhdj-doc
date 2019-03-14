@@ -3798,6 +3798,7 @@
   * [编辑奖惩](f/bian-ji-jiang-cheng.md)
   * [删除奖惩](f/shan-chu-jiang-cheng.md)
   * [获取干部详情](f/huo-qu-gan-bu-xiang-qing.md)
+  * [删除干部](f/shan-chu-gan-bu.md)
 * [帮扶管理（删）](methods/bang-fu-guan-li.md)
   * [获取帮扶列表](methods/bang-fu-guan-li/huo-qu-bang-fu-lie-biao.md)
   * [获取帮扶详情](methods/bang-fu-guan-li/huo-qu-bang-fu-xiang-qing.md)
