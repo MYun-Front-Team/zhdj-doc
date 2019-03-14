@@ -3794,7 +3794,7 @@
   * [新增干部](f/xin-zeng-gan-bu.md)
   * [编辑干部](f/bian-ji-gan-bu.md)
   * [获取干部列表](f/huo-qu-gan-bu-lie-biao.md)
-  * 新增奖惩
+  * [新增奖惩](f/xin-zeng-jiang-cheng.md)
   * 编辑奖惩
   * 删除奖惩
   * 获取干部详情
