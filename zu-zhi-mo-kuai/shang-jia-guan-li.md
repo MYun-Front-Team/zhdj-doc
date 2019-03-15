@@ -100,6 +100,7 @@
 |RecruitPartTimeServerName| string | 否 |兼职招聘服务商名称|
 |RecruitPartTimeCertificateSysNo| int | 否 |兼职招聘签约主体|
 |RecruitPartTimeCertificateName| string| 否 |兼职招聘签约主体名称|
+| SellerCode | string | 是 | 商家唯一编号 |
 
 #### File说明 {#应答数据-}
 

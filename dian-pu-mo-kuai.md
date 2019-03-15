@@ -67,6 +67,8 @@
 | InterviewRemark| string| 否 | 面试备注 |
 | InterviewLongitude | decimal\(18,10\) | 否 | 面试经度 |
 | InterviewLatitude | decimal\(18,10\) | 否 | 面试纬度 |
+| ShopCode | string | 是 | 店家唯一编号 |
+
 
 
 
