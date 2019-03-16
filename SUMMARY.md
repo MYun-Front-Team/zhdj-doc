@@ -4971,4 +4971,6 @@
   * [导入残疾人](fu-ju-shi-pei-ping-gu-mo-kuai/dao-ru-can-ji-ren.md)
   * [移动辅具适配评估](fu-ju-shi-pei-ping-gu-mo-kuai/yi-dong-fu-ju-shi-pei-ping-gu.md)
   * [移动辅具下一组问题](fu-ju-shi-pei-ping-gu-mo-kuai/yi-dong-fu-ju-xia-yi-zu-wen-ti.md)
+  * [注销报告书](fu-ju-shi-pei-ping-gu-mo-kuai/zhu-xiao-bao-gao-shu.md)
+  * [导入评估任务单](fu-ju-shi-pei-ping-gu-mo-kuai/dao-ru-ping-gu-ren-wu-dan.md)
 
