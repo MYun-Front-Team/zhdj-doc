@@ -14,6 +14,7 @@ http://ip:port/PartyQuery/Party/GetCadreList
 | InnerPartyStatusList | array int | 否 | 政治面貌 |
 | Awarded | int | 否 | 是否获奖：0全部，1是，2否 |
 | Punished | int | 否 | 是否受过处分：0全部，1是，2否 |
+| Level | string | 否 | 获奖级别 |
 
 
 #### _应答数据_ {#应答数据-}
