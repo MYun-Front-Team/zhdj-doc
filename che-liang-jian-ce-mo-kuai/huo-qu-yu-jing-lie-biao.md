@@ -14,6 +14,7 @@ http://ip:port/VDQuery/Detect/GetAlarmList
 | EndDetectDate | datetime | 否 | 检测日期止 |
 | vehicleNo | string | 否 | 车牌号码 |
 | HandleStatusList | array[int] | 否 | 1未处理，10已处理 |
+| Reason | string | 否 | 预警原因 |
 
 > #### _应答数据 _（数组）
 
