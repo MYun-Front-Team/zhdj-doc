@@ -9,7 +9,7 @@ http://ip:port/PartyAction/Party/AddAwardPunish
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | MemberSysNo | int | 是 | 干部id |
-| GeneralType | int | 是 | 1奖励，2惩罚，3重大事项报告 |
+| GeneralType | int | 是 | 1奖励，2惩罚，3重大事项报告，4任免，5履职，6个人有关事项申报 |
 | Year | string | 是 | 年度 |
 | Level | string | 否 | 级别 |
 | AwardType | string | 否 | 获奖类型 |
