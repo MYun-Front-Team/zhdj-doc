@@ -69,6 +69,9 @@ _**【接口地址】**_
 | ShopShowSourceList|array[int] | 否 |展示来源（0普通，1蓝晶兑换） |
 | SubsidyMP | decimal | 否 | 补贴魔力 |
 | SubsidyMPRate | decimal | 否 | 补贴魔力比率 |
+| LimitBuyCount | int | 否 | 限购数|
+
+
 
 #### _应答数据_ {#应答数据-}
 

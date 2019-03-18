@@ -85,6 +85,9 @@
 | GroupByOtherName| string| 否 | 多款聚合别名 |
 | HollowSortNo | int | 否 | 坑位排序 |
 | ShopShowSourceList|array[int] | 否 |展示来源（0普通，1蓝晶兑换） |
+| LimitBuyCount | int | 否 | 限购数|
+
+
 
 
 
