@@ -14,7 +14,3 @@ http://ip:port/VDAction/Detect/DelAbnormal
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-
-
-
-
