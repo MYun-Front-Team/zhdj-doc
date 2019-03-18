@@ -32,6 +32,9 @@ http://ip:port/PartyQuery/Party/GetCadreBySysNo
 | AwardList | array object | 否 | 奖励列表 |
 | PunishList | array object | 否 | 惩罚列表 |
 | ReportList | array object | 否 | 报告列表 |
+| RenMianList | array object | 否 | 任免列表 |
+| LvZhiList | array object | 否 | 履职列表 |
+| GeRenList | array object | 否 | 个人列表 |
 
 
 
