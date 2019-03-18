@@ -8,7 +8,7 @@ http://ip:port/VDAction/Detect/DelAbnormal
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| AbnormalSysNo | int | 是 | 异常名单id |
+| AbnormalSysNoList | array int | 是 | 异常名单id列表 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
