@@ -267,6 +267,7 @@
   * [获取上级用户](ji-chu-mo-kuai/huo-qu-shang-ji-yong-hu.md)
   * [设置人员CPS信息](ji-chu-mo-kuai/she-zhi-ren-yuan-cps-xin-xi.md)
   * [获取人员CPS信息](ji-chu-mo-kuai/huo-qu-ren-yuan-cps-xin-xi.md)
+  * [修改手机号（会修改手机的登录账号）](ji-chu-mo-kuai/xiu-gai-shou-ji-hao-ff08-hui-xiu-gai-shou-ji-de-deng-lu-zhang-hao-ff09.md)
 * [邀请码管理](tong-yong-mo-kuai/yao-qing-ma-guan-li.md)
   * [获取邀请码列表](tong-yong-mo-kuai/yao-qing-ma-guan-li/huo-qu-yao-qing-ma-lie-biao.md)
   * [给用户分配邀请码](tong-yong-mo-kuai/yao-qing-ma-guan-li/gei-yong-hu-fen-pei-yao-qing-ma.md)
