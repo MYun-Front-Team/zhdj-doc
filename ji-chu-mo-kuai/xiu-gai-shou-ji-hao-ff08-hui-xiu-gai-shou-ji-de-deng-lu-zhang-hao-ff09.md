@@ -15,6 +15,10 @@ http://ip:port/BasicAction/Basic/EditCellPhoneNoAndLogin
 | :--- | :--- | :--- | :--- |
 | PersonSysNo| int | 是 | PersonSysNo|
 | NewCellPhoneNo | string | 是 | 新手机号 |
+| Captcha | string | 否 | 验证码 |
+
+
+
 
 > #### _请求数据_ {#请求数据}
 
