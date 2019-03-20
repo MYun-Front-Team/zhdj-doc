@@ -71,6 +71,18 @@ _**【接口地址】**_
 | TagClassName| string| 是 |福利名称  |
 
 
+> #### PositionSalary 薪资 {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| SalaryType | int | 是 | 薪资类型：1月，2天，3时 |
+| SalaryMax | Decimal\(18,2\) | 是 | 最大值 |
+| SalaryMin | Decimal\(18,2\) | 是 | 最小值 |
+| Remark | Nvarchar\(max\) | 否 | 备注 |
+
+
+
+
 
 
 
