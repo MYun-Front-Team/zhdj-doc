@@ -412,6 +412,7 @@
   * [批量设置商品分类](shang-pin-mo-kuai/pi-liang-she-zhi-shang-pin-fen-lei.md)
   * [转移商品商家](shang-pin-mo-kuai/zhuan-yi-shang-pin-shang-jia.md)
   * [查看三方商品编码是否可用](shang-pin-mo-kuai/cha-kan-san-fang-shang-pin-bian-ma-shi-fou-ke-yong.md)
+  * [蓝晶社批量修改商品信息](shang-pin-mo-kuai/lan-jing-she-pi-liang-xiu-gai-shang-pin-xin-xi.md)
 * [组织模块](zu-zhi-mo-kuai.md)
   * [获取组织列表](zu-zhi-mo-kuai/huo-qu-zu-zhi-lie-biao.md)
   * [获取组织详情](zu-zhi-mo-kuai/huo-qu-zu-zhi-xiang-qing.md)
