@@ -70,7 +70,7 @@ _**【接口地址】**_
 | SubsidyMP | decimal | 否 | 补贴魔力 |
 | SubsidyMPRate | decimal | 否 | 补贴魔力比率 |
 | LimitBuyCount | int | 否 | 限购数|
-
+| IsAllSubsidyMP | int | 否 | 无论商品购买多少个，补贴魔力只给1份|
 
 
 #### _应答数据_ {#应答数据-}

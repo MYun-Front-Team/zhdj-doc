@@ -86,9 +86,7 @@
 | HollowSortNo | int | 否 | 坑位排序 |
 | ShopShowSourceList|array[int] | 否 |展示来源（0普通，1蓝晶兑换） |
 | LimitBuyCount | int | 否 | 限购数|
-
-
-
+| IsAllSubsidyMP | int | 否 | 无论商品购买多少个，补贴魔力只给1份|
 
 
 
