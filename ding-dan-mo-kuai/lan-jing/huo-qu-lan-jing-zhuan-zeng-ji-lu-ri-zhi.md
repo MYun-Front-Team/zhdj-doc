@@ -18,7 +18,8 @@ http://ip:port/PointsQuery/LJPoint/GetLJPointTransferLog
 | OutPersonSysNo| int | 否 |转出人员系统编码 |
 | StartCreateTime| datetime| 否 |开始创建|
 | EndCreateTime| datetime| 否 |终止创建|
-
+| StartChangePointsValue| decimal| 是 |起始蓝晶（正数）|
+| EndChangePointsValue| decimal| 是 |终止蓝晶（正数）|
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
