@@ -175,7 +175,7 @@
 | SalesManagerDepartmentSysNo| int| 否 |交付当前部门|
 | FatherSalesManagerDepartmentSysNo| int | 否 |交付当前部门或下属部门| 
 | IsShowPublic| int | 是 |限制交付人后，是否同时展示公海和潜客 |
-
+|IsHot| int | 否 |是否热门岗位|
 
 
 > #### 查询Limit字段 {#请求数据}
