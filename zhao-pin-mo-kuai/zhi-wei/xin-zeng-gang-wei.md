@@ -34,14 +34,9 @@ _**【接口地址】**_
 | TagClassList | array object | 否 | 福利标签列表（说明见通用） |
 | CustomerPositionName| Nvarchar\(50\) | 否 | 客户自定义职位名称 |
 | PositionDayAreaList | array object | 否 | 工作日期列表（日期） |
-
-
-
-
-
-
-
-
+|IsHot| int | 否 |是否热门岗位|
+|HotStartTime| datetime | 否 |热门开始|
+|HotEndTime| int | 否 |热门结束|
 
 
 

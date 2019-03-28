@@ -43,7 +43,9 @@
 | Reward|decimal| 否 | 平台奖励|
 |SalesManagerPersonSysNo| int | 否 |销售经理编码|
 |SalesManagerPersonName| int | 否 |销售经理名称|
-
+|IsHot| int | 否 |是否热门岗位|
+|HotStartTime| datetime | 否 |热门开始|
+|HotEndTime| int | 否 |热门结束|
 
 #### ShopInterviewDate
 
