@@ -150,8 +150,5 @@
 | PersonName | string | 否 | 昵称 |
 | IsEnable| int| 否 |启用状态 |
 | FileUrlList | array string | 否 | 头像图片列表 |
-
-
-
-
-
+| IsEnable| int| 否 |启用状态 |
+| Differ| decimal| 否 |和上一位差 |
