@@ -62,7 +62,7 @@ Question
 | QuestionNo | string | 是 | 问题编号 |
 | Question | string | 是 | 问题内容 |
 | QuestionType | int | 是 | 1单选，2多选，3填空 |
-| Necessary | int | 是 | 1必须，2非必须 |
+| Necessary | int | 是 | 1必须，0非必须 |
 | Url | string | 否 | 问题资源 |
 | AnswerList | array Answer | 是 | 答案数组 |
 
