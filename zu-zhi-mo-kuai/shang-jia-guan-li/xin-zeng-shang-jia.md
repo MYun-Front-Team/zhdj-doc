@@ -36,6 +36,7 @@ _**【接口地址】**_
 | SellerPerson | string | 否（可选配置） | 商家联系人 |
 | SellerPersonPhone | string | 否（可选配置） | 商家联系人电话 |
 | SellerPersonPost | string | 否（可选配置） | 商家联系人岗位 |
+| SellerPersonEmail | string | 否（可选配置） | 商家联系人邮箱 |
 | PCDCode | string | 否（可选配置） | 省市区代码 |
 | PCDDescription | string | 否（可选配置） | 省市区描述 |
 | ContractAddress | string | 否（可选配置） | 联系地址 |
