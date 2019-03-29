@@ -41,6 +41,7 @@ _**【接口地址】**_
 | PriceType | int | 是 | 价格类型：1成本价，2市场价，3销售价，4积分价格 ，5砍价最低价,6佣金,7返还现金，8优惠券金额，9蓝晶价|
 | PriceCode | string | 否 | 价格代码（与类型匹配枚举） |
 | Price | decimal\(18,2\) | 否 | 价格 |
+|CPSCommisionRatio | decimal\(18,2\) | 否 | cps佣金比率（小于1）|
 
 #### QuantityRange {#应答数据-（巡河记录数组）}
 
