@@ -15,6 +15,7 @@
 | 9000108 | 蓝晶排名 | 蓝晶排名  |
 | 9000109 | 魔力排名 | 魔力排名  |
 | 9000110|影响力排名 | 影响力排名  |
+| 9000111|待唤醒好友 | 待唤醒好友  |
 
 
 > #### 请求数据（PageRequestData）\_ {#请求数据}
@@ -152,3 +153,21 @@
 | FileUrlList | array string | 否 | 头像图片列表 |
 | IsEnable| int| 否 |启用状态 |
 | Differ| decimal| 否 |和上一位差 |
+
+> #### 应答数据 （PageResponseBase）【9000111】
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PersonName | string | 否 | 昵称 |
+| FileUrlList | array string | 否 | 头像图片列表 |
+| WeiXin | string | 否 | 微信|
+| CellPhoneNo | string | 否 | 手机 |
+| IsPublishCellPhone| int| 否 |是否公开手机号 |
+
+
+> #### 应答数据 PageResponseStatistic 【9000111】
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PersonCount| int| 否 | 待唤醒好友 |
+| SleepPointMP | decimal | 否 | 待领取奖励|
