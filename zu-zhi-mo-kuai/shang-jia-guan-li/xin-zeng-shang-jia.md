@@ -58,12 +58,16 @@ _**【接口地址】**_
 | RegisteredCapital| decimal| 否 |注册资金 |
 | CreditCode| decimal| 否 |信用编码 |
 | InternetStoreUrl| string | 否 |网店地址 |
+| InternetTmallUrl| string | 否 |天猫网店地址 |
+| InternetTaoBaoUrl| string | 否 |淘宝网店地址 |
+| InternetJdUrl| string | 否 |京东网店地址 |
  |InParkDate| datetime | 否 |入驻时间 |
 |InParkStatus| int | 否 |状态（潜在客户，已入驻，已签出） |
 |LicenseType| string | 否 |营业执照类型 |
 |LicenseAddress| string | 否 |营业执照地址 |
 |LicenseStartDate| datetime | 否 |营业期限开始|
 |LicenseEndDate| datetime | 否 |营业期限结束|
+| LicenseDateForever | int| 是 | 营业期限是否永久 |
 |OutParkDate| datetime | 否 |迁出时间 |
 |OutParkRemark| string | 否 |迁出备注|
 | ServicePersonSysNo| int | 否 |默认客服编码 |
