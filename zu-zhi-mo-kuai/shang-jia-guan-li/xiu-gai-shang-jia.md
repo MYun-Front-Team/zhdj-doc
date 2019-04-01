@@ -83,6 +83,13 @@ _**【接口地址】**_
 |IsRecruitPartTime| int | 否 |是否支持兼职招聘|
 |RecruitPartTimeServerSysNo| int | 否 |兼职招聘服务商|
 |RecruitPartTimeCertificateSysNo| int | 否 |兼职招聘签约主体|
+|RecruitServerSysNo| int | 否 |招聘服务商|
+|RecruitCertificateSysNo| int | 否 |招聘签约主体|
+|RecruitServerRate| decimal| 否 |服务费比率|
+
+
+
+
 
 
 #### File说明 {#应答数据-}

@@ -106,6 +106,12 @@
 |RecruitPartTimeCertificateSysNo| int | 否 |兼职招聘签约主体|
 |RecruitPartTimeCertificateName| string| 否 |兼职招聘签约主体名称|
 | SellerCode | string | 是 | 商家唯一编号 |
+|RecruitServerSysNo| int | 否 |招聘服务商|
+|RecruitServerName| string | 否 |招聘服务商名称|
+|RecruitCertificateSysNo| int | 否 |招聘签约主体|
+|RecruitCertificateName| string| 否 |招聘签约主体名称|
+|RecruitServerRate| decimal| 否 |服务费比率|
+| LoginID | string | 是 | 用户名 |
 
 
 
@@ -168,10 +174,7 @@
 | IsShowSellerCategoryList | int | 否 | 是否显示商家行业列表 |
 | IsShowObjectFileList | int | 否 | 是否显示附件 |
 | IsShowContractUrlList  | int | 否 | 是否显示合同图片 |
-
-
-
-
+| IsShowLogin  | int | 否 | 是否显示用户名 |
 
 
 #### 模块页面编号枚举说明 {#请求数据}
