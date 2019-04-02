@@ -1104,7 +1104,7 @@
     * [递交实名认证](zhao-pin-mo-kuai/di-jiao-shi-ming-ren-zheng.md)
     * [获取实名认证详情](zhao-pin-mo-kuai/huo-qu-shi-ming-ren-zheng-xiang-qing.md)
     * [获取实名认证是否重复](zhao-pin-mo-kuai/huo-qu-shi-ming-ren-zheng-shi-fou-zhong-fu.md)
-  * 合同
+  * [合同](zhao-pin-mo-kuai/he-tong.md)
     * [获取合同列表](zhao-pin-mo-kuai/huo-qu-he-tong-lie-biao.md)
     * [获取合同详情](zhao-pin-mo-kuai/huo-qu-he-tong-xiang-qing.md)
     * [签署合同（同步回调）](zhao-pin-mo-kuai/qian-shu-he-tong.md)
@@ -1118,7 +1118,7 @@
     * [获取爱员工合同模板](zhao-pin-mo-kuai/huo-qu-he-tong-mo-ban.md)
     * [签署合同（爱员工）](zhao-pin-mo-kuai/qian-shu-he-tong-ff08-ai-yuan-gong-ff09.md)
     * [获取爱员工合同详情](zhao-pin-mo-kuai/huo-qu-ai-yuan-gong-he-tong-xiang-qing.md)
-  * 项目结算
+  * [项目结算](zhao-pin-mo-kuai/xiang-mu-jie-suan.md)
     * [获取项目结算列表](zhao-pin-mo-kuai/huo-qu-xiang-mu-jie-suan-lie-biao.md)
     * [获取项目结算列表详情](zhao-pin-mo-kuai/huo-qu-xiang-mu-jie-suan-lie-biao-xiang-qing.md)
     * [获取项目结算人员列表](zhao-pin-mo-kuai/huo-qu-xiang-mu-jie-suan-ren-yuan-lie-biao.md)
@@ -1135,6 +1135,20 @@
     * [删除结算列表](zhao-pin-mo-kuai/shan-chu-jie-suan-lie-biao.md)
     * [删除结算人员列表](zhao-pin-mo-kuai/shan-chu-jie-suan-ren-yuan-lie-biao.md)
     * [获取未上传的人员](zhao-pin-mo-kuai/huo-qu-wei-shang-chuan-de-ren-yuan.md)
+  * 客户充值
+    * [新增充值](zhao-pin-mo-kuai/xin-zeng-chong-zhi.md)
+    * [获取充值列表](zhao-pin-mo-kuai/huo-qu-chong-zhi-lie-biao.md)
+    * [获取充值详情](zhao-pin-mo-kuai/huo-qu-chong-zhi-xiang-qing.md)
+    * [审核\拒绝充值](zhao-pin-mo-kuai/shen-68385c-ju-jue-chong-zhi.md)
+    * [编辑充值](zhao-pin-mo-kuai/bian-ji-chong-zhi.md)
+  * 发放管理
+    * [新增发放](zhao-pin-mo-kuai/xin-zeng-fa-fang.md)
+    * [删除薪资发放](zhao-pin-mo-kuai/shan-chu-xin-zi-fa-fang.md)
+    * [编辑薪资发放](zhao-pin-mo-kuai/bian-ji-xin-zi-fa-fang.md)
+    * [发放报酬](zhao-pin-mo-kuai/fa-fang-bao-chou.md)
+    * [获取发放列表](zhao-pin-mo-kuai/huo-qu-fa-fang-lie-biao.md)
+    * [获取发放人员详情](zhao-pin-mo-kuai/huo-qu-fa-fang-ren-yuan-xiang-qing.md)
+    * [人员列表](zhao-pin-mo-kuai/ren-yuan-lie-biao.md)
 * [设备模块](she-bei-mo-kuai.md)
   * [获取设备列表](she-bei-mo-kuai/huo-qu-she-bei-lie-biao.md)
   * [获取设备详情](she-bei-mo-kuai/huo-qu-she-bei-xiang-qing.md)

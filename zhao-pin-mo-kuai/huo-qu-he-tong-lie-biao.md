@@ -52,6 +52,13 @@ _**【接口地址】**_
 | ContractStart | datetime | 是 | 合同开始 |
 | ContractEnd | datetime | 是 | 合同结束 |
 | CreateTime | datetime | 是 | 创建时间 |
+|RecruitServerSysNo| int | 否 |招聘服务商|
+|RecruitServerName| string | 否 |招聘服务商名称|
+|RecruitCertificateSysNo| int | 否 |招聘签约主体|
+|RecruitCertificateName| string| 否 |招聘签约主体名称|
+
+
+
 
 
 
