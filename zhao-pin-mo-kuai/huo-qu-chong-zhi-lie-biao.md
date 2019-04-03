@@ -33,3 +33,7 @@ http://ip:port/RecruitQuery/Wallet/GetRechargeList
 | ServerAmount| decimal（18，2） | 是 | 服务费|
 | SellerName | string | 是 | 商家名称 |
 | RechargeStatus | int | 是 | 0待审核，10成功，11失败|
+|RecruitServerSysNo| int | 否 |招聘服务商|
+|RecruitServerName| string | 否 |招聘服务商名称|
+|RecruitCertificateSysNo| int | 否 |招聘签约主体|
+|RecruitCertificateName| string| 否 |招聘签约主体名称|
