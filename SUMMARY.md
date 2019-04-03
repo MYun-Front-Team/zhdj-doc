@@ -1232,7 +1232,7 @@
 * 拾薪好活
   * [按照人员编码和商家邀请码获取店铺](an-zhao-ren-yuan-bian-ma-he-shang-jia-yao-qing-ma-huo-qu-dian-pu.md)
   * [C端客户输入店铺编码获取店铺实体](cduan-ke-hu-shu-ru-dian-pu-bian-ma-huo-qu-dian-pu-shi-ti.md)
-  * 客户充值
+  * [客户充值](ke-hu-chong-zhi.md)
     * [新增充值](zhao-pin-mo-kuai/xin-zeng-chong-zhi.md)
     * [获取充值列表](zhao-pin-mo-kuai/huo-qu-chong-zhi-lie-biao.md)
     * [获取充值详情](zhao-pin-mo-kuai/huo-qu-chong-zhi-xiang-qing.md)
