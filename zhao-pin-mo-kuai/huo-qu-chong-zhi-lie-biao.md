@@ -10,14 +10,14 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/RecruitQuery/Wallet/GetRechargeList
+[http://ip:port/RecruitQuery/Wallet/GetRechargeList](http://ip:port/RecruitQuery/Wallet/GetRechargeList)
 
 > #### _请求数据_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 是 | 组织系统编码 |
-| RechargeStatusList | array[int] | 是 | 0待审核，10成功，11失败|
+| RechargeStatusList | array\[int\] | 是 | 0待审核，10成功，11失败 |
 | KeyWord | string | 是 | 关键字 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
@@ -28,12 +28,15 @@ http://ip:port/RecruitQuery/Wallet/GetRechargeList
 | OrganizationSysNo | int | 是 | 组织系统编码 |
 | RechargeAmount | decimal（18，2） | 是 | 充值金额 |
 | Remark | string | 否 | 备注 |
-| FilePathList |array[string] | 否 |凭证 |
-| ServerRate| decimal（18，2） | 是 | 服务费比率（0～1）|
-| ServerAmount| decimal（18，2） | 是 | 服务费|
+| FilePathList | array\[string\] | 否 | 凭证 |
+| ServerRate | decimal（18，2） | 是 | 服务费比率（0～1） |
+| ServerAmount | decimal（18，2） | 是 | 服务费 |
 | SellerName | string | 是 | 商家名称 |
-| RechargeStatus | int | 是 | 0待审核，10成功，11失败|
-|RecruitServerSysNo| int | 否 |招聘服务商|
-|RecruitServerName| string | 否 |招聘服务商名称|
-|RecruitCertificateSysNo| int | 否 |招聘签约主体|
-|RecruitCertificateName| string| 否 |招聘签约主体名称|
+| RechargeStatus | int | 是 | 0待审核，10成功，11失败 |
+| RecruitServerSysNo | int | 否 | 招聘服务商 |
+| RecruitServerName | string | 否 | 招聘服务商名称 |
+| RecruitCertificateSysNo | int | 否 | 招聘签约主体 |
+| RecruitCertificateName | string | 否 | 招聘签约主体名称 |
+
+
+

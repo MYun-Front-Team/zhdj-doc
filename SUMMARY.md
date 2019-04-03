@@ -1229,7 +1229,7 @@
   * [修改补贴比例](fu-ju-shi-pei-ping-gu-mo-kuai/xiu-gai-bu-tie-bi-li.md)
   * [删除补贴比例](fu-ju-shi-pei-ping-gu-mo-kuai/shan-chu-bu-tie-bi-li.md)
   * [残疾人注册](fu-ju-shi-pei-ping-gu-mo-kuai/can-ji-ren-zhu-ce.md)
-* 拾薪好活
+* [拾薪好活](shi-xin-hao-huo.md)
   * [按照人员编码和商家邀请码获取店铺](an-zhao-ren-yuan-bian-ma-he-shang-jia-yao-qing-ma-huo-qu-dian-pu.md)
   * [C端客户输入店铺编码获取店铺实体](cduan-ke-hu-shu-ru-dian-pu-bian-ma-huo-qu-dian-pu-shi-ti.md)
   * [客户充值](ke-hu-chong-zhi.md)

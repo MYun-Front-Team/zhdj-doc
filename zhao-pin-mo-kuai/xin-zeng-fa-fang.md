@@ -29,6 +29,7 @@ _**【接口地址】**_
 | WageAmount | decimal | 是 | 薪资 |
 | CellPhoneNo | string | 是 | 手机号 |
 | Remark | string | 是 | 备注 |
+| Index | int | 是 | 行号 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
