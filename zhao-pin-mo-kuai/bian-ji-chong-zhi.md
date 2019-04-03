@@ -4,12 +4,12 @@
 
 编辑充值
 
-_**【应用场景】**_
+_**【应用场景】**_  
 编辑充值
 
 _**【接口地址】**_
 
-http://ip:port/RecruitAction/Wallet/EditRecharge
+[http://ip:port/RecruitAction/Wallet/EditRecharge](http://ip:port/RecruitAction/Wallet/EditRecharge)
 
 > #### _请求数据_ {#请求数据}
 
@@ -17,9 +17,7 @@ http://ip:port/RecruitAction/Wallet/EditRecharge
 | :--- | :--- | :--- | :--- |
 | RechargeSysNo | int | 是 | 充值编码 |
 | RechargeAmount | decimal（18，2） | 是 | 充值金额 |
-| FilePathList |array[string] | 否 |凭证 |
-
-
+| FilePathList | array\[string\] | 否 | 凭证 |
 
 
 

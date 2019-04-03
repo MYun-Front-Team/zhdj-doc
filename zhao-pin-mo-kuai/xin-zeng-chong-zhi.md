@@ -10,7 +10,7 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-http://ip:port/RecruitAction/Wallet/AddRecharge
+[http://ip:port/RecruitAction/Wallet/AddRecharge](http://ip:port/RecruitAction/Wallet/AddRecharge)
 
 > #### _请求数据_ {#请求数据}
 
@@ -18,8 +18,7 @@ http://ip:port/RecruitAction/Wallet/AddRecharge
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 是 | 组织系统编码 |
 | RechargeAmount | decimal（18，2） | 是 | 充值金额 |
-| FilePathList |array[string] | 否 |凭证 |
-
+| FilePathList | array\[string\] | 否 | 凭证 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
