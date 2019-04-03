@@ -1135,20 +1135,6 @@
     * [删除结算列表](zhao-pin-mo-kuai/shan-chu-jie-suan-lie-biao.md)
     * [删除结算人员列表](zhao-pin-mo-kuai/shan-chu-jie-suan-ren-yuan-lie-biao.md)
     * [获取未上传的人员](zhao-pin-mo-kuai/huo-qu-wei-shang-chuan-de-ren-yuan.md)
-  * 客户充值
-    * [新增充值](zhao-pin-mo-kuai/xin-zeng-chong-zhi.md)
-    * [获取充值列表](zhao-pin-mo-kuai/huo-qu-chong-zhi-lie-biao.md)
-    * [获取充值详情](zhao-pin-mo-kuai/huo-qu-chong-zhi-xiang-qing.md)
-    * [审核\拒绝充值](zhao-pin-mo-kuai/shen-68385c-ju-jue-chong-zhi.md)
-    * [编辑充值](zhao-pin-mo-kuai/bian-ji-chong-zhi.md)
-  * 发放管理
-    * [新增发放](zhao-pin-mo-kuai/xin-zeng-fa-fang.md)
-    * [删除薪资发放](zhao-pin-mo-kuai/shan-chu-xin-zi-fa-fang.md)
-    * [编辑薪资发放](zhao-pin-mo-kuai/bian-ji-xin-zi-fa-fang.md)
-    * [发放报酬](zhao-pin-mo-kuai/fa-fang-bao-chou.md)
-    * [获取发放列表](zhao-pin-mo-kuai/huo-qu-fa-fang-lie-biao.md)
-    * [获取发放人员详情](zhao-pin-mo-kuai/huo-qu-fa-fang-ren-yuan-xiang-qing.md)
-    * [人员列表](zhao-pin-mo-kuai/ren-yuan-lie-biao.md)
 * [设备模块](she-bei-mo-kuai.md)
   * [获取设备列表](she-bei-mo-kuai/huo-qu-she-bei-lie-biao.md)
   * [获取设备详情](she-bei-mo-kuai/huo-qu-she-bei-xiang-qing.md)
@@ -1246,6 +1232,20 @@
 * 拾薪好活
   * [按照人员编码和商家邀请码获取店铺](an-zhao-ren-yuan-bian-ma-he-shang-jia-yao-qing-ma-huo-qu-dian-pu.md)
   * [C端客户输入店铺编码获取店铺实体](cduan-ke-hu-shu-ru-dian-pu-bian-ma-huo-qu-dian-pu-shi-ti.md)
+  * 客户充值
+    * [新增充值](zhao-pin-mo-kuai/xin-zeng-chong-zhi.md)
+    * [获取充值列表](zhao-pin-mo-kuai/huo-qu-chong-zhi-lie-biao.md)
+    * [获取充值详情](zhao-pin-mo-kuai/huo-qu-chong-zhi-xiang-qing.md)
+    * [审核\拒绝充值](zhao-pin-mo-kuai/shen-68385c-ju-jue-chong-zhi.md)
+    * [编辑充值](zhao-pin-mo-kuai/bian-ji-chong-zhi.md)
+  * [发放管理](zhao-pin-mo-kuai/fa-fang-guan-li.md)
+    * [新增发放](zhao-pin-mo-kuai/xin-zeng-fa-fang.md)
+    * [删除薪资发放](zhao-pin-mo-kuai/shan-chu-xin-zi-fa-fang.md)
+    * [编辑薪资发放](zhao-pin-mo-kuai/bian-ji-xin-zi-fa-fang.md)
+    * [发放报酬](zhao-pin-mo-kuai/fa-fang-bao-chou.md)
+    * [获取发放列表](zhao-pin-mo-kuai/huo-qu-fa-fang-lie-biao.md)
+    * [获取发放人员详情](zhao-pin-mo-kuai/huo-qu-fa-fang-ren-yuan-xiang-qing.md)
+    * [人员列表](zhao-pin-mo-kuai/ren-yuan-lie-biao.md)
 
 ## 概述
 
