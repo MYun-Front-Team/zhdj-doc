@@ -26,7 +26,7 @@ http://ip:port/RecruitQuery/Wallet/GetRechargeBySysNo
 | :--- | :--- | :--- | :--- |
 | RechargeSysNo | int | 是 | 充值编码 |
 | OrganizationSysNo | int | 是 | 组织系统编码 |
-| RechargeAmount | decimal（18，2） | 是 | 充值金额 |
+| RechargeAmount | decimal（18，2） | 是 | 到账金额 |
 | Remark | string | 否 | 备注 |
 | FilePathList |array[string] | 否 |凭证 |
 | ServerRate| decimal（18，2） | 是 | 服务费比率（0～1）|
@@ -37,4 +37,8 @@ http://ip:port/RecruitQuery/Wallet/GetRechargeBySysNo
 |RecruitServerName| string | 否 |招聘服务商名称|
 |RecruitCertificateSysNo| int | 否 |招聘签约主体|
 |RecruitCertificateName| string| 否 |招聘签约主体名称|
+| PayAmount | decimal（18，2） | 是 | 支付金额 |
+
+
+
 
