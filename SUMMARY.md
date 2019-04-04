@@ -4996,4 +4996,5 @@
   * [视力辅具适配评估](fu-ju-shi-pei-ping-gu-mo-kuai/shi-li-fu-ju-shi-pei-ping-gu.md)
   * [视力辅具下一组问题](fu-ju-shi-pei-ping-gu-mo-kuai/shi-li-fu-ju-xia-yi-zu-wen-ti.md)
   * [上一步](fu-ju-shi-pei-ping-gu-mo-kuai/shang-yi-bu.md)
+  * [听力辅具适配评估](fu-ju-shi-pei-ping-gu-mo-kuai/ting-li-fu-ju-shi-pei-ping-gu.md)
 
