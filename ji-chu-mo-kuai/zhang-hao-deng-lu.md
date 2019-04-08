@@ -67,6 +67,10 @@ _**【接口地址】**_
 | CPSInfos| array CPSInfo| 否 | CPS信息|
 | RewardMP| decimal | 否 | 奖励魔力|
 | SourceType| int | 否 | 项目自定义来源（0默认，1销售，2交付，3运营等） |
+| IsFirstActive| int | 否 | 是否是第一次登陆激活 |
+
+
+
 
 
 
