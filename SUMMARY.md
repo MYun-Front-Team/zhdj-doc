@@ -3823,6 +3823,7 @@
   * [删除干部](f/shan-chu-gan-bu.md)
   * [导入干部](f/dao-ru-gan-bu.md)
   * [取消红色标示](f/qu-xiao-hong-se-biao-shi.md)
+  * [获取社区干部报表](f/huo-qu-she-qu-gan-bu-bao-biao.md)
 * [帮扶管理（删）](methods/bang-fu-guan-li.md)
   * [获取帮扶列表](methods/bang-fu-guan-li/huo-qu-bang-fu-lie-biao.md)
   * [获取帮扶详情](methods/bang-fu-guan-li/huo-qu-bang-fu-xiang-qing.md)
