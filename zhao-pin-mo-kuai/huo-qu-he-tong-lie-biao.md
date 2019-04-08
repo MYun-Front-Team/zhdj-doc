@@ -27,6 +27,7 @@ _**【接口地址】**_
 | EndContractEnd | datetime | 是 | 终止合同结束 |
 | KeyWord | string | 是 | 关键字 |
 | InvitePersonSysNo | int | 是 | 交付人编码 |
+| RecruitCertificateSysNo | int | 否 | 招聘签约主体 |
 
 #### 返回参数
 
@@ -52,13 +53,10 @@ _**【接口地址】**_
 | ContractStart | datetime | 是 | 合同开始 |
 | ContractEnd | datetime | 是 | 合同结束 |
 | CreateTime | datetime | 是 | 创建时间 |
-|RecruitServerSysNo| int | 否 |招聘服务商|
-|RecruitServerName| string | 否 |招聘服务商名称|
-|RecruitCertificateSysNo| int | 否 |招聘签约主体|
-|RecruitCertificateName| string| 否 |招聘签约主体名称|
-
-
-
+| RecruitServerSysNo | int | 否 | 招聘服务商 |
+| RecruitServerName | string | 否 | 招聘服务商名称 |
+| RecruitCertificateSysNo | int | 否 | 招聘签约主体 |
+| RecruitCertificateName | string | 否 | 招聘签约主体名称 |
 
 
 
