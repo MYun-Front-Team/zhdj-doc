@@ -35,11 +35,16 @@ http://ip:port/PartyQuery/Party/GetCadreList
 | InnerPartyStatus | int | 是 | 政治面貌 |
 | PersonIDPhotoUrlList | array string | 否 | 证件照图片列表 |
 | DataRangeList | array object | 否 | 区划列表 |
+| ModifyList | array object | 否 | 修改列表 |
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | DataRangeSysNo | int | 是 | 区划id |
 | DataRangeName | string | 是 | 区划名称 |
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ModifyKey | string | 是 | 修改字段名 |
 
 
 

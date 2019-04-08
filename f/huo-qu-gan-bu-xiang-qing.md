@@ -35,7 +35,7 @@ http://ip:port/PartyQuery/Party/GetCadreBySysNo
 | RenMianList | array object | 否 | 任免列表 |
 | LvZhiList | array object | 否 | 履职列表 |
 | GeRenList | array object | 否 | 个人列表 |
-
+| LogList | array object | 否 | 日志列表 |
 
 
 | 变量名 | 类型 | 是否必须 | 描述 |
@@ -61,8 +61,12 @@ http://ip:port/PartyQuery/Party/GetCadreBySysNo
 | FileName | string | 是 | 附件名称 |
 | FileUrl | string | 是 | 附件路径 |
 
-
-
-
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| UserName | string | 是 | 修改人 |
+| CreateTime | datetime | 是 | 修改时间 |
+| ModifyKey | string | 是 | 修改类型名称 |
+| OldValue | string | 是 | 原数值 |
+| NewValue | string | 是 | 新数值 |
 
 
