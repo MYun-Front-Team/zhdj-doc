@@ -50,6 +50,11 @@ _**【接口地址】**_
 | AutoAudit| int | 否 |是否自动审核（1是 0否）|
 | RecruitNeedPlatAudit| int | 否 |发布岗位是否需要平台审核|
 | PostSysNo| int | 否 |职位编码 |
+|DisActvieAdminStatus| int | 否 |新增商家账号是否是待激活的|
+
+
+
+
 
 
 

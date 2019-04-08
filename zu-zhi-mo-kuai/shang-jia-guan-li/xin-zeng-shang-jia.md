@@ -96,6 +96,7 @@ _**【接口地址】**_
 |RecruitServerSysNo| int | 否 |招聘服务商|
 |RecruitCertificateSysNo| int | 否 |招聘签约主体|
 |RecruitServerRate| decimal| 否 |服务费比率|
+|DisActvieAdminStatus| int | 否 |新增商家账号是否是待激活的|
 
 
 
