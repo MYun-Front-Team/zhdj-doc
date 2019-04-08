@@ -1238,6 +1238,7 @@
     * [获取充值详情](zhao-pin-mo-kuai/huo-qu-chong-zhi-xiang-qing.md)
     * [审核\拒绝充值](zhao-pin-mo-kuai/shen-68385c-ju-jue-chong-zhi.md)
     * [编辑充值](zhao-pin-mo-kuai/bian-ji-chong-zhi.md)
+    * [客户钱包报表](zhao-pin-mo-kuai/ke-hu-qian-bao-bao-biao.md)
   * [发放管理](zhao-pin-mo-kuai/fa-fang-guan-li.md)
     * [新增发放](zhao-pin-mo-kuai/xin-zeng-fa-fang.md)
     * [删除薪资发放](zhao-pin-mo-kuai/shan-chu-xin-zi-fa-fang.md)
