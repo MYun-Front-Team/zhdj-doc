@@ -45,6 +45,8 @@
 | RealName| int | 否 |人员姓名|
 | InvitationCode| string| 否 | 邀请码 |
 | FatherPersonName| string| 否 | 邀请人 |
+| HelpMemberId| string| 否 |辅助id |
+
 
 > #### CustomerStatistic统计计算字段 {#请求数据}
 
