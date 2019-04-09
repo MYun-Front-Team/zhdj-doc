@@ -15,6 +15,8 @@ http://ip:port/WalletQuery/Wallet/GetLJFrozenWallet
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| Type| int | 是 |1增加，2减少 |
+
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
