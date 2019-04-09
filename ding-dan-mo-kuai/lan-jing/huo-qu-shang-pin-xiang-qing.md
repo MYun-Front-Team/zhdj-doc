@@ -47,6 +47,10 @@ http://ip:port/ProductQuery/LJProductGroup/GetLJProductGroupBySysNo
 | FakeSaleCount|int| 是 |虚假销量|
 | FileUrlList | array string | 否 | 买手头像图片列表 |
 | IsWaitCode|int| 是 |是否待回填|
+| LimitSubsidyMPStart | datetime | 否 | 限购魔力锁开始时间|
+| LimitSubsidyMPEnd | datetime | 否 | 限购魔力锁结束时间|
+| LimitSubsidyMPCount | int | 否 | 限购魔力锁最大份数|
+
 
 
 #### Sku {#应答数据-（巡河记录数组）}

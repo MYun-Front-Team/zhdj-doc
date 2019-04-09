@@ -57,6 +57,10 @@ http://ip:port/ProductQuery/LJProductGroup/GetLJProductGroupList
 | ShopShowSourceList|array[int] | 否 |展示来源（0普通，1蓝晶兑换） |
 | SourceCPSSysNo | int | 是 | 来源三方CPS |
 | SourceCPSCode | string | 是 | 来源跳转三方编码 |
+| LimitSubsidyMPStart | datetime | 否 | 限购魔力锁开始时间|
+| LimitSubsidyMPEnd | datetime | 否 | 限购魔力锁结束时间|
+| LimitSubsidyMPCount | int | 否 | 限购魔力锁最大份数|
+
 
 
 #### Sku {#应答数据-（巡河记录数组）}

@@ -87,8 +87,10 @@
 | ShopShowSourceList|array[int] | 否 |展示来源（0普通，1蓝晶兑换） |
 | LimitBuyCount | int | 否 | 限购数|
 | IsAllSubsidyMP | int | 否 | 无论商品购买多少个，补贴魔力只给1份|
-
-
+| IsLimitSubsidyMP | int | 否 | 限购魔力锁|
+| LimitSubsidyMPStart | datetime | 否 | 限购魔力锁开始时间|
+| LimitSubsidyMPEnd | datetime | 否 | 限购魔力锁结束时间|
+| LimitSubsidyMPCount | int | 否 | 限购魔力锁最大份数|
 
 > #### Price说明 {#请求数据}
 
