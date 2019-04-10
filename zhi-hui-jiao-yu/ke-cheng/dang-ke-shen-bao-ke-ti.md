@@ -15,7 +15,6 @@ http://ip:port/EduAction/Course/AddPartyCourse
 | CourseStatus | int | 是 | 0保存，1提交审批 |
 | MemberSysNo | int | 是 | 党员系统编码 |
 | ApplicableObject | string | 是 | 适用对象 |
-| DepartmentSysNo | string | 是 | 所属单位 |
 | FilePathList | array string | 否 | 附件列表 |
 
 > #### _应答数据 _
