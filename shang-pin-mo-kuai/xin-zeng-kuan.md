@@ -77,6 +77,10 @@ _**【接口地址】**_
 | LimitSubsidyMPStart | datetime | 否 | 限购魔力锁开始时间|
 | LimitSubsidyMPEnd | datetime | 否 | 限购魔力锁结束时间|
 | LimitSubsidyMPCount | int | 否 | 限购魔力锁最大份数|
+| IsLockOnSaleStatus | int | 否 | 是否锁定上下架状态 |
+
+
+
 
 
 
