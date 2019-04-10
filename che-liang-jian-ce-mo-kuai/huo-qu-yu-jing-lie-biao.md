@@ -15,6 +15,9 @@ http://ip:port/VDQuery/Detect/GetAlarmList
 | vehicleNo | string | 否 | 车牌号码 |
 | HandleStatusList | array[int] | 否 | 1未处理，10已处理 |
 | Reason | string | 否 | 预警原因 |
+| HandleProc | string | 否 | 处理过程 |
+| HandleResultList | array[int] | 是 | 0等待处理， 1整改， 2处罚， 3其他|
+
 
 > #### _应答数据 _（数组）
 
@@ -32,6 +35,8 @@ http://ip:port/VDQuery/Detect/GetAlarmList
 | vehicleBrandModel | string | 是 | 品牌型号 |
 | Reason | string | 是 | 预警原因 |
 | HandleStatus | int | 是 | 1未处理，10已处理 |
+| HandleProc | string | 否 | 处理过程 |
+| HandleResult | int | 是 | 0等待处理， 1整改， 2处罚， 3其他|
 
 
 
