@@ -4901,6 +4901,7 @@
   * [处理预警](che-liang-jian-ce-mo-kuai/chu-li-yu-jing.md)
   * [获取检测站统计列表](che-liang-jian-ce-mo-kuai/huo-qu-jian-ce-zhan-tong-ji-lie-biao.md)
   * [获取委托人统计列表](che-liang-jian-ce-mo-kuai/huo-qu-wei-tuo-ren-tong-ji-lie-biao.md)
+  * [获取检测站统计数据列表2](che-liang-jian-ce-mo-kuai/huo-qu-jian-ce-zhan-tong-ji-shu-ju-lie-biao-2.md)
 * [水箱模块](shui-xiang-mo-kuai.md)
   * [获取水箱列表](shui-xiang-mo-kuai/huo-qu-shui-xiang-lie-biao.md)
   * [获取水箱详情](shui-xiang-mo-kuai/huo-qu-shui-xiang-xiang-qing.md)
