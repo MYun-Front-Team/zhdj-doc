@@ -1,13 +1,13 @@
-# 获取冻结钱包列表
+# 获取冻结钱包日志列表
 
-获取冻结钱包列表
+获取冻结钱包日志列表
 
 _**【应用场景】**_
 
-获取冻结钱包列表
+获取冻结钱包日志列表
 _**【接口地址】**_
 
-http://ip:port/WalletQuery/Wallet/GetLJFrozenWallet
+http://ip:port/WalletQuery/Wallet/GetLJFrozenWalletLog
 
 
 
@@ -15,6 +15,11 @@ http://ip:port/WalletQuery/Wallet/GetLJFrozenWallet
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| LogType| int| 是 | 1增加2减少 |
+| PersonSysNo| int| 是 | 人员编码 |
+
+
+
 
 
 
