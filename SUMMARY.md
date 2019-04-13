@@ -4684,6 +4684,7 @@
     * [党课编辑课题](zhi-hui-jiao-yu/ke-cheng/dang-ke-bian-ji-ke-ti.md)
     * [党课删除课题](zhi-hui-jiao-yu/ke-cheng/dang-ke-shan-chu-ke-ti.md)
     * [党课审批课题](zhi-hui-jiao-yu/ke-cheng/dang-ke-shen-pi-ke-ti.md)
+    * [导入党课课题](zhi-hui-jiao-yu/ke-cheng/dao-ru-dang-ke-ke-ti.md)
   * [学生](zhi-hui-jiao-yu/xue-sheng.md)
     * [获取学生列表](zhi-hui-jiao-yu/xue-sheng/huo-qu-xue-sheng-lie-biao.md)
     * [获取学生详情](zhi-hui-jiao-yu/xue-sheng/huo-qu-xue-sheng-xiang-qing.md)
