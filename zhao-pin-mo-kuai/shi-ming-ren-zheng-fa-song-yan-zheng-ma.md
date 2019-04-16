@@ -16,6 +16,8 @@ http://ip:port/RecruitAction/Authentication/SendCaptcha
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | CellphoneNo | string | 否 | 银行预留手机号 |
+| TransType | string | 否 |验证码类型 开户’0027’ 换卡’0045’ |
+
 
 
 
