@@ -30,6 +30,8 @@ _**【接口地址】**_
 | CellPhoneNo | string | 否 | 银行预留手机号 |
 | Captcha | string | 否 | 验证码 |
 | Uuid | string | 否| 验证码流水号 |
+| FrontImage | string | 否 | 身份证正面Base64 |
+| BackImage | string | 否 | 身份证反面Base64  |
 
 
 #### 返回参数
