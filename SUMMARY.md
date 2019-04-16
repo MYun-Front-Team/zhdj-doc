@@ -1253,9 +1253,10 @@
   * [店铺绑定客户](dian-pu-bang-ding-ke-hu.md)
   * [我的钱包](wo-de-qian-bao.md)
     * [获取钱包余额](wo-de-qian-bao/huo-qu-qian-bao-yu-e.md)
-    * [设置账号保护密码](wo-de-qian-bao/she-zhi-zhang-hao-bao-hu-mi-ma.md)
+    * [首次设置账号保护密码](wo-de-qian-bao/she-zhi-zhang-hao-bao-hu-mi-ma.md)
     * [修改账号保护密码](wo-de-qian-bao/xiu-gai-zhang-hao-bao-hu-mi-ma.md)
     * [检查账号保护密码是否正确](wo-de-qian-bao/jian-cha-zhang-hao-bao-hu-mi-ma-shi-fou-zheng-que.md)
+    * [忘记密码](wo-de-qian-bao/wang-ji-mi-ma.md)
 
 ## 概述
 
