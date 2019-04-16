@@ -1251,6 +1251,8 @@
     * [获取发放人员详情](zhao-pin-mo-kuai/huo-qu-fa-fang-ren-yuan-xiang-qing.md)
     * [人员列表](zhao-pin-mo-kuai/ren-yuan-lie-biao.md)
   * [店铺绑定客户](dian-pu-bang-ding-ke-hu.md)
+  * [我的钱包](wo-de-qian-bao.md)
+    * [获取钱包余额](wo-de-qian-bao/huo-qu-qian-bao-yu-e.md)
 
 ## 概述
 
