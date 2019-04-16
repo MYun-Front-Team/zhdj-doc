@@ -41,6 +41,6 @@ http://ip:port/RecruitQuery/Authentication/GetAuthenticationBySysNo
 | CreateTime| string  | 是 |递交认证日期|
 | FPersonIDCardUrl | string | 否 | 身份证正面 |
 | BPersonIDCardUrl | string | 否 | 身份证反面 |
-| CellphoneNo | string | 否 | 银行预留手机号 |
+| CellPhoneNo | string | 否 | 银行预留手机号 |
 | NPLWalletCardNo | string | 是 | 电子钱包账号 |
 
