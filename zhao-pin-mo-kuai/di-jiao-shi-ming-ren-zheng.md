@@ -27,6 +27,9 @@ _**【接口地址】**_
 | ZipCode | string | 是 | 邮编 |
 | FPersonIDCardUrl | string | 否 | 身份证正面 |
 | BPersonIDCardUrl | string | 否 | 身份证反面 |
+| CellphoneNo | string | 否 | 银行预留手机号 |
+| Captcha | string | 否 | 验证码 |
+
 
 #### 返回参数
 

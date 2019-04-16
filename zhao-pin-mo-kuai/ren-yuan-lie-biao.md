@@ -33,6 +33,7 @@ _**【接口地址】**_
 | AuthenticationStatus | int | 是 | 实名认证状态（0未认证 10已认证） |
 | ContractStatus | int | 是 | 协议签署状态（0待签署10已经签署） |
 | ContractSysNo | int | 是 | 协议系统编码 |
+| NPLWalletCardNo | string | 是 | 电子钱包账号 |
 
 
 
