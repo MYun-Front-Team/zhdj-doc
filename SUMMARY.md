@@ -1107,6 +1107,7 @@
     * [递交实名认证](zhao-pin-mo-kuai/di-jiao-shi-ming-ren-zheng.md)
     * [获取实名认证详情](zhao-pin-mo-kuai/huo-qu-shi-ming-ren-zheng-xiang-qing.md)
     * [获取实名认证是否重复](zhao-pin-mo-kuai/huo-qu-shi-ming-ren-zheng-shi-fou-zhong-fu.md)
+    * [实名认证发送验证码](zhao-pin-mo-kuai/shi-ming-ren-zheng-fa-song-yan-zheng-ma.md)
   * [合同](zhao-pin-mo-kuai/he-tong.md)
     * [获取合同列表](zhao-pin-mo-kuai/huo-qu-he-tong-lie-biao.md)
     * [获取合同详情](zhao-pin-mo-kuai/huo-qu-he-tong-xiang-qing.md)

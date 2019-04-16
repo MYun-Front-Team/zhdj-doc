@@ -29,6 +29,7 @@ _**【接口地址】**_
 | BPersonIDCardUrl | string | 否 | 身份证反面 |
 | CellphoneNo | string | 否 | 银行预留手机号 |
 | Captcha | string | 否 | 验证码 |
+| Uuid | string | 是 | 验证码流水号 |
 
 
 #### 返回参数
