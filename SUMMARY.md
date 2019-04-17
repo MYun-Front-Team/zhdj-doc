@@ -5022,4 +5022,5 @@
   * [听力辅具下一组问题](fu-ju-shi-pei-ping-gu-mo-kuai/ting-li-huo-qu-xia-yi-zu-wen-ti.md)
   * [上肢辅具适配评估](fu-ju-shi-pei-ping-gu-mo-kuai/shang-zhi-fu-ju-shi-pei-ping-gu.md)
   * [上肢辅具下一组问题](fu-ju-shi-pei-ping-gu-mo-kuai/shang-zhi-fu-ju-xia-yi-zu-wen-ti.md)
+  * [编辑残疾人基础问题大JSON](fu-ju-shi-pei-ping-gu-mo-kuai/bian-ji-can-ji-ren-ji-chu-wen-ti-da-json.md)
 
