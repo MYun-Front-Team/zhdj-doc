@@ -74,6 +74,15 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderList
 |CommentStatus|int | 是 | 评价状态（0未评价，10已经评价）|
 | SettlementStatus| int | 是 | 结算状态（10已结算，0待结算） |
 | AuditStatus| int | 是 | 审核状态（0待审核，10审核通过，11审核不通过） |
+| TagList | array object | 否 | 标签列表（说明见通用） |
+
+####Tag
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| TagSysNo | int | 是 | 系统编码 |
+| TagName | string | 是 | 标签名称 |
+| IconColor | string | 否 | 标签底色 |
 
 
 

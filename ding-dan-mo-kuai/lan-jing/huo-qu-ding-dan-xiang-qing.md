@@ -36,9 +36,15 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderBySysNo
 | CreateTime| datetime| 是 | 创建时间 |
 |CommentStatus|int | 是 | 评价状态（0未评价，10已经评价）|
 | TotalRewardAmount| decimal | 否 | 总奖励金额|
+| TagList | array object | 否 | 标签列表（说明见通用） |
 
+####Tag
 
-
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| TagSysNo | int | 是 | 系统编码 |
+| TagName | string | 是 | 标签名称 |
+| IconColor | string | 否 | 标签底色 |
 
 
 #### DetailItem
