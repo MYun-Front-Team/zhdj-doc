@@ -41,6 +41,10 @@ http://ip:port/FJQuery/Adaption/GetDisabledPersonBySysNo
 | Address | string | 是 | 具体地址 |
 | Postalcode | string | 是 | 邮政编码 |
 | Email | string | 是 | 电子邮件 |
+| BasicParams | string | 是 | 基础信息大JSON |
+
+
+
 
 
 
