@@ -5019,4 +5019,6 @@
   * [上一步](fu-ju-shi-pei-ping-gu-mo-kuai/shang-yi-bu.md)
   * [听力辅具适配评估](fu-ju-shi-pei-ping-gu-mo-kuai/ting-li-fu-ju-shi-pei-ping-gu.md)
   * [听力辅具下一组问题](fu-ju-shi-pei-ping-gu-mo-kuai/ting-li-huo-qu-xia-yi-zu-wen-ti.md)
+  * [上肢辅具适配评估](fu-ju-shi-pei-ping-gu-mo-kuai/shang-zhi-fu-ju-shi-pei-ping-gu.md)
+  * 上肢辅具下一组问题
 
