@@ -36,6 +36,4 @@ _**【接口地址】**_
 | IconColor | string | 否 | 标签底色 |
 | IsHidden | int | 否 | 是否对前台隐藏（1隐藏，0可见） |
 | SortNo | int | 是 | 排序 |
-
-
-
+| IsSystem | int | 是 | 是否系统标签 |

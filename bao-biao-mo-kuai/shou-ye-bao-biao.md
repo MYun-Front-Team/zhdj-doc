@@ -135,4 +135,12 @@
 | SysSuccessLANPoints| decimal | 否 | 系统已合成蓝晶|
 | SysLeftLANPoints| decimal | 否 | 系统剩余蓝晶|
 | ChangeLANPoints| decimal | 否 | 系统已兑换蓝晶|
+| TagList | array object | 否 | 标签列表（说明见通用） |
 
+####Tag
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| TagSysNo | int | 是 | 系统编码 |
+| TagName | string | 是 | 标签名称 |
+| IconColor | string | 否 | 标签底色 |
