@@ -640,6 +640,7 @@
     * [找回订单](ding-dan-mo-kuai/lan-jing/zhao-hui-ding-dan.md)
     * [获取冻结钱包日志列表](ding-dan-mo-kuai/lan-jing/huo-qu-dong-jie-qian-bao-ri-zhi-lie-biao.md)
     * [获取冻结蓝晶/魔力日志列表](ding-dan-mo-kuai/lan-jing/huo-qu-dong-jie-lan-6676-mo-li-ri-zhi-lie-biao.md)
+    * 获取红包列表
 * [交易模块](jiao-yi-mo-kuai.md)
   * [购物车管理](jiao-yi-mo-kuai/gou-wu-che-guan-li.md)
     * [新增购物车](jiao-yi-mo-kuai/xin-zeng-gou-wu-che.md)

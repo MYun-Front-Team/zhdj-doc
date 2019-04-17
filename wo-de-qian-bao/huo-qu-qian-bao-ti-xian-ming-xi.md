@@ -27,3 +27,5 @@ http://ip:port/RecruitQuery/Wallet/GetNPLWalletCashList
 | TransferAmt | string | 是 |交易金额|
 | Balance | string | 是 |账户余额|
 | TransferType | string | 是 | 交易类型	0001入金， 0002提现 |
+| code | string | 是 | 0000:成功，1111:交易已经提交（处理中），4444:失败 |
+| message | string | 是 | 备注，原交易接口的TransferDesc字段信息原样返回 |
