@@ -19,10 +19,6 @@ http://ip:port/ActivityAction/RedEnvelope/PickRedEnvelope
 | PersonSysNo| int| 否 | 人员编码|
 | RedEnvelopeSysNo| int| 否 | 红包编码|
 
-> #### 返回数据
-
-| 变量名 | 类型 | 是否必须 | 描述 |
-| :--- | :--- | :--- | :--- |
 
 
 
