@@ -647,6 +647,7 @@
     * [编辑红包活动](ding-dan-mo-kuai/lan-jing/bian-ji-hong-bao-huo-dong.md)
     * [删除红包活动](ding-dan-mo-kuai/lan-jing/shan-chu-hong-bao-huo-dong.md)
     * [获取人员可领红包](ding-dan-mo-kuai/lan-jing/huo-qu-ren-yuan-ke-ling-hong-bao.md)
+    * [人员领取红包](ding-dan-mo-kuai/lan-jing/ren-yuan-ling-qu-hong-bao.md)
 * [交易模块](jiao-yi-mo-kuai.md)
   * [购物车管理](jiao-yi-mo-kuai/gou-wu-che-guan-li.md)
     * [新增购物车](jiao-yi-mo-kuai/xin-zeng-gou-wu-che.md)
