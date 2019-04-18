@@ -65,6 +65,7 @@
 | ClassSysNo | int | 否 | 班级系统编码 |
 | ClassTeacherType | int | 否 | 教师类型（类型： 1班主任，2副班主任，99教师） |
 | EduDataRangeSysNoList | int | 是 | 数据范围树枝叶编码列表\(教育专用\) |
+| PersonSysNo | int | 否 | 人员id |
 
 > #### 查询Limit字段 {#请求数据}
 

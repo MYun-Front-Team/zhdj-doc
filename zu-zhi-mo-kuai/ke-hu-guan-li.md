@@ -45,11 +45,17 @@
 | RealName| int | 否 |人员姓名|
 | InvitationCode| string| 否 | 邀请码 |
 | FatherPersonName| string| 否 | 邀请人 |
+| HelpMemberId| string| 否 |辅助id |
+
 
 > #### CustomerStatistic统计计算字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| TeamCount| int | 否 |团队数|
+| LJPoint| decimal | 否 |蓝晶数|
+
+
 
 
 > #### 功能按钮字段 {#请求数据}
@@ -88,6 +94,8 @@
 | :--- | :--- | :--- | :--- |
 | IsShowDefaultAddress | int | 否 | 是否显示客户所属组织的默认地址（当原客户地址没有维护时有效） |
 | IsShowTagList | int | 否 | 是否显示标签列表 |
+| IsShowHelpMemberId | int | 否 | 是否显示辅助ID |
+
 
 #### 模块页面编号枚举说明 {#请求数据}
 
