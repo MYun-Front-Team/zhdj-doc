@@ -34,3 +34,4 @@ http://ip:port/ActivityQuery/RedEnvelope/GetRedEnvelopeBySysNo
 | PickAmount| decimal| 否 | 已领金额|
 | RestAmount| decimal| 否 | 剩余金额|
 | PersonCount| int| 否 | 红包人数|
+| PickPersonCount| int| 否 | 已领取人数|
