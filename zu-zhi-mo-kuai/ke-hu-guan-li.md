@@ -95,6 +95,9 @@
 | IsShowDefaultAddress | int | 否 | 是否显示客户所属组织的默认地址（当原客户地址没有维护时有效） |
 | IsShowTagList | int | 否 | 是否显示标签列表 |
 | IsShowHelpMemberId | int | 否 | 是否显示辅助ID |
+| IsShowCustomerStatistic | int | 否 | 是否显示统计字段 |
+
+
 
 
 #### 模块页面编号枚举说明 {#请求数据}
