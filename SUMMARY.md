@@ -1268,6 +1268,7 @@
     * [忘记密码](wo-de-qian-bao/wang-ji-mi-ma.md)
     * [提现](wo-de-qian-bao/ti-xian.md)
     * [获取钱包提现明细](wo-de-qian-bao/huo-qu-qian-bao-ti-xian-ming-xi.md)
+    * [新大陆修改银行卡](wo-de-qian-bao/xin-da-lu-xiu-gai-yin-xing-qia.md)
 
 ## 概述
 
