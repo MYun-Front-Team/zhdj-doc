@@ -197,6 +197,7 @@
     * [获取县级列表](tong-yong-mo-kuai/sheng-shi-qu-xin-jie-kou/huo-qu-xian-ji-lie-biao.md)
     * [获取乡级列表](tong-yong-mo-kuai/sheng-shi-qu-xin-jie-kou/huo-qu-xiang-ji-lie-biao.md)
     * [获取村级列表](tong-yong-mo-kuai/sheng-shi-qu-xin-jie-kou/huo-qu-cun-ji-lie-biao.md)
+  * [添加日志](tong-yong-mo-kuai/tian-jia-ri-zhi.md)
 * [积分模块](ji-fen-mo-kuai.md)
   * [根据模块，获取积分配置列表](ji-fen-mo-kuai/gen-ju-mo-kuai-ff0c-huo-qu-ji-fen-pei-zhi-lie-biao.md)
   * [获取业务积分记录详情列表](tong-yong-mo-kuai/huo-qu-ye-wu-ji-fen-ji-lu-xiang-qing-lie-biao.md)
