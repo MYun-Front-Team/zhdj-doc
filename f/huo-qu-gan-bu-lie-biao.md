@@ -15,6 +15,9 @@ http://ip:port/PartyQuery/Party/GetCadreList
 | Awarded | int | 否 | 是否获奖：0全部，1是，2否 |
 | Punished | int | 否 | 是否受过处分：0全部，1是，2否 |
 | Level | string | 否 | 获奖级别 |
+| MaritalStatusList | array int | 否 | 婚姻状况 |
+| HousingStatusList | array int | 否 | 住房情况 |
+| BusinessStatusList | array int | 否 | 本人是否经商 |
 
 
 #### _应答数据_ {#应答数据-}
@@ -33,6 +36,11 @@ http://ip:port/PartyQuery/Party/GetCadreList
 | ShortNo | string | 否 | 短号 |
 | Post | string | 否 | 职务 |
 | InnerPartyStatus | int | 是 | 政治面貌 |
+| MaritalStatus | int | 否 | 婚姻状况 |
+| HousingStatus | int | 否 | 住房情况 |
+| BusinessStatus | int | 否 | 本人是否经商 |
+| BusinessReason | string | 否 | 经商说明 |
+| ContractAddress | string | 否 | 家庭住址 |
 | PersonIDPhotoUrlList | array string | 否 | 证件照图片列表 |
 | DataRangeList | array object | 否 | 区划列表 |
 | ModifyList | array object | 否 | 修改列表 |

@@ -27,6 +27,11 @@ http://ip:port/PartyQuery/Party/GetCadreBySysNo
 | ShortNo | string | 否 | 短号 |
 | Post | string | 否 | 职务 |
 | InnerPartyStatus | int | 是 | 政治面貌 |
+| MaritalStatus | int | 否 | 婚姻状况 |
+| HousingStatus | int | 否 | 住房情况 |
+| BusinessStatus | int | 否 | 本人是否经商 |
+| BusinessReason | string | 否 | 经商说明 |
+| ContractAddress | string | 否 | 家庭住址 |
 | PersonIDPhotoUrlList | array string | 否 | 证件照图片列表 |
 | DataRangeList | array object | 否 | 区划列表 |
 | AwardList | array object | 否 | 奖励列表 |

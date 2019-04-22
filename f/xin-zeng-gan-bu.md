@@ -18,6 +18,11 @@ http://ip:port/PartyAction/Party/AddCadre
 | ShortNo | string | 否 | 短号 |
 | Post | string | 否 | 职务 |
 | InnerPartyStatus | int | 是 | 政治面貌 |
+| MaritalStatus | int | 否 | 婚姻状况 |
+| HousingStatus | int | 否 | 住房情况 |
+| BusinessStatus | int | 否 | 本人是否经商 |
+| BusinessReason | string | 否 | 经商说明 |
+| ContractAddress | string | 否 | 家庭住址 |
 | PersonIDPhotoPathList | array string | 否 | 证件照图片列表 |
 
 #### _应答数据_ {#应答数据-}
