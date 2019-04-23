@@ -24,6 +24,8 @@ http://ip:port/ActivityQuery/RedEnvelope/GetRedEnvelopeList
 | StartAmount| decimal| 否 | 起始金额 |
 | EndAmount| decimal| 否 | 终止金额|
 
+
+
 > #### 返回数据
 
 | 变量名 | 类型 | 是否必须 | 描述 |
@@ -40,3 +42,14 @@ http://ip:port/ActivityQuery/RedEnvelope/GetRedEnvelopeList
 | RestAmount| decimal| 否 | 剩余金额|
 | PersonCount| int| 否 | 红包人数|
 | PickPersonCount| int| 否 | 已领取人数|
+|Teams| array[Team]| 否 | 梯队|
+
+#### Team
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| TeamName| string| 否 | 梯队名称|
+| TeamStartIndex| int| 否 | 梯队开始排名索引，（从0开始，0代表第一名）|
+| TeamEndIndex| int| 否 | 梯队结束排名索引，（从0开始，0代表第一名）|
+| SortNo| int| 否 | 排序（1第一梯队，2第二梯队）|
+| Amount| decimal| 否 |红包金额|
