@@ -78,10 +78,7 @@ _**【接口地址】**_
 | LimitSubsidyMPEnd | datetime | 否 | 限购魔力锁结束时间|
 | LimitSubsidyMPCount | int | 否 | 限购魔力锁最大份数|
 | IsLockOnSaleStatus | int | 否 | 是否锁定上下架状态 |
-
-
-
-
+| SubsidyMPLimitNewPerson | int | 否 | 补贴魔力是否只给新人（1是 0否）|
 
 
 
