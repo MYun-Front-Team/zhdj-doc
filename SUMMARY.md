@@ -4943,7 +4943,7 @@
   * [获取大数据](shui-xiang-mo-kuai/huo-qu-da-shu-ju.md)
   * [新增水箱](shui-xiang-mo-kuai/xin-zeng-shui-xiang.md)
   * [删除小区](shui-xiang-mo-kuai/shan-chu-xiao-qu.md)
-  * 设置预警规则上下限
+  * [设置预警规则上下限](shui-xiang-mo-kuai/she-zhi-yu-jing-gui-ze-shang-xia-xian.md)
 * [辅具适配评估模块](fu-ju-shi-pei-ping-gu-mo-kuai.md)
   * [获取残疾人列表](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-can-ji-ren-lie-biao.md)
   * [获取残疾人详情](fu-ju-shi-pei-ping-gu-mo-kuai/huo-qu-can-ji-ren-xiang-qing.md)
