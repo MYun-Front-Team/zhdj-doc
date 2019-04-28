@@ -1,16 +1,16 @@
-# 获取水箱详情 {#获取河长巡河记录}
+# 获取水箱详情
 
 _**【接口地址】**_
 
-[http://ip:port/WTQuery/Water/GetWaterTankBySysNo](http://ip:port/WTQuery/Water/GetWaterTankBySysNo)
+http://ip:port/WTQuery/Water/GetWaterTankBySysNo
 
-> #### _请求数据_ {#请求数据}
+> #### _请求数据_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | WaterTankSysNo | int | 是 | 水箱id |
 
-> #### _应答数据 _ {#应答数据-（巡河记录数组）}
+> #### _应答数据 _
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
