@@ -33,6 +33,7 @@ _**【接口地址】**_
 | TagSysNo | int | 是 | 系统编码 |
 | TagName | string | 是 | 标签名称 |
 | TagUrlList | array string | 否 | 标签URL列表 |
+| PosterUrlList | array string | 否 | 海报URL列表 |
 | IconColor | string | 否 | 标签底色 |
 | IsHidden | int | 否 | 是否对前台隐藏（1隐藏，0可见） |
 | SortNo | int | 是 | 排序 |
