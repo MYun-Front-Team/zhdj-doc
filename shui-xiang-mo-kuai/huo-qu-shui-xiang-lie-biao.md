@@ -29,13 +29,19 @@ http://ip:port/WTQuery/Water/GetWaterTankList
 | Length | decimal | 是 | 长 |
 | Width | decimal | 是 | 宽 |
 | Height | decimal | 是 | 高 |
-| CapAlarm | int | 是 | 1水箱盖开启报警，0不报警 |
+| CapAlarm | int | 是 | 0水箱盖开启报警，1不报警 |
 | WaterTankStatus | int | 是 | 1正常，11预警 |
 | SyncTime | datetime | 是 | 最后同步时间 |
 | Longitude | decimal | 是 | 经度 |
 | Latitude | decimal | 是 | 纬度 |
 | ClearType | int | 是 | 清洗类型：0自动，1手动 |
 | LidStatus | int | 是 | 水箱盖状态：0锁定，1开启 |
+| Door2 | int | 是 | 进水常开电磁阀0常开，1常闭 |
+| Door3 | int | 是 | 排污常闭电磁阀0常闭，1常开 |
+| Door4 | int | 是 | 上端清洗水常闭电磁阀0常闭，1常开 |
+| Door5 | int | 是 | 下端清洗水常闭电磁阀0常闭，1常开 |
+| StaState | int | 是 | 站点状态0：断开；1：正常；2：故障 |
+| ComState | int | 是 | 通信状态1：正常；2：故障 |
 | AlarmRuleList | array AlarmRule | 是 | 预警规则数组 |
 | OtherParamList | array OtherParam | 是 | 其它参数数组 |
 
