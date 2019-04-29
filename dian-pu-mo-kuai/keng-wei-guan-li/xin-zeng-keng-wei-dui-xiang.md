@@ -28,6 +28,7 @@ http://ip:port/ShopAction/Hollow/AddHollowObject
 | ModuleSourceSysNo | int | 否 | 来源系统编码 |
 | OrganizationSysNo | int | 是 | 商品组织系统编码 |
 | SortNo| int | 否 | 排序 |
+| HollowUrl | string | 否 | 链接地址 |
 
 
 
