@@ -1,10 +1,8 @@
-# 获取商品推荐列表
-
-获取商品推荐列表
+# 获取首页标签商品组
+获取首页标签商品组
 
 _**【应用场景】**_
-
-获取商品推荐列表
+获取首页标签商品组
 _**【接口地址】**_
 
 http://ip:port/ProductQuery/LJProductGroup/GetLJTagProductList
