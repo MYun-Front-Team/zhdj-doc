@@ -46,6 +46,10 @@
 | InvitationCode| string| 否 | 邀请码 |
 | FatherPersonName| string| 否 | 邀请人 |
 | HelpMemberId| string| 否 |辅助id |
+| CPSCode| string| 否 |客户来源三方cps编号 |
+| CPSSysNo | int | 否 | 客户来源三方cps编码|
+
+
 
 
 > #### CustomerStatistic统计计算字段 {#请求数据}
