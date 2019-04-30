@@ -25,6 +25,11 @@ http://ip:port/ProductQuery/LJProductGroup/GetLJProductGroupList
 | BrandSysNoList| array int | 否 | 品牌系统编码列表 |
 | StartSaleDate| datetime| 是 | 开卖时间|
 | ShopShowSourceList|array[int] | 否 |展示来源（0普通，1蓝晶兑换） |
+| NoCPSCode | string | 否 | 除三方来源编号 |
+
+
+
+
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
