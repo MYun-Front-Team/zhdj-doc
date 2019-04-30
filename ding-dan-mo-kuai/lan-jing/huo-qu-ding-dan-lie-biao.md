@@ -32,6 +32,10 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderList
 | CellPhoneNo| string| 否 | 手机号 |
 | StartRewardMP| decimal | 否 | 开始奖励魔力|
 | EndRewardMP| decimal | 否 | 终止奖励魔力|
+| CPSCode | int | 否 | 三方来源编号 |
+| NoCPSCode | int | 否 | 除三方来源编号 |
+
+
 
 
 > #### 返回数据
