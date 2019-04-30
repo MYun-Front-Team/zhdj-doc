@@ -93,9 +93,7 @@
 | LimitSubsidyMPCount | int | 否 | 限购魔力锁最大份数|
 | IsLockOnSaleStatus | int | 否 | 是否锁定上下架状态 |
 | SubsidyMPLimitNewPerson | int | 否 | 补贴魔力是否只给新人（1是 0否）|
-
-
-
+| NoCPSCode | string | 否 | 除三方来源编号 |
 
 
 > #### Price说明 {#请求数据}
