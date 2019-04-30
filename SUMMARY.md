@@ -650,6 +650,7 @@
     * [获取人员可领红包](ding-dan-mo-kuai/lan-jing/huo-qu-ren-yuan-ke-ling-hong-bao.md)
     * [人员领取红包](ding-dan-mo-kuai/lan-jing/ren-yuan-ling-qu-hong-bao.md)
     * [获取首页标签商品组](ding-dan-mo-kuai/lan-jing/huo-qu-shou-ye-biao-qian-shang-pin-zu.md)
+    * [按照手机号获取用户是否存在上级](ding-dan-mo-kuai/lan-jing/an-zhao-shou-ji-hao-huo-qu-yong-hu-shi-fou-cun-zai-shang-ji.md)
 * [交易模块](jiao-yi-mo-kuai.md)
   * [购物车管理](jiao-yi-mo-kuai/gou-wu-che-guan-li.md)
     * [新增购物车](jiao-yi-mo-kuai/xin-zeng-gou-wu-che.md)
