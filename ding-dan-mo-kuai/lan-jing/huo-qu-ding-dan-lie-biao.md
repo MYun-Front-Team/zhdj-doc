@@ -79,6 +79,7 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderList
 | SettlementStatus| int | 是 | 结算状态（10已结算，0待结算） |
 | AuditStatus| int | 是 | 审核状态（0待审核，10审核通过，11审核不通过） |
 | TagList | array object | 否 | 标签列表（说明见通用） |
+| CPSCode | string | 否 | 三方来源编号 |
 
 ####Tag
 
