@@ -24,3 +24,4 @@ http://ip:port/BasicQuery/Basic/CheckUpByCellPhoneNo
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | CheckStatus | int | 是 | 结果（1无需邀请码，0需要邀请码） |
+| HaveWx | int | 是 | 是否有微信相关信息(1有 2无)|
