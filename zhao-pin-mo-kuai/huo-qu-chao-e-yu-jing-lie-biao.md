@@ -15,7 +15,11 @@ _**【接口地址】**_
 
 > #### _请求数据_ {#请求数据}
 
-无
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| WageMonth| datetime| 是 | 发放月份 |
+| Keyword| string | 是 | 关键字（姓名或手机号） |
+
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
@@ -23,7 +27,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | CustomerName| string | 是 | 姓名|
 | CellPhone| string | 是 | 手机号|
-| WageMonth| string| 是 | 发放月份 |
+| WageMonth| datetime| 是 | 发放月份 |
 | WageAmount | decimal（18，2） | 是 | 月累计发放金额 |
 | ExcessAmount | decimal（18，2） | 是 | 月累计发放金额 |
 
