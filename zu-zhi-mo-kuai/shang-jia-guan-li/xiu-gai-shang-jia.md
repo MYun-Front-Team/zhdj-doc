@@ -39,77 +39,63 @@ _**【接口地址】**_
 | LicensePathList | array string | 否 | 营业执照Path路径列表 |
 | SellerLogoPathList | array string | 否 | 商家Logo的Path列表 |
 | CategorySysNoList | array int | 否 | 商家行业类型编码列表 |
-| SellerFinancePerson| string | 否 |财务联系人 |
-| SellerFinancePhone| string | 否 |财务联系人电话 |
-| ParkSysNo| int | 否 |注册地址（园区） |
-| IfHasPhysicalStore| int | 否 |是否有实体 |
-| IfHasInternetStore| int | 否 |是否有网店 |
-| ScaleType| int | 否 |规模（端定义） |
-| RegistrationTime| datetime| 否 |注册时间 |
-| PromisesTax| decimal| 否 |承诺税收 |
-| RegisteredCapital| decimal| 否 |注册资金 |
-| CreditCode| decimal| 否 |信用编码 |
-| InternetStoreUrl| string | 否 |网店地址 |
-| InternetTmallUrl| string | 否 |天猫网店地址 |
-| InternetTaoBaoUrl| string | 否 |淘宝网店地址 |
-| InternetJdUrl| string | 否 |京东网店地址 |
- |InParkDate| datetime | 否 |入驻时间 |
-|InParkStatus| int | 否 |状态（潜在客户，已入驻，已签出） |
-|LicenseType| string | 否 |营业执照类型 |
-|LicenseAddress| string | 否 |营业执照地址 |
-|LicenseStartDate| datetime | 否 |营业期限开始|
-|LicenseEndDate| datetime | 否 |营业期限结束|
-| LicenseDateForever | int| 是 | 营业期限是否永久 |
-|OutParkDate| datetime | 否 |迁出时间 |
-|OutParkRemark| string | 否 |迁出备注|
-| ServicePersonSysNo| int | 否 |默认客服编码 |
-|ContractCode| string | 否 |合同编号|
-| ObjectFileList| array File| 否（可选配置） | 附件 |
-| IsShowInCommission| int| 否 | 是否在抢工佣金推送列表显示 |
-| RecruitNeedPlatAudit| int | 否 |发布岗位是否需要平台审核|
-|BackMoneyDay1| int | 否 |回款日期1(号)|
-|BackMoneyDay2| int | 否 |回款日期2(号)|
-|OutMoneyDay1| int | 否 |发薪日期1(号)|
-|OutMoneyDay2| int | 否 |发薪日期2(号)|
-|SignDate| datetime| 否 |签约日期|
-|InvoiceType| int | 否 |开票方式（1专用发票 2普通发票）|
-|IfHasTax| int | 否 |是否含税|
-|TaxRate| decimal| 否 |税率|
-|SalaryTimes| int | 否 |加班时薪倍数|
-|SalesManagerPersonSysNo| int | 否 |销售经理|
-|IsRecruitFullTime| int | 否 |是否支持全职招聘|
-|RecruitFullTimeServerSysNo| int | 否 |全职招聘服务商|
-|RecruitFullTimeCertificateSysNo| int | 否 |全职招聘签约主体|
-|IsRecruitPartTime| int | 否 |是否支持兼职招聘|
-|RecruitPartTimeServerSysNo| int | 否 |兼职招聘服务商|
-|RecruitPartTimeCertificateSysNo| int | 否 |兼职招聘签约主体|
-|RecruitServerSysNo| int | 否 |招聘服务商|
-|RecruitCertificateSysNo| int | 否 |招聘签约主体|
-|RecruitServerRate| decimal| 否 |服务费比率|
-
-
-
-
-
+| SellerFinancePerson | string | 否 | 财务联系人 |
+| SellerFinancePhone | string | 否 | 财务联系人电话 |
+| ParkSysNo | int | 否 | 注册地址（园区） |
+| IfHasPhysicalStore | int | 否 | 是否有实体 |
+| IfHasInternetStore | int | 否 | 是否有网店 |
+| ScaleType | int | 否 | 规模（端定义） |
+| RegistrationTime | datetime | 否 | 注册时间 |
+| PromisesTax | decimal | 否 | 承诺税收 |
+| RegisteredCapital | decimal | 否 | 注册资金 |
+| CreditCode | decimal | 否 | 信用编码 |
+| InternetStoreUrl | string | 否 | 网店地址 |
+| InternetTmallUrl | string | 否 | 天猫网店地址 |
+| InternetTaoBaoUrl | string | 否 | 淘宝网店地址 |
+| InternetJdUrl | string | 否 | 京东网店地址 |
+| InParkDate | datetime | 否 | 入驻时间 |
+| InParkStatus | int | 否 | 状态（潜在客户，已入驻，已签出） |
+| LicenseType | string | 否 | 营业执照类型 |
+| LicenseAddress | string | 否 | 营业执照地址 |
+| LicenseStartDate | datetime | 否 | 营业期限开始 |
+| LicenseEndDate | datetime | 否 | 营业期限结束 |
+| LicenseDateForever | int | 是 | 营业期限是否永久 |
+| OutParkDate | datetime | 否 | 迁出时间 |
+| OutParkRemark | string | 否 | 迁出备注 |
+| ServicePersonSysNo | int | 否 | 默认客服编码 |
+| ContractCode | string | 否 | 合同编号 |
+| ObjectFileList | array File | 否（可选配置） | 附件 |
+| IsShowInCommission | int | 否 | 是否在抢工佣金推送列表显示 |
+| RecruitNeedPlatAudit | int | 否 | 发布岗位是否需要平台审核 |
+| BackMoneyDay1 | int | 否 | 回款日期1\(号\) |
+| BackMoneyDay2 | int | 否 | 回款日期2\(号\) |
+| OutMoneyDay1 | int | 否 | 发薪日期1\(号\) |
+| OutMoneyDay2 | int | 否 | 发薪日期2\(号\) |
+| SignDate | datetime | 否 | 签约日期 |
+| InvoiceType | int | 否 | 开票方式（1专用发票 2普通发票） |
+| IfHasTax | int | 否 | 是否含税 |
+| TaxRate | decimal | 否 | 税率 |
+| SalaryTimes | int | 否 | 加班时薪倍数 |
+| SalesManagerPersonSysNo | int | 否 | 销售经理 |
+| IsRecruitFullTime | int | 否 | 是否支持全职招聘 |
+| RecruitFullTimeServerSysNo | int | 否 | 全职招聘服务商 |
+| RecruitFullTimeCertificateSysNo | int | 否 | 全职招聘签约主体 |
+| IsRecruitPartTime | int | 否 | 是否支持兼职招聘 |
+| RecruitPartTimeServerSysNo | int | 否 | 兼职招聘服务商 |
+| RecruitPartTimeCertificateSysNo | int | 否 | 兼职招聘签约主体 |
+| RecruitServerSysNo | int | 否 | 招聘服务商 |
+| RecruitCertificateSysNo | int | 否 | 招聘签约主体 |
+| RecruitServerRate | decimal | 否 | 服务费比率 |
+| InvoiceTitle | string | 否 | 发票抬头 |
+| BankBranchName | string | 否 | 银行名称 |
+| BankAccount | string | 否 | 银行账号 |
 
 #### File说明 {#应答数据-}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| FileTitle| string| 是 | 文件名称 |
-| FilePath| string| 是 | 文件地址 |
-
-
-
-
-
-
-
-
-
-
-
-
+| FileTitle | string | 是 | 文件名称 |
+| FilePath | string | 是 | 文件地址 |
 
 #### _应答数据 _ {#应答数据-}
 
