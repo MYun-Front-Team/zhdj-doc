@@ -22,7 +22,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | TotalAmount | decimal（18，2） | 是 | 总发放金额 |
 | TotalCount | decimal（18，2） | 是 | 总发放笔数|
-| CustomerTotalCount | int | 是 | 客户总数 |
+| CustomerTotalCount | long | 是 | 客户总数 |
 | PlatTotalAmount | decimal（18，2） | 是 | 平台总流水 |
 
 
