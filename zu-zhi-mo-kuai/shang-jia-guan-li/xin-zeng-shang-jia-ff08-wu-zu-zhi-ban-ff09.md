@@ -46,22 +46,14 @@ _**【接口地址】**_
 | LicensePathList | array string | 否（可选配置） | 营业执照Path路径列表 |
 | InvitationCode | string | 否（可选配置） | 邀请码 |
 | SellerLogoPathList | array string | 否（可选配置） | 商家Logo的Path路径列表 |
-|ContractCode| string | 否 |合同编号|
-| AutoAudit| int | 否 |是否自动审核（1是 0否）|
-| RecruitNeedPlatAudit| int | 否 |发布岗位是否需要平台审核|
-| PostSysNo| int | 否 |职位编码 |
-|DisActvieAdminStatus| int | 否 |新增商家账号是否是待激活的|
-
-
-
-
-
-
-
-
-
-
-
+| ContractCode | string | 否 | 合同编号 |
+| AutoAudit | int | 否 | 是否自动审核（1是 0否） |
+| RecruitNeedPlatAudit | int | 否 | 发布岗位是否需要平台审核 |
+| PostSysNo | int | 否 | 职位编码 |
+| DisActvieAdminStatus | int | 否 | 新增商家账号是否是待激活的 |
+| InvoiceTitle | string | 否 | 发票抬头 |
+| BankBranchName | string | 否 | 银行名称 |
+| BankAccount | string | 否 | 银行账号 |
 
 #### _应答数据 _ {#应答数据-}
 

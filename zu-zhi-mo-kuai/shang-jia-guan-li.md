@@ -40,99 +40,95 @@
 | SellerLogoUrlList | array string | 否 | 商家Logo的URL列表 |
 | SellerBossPerson | object | 否 | 商家创始人实体（默认联系人） |
 | SellerCategoryList | array object | 否 | 商家行业类型列表 |
-| SellerMasterPhone| string | 否 | 商家负责人电话 |
-| SellerFinancePerson| string | 否 |财务联系人 |
-| SellerFinancePhone| string | 否 |财务联系人电话 |
-| ParkSysNo| int | 否 |注册地址（园区） |
-| IfHasPhysicalStore| int | 否 |是否有实体 |
-| IfHasInternetStore| int | 否 |是否有网店 |
-| ScaleType| int | 否 |规模（端定义） |
-| RegistrationTime| datetime| 否 |注册时间 |
-| PromisesTax| decimal| 否 |承诺税收 |
-| RegisteredCapital| decimal| 否 |注册资金 |
-| CreditCode| decimal| 否 |信用编码 |
-| InternetStoreUrl| string | 否 |网店地址 |
-| InternetTmallUrl| string | 否 |天猫网店地址 |
-| InternetTaoBaoUrl| string | 否 |淘宝网店地址 |
-| InternetJdUrl| string | 否 |京东网店地址 |
-|InParkDate| datetime | 否 |入驻时间 |
-|InParkStatus| int | 否 |状态（潜在客户，已入驻，已签出） |
-|LicenseType| string | 否 |营业执照类型 |
-|LicenseAddress| string | 否 |营业执照地址 |
-|LicenseStartDate| datetime | 否 |营业期限开始|
-|LicenseEndDate| datetime | 否 |营业期限结束|
-| LicenseDateForever | int| 是 | 营业期限是否永久 |
-| ParkName| string | 否 |园区名称 |
-|OutParkDate| datetime | 否 |迁出时间 |
-|OutParkRemark| string | 否 |迁出备注|
-| ServicePersonSysNo| int | 否 |默认客服编码 |
-| ServicePersonName| string| 否 |默认客服名称 |
-| ServiceCellPhoneNo| string| 否 |默认客服电话 |
+| SellerMasterPhone | string | 否 | 商家负责人电话 |
+| SellerFinancePerson | string | 否 | 财务联系人 |
+| SellerFinancePhone | string | 否 | 财务联系人电话 |
+| ParkSysNo | int | 否 | 注册地址（园区） |
+| IfHasPhysicalStore | int | 否 | 是否有实体 |
+| IfHasInternetStore | int | 否 | 是否有网店 |
+| ScaleType | int | 否 | 规模（端定义） |
+| RegistrationTime | datetime | 否 | 注册时间 |
+| PromisesTax | decimal | 否 | 承诺税收 |
+| RegisteredCapital | decimal | 否 | 注册资金 |
+| CreditCode | decimal | 否 | 信用编码 |
+| InternetStoreUrl | string | 否 | 网店地址 |
+| InternetTmallUrl | string | 否 | 天猫网店地址 |
+| InternetTaoBaoUrl | string | 否 | 淘宝网店地址 |
+| InternetJdUrl | string | 否 | 京东网店地址 |
+| InParkDate | datetime | 否 | 入驻时间 |
+| InParkStatus | int | 否 | 状态（潜在客户，已入驻，已签出） |
+| LicenseType | string | 否 | 营业执照类型 |
+| LicenseAddress | string | 否 | 营业执照地址 |
+| LicenseStartDate | datetime | 否 | 营业期限开始 |
+| LicenseEndDate | datetime | 否 | 营业期限结束 |
+| LicenseDateForever | int | 是 | 营业期限是否永久 |
+| ParkName | string | 否 | 园区名称 |
+| OutParkDate | datetime | 否 | 迁出时间 |
+| OutParkRemark | string | 否 | 迁出备注 |
+| ServicePersonSysNo | int | 否 | 默认客服编码 |
+| ServicePersonName | string | 否 | 默认客服名称 |
+| ServiceCellPhoneNo | string | 否 | 默认客服电话 |
 | ServiceFileUrlList | array string | 否 | 头像图片列表 |
-|ContractCode| string | 否 |合同编号|
+| ContractCode | string | 否 | 合同编号 |
 | ContractPathList | array string | 否 | 合同路径列表 |
 | ContractUrlList | array string | 否 | 合同的URL列表 |
-|ActiveStatus| int | 否 |激活状态（0待激活，10启用）|
-|InUser| string | 否 |创建人|
-|EditUser| string | 否 |编辑人|
-| ObjectFileList| array File| 否（可选配置） | 附件 |
-| IsShowInCommission| int| 否 | 是否在抢工佣金推送列表显示 |
-| RecruitNeedPlatAudit| int | 否 |发布岗位是否需要平台审核|
-| RMAReceiverAddress| string| 是 | 退货地址 |
-| RMAReceiverName| string| 是 | 退货收货人 |
-| RMAReceiverPhone| string| 是 | 退货收货人电话|
-|BackMoneyDay1| int | 否 |回款日期1(号)|
-|BackMoneyDay2| int | 否 |回款日期2(号)|
-|OutMoneyDay1| int | 否 |发薪日期1(号)|
-|OutMoneyDay2| int | 否 |发薪日期2(号)|
-|IsDisable| int | 否 |是否禁用（1禁用，0启用）|
-|SignDate| datetime| 否 |签约日期|
-|InvoiceType| int | 否 |开票方式（1专用发票 2普通发票）|
-|IfHasTax| int | 否 |是否含税|
-|TaxRate| decimal| 否 |税率|
-|SalaryTimes| int | 否 |加班时薪倍数|
-|SalesManagerPersonSysNo| int | 否 |销售经理|
-|SalesManagerDepartmentSysNo| int | 否 |销售部门编码|
-|SalesManagerDepartmentName| string| 否 |销售部门|
-|RecruitStatus| int | 否 |招聘状态（10进行中，0未开始）|
-|IsRecruitFullTime| int | 否 |是否支持全职招聘|
-|RecruitFullTimeServerSysNo| int | 否 |全职招聘服务商|
-|RecruitFullTimeServerName| string| 否 |全职招聘服务商名称|
-|RecruitFullTimeCertificateSysNo| int | 否 |全职招聘签约主体|
-|RecruitFullTimeCertificateName| string | 否 |全职招聘签约主体名称|
-|IsRecruitPartTime| int | 否 |是否支持兼职招聘|
-|RecruitPartTimeServerSysNo| int | 否 |兼职招聘服务商|
-|RecruitPartTimeServerName| string | 否 |兼职招聘服务商名称|
-|RecruitPartTimeCertificateSysNo| int | 否 |兼职招聘签约主体|
-|RecruitPartTimeCertificateName| string| 否 |兼职招聘签约主体名称|
+| ActiveStatus | int | 否 | 激活状态（0待激活，10启用） |
+| InUser | string | 否 | 创建人 |
+| EditUser | string | 否 | 编辑人 |
+| ObjectFileList | array File | 否（可选配置） | 附件 |
+| IsShowInCommission | int | 否 | 是否在抢工佣金推送列表显示 |
+| RecruitNeedPlatAudit | int | 否 | 发布岗位是否需要平台审核 |
+| RMAReceiverAddress | string | 是 | 退货地址 |
+| RMAReceiverName | string | 是 | 退货收货人 |
+| RMAReceiverPhone | string | 是 | 退货收货人电话 |
+| BackMoneyDay1 | int | 否 | 回款日期1\(号\) |
+| BackMoneyDay2 | int | 否 | 回款日期2\(号\) |
+| OutMoneyDay1 | int | 否 | 发薪日期1\(号\) |
+| OutMoneyDay2 | int | 否 | 发薪日期2\(号\) |
+| IsDisable | int | 否 | 是否禁用（1禁用，0启用） |
+| SignDate | datetime | 否 | 签约日期 |
+| InvoiceType | int | 否 | 开票方式（1专用发票 2普通发票） |
+| IfHasTax | int | 否 | 是否含税 |
+| TaxRate | decimal | 否 | 税率 |
+| SalaryTimes | int | 否 | 加班时薪倍数 |
+| SalesManagerPersonSysNo | int | 否 | 销售经理 |
+| SalesManagerDepartmentSysNo | int | 否 | 销售部门编码 |
+| SalesManagerDepartmentName | string | 否 | 销售部门 |
+| RecruitStatus | int | 否 | 招聘状态（10进行中，0未开始） |
+| IsRecruitFullTime | int | 否 | 是否支持全职招聘 |
+| RecruitFullTimeServerSysNo | int | 否 | 全职招聘服务商 |
+| RecruitFullTimeServerName | string | 否 | 全职招聘服务商名称 |
+| RecruitFullTimeCertificateSysNo | int | 否 | 全职招聘签约主体 |
+| RecruitFullTimeCertificateName | string | 否 | 全职招聘签约主体名称 |
+| IsRecruitPartTime | int | 否 | 是否支持兼职招聘 |
+| RecruitPartTimeServerSysNo | int | 否 | 兼职招聘服务商 |
+| RecruitPartTimeServerName | string | 否 | 兼职招聘服务商名称 |
+| RecruitPartTimeCertificateSysNo | int | 否 | 兼职招聘签约主体 |
+| RecruitPartTimeCertificateName | string | 否 | 兼职招聘签约主体名称 |
 | SellerCode | string | 是 | 商家唯一编号 |
-|RecruitServerSysNo| int | 否 |招聘服务商|
-|RecruitServerName| string | 否 |招聘服务商名称|
-|RecruitCertificateSysNo| int | 否 |招聘签约主体|
-|RecruitCertificateName| string| 否 |招聘签约主体名称|
-|RecruitServerRate| decimal| 否 |服务费比率|
+| RecruitServerSysNo | int | 否 | 招聘服务商 |
+| RecruitServerName | string | 否 | 招聘服务商名称 |
+| RecruitCertificateSysNo | int | 否 | 招聘签约主体 |
+| RecruitCertificateName | string | 否 | 招聘签约主体名称 |
+| RecruitServerRate | decimal | 否 | 服务费比率 |
 | LoginID | string | 是 | 用户名 |
-
-
 
 #### File说明 {#应答数据-}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| FileTitle| string| 是 | 文件名称 |
-| FilePath| string| 是 | 文件地址 |
-| FileUrl| string| 是 | 文件地址 |
-
+| FileTitle | string | 是 | 文件名称 |
+| FilePath | string | 是 | 文件地址 |
+| FileUrl | string | 是 | 文件地址 |
 
 > #### SellerStatistic统计计算字段 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | Wallet | object | 否 | 钱包实体（资金说明） |
-| ShopCount| int | 否 |店铺数量 |
-| PartTimeJobCount| int | 否 |兼职数量 |
-| FullTimeJobCount| int | 否 |全职数量 |
-
+| ShopCount | int | 否 | 店铺数量 |
+| PartTimeJobCount | int | 否 | 兼职数量 |
+| FullTimeJobCount | int | 否 | 全职数量 |
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -149,19 +145,16 @@
 | AuditStatusList | Array\[int\] | 否 | 审核状态 |
 | SellerStatusList | Array\[int\] | 否 | 商家状态 |
 | KeyWord | string | 否 | 关键字（名称/负责人/联系人/电话） |
-|ScaleTypeList|Array\[int\] | 否 | 企业规模 |
-|InParkStatusList|Array\[int\] | 否 | 状态（潜在客户，已入驻，已签出） |
-|SellerClassSysNoList|Array\[int\] | 否 | 商家类别系统编码（类目树） |
-| ParkSysNo| int | 否 |注册地址（园区） |
+| ScaleTypeList | Array\[int\] | 否 | 企业规模 |
+| InParkStatusList | Array\[int\] | 否 | 状态（潜在客户，已入驻，已签出） |
+| SellerClassSysNoList | Array\[int\] | 否 | 商家类别系统编码（类目树） |
+| ParkSysNo | int | 否 | 注册地址（园区） |
 | SellerTypeList | array int | 否 | 商家类型（行业枚举） |
 | OrganizationSysNoList | array  int | 是 | 组织系统编码 |
-| IsShowInCommissionList | array  int | 是 |是否在抢工佣金推送列表显示 |
-| SalesManagerPersonSysNo| int | 是 |销售人员 |
-| IfHasSalesManagerDepartment| int | 是 |是否有销售部门 |
-| RecruitStatusList | array  int | 是 |招聘状态（10进行中，0未开始）|
-
-
-
+| IsShowInCommissionList | array  int | 是 | 是否在抢工佣金推送列表显示 |
+| SalesManagerPersonSysNo | int | 是 | 销售人员 |
+| IfHasSalesManagerDepartment | int | 是 | 是否有销售部门 |
+| RecruitStatusList | array  int | 是 | 招聘状态（10进行中，0未开始） |
 
 > #### Limit限制字段 {#请求数据}
 
@@ -173,9 +166,8 @@
 | IsShowSellerBossPerson | int | 否 | 是否显示商家创始人 |
 | IsShowSellerCategoryList | int | 否 | 是否显示商家行业列表 |
 | IsShowObjectFileList | int | 否 | 是否显示附件 |
-| IsShowContractUrlList  | int | 否 | 是否显示合同图片 |
-| IsShowLogin  | int | 否 | 是否显示用户名 |
-
+| IsShowContractUrlList | int | 否 | 是否显示合同图片 |
+| IsShowLogin | int | 否 | 是否显示用户名 |
 
 #### 模块页面编号枚举说明 {#请求数据}
 
