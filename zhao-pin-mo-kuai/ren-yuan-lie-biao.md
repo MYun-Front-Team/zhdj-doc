@@ -35,6 +35,15 @@ _**【接口地址】**_
 | ContractSysNo | int | 是 | 协议系统编码 |
 | ContractSignTime | datetime | 是 | 协议签署时间 |
 | NPLWalletCardNo | string | 是 | 电子钱包账号 |
+| SellerName| string | 是 | 客户名称 |
+| RecruitCertificateName| string | 是 | 签约主体 |
+
+
+
+
+
+
+
 
 
 
