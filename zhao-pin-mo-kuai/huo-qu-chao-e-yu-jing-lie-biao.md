@@ -10,8 +10,8 @@ _**【应用场景】**_
 
 _**【接口地址】**_
 
-[http://ip:port/RecruitQuery/Wallet/GetExcessWageList]
-(http://ip:port/RecruitQuery/Wallet/GetExcessWageList)
+[http://ip:port/RecruitQuery/Wallet/GetWageExcessList]
+(http://ip:port/RecruitQuery/Wallet/GetWageExcessList)
 
 > #### _请求数据_ {#请求数据}
 
