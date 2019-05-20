@@ -28,7 +28,7 @@ _**【接口地址】**_
 | WaitSignItems| array(WaitSignContract) | 是 |待签协议列表 |
 
 
-> #### _应答数据WaitSignContract _ 
+> #### _应答数据WaitSignContractItem_ 
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
