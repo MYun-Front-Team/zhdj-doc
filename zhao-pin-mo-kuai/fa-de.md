@@ -25,7 +25,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | ContractStatus| int | 是 | 协议签署状态，0未签署1无协议，10已签署11签署失败|
-| WaitSignItems| array(WaitSignContract) | 是 |待签协议列表 |
+| WaitSignItems| array(WaitSignContractItem) | 是 |待签协议列表 |
 
 
 > #### _应答数据WaitSignContractItem_ 
