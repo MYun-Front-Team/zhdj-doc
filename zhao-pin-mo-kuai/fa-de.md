@@ -32,9 +32,9 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| PesonSysNo| string | 是 | 人员编码|
-| SellerSysNo| string | 是 | 客户编码|
-| SellerName| datetime| 是 | 客户名称 |
+| PesonSysNo| int| 是 | 人员编码|
+| SellerSysNo| int| 是 | 客户编码|
+| SellerName| string| 是 | 客户名称 |
 | ContractStatus| int | 是 | 协议签署状态，0未签署10已签署11签署失败|
 
 
