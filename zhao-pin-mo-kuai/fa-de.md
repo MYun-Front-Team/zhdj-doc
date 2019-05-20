@@ -11,7 +11,7 @@ _**【应用场景】**_
 _**【接口地址】**_
 
 [http://ip:port/RecruitQuery/Recruit/GetWaitSignContractList]
-(http://ip:port/RecruitQuery/Wallet/GetWaitSignContractList)
+(http://ip:port/RecruitQuery/Recruit/GetWaitSignContractList)
 
 > #### _请求数据_ {#请求数据}
 
