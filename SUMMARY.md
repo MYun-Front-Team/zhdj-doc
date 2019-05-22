@@ -1257,6 +1257,7 @@
     * [平台基础数据报表](zhao-pin-mo-kuai/ping-tai-ji-chu-shu-ju-bao-biao.md)
     * [获取超额预警列表](zhao-pin-mo-kuai/huo-qu-chao-e-yu-jing-lie-biao.md)
     * [获取待签署协议列表](zhao-pin-mo-kuai/fa-de.md)
+    * [企业端导入人员](zhao-pin-mo-kuai/qi-ye-duan-dao-ru-ren-yuan.md)
   * [发放管理](zhao-pin-mo-kuai/fa-fang-guan-li.md)
     * [新增发放](zhao-pin-mo-kuai/xin-zeng-fa-fang.md)
     * [删除薪资发放](zhao-pin-mo-kuai/shan-chu-xin-zi-fa-fang.md)
