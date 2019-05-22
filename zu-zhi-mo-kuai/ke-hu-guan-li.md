@@ -48,7 +48,7 @@
 | HelpMemberId| string| 否 |辅助id |
 | CPSCode| string| 否 |客户来源三方cps编号 |
 | CPSSysNo | int | 否 | 客户来源三方cps编码|
-
+| CustomerManagers | array[CustomerManager] | 否 | 客户经理/顾问|
 
 
 
@@ -59,8 +59,13 @@
 | TeamCount| int | 否 |团队数|
 | LJPoint| decimal | 否 |蓝晶数|
 
+> #### CustomerManager 客户经理/顾问
 
-
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| ManagerName| string | 否 |顾问名称|
+| ManagerType| int | 否 |类型（1顾问 2经理）|
+| ManagerSysNo| int | 否 |顾问系统编码|
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -100,8 +105,7 @@
 | IsShowTagList | int | 否 | 是否显示标签列表 |
 | IsShowHelpMemberId | int | 否 | 是否显示辅助ID |
 | IsShowCustomerStatistic | int | 否 | 是否显示统计字段 |
-
-
+| IsShowCustomerManager| int | 否 | 是否显示客户经理 |
 
 
 #### 模块页面编号枚举说明 {#请求数据}
