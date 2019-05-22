@@ -34,6 +34,17 @@ _**【接口地址】**_
 
 #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
-无
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| HasError| bool| 是 | 是否有错误|
+| Errors| array[ImportPersonErrorItem]| 是 | 错误信息 |
 
+#### _应答数据ImportPersonErrorItem
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| Index| int| 是 | 序号|
+| RealName| string| 是 | 姓名 |
+| CellPhoneNo| string| 是 | 手机号码|
+| ErrorMessage| string| 是 | 错误信息|
 
