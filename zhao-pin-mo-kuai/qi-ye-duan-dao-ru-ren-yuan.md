@@ -18,7 +18,7 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo| int| 是 | 组织编码 |
-| Items| array[PersonItemAdd]| 是 | 组织编码 |
+| Items| array[PersonItemAdd]| 是 | 人员明细 |
 
 
 
