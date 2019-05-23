@@ -1261,6 +1261,7 @@
     * [获取待签署协议列表](zhao-pin-mo-kuai/fa-de.md)
     * [企业端导入人员](zhao-pin-mo-kuai/qi-ye-duan-dao-ru-ren-yuan.md)
     * [重新邀请签约](zhao-pin-mo-kuai/zhong-xin-yao-qing-qian-yue.md)
+    * [企业绑定客户](zhao-pin-mo-kuai/qi-ye-bang-ding-ke-hu.md)
   * [发放管理](zhao-pin-mo-kuai/fa-fang-guan-li.md)
     * [新增发放](zhao-pin-mo-kuai/xin-zeng-fa-fang.md)
     * [删除薪资发放](zhao-pin-mo-kuai/shan-chu-xin-zi-fa-fang.md)
