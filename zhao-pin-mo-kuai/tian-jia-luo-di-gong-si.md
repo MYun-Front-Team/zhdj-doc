@@ -19,6 +19,8 @@ http://ip:port/RecruitAction/Contract/AddCertificate
 | :--- | :--- | :--- | :--- |
 | RecruitCertificateSysNo| int | 是 | 落地公司系统编码 |
 | SellerSysNo| int | 是 |商家系统编码 |
+| PerMonthLimit| decimal | 是 |每人单月限额 |
+| ServerRate| decimal | 是 |服务费比例|
 
 
 
