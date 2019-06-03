@@ -18,6 +18,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | WageSysNo | int | 是 | 发放编码 |
 | Captcha | string | 是 | 短信验证码 |
+| WageChannel| int| 是 | 发放渠道，1银行卡2钱包账号|
 
 
 

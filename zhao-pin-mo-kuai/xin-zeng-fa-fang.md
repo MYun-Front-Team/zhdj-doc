@@ -18,6 +18,8 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | OrganizationSysNo | int | 是 | 组织系统编码 |
 | WageItems | array\[WageItemAdd\] | 是 | 发放明细 |
+| RecruitCertificateSysNo| int | 是 | 落地公司编码 |
+
 
 #### WageItemAdd
 
