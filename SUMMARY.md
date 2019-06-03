@@ -1160,7 +1160,7 @@
     * [是否个人开户](zhao-pin-mo-kuai/luo-di-gong-si/shi-fou-ge-ren-kai-hu.md)
     * [是否绑定银行卡或支付宝](zhao-pin-mo-kuai/luo-di-gong-si/shi-fou-bang-ding-yin-xing-qia-huo-zhi-fu-bao.md)
     * [绑定银行卡](zhao-pin-mo-kuai/luo-di-gong-si/bang-ding-yin-xing-qia-huo-zhi-fu-bao.md)
-    * 绑定支付宝
+    * [绑定支付宝](zhao-pin-mo-kuai/luo-di-gong-si/bang-ding-zhi-fu-bao.md)
     * 解绑银行卡或支付宝
     * 设置账号保护密码
     * 修改密码
