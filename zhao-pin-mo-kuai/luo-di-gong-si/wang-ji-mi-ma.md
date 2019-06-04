@@ -18,7 +18,6 @@ http://ip:port/RecruitAction/MyBank/ResetPayPassword
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PersonSysNo| int| 是 | 人员编码 |
-| RecruitCertificateSysNo| int| 是 | 落地公司编码 |
 | IDCard | string| 是 |身份证号 |
 | Captcha| string| 是 |验证码|
 | NewPayPassword| string| 是 |新保护密码 |

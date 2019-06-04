@@ -19,7 +19,6 @@ http://ip:port/RecruitQuery/MyBank/CheckPayPassword
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PersonSysNo| int| 是 | 人员编码 |
-| RecruitCertificateSysNo| int| 是 | 落地公司编码 |
 | PayPassword| string| 是 |保护密码 |
 
 

@@ -18,7 +18,6 @@ http://ip:port/RecruitAction/MyBank/EditPayPassword
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PersonSysNo| int| 是 | 人员编码 |
-| RecruitCertificateSysNo| int| 是 | 落地公司编码 |
 | OldPayPassword| string| 是 |旧保护密码 |
 | NewPayPassword| string| 是 |新保护密码 |
 
