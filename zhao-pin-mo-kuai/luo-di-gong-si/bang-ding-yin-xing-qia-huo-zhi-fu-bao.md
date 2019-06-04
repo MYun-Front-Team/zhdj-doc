@@ -20,7 +20,7 @@ http://ip:port/RecruitAction/MyBank/BindCard
 | RecruitCertificateSysNo| int| 是 | 落地公司编码 |
 | CardNo| string| 是 | 银行卡 |
 | BankName| string| 是 | 银行全称 |
-| RealName| string| 是 | 银行开户名 |
+| AccountName| string| 是 | 银行开户名 |
 | CardType| string| 是 | 卡类型，DC借记CC贷记（信用卡）PB存折OC其他|
 | CardAttribute| string| 是 | 卡属性，C对私B对公 |
 
