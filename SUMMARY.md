@@ -1164,7 +1164,7 @@
     * [设置账号保护密码](zhao-pin-mo-kuai/luo-di-gong-si/she-zhi-zhang-hao-bao-hu-mi-ma.md)
     * [修改密码](zhao-pin-mo-kuai/luo-di-gong-si/xiu-gai-mi-ma.md)
     * [忘记密码](zhao-pin-mo-kuai/luo-di-gong-si/wang-ji-mi-ma.md)
-    * [是否设置账号保护密码](zhao-pin-mo-kuai/luo-di-gong-si/shi-fou-she-zhi-zhang-hao-bao-hu-mi-ma.md)
+    * [检查保护密码是否正确](zhao-pin-mo-kuai/luo-di-gong-si/shi-fou-she-zhi-zhang-hao-bao-hu-mi-ma.md)
 * [设备模块](she-bei-mo-kuai.md)
   * [获取设备列表](she-bei-mo-kuai/huo-qu-she-bei-lie-biao.md)
   * [获取设备详情](she-bei-mo-kuai/huo-qu-she-bei-xiang-qing.md)
