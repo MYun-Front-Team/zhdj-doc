@@ -1157,7 +1157,6 @@
     * [获取未上传的人员](zhao-pin-mo-kuai/huo-qu-wei-shang-chuan-de-ren-yuan.md)
   * [网商银行](zhao-pin-mo-kuai/luo-di-gong-si.md)
     * [个人开户](zhao-pin-mo-kuai/luo-di-gong-si/ge-ren-kai-hu.md)
-    * [是否个人开户](zhao-pin-mo-kuai/luo-di-gong-si/shi-fou-ge-ren-kai-hu.md)
     * [是否绑定银行卡或支付宝](zhao-pin-mo-kuai/luo-di-gong-si/shi-fou-bang-ding-yin-xing-qia-huo-zhi-fu-bao.md)
     * [绑定银行卡](zhao-pin-mo-kuai/luo-di-gong-si/bang-ding-yin-xing-qia-huo-zhi-fu-bao.md)
     * [绑定支付宝](zhao-pin-mo-kuai/luo-di-gong-si/bang-ding-zhi-fu-bao.md)
