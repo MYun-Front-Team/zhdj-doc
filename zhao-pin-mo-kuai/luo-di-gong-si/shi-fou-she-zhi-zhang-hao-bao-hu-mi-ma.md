@@ -27,7 +27,7 @@ http://ip:port/RecruitQuery/MyBank/CheckPayPassword
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| MyBankAccountStatus| int| 是 | 钱包账户状态，0无密码10密码正确11密码错误|
+| MyBankWalletStatus| int| 是 | 钱包账户状态，0无密码10密码正确11密码错误|
 
 
 
