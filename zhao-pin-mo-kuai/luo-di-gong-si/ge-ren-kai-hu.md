@@ -29,7 +29,8 @@ http://ip:port/RecruitQuery/MyBank/
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| SysNo | int | 是 | 实名认证系统编码 |
+| MemberID | string| 是 | 网上银行会员号 |
+| SubAccountNo |string | 是 | 子账号 |
 
 
 
