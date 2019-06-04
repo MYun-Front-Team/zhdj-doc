@@ -22,7 +22,6 @@ http://ip:port/RecruitQuery/MyBank/
 | BankSysNo | int | 否 | 银行编码 |
 | BankName | string | 是 | 银行名称 |
 | BankBranchName | string | 是 | 支行名称 |
-| OriginAddress | string | 是 | 户籍地址 |
 
 
 
