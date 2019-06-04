@@ -1163,7 +1163,7 @@
     * [解绑银行卡或支付宝](zhao-pin-mo-kuai/luo-di-gong-si/jie-bang-yin-xing-qia-huo-zhi-fu-bao.md)
     * [设置账号保护密码](zhao-pin-mo-kuai/luo-di-gong-si/she-zhi-zhang-hao-bao-hu-mi-ma.md)
     * [修改密码](zhao-pin-mo-kuai/luo-di-gong-si/xiu-gai-mi-ma.md)
-    * 忘记密码
+    * [忘记密码](zhao-pin-mo-kuai/luo-di-gong-si/wang-ji-mi-ma.md)
     * [是否设置账号保护密码](zhao-pin-mo-kuai/luo-di-gong-si/shi-fou-she-zhi-zhang-hao-bao-hu-mi-ma.md)
 * [设备模块](she-bei-mo-kuai.md)
   * [获取设备列表](she-bei-mo-kuai/huo-qu-she-bei-lie-biao.md)
