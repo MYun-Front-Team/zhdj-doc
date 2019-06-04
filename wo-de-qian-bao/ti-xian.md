@@ -16,7 +16,7 @@ http://ip:port/RecruitAction/Wallet/NPLWalletCash
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PersonSysNo | int | 是 | 人员系统编码 |
-| CardNo | string | 是 | 银行卡或支付宝|
+| CardSysNo| int| 是 | 银行卡编码|
 | Amount | decimal | 是 | 提现金额 |
 
 
