@@ -20,7 +20,6 @@ http://ip:port/RecruitAction/MyBank/CheckPayPassword
 | :--- | :--- | :--- | :--- |
 | PersonSysNo| int| 是 | 人员编码 |
 | RecruitCertificateSysNo| int| 是 | 落地公司编码 |
-| MemberID| string| 是 |网商银行会员号 |
 | PayPassword| string| 是 |保护密码 |
 
 
