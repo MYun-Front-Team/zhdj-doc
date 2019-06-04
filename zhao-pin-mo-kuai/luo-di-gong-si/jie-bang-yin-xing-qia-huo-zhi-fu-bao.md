@@ -17,7 +17,6 @@ http://ip:port/RecruitAction/MyBank/UnBindCard
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| OrganizationSysNo| string | 是 | 组织编码|
 | PersonSysNo| int| 是 | 人员编码 |
 | RecruitCertificateSysNo| int| 是 | 落地公司编码 |
 | CardSysNo| string| 是 | 银行卡编码 |
