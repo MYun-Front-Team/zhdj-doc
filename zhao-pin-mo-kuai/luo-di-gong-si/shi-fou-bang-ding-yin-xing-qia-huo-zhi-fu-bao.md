@@ -24,7 +24,7 @@ http://ip:port/RecruitQuery/MyBank/CheckBindCardOrAlipay
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| IsBind| int | 是 | 是否绑定，0未绑定1已绑定 |
-
+| IsBindCard| int | 是 | 是否绑定，0未绑定1已绑定 |
+| IsBindAlipay| int | 是 | 是否绑定，0未绑定1已绑定 |
 
 

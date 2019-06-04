@@ -17,7 +17,6 @@ http://ip:port/RecruitAction/MyBank/BindAlipay
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PersonSysNo| int| 是 | 人员编码 |
-| RecruitCertificateSysNo| int| 是 | 落地公司编码 |
 | AccountNo| string| 是 | 支付宝账号 |
 | AccountName| string| 是 | 支付宝对应的真实姓名|
 | CertificateNo| string| 是 | 身份证号 |
