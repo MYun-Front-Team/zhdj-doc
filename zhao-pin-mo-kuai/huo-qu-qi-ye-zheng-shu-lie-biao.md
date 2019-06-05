@@ -18,10 +18,6 @@ http://ip:port/RecruitQuery/Contract/GetCertificateList
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | RecruitServerSysNo| int | 否 | 服务商系统编码 |
-| SellerSysNo| int | 否 | 商家系统编码 |
-
-
-
 
 
 #### 返回参数
