@@ -26,7 +26,7 @@ http://ip:port/RecruitQuery/Contract/GetSellerCertificateList
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | SysNo| int | 是 | 主键 |
-| SellerID| int | 是 | 商家编码 |
+| SellerSysNo| int | 是 | 商家编码 |
 | SellerName| string| 是 | 商家名称 |
 | RecruitCertificateName| string| 是 | 落地公司名称 |
 | RecruitCertificateSysNo| int| 是 | 落地公司编码 |
