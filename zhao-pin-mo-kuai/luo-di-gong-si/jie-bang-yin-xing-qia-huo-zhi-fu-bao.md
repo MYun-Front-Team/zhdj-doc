@@ -18,7 +18,7 @@ http://ip:port/RecruitAction/MyBank/UnBindCard
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PersonSysNo| int| 是 | 人员编码 |
-| CardSysNo| string| 是 | 银行卡编码 |
+| CardNo| string| 是 | 银行卡号或支付宝账号 |
 
 
 #### 返回参数
