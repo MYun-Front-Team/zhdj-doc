@@ -19,7 +19,7 @@ _**【接口地址】**_
 | OrganizationSysNo | int | 是 | 组织系统编码 |
 | RechargeAmount | decimal（18，2） | 是 | 充值金额 |
 | FilePathList | array\[string\] | 否 | 凭证 |
-| RecruitCertificateSysNo| string | 是 |签约服务商编码 |
+| RecruitCertificateSysNo| int| 是 |签约服务商编码 |
 
 
 
