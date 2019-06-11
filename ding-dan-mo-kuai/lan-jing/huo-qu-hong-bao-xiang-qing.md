@@ -36,6 +36,8 @@ http://ip:port/ActivityQuery/RedEnvelope/GetRedEnvelopeBySysNo
 | PersonCount| int| 否 | 红包人数|
 | PickPersonCount| int| 否 | 已领取人数|
 |Teams| array[Team]| 否 | 梯队|
+| RedEnvelopeType | int | 否 | 红包类型（1蓝晶红包，2魔力红包） |
+
 
 #### Team
 
