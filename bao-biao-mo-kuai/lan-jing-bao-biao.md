@@ -26,6 +26,8 @@
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | PersonSysNo | int | 否 | 党支部 |
+| KeyWord | string | 否 | 关键字|
+
 
 > #### 应答数据 PageResponseStatistic 【9000100】
 

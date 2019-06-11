@@ -22,6 +22,8 @@ http://ip:port/ActivityAction/RedEnvelope/AddRedEnvelope
 | StartCalculationTime| datetime| 否 |结算起始|
 | EndCalculationTime| datetime| 否 |结算终止|
 |Teams| array[Team]| 否 | 梯队|
+| RedEnvelopeType | int | 否 | 红包类型（1蓝晶红包，2魔力红包） |
+
 
 #### Team
 

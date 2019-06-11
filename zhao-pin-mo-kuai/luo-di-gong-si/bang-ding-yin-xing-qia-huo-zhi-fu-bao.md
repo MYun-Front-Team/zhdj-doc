@@ -22,8 +22,6 @@ http://ip:port/RecruitAction/MyBank/BindCard
 | AccountName| string| 是 | 银行开户名 |
 | CardType| string| 是 | 卡类型，DC借记CC贷记（信用卡）PB存折OC其他|
 | CardAttribute| string| 是 | 卡属性，C对私B对公 |
-| CellPhoneNo| string| 是 | 预留手机号 |
-
 
 
 #### 返回参数
