@@ -1,17 +1,17 @@
-# 获取卡BIN信息
+# 查询余额
 
 ##### _【功能说明】_ {#【功能说明】}
 
-获取卡BIN信息
+查询余额
 
 
 _**【应用场景】**_
-获取卡BIN信息
+查询余额
 
 
 _**【接口地址】**_
 
-http://ip:port/RecruitQuery/MyBank/GetCardBin
+http://ip:port/RecruitQuery/MyBank/GetBalance
 
 > #### _请求数据_ {#请求数据}
 
