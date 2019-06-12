@@ -72,6 +72,9 @@ http://ip:port/RecruitQuery/Recruit/GetRecruitPersonList
 | InterviewLatitude | decimal（18，10） | 否 | 面试纬度 |
 | IsQuit| int| 是 | 是否离职（0正常，1离职） |
 | QuitDate| datetime| 是 | 离职时间 |
+| RecruitCertificateName| string| 否 | 签约服务商名称 |
+
+
 
 
 
