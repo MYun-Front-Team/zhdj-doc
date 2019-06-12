@@ -32,12 +32,33 @@ _**【接口地址】**_
 | CellPhoneNo | string | 是 | 手机号 |
 | Remark | string | 是 | 备注 |
 | Index | int | 是 | 行号 |
+| SubAccountNo| string | 是 | 子账号|
+| BankName| string| 是 | 银行名称 |
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| WageSysNo | int | 是 | 发放编码 |
+| HasError| bool| 是 | 是否成功 |
+| Errors| array[AddWageErrorItem]| 是 | 是否成功 |
+
+#### AddWageErrorItem
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| RealName | string | 是 | 姓名 |
+| IDCard | string | 是 | 身份正号 |
+| CardNo | string | 是 | 银行卡 |
+| WageAmount | decimal | 是 | 薪资 |
+| CellPhoneNo | string | 是 | 手机号 |
+| Remark | string | 是 | 备注 |
+| Index | int | 是 | 行号 |
+| SubAccountNo| string | 是 | 子账号|
+| BankName| string| 是 | 银行名称 |
+| ErrorMessage| string| 是 | 错误信息 |
+
+
+
 
 
 
