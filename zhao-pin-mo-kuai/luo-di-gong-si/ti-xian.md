@@ -17,6 +17,7 @@ http://ip:port/RecruitAction/MyBank/Withdraw
 | :--- | :--- | :--- | :--- |
 | PersonSysNo | int | 是 | 人员系统编码 |
 | CardNo | string | 是 | 银行卡|
+| BankName| string | 是 | 银行名称|
 | Amount | decimal | 是 | 提现金额 |
 
 
