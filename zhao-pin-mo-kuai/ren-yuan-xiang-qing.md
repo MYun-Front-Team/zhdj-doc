@@ -1,0 +1,94 @@
+# 人员详情
+
+##### _【功能说明】_ {#【功能说明】}
+
+人员详情
+
+_**【应用场景】**_
+
+人员详情
+
+_**【接口地址】**_
+
+[http://ip:port/RecruitAction/Customer/GetCustomerBySysNo]
+
+> #### _请求数据_ {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| CustomerSysNo | int | 是 | 客户编码 |
+
+
+> #### _应答数据 _ {#应答数据-（巡河记录数组）}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PersonSysNo | int | 是 | 人员编码 |
+| RealName | string | 是 | 人员姓名 |
+| CellPhoneNo | string | 是 | 电话 |
+| BankName | string | 是 | 开户行 |
+| CardNo | string | 是 | 银行卡 |
+| AuthenticationStatus | int | 是 | 实名认证状态（0未认证 10已认证） |
+| ContractStatus | int | 是 | 协议签署状态（0待签署10已经签署） |
+| ContractSysNo | int | 是 | 协议系统编码 |
+| ContractSignTime | datetime | 是 | 协议签署时间 |
+| NPLWalletCardNo | string | 是 | 电子钱包账号 |
+| SellerName| string | 是 | 客户名称 |
+| RecruitCertificateName| string | 是 | 签约主体 |
+| ContractCount| int| 是 | 协议数量 |
+| ContractList| array[Contract]| 是 | 协议数量 |
+| SubAccountNo| string | 是 | 钱包账号|
+
+
+> #### 应答数据Contract
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| SignTime| int | 是 | 签署时间 |
+| SubAccountNo| string | 是 | 钱包账号|
+| RecruitCertificateSysNo| string | 是 | 签约服务商编码|
+| RecruitCertificateName| string | 是 | 签约服务商名称|
+| ContractStatus| Int| 是 | 协议状态 |
+| RecruitServerRemark| string| 是 | 平台Remark |
+| ThreePartyContractId| string| 是 |合同id |
+| ContractSysNo| int| 是 |协议编码 |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
