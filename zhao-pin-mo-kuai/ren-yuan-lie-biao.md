@@ -41,7 +41,7 @@ _**【接口地址】**_
 | RecruitCertificateName| string | 是 | 签约主体 |
 | ContractCount| int| 是 | 协议数量 |
 | ContractList| array[Contract]| 是 | 协议数量 |
-| SubAccountNo| string | 是 | 签约主体 |
+| SubAccountNo| string | 是 | 钱包账号|
 
 
 > #### 应答数据Contract
