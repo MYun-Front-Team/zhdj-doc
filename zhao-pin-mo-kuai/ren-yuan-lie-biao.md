@@ -39,6 +39,28 @@ _**【接口地址】**_
 | NPLWalletCardNo | string | 是 | 电子钱包账号 |
 | SellerName| string | 是 | 客户名称 |
 | RecruitCertificateName| string | 是 | 签约主体 |
+| ContractCount| int| 是 | 协议数量 |
+| ContractList| array[Contract]| 是 | 协议数量 |
+
+
+> #### 应答数据Contract
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| SignTime| int | 是 | 签署时间 |
+| SubAccountNo| string | 是 | 钱包账号|
+| RecruitCertificateSysNo| string | 是 | 签约服务商编码|
+| RecruitCertificateName| string | 是 | 签约服务商名称|
+| ContractStatus| Int| 是 | 协议状态 |
+
+
+
+
+
+
+
+
+
 
 
 
