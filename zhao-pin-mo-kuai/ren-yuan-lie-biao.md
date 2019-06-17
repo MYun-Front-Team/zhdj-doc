@@ -21,6 +21,8 @@ _**【接口地址】**_
 | AuthenticationStatus | int | 是 | 实名认证状态（0未认证 10已认证） |
 | ContractStatus | int | 是 | 协议签署状态（0待签署10已经签署） |
 | RecruitCertificateSysNo| int | 是 | 签约服务商编码 |
+| PersonSysNo| int | 是 | 人员编码 |
+
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
