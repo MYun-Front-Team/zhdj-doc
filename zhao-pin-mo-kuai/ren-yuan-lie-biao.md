@@ -41,6 +41,7 @@ _**【接口地址】**_
 | RecruitCertificateName| string | 是 | 签约主体 |
 | ContractCount| int| 是 | 协议数量 |
 | ContractList| array[Contract]| 是 | 协议数量 |
+| SubAccountNo| string | 是 | 签约主体 |
 
 
 > #### 应答数据Contract
@@ -52,6 +53,30 @@ _**【接口地址】**_
 | RecruitCertificateSysNo| string | 是 | 签约服务商编码|
 | RecruitCertificateName| string | 是 | 签约服务商名称|
 | ContractStatus| Int| 是 | 协议状态 |
+| RecruitServerRemark| string| 是 | 平台Remark |
+| ThreePartyContractId| string| 是 |合同id |
+| ContractSysNo| int| 是 |协议编码 |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
