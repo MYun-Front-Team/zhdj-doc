@@ -20,6 +20,10 @@ http://ip:port/BasicAction/Basic/SetCPSPositionInfo
 | CPSCode | string | 否 |CPS编码（暂时为‘TBLM’） |
 | ChannelId| string  | 否 | 栏目ID|
 | MemberId | string | 否 | 会员ID |
+| HelpMemberId | string | 否 | 辅助会员ID |
+
+
+
 
 
 
