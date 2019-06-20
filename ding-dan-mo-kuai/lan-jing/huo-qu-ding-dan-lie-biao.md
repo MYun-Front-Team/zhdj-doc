@@ -34,6 +34,7 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderList
 | EndRewardMP| decimal | 否 | 终止奖励魔力|
 | CPSCode | string | 否 | 三方来源编号 |
 | NoCPSCode | string | 否 | 除三方来源编号 |
+| TagName | string | 是 | 标签名称 |
 
 
 
