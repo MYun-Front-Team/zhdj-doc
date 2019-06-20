@@ -22,6 +22,7 @@ http://ip:port/ActivityQuery/RedEnvelope/GetRedEnvelopeItemList
 | EndAmount| decimal| 否 |终止金额|
 | StartPickTime| datetime| 否 |起始领取时间|
 | EndPickTime| datetime| 否 |终止领取时间|
+| PersonSysNo| int| 否 | 用户编码|
 
 
 > #### 返回数据
