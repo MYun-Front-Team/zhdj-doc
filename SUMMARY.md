@@ -1138,6 +1138,7 @@
     * [添加落地公司](zhao-pin-mo-kuai/tian-jia-luo-di-gong-si.md)
     * [删除落地公司](zhao-pin-mo-kuai/shan-chu-luo-di-gong-si.md)
     * [获取商家落地公司列表](zhao-pin-mo-kuai/huo-qu-shang-jia-luo-di-gong-si.md)
+    * [静默签署合同](zhao-pin-mo-kuai/jing-mo-qian-shu-he-tong.md)
   * [项目结算](zhao-pin-mo-kuai/xiang-mu-jie-suan.md)
     * [获取项目结算列表](zhao-pin-mo-kuai/huo-qu-xiang-mu-jie-suan-lie-biao.md)
     * [获取项目结算列表详情](zhao-pin-mo-kuai/huo-qu-xiang-mu-jie-suan-lie-biao-xiang-qing.md)
