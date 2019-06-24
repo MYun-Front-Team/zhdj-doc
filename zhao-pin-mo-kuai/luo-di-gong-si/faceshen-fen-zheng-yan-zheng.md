@@ -18,6 +18,6 @@ http://ip:port/RecruitAction/MyBank/OcrIDCard
 | :--- | :--- | :--- | :--- |
 | PersonSysNo | int | 是 | 人员系统编码 |
 | ImageBase64| string | 是 | 图片的base64数据|
-| ImageUrl| string| 是 | 图片Url |
+| ImageUrl| string| 否 | 图片Url |
 
 
