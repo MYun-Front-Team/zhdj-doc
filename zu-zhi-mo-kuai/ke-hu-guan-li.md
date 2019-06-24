@@ -49,6 +49,7 @@
 | CPSCode| string| 否 |客户来源三方cps编号 |
 | CPSSysNo | int | 否 | 客户来源三方cps编码|
 | CustomerManagers | array[CustomerManager] | 否 | 客户经理/顾问|
+| LANPointsIsEnable| int | 否 | 客户蓝晶账号是否启用|
 
 
 
