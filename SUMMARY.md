@@ -1168,6 +1168,7 @@
     * [获取卡BIN信息](zhao-pin-mo-kuai/luo-di-gong-si/huo-qu-qia-bin-xin-xi.md)
     * [查询余额](zhao-pin-mo-kuai/luo-di-gong-si/cha-xun-yu-e.md)
     * [检查钱包](zhao-pin-mo-kuai/luo-di-gong-si/jian-cha-qian-bao.md)
+    * [Face++身份证验证](zhao-pin-mo-kuai/luo-di-gong-si/faceshen-fen-zheng-yan-zheng.md)
 * [设备模块](she-bei-mo-kuai.md)
   * [获取设备列表](she-bei-mo-kuai/huo-qu-she-bei-lie-biao.md)
   * [获取设备详情](she-bei-mo-kuai/huo-qu-she-bei-xiang-qing.md)
