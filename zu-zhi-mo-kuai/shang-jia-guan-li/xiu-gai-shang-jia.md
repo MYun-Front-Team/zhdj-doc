@@ -89,6 +89,9 @@ _**【接口地址】**_
 | InvoiceTitle | string | 否 | 发票抬头 |
 | BankBranchName | string | 否 | 银行名称 |
 | BankAccount | string | 否 | 银行账号 |
+| GZSalaryTimes | int | 否 | 工作日加班时薪倍数 |
+| GXSalaryTimes | int | 否 | 公休日加班时薪倍数 |
+
 
 #### File说明 {#应答数据-}
 
