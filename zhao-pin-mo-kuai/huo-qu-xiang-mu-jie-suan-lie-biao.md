@@ -45,6 +45,8 @@ http://ip:port/RecruitQuery/Settlement/GetSettlementList
 | ShopCount| int | 是 | 门店数 |
 | WorkHour| int | 是 |工作小时数合计 |
 | OvertimeHour| int | 是 | 固定加班小时数|
+|GZOvertimeHour | int | 否 | 工作日加班时小时数 |
+| GXOvertimeHour| int | 否 | 公休日加班时小时数 |
 | ServiceCharge| decimal| 是 |服务费合计|
 | TaxRate| decimal| 是 |税点|
 | TotalAmount| decimal| 是 |开票金额|

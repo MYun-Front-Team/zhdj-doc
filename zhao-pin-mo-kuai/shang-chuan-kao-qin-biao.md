@@ -43,7 +43,8 @@ http://ip:port/RecruitAction/Settlement/AddSettlement
 | QuitDate| datetime| 是 |离职时间 |
 | SellerReward | decimal| 是 |商家奖励金|
 | SellerFine| decimal| 是 |商家罚款|
-
+|GZOvertimeHour | int | 否 | 工作日加班时小时数 |
+| GXOvertimeHour| int | 否 | 公休日加班时小时数 |
 
 #### 返回数据
 
