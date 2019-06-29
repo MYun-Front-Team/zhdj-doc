@@ -187,6 +187,7 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| PersonName | string | 否 | 昵称 |
 | NewSonCount| int| 是 | 新增直属理事数量|
 | NewTeamCount| int| 是 | 新增团队人数数量|
 | MySettlementOrderCount| int| 是 | 新增自购结算订单数|
