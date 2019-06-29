@@ -187,15 +187,15 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| BillDate| int| 是 | 新增直属理事数量|
-| BillDate| int| 是 | 新增团队人数数量|
-| BillDate| int| 是 | 新增自购结算订单数|
-| BillDate| int| 是 | 新增团队结算订单数|
-| BillDate| int| 是 | 新增自购等待奖励订单数|
-| BillDate| int| 是 | 新增团队等待奖励订单数|
-| BillDate| int| 是 | 自购结算魔力|
-| BillDate| int| 是 | 团队结算魔力|
-| BillDate| int| 是 | 自购冻结魔力|
-| BillDate| int| 是 | 团队冻结魔力|
-| BillDate| int| 是 |蓝晶数量|
+| NewSonCount| int| 是 | 新增直属理事数量|
+| NewTeamCount| int| 是 | 新增团队人数数量|
+| MySettlementOrderCount| int| 是 | 新增自购结算订单数|
+| TeamSettlementOrderCount| int| 是 | 新增团队结算订单数|
+| MyWaitOrderCount| int| 是 | 新增自购等待奖励订单数|
+| TeamWaitOrderCount| int| 是 | 新增团队等待奖励订单数|
+| MySettlementMPPoint| int| 是 | 自购结算魔力|
+| TeamSettlementMPPoint| int| 是 | 团队结算魔力|
+| MyFrozenMPPoint| int| 是 | 自购冻结魔力|
+| TeamFrozenMPPoint| int| 是 | 团队冻结魔力|
+| ChangeLanPoint| int| 是 |蓝晶数量|
 
