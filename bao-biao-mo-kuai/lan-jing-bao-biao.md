@@ -199,4 +199,6 @@
 | MyFrozenMPPoint| int| 是 | 自购冻结魔力|
 | TeamFrozenMPPoint| int| 是 | 团队冻结魔力|
 | ChangeLanPoint| int| 是 |蓝晶数量|
+| SettlementOrderAmount| decimal| 是 |结算订单金额|
+
 
