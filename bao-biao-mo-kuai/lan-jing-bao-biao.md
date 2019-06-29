@@ -28,6 +28,11 @@
 | :--- | :--- | :--- | :--- |
 | PersonSysNo | int | 否 |人员 |
 | KeyWord | string | 否 | 关键字|
+| PersonSysNoList |array[int] | 否 |人员列表 |
+| StartTime| datetime| 否 | 开始时间|
+| EndTime| datetime| 否 | 终止时间|
+
+
 
 
 > #### 应答数据 PageResponseStatistic 【9000100】
@@ -177,3 +182,20 @@
 | :--- | :--- | :--- | :--- |
 | PersonCount| int| 否 | 待唤醒好友 |
 | SleepPointMP | decimal | 否 | 待领取奖励|
+
+> #### 应答数据 （PageResponseBase）【9000114】
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| BillDate| int| 是 | 新增直属理事数量|
+| BillDate| int| 是 | 新增团队人数数量|
+| BillDate| int| 是 | 新增自购结算订单数|
+| BillDate| int| 是 | 新增团队结算订单数|
+| BillDate| int| 是 | 新增自购等待奖励订单数|
+| BillDate| int| 是 | 新增团队等待奖励订单数|
+| BillDate| int| 是 | 自购结算魔力|
+| BillDate| int| 是 | 团队结算魔力|
+| BillDate| int| 是 | 自购冻结魔力|
+| BillDate| int| 是 | 团队冻结魔力|
+| BillDate| int| 是 |蓝晶数量|
+
