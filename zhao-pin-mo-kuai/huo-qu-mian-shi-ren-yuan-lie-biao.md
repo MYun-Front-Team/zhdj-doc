@@ -53,7 +53,8 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | EndQuitDate| datetime| 是 | 结束离职时间 |
 | DataRangeSysNo| int | 否 |店铺树编码 |
 | SourceFrom| int | 否 |来源详情 |
-| SettlementDate| datetime| 是 | 账期时间 |
+| SettlementDate| datetime| 是 | 账期开始时间 |
+| SettlementDateEnd| datetime| 是 | 账期结束时间 |
 | InvitePersonAdminStatusList|array[int] | 否 | 邀请人状态（0待激活 1激活 2禁用） |
 | InvitePersonDepartmentSysNo| int | 是 | 邀请人部门|
 | FatherInvitePersonDepartmentSysNo| int | 是 | 邀请人部门和下属部门|
@@ -100,6 +101,12 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | InterviewStartTime| datetime| 是 |面试开始 |
 | InterviewEndTime| datetime| 是 |面试结束|
 | InterviewAddress| string| 是 |面试地址 |
+| ----| ----|----|---- |
+| WorkHour| int | 是 |工作小时数合计（SettlementDate传了有效） |
+| OvertimeHour| int | 是 |固定加班小时数（SettlementDate传了有效） |
+|GZOvertimeHour | int | 否 | 工作日加班时小时数（SettlementDate传了有效） |
+| GXOvertimeHour| int | 否 | 公休日加班时小时数 （SettlementDate传了有效）|
+
 
 
 

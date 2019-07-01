@@ -36,7 +36,8 @@ http://ip:port/RecruitQuery/Settlement/GetSettlementList
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | SettlementSysNo | int | 是 | 项目结算系统编码 |
-| SettlementDate| datetime| 是 | 考勤月份 |
+| SettlementDate| datetime| 是 | 考勤月份开始 |
+| SettlementDateEnd| datetime| 是 | 考勤月份结束 |
 | OrganizationSysNo| int | 是 |所有者组织系统编码|
 | SellerName| string| 是 |商家名称|
 | SellerShortName| string| 是 |商家简称|
@@ -45,6 +46,8 @@ http://ip:port/RecruitQuery/Settlement/GetSettlementList
 | ShopCount| int | 是 | 门店数 |
 | WorkHour| int | 是 |工作小时数合计 |
 | OvertimeHour| int | 是 | 固定加班小时数|
+|GZOvertimeHour | int | 否 | 工作日加班时小时数 |
+| GXOvertimeHour| int | 否 | 公休日加班时小时数 |
 | ServiceCharge| decimal| 是 |服务费合计|
 | TaxRate| decimal| 是 |税点|
 | TotalAmount| decimal| 是 |开票金额|

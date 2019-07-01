@@ -36,6 +36,10 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderList
 | NoCPSCode | string | 否 | 除三方来源编号 |
 | TagName | string | 否  | 标签名称 |
 | TagType| int | 否 | 标签类型 |
+| IsNoPerson| int | 否 | 是否无主单 |
+| AutoSettlementFail| int | 否 | 自动核验未通过订单 |
+
+
 
 
 

@@ -18,20 +18,21 @@
 | 9000111|待唤醒好友 | 待唤醒好友  |
 | 9000112|销售力排行 | 销售力排行 |
 | 9000113|领导力排行 | 领导力排行 |
-
-
-
-
-
-
+| 9000114|群主数据报表 | 群主数据报表 |
+ 
 
 
 > #### 请求数据（PageRequestData）\_ {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| PersonSysNo | int | 否 | 党支部 |
+| PersonSysNo | int | 否 |人员 |
 | KeyWord | string | 否 | 关键字|
+| PersonSysNoList |array[int] | 否 |人员列表 |
+| StartTime| datetime| 否 | 开始时间|
+| EndTime| datetime| 否 | 终止时间|
+
+
 
 
 > #### 应答数据 PageResponseStatistic 【9000100】
@@ -181,3 +182,23 @@
 | :--- | :--- | :--- | :--- |
 | PersonCount| int| 否 | 待唤醒好友 |
 | SleepPointMP | decimal | 否 | 待领取奖励|
+
+> #### 应答数据 （PageResponseBase）【9000114】
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PersonName | string | 否 | 昵称 |
+| NewSonCount| int| 是 | 新增直属理事数量|
+| NewTeamCount| int| 是 | 新增团队人数数量|
+| MySettlementOrderCount| int| 是 | 新增自购结算订单数|
+| TeamSettlementOrderCount| int| 是 | 新增团队结算订单数|
+| MyWaitOrderCount| int| 是 | 新增自购等待奖励订单数|
+| TeamWaitOrderCount| int| 是 | 新增团队等待奖励订单数|
+| MySettlementMPPoint| int| 是 | 自购结算魔力|
+| TeamSettlementMPPoint| int| 是 | 团队结算魔力|
+| MyFrozenMPPoint| int| 是 | 自购冻结魔力|
+| TeamFrozenMPPoint| int| 是 | 团队冻结魔力|
+| ChangeLanPoint| int| 是 |蓝晶数量|
+| SettlementOrderAmount| decimal| 是 |结算订单金额|
+
+

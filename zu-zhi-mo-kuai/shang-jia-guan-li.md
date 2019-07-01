@@ -112,6 +112,8 @@
 | RecruitCertificateName | string | 否 | 招聘签约主体名称 |
 | RecruitServerRate | decimal | 否 | 服务费比率 |
 | LoginID | string | 是 | 用户名 |
+| GZSalaryTimes | int | 否 | 工作日加班时薪倍数 |
+| GXSalaryTimes | int | 否 | 公休日加班时薪倍数 |
 
 #### File说明 {#应答数据-}
 

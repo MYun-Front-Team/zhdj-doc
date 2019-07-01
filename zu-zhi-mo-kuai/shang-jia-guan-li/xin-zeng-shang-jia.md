@@ -97,6 +97,9 @@ _**【接口地址】**_
 | RecruitCertificateSysNo | int | 否 | 招聘签约主体 |
 | RecruitServerRate | decimal | 否 | 服务费比率 |
 | DisActvieAdminStatus | int | 否 | 新增商家账号是否是待激活的 |
+| GZSalaryTimes | int | 否 | 工作日加班时薪倍数 |
+| GXSalaryTimes | int | 否 | 公休日加班时薪倍数 |
+
 
 #### File说明 {#应答数据-}
 
