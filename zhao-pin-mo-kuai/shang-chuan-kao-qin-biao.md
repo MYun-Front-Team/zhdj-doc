@@ -36,13 +36,13 @@ http://ip:port/RecruitAction/Settlement/AddSettlement
 | CellPhoneNo| string| 是 | 手机号|
 | OrganizationSysNo| int | 是 | 组织系统编码 |
 | ShopName| string| 是 |店铺名称 |
-| WorkHour| int | 是 |工作小时数合计 |
-| OvertimeHour| int | 是 |固定加班小时数 |
 | Salary| decimal | 是 |时薪水 |
 | EntryDate| datetime| 是 |入职时间 |
 | QuitDate| datetime| 是 |离职时间 |
 | SellerReward | decimal| 是 |商家奖励金|
 | SellerFine| decimal| 是 |商家罚款|
+| WorkHour| int | 是 |工作小时数合计 |
+| OvertimeHour| int | 是 |固定加班小时数 |
 |GZOvertimeHour | int | 否 | 工作日加班时小时数 |
 | GXOvertimeHour| int | 否 | 公休日加班时小时数 |
 
