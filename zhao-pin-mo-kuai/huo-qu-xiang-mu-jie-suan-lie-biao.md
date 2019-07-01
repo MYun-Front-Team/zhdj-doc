@@ -36,7 +36,8 @@ http://ip:port/RecruitQuery/Settlement/GetSettlementList
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | SettlementSysNo | int | 是 | 项目结算系统编码 |
-| SettlementDate| datetime| 是 | 考勤月份 |
+| SettlementDate| datetime| 是 | 考勤月份开始 |
+| SettlementDateEnd| datetime| 是 | 考勤月份结束 |
 | OrganizationSysNo| int | 是 |所有者组织系统编码|
 | SellerName| string| 是 |商家名称|
 | SellerShortName| string| 是 |商家简称|
