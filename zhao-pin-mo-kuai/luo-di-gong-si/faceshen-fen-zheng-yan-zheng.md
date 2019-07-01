@@ -42,7 +42,7 @@ http://ip:port/RecruitAction/MyBank/OcrIDCard
 | side| string| 否 | 表示身份证的国徽面或人像面。返回值为：front: 人像面 back: 国徽面 |
 | issued_by| string| 否 | 签发机关 |
 | valid_date| string| 否 | 有效日期，返回值有两种格式，一个16位长度的字符串：YYYY.MM.DD-YYYY.MM.DD 或是：YYYY.MM.DD-长期|
-| legality| object| 否 | 身份证照片的合法性检查结果 |
+| legality| object| 否 | 身份证照片的合法性检查结果，:{\"ID Photo\":1.0,\"Temporary ID Photo\":0.0,\"Photocopy\":0.0,\"Screen\":0.0,\"Edited\":0.0} |
 
 
 
