@@ -31,6 +31,9 @@ _**【接口地址】**_
 | FailCount | int | 是 | 失败数量 |
 | WageStatus | int | 是 | 单据状态（0待发 1发放中，10已发放） |
 | WageItems | array\[WageItem\] | 是 | 发放详情 |
+| FileName| string| 是 | 文件名 |
+| Remark| string| 否 | 备注 |
+
 
 #### WageItem
 
