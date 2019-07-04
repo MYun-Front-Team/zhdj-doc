@@ -19,6 +19,8 @@ _**【接口地址】**_
 | OrganizationSysNo | int | 是 | 组织系统编码 |
 | WageItems | array\[WageItemAdd\] | 是 | 发放明细 |
 | RecruitCertificateSysNo| int | 是 | 落地公司编码 |
+| FileName| string| 是 | 文件名 |
+| Remark| string| 否 | 备注 |
 
 
 #### WageItemAdd
@@ -34,8 +36,6 @@ _**【接口地址】**_
 | Index | int | 是 | 行号 |
 | SubAccountNo| string | 是 | 子账号|
 | BankName| string| 是 | 银行名称 |
-| FileName| string| 是 | 文件名 |
-| Remark| string| 否 | 备注 |
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
