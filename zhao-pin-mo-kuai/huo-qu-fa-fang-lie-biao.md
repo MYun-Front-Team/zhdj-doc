@@ -32,6 +32,9 @@ http://ip:port/RecruitAction/Wallet/GetWageList
 | SuccessCount | int | 是 | 成功数量 |
 | FailCount | int | 是 | 失败数量 |
 | WageStatus | int | 是 | 单据状态（0待发 1发放中，10已发放）|
+| FileName| string| 是 | 文件名 |
+| Remark| string| 否 | 备注 |
+
 
 
 
