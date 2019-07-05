@@ -46,6 +46,9 @@
 |IsHot| int | 否 |是否热门岗位|
 |HotStartTime| datetime | 否 |热门开始|
 |HotEndTime| int | 否 |热门结束|
+|IsBonus| int | 否 |是否返佣|
+|BonusAmount| decimal | 否 |返佣金额|
+
 
 #### ShopInterviewDate
 
