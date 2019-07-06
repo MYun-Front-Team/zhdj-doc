@@ -35,6 +35,7 @@ _**【接口地址】**_
 | OrganizationTypeList | array int | 否 | 组织类型（枚举） |
 | CellPhoneNo| string | 否| 手机号（如果存在历史用户，就会合并用户，不存在就会新增） | 
 | ContactTel| string | 是 | 联系方式（仅仅是备注，允许重复） |
+| RegistrationId | string | 否 | 极光推送ID |
 
 > #### RegisterMsg {#应答数据-（巡河记录数组）}
 
