@@ -23,6 +23,8 @@ _**【接口地址】**_
 | IsHidden | int | 否 | 是否对前台隐藏（1隐藏，0可见） |
 | SortNo| int | 是 | 排序
 | PosterPathList | array string | 否 | 海报URL列表 |
+| ShowTypeList | array[int] | 否 | 展示方式 |
+
 
 
 

@@ -26,6 +26,7 @@ _**【接口地址】**_
 | TagType | int | 否 | 标签类型（枚举） |
 | TagTypeList | array[int] | 否 | 标签类型（枚举） |
 | IsHiddenList | array int | 否 | 是否对前台隐藏（1隐藏，0可见） |
+| ShowTypeList | array[int] | 否 | 展示方式 |
 
 > #### _应答数据 （数组）_ {#应答数据-（巡河记录数组）}
 
@@ -39,3 +40,5 @@ _**【接口地址】**_
 | IsHidden | int | 否 | 是否对前台隐藏（1隐藏，0可见） |
 | SortNo | int | 是 | 排序 |
 | IsSystem | int | 是 | 是否系统标签 |
+| ShowTypeList | array[int] | 否 | 展示方式 |
+
