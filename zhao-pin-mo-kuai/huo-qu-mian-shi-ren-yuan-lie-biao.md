@@ -109,7 +109,7 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 |GZOvertimeHour | int | 否 | 工作日加班时小时数（SettlementDate传了有效） |
 | GXOvertimeHour| int | 否 | 公休日加班时小时数 （SettlementDate传了有效）|
 | CorpId| string| 否 | 喔趣客户id|
-| DepartmentId| string| 否 | 喔趣客户id|
+| DepartmentId| string| 否 | 喔趣部门id|
 
 
 #### Person
