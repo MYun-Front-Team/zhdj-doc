@@ -59,6 +59,8 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | InvitePersonDepartmentSysNo| int | 是 | 邀请人部门|
 | FatherInvitePersonDepartmentSysNo| int | 是 | 邀请人部门和下属部门|
 | InvitePersonSysNo| int | 是 | 邀请人编码|
+| PersonSysNo| int | 是 | 人编码|
+
 
 
 #### 返回参数
@@ -106,10 +108,8 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | OvertimeHour| int | 是 |固定加班小时数（SettlementDate传了有效） |
 |GZOvertimeHour | int | 否 | 工作日加班时小时数（SettlementDate传了有效） |
 | GXOvertimeHour| int | 否 | 公休日加班时小时数 （SettlementDate传了有效）|
-
-
-
-
+| CorpId| string| 否 | 喔趣客户id|
+| DepartmentId| string| 否 | 喔趣客户id|
 
 
 #### Person
