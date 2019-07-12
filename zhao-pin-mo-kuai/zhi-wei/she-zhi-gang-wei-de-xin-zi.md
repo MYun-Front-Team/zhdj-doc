@@ -20,6 +20,14 @@ http://ip:port/RecruitAction/Position/SetPositionSalary
 | PositionSalaryList | array object | 否 | 客户可见岗位薪资列表 |
 | Remark| string| 是 | 日志备注 |
 | Reward|decimal| 否 | 平台奖励|
+|Commission|decimal| 否 | 佣金|
+|CommissionType|int| 否 | 佣金类型|
+
+
+
+
+
+
 
 
 
