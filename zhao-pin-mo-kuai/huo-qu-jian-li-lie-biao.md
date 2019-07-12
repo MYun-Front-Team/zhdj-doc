@@ -43,6 +43,8 @@ _**【接口地址】**_
 | InviterPersonDepartmentSysNo| int | 是 | 邀请人部门编码|
 | FatherInviterPersonDepartmentSysNo| int | 是 | 邀请人部门编码及下属部门|
 | IsShowPublic| int | 是 |限制邀请人后，是否同时展示公海和潜客 |
+| InviterKeyWord| string | 是 | 邀请人(姓名或手机） |
+
 
 #### Resume
 
@@ -65,6 +67,7 @@ _**【接口地址】**_
 | InviterPersonName| string| 是 | 邀请人名字 |
 | IsDove| int | 是 | 是否放鸽子 |
 | DoveCount| int | 是 | 鸽子数 |
+| InviterPersonCellPhoneNo| string| 是 | 邀请人手机 |
 
 #### Person
 
