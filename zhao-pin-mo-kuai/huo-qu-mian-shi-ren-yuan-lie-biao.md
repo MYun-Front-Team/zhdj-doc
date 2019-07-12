@@ -60,6 +60,7 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | FatherInvitePersonDepartmentSysNo| int | 是 | 邀请人部门和下属部门|
 | InvitePersonSysNo| int | 是 | 邀请人编码|
 | PersonSysNo| int | 是 | 人编码|
+| InviteKeyWord| string| 是 | 邀请人（姓名或手机号）|
 
 
 
