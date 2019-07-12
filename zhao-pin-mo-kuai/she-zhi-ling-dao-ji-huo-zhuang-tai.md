@@ -18,6 +18,7 @@ http://ip:port/RecruitAction/Leader/SetLeaderActiveStatus
 | :--- | :--- | :--- | :--- |
 | LeaderSysNo| int| 是 |领队编码|
 | ActiveStatus| int| 是 |激活状态(10已激活，11已禁用) |
+| AuditRemark| string| 否 |审核备注|
 
 
 
