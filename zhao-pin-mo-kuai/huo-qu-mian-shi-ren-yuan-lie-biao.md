@@ -111,6 +111,7 @@ http://ip:port/RecruitQuery/Interview/GetInterviewPersonList
 | GXOvertimeHour| int | 否 | 公休日加班时小时数 （SettlementDate传了有效）|
 | CorpId| string| 否 | 喔趣客户id|
 | DepartmentId| string| 否 | 喔趣部门id|
+| InvitePersonCellPhoneNo| string| 否 | 邀请人手机号|
 
 
 #### Person
