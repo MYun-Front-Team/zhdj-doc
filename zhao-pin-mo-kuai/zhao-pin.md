@@ -177,6 +177,8 @@
 | IsShowPublic| int | 是 |限制交付人后，是否同时展示公海和潜客 |
 |IsHot| int | 否 |是否热门岗位|
 | IsInWoQu| int| 否 | 是否喔趣的 |
+| InviteKeyWord| string| 否 | 邀请人（姓名或手机） |
+
 
 
 > #### 查询Limit字段 {#请求数据}
