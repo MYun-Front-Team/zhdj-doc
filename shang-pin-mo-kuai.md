@@ -199,7 +199,8 @@
 | ShopShowSourceList|array[int] | 否 |款展示来源（0普通，1蓝晶兑换） |
 | StartBasicCommissionRate| decimal\(18,2\) | 否 |起始自购佣金比例 |
 | EndBasicCommissionRate| decimal\(18,2\) | 否 |终止自购佣金比例 |
-
+| StartCPSCommissionRate | int | 否 | 起始佣金比率 |
+| EndCPSCommissionRate | int | 否 | 终止佣金比率 |
 
 #### Spec {#应答数据-（巡河记录数组）}
 
