@@ -39,6 +39,9 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderList
 | IsNoPerson| int | 否 | 是否无主单 |
 | AutoSettlementFail| int | 否 | 自动核验未通过订单 |
 | SourceProductGroupCode| string| 否 | 第三方款编码 |
+| ProductGroupSysNo| int| 否 | 款系统编码 |
+
+
 
 
 > #### 返回数据
