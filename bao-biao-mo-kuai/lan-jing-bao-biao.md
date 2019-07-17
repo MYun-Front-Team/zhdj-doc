@@ -19,7 +19,8 @@
 | 9000112|销售力排行 | 销售力排行 |
 | 9000113|领导力排行 | 领导力排行 |
 | 9000114|群主数据报表 | 群主数据报表 |
- 
+| 9000115|夺晶风云 | 夺晶风云|
+
 
 
 > #### 请求数据（PageRequestData）\_ {#请求数据}
@@ -142,7 +143,7 @@
 | HigFanLevel2Count| int| 否 | 二级社长人数|
 
 
-> #### 应答数据 （PageResponseBase）【9000108，9000109，9000110】
+> #### 应答数据 （PageResponseBase）【9000108，9000109，9000110，9000113，9000115】
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -150,11 +151,14 @@
 | PersonName | string | 否 | 昵称 |
 | IsEnable| int| 否 |启用状态 |
 | FileUrlList | array string | 否 | 头像图片列表 |
+| Differ| decimal| 否 |和上一位差 |
+| Value| decimal| 否 |值 |
 
 
 
 
-> #### 应答数据 PageResponseStatistic 【9000108，9000109，9000110，9000113】
+
+> #### 应答数据 PageResponseStatistic 【9000108，9000109，9000110，9000113，9000115】
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -164,6 +168,7 @@
 | FileUrlList | array string | 否 | 头像图片列表 |
 | IsEnable| int| 否 |启用状态 |
 | Differ| decimal| 否 |和上一位差 |
+| Value| decimal| 否 |值 |
 
 > #### 应答数据 （PageResponseBase）【9000111】
 
