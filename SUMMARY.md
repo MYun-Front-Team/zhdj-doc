@@ -441,6 +441,7 @@
     * [新增客户经理](zu-zhi-mo-kuai/ke-hu-guan-li/xin-zeng-ke-hu-jing-li.md)
     * [修改客户经理](zu-zhi-mo-kuai/ke-hu-guan-li/xiu-gai-ke-hu-jing-li.md)
     * [删除客户经理](zu-zhi-mo-kuai/ke-hu-guan-li/shan-chu-ke-hu-jing-li.md)
+    * [重置客户经理密码](zu-zhi-mo-kuai/ke-hu-guan-li/zhong-zhi-ke-hu-jing-li-mi-ma.md)
   * [供应商管理](zu-zhi-mo-kuai/gong-ying-shang-guan-li.md)
     * [获取供应商列表](zu-zhi-mo-kuai/gong-ying-shang-guan-li/huo-qu-gong-ying-shang-lie-biao.md)
     * [获取供应商详情](zu-zhi-mo-kuai/gong-ying-shang-guan-li/huo-qu-gong-ying-shang-xiang-qing.md)
