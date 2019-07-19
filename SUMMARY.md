@@ -439,7 +439,7 @@
     * [获取客户经理/顾问列表](zu-zhi-mo-kuai/ke-hu-guan-li/huo-qu-ke-hu-jing-7406-gu-wen-lie-biao.md)
     * [设置客户的顾问/经理](zu-zhi-mo-kuai/ke-hu-guan-li/she-zhi-ke-hu-de-gu-95ee-jing-li.md)
     * [新增客户经理](zu-zhi-mo-kuai/ke-hu-guan-li/xin-zeng-ke-hu-jing-li.md)
-    * 修改客户经理
+    * [修改客户经理](zu-zhi-mo-kuai/ke-hu-guan-li/xiu-gai-ke-hu-jing-li.md)
     * 删除客户经理
   * [供应商管理](zu-zhi-mo-kuai/gong-ying-shang-guan-li.md)
     * [获取供应商列表](zu-zhi-mo-kuai/gong-ying-shang-guan-li/huo-qu-gong-ying-shang-lie-biao.md)
