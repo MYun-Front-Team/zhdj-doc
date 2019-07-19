@@ -31,6 +31,16 @@ http://ip:port/UMQuery/Tag/GetTagBySysNo
 | IconColor | string | 否 | 标签底色 |
 | IsHidden | int | 否 | 是否对前台隐藏（1隐藏，0可见） |
 | SortNo | int | 是 | 排序 |
+| ProductGroupCount | int | 是 | 商品数量 |
+| CreateUser| string | 是 | 创建人 |
+| CreateTime| datetime | 是 |创建时间 |
+
+
+
+
+
+
+
 
 
 
