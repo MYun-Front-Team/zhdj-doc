@@ -38,8 +38,10 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderList
 | TagType| int | 否 | 标签类型 |
 | IsNoPerson| int | 否 | 是否无主单 |
 | AutoSettlementFail| int | 否 | 自动核验未通过订单 |
-
-
+| SourceProductGroupCode| string| 否 | 第三方款编码 |
+| ProductGroupSysNo| int| 否 | 款系统编码 |
+| SourceShopCode| string| 否 | 第三方店铺编码 |
+| SourceShopName| string| 否 | 第三方店铺名称 |
 
 
 
@@ -86,6 +88,9 @@ http://ip:port/OrderQuery/LJOrder/GetLJOrderList
 | AuditStatus| int | 是 | 审核状态（0待审核，10审核通过，11审核不通过） |
 | TagList | array object | 否 | 标签列表（说明见通用） |
 | CPSCode | string | 否 | 三方来源编号 |
+| SourceShopCode| string| 否 | 第三方店铺编码 |
+| SourceShopName| string| 否 | 第三方店铺名称 |
+
 
 ####Tag
 
