@@ -21,6 +21,11 @@ _**【接口地址】**_
 | OwnConsumeAmount | decimal\(18,2\) | 否 | 满足自己消费金额 |
 | InvitingConsumeAmount | decimal\(18,2\) | 否 | 满足邀请消费金额 |
 | ProfitRateList | array decimal\(18,4\) | 否 | 分享比率列表（按排序） |
+| DiscountRate|  decimal（18,4) | 否 | 折扣 |
+| Remark|  string | 否 |描述 |
+
+
+
 
 #### _应答数据 _ {#应答数据-}
 
