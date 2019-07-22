@@ -37,7 +37,9 @@ _**【接口地址】**_
 | IsClearStocks | int | 否 | 是否限制库存：0否，1是 |
 | AddSpecValueList | array object | 否 | 规格值列表（说明见新增） |
 | FileMasterPathList | array string | 否 | 主图图片列表 |
-| ProductPrice | decimal\(18,2\) | 否 | 价格（按规格定价时有效） |
+| ProductPrice | decimal\(18,2\) | 否 | 价格（按规格定价时有效），零售价 |
+| WholePrice | decimal\(18,2\) | 否（可选配置） | 批发价格 |
+| MarketPrice | decimal\(18,2\) | 否（可选配置） | 指导价格 
 | Quantity | int | 否 | 库存数量 |
 | MinQuantity| int | 否 | 起订数量 |
 | LimitQuantity| int | 否 | 限购数量 |
