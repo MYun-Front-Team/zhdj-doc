@@ -34,7 +34,18 @@ _**【接口地址】**_
 | CustomerLogoPathList | array string | 否（可选配置） | 客户Logo的Path列表 |
 | IsPartner| int | 是 |是否合伙人|
 | CreditStatus| int | 是 |授信状态（0关闭1开启）|
-
+| CreditAmount| decimal | 是 |授信额度|
+| CreditDay| int| 是 |授信天数|
+| Email| string| 是 |邮箱|
+|CustomerManagerSysNo| int| 是 |客户经理（业务员）编码|
+| PCDCode| string| 是 |省市区编码|
+| PCDDescription| string| 是 |省市区名称|
+| InvoiceTitle| string| 是 |发票抬头|
+| CreditCode| string| 是 |纳税号|
+| BankBranchName| string| 是 |开户行|
+| BankCustomerName| string| 是 |开户名称|
+| BankAccount| string| 是 |开户账号|
+| CertPicUrlList| aray(string)| 是 |营业执照|
 
 
 #### _应答数据 _ {#应答数据-}
