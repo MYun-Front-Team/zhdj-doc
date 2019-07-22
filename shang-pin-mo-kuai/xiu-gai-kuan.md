@@ -78,7 +78,7 @@ _**【接口地址】**_
 | SubsidyMPLimitNewPerson | int | 否 | 补贴魔力是否只给新人（1是 0否）|
 | BasicCommissionRate| decimal\(18,2\) | 否 |自购佣金比例 |
 | Properties| string| 否 | 商品属性（Json字符串） |
-
+| OnSaleStatus | int | 是 | 上下状态:0待上架 1上架 2下架 3部分上架 4停售 |
 
 
 
