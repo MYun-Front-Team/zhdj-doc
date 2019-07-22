@@ -124,6 +124,7 @@
 | SysSuccessLANPoints | decimal | 否 | 系统已合成蓝晶 |
 | SysLeftLANPoints | decimal | 否 | 系统剩余蓝晶 |
 | ChangeLANPoints | decimal | 否 | 系统已兑换蓝晶 |
+| CanAcceptLANPoints | decimal | 否 | 可接受蓝晶 |
 | TagList | array object | 否 | 标签列表（说明见通用） |
 
 #### Tag
