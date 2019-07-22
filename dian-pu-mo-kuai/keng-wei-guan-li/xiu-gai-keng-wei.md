@@ -36,6 +36,11 @@ _**【接口地址】**_
 | HollowLogoPathList | array string | 否 | 坑位LOGOpath路径 |
 | HollowBackPathList | array string | 否 | 坑位背景path路径 |
 | SortNo| int | 否 | 排序 |
+| BackColor | string | 否 |背景色 |
+
+
+
+
 
 
 > #### _应答数据 _ {#应答数据-（巡河记录数组）}
