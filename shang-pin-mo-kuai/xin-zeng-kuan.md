@@ -83,7 +83,6 @@ _**【接口地址】**_
 | SupplierSysNo| int | 否 | 供应商编码|
 | Properties| int | 否 | 商品属性(Json字符串） |
 | CategorySysNo| int | 否 | 分类编码|
-| BrandSysNo| int | 否 | 品牌编码|
 
 
 
