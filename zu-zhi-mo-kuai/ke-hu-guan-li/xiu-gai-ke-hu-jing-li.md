@@ -18,7 +18,7 @@ http://ip:port/OrganizationAction/CustomerManager/EditCustomerManager
 | ManagerName | string | 是 | 客户经理名称 |
 | ManagerType| int | 否 | 类型（1-经理2-顾问3-业务员）|
 | CellPhoneNo| string| 否 | 手机号 |
-| IsEnable| int| 否 | 状态（0待激活10启用11禁用） |
+| ManagerStatus| int| 否 | 状态（0待激活10启用11禁用） |
 
 
 #### _应答数据 _ {#应答数据-}
