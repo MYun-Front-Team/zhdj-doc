@@ -39,7 +39,9 @@ _**【接口地址】**_
 | FileMasterPathList | array string | 否 | 主图图片列表 |
 | ProductPrice | decimal\(18,2\) | 否 | 价格（按规格定价时有效） |
 | Quantity | int | 否 | 库存数量 |
-
+| MinQuantity| int | 否 | 起订数量 |
+| LimitQuantity| int | 否 | 限购数量 |
+| DeliverySysNo| int | 否 | 发货地编码 |
 
 > #### 应答_数据_ {#请求数据}
 
