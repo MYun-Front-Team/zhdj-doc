@@ -80,7 +80,16 @@ _**【接口地址】**_
 | IsLockOnSaleStatus | int | 否 | 是否锁定上下架状态 |
 | SubsidyMPLimitNewPerson | int | 否 | 补贴魔力是否只给新人（1是 0否）|
 | BasicCommissionRate| decimal\(18,2\) | 否 |自购佣金比例 |
-| Properties| int | 否 | 商品属性(Json字符串） |
+| ProductPropertyList| array(ProductProperty) | 否 | 商品属性 |
+
+
+#### ProductProperty
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PropertyName| string | 是 | 系统编码 |
+| PropertyValue| string | 是 | 系统编码 |
+
+
 
 
 #### _应答数据 _ {#应答数据-}

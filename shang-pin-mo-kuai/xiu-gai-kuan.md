@@ -77,7 +77,7 @@ _**【接口地址】**_
 | IsLockOnSaleStatus | int | 否 | 是否锁定上下架状态 |
 | SubsidyMPLimitNewPerson | int | 否 | 补贴魔力是否只给新人（1是 0否）|
 | BasicCommissionRate| decimal\(18,2\) | 否 |自购佣金比例 |
-
+| ProductPropertyList| array(ProductProperty) | 否 | 商品属性 |
 
 
 #### _应答数据_ {#应答数据-}
