@@ -81,6 +81,7 @@ _**【接口地址】**_
 | SubsidyMPLimitNewPerson | int | 否 | 补贴魔力是否只给新人（1是 0否）|
 | BasicCommissionRate| decimal\(18,2\) | 否 |自购佣金比例 |
 | Properties| string| 否 | 商品属性（Json字符串） |
+| SourceProdutGroupCode| string| 否 | 外部商品编码 |
 
 
 #### _应答数据 _ {#应答数据-}
