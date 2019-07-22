@@ -36,6 +36,7 @@ _**【接口地址】**_
 | Latitude | decimal\(18,2\) | 否 | 纬度 |
 | CustomerLogoPathList | array string | 否（可选配置） | 客户Logo的路径列表 |
 | IsPartner| int | 是 |是否合伙人|
+| CreditStatus| int | 是 |授信状态（0关闭1开启）|
 
 
 
