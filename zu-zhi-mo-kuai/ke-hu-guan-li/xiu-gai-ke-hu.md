@@ -45,7 +45,7 @@ _**【接口地址】**_
 | BankBranchName| string| 是 |开户行|
 | BankCustomerName| string| 是 |开户名称|
 | BankAccount| string| 是 |开户账号|
-| CertPicUrlList| aray(string)| 是 |营业执照|
+| CertPicUrlList| array(string)| 是 |营业执照|
 
 
 #### _应答数据 _ {#应答数据-}
