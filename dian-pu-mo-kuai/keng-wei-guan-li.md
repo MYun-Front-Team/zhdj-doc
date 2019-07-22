@@ -35,6 +35,8 @@
 | HollowBackPathList | array string | 否 | 坑位背景path路径 |
 | HollowBackUrlList | array string | 否 | 坑位背景url路径 |
 | SortNo| int | 是 | 排序 |
+| BackColor | string | 否 |背景色 |
+
 
 
 
