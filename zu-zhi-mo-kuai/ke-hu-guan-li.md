@@ -100,6 +100,8 @@
 | IfHasCustomerPersonPhone | array[int]| 否 | 是否有电话（1有 0无）| 
 | StartCreateTime| string | 否 | 开始注册时间 |
 | EndCreateTime| string | 否 | 结束注册时间|
+| CustomerManagerPersonSysNo | int | 否 | 客户系统编码 |
+
 
 
 
