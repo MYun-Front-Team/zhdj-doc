@@ -145,6 +145,8 @@
 | CPSCommissionRate | int | 否 | 佣金比率 |
 | CPSCommission | int | 否 | 佣金 |
 | OnSaleStatus | int | 否 | 上下架状态 0待上架 1上架 2下架 |
+| IsShow | int | 是 | 是否屏蔽|
+
 
 > #### 功能按钮字段 {#请求数据}
 
@@ -201,6 +203,14 @@
 | EndBasicCommissionRate| decimal\(18,2\) | 否 |终止自购佣金比例 |
 | StartCPSCommissionRate | int | 否 | 起始佣金比率 |
 | EndCPSCommissionRate | int | 否 | 终止佣金比率 |
+
+#### SpecGroup
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| SpecGroupSysNo | int | 是 | 规格组系统编码 |
+| SpecGroupName | string | 是 | 规格组名称 |
+| SpecList | array object | 是 | 规格列表 |
 
 #### Spec {#应答数据-（巡河记录数组）}
 

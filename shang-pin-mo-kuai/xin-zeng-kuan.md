@@ -82,13 +82,14 @@ _**【接口地址】**_
 | BasicCommissionRate| decimal\(18,2\) | 否 |自购佣金比例 |
 | Properties| string| 否 | 商品属性（Json字符串） |
 | SourceProdutGroupCode| string| 否 | 外部商品编码 |
-| IsOnSale | int | 否 |是否上架|
+| OnSaleStatus | int | 否 | 上下架状态 0待上架 1上架 |
 | IsSpecGroup | int | 否 |设置商品多规格|
 
  #### SpecGroup
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
+| SpecGroupSysNo | int | 是 | 规格组系统编码 |
 | SpecGroupName | string | 是 | 规格组名称 |
 | SpecList | array object | 是 | 规格列表 |
 

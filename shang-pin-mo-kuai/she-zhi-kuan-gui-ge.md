@@ -46,6 +46,7 @@ _**【接口地址】**_
 | MinQuantity| int | 否 | 起订数量 |
 | LimitQuantity| int | 否 | 限购数量 |
 | DeliverySysNo| int | 否 | 发货地编码 |
+| IsShow | int | 是 | 是否屏蔽|
 
 
 
