@@ -107,6 +107,7 @@ _**【接口地址】**_
 | :--- | :--- | :--- | :--- |
 | SpecValueSysNo | int | 是 | 规格值系统编码 |
 | SpecName | string | 是 | 规格名称 |
+| SpecValueOtherName | string | 是 | 规格值别名 |
 | SpecValue | string | 是 | 规格值 |
 
 #### AddSku {#应答数据-}
