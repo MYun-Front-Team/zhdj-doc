@@ -17,7 +17,7 @@
 | PaymentType | int | 是 | 支付方式：0余额，1支付宝，2微信，3银联，4线下，5刷卡,6积分，99混合 |
 | SourceOrderCode | string | 否 | 订单来源订单号 |
 | AuditStatus | int | 是 | 审核状态：0待审核，10已审核 |
-| PaymentStatus | int | 是 | 支付状态：0未支付，1部分支付，10已支付 |
+| PaymentStatus | int | 是 | 支付状态：0未支付，1部分支付，2已汇款待确认，10已支付 |
 | DeliveryStatus | int | 是 | 发货状态：0未发货，1部分发货，10已发货 |
 | ReceiveStatus | int | 是 | 收货状态：0未收货，1部分收货，10已收货，11拒收 |
 | CancelStatus | int | 是 | 取消状态：0正常，1取消中，10已消，11取消失败 |
