@@ -44,6 +44,10 @@ _**【接口地址】**_
 | MinQuantity| int | 否 | 起订数量 |
 | LimitQuantity| int | 否 | 限购数量 |
 | DeliverySysNo| int | 否 | 发货地编码 |
+| IsHidden | int | 是 | 是否屏蔽|
+
+
+
 
 > #### 应答_数据_ {#请求数据}
 
