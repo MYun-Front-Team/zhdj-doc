@@ -89,7 +89,7 @@ _**【接口地址】**_
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| SpecGroupSysNo | int | 是 | 规格组系统编码 |
+| SpecGroupSysNo | int |是 | 规格组系统编码 |
 | SpecGroupName | string | 是 | 规格组名称 |
 | SpecList | array object | 是 | 规格列表 |
 
