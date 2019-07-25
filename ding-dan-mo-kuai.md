@@ -62,8 +62,6 @@
 | InvoiceStatus| int | 是 | 开票状态（0未开票，1-开票中 10已开票） |
 
 
-
-
 #### OrderAmount说明 {#请求数据}
 
 | 变量名 | 类型 | 是否必须 | 描述 |
@@ -202,11 +200,14 @@
 | CPSCode| string| 是 | CPS名称 JD京东，YX严选 |
 | IsHasOrderRMA | int | 否 | 是否有退货单 |
 | NoticeStatusList| array int | 否 | 通知状态 （0初始 10已标记）  |
-
-
-
-
-
+| AuditStartTime | string | 否 | 开始时间（订单审核时间） |
+| AuditEndTime | string | 否 | 结束时间（订单审核时间） 
+| CustomerLevelSysNo| int | 是 | 客户级别编码 |
+| CustomerManagerSysNo| int | 是 | 业务经理编码 |
+| DeliverySysNo| int | 否 | 发货地编码 |
+| ReceiveKeyWord| string | 否 |收货信息（收货人或收货电话）|
+| ProductKeyWord| string | 否 |下单商品（商品名称/规格/标签）|
+| PCDDescription| string | 否 |省市区名称|
 
 
 
