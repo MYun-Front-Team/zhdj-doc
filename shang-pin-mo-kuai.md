@@ -100,7 +100,7 @@
 
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
-| CostPrice | decimal\(18,2\) | 否 | 成本价 |
+| CostPrice | decimal\(18,2\) | 否 | 成本价（桃子乐彩批发价） |
 | MarketPrice | decimal\(18,2\) | 否 | 市场价 |
 | SalePrice | decimal\(18,2\) | 否 | 销售价 |
 | MaxSalePrice | decimal\(18,2\) | 否 | 最大销售价 |
