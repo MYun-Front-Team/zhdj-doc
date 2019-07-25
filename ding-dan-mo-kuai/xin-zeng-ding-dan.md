@@ -16,6 +16,9 @@ _**【应用场景】**_
 
 4、PlatformAuditStatus=0则订单需要审核，PlatformAuditStatus=10则订单自动已审核，可直接支付。
 
+5、桃子乐采，订单类型23001
+支付方式：13拍宝付 4线下汇款14信用支付
+
 _**【接口地址】**_
 
 [http://ip:port/OrderAction/](http://ip:port/HMAction/River/AddRiver)Order[/A](http://ip:port/HMAction/River/AddRiver)ddOrder
@@ -33,7 +36,7 @@ _**【接口地址】**_
 | OrderSource | int | 是 | 订单来源（枚举） |
 | SourceOrderCode | string | 否 | 订单来源订单号 |
 | PaymentType | int | 否 | 支付方式（枚举） |
-| TrackingCompanySysNo | int | 否 | 期望快递公司系统编码 |
+| TrackingCompanySysNo | int | 否 | 期望快递公司系统编码(或配送方式） |
 | ReceiverName | string | 是 | 收货人 |
 | ReceiverPhone | string | 是 | 收货电话 |
 | ReceiverAddress | string | 是 | 收货地址 |
@@ -48,7 +51,7 @@ _**【接口地址】**_
 | AddOrderAmountList | array object | 否 | 订单优惠列表 |
 | PrivacyPropertys | array object | 否 | 隐私属性列表 |
 | CouponCodes | array string | 否 | 订单优惠券码 |
-|IsDoortodoor|int | 是 | 是否上门服务|
+| IsDoortodoor|int | 是 | 是否上门服务|
 | CPSSysNo| int | 是 | CPS系统编码 |
 | InvitationCode| string | 否 | 邀请码 |
 | RelativeOrderSysNo | int | 否 | 来源订单 |
