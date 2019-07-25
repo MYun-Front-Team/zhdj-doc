@@ -115,7 +115,42 @@ _**【接口地址】**_
 | SpecValueFee | decimal\(18,2\) | 否 | 费用 |
 | SpecValueUrlList | array string | 否 | 图片 |
 
+#### AddSku {#应答数据-}
 
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| SkuName | string | 是 | sku名称 |
+| SkuCode | string | 否（可选配置） | sku代码 |
+| SkuDetail | string | 否（可选配置） | 详情 |
+| SkuMemo | string | 否（可选配置） | 备注 |
+| BarCode | string | 否（可选配置） | 条形码 |
+| InternationalCode | string | 否（可选配置） | 国际码 |
+| GoodsWeight | decimal\(18,2\) | 否（可选配置） | 重量 |
+| GoodsVolumn | decimal\(18,2\) | 否（可选配置） | 体积 |
+| AddSpecValueList | array object | 否（可选配置） | 规格值列表 |
+| IsClearStocks | int | 否 | 是否限制库存：0否，1是 |
+| FileMasterPathList | array string | 否（可选配置） | 主图图片列表 |
+| ProductPrice | decimal\(18,2\) | 否（可选配置） | 价格（按规格定价时有效），零售价 |
+| WholePrice | decimal\(18,2\) | 否（可选配置） | 批发价格 |
+| MarketPrice | decimal\(18,2\) | 否（可选配置） | 指导价格 |
+| Quantity | int | 否 | 库存数量 |
+| MinQuantity| int | 否 | 起订数量 |
+| LimitQuantity| int | 否 | 限购数量 |
+| DeliverySysNo| int | 否 | 发货地编码 |
+| IsHidden | int | 是 | 是否屏蔽|
+
+
+
+
+
+
+> #### AddSpecValue {#请求数据}
+
+| 变量名 | 类型 | 是否必须 | 描述 |
+| :--- | :--- | :--- | :--- |
+| SpecSysNo | int | 是 | 规格系统编码 |
+| SpecValueSysNo | int | 是 | 规格值系统编码 |
+| SpecValueOtherName | string | 否 | 规格值别名 |
 
 
 
