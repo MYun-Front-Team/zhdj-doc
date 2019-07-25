@@ -145,7 +145,7 @@
 | CPSCommissionRate | int | 否 | 佣金比率 |
 | CPSCommission | int | 否 | 佣金 |
 | OnSaleStatus | int | 否 | 上下架状态 0待上架 1上架 2下架 |
-| IsShow | int | 是 | 是否屏蔽|
+| IsHidden | int | 是 | 是否屏蔽|
 
 
 > #### 功能按钮字段 {#请求数据}
