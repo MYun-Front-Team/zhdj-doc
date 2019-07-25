@@ -143,8 +143,8 @@ _**【接口地址】**_
 | 变量名 | 类型 | 是否必须 | 描述 |
 | :--- | :--- | :--- | :--- |
 | SpecSysNo | int | 是 | 规格系统编码 |
-| SpecValueSysNo | int | 是 | 规格值系统编码 |
-| SpecValueOtherName | string | 否 | 规格值别名 |
+| SpecName | string | 是 | 规格名称 |
+| SpecValue | string | 否 | 规格值 |
 
 
 
