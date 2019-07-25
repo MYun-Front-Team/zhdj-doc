@@ -34,6 +34,8 @@ _**【接口地址】**_
 | OrganizationName | string | 是 | 卖家组织名称 |
 | DataRangeSysNo | int | 是 | 数据范围树编码（店铺树） |
 | DataRangeName | string | 是 | 数据范围结点名称 |
+| DeliverySysNo | int | 是 |发货地编码|
+| DeliveryName| string | 是 | 发货地 |
 | CartList | array object | 是 | 购物车列表 |
 
 #### Cart说明 {#请求数据}
