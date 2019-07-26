@@ -111,7 +111,6 @@
 | ReturnPrice | decimal\(18,2\) | 否 | 返还金额 |
 | LJPrice | decimal\(18,2\) | 否 | 蓝晶价 |
 | VIPPrice | decimal\(18,2\) | 否 | 会员价 |
-| WholePrice | decimal\(18,2\) | 否 | 批发价 |
 
 
 
