@@ -147,7 +147,9 @@
 | CPSCommission | int | 否 | 佣金 |
 | OnSaleStatus | int | 否 | 上下架状态 0待上架 1上架 2下架 |
 | IsHidden | int | 是 | 是否屏蔽|
-| DeliveryPlace| string | 是 | 发货地
+| DeliveryPlace| string | 是 | 发货地|
+| MinQuantity| int | 否 | 起订数量 |
+| LimitQuantity| int | 否 | 限购数量 |
 
 
 > #### 功能按钮字段 {#请求数据}
