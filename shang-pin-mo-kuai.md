@@ -153,6 +153,8 @@
 | DeliveryPlace| string | 是 | 发货地|
 | MinQuantity| int | 否 | 起订数量 |
 | LimitQuantity| int | 否 | 限购数量 |
+| DeliveryCountry| string | 否 | 发货地国家 |
+| DeliveryName| string | 否 | 发货地名称 |
 
 
 > #### 功能按钮字段 {#请求数据}
