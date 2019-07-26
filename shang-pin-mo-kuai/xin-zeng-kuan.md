@@ -84,6 +84,8 @@ _**【接口地址】**_
 | SourceProdutGroupCode| string| 否 | 外部商品编码 |
 | OnSaleStatus | int | 否 | 上下架状态 0待上架 1上架 |
 | IsSpecGroup | int | 否 |设置商品多规格|
+| IsLockBasicCommissionRate| decimal\(18,2\) | 否 |是否锁定自购佣金比例 |
+
 
  #### SpecGroup
 

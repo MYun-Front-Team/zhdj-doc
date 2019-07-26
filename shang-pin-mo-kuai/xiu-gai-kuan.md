@@ -79,6 +79,9 @@ _**【接口地址】**_
 | BasicCommissionRate| decimal\(18,2\) | 否 |自购佣金比例 |
 | Properties| string| 否 | 商品属性（Json字符串） |
 | OnSaleStatus | int | 是 | 上下状态:0待上架 1上架 2下架 3部分上架 4停售 |
+| IsLockBasicCommissionRate| decimal\(18,2\) | 否 |是否锁定自购佣金比例 |
+
+
 
 
 
