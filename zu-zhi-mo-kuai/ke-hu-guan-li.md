@@ -22,6 +22,7 @@
 | CustomerLogoPathList | array string | 否 | 客户Logo的路径列表 |
 | CustomerLogoUrlList | array string | 否 | 客户Logo的Url列表 |
 | CustomerPersonSysNo | string | 否 | 客户老板系统编码 |
+| CustomerUserSysNo | string | 否 | 客户老板用户系统编码 |
 | CustomerPersonFileUrlList | array string | 否 | 客户老板头像 |
 | CustomerPersonFileUrlList | array string | 否 | 客户老板头像 |
 | CustomerPCDCode | string | 否 | 客户省市区 |
